@@ -1,0 +1,26 @@
+{
+  "name": "basecamp-magento-2-grunt",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "description": "ERROR: No README data found!",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Basecamp-Web/magento2-complimentary.git"
+  },
+  "author": "Sam Brown",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Basecamp-Web/magento2-complimentary/issues"
+  }
+}
