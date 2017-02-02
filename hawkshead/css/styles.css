@@ -1,0 +1,191 @@
+/* Generic stuff that can be used on any/every CMS page */
+/* Homepage Specific Styles */
+/* Initial Dump from existing CSS... needs refactoring */
+/* Homepage */
+.flexslider {
+  position: relative;
+  float: left; }
+
+.flexslider,
+.slides {
+  width: 100%; }
+
+.flexslider p {
+  margin: 0; }
+
+.slides li {
+  display: table !important;
+  width: 100%;
+  height: 100%; }
+
+.sliderfullwidth__container {
+  display: table-cell !important;
+  vertical-align: bottom;
+  top: auto;
+  bottom: 0;
+  margin-bottom: 4%; }
+
+p.sliderheader {
+  margin: 0 0 2%; }
+
+.sliderstrip__desktop {
+  margin: 2% 0 0; }
+
+@media screen and (max-width: 768px) {
+  .sliderstrip__desktop {
+    margin: 0; }
+
+  .catalog-category-view .bannercontainer {
+    display: none; } }
+ul.flex-direction-nav {
+  position: absolute;
+  margin: 0;
+  z-index: 100;
+  width: 100%;
+  height: 63px;
+  bottom: -10%; }
+
+.flex-direction-nav li a {
+  margin: 0;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  text-indent: -9999px;
+  top: -6.6vw; }
+
+.flex-direction-nav li a.flex-prev {
+  background-position: 0 0;
+  left: 3%;
+  background: url(//dm5gggopeleel.cloudfront.net/images/SS16/Sliders/Assets/sliders+arrows-11.png);
+  height: 63px;
+  width: 45px; }
+
+.flex-direction-nav li a.flex-next {
+  background-position: 0;
+  right: 3%;
+  background: url(//dm5gggopeleel.cloudfront.net/images/SS16/Sliders/Assets/sliders+arrows-12.png);
+  height: 63px;
+  width: 45px; }
+
+.flex-control-paging,
+.flex-direction-nav li a.prev,
+.flex-direction-nav li a.next {
+  display: none; }
+
+@media screen and (max-width: 960px) {
+  .slidersubtext {
+    font-size: 18px; } }
+@media screen and (max-width: 770px) {
+  header#header {
+    z-index: 50; }
+
+  #header:after {
+    content: '';
+    display: table; }
+
+  #header-account {
+    margin-top: 40px; }
+
+  .skip-links {
+    overflow: visible; } }
+p.collectionhighlights__hoverstate--header {
+  margin: 9% 0; }
+
+.transparentfullwidth--green .fourblocks__container .fourblocks img {
+  max-width: 100%; }
+
+.containercenter {
+  width: 98%; }
+
+.transparentfullwidth {
+  margin-top: 2%; }
+
+.transparentfullwidth--blue .fourblocks__container {
+  width: 21%;
+  margin-right: 4%; }
+
+.sectionheader {
+  position: relative;
+  top: -.7em; }
+
+.sectiontext {
+  line-height: 1.4; }
+
+.monetateHomeBestsellers {
+  display: block; }
+
+@media screen and (max-width: 768px) {
+  .fourblocks__container:nth-child(2) {
+    margin-right: 0; }
+
+  .sliderfullwidth__container {
+    margin-bottom: 24%; }
+
+  p.sliderheader {
+    font-size: 5vw; }
+
+  p.slidersubtext {
+    font-size: 16px; }
+
+  .newdesktopfooter {
+    display: block; }
+
+  .sectionheader {
+    font-size: 20px; }
+
+  .threeblocks__communitytablet--button {
+    width: 66%; }
+
+  .flex-direction-nav {
+    display: none; } }
+@media screen and (max-width: 660px) {
+  .flex-direction-nav {
+    display: none; }
+
+  .sliderheader,
+  .slidersubtext {
+    padding: 0 5%; } }
+@media screen and (max-width: 550px) {
+  .sliderfullwidth__container {
+    top: 0;
+    bottom: auto;
+    margin-top: 18%;
+    margin-bottom: 0; }
+
+  .sectionheader {
+    margin: 3% 0 !important;
+    top: 0; }
+
+  p.collectionhighlights__hoverstate--header {
+    font-size: 20px;
+    margin: 6% 0; }
+
+  .collectionhighlights__button {
+    font-size: 14px;
+    width: 50%;
+    padding: 7px 0; }
+
+  .sectionheader--orange {
+    display: none; }
+
+  .catalog-category-view .pageintro {
+    display: none; } }
+@media screen and (max-width: 545px) {
+  p.sliderheader {
+    font-size: 6vw; }
+
+  p.slidersubtext {
+    font-size: 14px; } }
+@media screen and (max-width: 480px) {
+  p.slidersubtext {
+    font-size: 12px; } }
+.transparentfullwidth--top {
+  margin-bottom: 2%; }
+
+.transparentfullwidth--bluechristmas {
+  padding-bottom: 2%; }
+
+.transparentfullwidth--red {
+  margin-top: 0; }
+
+/*# sourceMappingURL=styles.css.map */
