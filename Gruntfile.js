@@ -14,7 +14,8 @@ module.exports = function (grunt) {
                 // destination         // source file
                 "regatta/css/styles.css" : "regatta/scss/styles.scss",
                 "outlet/css/styles.css" : "outlet/scss/styles.scss",
-                "craghoppers/css/styles.css" : "craghoppers/scss/styles.scss"
+                "craghoppers/css/styles.css" : "craghoppers/scss/styles.scss",
+                "hawkshead/css/styles.css" : "hawkshead/scss/styles.scss"
             }
         }
     },
