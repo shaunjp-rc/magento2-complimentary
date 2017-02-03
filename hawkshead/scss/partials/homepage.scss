@@ -157,10 +157,6 @@ p.collectionhighlights__hoverstate--header {
 
 @media screen and (max-width: 768px) {
 
-    .fourblocks__container:nth-child(2) {
-        margin-right: 0;
-    }
-
     .sliderfullwidth__container {
         margin-bottom: 24%;
     }
@@ -563,12 +559,12 @@ p.collectionhighlights__hoverstate--header {
 
 }
 .containercenter--favourites{
-    background: none;
-    padding: 0;
+    background: transparent;
 }
 .block__half {
     float: left;
     margin-right: 1%;
+    width: 49%;
 }
 .block__half:nth-child(2) {
     margin-right: 0;
@@ -576,4 +572,7 @@ p.collectionhighlights__hoverstate--header {
 .sectionheader--favourites {
     margin-top: 0;
     color: #2F3051;
+}
+.homecont a {
+    text-decoration: none;
 }
