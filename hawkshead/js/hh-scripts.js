@@ -1,17 +1,15 @@
-var $j = jQuery.noConflict();
-
-$j(document).ready(function($) {
+$(document).ready(function($) {
 
 // Flexslider init
-  if ($j('.flexslider').length) {
+  if ($('.flexslider').length) {
     setTimeout(function(){
-          $j('.flexslider').flexslider();
+          $('.flexslider').flexslider();
         }, 500);
   }
 
 
-  jQuery(".icon-plus.expand").click(function() {
-  jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+  $(".icon-plus.expand").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
 
