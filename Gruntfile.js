@@ -13,6 +13,7 @@ module.exports = function (grunt) {
             files: {
                 // destination         // source file
                 "regatta/css/styles.css" : "regatta/scss/styles.scss",
+                "dare2b/css/styles.css" : "dare2b/scss/styles.scss",
                 "outlet/css/styles.css" : "outlet/scss/styles.scss",
                 "craghoppers/css/styles.css" : "craghoppers/scss/styles.scss",
                 "hawkshead/css/styles.css" : "hawkshead/scss/styles.scss"
