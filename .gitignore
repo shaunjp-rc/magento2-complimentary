@@ -49,3 +49,5 @@ jspm_packages
 Extras
 .sass-cache
 .git
+._.DS_Store
+.DS_Store
