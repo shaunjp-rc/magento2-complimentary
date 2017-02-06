@@ -479,6 +479,13 @@ p.collectionhighlights__hoverstate--header {
 .sectionheader--green {
   color: #AEC483; }
 
+.sectionbutton--green {
+  background: #AEC483;
+  color: white;
+  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+  border: 1px solid #AEC483;
+  min-width: 285px; }
+
 @media only screen and (max-width: 740px) {
   .containercenter {
     width: 100%;
@@ -500,9 +507,41 @@ p.collectionhighlights__hoverstate--header {
     margin-right: 0; }
 
   .transparentfullwidth--blue .fourblocks__container {
-    margin-right: 4%; }
+    margin-right: 4%;
+    width: 22%; }
 
   .transparentfullwidth--blue .fourblocks__container:nth-child(4) {
+    margin-right: 0; }
+
+  .sectionbutton--white {
+    min-width: 235px; }
+
+  .sectionbutton--green {
+    min-width: 280px; } }
+@media only screen and (max-width: 650px) {
+  .transparentfullwidth--blue .fourblocks__container {
+    width: 47%;
+    margin-bottom: 0; }
+
+  .fourblocks__container:nth-child(2) {
     margin-right: 0; } }
+@media only screen and (max-width: 400px) {
+  .fourblocks__social {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 5%; }
+
+  .transparentfullwidth--blue .fourblocks__container {
+    width: 100%;
+    margin-bottom: 0;
+    margin-right: 0; }
+
+  .fourblocks__text {
+    margin-top: 2%;
+    margin-bottom: 2%; }
+
+  .sectionheader {
+    font-size: 6.2vw; } }
 
 /*# sourceMappingURL=styles.css.map */
