@@ -368,5 +368,32 @@
 
 /* Partials */
 /* Singles */
+#homepage section img {
+  width: 100%; }
+#homepage .flex-container {
+  margin: 0px; }
+#homepage .flex-item {
+  padding: 5px; }
+#homepage .one.flex-item.col-9 {
+  width: 71.4%; }
+#homepage .two.flex-item.col-3 {
+  width: 25.6%; }
+#homepage .six .flex-item.col-6 {
+  padding: 5px; }
+#homepage .flex-item, #homepage .swiper-slide {
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+#homepage .tabs > li {
+  text-align: center;
+  color: #ffffff;
+  line-height: 40px; }
+#homepage .action-tabs .tabs *[data-action="tab"] {
+  background: #444444; }
+#homepage .action-tabs .tabs *[data-action="tab"].active {
+  background: #222222; }
+#homepage .action-tabs .tabs *[data-action="tab"]:hover {
+  background: #0080c5; }
 
 /*# sourceMappingURL=styles.css.map */
