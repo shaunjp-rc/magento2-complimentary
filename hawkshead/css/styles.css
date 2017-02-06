@@ -476,4 +476,33 @@ p.collectionhighlights__hoverstate--header {
 .homecont a {
   text-decoration: none; }
 
+.sectionheader--green {
+  color: #AEC483; }
+
+@media only screen and (max-width: 740px) {
+  .containercenter {
+    width: 100%;
+    padding: 1%; }
+
+  .fourblocks__container {
+    width: 49%;
+    margin-right: 2%; }
+
+  .fourblocks__container:nth-child(2) {
+    margin-right: 0; }
+
+  .block__half {
+    margin-right: 0%;
+    width: 100%;
+    padding: 1%; }
+
+  .fourblocks__container:nth-child(6) {
+    margin-right: 0; }
+
+  .transparentfullwidth--blue .fourblocks__container {
+    margin-right: 4%; }
+
+  .transparentfullwidth--blue .fourblocks__container:nth-child(4) {
+    margin-right: 0; } }
+
 /*# sourceMappingURL=styles.css.map */
