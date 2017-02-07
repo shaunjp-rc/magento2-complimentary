@@ -227,4 +227,14 @@
 .overlay-banner img{width: 100%;}
 .overlay-banner .overlay-text{position: absolute; top: 0; bottom:0; width: 100%; margin: auto; text-align: center; display: table;}
 
+/****************************
+/* Parallax Styles
+/***************************/
 
+.action-parallax{
+    padding: 15% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
