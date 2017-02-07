@@ -366,6 +366,16 @@
   text-align: center;
   display: table; }
 
+/****************************
+/* Parallax Styles
+/***************************/
+.action-parallax {
+  padding: 15% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /* Partials */
 /* Singles */
 #homepage section img {
