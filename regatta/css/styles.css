@@ -394,6 +394,81 @@
     margin: 0 auto;
     padding: 10px; } }
 /* Partials */
+/*//////////////////////////
+/* Fabrics Page
+/*/
+.cms-fabrics .action-parallax {
+  padding: 10% 0;
+  margin-bottom: 30px; }
+
+.cms-fabrics .action-parallax h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 4vw;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.2); }
+
+#fabric-technologies {
+  margin-bottom: 60px; }
+
+#fabric-technologies h2,
+#footwear-tech h2 {
+  text-align: center;
+  font-size: 32px; }
+
+#fabric-technologies select,
+#footwear-tech select {
+  margin: 10px auto 30px;
+  max-width: 400px;
+  display: block;
+  width: 100%; }
+
+#fabric-info > div,
+#footwear-info > div {
+  background: #eee;
+  padding: 20px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px 0;
+  display: none; }
+
+#fabric-info > div.active,
+#footwear-info > div.active {
+  display: block; }
+
+#fabric-info > div img,
+#footwear-info > div .foot-image {
+  float: left;
+  width: 50%;
+  max-width: 400px;
+  margin-right: 20px; }
+
+#footwear-info .foot-contents {
+  float: right;
+  width: 40%; }
+
+#fabric-info > div p,
+#footwear-info > div p {
+  font-size: 14px; }
+
+#fabric-info > div:after,
+#footwear-info > div:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.cms-fabrics .o-region__inner.main {
+  width: 100%; }
+
+@media screen and (max-width: 989px) {
+  #footwear-info > div .foot-image {
+    float: none;
+    width: 100%; }
+
+  #footwear-info .foot-contents {
+    float: none;
+    width: 100%; } }
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */
