@@ -1,10 +1,9 @@
 #homepage{
   section img{width:100%;}
   .flex-container{margin: 0px;}
-  .flex-item { padding: 5px;}
+  .flex-container .flex-item { padding: 0px;}
   .one.flex-item.col-9 {    width: 71.4%;}
   .two.flex-item.col-3 {    width: 25.6%;}
-  .six .flex-item.col-6{padding: 5px;}
   .flex-item, .swiper-slide{    border: 3px solid #ffffff;    box-sizing: border-box;    -moz-box-sizing: border-box;    -webkit-box-sizing: border-box;}
   .tabs > li{text-align: center; color: #ffffff; line-height: 40px;}
   .action-tabs .tabs *[data-action="tab"]{background: #444444;}

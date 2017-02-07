@@ -382,14 +382,12 @@
   width: 100%; }
 #homepage .flex-container {
   margin: 0px; }
-#homepage .flex-item {
-  padding: 5px; }
+#homepage .flex-container .flex-item {
+  padding: 0px; }
 #homepage .one.flex-item.col-9 {
   width: 71.4%; }
 #homepage .two.flex-item.col-3 {
   width: 25.6%; }
-#homepage .six .flex-item.col-6 {
-  padding: 5px; }
 #homepage .flex-item, #homepage .swiper-slide {
   border: 3px solid #ffffff;
   box-sizing: border-box;
