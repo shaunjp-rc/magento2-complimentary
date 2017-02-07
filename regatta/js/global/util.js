@@ -70,3 +70,24 @@ function rlTabs(){
     }
   });
 }
+
+/*////////// Select Behaviour //////////*/
+
+function rlSelect(){
+  var nodeList = document.body.querySelectorAll("[data-action='select']");
+  var nodes = Array.prototype.slice.call(nodeList,0);
+  nodes.forEach(function(node){
+    node.addEventListener('change', function(){
+      var selected = this.value;
+      var target = this.getAttribute('data-target');
+      target = document.body.querySelector(target);
+      
+      // Hide current active
+      target.querySelector('.active').classList.remove('active');
+
+      // Show new active
+      var option = target.querySelector('[data-value=' + selected +']');
+      option.classList.add('active');
+    });
+  });
+}
