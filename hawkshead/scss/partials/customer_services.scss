@@ -4,13 +4,30 @@
 	width: 100%;
 	background-color: #c9c6bc;
 }
-.cs__helpcontainer{
-	float:left;
-	width:100%;
-}
 .deliveryoptions__img{
-	float:left;
+	padding-right:1%
 }
 .cs__helpcontainer--inner{
 	padding:1% 0;
+	display: flex;
 }
+.redeye-form input,
+.redeye-form select,
+.redeye-form textarea {
+    width: 100%;
+}
+.newsletter label {
+    min-width: 135px;
+    float: left;
+} 
+.newsletter input[type=checkbox] {
+    width: auto;
+}
+.helpmenulinks {
+    display: inline-block;
+    padding: 0.5%;
+}
+.helpmenulinks h2 {
+    margin-bottom: 0;
+}
+ 
