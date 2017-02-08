@@ -10,3 +10,11 @@
   .action-tabs .tabs *[data-action="tab"].active{background: #222222;}
   .action-tabs .tabs *[data-action="tab"]:hover {background: #0080c5;}
 }
+
+@media only screen and (max-width: 740px) {
+  #homepage{
+    .flex-item.col-6 {        width: 50%;    }
+    .flex-item.col-12 {    padding: 0;}
+  }
+
+}
