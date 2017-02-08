@@ -376,6 +376,31 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+.action-parallax h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 4vw;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.2); }
+
+/****************************
+/* Wrapper Styles
+/***************************/
+.content-wrapper {
+  max-width: 1228px;
+  margin: 0 auto;
+  width: 100%; }
+
+@media screen and (max-width: 1227px) {
+  .content-wrapper {
+    max-width: 990px;
+    margin: 0 auto; } }
+@media screen and (max-width: 989px) {
+  .content-wrapper {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 10px; } }
 /* Partials */
 /* Singles */
 #homepage section img {
