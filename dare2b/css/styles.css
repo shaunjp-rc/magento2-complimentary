@@ -429,4 +429,10 @@
 #homepage .action-tabs .tabs *[data-action="tab"]:hover {
   background: #0080c5; }
 
+@media only screen and (max-width: 740px) {
+  #homepage .flex-item.col-6 {
+    width: 50%; }
+  #homepage .flex-item.col-12 {
+    padding: 0; } }
+
 /*# sourceMappingURL=styles.css.map */
