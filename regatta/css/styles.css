@@ -518,6 +518,32 @@
   text-decoration: none;
   max-width: 400px; }
 
+/*//////////////////////////
+/* Tents Guide Page
+/*/
+#tent-buying-guide .overlay-banner, #tent-buying-guide .tent-img {
+  margin-bottom: -7px; }
+
+.tents-intro {
+  background: #eee;
+  padding: 20px; }
+
+#tent-buying-guide .flex-container {
+  margin: 0; }
+
+#tent-buying-guide .flex-container > div {
+  padding: 20px; }
+
+#tent-buying-guide .flex-container .col-4 {
+  background: #333;
+  color: #fff; }
+
+#tent-buying-guide .flex-container .col-4 h3 {
+  color: #fff; }
+
+#tent-buying-guide .flex-container .col-8 {
+  background: #eee; }
+
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */
