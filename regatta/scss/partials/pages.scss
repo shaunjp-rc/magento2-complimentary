@@ -88,3 +88,17 @@
 .overlay-banner .overlay-text span{display: block; color: #fff; font-size: 2.8vw !important; text-shadow: 2px 4px 6px rgba(0,0,0,0.7);}
 #about-us > p{text-align: center; max-width: 900px; margin: 12px auto}
 #about-us > p strong{font-size: 20px;}
+
+/*//////////////////////////
+/* Garment Care Page
+/*////////////////////////*/
+
+.cms-garment-care .o-region__inner.main{
+  width: 100%
+}
+
+#garment-care .action-parallax{
+  padding: 10% 0;
+  margin-bottom: 40px;
+  box-shadow: inset -5px -5px 10px rgba(0,0,0,0.5);
+}
