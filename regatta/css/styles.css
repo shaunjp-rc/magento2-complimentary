@@ -544,6 +544,21 @@
 #tent-buying-guide .flex-container .col-8 {
   background: #eee; }
 
+/*//////////////////////////
+/* Boots Guide Page
+/*/
+#boots-buying-guide .arrow-button {
+  text-decoration: none;
+  margin-top: 40px;
+  display: block;
+  max-width: 260px; }
+
+#boots-buying-guide .flex-item {
+  padding: 20px;
+  background: #eee;
+  margin: 10px 0;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); }
+
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */
