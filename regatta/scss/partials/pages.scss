@@ -102,3 +102,19 @@
   margin-bottom: 40px;
   box-shadow: inset -5px -5px 10px rgba(0,0,0,0.5);
 }
+
+/*//////////////////////////
+/* Jackets Guide Page
+/*////////////////////////*/
+
+#jackets-buying-guide .flex-container > div{
+  padding: 20px;
+  border-bottom: 1px solid #ddd
+}
+
+#jackets-buying-guide .flex-container > div .arrow-button{
+  display: block;
+  margin: 12px 0;
+  text-decoration: none;
+  max-width: 400px;
+}
