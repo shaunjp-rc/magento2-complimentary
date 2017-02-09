@@ -26,8 +26,34 @@
 .helpmenulinks {
     display: inline-block;
     padding: 0.5%;
-}
+} 
 .helpmenulinks h2 {
     margin-bottom: 0;
 }
- 
+.cs__helpcontainer--collectplus,
+.collectplus__section{
+    display: flex;
+}
+.helpheader {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+}
+.helpheader--mainheader {
+    font-size: 22px;
+    font-weight: bold;
+}
+.cms-terms h3, .cms-terms h4 {
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:740px){
+    .deliveryoptions__img,
+    .collectplus__section img {
+        display: none;
+    }
+    .cs__helpcontainer--inner {
+        display: block;
+    }
+} 
