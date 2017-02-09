@@ -576,4 +576,122 @@ p.collectionhighlights__hoverstate--header {
 .helpmenulinks h2 {
   margin-bottom: 0; }
 
+.cs__helpcontainer--collectplus,
+.collectplus__section {
+  display: flex; }
+
+.helpheader {
+  float: left;
+  width: 100%;
+  font-size: 16px; }
+
+.helpheader--mainheader {
+  font-size: 22px;
+  font-weight: bold; }
+
+.cms-terms h3,
+.cms-terms h4 {
+  font-weight: bold; }
+
+.regattaheader {
+  margin-top: 2%; }
+
+.regattadesktop {
+  display: block; }
+
+.regattatablet {
+  display: none; }
+
+#footsize {
+  float: left;
+  width: 17%;
+  margin: 10px 5px;
+  padding: 10px 10px 10px 34px;
+  border: solid 1px grey;
+  text-align: center; }
+
+#cragsize {
+  float: left;
+  width: 17%;
+  margin: 10px 5px;
+  padding: 10px 10px 10px 32px;
+  border: solid 1px grey;
+  text-align: center; }
+
+#regsize {
+  float: left;
+  width: 17%;
+  margin: 10px 5px;
+  padding: 10px 10px 10px 45px;
+  border: solid 1px grey;
+  text-align: center; }
+
+#daresize {
+  float: left;
+  width: 17%;
+  margin: 10px 5px;
+  padding: 10px 10px 10px 48px;
+  border: solid 1px grey;
+  text-align: center; }
+
+.datatable {
+  border: 1px solid #e1e6e9;
+  border-collapse: collapse;
+  width: 100%; }
+
+.datatable td {
+  border: 1px solid #c1d62f;
+  background-color: #FFFFFF;
+  padding: 4px;
+  width: 65px;
+  text-align: center; }
+
+.datatable th {
+  border: 1px solid #c1d62f;
+  background-color: #c1d62f;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 4px; }
+
+.jobs {
+  display: block;
+  cursor: pointer;
+  float: left; }
+
+@media only screen and (max-width: 1024px) {
+  .regattadesktop {
+    display: none; }
+
+  .regattatablet {
+    display: block;
+    width: 97%; } }
+@media screen and (max-width: 875px) {
+  #cragsize {
+    width: 18%; } }
+@media screen and (max-width: 828px) {
+  #footsize {
+    width: 16%;
+    padding: 10px; }
+
+  #cragsize {
+    width: 19%;
+    padding: 10px; }
+
+  #regsize {
+    padding: 10px; }
+
+  #daresize {
+    padding: 10px; }
+
+  .jobs {
+    float: none;
+    text-align: center; } }
+@media only screen and (max-width: 740px) {
+  .deliveryoptions__img,
+  .collectplus__section img {
+    display: none; }
+
+  .cs__helpcontainer--inner {
+    display: block; } }
+
 /*# sourceMappingURL=styles.css.map */
