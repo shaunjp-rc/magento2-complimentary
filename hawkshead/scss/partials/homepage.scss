@@ -363,7 +363,15 @@ p.collectionhighlights__hoverstate--header {
     min-width: 285px;
 }
 
+.fourblocks--brands {
+    width: 60%;
+    float: none;
+    margin: 0 auto;
+}
 
+
+
+/* Homepage Media Queries Start */
 @media screen and (max-width: 960px) {
 
     .slidersubtext {
@@ -507,6 +515,10 @@ p.collectionhighlights__hoverstate--header {
   .sectionbutton--green {
     min-width: 280px;
   }
+  .fourblocks--brands img {
+    margin: 0 auto;
+  }
+
 }
 
 @media screen and (max-width: 660px) {
