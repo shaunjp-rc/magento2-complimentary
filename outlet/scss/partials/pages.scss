@@ -1,0 +1,24 @@
+/*//////////////////////////*/
+/*Jackets Buying Guide      */
+/*//////////////////////////*/
+
+#wp-jacket-guide .flex-item a {
+	text-decoration: none;
+	color: #fff;
+	margin: 20px;
+	display: block
+}
+#wp-jacket-guide .flex-container {
+	margin: 50px 0;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 40px;
+}
+#wp-jacket-guide .col-9 {
+	padding: 0 30px;
+}
+@media screen and (max-width:990px) {
+	#wp-jacket-guide .flex-item img {
+		display: none;
+	}
+}
+
