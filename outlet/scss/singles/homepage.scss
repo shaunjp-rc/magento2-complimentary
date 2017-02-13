@@ -1,0 +1,11 @@
+#homepage {
+  .flex-item {
+    border: solid 3px #ffffff;
+  }
+  .flex-container .flex-item {
+    padding: 0px;
+  }
+  img {
+    width: 100%;
+  }
+}
