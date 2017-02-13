@@ -91,3 +91,16 @@ function rlSelect(){
     });
   });
 }
+
+/*////////// Toggle Active Behaviour //////////*/
+
+function rlToggleClass(){
+	var nodeList = document.body.querySelectorAll("[data-action='toggle-class']");
+	var nodes = Array.prototype.slice.call(nodeList,0);
+	nodes.forEach(function(node){
+		node.addEventListener('click', function(){
+			this.classList.toggle('active');
+		});	
+	});
+}
+
