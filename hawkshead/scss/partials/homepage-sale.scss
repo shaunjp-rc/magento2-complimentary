@@ -1,64 +1,74 @@
-.fourblocks--bg{
+.fourblocks--bg {
   padding-top: 58%;
   background-repeat: no-repeat;
   padding-bottom: 6%;
   background-size: contain;
 }
+
 .fourblocks__container--first {
   margin-left: 12%;
 }
-.fourblocks--womens{
+
+.fourblocks--womens {
   background-image: url('//dm5gggopeleel.cloudfront.net/images/AW16/Artboard+4-100.jpg');
 }
-.fourblocks--mens{
+
+.fourblocks--mens {
   background-image: url('//dm5gggopeleel.cloudfront.net/images/AW16/Artboard+5-100.jpg');
 }
-.fourblocks--kids{
+
+.fourblocks--kids {
   background-image: url('//dm5gggopeleel.cloudfront.net/images/AW16/Artboard+6-100.jpg');
 }
-.fourblocks--footwear{
+
+.fourblocks--footwear {
   background-image: url('//dm5gggopeleel.cloudfront.net/images/AW16/Artboard+7-100.jpg');
 }
-.fourblocks__button--clearance{
+
+.fourblocks__button--clearance {
   background-color: #191919;
   width: 99%;
 }
+
 p.blockimgtext {
-    color: #fff;
-    font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 1px;
-    line-height: 1.1;
-    text-shadow: #000 0px 0px 18px;
+  color: #fff;
+  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  text-shadow: #000 0px 0px 18px;
 }
-p.blockimgtext--bold{
+
+p.blockimgtext--bold {
   font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
   font-size: 32px;
 }
 
-@media only screen and (max-width: 1180px){
+@media only screen and (max-width:1180px) {
   p.blockimgtext {
     font-size: 2vw;
   }
+
   p.blockimgtext--bold {
     font-size: 2.9vw;
   }
 
-
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width:768px) {
   .fourblocks--bg {
-      padding-top: 59%;
-      padding-bottom: 8%;
-      background-size: contain;
+    padding-top: 59%;
+    padding-bottom: 8%;
+    background-size: contain;
   }
+
   p.blockimgtext {
     font-size: 3.5vw;
   }
+
   p.blockimgtext--bold {
     font-size: 5vw;
   }
@@ -70,45 +80,53 @@ p.blockimgtext--bold{
 }
 
 .sliderheader--sale {
-    font-size: 4vw;
-}
-.slidersubtext--sale {
-    font-size: 25px;
-    letter-spacing: 2px;
-}
-.sliderbutton--sale-slider {
-    border: 2px solid #fff;
-    width: 17%;
-    margin-right: 0.5%;
-    padding: 8px;
+  font-size: 4vw;
 }
 
-@media only screen and (max-width: 1015px){
-  .slidersubtext--sale{
+.slidersubtext--sale {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.sliderbutton--sale-slider {
+  border: 2px solid #fff;
+  width: 17%;
+  margin-right: 0.5%;
+  padding: 8px;
+}
+
+@media only screen and (max-width:1015px) {
+  .slidersubtext--sale {
     font-size: 2.5vw
   }
+
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width:768px) {
   p.sliderheader.sliderheader--sale {
     font-size: 6vw;
   }
-  .slidersubtext--sale{
+
+  .slidersubtext--sale {
     font-size: 2vw
   }
+
   p.slidersubtext.slidersubtext--second.slidersubtext--sale {
-      font-size: 18px;
+    font-size: 18px;
   }
+
   .sliderbutton--sale-slider {
-      margin: 10px 0.5% 10px 0;
-      min-width: 150px;
-      font-size: 2.2vw;
+    margin: 10px 0.5% 10px 0;
+    min-width: 150px;
+    font-size: 2.2vw;
   }
+
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width:550px) {
   .sliderbutton.sliderbutton--sale-slider {
-      width: 50%;
-      margin: 5px 0;
+    width: 50%;
+    margin: 5px 0;
   }
+
 }
