@@ -1,17 +1,17 @@
 /* Customer Services Styles */
 .helpnav {
-	float: left;
-	width: 100%;
-	background-color: #c9c6bc;
+    float: left;
+    width: 100%;
+    background-color: #c9c6bc;
 }
 
 .deliveryoptions__img {
-	padding-right:1%
+    padding-right: 1%
 }
 
 .cs__helpcontainer--inner {
-	padding:1% 0;
-	display: flex;
+    padding: 1% 0;
+    display: flex;
 }
 
 .redeye-form input,
@@ -23,7 +23,7 @@
 .newsletter label {
     min-width: 135px;
     float: left;
-} 
+}
 
 .newsletter input[type=checkbox] {
     width: auto;
@@ -32,7 +32,7 @@
 .helpmenulinks {
     display: inline-block;
     padding: 0.5%;
-} 
+}
 
 .helpmenulinks h2 {
     margin-bottom: 0;
@@ -72,39 +72,39 @@
 }
 
 #footsize {
-    float:left;
-    width:17%; 
-    margin:10px 5px; 
-    padding:10px 10px 10px 34px; 
-    border:solid 1px grey; 
-    text-align:center;
+    float: left;
+    width: 17%;
+    margin: 10px 5px;
+    padding: 10px 10px 10px 34px;
+    border: solid 1px grey;
+    text-align: center;
 }
 
 #cragsize {
-    float:left; 
-    width:17%; 
-    margin:10px 5px; 
-    padding:10px 10px 10px 32px; 
-    border:solid 1px grey; 
-    text-align:center;
+    float: left;
+    width: 17%;
+    margin: 10px 5px;
+    padding: 10px 10px 10px 32px;
+    border: solid 1px grey;
+    text-align: center;
 }
 
 #regsize {
-    float:left; 
-    width:17%; 
-    margin:10px 5px; 
-    padding:10px 10px 10px 45px; 
-    border:solid 1px grey; 
-    text-align:center;
+    float: left;
+    width: 17%;
+    margin: 10px 5px;
+    padding: 10px 10px 10px 45px;
+    border: solid 1px grey;
+    text-align: center;
 }
 
 #daresize {
-    float:left; 
-    width:17%; 
-    margin:10px 5px; 
-    padding:10px 10px 10px 48px;
-    border:solid 1px grey; 
-    text-align:center;
+    float: left;
+    width: 17%;
+    margin: 10px 5px;
+    padding: 10px 10px 10px 48px;
+    border: solid 1px grey;
+    text-align: center;
 }
 
 .datatable {
@@ -131,49 +131,46 @@
 
 .jobs {
     display: block;
-    cursor:pointer;
-    float:left; 
+    cursor: pointer;
+    float: left;
 }
 
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (max-width:1024px) {
     .regattadesktop {
         display: none;
     }
 
     .regattatablet {
-        display: block; 
-        width:97%;
+        display: block;
+        width: 97%;
     }
 
 }
 
-@media screen and (max-width: 875px) {
-
+@media screen and (max-width:875px) {
     #cragsize {
-        width:18%;
+        width: 18%;
     }
 
 }
 
-@media screen and (max-width: 828px) {
-
+@media screen and (max-width:828px) {
     #footsize {
-        width:16%;
-        padding:10px;
+        width: 16%;
+        padding: 10px;
     }
 
     #cragsize {
-        width:19%;
-        padding:10px;
+        width: 19%;
+        padding: 10px;
     }
 
     #regsize {
-        padding:10px;
+        padding: 10px;
     }
 
     #daresize {
-        padding:10px;
+        padding: 10px;
     }
 
     .jobs {
@@ -184,7 +181,6 @@
 }
 
 @media only screen and (max-width:740px) {
-
     .deliveryoptions__img,
     .collectplus__section img {
         display: none;
@@ -193,5 +189,5 @@
     .cs__helpcontainer--inner {
         display: block;
     }
-    
-} 
+
+}

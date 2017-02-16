@@ -702,5 +702,17 @@ p.collectionhighlights__hoverstate--header {
 
   .cs__helpcontainer--inner {
     display: block; } }
+.collection img {
+  float: left;
+  width: 100%; }
+
+.collection__highlight {
+  display: flex;
+  width: 100%; }
+
+.collection__highlight--info,
+.collection__product-img {
+  float: left;
+  width: 50%; }
 
 /*# sourceMappingURL=styles.css.map */
