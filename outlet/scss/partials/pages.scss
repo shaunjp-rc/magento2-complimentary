@@ -22,3 +22,64 @@
 	}
 }
 
+/*//////////////////////////*/
+/* Fabrics Page             */
+/*//////////////////////////*/
+
+#ourfabrics {
+	.flex-item.col-3 {
+		display: block;
+	}
+	.iconElementContent {
+		display: none;
+	}
+	.flex-item.col-3.active {
+		width: 100%;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: white;
+		padding: 10%;
+		text-align: center;
+	}
+	.flex-item.col-3.active::before {
+		content: "Close";
+		position: absolute;
+		background: #f9f9f9;
+		top: 10px;
+		right: 10px;
+		padding: 20px 12px;
+		border-radius: 100%;
+		border: solid 1px #e2e2e2;
+		box-shadow: 0px 10px 20px -5px #E4E4E7;
+	}
+	.flex-item.col-3.active  .iconElementContent {
+		display: block;
+	}
+}
+@media only screen and (max-width:500px) {
+	#ourfabrics {
+		.flex-item.col-3 img {
+			width: 100%;
+			max-width: 210px;
+		}
+		.flex-item.col-3.active {
+			top: 65px;
+			padding: 5%;
+		}
+		.flex-item.col-3.active::before {
+			padding: 14px 10px;
+		}
+		.flex-item.col-3 {
+			width: 48%;
+			border: solid 1px #e8e8e8;
+			margin: 0.5%;
+		}
+		.flex-item.col-3.active {
+			border: solid 0px #e8e8e8;
+			margin: 0%;
+		}
+	}
+}
