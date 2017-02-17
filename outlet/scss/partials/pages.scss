@@ -26,7 +26,7 @@
 /* Fabrics Page             */
 /*//////////////////////////*/
 
-#homepage {
+#ourfabrics {
 	.flex-item.col-3 {
 		display: block;
 	}
@@ -60,7 +60,7 @@
 	}
 }
 @media only screen and (max-width:500px) {
-	#homepage {
+	#ourfabrics {
 		.flex-item.col-3 img {
 			width: 100%;
 			max-width: 210px;

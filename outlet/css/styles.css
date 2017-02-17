@@ -529,11 +529,11 @@
 /*//////////////////////////*/
 /* Fabrics Page             */
 /*//////////////////////////*/
-#homepage .flex-item.col-3 {
+#ourfabrics .flex-item.col-3 {
   display: block; }
-#homepage .iconElementContent {
+#ourfabrics .iconElementContent {
   display: none; }
-#homepage .flex-item.col-3.active {
+#ourfabrics .flex-item.col-3.active {
   width: 100%;
   position: fixed;
   top: 0;
@@ -543,7 +543,7 @@
   background: white;
   padding: 10%;
   text-align: center; }
-#homepage .flex-item.col-3.active::before {
+#ourfabrics .flex-item.col-3.active::before {
   content: "Close";
   position: absolute;
   background: #f9f9f9;
@@ -553,23 +553,23 @@
   border-radius: 100%;
   border: solid 1px #e2e2e2;
   box-shadow: 0px 10px 20px -5px #E4E4E7; }
-#homepage .flex-item.col-3.active .iconElementContent {
+#ourfabrics .flex-item.col-3.active .iconElementContent {
   display: block; }
 
 @media only screen and (max-width: 500px) {
-  #homepage .flex-item.col-3 img {
+  #ourfabrics .flex-item.col-3 img {
     width: 100%;
     max-width: 210px; }
-  #homepage .flex-item.col-3.active {
+  #ourfabrics .flex-item.col-3.active {
     top: 65px;
     padding: 5%; }
-  #homepage .flex-item.col-3.active::before {
+  #ourfabrics .flex-item.col-3.active::before {
     padding: 14px 10px; }
-  #homepage .flex-item.col-3 {
+  #ourfabrics .flex-item.col-3 {
     width: 48%;
     border: solid 1px #e8e8e8;
     margin: 0.5%; }
-  #homepage .flex-item.col-3.active {
+  #ourfabrics .flex-item.col-3.active {
     border: solid 0px #e8e8e8;
     margin: 0%; } }
 /* Singles */
