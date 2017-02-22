@@ -702,17 +702,55 @@ p.collectionhighlights__hoverstate--header {
 
   .cs__helpcontainer--inner {
     display: block; } }
+.collection__wrapper {
+  display: inline-block; }
+
+.collection {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  position: relative; }
+
 .collection img {
   float: left;
-  width: 100%; }
-
-.collection__highlight {
-  display: flex;
   width: 100%; }
 
 .collection__highlight--info,
 .collection__product-img {
   float: left;
   width: 50%; }
+
+.collection__background--green {
+  background-color: #a0aa2f; }
+
+section.collection.collection__background h2 {
+  text-align: center;
+  margin: 1% 0; }
+
+.collection.collection--intro {
+  padding: 0; }
+
+.collection--intro p {
+  padding: 10px; }
+
+.collection__button {
+  border: 1px solid;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%; }
+
+.collection__button--white {
+  border-color: #fff;
+  color: #fff; }
+
+.hero__innercontainer {
+  position: absolute;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
