@@ -91,3 +91,153 @@ function rlSelect(){
     });
   });
 }
+
+/*////////// Toggle Active Behaviour //////////*/
+
+function rlToggleClass(){
+	var nodeList = document.body.querySelectorAll("[data-action='toggle-class']");
+	var nodes = Array.prototype.slice.call(nodeList,0);
+	nodes.forEach(function(node){
+		node.addEventListener('click', function(){
+			this.classList.toggle('active');
+		});	
+	});
+}
+
+/*//////////// Countdown Behaviour ////////////*/
+
+function rlClock(container, options){
+	
+	// create clock and append
+	var clock = document.createElement('div');
+  clock.className = options.selector;
+	document.getElementById(container).prepend(clock);
+
+	// create daily clock
+	if(options.daily){
+		
+		var endHour = parseInt(options.ends.split(':')[0]);
+		var endMins = parseInt(options.ends.split(':')[1]);
+		
+		// calculate hours
+		function getHours(){
+			var now = new Date();
+			return now.getHours() >= endHour && now.getMinutes() >= endMins ? (23 - now.getHours() + endHour) : (endHour - now.getHours());
+		} 
+		
+		// calculate minutes
+		function getMins(){
+			var now = new Date();
+			return now.getMinutes() >= endMins ? (59 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
+		}
+		
+		// start the countdown
+		var countdown = setInterval(function(){
+			
+			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
+			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
+			
+			// output HTML
+			document.querySelector('.' + options.selector).innerHTML = hours + mins;
+			
+		},1000);	
+		
+	// create deadline clock	
+	}	else {
+		
+		var endHour = parseInt(options.ends.split(':')[0]);
+		var endMins = parseInt(options.ends.split(':')[1]);
+		
+		// calculate days
+		function getDays(){
+			var now = new Date();
+			var msc = 1000 * 60 * 60 * 24;
+			var diff = Math.abs(options.deadline.getTime() - now.getTime());
+			return (Math.ceil(diff / msc) - 1);
+		} 
+		
+		// calculate hours
+		function getHours(){
+			var now = new Date();
+			return now.getHours() >= endHour ? (24 - now.getHours() + endHour) : (endHour - now.getHours());
+		} 
+		
+		// calculate minutes
+		function getMins(){
+			var now = new Date();
+			return now.getMinutes() >= endMins ? (60 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
+		}
+		
+		// start the countdown
+		var countdown = setInterval(function(){
+			
+			var days = '<span class="clock-days">' + getDays() + '<em> days </em></span>';
+			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
+			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
+			
+			if (getDays() == 0 && getHours() == 0 && getMins() == 0){
+				// output HTML
+				document.querySelector('.' + options.selector).innerHTML= 'Countdown Expired';
+				clearInterval(countdown);
+			} else {
+				// output HTML
+				document.querySelector('.' + options.selector).innerHTML = days + hours + mins;
+			}
+			
+			
+		},1000);	
+		
+	}
+	
+} // end clock
+
+/*//////////// Lightbox Behaviour ////////////*/
+
+function rlPop(options){
+	
+	// add click events for popups
+	var nodeList = document.body.querySelectorAll("[data-action='pop']");
+	var nodes = Array.prototype.slice.call(nodeList, 0);
+	nodes.forEach(function(node){
+		node.addEventListener('click', function(){
+			
+			// show popup
+			var target = this.getAttribute('data-target');
+			target = document.body.querySelector(target);
+			target.classList.toggle('active');
+			
+			// show overlay
+			overlay.classList.add('active');			
+			
+		});
+	});
+	
+	// add click events for popups
+	var crossList = document.body.querySelectorAll("[data-action='pop-close']");
+	var crosses = Array.prototype.slice.call(crossList, 0);
+	crosses.forEach(function(cross){
+		cross.addEventListener('click', function(){
+			var nodeList = document.body.querySelectorAll(".rl-pop");
+			var nodes = Array.prototype.slice.call(nodeList, 0);
+			nodes.forEach(function(node){
+				node.classList.remove('active');
+			});
+			overlay.classList.remove('active');
+		});
+	});
+	
+	// create overlay & click event
+	var overlay = document.createElement('div');
+	overlay.className = "pop-overlay";
+	document.getElementById('body').appendChild(overlay);
+	overlay.addEventListener('click', function(){
+		var nodeList = document.body.querySelectorAll(".rl-pop");
+		var nodes = Array.prototype.slice.call(nodeList, 0);
+		nodes.forEach(function(node){
+			node.classList.remove('active');
+		});
+		overlay.classList.remove('active');
+	});
+	
+	
+} // end rlPop()

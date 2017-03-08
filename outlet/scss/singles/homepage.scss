@@ -1,0 +1,106 @@
+#homepage {
+	.flex-item {
+		border: solid 3px #ffffff;
+	}
+	.flex-container .flex-item {
+		padding: 0px;
+	}
+	img {
+		width: 100%;
+	}
+	.two .flex-item {
+		background: #efefef;
+	}
+	.two h3 {
+		padding: 10px 10px;
+		margin: 0;
+	}
+	.two .flex-item .size-block {
+		background: #bd0924;
+		color: #ffffff;
+		width: 24%;
+		display: block;
+		margin: 0.5%;
+		float: left;
+		text-align: center;
+		padding: 16px;
+		font-size: 16px;
+		border-radius: 3px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	.two .size-block-container {
+		padding: 10px 20px 20px 20px;
+		display: inline-block;
+	}
+	.three .flex-container a {
+		background: #bd0924;
+		text-align: center;
+		color: #ffffff;
+		padding: 20px;
+		font-size: 20px;
+	}
+	.four a {
+		color: black;
+		text-decoration: none;
+		text-align: center;
+	}
+	.four h3 {
+		margin: 10px 10px 0px 10px;
+		font-weight: bold;
+	}
+	.four span {
+		text-align: center;
+		width: 90%;
+		display: block;
+		margin: 0px auto 10px auto;
+	}
+	.four .flex-item {
+		position: relative;
+	}
+	.four .arrow-button {
+		position: absolute;
+		bottom: 12vh;
+		top: inherit;
+		left: 0;
+		right: 0;
+		margin: auto;
+		max-width: 150px;
+		font-size: 15px;
+	}
+	.four .arrow-button:hover {
+		top: initial;
+		position: absolute;
+	}
+	.four .flex-item a:hover .arrow-button {
+		bottom: 13vh;
+	}
+	.three .by-price-title > span {
+		position: relative;
+		top: -16px;
+		background: #ffffff;
+		padding: 0px 20px;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	.three .by-price-title {
+		border-top: solid 1px #000000;
+		height: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.flex-item a {
+		text-decoration: none;
+	}
+}
+@media only screen and (max-width:768px) {
+	#homepage {
+		.flex-item.col-2 {
+			width: 50%;
+		}
+		.four .arrow-button {
+			top: 32vh;
+			bottom: initial;
+		}
+	}
+}
