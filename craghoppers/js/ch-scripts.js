@@ -2,6 +2,8 @@
 	Craghoppers specific JS snippets
  */
 
+requirejs(['jquery'], function( $ ) {
+
 
 var $j = jQuery.noConflict();
 
@@ -232,5 +234,7 @@ $j(document).ready(function($) {
   });
   /* END */
   
+
+});
 
 });

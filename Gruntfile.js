@@ -16,6 +16,7 @@ module.exports = function (grunt) {
                 "dare2b/css/styles.css" : "dare2b/scss/styles.scss",
                 "outlet/css/styles.css" : "outlet/scss/styles.scss",
                 "craghoppers/css/styles.css" : "craghoppers/scss/styles.scss",
+                "craghoppers/css/styles-us.css" : "craghoppers/scss/styles-us.scss",
                 "hawkshead/css/styles.css" : "hawkshead/scss/styles.scss"
             }
         }

@@ -1,0 +1,101 @@
+.actions {
+   display: none;
+}
+
+.minusone,
+.plusone {
+   font-size: 22px;
+   display: inline-block;
+   padding: 0;
+   border: 1px #000 solid;
+   line-height: 36px;
+   width: 36px;
+   height: 36px;
+   text-align: center;
+   cursor: pointer;
+   float: left;
+}
+
+#qty {
+   display: inline-block;
+   padding: 0;
+   border: 1px #000 solid;
+   line-height: 36px;
+   text-align: center;
+   font-size: 14px;
+   vertical-align: top;
+   width: 36px;
+   height: 36px;
+   float: left;
+   margin: 0 6px;
+   border-radius: 0;
+}
+
+.box-related li.item {
+   width: 20%;
+   float: left;
+}
+
+.box-related .item img {
+   width: 100px;
+   height: 100px;
+}
+
+.products-grid .ratings .rating-box {
+   float: left;
+}
+
+.product-name {
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   text-align: left;
+   display: block;
+}
+
+.products-grid .product-name,
+.products-list .product-name {
+   font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   text-transform: uppercase;
+   margin: 0 0 5px;
+   font-weight: bold;
+   font-size: 13px;
+   color: #203548;
+}
+
+p.lhn-show-more-less a {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+a.lhn-show-less-link {
+   display: none;
+}
+
+span.label,
+.skip-cart .count {
+   color: #000;
+}
+
+.account-cart-wrapper {
+   top: 0;
+}
+
+.account-cart-wrapper .skip-account .icon {
+   background-repeat: no-repeat;
+   text-indent: -9999px;
+   background-position: 4px -44px;
+}
+
+div#header-account {
+   top: 25px;
+   left: 68%;
+}
+
+.collection li {
+   list-style-type: disc;
+}
+
+.box-collateral.box-related {
+   float: left;
+   width: 100%;
+}

@@ -1,1 +1,117 @@
 /* Generic stuff that can be used on any/every CMS page */
+.uspBanners {
+	width: 100%;
+	max-width: 1260px;
+	margin: 0 auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uspBanners * {
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.uspBanners__container {
+	float: left;
+	margin: 1% 0;
+	width: 100%;
+}
+
+.uspBanners__banner {
+	display: block;
+	width: 32%;
+	float: left;
+	margin: 0;
+	text-align: center;
+	color: #fff !important;
+	background-color: #ccc;
+	padding: 1% 0;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	border: 3px #ccc solid;
+}
+
+.uspBanners__banner:hover {
+	background: #fff;
+	color: #999 !important;
+}
+
+.uspBanners__banner:nth-child(2) {
+	margin: 0 2%;
+}
+
+@media screen and (min-width:1260px) {
+	.uspBanners {
+		width: 100%;
+	}
+
+	a.uspBanners__banner {
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width:960px) {
+	a.uspBanners__banner {
+		font-size: 11px;
+	}
+
+	.uspBanners__banner {
+		width: 32.667%;
+	}
+
+	.uspBanners__banner:nth-child(2) {
+		margin: 0 1%;
+	}
+
+}
+
+@media screen and (max-width:840px) {
+	.uspBanners__container {
+		float: left;
+		width: 100%;
+		background: #ccc;
+		text-align: center;
+		padding: 1% 0;
+	}
+
+	.uspBanners__banner {
+		display: inline;
+		width: auto;
+		float: none;
+		margin: 0 3%;
+		padding: 0;
+	}
+
+	.uspBanners__banner:last-child {
+		margin: 0 0 0 3%;
+	}
+
+	.uspBanners__banner:hover {
+		text-decoration: underline;
+	}
+
+}
+
+@media screen and (max-width:660px) {
+	.uspBanners__banner {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	.uspBanners__banner:nth-child(2) {
+		margin: 0;
+	}
+
+	.uspBanners__banner:last-child {
+		margin: 0;
+	}
+
+}
