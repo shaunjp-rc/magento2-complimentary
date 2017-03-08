@@ -272,6 +272,59 @@
   .pageTextBlock__text {
     font-size: 1.2em; } }
 /* Section Specific */
+/* Highlights */
+.pageSection--highlights__column {
+  float: left;
+  margin-right: 1%;
+  width: 49.5%; }
+
+@media screen and (max-width: 480px) {
+  .pageSection--highlights__column {
+    float: left;
+    margin: 0;
+    width: 100%; } }
+.pageSection--highlights__column--last {
+  margin-right: 0; }
+
+.pageBanner--highlights {
+  margin-bottom: 2%;
+  width: 100%; }
+
+.bannerOverlay__title--highlights {
+  font-size: 2.4vw;
+  letter-spacing: 3px; }
+
+@media screen and (min-width: 1140px) {
+  .bannerOverlay__title--highlights {
+    font-size: 28px; } }
+@media screen and (max-width: 680px) {
+  .bannerOverlay__title--highlights {
+    font-size: 3vw; } }
+@media screen and (max-width: 560px) {
+  .bannerOverlay__title--highlights {
+    font-size: 1.4em; } }
+@media screen and (max-width: 480px) {
+  .bannerOverlay__title--highlights {
+    font-size: 2em; } }
+.bannerOverlay__subTitle--highlights {
+  font-size: 1.6vw;
+  letter-spacing: 1px; }
+
+@media screen and (min-width: 1140px) {
+  .bannerOverlay__subTitle--highlights {
+    font-size: 20px; } }
+@media screen and (max-width: 980px) {
+  .bannerOverlay__subTitle--highlights {
+    font-size: 1.8vw; } }
+@media screen and (max-width: 840px) {
+  .bannerOverlay__subTitle--highlights {
+    font-size: 2vw; } }
+@media screen and (max-width: 680px) {
+  .bannerOverlay__subTitle--highlights {
+    font-size: 14px; } }
+/* Homepage Specific Styles */
+/* Initial Dump from existing CSS... needs refactoring */
+/* Featured Products */
 /* Slider */
 .flexslider {
   background: #fff;
@@ -300,7 +353,8 @@
 
 /* Direction Nav */
 .flex-direction-nav {
-  z-index: 10; }
+  z-index: 10;
+  height: 0; }
 
 .flex-direction-nav li a {
   width: 56px;
@@ -416,7 +470,8 @@
   font-size: 2.7vw;
   letter-spacing: 4px;
   max-width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: table; }
 
 .bannerOverlay__title--slider span {
   font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -443,6 +498,17 @@
   letter-spacing: 2px;
   padding: .5vw 1vw;
   width: 20%; }
+
+a.bannerOverlay__cta {
+  color: #000;
+  text-decoration: none; }
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: #000; }
 
 @media screen and (min-width: 980px) {
   .bannerOverlay__title--slider {
@@ -489,62 +555,59 @@
 
   .fullWidthSlider__textOverlay--notOnMobile {
     display: none; } }
-/* Highlights */
-.pageSection--highlights__column {
-  float: left;
-  margin-right: 1%;
-  width: 49.5%; }
-
-@media screen and (max-width: 480px) {
-  .pageSection--highlights__column {
-    float: left;
-    margin: 0;
-    width: 100%; } }
-.pageSection--highlights__column--last {
-  margin-right: 0; }
-
-.pageBanner--highlights {
-  margin-bottom: 2%;
-  width: 100%; }
-
-.bannerOverlay__title--highlights {
-  font-size: 2.4vw;
-  letter-spacing: 3px; }
-
-@media screen and (min-width: 1140px) {
-  .bannerOverlay__title--highlights {
-    font-size: 28px; } }
-@media screen and (max-width: 680px) {
-  .bannerOverlay__title--highlights {
-    font-size: 3vw; } }
-@media screen and (max-width: 560px) {
-  .bannerOverlay__title--highlights {
-    font-size: 1.4em; } }
-@media screen and (max-width: 480px) {
-  .bannerOverlay__title--highlights {
-    font-size: 2em; } }
-.bannerOverlay__subTitle--highlights {
-  font-size: 1.6vw;
-  letter-spacing: 1px; }
-
-@media screen and (min-width: 1140px) {
-  .bannerOverlay__subTitle--highlights {
-    font-size: 20px; } }
-@media screen and (max-width: 980px) {
-  .bannerOverlay__subTitle--highlights {
-    font-size: 1.8vw; } }
-@media screen and (max-width: 840px) {
-  .bannerOverlay__subTitle--highlights {
-    font-size: 2vw; } }
-@media screen and (max-width: 680px) {
-  .bannerOverlay__subTitle--highlights {
-    font-size: 14px; } }
-/* Homepage Specific Styles */
-/* Initial Dump from existing CSS... needs refactoring */
-/* Featured Products */
 .pageBanner--featuredProducts {
   width: 25%; }
 
+.deliveryBar {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  background: #e7eff2; }
+
+p.deliveryBar__text {
+  float: left;
+  width: auto;
+  clear: both;
+  margin: 0;
+  font-size: 14px; }
+
+.newsletterbttn {
+  float: right;
+  margin-top: 0.8%; }
+
+.delbarcont {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 0 auto;
+  display: table;
+  max-width: 1228px; }
+
+.deliveryBar__text a {
+  color: #000; }
+
+.delbarInner {
+  float: left; }
+
+@media screen and (max-width: 1227px) {
+  .delbarInner {
+    width: 100%;
+    margin-bottom: 0.5%; }
+
+  p.deliveryBar__text {
+    width: 100%;
+    text-align: center; }
+
+  .newsletterbttn {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 263px;
+    display: table; } }
+@media screen and (max-width: 740px) {
+  section.deliveryBar {
+    float: left;
+    display: block;
+    margin-top: 1%; } }
 @media screen and (max-width: 720px) {
   .pageBanner--featuredProducts {
     width: 50%; } }
@@ -661,16 +724,15 @@
 
 .socialIcons__icon {
   margin-right: 2%;
-  width: 54px;
-  display: inline-block; }
+  width: 54px !important;
+  display: inline-block !important; }
 
 .socialIcons__icon--last {
   margin-right: 0; }
 
 .pageTextBlock--social {
   width: 100%;
-  padding: 0 15vw;
-  float: left; }
+  padding: 0 15vw; }
 
 @media screen and (min-width: 1500px) {
   .pageTextBlock--social {
@@ -773,7 +835,8 @@
   .pageTextBlock__citation {
     margin-top: 6vw; } }
 .pageSection--slider {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  z-index: 1; }
 
 .pageSection--thirds .pageBanner {
   width: 32%;
@@ -869,7 +932,8 @@
 
 ul.fullWidthSlider__slidesList {
   /* need element selector here due to overly specific general style in the theme */
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-left: 0; }
 
 .fullWidthSlider__slidesList--singleSlide .bannerOverlay__contentArea--slider {
   vertical-align: middle;
@@ -902,24 +966,5 @@ ul.fullWidthSlider__slidesList {
 
   .pageSection__title {
     font-size: 14px; } }
-.pageBanner--horizontalCrop {
-  overflow: hidden;
-  position: relative;
-  max-height: 360px; }
-
-.pageBanner--horizontalCrop img {
-  width: auto;
-  position: relative;
-  left: -900px;
-  margin-left: 50%; }
-
-@media screen and (max-width: 540px) {
-  .pageBanner--horizontalCrop img {
-    height: 300px;
-    left: -750px; } }
-@media screen and (max-width: 420px) {
-  .pageBanner--horizontalCrop img {
-    height: 280px;
-    left: -700px; } }
 
 /*# sourceMappingURL=styles.css.map */

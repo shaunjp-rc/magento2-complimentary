@@ -1,0 +1,141 @@
+.ms-megamenu .ms-topmenu {
+   border-bottom: 3px solid #b2b2b2;
+}
+
+.mmcontainer {
+   width: 100%;
+   float: left;
+   padding-bottom: 3%;
+}
+
+.genderheader {
+   background: #6792C8;
+   color: white;
+   font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   text-transform: uppercase;
+   width: 100%;
+   float: left;
+   padding: 10px 0;
+   font-size: 22px;
+   letter-spacing: 2px;
+   margin-bottom: 2%;
+}
+
+.genderheader.mens {
+   background: #2F3051;
+}
+
+.genderheader.womens {
+   background: #FF685D;
+}
+
+.genderheader.kids {
+   background: #9CAC25;
+}
+
+.hhcolumn {
+   width: 23%;
+   float: left;
+}
+
+.hhcolumn.first {
+   padding-left: 2%;
+}
+
+.othercontainer {
+   width: 24%;
+   float: left;
+}
+
+.mmcontainer img {
+   padding-right: 2%;
+   padding-top: 1.4%;
+   padding-bottom: 1.4%;
+}
+
+.genderheader span {
+   padding-left: 3%;
+   color: white !important;
+}
+
+.genderheadtext {
+   font-size: 22px !important;
+}
+
+.ms-megamenu .ms-submenu {
+   padding: 0;
+}
+
+.mensheader {
+   color: #2F3051;
+}
+
+.womensheader {
+   color: #FF685D;
+}
+
+.kidsheader {
+   color: #9CAC25;
+}
+
+.otherheader {
+   font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   text-transform: uppercase;
+   color: #b2b2b2;
+   font-size: 19px;
+   letter-spacing: 1px;
+   line-height: 2 !important;
+}
+
+.phead {
+   text-transform: uppercase;
+   font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 22px;
+   line-height: 1.6 !important;
+   margin-top: 12px;
+   letter-spacing: 2px;
+}
+
+.psubhead {
+   color: #b2b2b2;
+   font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 12px;
+   letter-spacing: 1px;
+   margin-bottom: 6px;
+}
+
+.gendercontainer {
+   width: 15%;
+   float: left;
+}
+
+.gendercontainer.first {
+   padding-left: 2%;
+}
+
+.brandcontainer {
+   width: 42%;
+   float: left;
+   padding-left: 2%;
+   padding-top: 1%;
+}
+
+.brandsubhead {
+   color: #b2b2b2;
+   font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+.genderheader--camping {
+   background: #ffd35e;
+}
+
+.mmimage--camping {
+   float: right;
+}
+
+.gendercontainer--camping {
+   width: auto;
+}

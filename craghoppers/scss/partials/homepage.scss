@@ -4,9 +4,344 @@
 
 /* Featured Products */
 
+
+/* Slider */
+
+.flexslider {background: #fff; /*border-bottom: 9px solid #444; border-top: 9px solid #444;*/ position: relative; }
+.flexslider .slides  li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flexslider-container {position: relative;}
+
+
+/* Caption style */
+.flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: url("../images/trans-03-16px.png") repeat; color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 15px; line-height: 18px;}
+
+/* Direction Nav */
+
+.flex-direction-nav {
+  z-index: 10;
+  height: 0;
+}
+
+.flex-direction-nav li a {
+  width: 56px;
+  height: 55px;
+  display: block;
+  cursor: pointer;
+  text-indent: -9999px;
+  }
+
+.flex-direction-nav li a.flex-next,
+.flex-direction-nav li a.flex-next:hover {
+  background-position: -55px 0;
+}
+
+.flex-direction-nav li a.flex-prev {
+  background-position: 0 0;
+}
+
+/* Control Nav */
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(https://d1khwdv4lze0nb.cloudfront.net/images/SS14/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+.flex-caption{display:none !important;}
+
+.flex-direction-nav li a {
+  background: url(https://d1khwdv4lze0nb.cloudfront.net/images/AW15/UK/Homepage/slidearrows_New3.png) no-repeat;
+}
+
+
+.flex-direction-nav li a:hover{
+  background:url(https://d1khwdv4lze0nb.cloudfront.net/images/AW15/UK/Homepage/SliderArrow_LeftNEW2Hover.png);
+}
+
+.flex-direction-nav li a.flex-next {
+  float: right;
+}
+
+.flex-direction-nav li a.flex-next,
+.flex-direction-nav li a.flex-next:hover{
+  background-position: -55px 0px;
+}
+
+.flex-direction-nav {
+   position: absolute;
+   top: 50%;
+   left: 5%;
+   margin-top: -28px;
+   width: 90%;
+}
+
+@media screen and (max-width: 960px) {
+
+  .flex-direction-nav {
+    left: 3%;
+    width: 94%;
+  }
+}
+
+.flex-direction-nav li {
+   display: inline;
+}
+
+.flex-direction-nav li a {
+   display: inline-block;
+}
+
+.flex-direction-nav li a.flex-next {
+   float: right;
+}
+
+@media screen and (max-width: 800px) {
+
+  .flex-direction-nav {
+    margin-top: -20px;
+  }
+
+  .flex-direction-nav li a {
+    background-size: 200%;
+    width: 41px;
+    height: 40px;
+  }
+
+  .flex-direction-nav li a.flex-prev:hover {
+    background-position: 0 0;
+    background-size: 200%;
+  }
+
+  .flex-direction-nav li a.flex-next,
+  .flex-direction-nav li a.flex-next:hover {
+    background-position: -41px 0;
+    background-size: 200%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .flex-direction-nav {
+    margin-top: -15px;
+  }
+
+  .flex-direction-nav li a {
+    background-size: 200%;
+    width: 31px;
+    height: 30px;
+  }
+
+  .flex-direction-nav li a.flex-prev:hover {
+    background-position: 0 0;
+    background-size: 200%;
+  }
+
+  .flex-direction-nav li a.flex-next,
+  .flex-direction-nav li a.flex-next:hover {
+    background-position: -31px 0;
+    background-size: 200%;
+  }
+}
+
+.flex-control-nav {
+  display: none;
+}
+
+.fullWidthSlider__slidesList .fullWidthSlider__slideContainer {
+  margin-left: 0;
+}
+
+.fullWidthSlider .pageBanner__image {
+   width: 100vw;
+   max-width: 100%;
+}
+
+.bannerOverlay__title--slider {
+   font-size: 2.7vw;
+   letter-spacing: 4px;
+   max-width: 80%;
+   margin: 0 auto;
+   display: table;
+}
+
+.bannerOverlay__title--slider span {
+  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: lowercase;
+  font-size: 2vw;
+  letter-spacing: 0;
+}
+
+.bannerOverlay__subTitle--slider {
+   font-size: 2vw;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-family: 'montserratlight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-weight: 300;
+}
+
+.bannerOverlay__text.bannerOverlay__text--slider {
+  margin: 3vw 1vw 0 0;
+  font-size: 1vw;
+  text-transform: none;
+}
+
+.bannerOverlay__subTitle--slider .sliderCode {
+  background-color: #464372;
+  font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif !important;
+  font-size: 20px !important;
+  letter-spacing: 2px;
+  padding: .5vw 1vw;
+  width: 20%;
+}
+
+a.bannerOverlay__cta {
+    color: #000;
+    text-decoration: none;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: #000;
+}
+
+@media screen and (min-width: 980px) {
+
+  .bannerOverlay__title--slider {
+    font-size: 3vw;
+  }
+
+  .bannerOverlay__title--slider span {
+    font-size: 2.2vw;
+  }
+
+  .bannerOverlay__subTitle--slider {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  .bannerOverlay__title--slider {
+    font-size: 48px;
+  }
+
+  .bannerOverlay__title--slider span {
+    font-size: 32px;
+  }
+
+  .bannerOverlay__subTitle--slider {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+
+  .bannerOverlay__title--slider {
+    font-size: 4.4vw;
+    letter-spacing: 3px;
+  }
+
+  .bannerOverlay__title--slider span {
+    font-size: 3.4vw;
+  }
+
+  .bannerOverlay__subTitle--slider {
+    font-size: 2.8vw;
+    margin-top: 1vw;
+  }
+
+  .bannerOverlay__text--slider {
+    font-size: 14px;
+  }
+
+  .bannerOverlay__contentArea--slider {
+    padding: 0 18%;
+    vertical-align: middle;
+  }
+
+  .bannerOverlay__contentArea--ctaOnly {
+    padding-bottom: 5%;
+  }
+
+  .bannerOverlay__cta--slider {
+    width: 80%;
+  }
+
+  .fullWidthSlider__textOverlay--notOnMobile {
+    display: none;
+  }
+}
+
+
 .pageBanner--featuredProducts {
 	width: 25%;
 }
+
+
+.deliveryBar {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    background: #e7eff2;
+}
+
+p.deliveryBar__text {
+    float: left;
+    width: auto;
+    clear: both;
+    margin: 0;
+    font-size: 14px;
+}
+
+.newsletterbttn {
+    float: right;
+    margin-top: 0.8%;
+}
+
+.delbarcont {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0 auto;
+    display: table;
+    max-width: 1228px;
+}
+
+.deliveryBar__text a {
+    color: #000;
+}
+
+.delbarInner {
+    float: left;
+}
+
+
+@media screen and (max-width: 1227px) {
+  .delbarInner {
+    width: 100%;
+    margin-bottom: 0.5%;
+  }
+  p.deliveryBar__text {
+    width: 100%;
+    text-align: center;
+  }
+  .newsletterbttn {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 263px;
+    display: table;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  section.deliveryBar {
+      float: left;
+      display: block;
+      margin-top: 1%;
+  }
+
+}
+
 
 @media screen and (max-width: 720px) {
 
@@ -174,8 +509,8 @@
 
 .socialIcons__icon {
 	margin-right: 2%;
-	width: 54px;
-	display: inline-block;
+	width: 54px !important;
+  display: inline-block !important;
 }
 
 .socialIcons__icon--last {
@@ -185,7 +520,6 @@
 .pageTextBlock--social {
 	width: 100%;
 	padding: 0 15vw;
-	float: left;
 }
 
 @media screen and (min-width: 1500px) {
@@ -343,6 +677,7 @@
 
 .pageSection--slider {
     margin-bottom: 0;
+    z-index: 1;
 }
 
 .pageSection--thirds .pageBanner {
@@ -471,6 +806,7 @@
 
 ul.fullWidthSlider__slidesList { /* need element selector here due to overly specific general style in the theme */
     margin-bottom: 0;
+    margin-left: 0;
 }
 
 .fullWidthSlider__slidesList--singleSlide .bannerOverlay__contentArea--slider {
@@ -518,34 +854,5 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 
     .pageSection__title {
     	font-size: 14px;
-    }
-}
-
-.pageBanner--horizontalCrop {
-    overflow: hidden;
-    position: relative;
-    max-height: 360px;
-}
-
-.pageBanner--horizontalCrop img {
-    width: auto;
-    position: relative;
-    left: -900px;
-    margin-left: 50%;
-}
-
-@media screen and (max-width: 540px) {
-
-    .pageBanner--horizontalCrop img {
-        height: 300px;
-        left: -750px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-
-    .pageBanner--horizontalCrop img {
-        height: 280px;
-        left: -700px;
     }
 }
