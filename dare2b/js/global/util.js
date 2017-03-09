@@ -241,3 +241,14 @@ function rlPop(options){
 	
 	
 } // end rlPop()
+
+/*//////////// jQuery toggleClass ////////////*/
+// Anything with data-target="toggleNextElement" will toggle a class of the next element. 
+requirejs(['jquery'], function( $ ) {
+
+    $('[data-target="toggleNextElement"]').click(function(){
+      $(this).next('*').toggleClass('toggleSub');
+      $(this).toggleClass("toggleMain");
+    });
+
+});
