@@ -162,7 +162,7 @@
 }
 
 .bannerOverlay__title--slider span {
-  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
   text-transform: lowercase;
   font-size: 2vw;
   letter-spacing: 0;
@@ -172,19 +172,19 @@
    font-size: 2vw;
    text-transform: uppercase;
    letter-spacing: 3px;
-   font-family: 'montserratlight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
    font-weight: 300;
 }
 
 .bannerOverlay__text.bannerOverlay__text--slider {
-  margin: 3vw 1vw 0 0;
+  margin: 3vw 1vw 0 0; 
   font-size: 1vw;
   text-transform: none;
 }
 
 .bannerOverlay__subTitle--slider .sliderCode {
   background-color: #464372;
-  font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif !important;
+
   font-size: 20px !important;
   letter-spacing: 2px;
   padding: .5vw 1vw;
@@ -532,7 +532,7 @@ p.deliveryBar__text {
 
 .pageTextBlock__quote {
 	display: block;
-	font-family: 'montserratlight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 	font-size: 2.4vw;
 	line-height: 1.2;
 	text-align: center;
@@ -562,7 +562,7 @@ p.deliveryBar__text {
 
 .pageTextBlock__citation {
 	display: block;
-	font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
 	font-size: 1.5vw;
 	line-height: 1;
 	margin: 2vw 0;

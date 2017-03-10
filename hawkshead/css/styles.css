@@ -289,7 +289,7 @@ p.collectionhighlights__hoverstate--header {
   font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif; }
 
 .sectionbutton--white:hover {
-  background: #9BB568; }
+  background: rgba(255, 255, 255, 0.5); }
 
 .fourblocks__button--womens {
   background: #FF7F70; }
