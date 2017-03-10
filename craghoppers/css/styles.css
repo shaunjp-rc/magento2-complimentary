@@ -965,4 +965,352 @@ ul.fullWidthSlider__slidesList {
   .pageSection__title {
     font-size: 14px; } }
 
+.pageBanner--horizontalCrop {
+  overflow: hidden;
+  position: relative;
+  max-height: 360px; }
+
+.pageBanner--horizontalCrop img {
+  width: auto;
+  position: relative;
+  left: -900px;
+  margin-left: 50%; }
+
+@media screen and (max-width: 540px) {
+  .pageBanner--horizontalCrop img {
+    height: 300px;
+    left: -750px; } }
+@media screen and (max-width: 420px) {
+  .pageBanner--horizontalCrop img {
+    height: 280px;
+    left: -700px; } }
+/****** Customer Service Styles ******/
+.helppages .helppagesleft {
+  float: left; }
+
+.helppages .helppagesright {
+  width: 86%;
+  padding-left: 2vw;
+  float: right; }
+
+.helppages li {
+  list-style-type: none;
+  padding: 2px; }
+
+.helppages .helppagemenuheadingfirst {
+  border-bottom: 4px solid #cccccc;
+  font-weight: bold;
+  margin-bottom: 15px; }
+
+.helppages .helppagemenuheading {
+  border-bottom: 4px solid #cccccc;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-bottom: 15px; }
+
+.lefthandmenu {
+  margin-left: 0; }
+
+.customerservice__mobilemenu {
+  display: none; }
+
+.helppages {
+  display: flex; }
+
+.navbarlinks {
+  float: left;
+  padding: 5px;
+  background: #eee;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #ddd; }
+
+.customerservice__row {
+  float: left;
+  width: 100%;
+  margin: 1% 0; }
+
+.cms-page-view p.customerservice__header {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.cms-page-view p.customerservice__deliveryprice {
+  font-weight: bold; }
+
+.helppagesright p {
+  margin-bottom: 10px; }
+
+.helppages a {
+  color: #343334;
+  text-decoration: none; }
+
+.helppagesright a:last-child .navbarlinks {
+  border: 0; }
+
+.internationalzones1 {
+  font-weight: bold;
+  margin-top: 1%; }
+
+.redeye-form input,
+.redeye-form select,
+.redeye-form textarea {
+  width: 100%; }
+
+.newsletter input[type=checkbox] {
+  width: auto; }
+
+.newsletter label {
+  min-width: 135px;
+  float: left; }
+
+.studentbeans {
+  position: relative;
+  padding-bottom: 100%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden; }
+
+.studentbeans iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.deliveryinformation__header {
+  text-align: center;
+  float: left;
+  width: 100%; }
+
+.cms-page-view p.customerservice__header {
+  font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.customerservice__row {
+  float: left;
+  width: 100%;
+  margin: 1% 0; }
+
+.customerservice__row p {
+  margin: 0; }
+
+.cms-page-view p.customerservice__header--subheader {
+  text-transform: none;
+  font-size: 14px; }
+
+p.customerservice--margin {
+  margin-top: 1%; }
+
+.customerservice__row--border {
+  border-top: 1px solid #000; }
+
+.cms-page-view p.customerservice__header--mainheader {
+  font-size: 22px;
+  margin: 0;
+  text-decoration: underline; }
+
+.customerservice__row td,
+.customerservice__row th {
+  border: 2px solid #CCCCCC;
+  padding: 5px; }
+
+.card__gender {
+  width: 33%;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  background: #eee;
+  border-right: 1px solid #ddd;
+  cursor: pointer; }
+
+.customerservice__row tr:first-child {
+  background: #ccc; }
+
+tr.headerrow,
+.customerservice__row th {
+  font-weight: 600; }
+
+.datatablesizing {
+  margin-top: 1%; }
+
+#customerservice__row--women {
+  display: block; }
+
+#customerservice__row--men,
+#customerservice__row--kids {
+  display: none; }
+
+div#customerservice__row--women table,
+div#customerservice__row--men table,
+div#customerservice__row--kids table,
+div#customerservice__row--women table th,
+div#customerservice__row--men table th,
+div#customerservice__row--kids table th {
+  text-align: center; }
+
+.helppagesright a:last-child {
+  float: none; }
+
+.isActive {
+  background: #b5b5b5; }
+
+.helppagesright table {
+  width: 100%; }
+
+.desktopfootwearsection {
+  display: table;
+  width: 100%; }
+
+.mobilefootwearsection {
+  display: none;
+  width: 100%; }
+
+.desktopfootwearsection tr:first-child {
+  background: none; }
+
+.desktopfootwearsection td:first-child {
+  font-weight: 600; }
+
+.mobilefootwearsection tr:first-child {
+  font-weight: 600; }
+
+/* New Fit Guide Diagram Stuff */
+.fitGuideDiagrams {
+  padding-top: 3%;
+  float: left; }
+
+.fitGuideDiagrams__title,
+.fitGuideDiagrams__blockContainer {
+  float: left;
+  clear: both; }
+
+.fitGuideDiagrams__block {
+  width: 29%;
+  float: left;
+  margin: 0 6% 2% 0; }
+
+.fitGuideDiagrams__block:last-child {
+  margin-right: 0; }
+
+.fit-tip .fitGuideDiagrams__block {
+  width: 100%;
+  margin: 0; }
+
+.fit-tip .fitGuideDiagrams__image {
+  width: 80%;
+  margin: 0 auto; }
+
+/* Media Queries for Customer Services Start */
+@media only screen and (max-width: 989px) {
+  .navbarlinks {
+    width: 50%; }
+
+  a:nth-child(1) .navbarlinks,
+  a:nth-child(2) .navbarlinks {
+    border-bottom: 1px solid #ddd; }
+
+  a:nth-child(2) .navbarlinks {
+    border-right: 0; } }
+@media screen and (max-width: 768px) {
+  .fitGuideDiagrams__block {
+    width: 47%;
+    margin: 0 6% 2% 0; }
+
+  .fitGuideDiagrams__block:nth-child(2) {
+    margin-right: 0; } }
+@media only screen and (max-width: 740px) {
+  .helppages .helppagesleft {
+    display: none; }
+
+  .customerservice__mobilemenu {
+    display: block;
+    float: left;
+    width: 100%; }
+
+  .customerservice__mobile {
+    float: left;
+    padding: 10px 10px 0 10px;
+    cursor: pointer;
+    border-bottom: 4px solid #cccccc;
+    font-weight: bold;
+    margin-bottom: 3%; }
+
+  .customerservice__links {
+    float: left;
+    display: none;
+    padding-left: 10px; }
+
+  .customerservice__links ul {
+    float: left;
+    padding-right: 2%; }
+
+  .customerservice__links li {
+    padding: 4px 3px;
+    list-style: none; }
+
+  .helppagemenuheadingfirst {
+    border-bottom: 4px solid #cccccc;
+    font-weight: bold;
+    margin-bottom: 15px; }
+
+  .helppages {
+    display: inline-block; }
+
+  .helppages .helppagesright {
+    width: 100%;
+    padding-left: 0;
+    float: left; }
+
+  .customerservice__mobile:after {
+    content: '';
+    position: relative;
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #000;
+    border-right: none;
+    top: 9px;
+    float: right;
+    left: 10px; }
+
+  .customerservice__mobile.active:after {
+    content: '';
+    position: relative;
+    width: 0;
+    height: 0;
+    display: block;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-top: 4px solid #000;
+    border-bottom: none;
+    top: 11px;
+    float: right;
+    left: 10px; } }
+@media only screen and (max-width: 526px) {
+  .customerservice__row td,
+  .customerservice__row th {
+    padding: 2px; } }
+@media only screen and (max-width: 480px) {
+  .desktopfootwearsection {
+    display: none; }
+
+  .mobilefootwearsection {
+    display: table; }
+
+  p.customerservice--margin {
+    margin-top: 2%; }
+
+  .customerservice__row tr:hover {
+    background: black;
+    color: white; } }
+@media screen and (max-width: 440px) {
+  .fitGuideDiagrams__block {
+    width: 100%;
+    margin: 0 0 2%; } }
+
+
 /*# sourceMappingURL=styles.css.map */

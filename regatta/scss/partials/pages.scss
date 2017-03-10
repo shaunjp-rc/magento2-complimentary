@@ -194,3 +194,51 @@
 @media screen and (max-width: 741px){
   #down-guides .flex-item.col-3 img{display: none;}
 }
+
+/*//////////////////////////
+/* Email Sign Up Page
+/*////////////////////////*/
+
+#email-signup-page .flex-item{
+  margin: 5px 0;
+}
+
+#email-signup-page form > div:first-child label{
+  display: block;
+}
+
+#email-signup-page .newsletter.text{
+  margin: 8px 0;
+}
+
+#email-signup-page{
+  margin: 10px;
+} 
+
+/*//////////////////////////
+/* Reg Guarantee Up Page
+/*////////////////////////*/
+
+#register-guarantee-page .newsletter.text{
+  margin: 8px 0;
+}
+
+#register-guarantee-page{
+  margin: 10px;
+} 
+
+/*//////////////////////////
+/* Camp Guarantee Up Page
+/*////////////////////////*/
+
+#camping-gurantee-page .newsletter.text{
+  margin: 8px 0;
+}
+
+#camping-gurantee-page{
+  margin: 10px;
+}
+
+#camping-gurantee-page form > div > label{
+  display: block
+}

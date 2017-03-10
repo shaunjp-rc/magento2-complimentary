@@ -64,14 +64,15 @@
 .form-checkbox { max-width: 18%; text-align: center; border: solid 1px #c5c5c5; padding: 1%; box-shadow: 0px 5px 2px -5px #808080; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; width: 20px !important; height: 14px !important; margin: 10px; }
 }
+.redeye-form > div { margin: 1%; float: left; width: 48%; position: relative; } 
+.redeye-form input { width: 100%; height: 40px; border: 1px solid #cecece; border-radius: 3px; } 
+.redeye-form button { clear: both; float: left; margin: 1%; width: 50%; padding: 20px; background: #000000; color: #ffffff; font-size: 20px; text-transform: uppercase; border: 0px; border-radius: 6px; }
 
 
-@media only screen and (max-width: 500px) {
-  .redeye-form{
-      .redeye-form > div { width: 100%; }
-       .redeye-form input { max-width: 100%; }
-      .redeye-form button { width: 100%;  }
-    }
+@media only screen and (max-width: 768px) {
+    html .redeye-form > div { width: 98%; }
+    html .redeye-form input { max-width: 100%; }
+    html .redeye-form button { width: 100%;  }
 }
 
 
@@ -290,4 +291,56 @@ input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0
 }
 @media screen and (max-width: 989px){
   .content-wrapper{max-width: 740px; margin: 0 auto; padding: 10px;}
+}
+
+/****************************
+/* Lightbox Styles
+/***************************/
+
+.pop-overlay{
+	display: none;
+}
+.pop-overlay.active{
+	display: block;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+}
+.rl-pop{
+	display: none;
+}
+.rl-pop.active{
+	display: block;
+	position: fixed;
+	z-index: 9;
+	background: #fff;
+	width: 60%;
+	margin: 20% 20% 10px;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);	
+	box-sizing: border-box;
+	top: 0;
+}
+.rl-pop [data-action="pop-close"]{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 20px 14px;
+	background: #ddd;
+	border-radius: 0 0 0 4px;
+	line-height: 0;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+@media screen and (max-width: 700px){
+	.rl-pop.active{
+		width: 90%;
+		margin: 20px 5%;
+	}
 }
