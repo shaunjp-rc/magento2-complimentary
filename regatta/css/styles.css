@@ -450,6 +450,45 @@
     margin: 20px 5%; } }
 /* Partials */
 /*//////////////////////////
+/* Footer Block Links
+/*/
+@media only screen and (min-width: 739px) {
+  .mobile-footer-links h4::before {
+    content: "+";
+    float: right;
+    font-size: 15px;
+    margin-top: -3px; }
+
+  .mobile-footer-links .toggleMain::before {
+    content: "-";
+    float: right;
+    font-size: 15px;
+    margin-top: -3px; }
+
+  .mobile-footer-links h4 {
+    background: #606060;
+    padding: 10px;
+    color: #ffffff; }
+
+  .mobile-footer-links h4 + ul {
+    display: none; }
+
+  .mobile-footer-links .toggleMain + ul {
+    display: inline-block;
+    margin: 0px; }
+
+  .mobile-footer-links .toggleMain + ul li {
+    display: block;
+    padding: 10px;
+    margin: 1%;
+    width: 48%;
+    float: left;
+    background: #d4d4d4;
+    text-align: left; }
+
+  .mobile-footer-links .toggleMain + ul li a {
+    color: #606060; } }
+/*//////////////////////////
 /* Fabrics Page
 /*/
 .cms-fabrics .action-parallax {
