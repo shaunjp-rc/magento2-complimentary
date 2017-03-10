@@ -98,6 +98,9 @@
   background-color: rgba(0, 0, 0, 0.2);
   padding: 1.2vw 0; }
 
+@media screen and (max-width: 740px) {
+  .bannerOverlay__contentArea--slider {
+    vertical-align: middle; } }
 @media screen and (max-width: 600px) {
   .bannerOverlay__contents--isHover {
     padding: 1.4vw 0; } }
@@ -474,7 +477,6 @@
   display: table; }
 
 .bannerOverlay__title--slider span {
-  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: lowercase;
   font-size: 2vw;
   letter-spacing: 0; }
@@ -483,7 +485,6 @@
   font-size: 2vw;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: 'montserratlight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
 .bannerOverlay__text.bannerOverlay__text--slider {
@@ -493,7 +494,6 @@
 
 .bannerOverlay__subTitle--slider .sliderCode {
   background-color: #464372;
-  font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif !important;
   font-size: 20px !important;
   letter-spacing: 2px;
   padding: .5vw 1vw;
@@ -740,7 +740,6 @@ p.deliveryBar__text {
     padding: 0 6vw; } }
 .pageTextBlock__quote {
   display: block;
-  font-family: 'montserratlight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2.4vw;
   line-height: 1.2;
   text-align: center; }
@@ -757,7 +756,6 @@ p.deliveryBar__text {
     font-size: 2em; } }
 .pageTextBlock__citation {
   display: block;
-  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5vw;
   line-height: 1;
   margin: 2vw 0;
