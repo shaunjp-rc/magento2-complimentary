@@ -396,11 +396,16 @@ p.collectionhighlights__hoverstate--header {
 
 .homecont a {
   text-decoration: none;
+  color: #000;
+}
+
+.mt_itemWrapper a {
+    color: #000;
 }
 
 .sectionheader--green {
   color: #AEC483;
-}
+} 
 
 .sectionbutton--green {
   background: #AEC483;
@@ -569,6 +574,8 @@ p.collectionhighlights__hoverstate--header {
 .fourblocks__container--brand {
   margin-top: 2%;
 }
+
+
 
 
 /* Homepage Media Queries Start */

@@ -267,6 +267,39 @@ div#customerservice__row--kids table th {
 	margin: 0 auto;
 }
 
+.guaranteeimg {
+    float: right;
+}
+
+.guaranteehead h3 {
+    font-weight: bold;
+    font-size: 18px;
+}  
+
+.redeye-form button {
+    float: right;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+
+.redeye-form button:hover {
+    opacity: 0.8;
+}
+
+.redeye-form {
+    display: table;
+    width: 100%;
+}
+
+.helppagesright span {
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width:989px) {
 	.navbarlinks {
@@ -379,6 +412,19 @@ div#customerservice__row--kids table th {
 	}
 
 }
+
+@media only screen and (max-width:550px) {
+
+	.guaranteeimg {
+	    float: none;
+	    width: 100%;
+	    margin: 0 auto;
+	    max-width: 131px;
+	    display: table;
+	}
+
+}
+
 
 @media only screen and (max-width:526px) {
 	.customerservice__row td,

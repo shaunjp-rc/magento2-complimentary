@@ -412,7 +412,11 @@ p.collectionhighlights__hoverstate--header {
   color: #2F3051; }
 
 .homecont a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
+
+.mt_itemWrapper a {
+  color: #000; }
 
 .sectionheader--green {
   color: #AEC483; }
