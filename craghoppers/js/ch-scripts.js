@@ -194,19 +194,27 @@ $j(document).ready(function($) {
   }
 
 
-   /* Customer service page mobile drop down */
+
+  /* Customer service page mobile drop down */
+
   $j(".customerservice__mobile").click(function(){
         $j(".customerservice__links").toggle();
         $j(".customerservice__mobile").toggleClass("active");
   });
+
   /* END */
 
   /* Sizing Guide Script */
+
+
+  //Size guide script
+
   $j(function(){
     $j("#card__gender--women").addClass("isActive");
   });
 
   $j("#card__gender--women").click(function(){
+
     $j("#customerservice__row--women").show();
     $j("#customerservice__row--men").hide();
     $j("#customerservice__row--kids").hide();
@@ -233,6 +241,36 @@ $j(document).ready(function($) {
     $j("#card__gender--women").removeClass("isActive");
   });
   /* END */
+=======
+      $j("#customerservice__row--women").show();
+      $j("#customerservice__row--men").hide();
+      $j("#customerservice__row--kids").hide();
+      $j("#card__gender--women").addClass("isActive");
+      $j("#card__gender--men").removeClass("isActive");
+      $j("#card__gender--kids").removeClass("isActive");
+  });
+
+  $j("#card__gender--men").click(function(){
+      $j("#customerservice__row--men").show();
+      $j("#customerservice__row--women").hide();
+      $j("#customerservice__row--kids").hide();
+      $j("#card__gender--men").addClass("isActive");
+      $j("#card__gender--women").removeClass("isActive");
+      $j("#card__gender--kids").removeClass("isActive");
+  });
+
+  $j("#card__gender--kids").click(function(){
+      $j("#customerservice__row--kids").show();
+      $j("#customerservice__row--women").hide();
+      $j("#customerservice__row--men").hide();
+      $j("#card__gender--kids").addClass("isActive");
+      $j("#card__gender--men").removeClass("isActive");
+      $j("#card__gender--women").removeClass("isActive");
+  });
+
+
+
+>>>>>>> lots of styles
   
 
 });
