@@ -1,0 +1,180 @@
+/* Mega Menu */
+
+.mmrow {
+    width: 22%;
+    float: left;
+    color: black;
+    font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mmrow__header {
+    color: #666;
+    letter-spacing: 0.5px;
+    font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.mmrow.mmprice {
+    width: 11%;
+}
+
+.mmrow__features{
+  width:20%;
+}
+
+.mmrow.mmimage {
+    width: 29%;
+    margin-top: 5%;
+} 
+
+.ms-topmenu .ms-submenu a.form-group {
+    margin: 3px 0;
+}
+
+li.main-cat {
+    margin: 3px 0;
+    color:#666;
+}
+
+li.sub-cat.last {
+    margin: 3px 0;
+}
+
+li.main-cat:hover, li.sub-cat.last:hover {
+  color:#000;
+}
+
+.mmfullbar {
+  width: 100%;
+  float: left;
+  background: #E7EFF2;
+  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+
+.mmfullbar__inner {
+  width: 100%;
+  float: none;
+  color: #666;
+  font-size: 1.4vmin;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 13px 0;
+  margin-left: 0;
+  letter-spacing: 0.5px;
+  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mmfullbar__inner span.linebreak {
+  padding: 0 0.5vw;
+}
+
+.ms-footer, .mb-footer {
+  margin-left: -15px;
+  border-top: 0;
+}
+
+ul.mmlist {
+    padding-bottom: 12%;
+}
+.col-category.col-xs-12 {
+    padding-bottom: 12%;
+}
+
+.mmrow.first {
+    width: 16%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mmrow.mmimage {
+    display: none;
+  }
+  .mmrow {
+    width: 35%;
+  }
+  .mmrow.mmprice {
+    width: 20%;
+  }
+
+  .mmrow__features {
+    width: 18%;
+  }
+
+  .mmrow.first {
+    width: 24%;
+  }
+
+}
+
+@media only screen and (max-width: 779px) and (min-width: 768px) {
+
+  .mmfullbar {
+    display: none;
+  }
+  .mmrow {
+    width: 37%;
+  }
+  .mmrow.mmprice {
+    width: 20%;
+  }
+  .mmrow.first {
+    width: 25%;
+  }
+
+  .mmrow__features {
+    width: 18%;
+  }
+
+}
+
+@media (max-width: 779px){
+  .ms-megamenu .anchor_mbmenu .anchor_mbmenu_text {
+      color: #000;
+  }
+}
+
+@media (min-width: 768px){
+
+  .col-sm-3 {
+      width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .mmrow.mmimage {
+    display: none;
+  }
+
+  .mmrow {
+    width: 100%;
+  }
+  .mmrow.mmprice {
+    width: 100%;
+    padding-top: 2%;
+  }
+  .mmrow__feature {
+    width: 100%;
+    padding-top: 2%;
+  }
+  .mmfullbar {
+    display: none;
+  }
+
+  ul.mmlist {
+    padding-bottom: 0;
+  }
+
+  .col-category.col-xs-12 {
+    padding-bottom: 0;
+  }
+
+  .mmrow.first{
+    width:100%;
+  }
+
+}
