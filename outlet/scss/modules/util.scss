@@ -661,3 +661,42 @@
 		margin: 20px 5%;
 	}
 }
+
+/****************************
+/* Customer Service Forms
+/***************************/
+
+.cs-form label{
+  display: block;
+  margin: 15px 0 5px;
+}
+
+.cs-form input[type="text"], .cs-form textarea{
+  width: 90%
+}
+
+.cs-form input[type="checkbox"]{
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 6px;
+}
+
+.cs-form button{
+  margin: 10px 0;
+}
+
+.cs-form .newsletter{
+  margin-top: 5px;
+}
+
+.cs-form .newsletter label{
+  display: inline-block;
+  margin-bottom: 0; margin-top: 0;
+}
+
+.cs-form button{
+  float: none !important;
+  clear: both !Important;
+  display: block;
+}
