@@ -521,7 +521,7 @@
   .mobile-footer-links .toggleMain + ul li a {
     color: #606060; } }
 @media screen and (max-width: 739px) {
-  h3.mob-only {
+  .mob-only {
     display: block !important; } }
 /*//////////////////////////
 /* Fabrics Page
