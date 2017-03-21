@@ -241,8 +241,33 @@ $j(document).ready(function($) {
     $j("#card__gender--women").removeClass("isActive");
   });
   /* END */
-  
 
+  //Mega Menu Sub Category Reveals    
+    
+   var mmCatHeader = $j('.mmLookbookColumn--links .mmlist li');    
+    
+   mmCatHeader.hoverIntent({   
+     sensitivity: 18,    
+     over: function(){   
+       $j(this).find('.hidden-sub-cat').animate({    
+         // 'height': '36px',    
+         'opacity': '1'    
+       }, 600);    
+     },    
+     out: function(){    
+       $j(this).find('.hidden-sub-cat').animate({    
+         // 'height': '0',   
+         'opacity': '0'    
+       }, 200);    
+     }   
+   });
+
+   /* END */
+ 
+
+////////////////////////////////  
+//DONT ADD ANYTHING BELOW HERE//
+////////////////////////////////
 });
 
 });
