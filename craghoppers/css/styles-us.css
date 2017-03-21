@@ -2592,6 +2592,10 @@ a.micro-product__button {
 /* *********** END *********** */
 /* **** MICROSITE STYLES ****/
 /* Mega Menu */
+.mmcontainer {
+  width: 1228px;
+  margin: 0 auto; }
+
 .mmrow {
   width: 22%;
   float: left;
@@ -2603,7 +2607,7 @@ a.micro-product__button {
   text-transform: uppercase;
   padding-bottom: 10px;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 0;
   font-weight: bold; }
 
 .mmrow.mmprice {
@@ -2658,8 +2662,9 @@ li.main-cat:hover, li.sub-cat.last:hover {
 
 ul.mmlist {
   padding-bottom: 12%;
-  margin-left: 5%;
-  text-align: left; }
+  margin-left: 0;
+  text-align: left;
+  display: table; }
 
 .col-category.col-xs-12 {
   padding-bottom: 12%; }
@@ -2722,14 +2727,6 @@ li.sub-cat {
   text-transform: uppercase;
   font-family: Helvetica, Arial, sans-serif; }
 
-.mmLookbookColumn li {
-  padding: 4px 156px 4px 0;
-  margin: 4px 0;
-  position: relative;
-  display: inline-block;
-  float: left;
-  clear: left; }
-
 .mmLookbookColumn img {
   width: auto;
   margin-bottom: 12px; }
@@ -2745,6 +2742,16 @@ li.sub-cat {
   display: inline-block;
   float: left;
   clear: left; }
+
+.mmLookbookColumn li li {
+  padding: 0 0 0 12px;
+  display: inline;
+  float: none;
+  clear: none;
+  background: none; }
+
+.mmLookbookColumn li:hover {
+  background: #f1f1f1; }
 
 @media only screen and (max-width: 1000px) {
   .mmrow.mmimage {
