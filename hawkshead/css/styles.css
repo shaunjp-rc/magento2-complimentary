@@ -86,6 +86,121 @@
 
   .uspBanners__banner:last-child {
     margin: 0; } }
+/* Basket */
+.shippingtotalscart {
+  float: left;
+  width: 53%;
+  border: 1px solid black;
+  padding: 15px; }
+
+.shippingtotalscart ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 1%; }
+
+/* 404 page */
+.noroute__container {
+  width: 100%;
+  display: table;
+  position: relative; }
+
+.noroute__desktopimg {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block; }
+
+.noroute__container--inner {
+  position: absolute;
+  top: 0; }
+
+.noroute__text {
+  color: #FFF;
+  float: left;
+  width: 100%;
+  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-left: 3vw;
+  margin-top: 5%; }
+
+.noroute__text--header {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 5px; }
+
+.noroute__text p:nth-child(2), .noroute__text p:nth-child(4) {
+  padding-bottom: 6%; }
+
+.noroute__container--button {
+  float: left;
+  width: 100%;
+  margin-top: 5%; }
+
+.noroute__button {
+  float: left;
+  background: #79a2d0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-right: 1.5%;
+  width: 45%;
+  font-size: 16px;
+  margin-bottom: 1.5%;
+  text-transform: uppercase;
+  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600; }
+
+.noroute__container--topbottom {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto; }
+
+.noroute__button:hover {
+  opacity: 0.8; }
+
+.noroute__button--women:hover {
+  background: #FF685D;
+  opacity: 1; }
+
+.noroute__button--men:hover {
+  background: #9CAC25;
+  opacity: 1; }
+
+@media only screen and (max-width: 989px) {
+  .noroute__text p:nth-child(2),
+  .noroute__text p:nth-child(4) {
+    padding-bottom: 0%; }
+
+  .noroute__text--header {
+    margin-bottom: 1%; }
+
+  .noroute__container--topbottom {
+    text-align: center; }
+
+  .noroute__button {
+    float: none;
+    display: inline-block; } }
+@media only screen and (max-width: 740px) {
+  .noroute__container--inner {
+    position: relative; }
+
+  .noroute__text {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0; }
+
+  .noroute__text p:nth-child(2),
+  .noroute__text p:nth-child(4) {
+    padding-bottom: 1%; }
+
+  .noroute__text {
+    color: #000; }
+
+  .noroute__button {
+    margin-right: 0;
+    width: 93%; } }
+/* 404 page END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
@@ -1163,7 +1278,8 @@ section.collection.collection__background h2 {
 .collection__product-img img {
   display: block;
   margin: 0 auto;
-  float: none; }
+  float: none;
+  width: auto; }
 
 .collection__highlight--info h3 {
   font-weight: bold;
@@ -1197,6 +1313,35 @@ section.collection.collection__background h2 {
 .collection__background {
   padding-bottom: 2%; }
 
+@media only screen and (max-width: 740px) {
+  .collection__wrapper {
+    display: block; }
+
+  .containercenter {
+    width: 100%;
+    padding: 0; }
+
+  .collection {
+    padding: 10px 0; }
+
+  .collection__highlight--info img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: auto;
+    margin-bottom: 4%; }
+
+  .collection__product-img {
+    display: none; }
+
+  .collection__highlight--info {
+    width: 97%;
+    padding: 10px; }
+
+  .collection__button {
+    float: none;
+    margin: 0 auto;
+    margin-top: 2%; } }
 .actions {
   display: none; }
 

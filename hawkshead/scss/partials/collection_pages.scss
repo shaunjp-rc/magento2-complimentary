@@ -152,6 +152,7 @@ section.collection.collection__background h2 {
 	display: block;
 	margin: 0 auto;
 	float: none;
+	width:auto;
 }  
 
 .collection__highlight--info h3 {
@@ -191,4 +192,43 @@ section.collection.collection__background h2 {
 
 .collection__background {
 	padding-bottom: 2%;
+}
+
+@media only screen and (max-width:740px) {
+	.collection__wrapper {
+		display: block;
+	}
+
+    .containercenter {
+        width: 100%;
+        padding: 0;
+    }
+
+    .collection {
+        padding: 10px 0;
+    }
+
+    .collection__highlight--info img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: auto;
+        margin-bottom: 4%;
+    }
+
+    .collection__product-img {
+        display: none;
+    }
+
+    .collection__highlight--info {
+        width: 97%;
+        padding:10px;
+    }
+
+    .collection__button {
+        float: none;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+
 }

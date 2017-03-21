@@ -608,3 +608,14 @@ h2.pageSection--pageTop__justHeading {
 	text-decoration: underline;
 	font-family: Helvetica, Arial, sans-serif;
 }
+
+@media only screen and (max-width:740px) {
+	.lookbook {
+		display: inline-block;
+	}
+
+	.lookbook__atmos img {
+		width: 100%;
+	}
+
+}
