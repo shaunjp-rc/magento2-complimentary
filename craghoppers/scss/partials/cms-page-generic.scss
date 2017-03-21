@@ -493,3 +493,107 @@
 		font-size: 14px;
 	}
 }
+
+/* Basket */
+.basket__delivery {
+	float: left;
+	width: 80%;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.basket__delivery li:nth-child(2n+1) {
+	width: 51%;
+	float: left;
+	padding-top: 10px;
+}
+
+.basket__delivery li:nth-child(2n) {
+	text-align: right;
+	width: 49%;
+	float: right;
+	padding-top: 6px;
+}
+
+.basket__delivery ul {
+	margin: 0;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	border-top: 1px solid;
+}
+
+.divclear {
+	clear: both;
+}
+
+.basket__delivery p {
+	float: left;
+	width: 100%;
+}
+
+.delivery__header {
+	text-align: center;
+	margin-bottom: 1.5%;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width:740px) {
+	.basket__delivery {
+		width: 100%;
+		margin-bottom: 3%;
+	}
+
+}
+
+/* 404 page */
+
+.lostYourWay {
+	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS17/DesktopLost_1140x529px.jpg') no-repeat right;
+	background-size: cover;
+	width: 100%;
+	padding: 8% 50% 8% 5%;
+	color: #fff;
+	font-size: 1.1em;
+	letter-spacing: .5px;
+}
+
+.lostYourWay h2 {
+	color: #fff !important; /* having to use important here due to overly specific styles declared in the theme css */
+	margin-bottom: 1em;
+}
+
+.lostYourWay__strap {
+	font-size: 1.2em;
+}
+
+.lostYourWay ul {
+	list-style: none outside;
+}
+
+.lostYourWay li,
+.lostYourWay li a {
+	color: #fff !important; /* having to use important here due to overly specific styles declared in the theme css */
+	font-size: 1em !important;
+}
+
+@media screen and (max-width:940px) {
+	.lostYourWay {
+		padding-right: 40%;
+	}
+
+}
+
+@media screen and (max-width:740px) {
+	.lostYourWay {
+		background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS17/MobileLost_954x532px.jpg') no-repeat right;
+		background-size: cover;
+		padding: 5%;
+	}
+
+	.lostYourWay .bannerOverlay__cta {
+		padding: 3%;
+		font-size: .9em;
+	}
+
+}
