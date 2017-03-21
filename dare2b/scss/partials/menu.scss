@@ -1,3 +1,5 @@
+/* Mega menu styles mobile */
+
 @media screen and (max-width: 739px){
 
 h3.mob-only{
@@ -5,4 +7,34 @@ h3.mob-only{
   margin-top: 0;
 }
 
+.category-items div{
+  display: block !important;
 }
+
+.category-items div h3{
+  color: #333;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.category-items div h3 a{
+  margin-left: 0px !important;
+}
+
+.category-items div ul a{
+  display: block;
+  padding: 5px 0 !important;
+  color: #777 !important
+}
+
+.category-items div ul a:before{
+  display: none !important;
+}
+
+.category-items div ul{
+  padding: 10px !important; 
+}
+
+} 
