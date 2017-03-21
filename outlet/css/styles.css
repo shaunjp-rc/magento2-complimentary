@@ -624,6 +624,9 @@
 
   .mobile-footer-links .toggleMain + ul li a {
     color: #606060; } }
+@media screen and (max-width: 739px) {
+  .mob-only {
+    display: block !important; } }
 /*//////////////////////////*/
 /*Jackets Buying Guide      */
 /*//////////////////////////*/
