@@ -4,15 +4,16 @@
     width: 22%;
     float: left;
     color: black;
-    font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .mmrow__header {
     color: #666;
     letter-spacing: 0.5px;
-    font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     padding-bottom: 10px;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
 }
 
 .mmrow.mmprice {
@@ -78,6 +79,8 @@ li.main-cat:hover, li.sub-cat.last:hover {
 
 ul.mmlist {
     padding-bottom: 12%;
+    margin-left: 5%;
+    text-align: left;
 }
 .col-category.col-xs-12 {
     padding-bottom: 12%;
@@ -85,6 +88,102 @@ ul.mmlist {
 
 .mmrow.first {
     width: 16%;
+}
+
+.mmrow__header {
+    color: #000;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+li.main-cat {
+    margin: 3px 0;
+    color: #666;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.ms-topmenu .ms-submenu a {
+    color: #666;
+    outline: none;
+}
+
+.ms-megamenu img {
+    display: inline;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.partnership__container img {
+    padding-bottom: 3%;
+}
+
+.mmlist {
+    list-style-type: none;
+}
+
+.mmlist a {
+    text-decoration: none;
+}
+
+li.sub-cat {
+    font-size: 12px;
+    margin-bottom: 3px;
+    text-transform: none;
+    color:#666;
+}
+
+.partnership__container .mmrow__header {
+    margin-left: 0;
+}
+
+.mmrow__header.mm__all {
+    display: none;
+}
+
+.s-main-menu .categories>li>a {
+    font-weight: bold;
+}
+
+.expanded {
+    list-style-type: none;
+}
+
+.mmLookbookColumn {
+    width: 24%;
+    padding: 0 .5%;
+    float: left;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.mmLookbookColumn li {
+    padding: 4px 156px 4px 0;
+    margin: 4px 0;
+    position: relative;
+    display: inline-block;
+    float: left;
+    clear: left;
+}
+
+.mmLookbookColumn img {
+    width: auto;
+    margin-bottom: 12px;
+}
+
+.mmLookbookColumn--links {
+    width: 48%;
+    padding: 0 0 0 2%;
+}
+
+.mmLookbookColumn li {
+    padding: 4px 156px 4px 0;
+    margin: 4px 0;
+    position: relative;
+    display: inline-block;
+    float: left;
+    clear: left;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -135,6 +234,23 @@ ul.mmlist {
   }
 }
 
+@media screen and (min-width:771px) {
+  .hidden-sub-cat {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    opacity: 0;   /*height: 0;*/
+  }
+
+}
+
+@media only screen and (max-width: 770px) {
+  .hidden-sub-cat {
+      opacity: 1 !important;
+  }
+
+}
+
 @media (min-width: 768px){
 
   .col-sm-3 {
@@ -175,6 +291,18 @@ ul.mmlist {
 
   .mmrow.first{
     width:100%;
+  }
+
+}
+
+@media only screen and (max-width:740px) {
+  .mmrow__header.mm__all {
+    display: block;
+  }
+
+  .partnership__container img {
+    padding-bottom: 0%;
+    width: auto;
   }
 
 }
