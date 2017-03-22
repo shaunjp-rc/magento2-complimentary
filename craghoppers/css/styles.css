@@ -3192,5 +3192,48 @@ a.micro-product__button {
 
 /* *********** END *********** */
 /* **** MICROSITE STYLES ****/
+.categoryBanner {
+  display: table;
+  height: 285px;
+  width: 100%;
+  background: #fff; }
+
+.categoryBanner__image {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%; }
+
+.categoryBanner__title {
+  color: #fff;
+  font-size: 64px;
+  letter-spacing: 9px;
+  line-height: 1em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase; }
+
+.category-view__title {
+  font-weight: 700;
+  text-align: left; }
+
+.category-view__description {
+  font-size: 12px;
+  text-align: left; }
+
+.categorypath-men .categoryBanner__image,
+.categorypath-herren .categoryBanner__image {
+  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Mens.jpg) no-repeat center; }
+
+.categorypath-women .categoryBanner__image {
+  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Womens.jpg) no-repeat center; }
+
+.categorypath-kids .categoryBanner__image,
+.categorypath-kinder .categoryBanner__image {
+  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Kids.jpg) no-repeat center; }
+
+.categorypath-accessories .categoryBanner__image,
+.categorypath- .categoryBanner__image {
+  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Accessories.jpg) no-repeat center; }
 
 /*# sourceMappingURL=styles.css.map */
