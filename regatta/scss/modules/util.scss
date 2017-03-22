@@ -318,12 +318,15 @@
 /***************************/
 
 .cs-form label{
-  display: block;
+  display: block !important;
   margin: 15px 0 5px;
+  width: 100% !important;
 }
 
 .cs-form input[type="text"], .cs-form textarea{
-  width: 90%
+  width: 90%;
+  display: block !important;
+  clear: both !important;
 }
 
 .cs-form input[type="checkbox"]{
@@ -351,4 +354,3 @@
   clear: both !Important;
   display: block;
 }
-
