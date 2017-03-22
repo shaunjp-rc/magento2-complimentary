@@ -1,11 +1,17 @@
+///////////////////////////////
+//////Mega Menu Styles/////////
+///////////////////////////////
+
 .ms-megamenu .ms-topmenu {
    border-bottom: 3px solid #b2b2b2;
 }
 
 .mmcontainer {
-   width: 100%;
-   float: left;
-   padding-bottom: 3%;
+    width: 100%;
+    padding-bottom: 1%;
+    max-width: 1228px;
+    margin: 0 auto;
+    display: table;
 }
 
 .genderheader {
@@ -138,4 +144,14 @@
 
 .gendercontainer--camping {
    width: auto;
+}
+
+.expanded {
+   list-style-type: none;
+   margin: 0;
+   text-align: left;
+}
+
+.expanded a {
+    text-decoration: none;
 }

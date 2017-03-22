@@ -17,6 +17,7 @@
 .slides {
   width: 100%;
   margin-left: 0;
+  z-index: 1 !important; //important to over rule inline style
 }
 
 .slides li {
@@ -876,6 +877,10 @@ p.collectionhighlights__hoverstate--header {
 
   .favourites__buttons {
     padding: 1% 0;
+  }
+
+  .sliderstrip__desktop--mobile {
+    display: block;
   }
 
 }
