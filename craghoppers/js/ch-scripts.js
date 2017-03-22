@@ -263,6 +263,11 @@ $j(document).ready(function($) {
    });
 
    /* END */
+
+   $j('[data-target="toggleNextElement"]').click(function(){
+      $j(this).next('*').toggleClass('toggleSub');
+      $j(this).toggleClass("toggleMain");
+    });
  
 
 ////////////////////////////////  

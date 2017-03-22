@@ -155,3 +155,23 @@
 .expanded a {
     text-decoration: none;
 }
+
+@media only screen and (max-width:740px){
+   .hhcolumn,
+   .othercontainer,
+   .gendercontainer--camping,
+   .gendercontainer,
+   .brandcontainer {
+      width: 100%;
+      padding-left: 2%;
+   }
+
+   .mmimage--camping {
+      display: none;
+   }
+
+   .phead {
+      font-size: 18px;
+   }
+
+}

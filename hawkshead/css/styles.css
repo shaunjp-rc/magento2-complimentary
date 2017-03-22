@@ -201,6 +201,44 @@
     margin-right: 0;
     width: 93%; } }
 /* 404 page END */
+/* mobile footer */
+@media only screen and (max-width: 740px) {
+  .column--footer h4 {
+    cursor: pointer;
+    margin: 0;
+    font-size: 14px;
+    color: #769fd0; }
+
+  .column--footer {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5% 0; }
+
+  .column--footer ul {
+    display: none; }
+
+  .column--footer ul.isOpen {
+    display: block; }
+
+  .column--footer:before {
+    content: ' ';
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #afafaf transparent transparent transparent;
+    float: right;
+    margin-top: 1.5%; }
+
+  .column--footer.columnOpen:before {
+    border-style: solid;
+    border-width: 0 7px 7px 7px;
+    border-color: transparent transparent #afafaf transparent; }
+
+  .column--footer ul {
+    list-style-type: none; }
+
+  .column--footer a {
+    color: #5f5e5e;
+    text-decoration: none; } }
+/* mobile footer END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
@@ -1120,6 +1158,30 @@ p.collectionhighlights__hoverstate--header {
   cursor: pointer;
   float: left; }
 
+.cs__nav {
+  float: left;
+  width: 100%;
+  margin-bottom: 1%; }
+
+.cs__button {
+  float: left;
+  width: 24.5%;
+  border: 1px solid;
+  text-align: center;
+  margin-right: 0.5%;
+  padding: 0.5% 0;
+  cursor: pointer; }
+
+.cs__button:nth-child(4) {
+  margin-right: 0; }
+
+.cs__sizeContainer {
+  width: 100%;
+  display: inline-block; }
+
+.isActive {
+  background: #dadada; }
+
 @media only screen and (max-width: 1024px) {
   .regattadesktop {
     display: none; }
@@ -1557,5 +1619,20 @@ div#header-account {
 
 .expanded a {
   text-decoration: none; }
+
+@media only screen and (max-width: 740px) {
+  .hhcolumn,
+  .othercontainer,
+  .gendercontainer--camping,
+  .gendercontainer,
+  .brandcontainer {
+    width: 100%;
+    padding-left: 2%; }
+
+  .mmimage--camping {
+    display: none; }
+
+  .phead {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=styles.css.map */

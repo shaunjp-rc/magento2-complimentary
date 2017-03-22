@@ -259,3 +259,53 @@
 }
 
 /* 404 page END */
+
+/* mobile footer */
+@media only screen and (max-width:740px){
+	.column--footer h4{
+	    cursor: pointer;
+	    margin:0;
+	    font-size: 14px;
+	    color:#769fd0;
+	}
+
+	.column--footer {
+    	border-bottom: 1px solid #ddd;
+    	padding: 0.5% 0;
+	}
+
+	.column--footer ul {
+	    display: none;
+	}
+
+	.column--footer ul.isOpen{
+		display:block;
+	}
+
+	.column--footer:before {
+	    content: ' ';
+	    border-style: solid;
+	    border-width: 7px 7px 0 7px;
+	    border-color: #afafaf transparent transparent transparent;
+	    float: right;
+	    margin-top: 1.5%;
+	}
+
+	.column--footer.columnOpen:before {
+	    border-style: solid;
+	    border-width: 0 7px 7px 7px;
+	    border-color: transparent transparent #afafaf transparent;
+	}
+
+	.column--footer ul {
+    	list-style-type: none;
+	}
+
+	.column--footer a {
+    	color: #5f5e5e;
+    	text-decoration: none;
+	}
+
+}
+
+/* mobile footer END */
