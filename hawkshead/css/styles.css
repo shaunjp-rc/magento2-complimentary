@@ -214,7 +214,8 @@
 .flexslider,
 .slides {
   width: 100%;
-  margin-left: 0; }
+  margin-left: 0;
+  z-index: 1 !important; }
 
 .slides li {
   display: table !important;
@@ -895,7 +896,10 @@ p.collectionhighlights__hoverstate--header {
     margin-bottom: 2%; }
 
   .favourites__buttons {
-    padding: 1% 0; } }
+    padding: 1% 0; }
+
+  .sliderstrip__desktop--mobile {
+    display: block; } }
 @media screen and (min-width: 740px) {
   .collection__product-img img {
     width: auto; } }
@@ -1433,8 +1437,10 @@ div#header-account {
 
 .mmcontainer {
   width: 100%;
-  float: left;
-  padding-bottom: 3%; }
+  padding-bottom: 1%;
+  max-width: 1228px;
+  margin: 0 auto;
+  display: table; }
 
 .genderheader {
   background: #6792C8;
@@ -1543,5 +1549,13 @@ div#header-account {
 
 .gendercontainer--camping {
   width: auto; }
+
+.expanded {
+  list-style-type: none;
+  margin: 0;
+  text-align: left; }
+
+.expanded a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
