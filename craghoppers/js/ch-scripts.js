@@ -244,7 +244,7 @@ $j(document).ready(function($) {
 
   //Mega Menu Sub Category Reveals    
     
-   var mmCatHeader = $j('.mmLookbookColumn--links .mmlist li');    
+   var mmCatHeader = $j('.mm__column--lookbook .lookbook__card');    
     
    mmCatHeader.hoverIntent({   
      sensitivity: 18,    
@@ -260,14 +260,18 @@ $j(document).ready(function($) {
          'opacity': '0'    
        }, 200);    
      }   
-   });
+   }); 
 
    /* END */
+
+   /* Footer mobile menu */
 
    $j('[data-target="toggleNextElement"]').click(function(){
       $j(this).next('*').toggleClass('toggleSub');
       $j(this).toggleClass("toggleMain");
     });
+
+   /* END */
  
 
 ////////////////////////////////  
