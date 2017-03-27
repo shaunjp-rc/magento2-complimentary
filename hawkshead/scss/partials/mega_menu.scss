@@ -30,11 +30,6 @@
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 5%;
-}
-
-.mm__column img {
-  margin-top: 5%;
 }
 
 .genderheader {
@@ -48,6 +43,11 @@
     font-size: 22px;
     letter-spacing: 2px;
     margin-bottom: 2%;
+}
+
+.s-main-menu .mm__container .mm__column--collections .columnHead a,
+.s-main-menu .block .category-items a {
+    color: #b2b2b2;
 }
 
 .genderheader.mens {
@@ -66,35 +66,78 @@
     color: #FF685D;
 }
 
-.genderheader.kids {
-    background: #FF685D;
+.genderheader.kids { 
+    background: #9CAC25;
 }
 
-.s-main-menu .mm__container--kids .columnHead a {
-    color: #FF685D;
+.s-main-menu .mm__container--kids .columnHead a,
+.mm__container--kids .columnHead h3 {
+    color: #9CAC25;
 }
 
 .genderheader.camping {
-    background: #FF685D;
+    background: #ffd35e;
 }
 
 .s-main-menu .mm__container--camping .columnHead a {
+    color: #ffd35e;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--footwear {
+   width: 17%;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
+    width: 20%;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--footwear.mm__column--img {
+    width: 27%;
+}
+
+.columnHead.columnHead--mens h3 {
+    color: #2F3051;
+}
+
+.columnHead.columnHead--womens h3 {
     color: #FF685D;
 }
 
-.s-main-menu .mm__container .mm__column--collections .columnHead a {
-    color: #808080;
+.columnHead.columnHead--kids h3 {
+    color: #9CAC25;
 }
 
+.s-main-menu .category-items .mm__column.mm__column--camping {
+    width: 50%;
+}
 
+.s-main-menu .category-items .mm__column.mm__column--fullwidth{
+   width:100%;
+}
+
+.mm__column--img img {
+    width: 100%;
+}
+
+.mm__column.mm__column--camping.mm__column--img img {
+    width: auto;
+}
+
+.mm__column--camping.mm__column--img .columnHead {
+    text-align: center;
+}
 
 
 
 @media only screen and (max-width:740px) {
   
-  .s-main-menu .category-items .mm__column {
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--footwear,
+  .s-main-menu .category-items .mm__column.mm__column--camping {
     width: 100%;
   }
+  
+    
 
   .mm__column img {
     margin-top: 0;
