@@ -1,8 +1,134 @@
-@media screen and (max-width: 739px){
+/*////////////////////////////////*/
+/*/ MEGA MENU                     */
+/*////////////////////////////////*/
 
-h3.mob-only{
+html .s-main-menu .block{
+  padding-bottom:0px;
+}
+#mega-menu.category-items{
+  padding-top:0px; 
+  overflow: hidden; 
+  position: relative;
+}
+#mega-menu h3{
+  margin:10px 0px 5px 0px; 
+}
+#mega-menu ul li h3 a{
+  color:#000000;
+}
+#mega-menu ul li a {
+  padding: 0px; color: #737373;
+}
+#mega-menu .flex-item.col-2 {
+  width: 20%;
+  height: 100%;
+
+}
+#mega-menu ul li.badge a img{
+  max-height:60px;
+}
+#mega-menu .sale:hover {
+  width: 100%; 
+  top: 0px; 
+  transition: all ease 0.2s;
+  right: -20%;
+}
+#mega-menu .sale {
+  background: #c0283f; 
+  position: absolute; 
+  right: -80%;
+  transition: all ease 0.2s;
+  padding-left: 0;
+  width: 100% !important;
+  display: flex;
+}
+#mega-menu .atmos{
+  width: 106%; 
+  height: 510px; 
+  margin-bottom: -10px;
+}
+.category-items{
+  max-height: 518px;
+  overflow: hidden
+}
+#mega-menu .sale a{
+  color: #ddd;
+}
+#mega-menu .sale h3 a{
+  color: #fff;
+}
+#mega-menu .badge img{
+  margin-top: 10px;
+}
+#mega-menu .flex-item.sale:hover{
+  display: flex;
+}
+.mm-sale-preview{
+  width: 20%;
+  background: url(https://d3h1w1ia8q4z9t.cloudfront.net/AW16/images/Mega-Menu/sale-graphic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 120px;
+}
+.mm-shop-by-buttons{
+  opacity: 1;
+  transition: all ease 1.2s;
+  width: 70%;
+  text-align: left;
+  padding-left: 5%;
+  background: rgba(0,0,0,0.1);
+  padding-right: 15%;
+}
+#mega-menu .mm-shop-by-buttons h3{
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  margin: 20px 0 0
+}
+#mega-menu .mm-shop-by-buttons a{
+  max-width: 40px;
+  background: rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 7px 10px;
+  margin: 10px 5px 0 0;
+  border-radius: 4px;
+}
+#mega-menu .mm-shop-by-buttons a.mega-button{
   display: block !important;
-  margin-top: 0;
+  max-width:150px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  background: #000;
+  padding: 10px;
+  border-radius: 4px;
 }
 
+@media screen and (max-width: 1227px){
+  .category-items{
+    max-height: 800px;
+    overflow: hidden;
+  }
+  #mega-menu .flex-item.col-2{
+
+  }
+}
+
+@media screen and (max-width: 990px){
+  #mega-menu .flex-item.col-2.mm-img{
+    display: none
+  }  
+  #mega-menu .flex-item.col-2{
+    width: 25%;
+    padding-left: 0;
+  }
+  #mega-menu .sale{
+    right: -75%
+  }
+  .mm-sale-preview{
+    width: 25%;
+    padding-left: 15px !important;
+  }
+  #mega-menu .sale:hover {
+    right: -5%;
+  }
 }
