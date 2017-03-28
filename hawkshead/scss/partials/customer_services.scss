@@ -2,7 +2,8 @@
 .helpnav {
     float: left;
     width: 100%;
-    background-color: #c9c6bc;
+    background-color: #e8e8e8;
+    margin:1% 0;
 }
 
 .deliveryoptions__img {
@@ -34,8 +35,13 @@
     padding: 0.5%;
 }
 
+.helpmenulinks:first-child {
+    padding-left: 1%;
+}
+
 .helpmenulinks h2 {
     margin-bottom: 0;
+    color: #000;
 }
 
 .cs__helpcontainer--collectplus,
@@ -164,6 +170,27 @@
     background: #dadada;
 }
 
+.cs_nav-banner {
+    background-image: url(https://cdn.hawkshead.com/img/SS17/uk/page/customer_services/helppagebanner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    line-height: 1;
+    padding-top: 15%;
+    padding-left: 1%;
+    padding-bottom: 0%;
+}
+
+.cs_nav-banner span {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1;
+}
+
+.helpmenulinks a {
+    text-decoration: none;
+}
 
 @media only screen and (max-width:1024px) {
     .regattadesktop {

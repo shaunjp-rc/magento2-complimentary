@@ -1031,7 +1031,7 @@ p.deliveryBar__text {
   .flex-direction-nav {
     display: none; } }
 .pageSection--slider {
-  line-height: 0; }
+  line-height: 1; }
 
 ul.fullWidthSlider__slidesList {
   /* need element selector here due to overly specific general style in the theme */
