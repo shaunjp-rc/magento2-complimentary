@@ -86,12 +86,13 @@ html .s-main-menu .block{
   margin: 20px 0 0
 }
 #mega-menu .mm-shop-by-buttons a{
-  max-width: 40px;
+  min-width: 40px;
   background: rgba(0,0,0,0.2);
   text-align: center;
   padding: 7px 10px;
   margin: 10px 5px 0 0;
   border-radius: 4px;
+  width: auto;
 }
 #mega-menu .mm-shop-by-buttons a.mega-button{
   display: block !important;
@@ -131,4 +132,80 @@ html .s-main-menu .block{
   #mega-menu .sale:hover {
     right: -5%;
   }
+}
+
+.s-main-menu .categories>li:last-child a{
+  text-align: left;
+}
+#mega-menu .sale.clearance{
+  right: -90%;
+}
+#mega-menu .sale.clearance:hover{
+  right: -20%;
+}
+.sale.clearance ul{
+  background: #a2172c !important;
+  padding: 0 !important;
+  width: 10%;
+}
+.category-items.clearance{
+  background: #c0283f
+}
+#mega-menu.category-items.clearance li a{
+  color: #ddd;
+}
+#mega-menu.category-items.clearance li h3 a{
+  color: #fff;
+  border-bottom: 2px solid rgba(255,255,255,0.05);
+  padding-bottom: 5px;
+}
+.mm-tab{
+  display: inline-block;
+  width: 32%;
+  margin: 20px 0 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.mm-tab:hover, .mm-tab.active{
+  background: #a2172c 
+}
+.mm-tab:hover ~ div.mm-tab{
+  background: transparent;
+}
+.mm-tab > div{
+  display: none;
+}
+
+.mm-tab:hover > div, .mm-tab.active > div{
+  display: block;
+  position: absolute;
+  background: #a2172c;
+  width: 97%;
+  left: 0;
+  top: 64px;
+  padding: 20px
+}
+
+.mm-tab:hover ~ div.active > div{
+  display: none;
+}
+
+#mm-tabs{
+  position: relative;
+}
+
+.clearance .mm-shop-by-buttons{
+  width: 70% !important;
+  padding: 0 0 0 26px !important
+}
+
+.mm-tab div{
+  text-align: left;
+}
+
+.mm-tab div h3{
+  font-size: 16px;
 }
