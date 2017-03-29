@@ -209,3 +209,59 @@ html .s-main-menu .block{
 .mm-tab div h3{
   font-size: 16px;
 }
+
+@media screen and (max-width: 1060px){
+
+.category-items .flex-item:first-child{
+  display: none;
+}
+
+.category-items .flex-item.col-2{
+  padding: 20px 10px !important;
+  min-height: 500px;
+}
+
+.category-items .flex-item.col-2.sale{
+  padding: 0 !important;
+}
+
+.category-items:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sale.clearance{
+  background: #a2172c !important;
+}
+
+.mm-shop-by-buttons{
+  height: 110%;
+  margin-bottom: 0;
+}
+
+}
+
+@media screen and (max-width: 739px){
+
+#mega-menu ul li a{
+  display: none;
+}
+
+#mega-menu ul li h3 a{
+  display: block;
+  padding-bottom: 8px;
+}
+
+.category-items .flex-item.col-2{
+  float: none;
+  width: 100% !important;
+  min-height: 0;
+  padding: 0 !important;
+}
+
+.s-main-menu .categories > li h3 a:before{
+  top: 6px;
+}
+
+}
