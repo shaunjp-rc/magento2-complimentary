@@ -17,52 +17,10 @@ $j(document).ready(function($) {
         }, 500);
 	}
 
-  // Fit text tool-tip
+  
 
-  if ($j('body').hasClass('catalog-product-view')) {
+
     
-    //get which fit needs to be shown
-    var getFit = $j('.product-clothing-fit a').text().replace(/\s/g, '');
-
-    if(/trousers|Trousers|shorts|Shorts|Skirt|Skirts/.test(productBreadcrumb)) {
-      var getFitType = 'lower';
-    } else {
-      var getFitType = 'upper';
-    }
-
-    // create full variable name
-    var fitTipFull = 'fitTip' + getFit + getFitType;
-
-    // create the appropriate tool tip
-    if (getFit === 'Tailoredfit') {
-      fitTipFull = $j('<div class="fit-tip"><span id="fitTipClose">Close</span><div class="fitGuideDiagrams__block"><img src="//d1khwdv4lze0nb.cloudfront.net/images/AW16/fit-guide/upper-body-tailored-fit.png" class="fitGuideDiagrams__image" /><h3 class="fitGuideDiagrams__fitTitle">Tailored Fit</h2><p class="fitGuideDiagrams__fitDesc">A regular cut slimmer through the chest, waist, hem &amp; sleeve.</p></div></div>');
-    } else if (getFit === 'Adventurefit') {
-      fitTipFull = $j('<div class="fit-tip"><span id="fitTipClose">Close</span><div class="fitGuideDiagrams__block"><img src="//d1khwdv4lze0nb.cloudfront.net/images/AW16/fit-guide/lower-body-adventure-fit.png" class="fitGuideDiagrams__image" /><h3 class="fitGuideDiagrams__fitTitle">Adventure Fit</h2><p class="fitGuideDiagrams__fitDesc">A regular cut with ease of movement sitting below the natural waistline.</p></div></div>');
-    } else if (getFit === 'Activefit' && getFitType === 'upper') {
-      fitTipFull = $j('<div class="fit-tip"><span id="fitTipClose">Close</span><div class="fitGuideDiagrams__block"><img src="//d1khwdv4lze0nb.cloudfront.net/images/AW16/fit-guide/upper-body-active-fit.png" class="fitGuideDiagrams__image" /><h3 class="fitGuideDiagrams__fitTitle">Active Fit</h2><p class="fitGuideDiagrams__fitDesc">Fitted cut with active styling and stretch fabric or detail.</p></div></div>');
-    } else if (getFit === 'Activefit' && getFitType === 'lower') {
-      fitTipFull = $j('<div class="fit-tip"><span id="fitTipClose">Close</span><div class="fitGuideDiagrams__block"><img src="//d1khwdv4lze0nb.cloudfront.net/images/AW16/fit-guide/lower-body-active-fit.png" class="fitGuideDiagrams__image" /><h3 class="fitGuideDiagrams__fitTitle">Active Fit</h2><p class="fitGuideDiagrams__fitDesc">Closer fitting cut with active styling and stretch fabric, sitting lower on the waist.</p></div></div>');
-    } else if (getFit === 'Relaxedfit' && getFitType === 'upper') {
-      fitTipFull = $j('<div class="fit-tip"><span id="fitTipClose">Close</span><div class="fitGuideDiagrams__block"><img src="//d1khwdv4lze0nb.cloudfront.net/images/AW16/fit-guide/upper-body-relaxed-fit.png" class="fitGuideDiagrams__image" /><h3 class="fitGuideDiagrams__fitTitle">Relaxed Fit</h2><p class="fitGuideDiagrams__fitDesc">Generous fit for comfort and freedom of movement.</p></div></div></div>');
-    } else if (getFit === 'Relaxedfit' && getFitType === 'lower') {
-      fitTipFull = $j('<div class="fit-tip"><span id="fitTipClose">Close</span><div class="fitGuideDiagrams__block"><img src="//d1khwdv4lze0nb.cloudfront.net/images/AW16/fit-guide/lower-body-relaxed-fit.png" class="fitGuideDiagrams__image" /><h3 class="fitGuideDiagrams__fitTitle">Relaxed Fit</h2><p class="fitGuideDiagrams__fitDesc">Generous fit for comfort and freedom of movement sitting on the natural waistline.</p></div></div>');
-    }
-    
-
-
-    fitTipFull.appendTo('.product-clothing-fit');
-    
-    $j('.product-clothing-fit a').on('click', function(event){
-      event.preventDefault();
-      fitTipFull.css('display', 'block');
-    });
-
-
-    //generic close tip
-    $j('#fitTipClose').on('click', function() {
-      $j('.fit-tip').css('display', 'none');
-    });
-  }
 
 
   // Homepage Recs
