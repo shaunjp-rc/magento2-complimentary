@@ -601,7 +601,7 @@
   margin: 1% 1% 2% 1%;
   background: white; }
 
-.monetate-recently-viewed {
+.monetate-recently-viewed, .outfit-builder {
   clear: both;
   border: solid 1px #dedede;
   border-radius: 2px;
@@ -613,7 +613,21 @@ html .mt_animate {
 
 .o-region.c-page-wrapper + .o-region .o-region__inner {
   width: 100%;
-  background: #efefef; }
+  background: #efefef;
+  padding: 20px 0px;
+  position: relative;
+  overflow: hidden; }
+
+#wrapper + .o-region .o-region__inner:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0%;
+  width: 100%;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px 0 #b8b8b8;
+  z-index: 1; }
 
 .monetate-container {
   max-width: 1228px;
