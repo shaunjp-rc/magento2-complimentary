@@ -617,8 +617,7 @@ html .mt_animate {
   top: 0; }
 
 .mt_endcap.mt_horizontal {
-  width: 100%;
-  max-width: 1140px; }
+  width: 100%; }
 
 .mt_horizontal .mt_sliderMiddle {
   display: -webkit-flex;
