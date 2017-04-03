@@ -608,13 +608,6 @@
 html .mt_animate {
   margin: 0px; }
 
-.o-region.c-page-wrapper + .o-region .o-region__inner {
-  width: 100%;
-  background: #efefef;
-  padding: 20px 0px;
-  position: relative;
-  overflow: hidden; }
-
 #wrapper + .o-region .o-region__inner:before {
   content: "";
   position: absolute;
@@ -786,7 +779,7 @@ html .mt_animate {
   margin-bottom: 6px;
   overflow: hidden;
   height: 32px;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   color: #676767;
   text-transform: initial; }
