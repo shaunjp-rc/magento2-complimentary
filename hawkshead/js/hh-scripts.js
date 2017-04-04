@@ -45,7 +45,7 @@ requirejs(['jquery'], function( $ ) {
       $j("#cs__button--footwear").removeClass("isActive");
       $j("#cs__button--regatta").removeClass("isActive");
       $j("#cs__button--dare2b").removeClass("isActive");
-    });
+    }); 
 
     $j("#cs__button--regatta").click(function(){
       $j("#sg_regatta").show();
