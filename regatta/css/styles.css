@@ -537,7 +537,7 @@ html .mt_animate {
 .c-tabs.product.info.detailed + .o-region__inner {
   position: relative; }
 
-.c-tabs.product.info.detailed + .o-region__inner:before {
+#wrapper + .c-tabs.product.info.detailed + .o-region__inner:before {
   content: "";
   position: absolute;
   top: -30px;

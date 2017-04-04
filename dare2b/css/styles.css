@@ -611,7 +611,7 @@
 html .mt_animate {
   margin: 0px; }
 
-.o-region.c-page-wrapper + .o-region .o-region__inner {
+#wrapper .o-region.c-page-wrapper + .o-region .o-region__inner {
   width: 100%;
   background: #efefef;
   padding: 20px 0px;
