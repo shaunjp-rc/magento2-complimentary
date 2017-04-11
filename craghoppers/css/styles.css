@@ -430,6 +430,10 @@
     border-style: solid;
     border-width: 0 7px 7px 7px;
     border-color: transparent transparent #afafaf transparent; } }
+/* Banner/SEO */
+.s-text-banner {
+  padding: 0; }
+
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */

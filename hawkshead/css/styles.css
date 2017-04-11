@@ -239,6 +239,54 @@
     color: #5f5e5e;
     text-decoration: none; } }
 /* mobile footer END */
+/* Top level banners */
+.bannercontainer {
+  width: 100%;
+  float: left;
+  height: 180px;
+  background-repeat: no-repeat; }
+
+.bannertext {
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 65px;
+  margin-left: 3%;
+  margin-top: 3%;
+  letter-spacing: 3px; }
+
+.pageintro {
+  float: left;
+  text-align: left; }
+
+.s-text-banner {
+  padding: 0; }
+
+.bannercontainer.mens {
+  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/mens-topbanner.jpg); }
+
+.bannercontainer.womens {
+  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/womens-topbanner.jpg); }
+
+.bannercontainer.kids {
+  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/kids-topbanner.jpg); }
+
+.pageintro p {
+  margin-bottom: 1%; }
+
+.pageintro h1 {
+  text-transform: uppercase;
+  margin: 0.5% 0 0 0; }
+
+.menscatheader {
+  color: #2F3051; }
+
+.kidscatheader {
+  color: #9CAC25; }
+
+.womenscathead {
+  color: #FF685D; }
+
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
