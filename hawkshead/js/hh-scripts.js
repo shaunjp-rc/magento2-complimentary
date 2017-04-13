@@ -82,7 +82,19 @@ requirejs(['jquery'], function( $ ) {
       $j("#column--shop ul").toggleClass("isOpen");
     });
 
+  /* Contact us page - Form pop up */
+    $j('.form_popup').click(function(){
+    $j('.contact__popup').addClass('popup_open');
+    $j('.form_popup').addClass('popup_open');
+    $j('.popup__bg').addClass('popup_open');
+  });
 
+  $j('#form__close').click(function(){
+    $j('.contact__popup').removeClass('popup_open');
+    $j('.form_popup').removeClass('popup_open');
+    $j('.popup__bg').removeClass('popup_open');
+  });
+  /* END */
 
 
 
