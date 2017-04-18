@@ -93,7 +93,7 @@
 .redeye-form .redeye-form > div {
   margin: 1%;
   float: left;
-  width: 48%;
+  width: 31%;
   position: relative; }
 .redeye-form .redeye-form label {
   width: 100%;
@@ -105,8 +105,7 @@
   border: 1px solid #cecece;
   border-radius: 3px; }
 .redeye-form .newsletter, .redeye-form .toggles {
-  width: inherit;
-  clear: both; }
+  width: inherit; }
 .redeye-form .redeye-form button {
   clear: both;
   float: left;
@@ -141,6 +140,26 @@
   width: 20px !important;
   height: 14px !important;
   margin: 10px; }
+.redeye-form .title {
+  clear: both;
+  width: 15%; }
+.redeye-form .first-name {
+  clear: left; }
+.redeye-form .address-1 {
+  clear: both; }
+.redeye-form .postcode {
+  width: 10%; }
+.redeye-form .town {
+  width: 27.3%; }
+.redeye-form .county {
+  width: 27.3%; }
+.redeye-form .country {
+  width: 27.3%; }
+.redeye-form .toggles > label {
+  float: left; }
+.redeye-form .toggles > select {
+  clear: both;
+  float: left; }
 
 .redeye-form > div {
   margin: 1%;
@@ -167,9 +186,9 @@
   border: 0px;
   border-radius: 6px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   html .redeye-form > div {
-    width: 98%; }
+    width: 98% !important; }
 
   html .redeye-form input {
     max-width: 100%; }
@@ -618,7 +637,7 @@ html .mt_animate {
   position: relative;
   overflow: hidden; }
 
-#wrapper + .o-region .o-region__inner:before {
+.page-product-configurable #wrapper + .o-region .o-region__inner:before {
   content: "";
   position: absolute;
   top: -30px;
@@ -819,7 +838,7 @@ html .mt_animate {
 
 .mt_altPrice + .mt_price {
   color: #ba2626;
-  padding: 5px 0px 15px 0px;
+  padding: 5px 5px 15px 5px;
   font-size: 16px; }
 
 /* Partials */

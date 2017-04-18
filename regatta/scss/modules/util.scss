@@ -376,7 +376,7 @@
 html .mt_animate {
     margin: 0px
 }
-#wrapper + .o-region .o-region__inner:before {
+.page-product-configurable #wrapper + .o-region .o-region__inner:before {
     content: "";
     position: absolute;
     top: -30px;
@@ -583,7 +583,7 @@ html .mt_animate {
 }
 .mt_altPrice + .mt_price {
     color: #ba2626;
-    padding: 5px 0px 15px 0px;
+    padding: 5px 5px 15px 5px;
     font-size: 16px;
 }
 .mt_currency {
@@ -591,4 +591,53 @@ html .mt_animate {
 .mt_amount {
 }
 .mt_disabled {
+}
+
+
+/****************************
+/* Redeye Form Styles
+/***************************/
+
+/* Guarantee Page */
+.redeye-form input {
+  width: 100%;
+}
+.redeye-form > div {
+  margin: 1%;
+  width: 48%;
+  float: left;
+}
+.redeye-form .title {
+  clear: both;
+  width: 15%;
+}
+.redeye-form .first-name {
+  clear: left;
+}
+.redeye-form .address-1 {
+  clear: both;
+}
+.redeye-form .postcode {
+  width: 10%;
+}
+.redeye-form .town {
+  width: 27.3%;
+}
+.redeye-form .county {
+  width: 27.3%;
+}
+.redeye-form .country {
+  width: 27.3%;
+}
+.redeye-form .toggles > label {
+  float: left;
+}
+.redeye-form .toggles > select {
+  clear: both;
+  float: left;
+}
+@media only screen and (max-width:767px) {
+    .redeye-form > div {
+        width: 98% !important;
+    }
 }
