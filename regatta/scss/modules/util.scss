@@ -636,3 +636,8 @@ html .mt_animate {
   clear: both;
   float: left;
 }
+@media only screen and (max-width:767px) {
+    .redeye-form > div {
+        width: 98% !important;
+    }
+}
