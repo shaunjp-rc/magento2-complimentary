@@ -54,23 +54,32 @@
 .redeye-form{max-width: 1200px; margin: auto;}
 .invalid{box-shadow: 0px 0px 5px red;}
 .popup{position: absolute;right: 0px;top: -10px;color: red;}
-.redeye-form > div { margin: 1%; float: left; width: 48%; position: relative;}
+.redeye-form > div { margin: 1%; float: left; width: 31%; position: relative;}
 .redeye-form  label { width: 100%;     font-size: 20px;    color: #000000;}
- .redeye-form input { width: 100%; height: 40px; border: 1px solid #cecece; border-radius: 3px; }
- .newsletter,  .toggles { width: inherit; clear: both; }
+.redeye-form input { width: 100%; height: 40px; border: 1px solid #cecece; border-radius: 3px; }
+.newsletter,  .toggles { width: inherit; }
 .redeye-form button{clear: both; float: left; margin: 1%; width: 50%; padding: 20px; background: #000000; color: #ffffff; font-size: 20px; text-transform: uppercase; border: 0px; border-radius: 6px;}
 .newsletter.first{clear:both;}
  .newsletter { clear: none; width: 31%; margin: 1%; border: solid 1px #d0d0d0; padding: 10px; text-align: center; box-shadow: 0px 10px 10px -10px #909090; }
 .form-checkbox { max-width: 18%; text-align: center; border: solid 1px #c5c5c5; padding: 1%; box-shadow: 0px 5px 2px -5px #808080; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; width: 20px !important; height: 14px !important; margin: 10px; }
+.title{clear: both;    width: 15%;}
+.first-name { clear: left;}
+.address-1 { clear: both;}
+.postcode {  width: 10%;}
+.town{ width: 27.3%;}
+.county{ width: 27.3%;}
+.country{ width: 27.3%;}
+.toggles > label{ float: left;}
+.toggles > select{ clear: both; float: left;}
 }
 .redeye-form > div { margin: 1%; float: left; width: 48%; position: relative; } 
 .redeye-form input { width: 100%; height: 40px; border: 1px solid #cecece; border-radius: 3px; } 
 .redeye-form button { clear: both; float: left; margin: 1%; width: 50%; padding: 20px; background: #000000; color: #ffffff; font-size: 20px; text-transform: uppercase; border: 0px; border-radius: 6px; }
 
 
-@media only screen and (max-width: 768px) {
-    html .redeye-form > div { width: 98%; }
+@media only screen and (max-width: 767px) {
+    html .redeye-form > div { width: 98% !important; }
     html .redeye-form input { max-width: 100%; }
     html .redeye-form button { width: 100%;  }
 }
@@ -415,7 +424,7 @@ html .mt_animate {
     position: relative;
     overflow: hidden;
 }
-#wrapper + .o-region .o-region__inner:before {
+.page-product-configurable #wrapper + .o-region .o-region__inner:before {
     content: "";
     position: absolute;
     top: -30px;
@@ -622,7 +631,7 @@ html .mt_animate {
 }
 .mt_altPrice + .mt_price {
     color: #ba2626;
-    padding: 5px 0px 15px 0px;
+    padding: 5px 5px 15px 5px;
     font-size: 16px;
 }
 .mt_currency {
