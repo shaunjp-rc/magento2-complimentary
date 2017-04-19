@@ -612,7 +612,7 @@
 /****************************
 /* Monetate - Endcaps
 /***************************/
-.monetate-product-relationships-one, .monetate-product-relationships-two {
+.page-product-configurable .monetate-product-relationships-one, .monetate-product-relationships-two {
   max-width: 48%;
   float: left;
   border: solid 1px #dedede;
@@ -620,7 +620,7 @@
   margin: 1% 1% 2% 1%;
   background: white; }
 
-.monetate-recently-viewed, .outfit-builder {
+.page-product-configurable .monetate-recently-viewed, .outfit-builder {
   clear: both;
   border: solid 1px #dedede;
   border-radius: 2px;
@@ -998,10 +998,23 @@ html .mt_animate {
 /* Email Sign Up
 /***************************/
 #email-sign-up.cms-page h1 {
-  font-size: 8vh; }
+  background: #343334;
+  padding: 20px;
+  color: #ffffff; }
 
 #email-sign-up.cms-page {
   display: table; }
+
+/****************************
+/* Register Guarantee
+/***************************/
+#register-guarantee {
+  display: inline-block; }
+
+#register-guarantee h1 {
+  background: #343334;
+  padding: 20px;
+  color: #ffffff; }
 
 /****************************
 /* Delivery Page
@@ -1041,9 +1054,12 @@ html .mt_animate {
   text-align: center;
   display: table;
   width: 100%; }
+#delivery .small {
+  width: initial; }
 
 #delivery .cms-page .content img {
-  width: initial; }
+  width: initial;
+  display: block; }
 
 /****************************
 /* Cycle Padding Page
@@ -1062,6 +1078,12 @@ html .mt_animate {
 #cycle-padding .overlay-banner .overlay-text {
   color: #ffffff;
   font-size: 4vw; }
+
+/****************************
+/* Terms
+/***************************/
+#terms img {
+  width: initial; }
 
 /****************************
 /* Contact Us Page
@@ -1088,12 +1110,17 @@ html .mt_animate {
 /****************************
 /* About Us Page
 /***************************/
+#about-us {
+  text-align: center; }
+
 #about-us .page-content img {
   padding: 5px; }
 #about-us .overlay-banner h1 {
   color: #ffffff;
   height: 10vh;
   font-size: 10vh; }
+#about-us h1 {
+  color: #b7262d; }
 
 @media only screen and (max-width: 600px) {
   #about-us .overlay-banner h1 {

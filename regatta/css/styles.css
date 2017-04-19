@@ -486,7 +486,7 @@
 /****************************
 /* Monetate - Endcaps
 /***************************/
-.monetate-product-relationships-one, .monetate-product-relationships-two {
+.page-product-configurable .monetate-product-relationships-one, .monetate-product-relationships-two {
   max-width: 48%;
   float: left;
   border: solid 1px #dedede;
@@ -494,7 +494,7 @@
   margin: 1% 1% 2% 1%;
   background: white; }
 
-.monetate-recently-viewed, .outfit-builder {
+.page-product-configurable .monetate-recently-viewed, .outfit-builder {
   clear: both;
   border: solid 1px #dedede;
   border-radius: 2px;
@@ -1099,6 +1099,7 @@ html .s-main-menu .block {
     float: none;
     width: 100%; } }
 /*//////////////////////////
+
 /* About Us Page
 /*/
 .overlay-banner .overlay-text span {
@@ -1116,6 +1117,7 @@ html .s-main-menu .block {
   font-size: 20px; }
 
 /*//////////////////////////
+
 /* Garment Care Page
 /*/
 .cms-garment-care .o-region__inner.main {
@@ -1127,6 +1129,7 @@ html .s-main-menu .block {
   box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.5); }
 
 /*//////////////////////////
+
 /* Jackets Guide Page
 /*/
 #jackets-buying-guide .flex-container > div {
@@ -1140,6 +1143,7 @@ html .s-main-menu .block {
   max-width: 400px; }
 
 /*//////////////////////////
+
 /* Tents Guide Page
 /*/
 #tent-buying-guide .overlay-banner, #tent-buying-guide .tent-img {
@@ -1166,6 +1170,7 @@ html .s-main-menu .block {
   background: #eee; }
 
 /*//////////////////////////
+
 /* Boots Guide Page
 /*/
 #boots-buying-guide .arrow-button {
@@ -1181,6 +1186,7 @@ html .s-main-menu .block {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); }
 
 /*//////////////////////////
+
 /* Down Guide Page
 /*/
 #down-guides > img {
@@ -1200,10 +1206,31 @@ html .s-main-menu .block {
   #down-guides .flex-item.col-3 img {
     display: none; } }
 /*//////////////////////////
+
 /* Email Sign Up Page
 /*/
+#email-signup-page .redeye-form > div {
+  width: 100%; }
+#email-signup-page .redeye-form > div > div {
+  width: 48%;
+  margin: 1%;
+  float: left; }
+#email-signup-page .optionSelect > div {
+  width: 115px;
+  margin: 10px;
+  float: left;
+  background: #dadada;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px; }
+
+@media screen and (max-width: 767px) {
+  .redeye-form > div > div {
+    width: 100%; } }
 #email-signup-page .flex-item {
-  margin: 5px 0; }
+  margin: 5px 0;
+  display: inline-block;
+  width: 100%; }
 
 #email-signup-page form > div:first-child label {
   display: block; }
@@ -1215,6 +1242,7 @@ html .s-main-menu .block {
   margin: 10px; }
 
 /*//////////////////////////
+
 /* Reg Guarantee Up Page
 /*/
 #register-guarantee-page .newsletter.text {
@@ -1225,6 +1253,7 @@ html .s-main-menu .block {
   display: inline-block; }
 
 /*//////////////////////////
+
 /* Camp Guarantee Up Page
 /*/
 #camping-gurantee-page .newsletter.text {
