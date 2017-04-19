@@ -596,7 +596,7 @@
 /****************************
 /* Monetate - Endcaps
 /***************************/
-.page-product-configurable .monetate-product-relationships-one, .monetate-product-relationships-two {
+.page-product-configurable .monetate-product-relationships-one, .page-product-configurable .monetate-product-relationships-two {
   max-width: 48%;
   float: left;
   border: solid 1px #dedede;
@@ -604,7 +604,7 @@
   margin: 1% 1% 2% 1%;
   background: white; }
 
-.page-product-configurable .monetate-recently-viewed, .outfit-builder {
+.page-product-configurable .monetate-recently-viewed, .page-product-configurable .outfit-builder {
   clear: both;
   border: solid 1px #dedede;
   border-radius: 2px;
