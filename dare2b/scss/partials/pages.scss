@@ -1,104 +1,285 @@
 /****************************
 /* Garment Care
 /***************************/
-#garment-care{
-    .flex-item {      text-align: center;  padding: 50px !important;}
-    .flex-item.col-6:nth-child(1) h2, .flex-item.col-6:nth-child(4) h2, .flex-item.col-6:nth-child(1) span, .flex-item.col-6:nth-child(4) span { color:#ffffff;}
-    .flex-item > img { max-width: 60px; }
-    .flex-item.col-6:nth-child(1), .flex-item.col-6:nth-child(4){    background: #0081c6;}
-    .background-container > h2{    font-size: 4vw;    text-align: center;}
-    .page-content img{padding: 5px;}
-    .overlay-banner h1 {color:#ffffff; height: 10vh; font-size: 10vh; }
+#garment-care {
+  .flex-item {
+    text-align: center;
+    padding: 50px !important;
+  }
+  .flex-item.col-6:nth-child(1) h2, .flex-item.col-6:nth-child(4) h2, .flex-item.col-6:nth-child(1) span, .flex-item.col-6:nth-child(4) span {
+    color: #ffffff;
+  }
+  .flex-item > img {
+    max-width: 60px;
+  }
+  .flex-item.col-6:nth-child(1), .flex-item.col-6:nth-child(4) {
+    background: #0081c6;
+  }
+  .background-container > h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .page-content img {
+    padding: 5px;
+  }
+  .overlay-banner h1 {
+    color: #ffffff;
+    height: 10vh;
+    font-size: 10vh;
+  }
 }
-
-@media only screen and (max-width: 600px) {
-  #garment-care{
-    .overlay-banner h1 { height: 5vh; font-size: 5vh; }
+@media only screen and (max-width:600px) {
+  #garment-care {
+    .overlay-banner h1 {
+      height: 5vh;
+      font-size: 5vh;
+    }
   }
 }
 
 /****************************
 /* Jackets Buying Guide
 /***************************/
-#jackets-buying-guide{
-  .flex-container .flex-container {max-width: 50%; float: left; text-align: center;}
-  #three .flex-container, #four .flex-container  { max-width: 100%;     width: 100%;}
-  .toggle-content {text-align: center;}
-  .flex-container.action-toggle h2{background: #343334; color: #ffffff; padding: 20px; text-align: center; font-size: 25px;     clear: both;}
+#jackets-buying-guide {
+  .flex-container .flex-container {
+    max-width: 50%;
+    float: left;
+    text-align: center;
+  }
+  #three .flex-container, #four .flex-container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .toggle-content {
+    text-align: center;
+  }
+  .flex-container.action-toggle h2 {
+    background: #343334;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    clear: both;
+  }
 }
 
 /****************************
 /* Offers Hub
 /***************************/
-#offers-hub{
-  .overlay-text {font-size: 9vh; color: #ffffff;}
-  .overlay-text strong{    border-bottom: solid 5px #ffffff;}
+#offers-hub {
+  .overlay-text {
+    font-size: 9vh;
+    color: #ffffff;
+  }
+  .overlay-text strong {
+    border-bottom: solid 5px #ffffff;
+  }
 }
 
 /****************************
 /* Fabrics
 /***************************/
-#fabric{
-  .toggle-button{    background: #333333;    color: #ffffff;    padding: 30px;}
-  .toggle-button:hover{ background: #333333; box-shadow: inset 0px 30px 40px rgba(68, 68, 68, 0.59);}
-  .toggle-button::after { border-color: #fff transparent transparent transparent;  right: 30px; top: 50%;  }
-  .overlay-banner .overlay-text{color:#ffffff;     font-size: 4vw;}
-   h2 img{width: initial; display: block;     margin: auto;}
-   h2{text-align:center;    padding: 30px 60px;}
-   .flex-container img{    width: initial;}
-   .flex-container{    background: #f2f2f2;    padding: 20px;}
+#fabric {
+  .toggle-button {
+    background: #333333;
+    color: #ffffff;
+    padding: 30px;
+  }
+  .toggle-button:hover {
+    background: #333333;
+    box-shadow: inset 0px 30px 40px rgba(68, 68, 68, 0.59);
+  }
+  .toggle-button::after {
+    border-color: #fff transparent transparent transparent;
+    right: 30px;
+    top: 50%;
+  }
+  .overlay-banner .overlay-text {
+    color: #ffffff;
+    font-size: 4vw;
+  }
+  h2 img {
+    width: initial;
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+    padding: 30px 60px;
+  }
+  .flex-container img {
+    width: initial;
+  }
+  .flex-container {
+    background: #f2f2f2;
+    padding: 20px;
+  }
 }
 
 /****************************
 /* Email Sign Up
 /***************************/
-#email-sign-up.cms-page h1{    font-size: 8vh;}
-#email-sign-up.cms-page{    display: table;}
+#email-sign-up.cms-page h1 {
+  background: #343334;
+  padding: 20px;
+  color: #ffffff;
+}
+#email-sign-up.cms-page {
+  display: table;
+}
+
+/****************************
+/* Register Guarantee
+/***************************/
+#register-guarantee {
+  display: inline-block;
+}
+#register-guarantee {
+  h1 {
+    background: #343334;
+    padding: 20px;
+    color: #ffffff;
+  }
+}
 
 /****************************
 /* Delivery Page
 /***************************/
-#delivery{
-   section h1 { color: #ffffff;  background: #222222; padding: 10px; text-align: center; margin: 10px 0px 0px 0px;  }
-   table{width:100%;}
-   table tr:first-child td{ color:#ffffff;     background: #0080c5;}
-   table td{padding:10px; border:solid 1px #000000;}
-   .collectPlus h1 img {margin: 0px auto 10px auto; display:block;}
-   .collectPlusInformation img{float:left;}
-   .collectPlusInformation span{float:left; max-width:80%}
-   .collectPlusInformation div { width: 100%; clear: both; }
-   .collectPlusInformation {float: left; width: 100%;}
-   section h2 { color: #ffffff; background: #222222; padding: 10px; text-align: center; display: table; width: 100%; }
+#delivery {
+  section h1 {
+    color: #ffffff;
+    background: #222222;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
+  table {
+    width: 100%;
+  }
+  table tr:first-child td {
+    color: #ffffff;
+    background: #0080c5;
+  }
+  table td {
+    padding: 10px;
+    border: solid 1px #000000;
+  }
+  .collectPlus h1 img {
+    margin: 0px auto 10px auto;
+    display: block;
+  }
+  .collectPlusInformation img {
+    float: left;
+  }
+  .collectPlusInformation span {
+    float: left;
+    max-width: 80%
+  }
+  .collectPlusInformation div {
+    width: 100%;
+    clear: both;
+  }
+  .collectPlusInformation {
+    float: left;
+    width: 100%;
+  }
+  section h2 {
+    color: #ffffff;
+    background: #222222;
+    padding: 10px;
+    text-align: center;
+    display: table;
+    width: 100%;
+  }
+  .small {
+    width: initial;
+  }
 }
-#delivery  .cms-page .content img{       width: initial;}
+#delivery  .cms-page .content img {
+  width: initial;
+  display: block;
+}
 
 /****************************
 /* Cycle Padding Page
 /***************************/
-#cycle-padding{
-  .toggle-button{    background: #333333;    color: #ffffff;    padding: 30px;}
-  .toggle-button:hover{ background: #333333; box-shadow: inset 0px 30px 40px rgba(68, 68, 68, 0.59);}
-  .toggle-button::after { border-color: #fff transparent transparent transparent;  right: 30px; top: 50%;  }
-  .overlay-banner .overlay-text{color:#ffffff;     font-size: 4vw;}
+#cycle-padding {
+  .toggle-button {
+    background: #333333;
+    color: #ffffff;
+    padding: 30px;
+  }
+  .toggle-button:hover {
+    background: #333333;
+    box-shadow: inset 0px 30px 40px rgba(68, 68, 68, 0.59);
+  }
+  .toggle-button::after {
+    border-color: #fff transparent transparent transparent;
+    right: 30px;
+    top: 50%;
+  }
+  .overlay-banner .overlay-text {
+    color: #ffffff;
+    font-size: 4vw;
+  }
+}
+
+/****************************
+/* Terms
+/***************************/
+#terms {
+  img {
+    width: initial;
+  }
 }
 
 /****************************
 /* Contact Us Page
 /***************************/
-#contact-us  .maps h2 {    background: #343334;    color: #ffffff;    padding: 20px;    text-align: center;}
-#contact-us.cms-page h2 { background: #343334; color: #ffffff; padding: 20px; text-align: center;     margin: 20px 0px 20px 0px;}
-#contact-us.cms-page { text-align: center; }
-#contact-us.cms-page h1{    font-size: 8vh;}
+#contact-us  .maps h2 {
+  background: #343334;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+#contact-us.cms-page h2 {
+  background: #343334;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+#contact-us.cms-page {
+  text-align: center;
+}
+#contact-us.cms-page h1 {
+  font-size: 8vh;
+}
 
 /****************************
 /* About Us Page
 /***************************/
-#about-us{
-  .page-content img{padding: 5px;}
-  .overlay-banner h1 {color:#ffffff; height: 10vh; font-size: 10vh; }
+#about-us {
+  text-align: center;
 }
-@media only screen and (max-width: 600px) {
-  #about-us{
-    .overlay-banner h1 { height: 5vh; font-size: 5vh; }
+#about-us {
+  .page-content img {
+    padding: 5px;
+  }
+  .overlay-banner h1 {
+    color: #ffffff;
+    height: 10vh;
+    font-size: 10vh;
+  }
+  h1 {
+    color: #b7262d;
+  }
+}
+@media only screen and (max-width:600px) {
+  #about-us {
+    .overlay-banner h1 {
+      height: 5vh;
+      font-size: 5vh;
+    }
   }
 }
