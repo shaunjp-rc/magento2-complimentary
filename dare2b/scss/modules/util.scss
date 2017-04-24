@@ -424,7 +424,7 @@ html .mt_animate {
     position: relative;
     overflow: hidden;
 }
-.page-product-configurable #wrapper + .o-region .o-region__inner:before {
+.page-product-configurable #wrapper .o-region .o-region__inner:before {
     content: "";
     position: absolute;
     top: -30px;
@@ -457,7 +457,7 @@ html .mt_animate {
 .c-tabs.product.info.detailed + .o-region__inner {
     position: relative;
 }
-.c-tabs.product.info.detailed + .o-region__inner:before {
+.page-product-configurable .c-tabs.product.info.detailed + .o-region__inner:before {
     content: "";
     position: absolute;
     top: -30px;
