@@ -647,7 +647,7 @@ html .mt_animate {
 .c-tabs.product.info.detailed + .o-region__inner {
   position: relative; }
 
-#wrapper + .c-tabs.product.info.detailed + .o-region__inner:before {
+.page-product-configurable #wrapper .c-tabs.product.info.detailed + .o-region__inner:before {
   content: "";
   position: absolute;
   top: -30px;
