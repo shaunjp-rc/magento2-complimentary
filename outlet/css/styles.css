@@ -382,6 +382,60 @@
   background: rgba(0, 0, 0, 0.2); }
 
 /****************************
+/* Basket Page Block
+/***************************/
+#basket-promo {
+  max-width: 48%;
+  margin: 1%;
+  float: left; }
+
+#basket-promo.returns span {
+  max-width: 85%;
+  margin: 0; }
+
+#basket-promo li {
+  display: block;
+  float: left; }
+
+#basket-promo li img {
+  max-width: 40px;
+  margin: 10px;
+  float: left; }
+
+#basket-promo li h3 {
+  padding: 10px 0px;
+  color: #000000;
+  margin: 0;
+  float: left;
+  border-bottom: solid 1px #eaeaea;
+  width: calc(100% - 60px); }
+
+#basket-promo span {
+  padding: 5px 0px;
+  display: block;
+  float: left;
+  margin: 0px 0px 0px 60px; }
+
+@media only screen and (max-width: 989px) {
+  #basket-promo {
+    max-width: 90%; }
+
+  .delivery-basket-container {
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll; } }
+@media only screen and (max-width: 739px) {
+  .delivery-basket-container {
+    max-height: none;
+    overflow-x: visible;
+    overflow-y: visible; }
+
+  #basket-promo {
+    max-width: 100%; }
+
+  #basket-promo li {
+    width: 100%; } }
+/****************************
 /* Wrapper Styles
 /***************************/
 .content-wrapper {
