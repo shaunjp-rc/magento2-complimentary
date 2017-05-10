@@ -3046,5 +3046,7 @@ a.micro-product__button {
 
   .mm__column--img {
     display: none; } }
+.s-main-menu .categories ul.mm__column li a {
+  text-align: left; }
 
 /*# sourceMappingURL=styles-us.css.map */
