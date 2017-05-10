@@ -1565,6 +1565,9 @@ div#form__close {
 
   .mm__column--img {
     display: none; } }
+.s-main-menu .categories ul.mm__column li a {
+  text-align: left; }
+
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
