@@ -631,10 +631,15 @@
 }
 
 /* Lower SEO styles */
-.pageothertext {
+.pageothertext,
+.s-text-banner {
     width: 100%;
     max-width: 1228px;
     margin: 0 auto; 
     text-align: left;
 }
 /* END */
+
+.s-text-banner h1 {
+    font-weight: 700;
+}
