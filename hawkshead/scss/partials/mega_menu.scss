@@ -47,7 +47,7 @@
 
 .s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
-    color: #b2b2b2;
+    color: #b2b2b2 !important;
 }
 
 .genderheader.mens {
@@ -55,7 +55,7 @@
 }
 
 .s-main-menu .mm__container--mens .columnHead a {
-    color: #2F3051;
+    color: #2F3051 !important;
 }
 
 .genderheader.womens {
@@ -63,7 +63,7 @@
 }
 
 .s-main-menu .mm__container--womens .columnHead a {
-    color: #FF685D;
+    color: #FF685D !important;
 }
 
 .genderheader.kids { 
@@ -72,7 +72,7 @@
 
 .s-main-menu .mm__container--kids .columnHead a,
 .mm__container--kids .columnHead h3 {
-    color: #9CAC25;
+    color: #9CAC25 !important;
 }
 
 .genderheader.camping {
