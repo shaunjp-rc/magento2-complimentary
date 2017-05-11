@@ -1,6 +1,10 @@
 /*//////////////////////////
 /* Footer Block Links
 /*////////////////////////*/
+.page-product-configurable #basket-promo {
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 739px) {
   .mobile-footer-links h4::before {
       content: "+";
