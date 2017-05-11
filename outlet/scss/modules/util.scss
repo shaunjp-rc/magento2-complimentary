@@ -444,7 +444,10 @@
     overflow-y: scroll;
   }
 
-.basket-container-promo-block {    position: relative;}
+.basket-container-promo-block { 
+    position: relative;
+}
+
 .basket-container-promo-block:before {
     content: " ";
     background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-up.svg);
