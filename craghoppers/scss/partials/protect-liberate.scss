@@ -1,0 +1,323 @@
+/* Protect Liberate Campaign */
+
+/* Started all classes with pl- so can be dumped in new system */
+.pl-half {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.pl-third {
+	float: left;
+	width: 32.24%;
+}
+
+.pl-third:nth-child(2) {
+	margin: 0 1.64%;
+}
+
+.pl-wrapper {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.pl-wrapper--inner {
+	float: left;
+	width: 100%;
+}
+
+.std .pl-wrapper p,
+.pl-wrapper img,
+.pl-third img {
+	width: 100%;
+}
+
+.pl-wrapper h1 span {
+	color: #961915;
+}
+
+.pl-wrapper h1 {
+	font-size: 40px;
+	margin: 2% 0;
+}
+
+.pl-text-margin {
+	margin-bottom: 3%;
+}
+
+.pl-text-font {
+	font-size: 32px;
+	font-family: Georgia, Times, "Times New Roman", serif !important; /* important overwrites helvetica */
+}
+
+.pl-georgia {
+	font-family: Georgia, Times, "Times New Roman", serif !important; /* important overwrites helvetica */
+}
+
+.std p.pl-apex-text {
+	width: 65%;
+	margin: 22% auto 4%;
+	font-size: 26px;
+	font-style: italic;
+}
+
+.pl-img__text {
+	text-decoration: underline;
+	width: 100%;
+	color: #fff;
+	float: left;
+	font-weight: bold;
+	margin-top: 55%;
+}
+
+.pl-img__container--men .pl-img__text {
+	margin-top: 56%;
+	margin-bottom: 30%;
+}
+
+.pl-img__container--women .pl-img__text {
+	margin-top: 61%;
+	margin-bottom: 29%;
+}
+
+.std p.pl-midas__text {
+	width: 80%;
+	margin: 0 auto;
+	clear: both;
+	margin-top: 15%;
+	display: inline-block;
+	font-size: 26px;
+}
+
+.pl-wrapper--inner--cragsworld {
+	background-image: url('https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/ThisIsCraghoppersWorld.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.std .pl-wrapper--inner--cragsworld p {
+	color: white;
+	font-size: 50px;
+	margin: 12.9% 0;
+}
+
+.pl-half--background {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/IconBG-Text.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.std .pl-half--background p {
+	color: #fff;
+	width: 88%;
+	margin: 25.5% auto;
+	font-size: 26px;
+}
+
+.std p.pl-text-liberate {
+	font-style: italic;
+	display: inline-block;
+	margin: 4% 0;
+}
+
+.pl-range-button {
+	display: inline-block;
+	text-transform: uppercase;
+	border: 2px solid #000;
+	font-size: 18px;
+	padding: 0.8% 0;
+	font-weight: bold;
+	margin: 3% 8% 0 8%;
+	width: 25%;
+	min-width: 250px;
+}
+
+.std p.pl-gender-head {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin: 5% 0;
+}
+
+.pl-button {
+	border: 2px solid #000;
+	margin-top: 6%;
+	padding: 3% 0%;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.std .pl-wrapper--inner--social img {
+	display: inline-block;
+	max-width: 70px;
+	margin: 0 3%;
+}
+
+.std p.pl-text-social {
+	font-style: italic;
+	margin: 4% 0 3% 0;
+}
+
+.pl-wrapper--inner--social {
+	margin-bottom: 2%;
+}
+
+.pl-product {
+	position: relative;
+}
+
+.pl-product--text {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pl-img__container {
+	position: relative;
+}
+
+.pl-product--card-out {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.pl-product--card--inn {
+	display: table-cell;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pl-cragsworld {
+	color: #fff;
+	font-size: 45px;
+}
+
+.pl-icon-text {
+	color: #fff;
+	width: 75%;
+	display: table;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width:1240px) {
+	.std .pl-wrapper--inner--cragsworld p {
+		font-size: 4.05vw;
+	}
+
+	.std p.pl-apex-text,
+	.std p.pl-midas__text,
+	.std .pl-half--background p {
+		font-size: 2.1vw;
+	}
+
+	.std p.pl-text-liberate {
+		font-size: 2.62vw;
+	}
+
+}
+
+@media only screen and (max-width:767px) {
+	.pl-wrapper--inner--cragsworld {
+		background-image: url('https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/ThisIsCraghoppersWorld-MOBILE.jpg');
+		background-size: contain;
+	}
+
+	.pl-half--background {
+		background-size: cover;
+		padding: 1%;
+	}
+
+	.std .pl-half--background p {
+		margin: 27% auto;
+	}
+
+	.std p.pl-apex-text {
+		margin: 6% auto 4%;
+	}
+
+	.std p.pl-midas__text {
+		margin-top: 7%;
+	}
+
+	.pl-third:nth-child(2) {
+		margin: 0 0 0 1.64%;
+	}
+
+	.pl-third {
+		float: left;
+		width: 49%;
+	}
+
+	.pl-third:nth-child(3) {
+		margin-top: 3%;
+	}
+
+	.std p.pl-apex-text,
+	.std p.pl-midas__text,
+	.std .pl-half--background p {
+		font-size: 16px;
+	}
+
+	.std .pl-wrapper--inner--cragsworld p {
+		margin: 28.53% 0;
+	}
+
+	.pl-wrapper {
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.pl-half {
+		width: 100%;
+		float: left;
+	}
+
+	.pl-half--video {
+		display: none;
+	}
+
+	.pl-cragsworld {
+		font-size: 4.5vw;
+	}
+
+}
+
+@media only screen and (max-width:700px) {
+	.pl-wrapper h1 {
+		font-size: 5.5vw;
+	}
+
+}
+
+@media only screen and (max-width:480px) {
+	.pl-icon-text {
+		font-size: 4vw;
+	}
+
+	.pl-range-button {
+		margin: 3% 0;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width:420px) {
+	.pl-third {
+		width: 100%;
+	}
+
+	.pl-third:nth-child(2) {
+		margin: 3% 0 0 0;
+	}
+
+}
+
+/* END */
