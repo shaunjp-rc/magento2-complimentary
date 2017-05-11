@@ -1,6 +1,10 @@
 /*//////////////////////////
 /* Footer Block Links
 /*////////////////////////*/
+.page-product-configurable #basket-promo {
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 739px) {
   .mobile-footer-links h4::before {
       content: "+";
@@ -38,4 +42,60 @@
   .mobile-footer-links .toggleMain + ul li a{
     color:#606060;
   }
+}
+
+/*//////////////////////////
+/* Footer Block Links
+/*////////////////////////*/
+
+.s-text-banner{
+  padding: 0;
+}
+#top-level-cat-banner{
+  padding: 6px 6px 0;
+  background: #eee;
+}
+#top-level-cat-banner:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+#top-level-cat-banner-img{
+  float: left;
+  width: 40%;
+}
+#top-level-cat-banner-text{
+  float: right;
+  width: 60%;
+  text-align: left;
+  padding: 10px 30px;
+}
+
+#top-level-cat-banner-text li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 6px 10px 0 0;
+}
+
+#top-level-cat-banner-text ul{
+  padding: 0;
+  margin: 0;
+}
+
+#top-level-cat-banner-text li a{
+  color: #333;
+}
+
+@media screen and (max-width: 989px){
+
+#top-level-cat-banner-img{
+  display: none;
+}
+
+#top-level-cat-banner-text{
+  width: 100%;
+  padding: 20px
+}
+
 }
