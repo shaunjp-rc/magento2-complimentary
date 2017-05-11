@@ -279,13 +279,52 @@
   margin: 0.5% 0 0 0; }
 
 .menscatheader {
-  color: #2F3051; }
+  color: #2F3051;
+  text-align: left; }
 
 .kidscatheader {
-  color: #9CAC25; }
+  color: #9CAC25;
+  text-align: left; }
 
 .womenscathead {
+  color: #FF685D;
+  text-align: left; }
+
+.seo_container,
+.pageothertext {
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto;
+  text-align: left; }
+
+.banner__title,
+.banner__text,
+.s-text-banner p {
+  text-align: left; }
+
+.banner__title {
+  color: #6792C8; }
+
+.banner__title.mens {
+  color: #2F3051; }
+
+.banner__title.womens {
   color: #FF685D; }
+
+.banner__title.kids {
+  color: #9CAC25; }
+
+.bannertext.footwearacc {
+  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 42px;
+  margin-left: 4%;
+  margin-top: 3.8%;
+  letter-spacing: 3px;
+  width: 32%;
+  line-height: 1.2; }
 
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
@@ -1657,26 +1696,26 @@ div#header-account {
 
 .s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
-  color: #b2b2b2; }
+  color: #b2b2b2 !important; }
 
 .genderheader.mens {
   background: #2F3051; }
 
 .s-main-menu .mm__container--mens .columnHead a {
-  color: #2F3051; }
+  color: #2F3051 !important; }
 
 .genderheader.womens {
   background: #FF685D; }
 
 .s-main-menu .mm__container--womens .columnHead a {
-  color: #FF685D; }
+  color: #FF685D !important; }
 
 .genderheader.kids {
   background: #9CAC25; }
 
 .s-main-menu .mm__container--kids .columnHead a,
 .mm__container--kids .columnHead h3 {
-  color: #9CAC25; }
+  color: #9CAC25 !important; }
 
 .genderheader.camping {
   background: #ffd35e; }
