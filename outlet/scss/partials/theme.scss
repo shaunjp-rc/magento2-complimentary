@@ -97,3 +97,29 @@
 }
 
 }
+
+/*//////////////////////////
+/* HEADER
+/*////////////////////////*/
+
+.c-header{
+  background: #fff
+}
+
+.s-header-links .links>li,.s-header-links .links>li>a, .s-header-links .links>li>a:active, .s-header-links .links>li>a:focus, .s-header-links .links>li>a:hover, .s-header-links .links>li>a:visited{
+  color: #333;
+}
+.c-currency-switcher__link{
+  color: #333
+}
+.c-currency-switcher__link:before {
+    border-color: #333 transparent transparent;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.c-header--sticky{
+  background: #fff;
+}

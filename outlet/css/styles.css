@@ -1036,6 +1036,28 @@ html .mt_animate {
   #top-level-cat-banner-text {
     width: 100%;
     padding: 20px; } }
+/*//////////////////////////
+/* HEADER
+/*/
+.c-header {
+  background: #fff; }
+
+.s-header-links .links > li, .s-header-links .links > li > a, .s-header-links .links > li > a:active, .s-header-links .links > li > a:focus, .s-header-links .links > li > a:hover, .s-header-links .links > li > a:visited {
+  color: #333; }
+
+.c-currency-switcher__link {
+  color: #333; }
+
+.c-currency-switcher__link:before {
+  border-color: #333 transparent transparent;
+  border-top-color: black;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent; }
+
+.c-header--sticky {
+  background: #fff; }
+
 @media screen and (max-width: 739px) {
   h3.mob-only {
     display: block !important;
