@@ -1058,6 +1058,26 @@ html .mt_animate {
 .c-header--sticky {
   background: #fff; }
 
+.c-header-search .c-header-search__input {
+  background: #e0e0e0;
+  padding-top: 0 !important; }
+
+.c-header-search .c-input-wrap__icon {
+  background-color: #9c9c9c;
+  margin: 0; }
+
+.c-mini-cart-btn__items {
+  background: #bd0924; }
+
+.c-mini-cart-btn {
+  background: #d32526; }
+
+.c-mini-cart-btn__price:after {
+  width: 0px; }
+
+.c-header__logo {
+  padding: 10px; }
+
 @media screen and (max-width: 739px) {
   h3.mob-only {
     display: block !important;
