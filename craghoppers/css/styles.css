@@ -3461,9 +3461,18 @@ a.micro-product__button {
   display: table;
   margin: 0 auto; }
 
+.pl-half--video iframe {
+  width: 100%;
+  max-height: 420px;
+  height: 420px; }
+
 @media only screen and (max-width: 1240px) {
   .std .pl-wrapper--inner--cragsworld p {
-    font-size: 4.05vw; }
+    font-size: 4.05vw;
+    color: #fff;
+    width: 75%;
+    display: table;
+    margin: 0 auto; }
 
   .std p.pl-apex-text,
   .std p.pl-midas__text,
@@ -3471,7 +3480,10 @@ a.micro-product__button {
     font-size: 2.1vw; }
 
   .std p.pl-text-liberate {
-    font-size: 2.62vw; } }
+    font-size: 2.62vw; }
+
+  .pl-half--video iframe {
+    height: 34vw; } }
 @media only screen and (max-width: 767px) {
   .pl-wrapper--inner--cragsworld {
     background-image: url("https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/ThisIsCraghoppersWorld-MOBILE.jpg");
@@ -3509,6 +3521,15 @@ a.micro-product__button {
     margin: 28.53% 0; }
 
   .pl-wrapper {
+    float: none;
+    width: 70%;
+    margin: 0 auto; }
+
+  .pl-half {
+    width: 100%;
+    float: left; }
+
+  .pl-half--video {
     float: none;
     width: 70%;
     margin: 0 auto; }
