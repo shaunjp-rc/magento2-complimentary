@@ -21,7 +21,7 @@
 .u-lastElement {
 	margin-bottom: 2vw;
 }
-
+ 
 /* Generic Layout */
 
 .pageSection,
@@ -630,6 +630,10 @@
     padding: 0;
 }
 
+.s-text-banner h1{
+	font-weight:700;
+}
+
 /* Lower SEO styles */
 .pageothertext,
 .s-text-banner {
@@ -640,6 +644,124 @@
 }
 /* END */
 
-.s-text-banner h1 {
+.bannerOverlay__cta--SaleBttn:hover {
+    background: #ff0000;
+}
+
+/* Competition Form */
+.cms-competition-form .toggles label,
+.cms-competition-form .toggles select {
+    width: 100%;
+}
+
+.cms-competition-form .redeye-form .input-box {
+	float: left;
+	width: 100%;
+	margin-top: 0;
+}
+
+.cms-competition-form .redeye-form .input-box input.input-text {
+    width: 100% !important;
+}
+.competitionterms {
+	margin-top: 1%;
+	border: 1px solid;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+.competitionterms h3{
+	margin:0;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.competitionterms--card {
+    display: none;
+}
+
+.competitionterms--card.topen {
+    display: block;
+	margin-top:0.5%;
+}
+
+.competitionterms h3:after {
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #000 transparent transparent transparent;
+    content: '';
+    float: right;
+    margin-top: 0.5%;
+}
+.competitionterms h3.topen:after{
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #000 transparent;
+	content: '';
+    float: right;
+    margin-top: 0.5%;
+}
+
+
+.competition__container p{
+	width: 100% !important;
+	margin-top: 2%;
+}
+
+.competition__container .competitionterms--card p{
+	margin: 0;
+}
+
+/* END */
+
+/* No Results */
+.noresultbanner {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/no_results/NoResults_1268x311px.jpg);
+    background-size: cover;
+    padding: 4%;
+    text-align: center;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.noresults__suggestions ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.noresultscontainer {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.noresultscontainer__nav a {
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 0.5% 0;
+    text-decoration: none; 
+    text-transform: uppercase;
     font-weight: 700;
 }
+
+.noresultscontainer__nav a:hover {
+    background: #000;
+    color: #fff;
+} 
+
+@media only screen and (max-width:480px){
+	.noresultscontainer__nav a {
+	    width: 49%;
+	    margin-top: 0.7%;
+	}
+}
+
+@media only screen and (max-width:400px){
+	.noresultscontainer__nav a {
+	    width: 100%;
+	}
+}
+
+/* END */

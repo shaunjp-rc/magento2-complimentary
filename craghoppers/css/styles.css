@@ -434,6 +434,9 @@
 .s-text-banner {
   padding: 0; }
 
+.s-text-banner h1 {
+  font-weight: 700; }
+
 /* Lower SEO styles */
 .pageothertext,
 .s-text-banner {
@@ -443,9 +446,104 @@
   text-align: left; }
 
 /* END */
-.s-text-banner h1 {
+.bannerOverlay__cta--SaleBttn:hover {
+  background: #ff0000; }
+
+/* Competition Form */
+.cms-competition-form .toggles label,
+.cms-competition-form .toggles select {
+  width: 100%; }
+
+.cms-competition-form .redeye-form .input-box {
+  float: left;
+  width: 100%;
+  margin-top: 0; }
+
+.cms-competition-form .redeye-form .input-box input.input-text {
+  width: 100% !important; }
+
+.competitionterms {
+  margin-top: 1%;
+  border: 1px solid;
+  padding: 1%;
+  margin-bottom: 1%; }
+
+.competitionterms h3 {
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer; }
+
+.competitionterms--card {
+  display: none; }
+
+.competitionterms--card.topen {
+  display: block;
+  margin-top: 0.5%; }
+
+.competitionterms h3:after {
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #000 transparent transparent transparent;
+  content: '';
+  float: right;
+  margin-top: 0.5%; }
+
+.competitionterms h3.topen:after {
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #000 transparent;
+  content: '';
+  float: right;
+  margin-top: 0.5%; }
+
+.competition__container p {
+  width: 100% !important;
+  margin-top: 2%; }
+
+.competition__container .competitionterms--card p {
+  margin: 0; }
+
+/* END */
+/* No Results */
+.noresultbanner {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/no_results/NoResults_1268x311px.jpg);
+  background-size: cover;
+  padding: 4%;
+  text-align: center;
+  background-position: center center;
+  background-blend-mode: color;
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.noresults__suggestions ul {
+  list-style-type: none;
+  margin: 0; }
+
+.noresultscontainer {
+  text-align: center;
+  margin-top: 1%; }
+
+.noresultscontainer__nav a {
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 0.5% 0;
+  text-decoration: none;
+  text-transform: uppercase;
   font-weight: 700; }
 
+.noresultscontainer__nav a:hover {
+  background: #000;
+  color: #fff; }
+
+@media only screen and (max-width: 480px) {
+  .noresultscontainer__nav a {
+    width: 49%;
+    margin-top: 0.7%; } }
+@media only screen and (max-width: 400px) {
+  .noresultscontainer__nav a {
+    width: 100%; } }
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -1517,7 +1615,7 @@ div#form__close {
 .mm__column h3 {
   font-size: 14px;
   margin-bottom: 0;
-  line-height: 1.3;
+  line-height: 2;
   text-transform: none; }
 
 .columnHead {
@@ -1573,9 +1671,38 @@ div#form__close {
   text-align: left;
   color: #666 !important; }
 
-.s-main-menu .categories > li > a {
-  cursor: pointer; }
+/* Insect Repellent Mega Menu */
+.s-main-menu .block .mmrow--nosilife {
+  width: 50%;
+  margin-top: 3%;
+  text-align: left; }
 
+.s-main-menu .block .mmrow.mmrow--nosilife-image {
+  float: right;
+  width: auto;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  margin-top: 3%; }
+
+.s-main-menu .block .mmrow--nosilife ul.mmlist {
+  padding-left: 0; }
+
+.mmrow--nosilife .mmrow__header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 2%; }
+
+ul.mmlist {
+  padding-bottom: 8%; }
+
+ul.mm__column.mm__column--nosilife-fom.expanded {
+  width: 100%;
+  padding-left: 0; }
+
+@media only screen and (max-width: 1000px) {
+  .s-main-menu .block .mmrow--nosilife ul.mmlist {
+    padding-bottom: 2%; } }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -2591,7 +2718,8 @@ div#form__close {
   border-top: 1px #000 solid; }
 
 .micro-sideNav--subNav {
-  list-style: none outside !important; }
+  list-style: none outside !important;
+  margin: 0; }
 
 .micro-sideNav--subNav .micro-sideNav__item {
   color: #999;
@@ -2612,31 +2740,64 @@ div#form__close {
   margin-top: 16px;
   width: 100%; }
 
+.micro-sideNav__item a,
+.micro-sideBar a {
+  text-decoration: none; }
+
 /* abandoned base modifier approach due to more differences than similarities in designs */
 .micro-hero {
   display: table-cell;
-  background-size: cover;
+  background-size: cover !important;
   vertical-align: top;
   position: relative; }
 
 .micro-hero--home {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Home_1200x800px.jpg") no-repeat top left; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-mainpage_hero.jpg") no-repeat top right;
+  color: #fff; }
 
 .micro-hero--what {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_What_1200x800px.jpg") no-repeat top left; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-whatisnosilife_hero.jpg") no-repeat top right; }
 
 .micro-hero--facts {
   background: #7f7a77; }
 
 .micro-hero--story {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Story_1200x800px.jpg") no-repeat top left; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-thesolution_hero.jpg") no-repeat top right; }
+
+.micro-hero--innercontainer {
+  float: left;
+  width: 47%;
+  margin-left: 5%;
+  clear: both; }
+
+.micro-hero--innercontainer .micro-hero__subtext {
+  margin-left: 0% !important;
+  width: 100%; }
+
+.micro-hero--home cite.micro-hero__citation {
+  border-color: #fff; }
+
+.micro-hero--home .micro-hero--innercontainer {
+  color: #fff; }
 
 @media screen and (max-width: 1100px) {
   .micro-hero {
-    background-position: top left -12vw; } }
+    background-position: top right -12vw; }
+
+  .micro-hero--what {
+    background-position: top right -8vw; }
+
+  .micro-hero--story {
+    background-position: top right -12vw; } }
 @media screen and (max-width: 940px) {
   .micro-hero {
-    background-position: top left -20vw; } }
+    background-position: top right -24vw; }
+
+  .micro-hero--what {
+    background-position: top right -8vw; }
+
+  .micro-hero--story {
+    background-position: top right -12vw; } }
 @media screen and (max-width: 768px) {
   .micro-sideBar {
     display: block;
@@ -2652,10 +2813,14 @@ div#form__close {
     display: block;
     width: 100%;
     float: left;
-    background-position: top left -18vw;
+    background-position: top right -30vw;
     min-height: 80vw;
     margin-bottom: 0;
     padding-bottom: 5%; }
+
+  .cms-nosilife .micro-hero {
+    background-position: top right 0vw;
+    background-size: cover; }
 
   .micro-hero--facts,
   .micro-hero--story {
@@ -2665,25 +2830,57 @@ div#form__close {
   .micro-shop,
   .micro-blog,
   .pageTextBlock--social {
-    display: none; } }
+    display: none; }
+
+  .micro-hero--what {
+    background-position: top right -11vw; }
+
+  .micro-hero--story {
+    background-position: top right -23vw; } }
 @media screen and (max-width: 560px) {
   .micro-hero {
     background-position: top left -5vw;
     background-size: 140%; }
 
+  .micro-hero--story.micro-hero {
+    background-size: 106%; }
+
   .micro-hero__logo {
-    width: 60px; } }
-@media screen and (max-width: 525px) {
-  .micro-hero--story {
-    background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Story_525x1034px.jpg") no-repeat top left; }
+    width: 75px; }
 
   .micro-hero--what {
-    background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_What_525x640px.jpg") no-repeat top left; } }
+    background-position: top right -5vw !important; } }
+@media screen and (max-width: 525px) {
+  .micro-hero--story.micro-hero--story {
+    background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiLifeMicrosite-Mobile-AStory-Fin.jpg") no-repeat top right;
+    background-size: cover; }
+
+  .micro-hero--what {
+    background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiLifeMicrosite-Mobile-WhatIsNosiLife-Fin.jpg") no-repeat top left;
+    background-size: cover;
+    background-position: center center !important; }
+
+  .micro-hero--home {
+    background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiLifeMicrosite-Mobile-MainPage-Fin.jpg") no-repeat top right; }
+
+  .micro-sidebar__tagline {
+    font-size: 2.5vw; }
+
+  .micro-hero__title {
+    width: 74%;
+    margin: 0 0 1vw 0; }
+
+  .micro-hero__subtitle {
+    margin-left: 0; } }
 @media screen and (max-width: 400px) {
   .micro-hero {
-    background-position: top left 2vw; } }
+    background-position: top right -65vw; }
+
+  .micro-hero--story {
+    background-position: top right -35vw; } }
 .micro-hero__logo {
-  margin: 5% 0 2vw 5%; }
+  margin: 5% 0 2vw 5%;
+  float: left; }
 
 .micro-hero--facts .micro-hero__logo {
   float: left;
@@ -2710,13 +2907,20 @@ div#form__close {
 
 .micro-hero__title {
   font-size: 2.8vw;
-  width: 48%;
+  width: 46%;
   line-height: 1.3;
-  margin: 0 0 1vw 5%;
+  margin: 0 0 1vw 8%;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700; }
+
+.micro-hero--what .micro-hero__title,
+.micro-hero--story .micro-hero__title {
+  width: 100%; }
+
+.micro-hero__title--white {
+  margin: 0 0 1vw 0; }
 
 .micro-hero__title--facts {
   float: left;
@@ -2740,8 +2944,14 @@ div#form__close {
 .micro-hero__subtitle {
   text-transform: uppercase;
   font-size: 1.8vw;
-  margin-left: 5%;
+  margin-left: 8%;
   line-height: 1.5; }
+
+.micro-hero--home .micro-hero__subtitle {
+  margin-left: 0; }
+
+.micro-hero--home .micro-hero__title {
+  margin: 0 0 1vw 0; }
 
 .micro-hero__subtext {
   margin-left: 5% !important;
@@ -2758,7 +2968,7 @@ div#form__close {
     width: 64%;
     font-size: 16px; } }
 .micro-hero--facts .micro-hero__subtext {
-  width: 90%; }
+  width: 90% !important; }
 
 .micro-hero__infographicRow {
   padding: 2.4% 0;
@@ -2792,7 +3002,7 @@ div#form__close {
 .micro-hero__quoteContainer {
   position: absolute;
   bottom: 5%;
-  left: 5%;
+  left: 8%;
   width: 32%; }
 
 .micro-hero__quote {
@@ -2883,12 +3093,12 @@ div#form__close {
   vertical-align: top; }
 
 .micro-collection__verticalBanner {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/LeftImage_Story_Womens_261x717px.jpg") no-repeat;
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiMicrosite-TheColution-VerticalBanner-Women.jpg") no-repeat;
   width: 214px;
   max-width: 214px; }
 
 .micro-collection__verticalBanner--kids {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/LeftImage_Story_Kids_261x717px.jpg") no-repeat; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiMicrosite-TheColution-VerticalBanner-Kids.jpg") no-repeat; }
 
 .micro-collection__collectionArea {
   background: #ececec;
@@ -2910,7 +3120,7 @@ div#form__close {
 .micro-collection__heading {
   text-align: center;
   width: 36%;
-  font-size: 32px;
+  font-size: 22px;
   text-transform: none;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2926,21 +3136,21 @@ div#form__close {
   letter-spacing: 1px; }
 
 .micro-collection__productArea {
-  display: table;
-  width: 100%; }
+  width: 100%;
+  float: left; }
 
-.micro-collection__productsContainer,
-.micro-collection__banner {
-  display: table-cell;
-  vertical-align: top; }
+.micro-collection__productsContainer, .micro-collection__banner {
+  vertical-align: top;
+  float: left;
+  width: 100%;
+  text-align: center; }
 
 .micro-product {
-  width: 42%;
-  float: left;
-  position: relative;
-  padding-left: 4%;
+  width: 37%;
+  float: none;
   text-align: center;
-  margin-bottom: 4vw; }
+  display: inline-block;
+  margin: 0 auto 3vw auto; }
 
 .micro-product__image {
   width: 95%;
@@ -2954,7 +3164,7 @@ div#form__close {
 
 @media screen and (max-width: 800px) {
   .micro-product {
-    width: 100%; }
+    width: 40%; }
 
   .micro-collection__heading,
   .micro-collection__copy {
@@ -2977,7 +3187,7 @@ div#form__close {
   margin-bottom: 3vw; }
 
 a.micro-product__button {
-  background-color: #c6000d;
+  background-color: #802022;
   padding: 4% 12%;
   color: #fff !important;
   font-size: 17px;
@@ -2993,6 +3203,12 @@ a.micro-product__button {
   max-width: 319px;
   background-size: cover; }
 
+.micro-collection--mobile {
+  display: none; }
+
+@media screen and (min-width: 769px) and (max-width: 785px) {
+  .cms-nosilife .micro-hero--home {
+    padding-bottom: 40%; } }
 @media screen and (min-width: 1025px) {
   /* Seems like an odd thing to do, but is most reliable way of getting hover stuff to only work on non-touch devices. Once access to all code is possible we can do this better */
   .micro-product__description {
@@ -3041,22 +3257,34 @@ a.micro-product__button {
 
 @media screen and (min-width: 1141px) {
   .micro-hero__title {
-    font-size: 32px;
-    width: 48%; }
+    font-size: 30px;
+    width: 43%; }
+
+  .micro-hero--innercontainer .micro-hero__title {
+    width: 93%;
+    margin-left: 0; }
 
   .micro-hero__subtitle {
-    width: 48%;
+    width: 70%;
     font-size: 22px; }
+
+  .micro-hero--home .micro-hero__subtitle {
+    width: 85%; }
 
   .micro-quote p {
     font-size: 25px; } }
 @media screen and (max-width: 768px) {
   .micro-hero__title {
-    font-size: 22px;
-    width: 40%; }
+    font-size: 3.6vw;
+    width: 65%;
+    margin-left: 8%; }
+
+  .micro-hero__title.micro-hero__title--white {
+    margin: 0 0 1vw 0;
+    width: 100%; }
 
   .micro-hero__subtitle {
-    font-size: 14px; }
+    font-size: 2.6vw; }
 
   .micro-hero__subtext {
     width: 54%; }
@@ -3069,23 +3297,66 @@ a.micro-product__button {
     padding: 2vw 5%; }
 
   .micro-quote p {
-    font-size: 18px; } }
-@media screen and (max-width: 640px) {
-  .micro-hero__title {
-    width: 60%; }
+    font-size: 18px; }
 
+  .micro-hero__subtitle {
+    margin-left: 8%; }
+
+  .micro-sidebar__tagline {
+    font-size: 15px; }
+
+  .micro-sidebar__logo {
+    font-size: 38px; }
+
+  .micro-hero--home .micro-hero__title,
+  .micro-hero--home .micro-hero__subtitle {
+    margin-left: 0; } }
+@media screen and (max-width: 640px) {
   .micro-hero__subtext {
     width: 68%; }
 
   .micro-details__column {
-    width: 100%; } }
+    width: 100%; }
+
+  .micro-hero__subtext.micro-hero__subtext--white {
+    width: 100% !important; } }
+@media screen and (max-width: 580px) {
+  .micro-product {
+    width: 50%; }
+
+  .cms-a-nosilife-story .micro-collection__collectionArea {
+    display: none; }
+
+  .micro-collection--mobile {
+    display: block; }
+
+  .micro-collection--mobile span {
+    width: 70%;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+    margin-bottom: 1%;
+    padding: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    background: #802022;
+    color: #fff; } }
+@media screen and (max-width: 560px) {
+  .micro-hero--what .micro-hero__title {
+    width: 100%;
+    margin: 3% 0; }
+
+  .micro-hero--what .micro-hero--innercontainer,
+  .micro-hero--story .micro-hero--innercontainer {
+    width: 85%; } }
 @media screen and (max-width: 480px) {
   .micro-hero__subtext {
     width: 90%; } }
 @media screen and (max-width: 400px) {
   .micro-hero__title {
     font-size: 18px;
-    width: 44%; }
+    width: 100%; }
 
   .micro-hero__subtitle {
     font-size: 11px; } }
@@ -3173,7 +3444,6 @@ a.micro-product__button {
   list-style: none outside; }
 
 /* *********** END *********** */
-/* **** MICROSITE STYLES ****/
 .categoryBanner {
   display: table;
   height: 285px;
@@ -3243,7 +3513,7 @@ a.micro-product__button {
   float: left;
   width: 100%; }
 
-.std .pl-wrapper p,
+.pl-wrapper p,
 .pl-wrapper img,
 .pl-third img {
   width: 100%; }
@@ -3267,7 +3537,7 @@ a.micro-product__button {
   font-family: Georgia, Times, "Times New Roman", serif !important;
   /* important overwrites helvetica */ }
 
-.std p.pl-apex-text {
+p.pl-apex-text {
   width: 65%;
   margin: 22% auto 4%;
   font-size: 26px;
@@ -3289,7 +3559,7 @@ a.micro-product__button {
   margin-top: 61%;
   margin-bottom: 29%; }
 
-.std p.pl-midas__text {
+p.pl-midas__text {
   width: 80%;
   margin: 0 auto;
   clear: both;
@@ -3302,7 +3572,7 @@ a.micro-product__button {
   background-repeat: no-repeat;
   background-size: contain; }
 
-.std .pl-wrapper--inner--cragsworld p {
+.pl-wrapper--inner--cragsworld p {
   color: white;
   font-size: 50px;
   margin: 12.9% 0; }
@@ -3312,13 +3582,13 @@ a.micro-product__button {
   background-repeat: no-repeat;
   background-size: contain; }
 
-.std .pl-half--background p {
+.pl-half--background p {
   color: #fff;
   width: 88%;
   margin: 25.5% auto;
   font-size: 26px; }
 
-.std p.pl-text-liberate {
+p.pl-text-liberate {
   font-style: italic;
   display: inline-block;
   margin: 4% 0; }
@@ -3334,7 +3604,7 @@ a.micro-product__button {
   width: 25%;
   min-width: 250px; }
 
-.std p.pl-gender-head {
+p.pl-gender-head {
   display: inline-block;
   text-transform: uppercase;
   font-size: 36px;
@@ -3348,12 +3618,12 @@ a.micro-product__button {
   text-transform: uppercase;
   font-size: 18px; }
 
-.std .pl-wrapper--inner--social img {
+.pl-wrapper--inner--social img {
   display: inline-block;
   max-width: 70px;
   margin: 0 3%; }
 
-.std p.pl-text-social {
+p.pl-text-social {
   font-style: italic;
   margin: 4% 0 3% 0; }
 
@@ -3393,17 +3663,25 @@ a.micro-product__button {
   display: table;
   margin: 0 auto; }
 
+.pl-half--video iframe {
+  width: 100%;
+  max-height: 420px;
+  height: 420px; }
+
 @media only screen and (max-width: 1240px) {
-  .std .pl-wrapper--inner--cragsworld p {
+  .pl-wrapper--inner--cragsworld p {
     font-size: 4.05vw; }
 
-  .std p.pl-apex-text,
-  .std p.pl-midas__text,
-  .std .pl-half--background p {
+  p.pl-apex-text,
+  p.pl-midas__text,
+  .pl-half--background p {
     font-size: 2.1vw; }
 
-  .std p.pl-text-liberate {
-    font-size: 2.62vw; } }
+  p.pl-text-liberate {
+    font-size: 2.62vw; }
+
+  .pl-half--video iframe {
+    height: 34vw; } }
 @media only screen and (max-width: 767px) {
   .pl-wrapper--inner--cragsworld {
     background-image: url("https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/ThisIsCraghoppersWorld-MOBILE.jpg");
@@ -3413,13 +3691,13 @@ a.micro-product__button {
     background-size: cover;
     padding: 1%; }
 
-  .std .pl-half--background p {
+  .pl-half--background p {
     margin: 27% auto; }
 
-  .std p.pl-apex-text {
+  p.pl-apex-text {
     margin: 6% auto 4%; }
 
-  .std p.pl-midas__text {
+  p.pl-midas__text {
     margin-top: 7%; }
 
   .pl-third:nth-child(2) {
@@ -3432,12 +3710,12 @@ a.micro-product__button {
   .pl-third:nth-child(3) {
     margin-top: 3%; }
 
-  .std p.pl-apex-text,
-  .std p.pl-midas__text,
-  .std .pl-half--background p {
+  p.pl-apex-text,
+  p.pl-midas__text,
+  .pl-half--background p {
     font-size: 16px; }
 
-  .std .pl-wrapper--inner--cragsworld p {
+  .pl-wrapper--inner--cragsworld p {
     margin: 28.53% 0; }
 
   .pl-wrapper {
