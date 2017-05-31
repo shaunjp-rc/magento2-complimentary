@@ -493,11 +493,25 @@ p.collectionhighlights__hoverstate--header {
   margin-bottom: 2%; }
 
 .fourblocks__container:nth-child(4) {
-  margin-right: 0; }
+  margin-right: 0;
+  margin-top: 0; }
 
 .fourblocks {
   width: 100%;
-  float: left; }
+  float: left;
+  position: relative; }
+
+.fourblocks--saletext {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: #F93E49;
+  padding: 1% 0;
+  font-weight: bold;
+  margin-top: 68%;
+  font-size: 18px; }
 
 .fourblocks img {
   width: 100%; }
@@ -1762,6 +1776,54 @@ div#header-account {
 .mm__column--camping.mm__column--img .columnHead {
   text-align: center; }
 
+.s-main-menu .categories .dropdown.dropdown--clearance a {
+  color: red; }
+
+.offers-box {
+  float: left;
+  width: 24.6%;
+  text-align: center;
+  background: red;
+  padding: 1% 0;
+  margin-right: 0.5%; }
+
+.offers-box--main {
+  width: 95%;
+  padding: 20% 0;
+  margin-top: 5%; }
+
+.brandsubhead {
+  color: #b2b2b2;
+  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.offers-box--main .brandsubhead {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold; }
+
+@media only screen and (max-width: 779px) {
+  .offers-box.offers-box--main {
+    padding: 10% 0;
+    float: none;
+    margin: 5% auto 0;
+    width: 95%; }
+
+  .offers-box {
+    float: left;
+    width: 49%;
+    text-align: center;
+    background: red;
+    padding: 1% 0;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%; }
+
+  .offers-box--main-camping {
+    width: 95%;
+    padding: 10% 0;
+    display: table; } }
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column,
   .s-main-menu .category-items .mm__column.mm__column--footwear,
