@@ -90,15 +90,17 @@
 
 .s-main-menu .categories ul.mm__column li a {
     text-align: left;
+    color: #666 !important;
 }
 
 /* Insect Repellent Mega Menu */
-.mmrow--nosilife{
+.s-main-menu .block .mmrow--nosilife{
   width:50%;
   margin-top:3%;
+  text-align: left;
 }
 
-.mmrow.mmrow--nosilife-image{
+.s-main-menu .block .mmrow.mmrow--nosilife-image{
   float: right;
   width: auto;
   padding-bottom: 3%;
@@ -106,13 +108,35 @@
   margin-top:3%;
 } 
 
-@media only screen and (max-width: 1000px){
-  .mmrow--nosilife{
-    width:100%;
-  }
+.s-main-menu .block .mmrow--nosilife ul.mmlist {
+    padding-left: 0;
+}
 
-  .mmrow--nosilife ul.mmlist {
+.mmrow--nosilife .mmrow__header {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+ul.mmlist {
+    padding-bottom: 8%;
+}
+
+ul.mm__column.mm__column--nosilife-fom.expanded {
+    width: 100%;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 1000px){
+
+  .s-main-menu .block .mmrow--nosilife ul.mmlist {
       padding-bottom: 2%;
   }
+
+}
+
+@media only screen and (max-width: 989px){
+
 
 }

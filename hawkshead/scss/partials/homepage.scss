@@ -196,11 +196,26 @@ p.collectionhighlights__hoverstate--header {
 
 .fourblocks__container:nth-child(4) {
   margin-right: 0;
+  margin-top:0;
 }
 
 .fourblocks {
   width: 100%;
   float: left;
+  position: relative;
+}
+
+.fourblocks--saletext {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #F93E49;
+    padding: 1% 0;
+    font-weight: bold;
+    margin-top: 68%;
+    font-size: 18px;
 }
 
 .fourblocks img {
