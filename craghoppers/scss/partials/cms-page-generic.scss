@@ -713,3 +713,31 @@
 }
 
 /* END */
+
+.noresultbanner {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/no_results/NoResults_1268x311px.jpg);
+    background-size: cover;
+    padding: 4%;
+    text-align: center;
+}
+
+.noresults__suggestions ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.noresultscontainer {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.noresultscontainer__nav a {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 0.5% 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
