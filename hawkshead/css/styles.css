@@ -357,6 +357,13 @@
   margin-left: 0;
   list-style-type: none; }
 
+@media only screen and (max-width: 740px) {
+  .noresults__container a {
+    width: 49%;
+    margin-top: 0.5%; } }
+@media only screen and (max-width: 400px) {
+  .noresults__container a {
+    width: 100%; } }
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
