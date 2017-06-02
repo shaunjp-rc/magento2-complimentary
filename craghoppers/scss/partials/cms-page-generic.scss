@@ -746,6 +746,11 @@
     font-weight: 700;
 }
 
+.noresultscontainer__nav a:hover {
+    background: #000;
+    color: #fff;
+} 
+
 @media only screen and (max-width:480px){
 	.noresultscontainer__nav a {
 	    width: 49%;
