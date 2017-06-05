@@ -1700,6 +1700,9 @@ ul.mm__column.mm__column--nosilife-fom.expanded {
   width: 100%;
   padding-left: 0; }
 
+li.dropdown.dropdown--red a {
+  color: #ff0000; }
+
 @media only screen and (max-width: 1000px) {
   .s-main-menu .block .mmrow--nosilife ul.mmlist {
     padding-bottom: 2%; } }
