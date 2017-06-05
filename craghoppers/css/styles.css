@@ -1687,6 +1687,7 @@ div#form__close {
 .s-main-menu .block .mmrow--nosilife ul.mmlist {
   padding-left: 0; }
 
+
 .mmrow--nosilife .mmrow__header {
   font-weight: 700;
   text-transform: uppercase;
@@ -3672,15 +3673,20 @@ p.pl-text-social {
   height: 420px; }
 
 @media only screen and (max-width: 1240px) {
-  .pl-wrapper--inner--cragsworld p {
-    font-size: 4.05vw; }
+  .std .pl-wrapper--inner--cragsworld p {
+    font-size: 4.05vw;
+    color: #fff;
+    width: 75%;
+    display: table;
+    margin: 0 auto; }
+
 
   p.pl-apex-text,
   p.pl-midas__text,
   .pl-half--background p {
     font-size: 2.1vw; }
 
-  p.pl-text-liberate {
+  .std p.pl-text-liberate {
     font-size: 2.62vw; }
 
   .pl-half--video iframe {
@@ -3722,6 +3728,15 @@ p.pl-text-social {
     margin: 28.53% 0; }
 
   .pl-wrapper {
+    float: none;
+    width: 70%;
+    margin: 0 auto; }
+
+  .pl-half {
+    width: 100%;
+    float: left; }
+
+  .pl-half--video {
     float: none;
     width: 70%;
     margin: 0 auto; }
