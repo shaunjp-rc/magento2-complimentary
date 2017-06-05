@@ -2993,7 +2993,7 @@ a.micro-product__button {
   float: left;
   width: 100%; }
 
-.std .pl-wrapper p,
+.pl-wrapper p,
 .pl-wrapper img,
 .pl-third img {
   width: 100%; }
@@ -3017,7 +3017,7 @@ a.micro-product__button {
   font-family: Georgia, Times, "Times New Roman", serif !important;
   /* important overwrites helvetica */ }
 
-.std p.pl-apex-text {
+p.pl-apex-text {
   width: 65%;
   margin: 22% auto 4%;
   font-size: 26px;
@@ -3039,7 +3039,7 @@ a.micro-product__button {
   margin-top: 61%;
   margin-bottom: 29%; }
 
-.std p.pl-midas__text {
+p.pl-midas__text {
   width: 80%;
   margin: 0 auto;
   clear: both;
@@ -3052,7 +3052,7 @@ a.micro-product__button {
   background-repeat: no-repeat;
   background-size: contain; }
 
-.std .pl-wrapper--inner--cragsworld p {
+.pl-wrapper--inner--cragsworld p {
   color: white;
   font-size: 50px;
   margin: 12.9% 0; }
@@ -3062,13 +3062,13 @@ a.micro-product__button {
   background-repeat: no-repeat;
   background-size: contain; }
 
-.std .pl-half--background p {
+.pl-half--background p {
   color: #fff;
   width: 88%;
   margin: 25.5% auto;
   font-size: 26px; }
 
-.std p.pl-text-liberate {
+p.pl-text-liberate {
   font-style: italic;
   display: inline-block;
   margin: 4% 0; }
@@ -3084,7 +3084,7 @@ a.micro-product__button {
   width: 25%;
   min-width: 250px; }
 
-.std p.pl-gender-head {
+p.pl-gender-head {
   display: inline-block;
   text-transform: uppercase;
   font-size: 36px;
@@ -3098,12 +3098,12 @@ a.micro-product__button {
   text-transform: uppercase;
   font-size: 18px; }
 
-.std .pl-wrapper--inner--social img {
+.pl-wrapper--inner--social img {
   display: inline-block;
   max-width: 70px;
   margin: 0 3%; }
 
-.std p.pl-text-social {
+p.pl-text-social {
   font-style: italic;
   margin: 4% 0 3% 0; }
 
@@ -3149,6 +3149,10 @@ a.micro-product__button {
   height: 420px; }
 
 @media only screen and (max-width: 1240px) {
+
+  .pl-wrapper--inner--cragsworld p {
+    font-size: 4.05vw; }
+
   .std .pl-wrapper--inner--cragsworld p {
     font-size: 4.05vw;
     color: #fff;
@@ -3156,12 +3160,14 @@ a.micro-product__button {
     display: table;
     margin: 0 auto; }
 
-  .std p.pl-apex-text,
-  .std p.pl-midas__text,
-  .std .pl-half--background p {
+
+  p.pl-apex-text,
+  p.pl-midas__text,
+  .pl-half--background p {
     font-size: 2.1vw; }
 
-  .std p.pl-text-liberate {
+
+  p.pl-text-liberate {
     font-size: 2.62vw; }
 
   .pl-half--video iframe {
@@ -3175,13 +3181,13 @@ a.micro-product__button {
     background-size: cover;
     padding: 1%; }
 
-  .std .pl-half--background p {
+  .pl-half--background p {
     margin: 27% auto; }
 
-  .std p.pl-apex-text {
+  p.pl-apex-text {
     margin: 6% auto 4%; }
 
-  .std p.pl-midas__text {
+  p.pl-midas__text {
     margin-top: 7%; }
 
   .pl-third:nth-child(2) {
@@ -3194,12 +3200,12 @@ a.micro-product__button {
   .pl-third:nth-child(3) {
     margin-top: 3%; }
 
-  .std p.pl-apex-text,
-  .std p.pl-midas__text,
-  .std .pl-half--background p {
+  p.pl-apex-text,
+  p.pl-midas__text,
+  .pl-half--background p {
     font-size: 16px; }
 
-  .std .pl-wrapper--inner--cragsworld p {
+  .pl-wrapper--inner--cragsworld p {
     margin: 28.53% 0; }
 
   .pl-wrapper {
