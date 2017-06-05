@@ -2097,7 +2097,7 @@ h2.pageSection--pageTop__justHeading {
 .lookbook_decoration {
   position: absolute;
   max-width: 237px !important;
-  z-index: 10; }
+  z-index: 1; }
 
 .lookbook_decoration--rain {
   top: 0;
