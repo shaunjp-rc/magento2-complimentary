@@ -42,7 +42,7 @@
 	font-size: 40px;
 	margin: 2% 0;
 }
-
+ 
 .pl-text-margin {
 	margin-bottom: 3%;
 }
@@ -167,7 +167,7 @@ p.pl-text-social {
 
 .pl-product {
 	position: relative;
-	display: flex;
+	display: grid;
 }
 
 .pl-product--text {

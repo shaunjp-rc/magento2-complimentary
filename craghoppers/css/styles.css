@@ -3635,7 +3635,7 @@ p.pl-text-social {
 
 .pl-product {
   position: relative;
-  display: flex; }
+  display: grid; }
 
 .pl-product--text {
   position: absolute;
