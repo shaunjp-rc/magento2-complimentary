@@ -952,9 +952,18 @@ html .mt_animate {
   .redeye-form > div {
     width: 98% !important; } }
 /* Partials */
-/*//////////////////////////
-/* Footer Block Links
-/*/
+/*////////////////////////*/
+/*     Header Styles      */
+/*////////////////////////*/
+@media only screen and (min-width: 739px) {
+  #header .c-header__logo img {
+    width: auto;
+    padding: 2px 0px; }
+  #header .s-main-menu .categories > li:last-child a {
+    text-align: center !important; } }
+/*////////////////////////*/
+/*   Footer Block Links   */
+/*////////////////////////*/
 .page-product-configurable #basket-promo {
   font-size: 15px; }
 
@@ -1036,9 +1045,9 @@ html .mt_animate {
   #top-level-cat-banner-text {
     width: 100%;
     padding: 20px; } }
-/*//////////////////////////
-/* HEADER
-/*/
+/*////////////////////////*/
+/*         HEADER         */
+/*////////////////////////*/
 .c-header {
   background: #fff; }
 
