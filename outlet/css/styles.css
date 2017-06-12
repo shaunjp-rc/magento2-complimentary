@@ -1207,7 +1207,7 @@ html .mt_animate {
   position: relative; }
 #homepage .four .arrow-button {
   position: absolute;
-  bottom: 12vh;
+  bottom: 30%;
   top: inherit;
   left: 0;
   right: 0;
@@ -1218,7 +1218,7 @@ html .mt_animate {
   top: initial;
   position: absolute; }
 #homepage .four .flex-item a:hover .arrow-button {
-  bottom: 13vh; }
+  bottom: 35%; }
 #homepage .three .by-price-title > span {
   position: relative;
   top: -16px;
