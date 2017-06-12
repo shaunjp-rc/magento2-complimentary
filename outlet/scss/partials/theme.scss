@@ -1,6 +1,24 @@
-/*//////////////////////////
-/* Footer Block Links
 /*////////////////////////*/
+/*     Header Styles      */
+/*////////////////////////*/
+
+@media only screen and (min-width:739px) {
+  #header {
+    .c-header__logo img {
+      width: auto;
+      padding: 2px 0px;
+    }
+    .s-main-menu .categories>li:last-child a {
+      text-align: center !important;
+    }
+  }
+}
+
+/*////////////////////////*/
+/*   Footer Block Links   */
+/*////////////////////////*/
+
+
 .page-product-configurable #basket-promo {
   font-size: 15px;
 }
@@ -98,8 +116,8 @@
 
 }
 
-/*//////////////////////////
-/* HEADER
+/*////////////////////////*/
+/*         HEADER         */
 /*////////////////////////*/
 
 .c-header{
