@@ -15,7 +15,7 @@
 .mm__column a {
   text-decoration: none;
 }
- 
+
 .mm__column h3 {
   font-size: 14px;
   margin-bottom: 0;
@@ -35,44 +35,44 @@
 }
 
 .mm__column--lookbook a {
-    padding: 0;
-    line-height: 1;
+  padding: 0;
+  line-height: 1;
 }
 
 .mm__column--lookbook li {
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
 }
 
 .mm__column--lookbook li.sub-cat {
-    float: left;
-    margin-left: 7%;
-    width: auto;
+  float: left;
+  margin-left: 7%;
+  width: auto;
 }
 
 .s-main-menu .block .category-items ul.hidden-sub-cat {
-    float: left;
-    padding: 0;
-    min-width: 200px;
+  float: left;
+  padding: 0;
+  min-width: 200px;
 }
 
 .mm__column--lookbook span {
-    float: left;
+  float: left;
 }
 
 .s-main-menu .category-items .mm__column.mm__column--lookbook {
-    width: 50%;
+  width: 50%;
 }
+
 .s-main-menu .category-items .mm__column.mm__column--lookbook-img {
-    width: 25%;
+  width: 25%;
 }
 
 .mm__column a {
-    line-height: 1;
+  line-height: 1;
 }
 
 @media only screen and (max-width:740px) {
-  
   .s-main-menu .category-items .mm__column {
     width: 100%;
   }
@@ -86,65 +86,134 @@
     margin-left: 1%;
   }
 
-  .mm__column--img{
+  .mm__column--img {
     display: none;
   }
 
 }
 
 .s-main-menu .categories ul.mm__column li a {
-    text-align: left;
-    color: #666 !important;
+  text-align: left;
+  color: #666 !important;
 }
 
 /* Insect Repellent Mega Menu */
-.s-main-menu .block .mmrow--nosilife{
-  width:50%;
-  margin-top:3%;
+.s-main-menu .block .mmrow--nosilife {
+  width: 50%;
+  margin-top: 3%;
   text-align: left;
 }
 
-.s-main-menu .block .mmrow.mmrow--nosilife-image{
+.s-main-menu .block .mmrow.mmrow--nosilife-image {
   float: right;
   width: auto;
   padding-bottom: 3%;
   padding-right: 3%;
-  margin-top:3%;
-} 
+  margin-top: 3%;
+}
 
 .s-main-menu .block .mmrow--nosilife ul.mmlist {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .mmrow--nosilife .mmrow__header {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin-bottom: 2%;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 2%;
 }
 
 ul.mmlist {
-    padding-bottom: 8%;
+  padding-bottom: 8%;
 }
 
 ul.mm__column.mm__column--nosilife-fom.expanded {
-    width: 100%;
-    padding-left: 0;
+  width: 100%;
+  padding-left: 0;
 }
 
 li.dropdown.dropdown--red a {
-    color: #ff0000; 
+  color: #ff0000;
 }
 
-@media only screen and (max-width: 1000px){
+.s-main-menu .mm__container--insectrepellent .mm__column--img{
+  float: right;
+  width: auto;
+  padding: 0;
+}
 
+.s-main-menu .category-items .mm__column.mm__column--extend{
+  width: auto;
+}
+
+.s-main-menu .category-items .whatisnosilife{
+  margin-top:11%; 
+}
+
+@media only screen and (max-width:1000px) {
   .s-main-menu .block .mmrow--nosilife ul.mmlist {
-      padding-bottom: 2%;
+    padding-bottom: 2%;
   }
 
 }
 
-@media only screen and (max-width: 989px){
+@media only screen and (max-width:770px) {
+  .mm__column img {
+    margin-top: 0;
+    width: auto;
+  }
 
+  .columnHead {
+    margin-left: 1%;
+  }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%;
+  }
+
+  .mmLookbookColumn li {
+    padding-right: 12px;
+  }
+
+  .hidden-sub-cat {
+    opacity: 1 !important;
+    width: 100%;
+  }
+
+  .mm__column.mm__column--img,
+  .mmLookbookColumn:nth-child(3),.s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+    display: none;
+  }
+
+  .mmLookbookColumn--links {
+    width: 90%;
+  }
+
+  .mm__column--lookbook li.sub-cat {
+    margin-left: 1%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .mm__column--lookbook span {
+    margin-left: 1%;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2%;
+  }
+
+  .s-main-menu .categories ul.mm__column li.sub-cat a {
+    margin-left: 0;
+  }
+
+  .s-main-menu .category-items .mm__column.mm__column--extend {
+    width: 100%;
+  }
+
+  .s-main-menu .category-items .whatisnosilife {
+    margin-top: 0;
+  }
 
 }
