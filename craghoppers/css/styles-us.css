@@ -3330,7 +3330,10 @@ p.pl-text-social {
     margin-left: 1%; }
 
   .mm__column--img {
-    display: none; } }
+    display: none; }
+
+  .ui-state-active {
+    background-color: #eeeeee; } }
 .s-main-menu .categories ul.mm__column li a {
   text-align: left;
   color: #666 !important; }
