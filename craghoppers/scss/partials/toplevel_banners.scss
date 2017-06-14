@@ -38,19 +38,27 @@
 
 .categorypath-men .categoryBanner__image,
 .categorypath-herren .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Mens.jpg) no-repeat center;
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Mens.jpg) no-repeat center;
 }
 
 .categorypath-women .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Womens.jpg) no-repeat center;
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Womens.jpg) no-repeat center;
 }
 
 .categorypath-kids .categoryBanner__image,
 .categorypath-kinder .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Kids.jpg) no-repeat center;
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Kids.jpg) no-repeat center;
 }
 
 .categorypath-accessories .categoryBanner__image,
 .categorypath- .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Accessories.jpg) no-repeat center;
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Accessories.jpg) no-repeat center;
+}
+
+.categoryBanner .categoryBanner__image.categoryBanner__image--discovery{
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Discovery.jpg) no-repeat center;
+}
+
+.categoryBanner .categoryBanner__image.categoryBanner__image--os{
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center;
 }

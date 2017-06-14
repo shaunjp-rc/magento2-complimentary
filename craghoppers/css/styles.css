@@ -1654,6 +1654,9 @@ div#form__close {
 .s-main-menu .category-items .mm__column.mm__column--lookbook-img {
   width: 25%; }
 
+.mm__column a {
+  line-height: 1; }
+
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column {
     width: 100%; }
@@ -1706,9 +1709,66 @@ ul.mm__column.mm__column--nosilife-fom.expanded {
 li.dropdown.dropdown--red a {
   color: #ff0000; }
 
+.s-main-menu .mm__container--insectrepellent .mm__column--img {
+  float: right;
+  width: auto;
+  padding: 0; }
+
+.s-main-menu .category-items .mm__column.mm__column--extend {
+  width: auto; }
+
+.s-main-menu .category-items .whatisnosilife {
+  margin-top: 11%; }
+
 @media only screen and (max-width: 1000px) {
   .s-main-menu .block .mmrow--nosilife ul.mmlist {
     padding-bottom: 2%; } }
+@media only screen and (max-width: 770px) {
+  .mm__column img {
+    margin-top: 0;
+    width: auto; }
+
+  .columnHead {
+    margin-left: 1%; }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%; }
+
+  .mmLookbookColumn li {
+    padding-right: 12px; }
+
+  .hidden-sub-cat {
+    opacity: 1 !important;
+    width: 100%; }
+
+  .mm__column.mm__column--img,
+  .mmLookbookColumn:nth-child(3), .s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+    display: none; }
+
+  .mmLookbookColumn--links {
+    width: 90%; }
+
+  .mm__column--lookbook li.sub-cat {
+    margin-left: 1%;
+    width: 100%;
+    display: inline-block; }
+
+  .mm__column--lookbook span {
+    margin-left: 1%;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2%; }
+
+  .s-main-menu .categories ul.mm__column li.sub-cat a {
+    margin-left: 0; }
+
+  .s-main-menu .category-items .mm__column.mm__column--extend {
+    width: 100%; }
+
+  .s-main-menu .category-items .whatisnosilife {
+    margin-top: 0; } }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -3481,18 +3541,24 @@ a.micro-product__button {
 
 .categorypath-men .categoryBanner__image,
 .categorypath-herren .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Mens.jpg) no-repeat center; }
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Mens.jpg) no-repeat center; }
 
 .categorypath-women .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Womens.jpg) no-repeat center; }
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Womens.jpg) no-repeat center; }
 
 .categorypath-kids .categoryBanner__image,
 .categorypath-kinder .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Kids.jpg) no-repeat center; }
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Kids.jpg) no-repeat center; }
 
 .categorypath-accessories .categoryBanner__image,
 .categorypath- .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Accessories.jpg) no-repeat center; }
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Accessories.jpg) no-repeat center; }
+
+.categoryBanner .categoryBanner__image.categoryBanner__image--discovery {
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Discovery.jpg) no-repeat center; }
+
+.categoryBanner .categoryBanner__image.categoryBanner__image--os {
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center; }
 
 /* Protect Liberate Campaign */
 /* Started all classes with pl- so can be dumped in new system */
@@ -3638,7 +3704,7 @@ p.pl-text-social {
 
 .pl-product {
   position: relative;
-  display: flex; }
+  display: grid; }
 
 .pl-product--text {
   position: absolute;

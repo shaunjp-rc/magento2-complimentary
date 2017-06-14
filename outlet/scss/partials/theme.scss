@@ -1,6 +1,24 @@
-/*//////////////////////////
-/* Footer Block Links
 /*////////////////////////*/
+/*     Header Styles      */
+/*////////////////////////*/
+
+@media only screen and (min-width:739px) {
+  #header {
+    .c-header__logo img {
+      width: auto;
+      padding: 2px 0px;
+    }
+    .s-main-menu .categories>li:last-child a {
+      text-align: center !important;
+    }
+  }
+}
+
+/*////////////////////////*/
+/*   Footer Block Links   */
+/*////////////////////////*/
+
+
 .page-product-configurable #basket-promo {
   font-size: 15px;
 }
@@ -60,11 +78,11 @@
 }
 #top-level-cat-banner-img{
   float: left;
-  width: 40%;
+  width: 25%;
 }
 #top-level-cat-banner-text{
   float: right;
-  width: 60%;
+  width: 75%;
   text-align: left;
   padding: 10px 30px;
 }
@@ -85,6 +103,13 @@
   color: #333;
 }
 
+#top-level-cat-banner-text h1{
+  margin-bottom: 0px;
+}
+#top-level-cat-banner-text p{
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 989px){
 
 #top-level-cat-banner-img{
@@ -98,13 +123,17 @@
 
 }
 
-/*//////////////////////////
-/* HEADER
+/*////////////////////////*/
+/*         HEADER         */
 /*////////////////////////*/
 
 .c-header{
   background: #fff
 }
+
+.c-breadcrumbs{
+  margin-bottom: 10px
+} 
 
 .s-header-links .links>li,.s-header-links .links>li>a, .s-header-links .links>li>a:active, .s-header-links .links>li>a:focus, .s-header-links .links>li>a:hover, .s-header-links .links>li>a:visited{
   color: #333;
@@ -149,3 +178,19 @@
 .c-header__logo{
   padding: 10px
 }
+
+.cms-page img {
+  width: 100%; }
+
+#header .c-header__logo{
+  padding-left: 0;
+}
+
+#header .c-header__logo img{
+  height: 92px
+}
+
+.c-mini-cart-btn__price:before{
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20width%3D%2229px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2029%2030%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%20%20%20%20%20%20%20%20%3Ctitle%3Eshoping-basket.svg%3C%2Ftitle%3E%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%20%20%20%20%20%20%20%3Cg%20id%3D%22shopping-basket%22%20transform%3D%22translate%28-1.000000%2C%20-1.000000%29%22%20fill%3D%22%23FFFFFF%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M29.438%2C24.55%20L30.005%2C29.8%20C30.041%2C30.101%2029.946%2C30.403%2029.746%2C30.63%20C29.555%2C30.86%2029.268%2C30.99%2028.969%2C30.98%20L2.031%2C30.98%20C1.732%2C30.99%201.445%2C30.86%201.254%2C30.63%20C1.054%2C30.402%200.959%2C30.101%200.995%2C29.8%20L1.561%2C24.55%20L29.438%2C24.55%20L29.438%2C24.55%20Z%20M27.938%2C10.51%20L29.33%2C23.48%20L1.68%2C23.48%20L3.072%2C10.51%20C3.099%2C10.25%203.22%2C10.008%203.412%2C9.83%20C3.6%2C9.649%203.851%2C9.549%204.112%2C9.55%20L8.257%2C9.55%20L8.257%2C11.7%20C8.247%2C12.264%208.466%2C12.809%208.863%2C13.21%20C9.631%2C14.02%2010.909%2C14.053%2011.719%2C13.285%20C11.745%2C13.261%2011.77%2C13.236%2011.794%2C13.21%20C12.191%2C12.809%2012.41%2C12.265%2012.401%2C11.7%20L12.401%2C9.55%20L18.617%2C9.55%20L18.617%2C11.7%20C18.608%2C12.264%2018.827%2C12.808%2019.224%2C13.21%20C19.99%2C14.019%2021.268%2C14.054%2022.077%2C13.287%20C22.103%2C13.262%2022.129%2C13.236%2022.154%2C13.21%20C22.552%2C12.809%2022.771%2C12.265%2022.761%2C11.7%20L22.761%2C9.55%20L26.906%2C9.55%20C27.167%2C9.549%2027.418%2C9.649%2027.606%2C9.83%20C27.796%2C10.009%2027.913%2C10.251%2027.938%2C10.51%20L27.938%2C10.51%20Z%20M21.721%2C7.41%20L21.721%2C11.7%20C21.725%2C11.981%2021.614%2C12.252%2021.414%2C12.45%20C21.045%2C12.852%2020.419%2C12.879%2020.017%2C12.51%20C19.996%2C12.491%2019.976%2C12.471%2019.957%2C12.45%20C19.757%2C12.252%2019.646%2C11.981%2019.649%2C11.7%20L19.649%2C7.41%20C19.668%2C6.278%2019.231%2C5.186%2018.435%2C4.38%20C16.901%2C2.762%2014.346%2C2.693%2012.728%2C4.227%20C12.676%2C4.276%2012.625%2C4.328%2012.575%2C4.38%20C11.779%2C5.185%2011.341%2C6.277%2011.36%2C7.41%20L11.36%2C11.7%20C11.364%2C11.981%2011.253%2C12.252%2011.053%2C12.45%20C10.684%2C12.852%2010.058%2C12.879%209.656%2C12.51%20C9.635%2C12.491%209.615%2C12.471%209.596%2C12.45%20C9.396%2C12.252%209.285%2C11.981%209.288%2C11.7%20L9.288%2C7.41%20C9.26%2C5.71%209.916%2C4.071%2011.109%2C2.86%20C13.427%2C0.432%2017.275%2C0.344%2019.702%2C2.662%20C19.769%2C2.726%2019.835%2C2.792%2019.9%2C2.86%20C21.092%2C4.071%2021.746%2C5.711%2021.716%2C7.41%20L21.721%2C7.41%20L21.721%2C7.41%20Z%22%20id%3D%22shoping-basket.svg%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%3C%2Fg%3E%3C%2Fsvg%3E")!important;
+}
+
