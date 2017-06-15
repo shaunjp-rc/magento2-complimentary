@@ -1857,6 +1857,19 @@ div#header-account {
     width: 95%;
     padding: 10% 0;
     display: table; } }
+@media only screen and (max-width: 770px) {
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--footwear,
+  .s-main-menu .category-items .mm__column.mm__column--camping,
+  .s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
+    width: 100%; }
+
+  .genderheadtext,
+  .mm__column--footwear .columnHead {
+    margin-left: 1%; }
+
+  .mm__column.mm__column--img {
+    display: none; } }
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column,
   .s-main-menu .category-items .mm__column.mm__column--footwear,
