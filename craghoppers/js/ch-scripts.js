@@ -244,6 +244,36 @@ $j(document).ready(function($) {
     $j('.popup__bg').removeClass('popup_open');
   });
   /* END */
+
+  /* mobile seo toggle hide/show */
+  if (document.documentElement.clientWidth < 771) {
+    var catname = jQuery('body').attr('class');
+    if($j('.s-text-banner .category-view__description').length > 1) {
+      $j('.category-view__description + .category-view__description').css('display','none');
+      $j('.category-view__description + .category-view__description').addClass("second-description");
+      $j('.category-view__title + .category-view__description' || '.category-view__description:nth-child(2)').addClass('first-description')
+      $j('.category-view__title + .category-view__description').after('<div class="mobileseo-container"><div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div><a><div class="seemore">Read more</div></a></div>');
+      $j('.category-view__description.second-description').append('<a><div class="seemore">Read less</div></a>');
+    }
+
+    $j('.seemore').click(function(){
+      $j('.category-view__description.second-description').toggleClass('category-description');
+      $j('.category-view__title + .category-view__description .seemore').toggleClass('toggle-removebttn');
+      $j('.mobileseo-container .seemore').toggleClass('toggle-removebttn');
+      $j('.category-view__title + .category-view__description').toggleClass('first-description');
+      $j('.mobileseo-container').toggleClass('close');
+      $j('.category-view__description + .category-view__description .seemore').addClass('readless-bttn');
+      $j('.gradient').toggleClass('gradient-toggle')
+      ga('send', 'event', 'read-more-button', 'click', ''+catname+'');
+    });
+
+    $j('.category-view__description + .category-view__description .seemore.readless-bttn').click(function(){
+      ga('send', 'event', 'read-less-button', 'click', ''+catname+'');
+    });
+  };
+
+  /* END */
+
  
 
 ////////////////////////////////  
