@@ -55,10 +55,68 @@
 	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Accessories.jpg) no-repeat center;
 }
 
-.categoryBanner .categoryBanner__image.categoryBanner__image--discovery{
+.categoryBanner .categoryBanner__image.categoryBanner__image--discovery {
 	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Discovery.jpg) no-repeat center;
 }
 
-.categoryBanner .categoryBanner__image.categoryBanner__image--os{
+.categoryBanner .categoryBanner__image.categoryBanner__image--os {
 	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center;
+}
+
+/* Mobile SEO show/hide */
+.seemore {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    background: #e3e3e3;
+    padding: 2% 0;
+    margin-top: 1%;
+}
+
+p.category-view__description.category-description {
+    display: block !important;
+}
+
+.category-view__title + .category-view__description .gradient{
+	margin-top:-5.5%;
+}
+
+.seemore.toggle-removebttn,
+.category-view__description + .category-view__description .gradient,
+.gradient.gradient-toggle,
+.mobileseo-container.close{
+	display: none;
+}
+
+.mobileseo-container {
+    margin-top: -7%;
+} 
+
+
+@media only screen and (max-width: 644px){
+	p.category-view__description.first-description {
+	    max-height: 50px;
+	    overflow: hidden;
+	}
+
+	.mobileseo-container {
+	    margin-top: -52px;
+	}
+
+}
+
+@media only screen and (max-width: 375px){
+	.category-view__title + .category-view__description .gradient {
+	    margin-top: -12.5%;
+	}
+}
+
+/* END */
+
+
+@media only screen and (max-width:770px) {
+	.categoryBanner {
+		display: none;
+	}
+
 }
