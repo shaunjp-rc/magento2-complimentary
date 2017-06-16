@@ -1657,12 +1657,6 @@ div#form__close {
 .mm__column a {
   line-height: 1; }
 
-.s-main-menu .categories {
-  text-align: center; }
-
-.s-main-menu .categories li {
-  display: inline-block; }
-
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column {
     width: 100%; }
