@@ -160,6 +160,10 @@
     font-weight: bold;
 }
 
+.shopall{
+  display: none;
+}
+
 @media only screen and (max-width:779px){
     .offers-box.offers-box--main {
         padding: 10% 0;
@@ -200,6 +204,10 @@
 
   .mm__column.mm__column--img {
     display: none;
+  }
+
+  .shopall{
+    display: block; 
   }
 
 }
