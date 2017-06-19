@@ -3296,6 +3296,9 @@ p.pl-text-social {
   .pl-third:nth-child(2) {
     margin: 3% 0 0 0; } }
 /* END */
+#tech-image-wrapper img {
+  width: auto; }
+
 /* Mega Menu */
 .mm__container {
   width: 1228px;
@@ -3371,7 +3374,10 @@ p.pl-text-social {
     display: none; }
 
   .ui-state-active {
-    background-color: #eeeeee; } }
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 10px !important; } }
 .s-main-menu .categories ul.mm__column li a {
   text-align: left;
   color: #666 !important; }
