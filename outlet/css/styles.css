@@ -1295,7 +1295,7 @@ html .mt_animate {
   #homepage .flex-item.col-2 {
     width: 50%; }
   #homepage .four .arrow-button {
-    top: 32vh;
-    bottom: initial; } }
+    top: initial;
+    bottom: 30%; } }
 
 /*# sourceMappingURL=styles.css.map */
