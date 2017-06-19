@@ -7,7 +7,7 @@
 * Run command ```npm install```
 * Open file ```Gruntfile.js``` and ensure SCSS/SASS files and CSS files are correctly mapped up
 
-## To use ##
+## To use this ##
 
 * In command line type ```grunt watch```
 * Edit your SCSS/SASS files and save to update the CSS files
