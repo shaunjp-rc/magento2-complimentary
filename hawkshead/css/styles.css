@@ -1885,5 +1885,7 @@ div#header-account {
 
   .mm__column--img {
     display: none; } }
+#tech-image-wrapper img {
+  width: auto; }
 
 /*# sourceMappingURL=styles.css.map */
