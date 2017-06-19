@@ -1837,6 +1837,9 @@ div#header-account {
   color: #fff;
   font-weight: bold; }
 
+.shopall {
+  display: none; }
+
 @media only screen and (max-width: 779px) {
   .offers-box.offers-box--main {
     padding: 10% 0;
@@ -1869,7 +1872,10 @@ div#header-account {
     margin-left: 1%; }
 
   .mm__column.mm__column--img {
-    display: none; } }
+    display: none; }
+
+  .shopall {
+    display: block; } }
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column,
   .s-main-menu .category-items .mm__column.mm__column--footwear,
