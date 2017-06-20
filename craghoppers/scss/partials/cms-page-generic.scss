@@ -625,6 +625,10 @@
 
 }
 
+.c-footer__social {
+	padding:30px 0 20px 0;
+}
+
 /* Banner/SEO */
 .s-text-banner {
     padding: 0;
@@ -765,3 +769,9 @@
 }
 
 /* END */
+
+@media screen and (max-width: 770px) {
+	.c-accordion__content {
+		height: 70px;
+	}
+}
