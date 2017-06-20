@@ -1183,8 +1183,11 @@ html .mt_animate {
   clear: both; }
 
 /*//////////////////////////
-/* Contact Us */
+/* FAQ Page               */
 /*////////////////////////*/
+#faq .icon > img {
+  width: 32px; }
+
 #faq .the-super-duper-mega-container {
   width: 100%;
   max-width: 1200px;
