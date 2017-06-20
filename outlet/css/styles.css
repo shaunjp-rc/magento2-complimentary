@@ -1048,6 +1048,15 @@ html .mt_animate {
   height: initial; }
 
 /*////////////////////////*/
+/*    Category Styles     */
+/*////////////////////////*/
+body .c-product-tile__btn {
+  background: transparent; }
+
+body .c-checkbox-option__checkbox {
+  background: #d8d8d8; }
+
+/*////////////////////////*/
 /*     Header Styles      */
 /*////////////////////////*/
 @media only screen and (min-width: 739px) {
