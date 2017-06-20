@@ -765,3 +765,9 @@
 }
 
 /* END */
+
+@media screen and (max-width: 770px) {
+	.c-accordion__content {
+		height: 70px;
+	}
+}
