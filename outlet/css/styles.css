@@ -7,6 +7,9 @@
 /* UTILITY CSS
 /* All below css is external from reglib
 /**************************************************/
+.mob-only {
+  display: none !important; }
+
 /****************************
 /* Image Styles
 /***************************/
@@ -953,6 +956,25 @@ html .mt_animate {
     width: 98% !important; } }
 /* Partials */
 /*////////////////////////*/
+/*Product page size Styles*/
+/*////////////////////////*/
+#sizeChartWrapper .td-style {
+  background: #f9f9f9;
+  border: solid 1px #e0e0e0;
+  text-transform: uppercase;
+  padding: 10px; }
+
+#sizeChartWrapper .table-heading > td {
+  background: #e0e0e0;
+  height: 50px; }
+
+/*//////////////////////////////*/
+/* Product page technology icon */
+/*//////////////////////////////*/
+#tech-image-wrapper img {
+  height: initial; }
+
+/*////////////////////////*/
 /*     Header Styles      */
 /*////////////////////////*/
 @media only screen and (min-width: 739px) {
@@ -1119,6 +1141,227 @@ html .mt_animate {
   h3.mob-only {
     display: block !important;
     margin-top: 0; } }
+.s-main-menu .block .category-items {
+  padding-top: 0; }
+
+.category-items ul {
+  padding: 0 !important; }
+
+.category-items li a {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.category-items h3 {
+  text-align: left;
+  margin: 15px 0 5px 0; }
+
+.category-items .flex-container {
+  padding: 0 !important;
+  margin-top: 0;
+  margin-bottom: 30px; }
+
+.category-items .menu-pics img {
+  max-width: 80%;
+  margin: 5%; }
+
+.category-items .shop-by-links li {
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0; }
+
+.category-items ul.shop-by-links a {
+  padding: 6px !important;
+  display: block;
+  background: #d32526;
+  color: #fff !important;
+  min-width: 36px;
+  text-align: center !important; }
+
+.category-items .shop-by-links:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/*//////////////////////////
+/* Contact Us */
+/*////////////////////////*/
+#faq .the-super-duper-mega-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  height: 100%; }
+#faq .content-c {
+  width: 30%;
+  float: left;
+  margin: 10px;
+  min-height: 220px; }
+#faq .icon {
+  width: 100%;
+  float: left; }
+#faq .title {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  color: #333333; }
+#faq .text {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  color: #666666; }
+@media only screen and (max-width: 950px) {
+  #faq .content-c {
+    min-height: 240px; } }
+@media only screen and (max-width: 830px) {
+  #faq .content-c {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    margin-left: -20px;
+    min-height: 80px;
+    padding: 20px; }
+  #faq .content-c {
+    background-color: #f3f1f1; }
+  #faq .content-c:nth-child(2), #faq .content-c:nth-child(4), #faq .content-c:nth-child(6) {
+    background-color: #eae8e8; } }
+
+/*//////////////////////////
+/* Contact Us */
+/*////////////////////////*/
+#size-guide-page td {
+  border: 1px solid #ccc;
+  padding: 5px; }
+
+#size-guide-page table {
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #444; }
+
+#size-guide-page .table-heading {
+  background: #eee;
+  font-weight: bold; }
+
+#size-guide-page .flex-item {
+  padding: 0 20px; }
+
+#size-guide-page .size-buttons a {
+  background: #c10925;
+  padding: 14px 12px;
+  border-radius: 4px;
+  margin: 6px;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 50px;
+  text-align: center; }
+
+#size-guide-page a.euro-toggle {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  font-size: 16px; }
+
+#size-guide-page .tabs-content .flex-container {
+  margin: 40px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px; }
+
+#size-guide-page .tabs-content img {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  max-width: 180px; }
+
+.euro-toggle + #size-guide-container .sizes-euro, .euro-toggle.active + #size-guide-container .sizes-uk {
+  display: none; }
+
+.euro-toggle.active + #size-guide-container .sizes-euro {
+  display: block; }
+
+#size-guide-page h1, #size-guide-page h2, #size-guide-page h3 {
+  margin: 14px 0;
+  color: #333 !important; }
+
+@media screen and (max-width: 500px) {
+  #size-guide-page .tabs-content {
+    padding: 10px 5px; }
+
+  #size-guide-page .flex-item {
+    padding: 0 0px; } }
+.size-buttons, #size-guide-page .col-4 h2 {
+  display: none; }
+
+/*//////////////////////////
+/* Contact Us */
+/*////////////////////////*/
+#contact-us .methods, #contact-us .hours {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 20px !important;
+  margin-bottom: 30px; }
+#contact-us .methods a, #contact-us p a {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer; }
+#contact-us h1 {
+  color: #333;
+  margin: 40px 0 20px 0; }
+#contact-us .rl-pop.active {
+  left: 0; }
+#contact-us .buttons-set > button {
+  float: left !important;
+  background: #5AA11F !important;
+  padding: 13px;
+  border-radius: 6px; }
+#contact-us .webforms-fields-ex_data_export_time_sent {
+  display: none; }
+#contact-us .webforms-fields-ex_data_export_recipient {
+  display: none; }
+#contact-us .fields.first > div:nth-child(2) {
+  display: none !important; }
+#contact-us textarea {
+  width: 370px;
+  border: 1px solid #ccc;
+  max-width: 90%; }
+#contact-us .fields.last {
+  display: none; }
+#contact-us .hours p {
+  margin: 2px 0; }
+#contact-us .methods ul, #contact-us .methods li {
+  margin: 0 !important;
+  padding: 0;
+  list-style-type: none; }
+#contact-us .methods p {
+  padding-left: 30px; }
+#contact-us .methods p:nth-child(1) {
+  background: url(https://s3-eu-west-1.amazonaws.com/regattaoutlet-static-images-live/SS15/img/pages/contact/call.jpg);
+  background-size: 20px;
+  background-repeat: no-repeat; }
+#contact-us .methods p:nth-child(2) {
+  background: url(https://s3-eu-west-1.amazonaws.com/regattaoutlet-static-images-live/SS15/img/pages/contact/email.jpg);
+  background-size: 20px;
+  background-repeat: no-repeat; }
+#contact-us .methods ul li:nth-child(1) {
+  background: url(https://s3-eu-west-1.amazonaws.com/regattaoutlet-static-images-live/SS15/img/pages/contact/locaton.jpg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-bottom: 10px !Important;
+  display: block; }
+#contact-us .cms-page {
+  margin: 10px; }
+#contact-us #cu-form {
+  margin-top: 100px !important;
+  max-height: 80%;
+  overflow: auto;
+  z-index: 999999999999999;
+  border: 1px solid #ccc; }
+#contact-us .cms-page ul, #contact-us .cms-page li {
+  list-style-type: none !important; }
+
 /*//////////////////////////*/
 /*Jackets Buying Guide      */
 /*//////////////////////////*/
