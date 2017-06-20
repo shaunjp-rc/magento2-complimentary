@@ -430,6 +430,9 @@
     border-style: solid;
     border-width: 0 7px 7px 7px;
     border-color: transparent transparent #afafaf transparent; } }
+.c-footer__social {
+  padding: 30px 0 20px 0; }
+
 /* Banner/SEO */
 .s-text-banner {
   padding: 0; }
@@ -1183,6 +1186,9 @@ ul.fullWidthSlider__slidesList {
 
   .pageSection__title {
     font-size: 14px; } }
+.gtm-promo {
+  text-decoration: none; }
+
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
