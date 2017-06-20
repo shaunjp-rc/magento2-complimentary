@@ -429,36 +429,7 @@
     overflow-y: scroll; }
 
   .basket-container-promo-block {
-    position: relative; }
-
-  .basket-container-promo-block:before {
-    content: " ";
-    background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-up.svg);
-    background-repeat: no-repeat;
-    background-size: inherit;
-    background-position: center;
-    height: 40px;
-    width: 30px;
-    position: absolute;
-    display: block;
-    bottom: 20px;
-    right: 50px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 50px #ffffff;
-    animation-name: slide;
-    animation-duration: 2s;
-    animation-iteration-count: infinite; }
-
-  @keyframes slide {
-    0% {
-      bottom: 20px; }
-    50% {
-      bottom: 40px; }
-    51% {
-      background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-up.svg); }
-    100% {
-      bottom: 20px;
-      background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-down.svg); } } }
+    position: relative; } }
 @media only screen and (max-width: 739px) {
   .delivery-basket-container {
     max-height: none;
@@ -751,9 +722,6 @@ html .mt_animate {
   text-decoration: none; }
 
 @media only screen and (max-width: 500px) {
-  .monetate-product-relationships-one, .monetate-product-relationships-two {
-    max-width: 100%; }
-
   .c-tabs.product.info.detailed + .o-region__inner:before {
     display: none; }
 
@@ -761,7 +729,8 @@ html .mt_animate {
     background: transparent; }
 
   .monetate-product-relationships-one, .monetate-product-relationships-two {
-    margin: 2% 0%; }
+    margin: 2% 0%;
+    max-width: 100% !important; }
 
   .monetate-product-relationships-one .mt_sliderMask ul li.mt_item, .monetate-product-relationships-two .mt_sliderMask ul li.mt_item {
     max-width: none; }
@@ -955,6 +924,110 @@ html .mt_animate {
   .redeye-form > div {
     width: 98% !important; } }
 /* Partials */
+/*////////////////////////*/
+/*     Error 404 page     */
+/*////////////////////////*/
+#error .highlight {
+  background: black;
+  padding: 10px;
+  margin: 0px -10px 0px -10px; }
+#error .Super-duper-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/background.jpg);
+  min-height: 580px;
+  background-repeat: no-repeat;
+  background-position: center; }
+#error .title-container {
+  float: left;
+  width: 100%;
+  max-width: 400px;
+  background-color: #f03025;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; }
+#error .content-container {
+  float: left;
+  clear: both;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(240, 48, 37, 0.9);
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; }
+#error .content-container-shop {
+  float: left;
+  clear: both;
+  width: 100%;
+  max-width: 470px;
+  margin-left: 0px;
+  margin-top: 20px;
+  color: #000000;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; }
+#error .sub-title {
+  font-family: nz, helvetica, tahoma, arial, sans-serif;
+  font-size: 1.2em; }
+#error .shop-buttons {
+  background-color: #ffae38;
+  padding: 20px;
+  margin-right: 10px;
+  float: left;
+  width: 37%;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+@media only screen and (max-width: 444px) {
+  #error .content-container {
+    max-width: 80%; }
+  #error .title-container {
+    max-width: 80%; } }
+@media only screen and (max-width: 545px) {
+  #error .content-container-shop {
+    float: left;
+    clear: both;
+    width: 100%;
+    max-width: 470px;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: #000000;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 11px; }
+  #error .title-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important; }
+  #error .main {
+    margin: 0 -20px !important; }
+  #error .fixer {
+    width: 80%; }
+  #error .content-container {
+    margin-left: 20px !important;
+    width: 71% !important; }
+  #error .content-container-shop {
+    margin-left: 20px !important;
+    width: 71% !important; }
+  #error .shop-buttons {
+    width: 86% !important; } }
+
 /*////////////////////////*/
 /*Product page size Styles*/
 /*////////////////////////*/

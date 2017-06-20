@@ -452,32 +452,9 @@
     position: relative;
 }
 
-.basket-container-promo-block:before {
-    content: " ";
-    background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-up.svg);
-    background-repeat: no-repeat;
-    background-size: inherit;
-    background-position: center;
-    height: 40px;
-    width: 30px;
-    position: absolute;
-    display: block;
-    bottom: 20px;
-    right: 50px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 50px #ffffff;
-    animation-name: slide;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
 
-@keyframes slide {
-    0% {bottom: 20px;}
-    50% {bottom: 40px;}
-    51% { background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-up.svg);}
-    100% {bottom: 20px; background-image: url(http://cdn.dare2b.com/img/global-images/finger-swipe-down.svg);}
 
-}
+
 
 }
 @media only screen and (max-width:739px) {
@@ -806,9 +783,7 @@ html .mt_animate {
     text-decoration: none;
 }
 @media only screen and (max-width:500px) {
-    .monetate-product-relationships-one, .monetate-product-relationships-two {
-        max-width: 100%;
-    }
+
     .c-tabs.product.info.detailed + .o-region__inner:before {
         display: none;
     }
@@ -817,6 +792,7 @@ html .mt_animate {
     }
     .monetate-product-relationships-one, .monetate-product-relationships-two {
         margin: 2% 0%;
+        max-width: 100% !important;
     }
     .monetate-product-relationships-one .mt_sliderMask ul li.mt_item, .monetate-product-relationships-two .mt_sliderMask ul li.mt_item {
         max-width: none;
