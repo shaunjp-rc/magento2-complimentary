@@ -547,6 +547,9 @@
   .noresultscontainer__nav a {
     width: 100%; } }
 /* END */
+@media screen and (max-width: 770px) {
+  .c-accordion__content {
+    height: 70px; } }
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
