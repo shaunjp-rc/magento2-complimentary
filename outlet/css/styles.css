@@ -964,10 +964,10 @@ html .mt_animate {
 @media only screen and (max-width: 739px) {
   #header .c-icon--menu, #header .c-icon--account, #header .c-icon--search, #header .c-icon--shopping-basket-black {
     -webkit-filter: hue-rotate(320deg) saturate(5) brightness(0.8);
-    filter: hue-rotate(320deg) saturate(5) brightness(0.8); }
-  #header .c-header--sticky .o-layout__item.u-2\/12:nth-child(2), #header .c-header--sticky .o-layout__item.u-2\/12:nth-child(4), #header .c-header--sticky .o-layout__item.u-2\/12:nth-child(5) {
-    position: relative;
-    z-index: -1; } }
+    filter: hue-rotate(320deg) saturate(5) brightness(0.8); } }
+.nav-before-open .c-mobile-menu {
+  z-index: 1; }
+
 /*////////////////////////*/
 /*   Footer Block Links   */
 /*////////////////////////*/
