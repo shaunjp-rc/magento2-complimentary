@@ -1073,11 +1073,27 @@ html .mt_animate {
 #top-level-cat-banner-text p {
   margin-bottom: 5px; }
 
+.dare2b #top-level-cat-banner-text-dare2b > a {
+  flex-grow: 1;
+  background: #000000;
+  margin: 1px;
+  padding: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.dare2b #top-level-cat-banner-text-dare2b > a:hover {
+  background: #0570AE; }
+
+.dare2b #top-level-cat-banner-text-dare2b {
+  display: flex;
+  flex-wrap: wrap; }
+
 @media screen and (max-width: 989px) {
-  #top-level-cat-banner-img {
+  #top-level-cat-banner-img, #top-level-cat-banner-img-dare2b {
     display: none; }
 
-  #top-level-cat-banner-text {
+  #top-level-cat-banner-text, #top-level-cat-banner-text-dare2b {
     width: 100%;
     padding: 20px; } }
 /*////////////////////////*/
