@@ -3897,4 +3897,11 @@ p.pl-text-social {
 #tech-image-wrapper img {
   width: auto; }
 
+.c-product-tile__btn {
+  font-size: 1rem;
+  background: #bbb;
+  color: #343334;
+  border: none;
+  padding: 2px; }
+
 /*# sourceMappingURL=styles.css.map */

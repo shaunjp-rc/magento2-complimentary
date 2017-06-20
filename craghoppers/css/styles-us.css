@@ -3308,6 +3308,13 @@ p.pl-text-social {
 #tech-image-wrapper img {
   width: auto; }
 
+.c-product-tile__btn {
+  font-size: 1rem;
+  background: #bbb;
+  color: #343334;
+  border: none;
+  padding: 2px; }
+
 /* Mega Menu */
 .mm__container {
   width: 1228px;
