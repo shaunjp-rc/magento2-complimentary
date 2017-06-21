@@ -770,22 +770,11 @@
 
 /* END */
 
-
-.s-main-menu .categories {
-	text-align: center; }
-
-.s-main-menu .categories > li {
-	display: inline-block;
-	padding-right: 1.25%; }
-
-
-
 @media screen and (max-width: 770px) {
 	.c-accordion__content {
 		height: 70px;
 	}
 }
-
 
 .c-input-wrap.c-input-wrap--icon-right {
 	padding-top: 16px;
@@ -802,6 +791,7 @@
 .c-mini-cart__drop-down {
 	top: 65px;
 }
+
 
 .s-main-menu .categories {
   text-align: center; }
@@ -856,3 +846,4 @@
     border: 2px solid #343334;
 }
 /*basket end*/
+
