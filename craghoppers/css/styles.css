@@ -547,9 +547,37 @@
   .noresultscontainer__nav a {
     width: 100%; } }
 /* END */
+
+.s-main-menu .categories {
+  text-align: center; }
+
+.s-main-menu .categories > li {
+  display: inline-block;
+  padding-right: 1.25%; }
+
+
 @media screen and (max-width: 770px) {
   .c-accordion__content {
     height: 70px; } }
+.c-input-wrap.c-input-wrap--icon-right {
+  padding-top: 16px; }
+
+.c-header-search .c-input-wrap__icon {
+  top: 18px; }
+
+.c-mini-cart {
+  padding-top: 27px; }
+
+.c-mini-cart__drop-down {
+  top: 65px; }
+
+.s-main-menu .categories {
+  text-align: center; }
+
+.s-main-menu .categories > li {
+  display: inline-block;
+  padding-right: 1.25%; }
+
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -3903,5 +3931,13 @@ p.pl-text-social {
   color: #343334;
   border: none;
   padding: 2px; }
+
+
+.u-heading-epsilon {
+  line-height: 1.4; }
+
+.c-product-size__link {
+  font-weight: normal; }
+
 
 /*# sourceMappingURL=styles.css.map */

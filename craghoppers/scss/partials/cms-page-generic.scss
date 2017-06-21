@@ -770,8 +770,43 @@
 
 /* END */
 
+
+.s-main-menu .categories {
+	text-align: center; }
+
+.s-main-menu .categories > li {
+	display: inline-block;
+	padding-right: 1.25%; }
+
+
+
 @media screen and (max-width: 770px) {
 	.c-accordion__content {
 		height: 70px;
 	}
 }
+
+
+.c-input-wrap.c-input-wrap--icon-right {
+	padding-top: 16px;
+}
+
+.c-header-search .c-input-wrap__icon {
+	top: 18px;
+}
+
+.c-mini-cart {
+    padding-top: 27px;
+}
+
+.c-mini-cart__drop-down {
+	top: 65px;
+}
+
+.s-main-menu .categories {
+  text-align: center; }
+
+.s-main-menu .categories > li {
+  display: inline-block;
+  padding-right: 1.25%; }
+
