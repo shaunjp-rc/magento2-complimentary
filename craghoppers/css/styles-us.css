@@ -430,6 +430,9 @@
     border-style: solid;
     border-width: 0 7px 7px 7px;
     border-color: transparent transparent #afafaf transparent; } }
+.c-footer__social {
+  padding: 30px 0 20px 0; }
+
 /* Banner/SEO */
 .s-text-banner {
   padding: 0; }
@@ -544,6 +547,16 @@
   .noresultscontainer__nav a {
     width: 100%; } }
 /* END */
+.s-main-menu .categories {
+  text-align: center; }
+
+.s-main-menu .categories > li {
+  display: inline-block;
+  padding-right: 1.25%; }
+
+@media screen and (max-width: 770px) {
+  .c-accordion__content {
+    height: 70px; } }
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -3298,6 +3311,19 @@ p.pl-text-social {
 /* END */
 #tech-image-wrapper img {
   width: auto; }
+
+.c-product-tile__btn {
+  font-size: 1rem;
+  background: #bbb;
+  color: #343334;
+  border: none;
+  padding: 2px; }
+
+.u-heading-epsilon {
+  line-height: 1.4; }
+
+.c-product-size__link {
+  font-weight: normal; }
 
 /* Mega Menu */
 .mm__container {
