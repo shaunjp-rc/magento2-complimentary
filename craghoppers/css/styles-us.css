@@ -547,12 +547,14 @@
   .noresultscontainer__nav a {
     width: 100%; } }
 /* END */
+
 .s-main-menu .categories {
   text-align: center; }
 
 .s-main-menu .categories > li {
   display: inline-block;
   padding-right: 1.25%; }
+
 
 @media screen and (max-width: 770px) {
   .c-accordion__content {
@@ -1196,6 +1198,9 @@ ul.fullWidthSlider__slidesList {
 
   .pageSection__title {
     font-size: 14px; } }
+.gtm-promo {
+  text-decoration: none; }
+
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -3319,11 +3324,14 @@ p.pl-text-social {
   border: none;
   padding: 2px; }
 
+
 .u-heading-epsilon {
   line-height: 1.4; }
 
 .c-product-size__link {
   font-weight: normal; }
+
+
 
 /* Mega Menu */
 .mm__container {

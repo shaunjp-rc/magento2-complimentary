@@ -354,6 +354,10 @@
     background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/footwear-topbanner.jpg);
 }
 
+.bannercontainer.camping { 
+    background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/camping-topbanner.jpg);
+} 
+
 
 .pageintro p {
     margin-bottom: 1%;
@@ -468,6 +472,82 @@
 
 	.noresults__container a {
 	    width: 100%;
+	} 
+
+}
+
+/* END */
+
+/* Header updates */
+.s-main-menu .categories {
+    text-align: center;
+}
+
+.s-main-menu .categories>li {
+    display: inline-block;
+    padding-right: 0.5%;
+}
+
+.c-header,
+.s-header-links .links>li>a,
+.s-header-links .links>li>a:active,
+.s-header-links .links>li>a:focus,
+.s-header-links .links>li>a:hover,
+.s-header-links .links>li>a:visited {
+	color: #000;
+}
+
+.c-header__logo img {
+    filter: invert(100%);
+}
+
+.c-header {
+    background-color: #fff;
+}
+
+.s-footer-links .column h4,
+.s-footer-links-social h4 {
+    color: #000;
+}
+
+.s-main-menu .block {
+    background: #fff;
+}
+
+.s-main-menu .categories>li a.ui-state-focus,
+.s-main-menu .categories>li a.ui-state-focus:active,
+.s-main-menu .categories>li a.ui-state-focus:focus,
+.s-main-menu .categories>li a.ui-state-focus:hover,
+.s-main-menu .categories>li a.ui-state-focus:visited {
+	color: #000;
+}
+
+.s-main-menu .categories>li a.ui-state-focus,
+.s-main-menu .categories>li:first-child a.ui-state-focus:after,
+.s-main-menu .categories>li:last-child a.ui-state-focus:after {
+	background: #f6f6f6;
+}
+
+.s-main-menu .categories > li.dropdown--clearance a.ui-state-focus,
+.s-main-menu .categories > li.dropdown--clearance a.ui-state-focus:active,
+.s-main-menu .categories > li.dropdown--clearance a.ui-state-focus:focus,
+.s-main-menu .categories > li.dropdown--clearance a.ui-state-focus:hover,
+.s-main-menu .categories > li.dropdown--clearance a.ui-state-focus:visited {
+	color: #ff0000;
+}
+@media only screen and (max-width:1227px) {
+	.s-main-menu .categories>li {
+	    padding-right: 0%;
+	}
+}
+
+@media only screen and (max-width:770px) {
+	.s-main-menu .categories>li {
+	    display: block;
+	}
+
+	.s-main-menu .categories {
+    	text-align: left;
 	} 
 
 }
