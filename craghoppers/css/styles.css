@@ -547,6 +547,15 @@
   .noresultscontainer__nav a {
     width: 100%; } }
 /* END */
+
+.s-main-menu .categories {
+  text-align: center; }
+
+.s-main-menu .categories > li {
+  display: inline-block;
+  padding-right: 1.25%; }
+
+
 @media screen and (max-width: 770px) {
   .c-accordion__content {
     height: 70px; } }
@@ -3922,5 +3931,13 @@ p.pl-text-social {
   color: #343334;
   border: none;
   padding: 2px; }
+
+
+.u-heading-epsilon {
+  line-height: 1.4; }
+
+.c-product-size__link {
+  font-weight: normal; }
+
 
 /*# sourceMappingURL=styles.css.map */
