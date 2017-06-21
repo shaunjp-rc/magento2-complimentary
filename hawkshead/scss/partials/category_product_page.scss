@@ -12,21 +12,6 @@
    float: left;
 }
 
-#qty {
-   display: inline-block;
-   padding: 0;
-   border: 1px #000 solid;
-   line-height: 36px;
-   text-align: center;
-   font-size: 14px;
-   vertical-align: top;
-   width: 36px;
-   height: 36px;
-   float: left;
-   margin: 0 6px;
-   border-radius: 0;
-}
-
 .box-related li.item {
    width: 20%;
    float: left;
@@ -94,4 +79,27 @@ div#header-account {
 .box-collateral.box-related {
    float: left;
    width: 100%;
+}
+
+.c-product-details .product-info-stock-sku .value {
+    top: -10px;
+    float: none;
+    text-align: left;
+}
+
+a.c-product-size__size-guide-link {
+    background: #FCB831;
+    padding: 8px 10%;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: -1%;
+}
+
+a.c-product-size__size-guide-link:hover {
+    color: #fff;
+}
+
+.c-product-size__link {
+    font-weight: 300;
 }
