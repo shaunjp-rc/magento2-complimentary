@@ -6,6 +6,19 @@
 //
 /////////////////////////////////////*/
 
+/*///////// Badge Behaviour ////////*/
+function rlBadge(){
+	if ( jQuery( "[name='monVar_promotion']" ).length ) {
+		jQuery( "[name='monVar_promotion']" ).each(function( index ) {
+		  var value = jQuery( this ).val();
+		  if ( value.length ) {
+			  var className = value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
+			  jQuery( this ).closest(".c-product-tile__badge-content").prepend("<span class='" + className + " mon-badge'>" + value + "</span>");
+			}
+		});
+	}
+}
+
 /*///////// Toggle Behaviour ////////*/
 
 function rlToggle(){

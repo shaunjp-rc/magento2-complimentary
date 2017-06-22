@@ -11,6 +11,18 @@
   display: none !important; }
 
 /****************************
+/* Badge Styles
+/***************************/
+.mon-badge {
+  background: #e0e0e0;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase; }
+
+/****************************
 /* Image Styles
 /***************************/
 .cms-page img {
