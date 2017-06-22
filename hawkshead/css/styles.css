@@ -385,6 +385,7 @@
   color: #000; }
 
 .c-header__logo img {
+  -webkit-filter: invert(100%);
   filter: invert(100%); }
 
 .c-header {
@@ -1926,12 +1927,6 @@ a.c-product-size__size-guide-link:hover {
 .shopall {
   display: none; }
 
-.s-main-menu .category-items .mm__column.mm__column--img {
-  float: right; }
-
-.mm__container-brands .columnHead h3 {
-  font-weight: 300; }
-
 @media only screen and (max-width: 779px) {
   .offers-box.offers-box--main {
     padding: 10% 0;
@@ -1953,6 +1948,38 @@ a.c-product-size__size-guide-link:hover {
     padding: 10% 0;
     display: table; } }
 @media only screen and (max-width: 770px) {
+  .s-main-menu .category-items .mm__column.mm__column--img {
+    float: right; }
+
+  .mm__container-brands .columnHead h3 {
+    font-weight: 300; } }
+@media only screen and (max-width: 779px) {
+  .offers-box.offers-box--main {
+    padding: 10% 0;
+    float: none;
+    margin: 5% auto 0;
+    width: 95%; }
+
+  .offers-box {
+    float: left;
+    width: 49%;
+    text-align: center;
+    background: red;
+    padding: 1% 0;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%; }
+
+  .offers-box--main-camping {
+    width: 95%;
+    padding: 10% 0;
+    display: table; } }
+@media only screen and (max-width: 770px) {
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--footwear,
+  .s-main-menu .category-items .mm__column.mm__column--camping,
+  .s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
+    width: 100%; }
+
   .genderheadtext,
   .mm__column--footwear .columnHead {
     margin-left: 1%; }
