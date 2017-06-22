@@ -96,6 +96,39 @@ requirejs(['jquery'], function( $ ) {
   });
   /* END */
 
+  /* Mobile SEO show/hide */
+  if (document.documentElement.clientWidth < 771) {
+    if($j('.pageintro > p').length > 1) {
+        $j('.pageintro').addClass('pageintro-hidden');
+        $j('.pageintro').after('<div class="mobileseo-container-first"><div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div><a><div class="seemore">Read more</div></a></div>');
+    }
+
+    $('.seemore').click(function(){
+      $j('.pageintro').toggleClass('pageintro-hidden');
+      $j('.gradient').toggleClass('gradient-toggle');
+      $j('.mobileseo-container-first').toggleClass('mobileseo-container-toggle');
+      $j('.seemore').html('Read less');
+    });
+
+    if($j('.banner__text').length > 1) {
+      $j('.banner__text').after('<div class="mobileseo-container"><div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div><a><div class="seemoreseo">Read more</div></a></div>');
+      $j('.mobileseo-container + .banner__text').addClass('seo-hidden');
+      $j('.mobileseo-container + .banner__text + .mobileseo-container').addClass('seo-hidden');
+      $j('.banner__text').addClass('seo-reduced');
+    }
+
+    $('.seemoreseo').click(function(){
+      $j('.mobileseo-container + .banner__text + .mobileseo-container').toggleClass('seo-hidden');
+      $j('.mobileseo-container + .banner__text').toggleClass('seo-hidden');
+      $j('.banner__text').toggleClass('seo-reduced');
+      $j('.mobileseo-container:first-of-type').toggleClass('bttnhide');
+      $j('.mobileseo-container:last-of-type').toggleClass('marginfix');
+      $j('.mobileseo-container:last-of-type .seemoreseo').html('Read less');
+    });
+
+  };
+  /* END */
+
 
 
 

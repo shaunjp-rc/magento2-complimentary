@@ -447,6 +447,54 @@
   .o-layout__item.c-basket__remove-group {
     padding-left: 0%; } }
 /* END */
+/* SEO show hide */
+@media only screen and (max-width: 770px) {
+  .s-text-banner {
+    display: table; }
+
+  .bannercontainer,
+  .banner__text.banner__text--toggle,
+  .mobileseo-container.mobileseo-container--second.clickdisplay {
+    display: none; }
+
+  .pageintro {
+    float: none; }
+
+  .pageintro.pageintro-hidden {
+    height: 100px;
+    overflow: hidden; }
+
+  .seemore,
+  .seemoreseo {
+    margin: 0 auto;
+    background: #769fd0;
+    width: 25%;
+    color: #fff;
+    padding: 0.5% 0; }
+
+  .mobileseo-container-first {
+    margin-top: -45px; }
+
+  .mobileseo-container {
+    margin-top: -70px; }
+
+  .seo-hidden {
+    display: none; }
+
+  .banner__text.seo-reduced {
+    height: 50px;
+    overflow: hidden; }
+
+  .mobileseo-container.action:first-of-type,
+  .mobileseo-container.bttnhide,
+  .gradient.gradient-toggle,
+  .mobileseo-container:last-of-type img {
+    display: none; }
+
+  .mobileseo-container.marginfix,
+  .mobileseo-container-first.mobileseo-container-toggle {
+    margin: 0; } }
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
