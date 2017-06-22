@@ -547,15 +547,6 @@
   .noresultscontainer__nav a {
     width: 100%; } }
 /* END */
-
-.s-main-menu .categories {
-  text-align: center; }
-
-.s-main-menu .categories > li {
-  display: inline-block;
-  padding-right: 1.25%; }
-
-
 @media screen and (max-width: 770px) {
   .c-accordion__content {
     height: 70px; } }
@@ -570,7 +561,6 @@
 
 .c-mini-cart__drop-down {
   top: 65px; }
-
 
 .s-main-menu .categories {
   text-align: center; }
@@ -617,7 +607,6 @@
   border: 2px solid #343334; }
 
 /*basket end*/
-
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -3388,7 +3377,6 @@ p.pl-text-social {
 
 .c-product-size__link {
   font-weight: normal; }
-
 
 .c-product-details .product-info-stock-sku .value {
   float: none;

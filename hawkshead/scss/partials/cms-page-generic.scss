@@ -498,6 +498,7 @@
 }
 
 .c-header__logo img {
+	-webkit-filter: invert(100%);
     filter: invert(100%);
 }
 
@@ -508,7 +509,7 @@
 .s-footer-links .column h4,
 .s-footer-links-social h4 {
     color: #000;
-}
+} 
 
 .s-main-menu .block {
     background: #fff;
