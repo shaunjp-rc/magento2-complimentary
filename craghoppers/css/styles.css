@@ -575,7 +575,7 @@
 .c-basket__continue-shopping {
   float: left; }
 
-.o-layout__item:nth-child(3) {
+.c-basket__content .o-layout__item:nth-child(3) {
   padding-left: 48px !important; }
 
 .c-basket__remove {
@@ -583,9 +583,6 @@
 
 .o-layout__item:nth-child(2) {
   padding-left: 20px; }
-
-.c-basket__save-link {
-  padding-left: 35px; }
 
 .c-basket__continue-shopping {
   float: left;
