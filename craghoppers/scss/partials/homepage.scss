@@ -860,3 +860,13 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 .gtm-promo {
   text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+    .flex-direction-nav {
+      margin-left: 0;
+    }
+    .bannerOverlay__contentArea--slider {
+      padding-bottom: 3%;
+    }
+
+}
