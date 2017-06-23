@@ -860,11 +860,18 @@
 }
 /* centre align nav end */
 
-/* tablet nav */
+/* mobile nav */
 @media screen and (max-width: 770px) {
 	.s-main-menu .category-items .mm__column, .s-main-menu .category-items .mm__column.mm__column--lookbook {
 		width: 25%;
 	}
 }
-/* tablet nav end */
+
+@media screen and (max-width: 500px) {
+	.s-main-menu .categories > li {
+	    text-align: left;
+	    display: block;
+	}
+}
+/* mobile nav end */
 
