@@ -602,6 +602,7 @@
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png); }
 
 /* END */
+
 /* centre align nav */
 .s-main-menu .categories > li {
   text-align: center;
@@ -617,6 +618,13 @@
   position: relative; }
 
 /* centre align nav end */
+
+/* tablet nav */
+@media screen and (max-width: 770px) {
+  .s-main-menu .category-items .mm__column, .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 25%; } }
+/* tablet nav end */
+
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -1259,6 +1267,12 @@ ul.fullWidthSlider__slidesList {
 .gtm-promo {
   text-decoration: none; }
 
+@media screen and (max-width: 800px) {
+  .flex-direction-nav {
+    margin-left: 0; }
+
+  .bannerOverlay__contentArea--slider {
+    padding-bottom: 3%; } }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {

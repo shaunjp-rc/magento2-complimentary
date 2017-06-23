@@ -13,7 +13,7 @@ function rlBadge(){
 		  var value = jQuery( this ).val();
 		  if ( value.length ) {
 			  var className = value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
-			  jQuery( this ).closest(".c-product-tile__badge-content").prepend("<span class='" + className + " mon-badge'>" + value + "</span>");
+			  jQuery( this ).closest("#monVars").append("<span class='" + className + " mon-badge'>" + value + "</span>");
 			}
 		});
 	}
