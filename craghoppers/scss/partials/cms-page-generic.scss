@@ -785,7 +785,7 @@
 }
 
 .c-mini-cart {
-    padding-top: 27px;
+	padding-top: 27px;
 }
 
 .c-mini-cart__drop-down {
@@ -793,7 +793,9 @@
 }
 
 /*basket start*/
-.c-basket-checkout__shipping-price, .c-basket-checkout__subtotal-price, .c-basket-checkout__total-price {
+.c-basket-checkout__shipping-price,
+.c-basket-checkout__subtotal-price,
+.c-basket-checkout__total-price {
 	margin-right: 0px;
 }
 
@@ -806,65 +808,94 @@
 }
 
 .c-basket__continue-shopping {
-    float: left;
+	float: left;
 }
 
 .c-basket__content .o-layout__item:nth-child(3) {
-    	padding-left: 48px !important;
+	padding-left: 48px !important;
 }
 
 .c-basket__remove {
-    padding-left: 48px;
+	padding-left: 48px;
 }
 
 .o-layout__item:nth-child(2) {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 .c-basket__continue-shopping {
-    float: left;
-    margin-left: -72px;
-    background: #343334;
-    color: #fff !important;
-    padding: 5px 20px 4px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 1.33333;
-    border: 2px solid #343334;
+	float: left;
+	margin-left: -72px;
+	background: #343334;
+	color: #fff !important;
+	padding: 5px 20px 4px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 1.33333;
+	border: 2px solid #343334;
 }
+
 /*basket end*/
 
 /* Footer payment logos */
 .c-footer__payment-icons {
-    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png);
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png);
 }
-/* END */
 
+/* END */
 
 /* centre align nav */
 .s-main-menu .categories>li {
-    text-align: center;
-    display: inline-block;
-    padding-right: 0.1%;
+	text-align: center;
+	display: inline-block;
+	padding-right: 0.1%;
 }
 
 .s-main-menu .categories {
-    display: table;
-    margin: 0 auto;
-    text-align: center;
+	display: table;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .s-main-menu {
 	position: relative;
 }
+
 /* centre align nav end */
 
 /* tablet nav */
-@media screen and (max-width: 770px) {
-	.s-main-menu .category-items .mm__column, .s-main-menu .category-items .mm__column.mm__column--lookbook {
+@media screen and (max-width:770px) {
+	.s-main-menu .category-items .mm__column,
+	.s-main-menu .category-items .mm__column.mm__column--lookbook {
 		width: 25%;
 	}
+
 }
+
 /* tablet nav end */
 
+/* social icons */
+@media screen and (max-width:770px) {
+	.s-footer-links-social .c-icon--facebook,
+	.s-footer-links-social .c-icon--google,
+	.s-footer-links-social .c-icon--instagram,
+	.s-footer-links-social .c-icon--twitter,
+	.s-footer-links-social .c-icon--youtube {
+		margin: 0 10px 0 0;
+	}
+
+}
+
+/* social icons end */
+
+/* feefo */
+h4.c-feefo__titl {
+	color: #fff;
+}
+
+.c-feefo {
+	margin: 0;
+}
+
+/* feefo end */

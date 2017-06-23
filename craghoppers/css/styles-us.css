@@ -563,7 +563,9 @@
   top: 65px; }
 
 /*basket start*/
-.c-basket-checkout__shipping-price, .c-basket-checkout__subtotal-price, .c-basket-checkout__total-price {
+.c-basket-checkout__shipping-price,
+.c-basket-checkout__subtotal-price,
+.c-basket-checkout__total-price {
   margin-right: 0px; }
 
 .c-basket__subtotal {
@@ -602,7 +604,6 @@
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png); }
 
 /* END */
-
 /* centre align nav */
 .s-main-menu .categories > li {
   text-align: center;
@@ -618,13 +619,29 @@
   position: relative; }
 
 /* centre align nav end */
-
 /* tablet nav */
 @media screen and (max-width: 770px) {
-  .s-main-menu .category-items .mm__column, .s-main-menu .category-items .mm__column.mm__column--lookbook {
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
     width: 25%; } }
 /* tablet nav end */
+/* social icons */
+@media screen and (max-width: 770px) {
+  .s-footer-links-social .c-icon--facebook,
+  .s-footer-links-social .c-icon--google,
+  .s-footer-links-social .c-icon--instagram,
+  .s-footer-links-social .c-icon--twitter,
+  .s-footer-links-social .c-icon--youtube {
+    margin: 0 10px 0 0; } }
+/* social icons end */
+/* feefo */
+h4.c-feefo__titl {
+  color: #fff; }
 
+.c-feefo {
+  margin: 0; }
+
+/* feefo end */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
