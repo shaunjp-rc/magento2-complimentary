@@ -602,6 +602,21 @@
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png); }
 
 /* END */
+/* centre align nav */
+.s-main-menu .categories > li {
+  text-align: center;
+  display: inline-block;
+  padding-right: 0.1%; }
+
+.s-main-menu .categories {
+  display: table;
+  margin: 0 auto;
+  text-align: center; }
+
+.s-main-menu {
+  position: relative; }
+
+/* centre align nav end */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
