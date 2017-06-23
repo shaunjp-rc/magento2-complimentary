@@ -500,6 +500,12 @@
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png); }
 
 /* END */
+/* Footer feefo logo */
+h4.c-feefo__titl {
+  margin: 0;
+  color: #fff; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
@@ -569,6 +575,11 @@ ul.flex-direction-nav {
 .flex-direction-nav li a.next {
   display: none; }
 
+.sliderredbackround {
+  background-color: rgba(255, 0, 0, 0.8);
+  margin: 0 auto;
+  width: 50%; }
+
 p.collectionhighlights__hoverstate--header {
   margin: 9% 0; }
 
@@ -613,7 +624,7 @@ p.collectionhighlights__hoverstate--header {
   text-align: center; }
 
 .transparentfullwidth--red {
-  background-color: #d64846; }
+  background-color: #FC8A81; }
 
 .transparentfullwidth--blue {
   background: #79A3D1; }
@@ -655,10 +666,16 @@ p.collectionhighlights__hoverstate--header {
   color: #fff; }
 
 .fourblocks__container {
-  width: 24%;
+  width: 23.8%;
   margin-right: 1%;
+  margin-bottom: 2%;
+  display: inline-block;
+  float: none; }
+
+.brand__container {
   float: left;
-  margin-bottom: 2%; }
+  width: 100%;
+  text-align: center; }
 
 .fourblocks__container:nth-child(4) {
   margin-right: 0;
@@ -1090,10 +1107,6 @@ p.collectionhighlights__hoverstate--header {
   .catalog-category-view .bannercontainer {
     display: none; }
 
-  .sliderfullwidth__container {
-    margin-bottom: 36%;
-    vertical-align: middle; }
-
   p.sliderheader {
     font-size: 6vw; }
 
@@ -1127,9 +1140,6 @@ p.collectionhighlights__hoverstate--header {
   .solidSlider .sliderstrip__desktop--mobile {
     width: 100%; }
 
-  .sliderstrip__desktop {
-    display: none; }
-
   .sliderbutton {
     width: 49%; }
 
@@ -1140,7 +1150,10 @@ p.collectionhighlights__hoverstate--header {
     border-right: 0; }
 
   .collection--intro h2 {
-    line-height: 1.3; } }
+    line-height: 1.3; }
+
+  .favourites__overlay {
+    display: block; } }
 @media only screen and (max-width: 740px) {
   .containercenter {
     width: 100%;
@@ -1209,10 +1222,7 @@ p.collectionhighlights__hoverstate--header {
     margin-bottom: 2%; }
 
   .favourites__buttons {
-    padding: 1% 0; }
-
-  .sliderstrip__desktop--mobile {
-    display: block; } }
+    padding: 1% 0; } }
 @media screen and (min-width: 740px) {
   .collection__product-img img {
     width: auto; } }
@@ -1269,7 +1279,17 @@ p.collectionhighlights__hoverstate--header {
     display: none; }
 
   .catalog-category-view .pageintro {
-    display: none; } }
+    display: none; }
+
+  .sliderfullwidth__container {
+    margin-bottom: 36%;
+    vertical-align: middle; }
+
+  .sliderstrip__desktop {
+    display: none; }
+
+  .sliderstrip__desktop--mobile {
+    display: block; } }
 @media screen and (max-width: 545px) {
   p.sliderheader {
     font-size: 6vw; } }
@@ -1935,7 +1955,10 @@ a.c-product-size__size-guide-link:hover {
   color: #9CAC25; }
 
 .s-main-menu .category-items .mm__column.mm__column--camping {
-  width: 50%; }
+  width: 37%; }
+
+.s-main-menu .block .category-items .campingoffers {
+  width: 25%; }
 
 .s-main-menu .category-items .mm__column.mm__column--fullwidth {
   width: 100%; }
@@ -2035,7 +2058,10 @@ a.c-product-size__size-guide-link:hover {
     display: none; }
 
   .shopall {
-    display: block; } }
+    display: block; }
+
+  .s-main-menu .categories .dropdown.dropdown--clearance a.ui-menu-back {
+    color: #000; } }
 @media only screen and (max-width: 740px) {
   .mm__column img {
     margin-top: 0;
