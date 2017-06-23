@@ -841,6 +841,25 @@
 }
 /* END */
 
+
+/* centre align nav */
+.s-main-menu .categories>li {
+    text-align: center;
+    display: inline-block;
+    padding-right: 0.1%;
+}
+
+.s-main-menu .categories {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.s-main-menu {
+	position: relative;
+}
+/* centre align nav end */
+
 /* tablet nav */
 @media screen and (max-width: 770px) {
 	.s-main-menu .category-items .mm__column, .s-main-menu .category-items .mm__column.mm__column--lookbook {
@@ -848,3 +867,4 @@
 	}
 }
 /* tablet nav end */
+
