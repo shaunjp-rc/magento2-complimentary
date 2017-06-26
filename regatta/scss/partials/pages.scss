@@ -5,7 +5,7 @@
   .footwear span, .footwear strong {
     color: #000000 !important;
   }
-  @media only screen and (min-width:990px) {
+  @media only screen and (max-width:990px) {
     .gender-spots > a {
       width: 32.6%;
       display: block;
@@ -26,7 +26,22 @@
       width: 32.98%;
     }
   }
+  @media only screen and (max-width:600px) {
+    .gender-spots > div {
+      float: left;
+      width: 49.98% !important;
+      margin: 5px 0px;
+    }
+    .mid-spots > div {
+      width: 49.98%;
+      margin: 5px 0px;
+    }
+    .final-spots {
+      margin: 5px 0px;
+    }
+  }
 }
+
 
 /*//////////////////////////
 /* Fabrics Page */

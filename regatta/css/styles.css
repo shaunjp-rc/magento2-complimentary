@@ -856,8 +856,8 @@ html .mt_animate {
   .mobile-footer-links h4::before {
     content: "+";
     float: right;
-    font-size: 15px;
-    margin-top: -3px; }
+    font-size: 20px;
+    margin-top: -7px; }
 
   .mobile-footer-links .toggleMain::before {
     content: "-";
@@ -1169,7 +1169,7 @@ html .s-main-menu .block {
 /*////////////////////////*/
 #homepage .footwear span, #homepage .footwear strong {
   color: #000000 !important; }
-@media only screen and (min-width: 990px) {
+@media only screen and (max-width: 990px) {
   #homepage .gender-spots > a {
     width: 32.6%;
     display: block;
@@ -1184,6 +1184,16 @@ html .s-main-menu .block {
     display: none; }
   #homepage .contentSpots-Lower > div {
     width: 32.98%; } }
+@media only screen and (max-width: 600px) {
+  #homepage .gender-spots > div {
+    float: left;
+    width: 49.98% !important;
+    margin: 5px 0px; }
+  #homepage .mid-spots > div {
+    width: 49.98%;
+    margin: 5px 0px; }
+  #homepage .final-spots {
+    margin: 5px 0px; } }
 
 /*//////////////////////////
 /* Fabrics Page */
