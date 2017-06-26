@@ -5,6 +5,10 @@
   .footwear span, .footwear strong {
     color: #000000 !important;
   }
+  .gender-spots a:nth-child(2) {
+    margin: 8px 0px;
+    display: block;
+  }
   @media only screen and (max-width:990px) {
     .gender-spots > a {
       width: 32.6%;
@@ -36,9 +40,10 @@
       width: 49.98%;
       margin: 5px 0px;
     }
-    .final-spots {
-      margin: 5px 0px;
+    .final-spots > div:nth-child(2) {
+      margin: 10px 0px;
     }
+
   }
 }
 
