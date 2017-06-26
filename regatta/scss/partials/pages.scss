@@ -1,5 +1,35 @@
 /*//////////////////////////
-/* Fabrics Page
+/* Homepage */
+/*////////////////////////*/
+#homepage {
+  .footwear span, .footwear strong {
+    color: #000000 !important;
+  }
+  @media only screen and (min-width:990px) {
+    .gender-spots > a {
+      width: 32.6%;
+      display: block;
+      float: left;
+      margin-top: 7px !important;
+    }
+    .gender-spots > a:nth-child(2) {
+      margin: 0px 1%;
+    }
+    .content-spots .flex-item.col-3 {
+      width: 49.99%;
+      margin: 5px 0px;
+    }
+    .saleStrip {
+      display: none;
+    }
+    .contentSpots-Lower > div {
+      width: 32.98%;
+    }
+  }
+}
+
+/*//////////////////////////
+/* Fabrics Page */
 /*////////////////////////*/
 
 .cms-fabrics .action-parallax{
@@ -83,7 +113,7 @@
 
 /*//////////////////////////
 
-/* About Us Page
+/* About Us Page */
 /*////////////////////////*/
 
 .overlay-banner .overlay-text span{display: block; color: #fff; font-size: 2.8vw !important; text-shadow: 2px 4px 6px rgba(0,0,0,0.7);}
@@ -92,7 +122,7 @@
 
 /*//////////////////////////
 
-/* Garment Care Page
+/* Garment Care Page */
 /*////////////////////////*/
 
 .cms-garment-care .o-region__inner.main{
@@ -107,7 +137,7 @@
 
 /*//////////////////////////
 
-/* Jackets Guide Page
+/* Jackets Guide Page */
 /*////////////////////////*/
 
 #jackets-buying-guide .flex-container > div{
@@ -124,7 +154,7 @@
 
 /*//////////////////////////
 
-/* Tents Guide Page
+/* Tents Guide Page */
 /*////////////////////////*/
 
 #tent-buying-guide .overlay-banner, #tent-buying-guide .tent-img{
@@ -159,7 +189,7 @@
 
 /*//////////////////////////
 
-/* Boots Guide Page
+/* Boots Guide Page */
 /*////////////////////////*/
 
 #boots-buying-guide .arrow-button{
@@ -178,7 +208,7 @@
 
 /*//////////////////////////
 
-/* Down Guide Page
+/* Down Guide Page */
 /*////////////////////////*/
 
 #down-guides > img{
@@ -203,7 +233,7 @@
 
 /*//////////////////////////
 
-/* Email Sign Up Page
+/* Email Sign Up Page */
 /*////////////////////////*/
 #email-signup-page{
 
@@ -252,7 +282,7 @@
 
 /*//////////////////////////
 
-/* Reg Guarantee Up Page
+/* Reg Guarantee Up Page */
 /*////////////////////////*/
 
 #register-guarantee-page .newsletter.text{
@@ -266,7 +296,7 @@
 
 /*//////////////////////////
 
-/* Camp Guarantee Up Page
+/* Camp Guarantee Up Page */
 /*////////////////////////*/
 
 #camping-gurantee-page .newsletter.text {

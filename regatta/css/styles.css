@@ -838,6 +838,13 @@ html .mt_animate {
 @media only screen and (max-width: 767px) {
   .redeye-form > div {
     width: 98% !important; } }
+/****************************
+/* Slider Styles
+/***************************/
+.swiper-button-prev, .swiper-button-next {
+  filter: grayscale(100%) brightness(500%);
+  opacity: 1 !important; }
+
 /* Partials */
 /*//////////////////////////
 /* Footer Block Links
@@ -1158,8 +1165,29 @@ html .s-main-menu .block {
   .s-main-menu .categories > li h3 a:before {
     top: 6px; } }
 /*//////////////////////////
-/* Fabrics Page
-/*/
+/* Homepage */
+/*////////////////////////*/
+#homepage .footwear span, #homepage .footwear strong {
+  color: #000000 !important; }
+@media only screen and (min-width: 990px) {
+  #homepage .gender-spots > a {
+    width: 32.6%;
+    display: block;
+    float: left;
+    margin-top: 7px !important; }
+  #homepage .gender-spots > a:nth-child(2) {
+    margin: 0px 1%; }
+  #homepage .content-spots .flex-item.col-3 {
+    width: 49.99%;
+    margin: 5px 0px; }
+  #homepage .saleStrip {
+    display: none; }
+  #homepage .contentSpots-Lower > div {
+    width: 32.98%; } }
+
+/*//////////////////////////
+/* Fabrics Page */
+/*////////////////////////*/
 .cms-fabrics .action-parallax {
   padding: 10% 0;
   margin-bottom: 30px; }
@@ -1234,8 +1262,8 @@ html .s-main-menu .block {
     width: 100%; } }
 /*//////////////////////////
 
-/* About Us Page
-/*/
+/* About Us Page */
+/*////////////////////////*/
 .overlay-banner .overlay-text span {
   display: block;
   color: #fff;
@@ -1252,8 +1280,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Garment Care Page
-/*/
+/* Garment Care Page */
+/*////////////////////////*/
 .cms-garment-care .o-region__inner.main {
   width: 100%; }
 
@@ -1264,8 +1292,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Jackets Guide Page
-/*/
+/* Jackets Guide Page */
+/*////////////////////////*/
 #jackets-buying-guide .flex-container > div {
   padding: 20px;
   border-bottom: 1px solid #ddd; }
@@ -1278,8 +1306,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Tents Guide Page
-/*/
+/* Tents Guide Page */
+/*////////////////////////*/
 #tent-buying-guide .overlay-banner, #tent-buying-guide .tent-img {
   margin-bottom: -7px; }
 
@@ -1305,8 +1333,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Boots Guide Page
-/*/
+/* Boots Guide Page */
+/*////////////////////////*/
 #boots-buying-guide .arrow-button {
   text-decoration: none;
   margin-top: 40px;
@@ -1321,8 +1349,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Down Guide Page
-/*/
+/* Down Guide Page */
+/*////////////////////////*/
 #down-guides > img {
   max-width: 150px;
   margin: 60px auto 30px;
@@ -1341,8 +1369,8 @@ html .s-main-menu .block {
     display: none; } }
 /*//////////////////////////
 
-/* Email Sign Up Page
-/*/
+/* Email Sign Up Page */
+/*////////////////////////*/
 #email-signup-page .redeye-form > div {
   width: 100%; }
 #email-signup-page .redeye-form > div > div {
@@ -1377,8 +1405,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Reg Guarantee Up Page
-/*/
+/* Reg Guarantee Up Page */
+/*////////////////////////*/
 #register-guarantee-page .newsletter.text {
   margin: 8px 0; }
 
@@ -1388,8 +1416,8 @@ html .s-main-menu .block {
 
 /*//////////////////////////
 
-/* Camp Guarantee Up Page
-/*/
+/* Camp Guarantee Up Page */
+/*////////////////////////*/
 #camping-gurantee-page .newsletter.text {
   margin: 8px 0; }
 

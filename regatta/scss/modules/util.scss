@@ -739,3 +739,11 @@ html .mt_animate {
         width: 98% !important;
     }
 }
+
+/****************************
+/* Slider Styles
+/***************************/
+.swiper-button-prev, .swiper-button-next {
+  filter: grayscale(100%) brightness(500%);
+  opacity: 1 !important;
+}
