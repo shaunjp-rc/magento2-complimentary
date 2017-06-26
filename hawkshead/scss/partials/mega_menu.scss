@@ -108,7 +108,11 @@
 }
 
 .s-main-menu .category-items .mm__column.mm__column--camping {
-  width: 50%;
+  width: 37%;
+}
+
+.s-main-menu .block .category-items .campingoffers {
+    width: 25%;
 }
 
 .s-main-menu .category-items .mm__column.mm__column--fullwidth {
@@ -242,6 +246,10 @@
     display: block;
   }
 
+  .s-main-menu .categories .dropdown.dropdown--clearance a.ui-menu-back {
+    color: #000;
+  }
+
 }
 
 @media only screen and (max-width:740px) {
@@ -268,5 +276,6 @@
   .s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
     width: 100%;
   }
+
   
 }
