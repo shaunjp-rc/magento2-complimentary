@@ -2051,7 +2051,10 @@ a.c-product-size__size-guide-link:hover {
   .s-main-menu .category-items .mm__column.mm__column--footwear,
   .s-main-menu .category-items .mm__column.mm__column--camping,
   .s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
-    width: 100%; } }
+    width: 100%; }
+
+  .columnSale {
+    display: none; } }
 #tech-image-wrapper img {
   width: auto; }
 

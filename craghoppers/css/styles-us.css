@@ -619,17 +619,17 @@
   position: relative; }
 
 /* centre align nav end */
-<
-/* tablet nav */
-
 /* mobile nav */
-
 @media screen and (max-width: 770px) {
   .s-main-menu .category-items .mm__column,
   .s-main-menu .category-items .mm__column.mm__column--lookbook {
     width: 25%; } }
-
 /* tablet nav end */
+@media screen and (max-width: 500px) {
+  .s-main-menu .categories > li {
+    text-align: left;
+    display: block; } }
+/* mobile nav end */
 /* social icons */
 @media screen and (max-width: 770px) {
   .s-footer-links-social .c-icon--facebook,
@@ -647,13 +647,6 @@ h4.c-feefo__titl {
   margin: 0; }
 
 /* feefo end */
-
-@media screen and (max-width: 500px) {
-  .s-main-menu .categories > li {
-    text-align: left;
-    display: block; } }
-/* mobile nav end */
-
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
