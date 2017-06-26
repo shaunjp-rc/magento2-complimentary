@@ -846,6 +846,19 @@ html .mt_animate {
   opacity: 1 !important; }
 
 /* Partials */
+/*////////////////////////*/
+/*Product page size Styles*/
+/*////////////////////////*/
+#sizeChartWrapper .td-style {
+  background: #f9f9f9;
+  border: solid 1px #e0e0e0;
+  text-transform: uppercase;
+  padding: 10px; }
+
+#sizeChartWrapper .table-heading > td {
+  background: #e0e0e0;
+  height: 50px; }
+
 /*//////////////////////////
 /* SEO Footer Text */
 /*////////////////////////*/
@@ -1426,7 +1439,8 @@ html .s-main-menu .block {
   margin: 8px 0; }
 
 #email-signup-page {
-  margin: 10px; }
+  margin: 10px;
+  display: inline-block; }
 
 /*//////////////////////////
 
