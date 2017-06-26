@@ -847,8 +847,20 @@ html .mt_animate {
 
 /* Partials */
 /*//////////////////////////
-/* Footer Block Links
-/*/
+/* SEO Footer Text */
+/*////////////////////////*/
+#content + .c-campaign > .s-text-banner {
+  background: #f9f9f9; }
+
+#content + .c-campaign > .s-text-banner > div {
+  max-width: 1228px;
+  margin: 40px auto;
+  padding: 10px;
+  display: inline-block; }
+
+/*//////////////////////////
+/* Footer Block */
+/*////////////////////////*/
 .page-product-configurable #basket-promo {
   font-size: 15px; }
 
@@ -889,8 +901,8 @@ html .mt_animate {
   .mobile-footer-links .toggleMain + ul li a {
     color: #606060; } }
 /*//////////////////////////
-/* Footer Block Links
-/*/
+/* Footer Block Links */
+/*////////////////////////*/
 .s-text-banner {
   padding: 0; }
 
@@ -1169,6 +1181,9 @@ html .s-main-menu .block {
 /*////////////////////////*/
 #homepage .footwear span, #homepage .footwear strong {
   color: #000000 !important; }
+#homepage .gender-spots a:nth-child(2) {
+  margin: 8px 0px;
+  display: block; }
 @media only screen and (max-width: 990px) {
   #homepage .gender-spots > a {
     width: 32.6%;
@@ -1192,8 +1207,8 @@ html .s-main-menu .block {
   #homepage .mid-spots > div {
     width: 49.98%;
     margin: 5px 0px; }
-  #homepage .final-spots {
-    margin: 5px 0px; } }
+  #homepage .final-spots > div:nth-child(2) {
+    margin: 10px 0px; } }
 
 /*//////////////////////////
 /* Fabrics Page */
