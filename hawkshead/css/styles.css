@@ -2077,7 +2077,10 @@ a.c-product-size__size-guide-link:hover {
   .s-main-menu .category-items .mm__column.mm__column--footwear,
   .s-main-menu .category-items .mm__column.mm__column--camping,
   .s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
-    width: 100%; } }
+    width: 100%; }
+
+  .columnSale {
+    display: none; } }
 #tech-image-wrapper img {
   width: auto; }
 
@@ -2095,5 +2098,22 @@ a.c-product-size__size-guide-link:hover {
 
 .c-product-tile__title {
   line-height: 1.4; }
+
+.c-product-details .product-info-stock-sku .value {
+  color: #5f5f5e; }
+
+.c-rating__reviews,
+.c-rating__reviews:active,
+.c-rating__reviews:focus,
+.c-rating__reviews:hover,
+.c-rating__reviews:visited {
+  color: #5f5f5e; }
+
+.c-save-item,
+.c-save-item:active,
+.c-save-item:visited,
+.c-save-item:hover,
+.c-save-item:visited {
+  color: #5f5f5e !important; }
 
 /*# sourceMappingURL=styles.css.map */

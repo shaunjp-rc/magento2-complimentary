@@ -48,6 +48,7 @@ jspm_packages
 
 # CSS maps
 *.css.map
+.css.map
 
 Extras
 .sass-cache
