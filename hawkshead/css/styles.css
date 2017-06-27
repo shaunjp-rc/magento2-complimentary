@@ -512,6 +512,34 @@ h4.c-feefo__titl {
   width: 45%; }
 
 /* END */
+/* Cookie Policy */
+.navbarlinks {
+  float: left;
+  padding: 5px;
+  background: #eee;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #ddd; }
+
+.customerservice__row td,
+.customerservice__row th {
+  border: 2px solid #CCCCCC;
+  padding: 5px; }
+
+.headerrow > td,
+.headerrow > th {
+  padding: 0;
+  display: table-cell;
+  vertical-align: inherit; }
+
+tr.headerrow,
+.customerservice__row th {
+  font-weight: 600; }
+
+.cookie-padding {
+  height: 20px; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
