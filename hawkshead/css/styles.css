@@ -526,6 +526,12 @@ h4.c-feefo__titl {
   color: #fff; }
 
 /* END */
+/* Outdoor Footwear and Accessories PLP header */
+.bannertext.footwearacc {
+  margin-top: 3%;
+  width: 45%; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
