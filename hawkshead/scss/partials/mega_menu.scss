@@ -168,6 +168,18 @@
   display: none;
 }
 
+.s-main-menu .category-items.mm__container-brands .mm__column {
+    float: right;
+    width: 35%;
+}
+
+.s-main-menu .categories>li>a:active,
+.s-main-menu .categories>li>a:focus,
+.s-main-menu .categories>li>a:hover,
+.s-main-menu .categories>li>a:visited {
+  text-decoration: underline;
+}
+
 
 @media only screen and (max-width:779px){
     .offers-box.offers-box--main {
@@ -250,6 +262,14 @@
     color: #000;
   }
 
+  .s-main-menu .category-items .mm__column {
+    width: 33%;
+  }
+
+  .s-main-menu .category-items .mm__column.mm__column--collections.mm__column--footwear {
+    width: 40%;
+  }
+
 }
 
 @media only screen and (max-width:740px) {
@@ -281,5 +301,8 @@
     display: none;
   }  
 
+  .s-main-menu .category-items.mm__container-brands .mm__column {
+    width: 100%;
+  }
   
 }
