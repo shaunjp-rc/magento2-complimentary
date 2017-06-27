@@ -930,13 +930,16 @@ html .mt_animate {
 
 #top-level-cat-banner-img {
   float: left;
-  width: 40%; }
+  width: 25%; }
 
 #top-level-cat-banner-text {
   float: right;
-  width: 60%;
+  width: 75%;
   text-align: left;
   padding: 10px 30px; }
+
+#top-level-cat-banner-text > h1, #top-level-cat-banner-text > p {
+  margin-bottom: 0px; }
 
 #top-level-cat-banner-text li {
   list-style-type: none;
