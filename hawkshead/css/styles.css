@@ -1755,8 +1755,13 @@ section.collection.collection__background h2 {
 
 @media only screen and (max-width: 768px) {
   .collection__wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; } }
 @media only screen and (max-width: 740px) {
   .collection__wrapper {
     display: block; }
@@ -1874,6 +1879,14 @@ a.c-product-size__size-guide-link:hover {
 .c-product-size__link {
   font-weight: 300; }
 
+/* Plus/Minus images */
+.c-icon--quantity-plus {
+  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/misc/icons/plus.svg) !important; }
+
+.c-icon--quantity-minus {
+  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/misc/icons/minus.svg) !important; }
+
+/* END */
 .mm__container {
   width: 1228px;
   margin: 0 auto; }
