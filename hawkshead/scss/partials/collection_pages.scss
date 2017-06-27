@@ -194,6 +194,14 @@ section.collection.collection__background h2 {
 	padding-bottom: 2%;
 }
 
+@media only screen and (max-width:768px) {
+	.collection__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+ 
+}
+
 @media only screen and (max-width:740px) {
 	.collection__wrapper {
 		display: block;
