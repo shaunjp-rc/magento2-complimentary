@@ -508,11 +508,6 @@
 	color: #000;
 }
 
-.c-header__logo img {
-	-webkit-filter: invert(100%);
-    filter: invert(100%);
-}
-
 .c-header {
     background-color: #fff;
 }
@@ -554,14 +549,27 @@
 	color: #525252;
 }
 
-.c-header-search .c-header-search__input::placeholder,
-.c-header-search .c-header-search__input::-moz-placeholder,
-.c-header-search .c-header-search__input:-ms-input-placeholder,
-.c-header-search .c-header-search__input:-moz-placeholder,
-.c-header-search .c-header-search__input::-webkit-input-placeholder{
+.c-header-search .c-header-search__input::placeholder{
 	color: #dfe0e1;
 }
- 
+
+.c-header-search .c-header-search__input::-webkit-input-placeholder {
+	color: #dfe0e1;
+}
+
+.c-header-search .c-header-search__input:-moz-placeholder,
+.c-header-search .c-header-search__input::-moz-placeholder {
+	color: #dfe0e1;
+}
+
+.c-header-search .c-header-search__input:-ms-input-placeholder {
+	color: #dfe0e1;
+}
+
+.c-icon--search {
+    background-image: url(https://cdn.hawkshead.com/img/SS17/uk/misc/icons/mag-glass.svg)!important;
+    opacity: 0.5;
+}
 
 @media only screen and (max-width:1227px) {
 	.s-main-menu .categories>li {
@@ -604,7 +612,7 @@
     float: left;
 }
 
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:500px) {
 	.o-layout__item:nth-child(3),
 	.o-layout__item.c-basket__remove-group {
 		padding-left: 0%;
@@ -685,8 +693,15 @@
 
 /* Footer feefo logo */
 h4.c-feefo__titl {
-    margin: 0;
-    color: #fff;
+	margin: 0;
+	color: #fff;
+}
+
+@media only screen and (max-width:770px) {
+	.c-feefo {
+		margin: 0px 0 20px 0;
+	} 
+
 }
 /* END */
 
