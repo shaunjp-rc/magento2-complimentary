@@ -47,6 +47,10 @@ p.blockimgtext--bold {
   font-size: 32px;
 }
 
+.sliderstrip--salered {
+    background-color:rgba(255,0,0,0.8)!important;
+} 
+
 @media only screen and (max-width:1180px) {
   p.blockimgtext {
     font-size: 2vw;
