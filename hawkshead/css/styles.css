@@ -393,10 +393,6 @@
 .s-header-links .links > li > a:visited {
   color: #000; }
 
-.c-header__logo img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%); }
-
 .c-header {
   background-color: #fff; }
 
@@ -434,8 +430,19 @@
 .c-header-search .c-header-search__input::placeholder {
   color: #dfe0e1; }
 
-.c-header-search .c-input-wrap__icon {
-  filter: invert(40%); }
+.c-header-search .c-header-search__input::-webkit-input-placeholder {
+  color: #dfe0e1; }
+
+.c-header-search .c-header-search__input:-moz-placeholder,
+.c-header-search .c-header-search__input::-moz-placeholder {
+  color: #dfe0e1; }
+
+.c-header-search .c-header-search__input:-ms-input-placeholder {
+  color: #dfe0e1; }
+
+.c-icon--search {
+  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/misc/icons/mag-glass.svg) !important;
+  opacity: 0.5; }
 
 @media only screen and (max-width: 1227px) {
   .s-main-menu .categories > li {
@@ -1979,7 +1986,10 @@ a.c-product-size__size-guide-link:hover {
   padding: 10px 0;
   font-size: 22px;
   letter-spacing: 2px;
-  margin-bottom: 2%; }
+  margin-bottom: 1%; }
+
+.s-main-menu .block .category-items {
+  padding-bottom: 0.5%; }
 
 .s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
