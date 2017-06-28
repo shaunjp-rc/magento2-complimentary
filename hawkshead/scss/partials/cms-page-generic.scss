@@ -714,7 +714,7 @@ h4.c-feefo__titl {
 
 .headerrow > td,
 .headerrow > th {
-	padding: 0;
+	padding-left: 5px;
 	display: table-cell;
 	vertical-align: inherit;
 }
@@ -726,5 +726,9 @@ tr.headerrow,
 
 .cookie-padding {
 	height: 20px;
+}
+
+.customerservice__main {
+    margin-top: 7%;
 }
 /* END */
