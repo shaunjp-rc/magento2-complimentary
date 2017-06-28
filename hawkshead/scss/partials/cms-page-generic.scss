@@ -554,14 +554,14 @@
 	color: #525252;
 }
 
-.c-header-search .c-header-search__input::placeholder {
+.c-header-search .c-header-search__input::placeholder,
+.c-header-search .c-header-search__input::-moz-placeholder,
+.c-header-search .c-header-search__input:-ms-input-placeholder,
+.c-header-search .c-header-search__input:-moz-placeholder,
+.c-header-search .c-header-search__input::-webkit-input-placeholder{
 	color: #dfe0e1;
 }
-
-.c-header-search .c-input-wrap__icon {
-	-webkit-filter: invert(40%);
-	filter: invert(40%);
-}  
+ 
 
 @media only screen and (max-width:1227px) {
 	.s-main-menu .categories>li {
