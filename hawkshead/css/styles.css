@@ -435,6 +435,7 @@
   color: #dfe0e1; }
 
 .c-header-search .c-input-wrap__icon {
+  -webkit-filter: invert(40%);
   filter: invert(40%); }
 
 @media only screen and (max-width: 1227px) {
@@ -1976,7 +1977,10 @@ a.c-product-size__size-guide-link:hover {
   padding: 10px 0;
   font-size: 22px;
   letter-spacing: 2px;
-  margin-bottom: 2%; }
+  margin-bottom: 1%; }
+
+.s-main-menu .block .category-items {
+  padding-bottom: 0.5%; }
 
 .s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
