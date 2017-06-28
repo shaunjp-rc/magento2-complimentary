@@ -1,4 +1,347 @@
 /*//////////////////////////
+/* Black Friday page */
+/*////////////////////////*/
+#black-friday-page {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .redeye-form > div {
+    clear: both;
+    width: 80%;
+    margin: 0% 10%
+  }
+  .redeye-form > div label {
+    padding: 20px 0px;
+    display: block;
+  }
+  .toggles label {
+    float: initial;
+  }
+  .toggles select {
+    float: initial;
+    color: #000000;
+    min-width: 200px;
+  }
+  .newsletter.text > * {
+    display: inline-block;
+    width: initial;
+    padding: 20px;
+  }
+  .arrow-button {
+    margin: 0px 0px 10px 0px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+/*//////////////////////////
+/* Holiday Shop page */
+/*////////////////////////*/
+#holiday-shop-page {
+  .flex-container {
+    position: relative;
+  }
+  .stay {
+    min-height: 540px;
+    max-height: 540px;
+    height: 100vh;
+    position: relative;
+  }
+  .stay .box-container.one {
+    max-width: 30%;
+  }
+  .stay > a {
+    width: 100%;
+  }
+  .stay .atmos.large {
+    max-width: 60%;
+    width: 100%;
+  }
+  .columns {
+    background: url('//cdn.regatta.com/img/ss17/uk/page/holiday-shop/background.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin-top: -10px;
+  }
+  .breadcrumbs {
+    display: none;
+  }
+  .c-page-wrapper {
+    padding: 0px;
+  }
+  .holiday-shop {
+    background: white;
+  }
+  .flex-item.col-12.banner {
+    position: relative;
+  }
+  .flex-item.col-12 img {
+    width: 100%;
+  }
+  .flex-item.col-12.banner .text {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    max-width: 395px;
+  }
+  .swimwear {
+    background: #ea6c58 !important;
+  }
+  .holiday-shop .flex-item.col-12 {
+    width: 100%;
+    text-align: center;
+  }
+  .flex-item.col-12.sub-text {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+  }
+  .fancy-spots {
+    min-height: 970px;
+    max-height: 970px;
+    height: 100vh;
+    position: relative;
+  }
+  .border-box {
+    border: solid 1px;
+    height: 360px;
+    position: absolute;
+    width: 100%;
+    max-width: 70%;
+    top: 9%;
+    right: 14%;
+  }
+  .text-box strong {
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .atmos.large {
+    position: absolute;
+    max-width: 45%;
+  }
+  .text-box {
+    background: #76cebc;
+    width: 100%;
+    max-width: 330px;
+    max-height: 300px;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    padding: 30px;
+  }
+  .product-shot {
+    float: left;
+    max-width: 230px;
+    margin-left: 7%;
+  }
+  .icon {
+    max-width: 80px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 7%;
+  }
+  .atmos.small {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    max-width: 360px;
+  }
+  .box-container.one {
+    position: absolute;
+    right: 0px;
+    top: 12%;
+    width: 100%;
+    max-width: 67%;
+  }
+  .box-container.two {
+    position: absolute;
+    right: 27%;
+    bottom: 9%;
+    z-index: 1;
+  }
+  .box-container.two .text-box {
+    background: #e983bc;
+  }
+  .text-box h5 {
+    font-family: 'Kristi', cursive;
+    font-size: 6em;
+    color: #ffffff;
+    line-height: 70px;
+    text-transform: capitalize;
+    font-weight: 100;
+  }
+  .text-box span {
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+  }
+  .text-box a {
+    background: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #737373;
+    text-decoration: none;
+  }
+  .footwear .flex-container {
+    background: #f5eced;
+    padding: 20px;
+    max-height: 300px;
+    height: 100vh;
+    margin: 0;
+  }
+  .final .fancy-spots {
+    min-height: 630px;
+    max-height: 650px;
+    height: 65vh;
+  }
+  .footwear .text-box {
+    background: #e3efca;
+  }
+  .final .fancy-spots .atmos.large {
+    right: 0px;
+    max-width: 30%;
+  }
+  .final .fancy-spots .box-container.one {
+    right: 32%;
+    z-index: 1;
+  }
+  .final .fancy-spots .text-box {
+    float: right;
+  }
+  .final .fancy-spots .product-shot {
+    float: right;
+    margin-left: initial;
+    margin-right: 5%;
+    margin-top: 2%;
+  }
+  .final .atmos.small {
+    max-width: 65%;
+    width: 100%;
+    right: initial;
+    padding: 20px;
+    font-size: 2em;
+    letter-spacing: 9px;
+    color: #ffffff;
+    line-height: 30px;
+    text-transform: uppercase;
+    background: #f2b4a8;
+    background: -moz-linear-gradient(left, #f2b4a8 0%, #ba1e02 100%);
+    background: -webkit-linear-gradient(left, #f2b4a8 0%, #ba1e02 100%);
+    background: linear-gradient(to right, #f2b4a8 0%, #ba1e02 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2b4a8', endColorstr='#ba1e02', GradientType=1);
+  }
+  @media only screen and (max-width:1227px) {
+    .icon {
+      display: none;
+    }
+    .text-box h5 {
+      font-size: 5em;
+    }
+  }
+  @media only screen and (max-width:990px) {
+    .product-shot {
+      display: none;
+    }
+    .flex-container.footwear .col-9 {
+      max-width: 70%;
+    }
+    .footwear h5 {
+      font-size: 4em;
+    }
+    .final .atmos.small {
+      max-width: 100%;
+    }
+    .content-spots .col-12 {
+      max-width: 50%;
+    }
+  }
+  @media only screen and (max-width:760px) {
+    .footwear > .col-9, .footwear > .col-3 {
+      width: 100%;
+      max-width: 100% !important;
+    }
+    .footwear .text-box {
+      max-width: 100%;
+    }
+    .footwear h5 {
+      font-size: 6em;
+    }
+  }
+  @media only screen and (max-width:740px) {
+    .content-spots .flex-item {
+      max-width: 50%;
+    }
+    .content-spots .col-12 {
+      max-width: 50% !important;
+    }
+    .footwear .flex-item {
+      max-width: 32.98%;
+    }
+    .footwear .flex-item.col-12 {
+      max-width: 100%;
+    }
+    .columns {
+      background: none;
+    }
+    .stay .box-container.one, .border-box {
+      display: none;
+    }
+  }
+  @media only screen and (max-width:550px) {
+    .atmos.small {
+      bottom: 14%;
+    }
+    .box-container.two {
+      bottom: -10%;
+    }
+    .footwear {
+      margin-top: 40%;
+    }
+    .swimwear h5 {
+      font-size: 5em;
+    }
+    body .banner .text {
+      max-width: 180px !important;
+      left: 0 !important;
+      right: 0;
+      margin: auto;
+    }
+    .stay {
+      min-height: 360px !important;
+      max-height: 360px !important;
+      margin-top: 60px !important;
+    }
+    .stay .atmos.large {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:340px) {
+    .text-box h5 {
+      font-size: 3em;
+      line-height: normal;
+    }
+    .text-box {
+      max-height: 240px;
+    }
+  }
+}
+
+
+/*//////////////////////////
 /* Homepage */
 /*////////////////////////*/
 #homepage {

@@ -1193,6 +1193,268 @@ html .s-main-menu .block {
   .s-main-menu .categories > li h3 a:before {
     top: 6px; } }
 /*//////////////////////////
+/* Black Friday page */
+/*////////////////////////*/
+#black-friday-page {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px; }
+  #black-friday-page h1, #black-friday-page h2, #black-friday-page h3, #black-friday-page h4, #black-friday-page h5, #black-friday-page h6 {
+    color: #ffffff; }
+  #black-friday-page h1 {
+    font-weight: bold;
+    font-size: 60px; }
+  #black-friday-page .redeye-form > div {
+    clear: both;
+    width: 80%;
+    margin: 0% 10%; }
+  #black-friday-page .redeye-form > div label {
+    padding: 20px 0px;
+    display: block; }
+  #black-friday-page .toggles label {
+    float: initial; }
+  #black-friday-page .toggles select {
+    float: initial;
+    color: #000000;
+    min-width: 200px; }
+  #black-friday-page .newsletter.text > * {
+    display: inline-block;
+    width: initial;
+    padding: 20px; }
+  #black-friday-page .arrow-button {
+    margin: 0px 0px 10px 0px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none; }
+
+/*//////////////////////////
+/* Holiday Shop page */
+/*////////////////////////*/
+#holiday-shop-page .flex-container {
+  position: relative; }
+#holiday-shop-page .stay {
+  min-height: 540px;
+  max-height: 540px;
+  height: 100vh;
+  position: relative; }
+#holiday-shop-page .stay .box-container.one {
+  max-width: 30%; }
+#holiday-shop-page .stay > a {
+  width: 100%; }
+#holiday-shop-page .stay .atmos.large {
+  max-width: 60%;
+  width: 100%; }
+#holiday-shop-page .columns {
+  background: url("//cdn.regatta.com/img/ss17/uk/page/holiday-shop/background.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  margin-top: -10px; }
+#holiday-shop-page .breadcrumbs {
+  display: none; }
+#holiday-shop-page .c-page-wrapper {
+  padding: 0px; }
+#holiday-shop-page .holiday-shop {
+  background: white; }
+#holiday-shop-page .flex-item.col-12.banner {
+  position: relative; }
+#holiday-shop-page .flex-item.col-12 img {
+  width: 100%; }
+#holiday-shop-page .flex-item.col-12.banner .text {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  max-width: 395px; }
+#holiday-shop-page .swimwear {
+  background: #ea6c58 !important; }
+#holiday-shop-page .holiday-shop .flex-item.col-12 {
+  width: 100%;
+  text-align: center; }
+#holiday-shop-page .flex-item.col-12.sub-text {
+  text-align: center;
+  max-width: 80%;
+  margin: auto; }
+#holiday-shop-page .fancy-spots {
+  min-height: 970px;
+  max-height: 970px;
+  height: 100vh;
+  position: relative; }
+#holiday-shop-page .border-box {
+  border: solid 1px;
+  height: 360px;
+  position: absolute;
+  width: 100%;
+  max-width: 70%;
+  top: 9%;
+  right: 14%; }
+#holiday-shop-page .text-box strong {
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase; }
+#holiday-shop-page .atmos.large {
+  position: absolute;
+  max-width: 45%; }
+#holiday-shop-page .text-box {
+  background: #76cebc;
+  width: 100%;
+  max-width: 330px;
+  max-height: 300px;
+  height: 100vh;
+  float: left;
+  text-align: center;
+  padding: 30px; }
+#holiday-shop-page .product-shot {
+  float: left;
+  max-width: 230px;
+  margin-left: 7%; }
+#holiday-shop-page .icon {
+  max-width: 80px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 7%; }
+#holiday-shop-page .atmos.small {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  max-width: 360px; }
+#holiday-shop-page .box-container.one {
+  position: absolute;
+  right: 0px;
+  top: 12%;
+  width: 100%;
+  max-width: 67%; }
+#holiday-shop-page .box-container.two {
+  position: absolute;
+  right: 27%;
+  bottom: 9%;
+  z-index: 1; }
+#holiday-shop-page .box-container.two .text-box {
+  background: #e983bc; }
+#holiday-shop-page .text-box h5 {
+  font-family: 'Kristi', cursive;
+  font-size: 6em;
+  color: #ffffff;
+  line-height: 70px;
+  text-transform: capitalize;
+  font-weight: 100; }
+#holiday-shop-page .text-box span {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block; }
+#holiday-shop-page .text-box a {
+  background: #ffffff;
+  border: none;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #737373;
+  text-decoration: none; }
+#holiday-shop-page .footwear .flex-container {
+  background: #f5eced;
+  padding: 20px;
+  max-height: 300px;
+  height: 100vh;
+  margin: 0; }
+#holiday-shop-page .final .fancy-spots {
+  min-height: 630px;
+  max-height: 650px;
+  height: 65vh; }
+#holiday-shop-page .footwear .text-box {
+  background: #e3efca; }
+#holiday-shop-page .final .fancy-spots .atmos.large {
+  right: 0px;
+  max-width: 30%; }
+#holiday-shop-page .final .fancy-spots .box-container.one {
+  right: 32%;
+  z-index: 1; }
+#holiday-shop-page .final .fancy-spots .text-box {
+  float: right; }
+#holiday-shop-page .final .fancy-spots .product-shot {
+  float: right;
+  margin-left: initial;
+  margin-right: 5%;
+  margin-top: 2%; }
+#holiday-shop-page .final .atmos.small {
+  max-width: 65%;
+  width: 100%;
+  right: initial;
+  padding: 20px;
+  font-size: 2em;
+  letter-spacing: 9px;
+  color: #ffffff;
+  line-height: 30px;
+  text-transform: uppercase;
+  background: #f2b4a8;
+  background: -moz-linear-gradient(left, #f2b4a8 0%, #ba1e02 100%);
+  background: -webkit-linear-gradient(left, #f2b4a8 0%, #ba1e02 100%);
+  background: linear-gradient(to right, #f2b4a8 0%, #ba1e02 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2b4a8', endColorstr='#ba1e02', GradientType=1); }
+@media only screen and (max-width: 1227px) {
+  #holiday-shop-page .icon {
+    display: none; }
+  #holiday-shop-page .text-box h5 {
+    font-size: 5em; } }
+@media only screen and (max-width: 990px) {
+  #holiday-shop-page .product-shot {
+    display: none; }
+  #holiday-shop-page .flex-container.footwear .col-9 {
+    max-width: 70%; }
+  #holiday-shop-page .footwear h5 {
+    font-size: 4em; }
+  #holiday-shop-page .final .atmos.small {
+    max-width: 100%; }
+  #holiday-shop-page .content-spots .col-12 {
+    max-width: 50%; } }
+@media only screen and (max-width: 760px) {
+  #holiday-shop-page .footwear > .col-9, #holiday-shop-page .footwear > .col-3 {
+    width: 100%;
+    max-width: 100% !important; }
+  #holiday-shop-page .footwear .text-box {
+    max-width: 100%; }
+  #holiday-shop-page .footwear h5 {
+    font-size: 6em; } }
+@media only screen and (max-width: 740px) {
+  #holiday-shop-page .content-spots .flex-item {
+    max-width: 50%; }
+  #holiday-shop-page .content-spots .col-12 {
+    max-width: 50% !important; }
+  #holiday-shop-page .footwear .flex-item {
+    max-width: 32.98%; }
+  #holiday-shop-page .footwear .flex-item.col-12 {
+    max-width: 100%; }
+  #holiday-shop-page .columns {
+    background: none; }
+  #holiday-shop-page .stay .box-container.one, #holiday-shop-page .border-box {
+    display: none; } }
+@media only screen and (max-width: 550px) {
+  #holiday-shop-page .atmos.small {
+    bottom: 14%; }
+  #holiday-shop-page .box-container.two {
+    bottom: -10%; }
+  #holiday-shop-page .footwear {
+    margin-top: 40%; }
+  #holiday-shop-page .swimwear h5 {
+    font-size: 5em; }
+  #holiday-shop-page body .banner .text {
+    max-width: 180px !important;
+    left: 0 !important;
+    right: 0;
+    margin: auto; }
+  #holiday-shop-page .stay {
+    min-height: 360px !important;
+    max-height: 360px !important;
+    margin-top: 60px !important; }
+  #holiday-shop-page .stay .atmos.large {
+    max-width: 100%;
+    width: 100%; } }
+@media only screen and (max-width: 340px) {
+  #holiday-shop-page .text-box h5 {
+    font-size: 3em;
+    line-height: normal; }
+  #holiday-shop-page .text-box {
+    max-height: 240px; } }
+
+/*//////////////////////////
 /* Homepage */
 /*////////////////////////*/
 #homepage .footwear span, #homepage .footwear strong {
