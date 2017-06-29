@@ -1768,6 +1768,11 @@ html .s-main-menu .block {
   margin-bottom: 20px;
   text-decoration: none;
   color: #ffffff; }
+#delivery-information #tabs .my-parcel {
+  max-width: 57px;
+  float: left;
+  margin: -5px 0px -10px -10px;
+  padding-right: 5px; }
 
 /* Singles */
 
