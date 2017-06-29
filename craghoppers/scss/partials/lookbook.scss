@@ -91,7 +91,6 @@ h2.pageSection--pageTop__justHeading {
 
 .lookbook {
 	width: 100%;
-	display:table;
 	padding: 0 6%;
 }
 
@@ -618,4 +617,14 @@ h2.pageSection--pageTop__justHeading {
 		width: 100%;
 	}
 
+}
+
+.collection-container {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.lookbook__atmos img {
+    width: 100%;
 }

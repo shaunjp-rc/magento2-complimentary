@@ -1338,7 +1338,6 @@ h2.pageSection--pageTop__justHeading {
 
 .lookbook {
   width: 100%;
-  display: table;
   padding: 0 6%; }
 
 .lookbook h3 {
@@ -1773,6 +1772,14 @@ h2.pageSection--pageTop__justHeading {
 
   .lookbook__atmos img {
     width: 100%; } }
+.collection-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.lookbook__atmos img {
+  width: 100%; }
+
 /****** Customer Service Styles ******/
 .helppages .helppagesleft {
   float: left; }
