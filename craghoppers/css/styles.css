@@ -1542,6 +1542,12 @@ div#customerservice__row--kids table th {
   font-weight: bold;
   font-size: 16px; }
 
+.cms-privacy-policy .customerservice__row ul {
+  margin-left: 3%; }
+
+.cms-privacy-policy .customerservice__row li {
+  list-style-type: disc; }
+
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width: 989px) {
   .navbarlinks {
@@ -1975,7 +1981,6 @@ h2.pageSection--pageTop__justHeading {
 
 .lookbook {
   width: 100%;
-  display: table;
   padding: 0 6%; }
 
 .lookbook h3 {
@@ -2410,6 +2415,14 @@ h2.pageSection--pageTop__justHeading {
 
   .lookbook__atmos img {
     width: 100%; } }
+.collection-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.lookbook__atmos img {
+  width: 100%; }
+
 /****** Customer Service Styles ******/
 .helppages .helppagesleft {
   float: left; }
@@ -2653,6 +2666,12 @@ div#customerservice__row--kids table th {
 .helppagesright span {
   font-weight: bold;
   font-size: 16px; }
+
+.cms-privacy-policy .customerservice__row ul {
+  margin-left: 3%; }
+
+.cms-privacy-policy .customerservice__row li {
+  list-style-type: disc; }
 
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width: 989px) {
@@ -4037,6 +4056,28 @@ p.pl-text-social {
 
 .c-product-details .product-info-stock-sku .value {
   float: none;
-  text-align: left; }
+  text-align: left;
+  color: #343334; }
+
+.c-rating__reviews,
+.c-rating__reviews:active,
+.c-rating__reviews:focus,
+.c-rating__reviews:hover,
+.c-rating__reviews:visited {
+  color: #343334; }
+
+.c-save-item,
+.c-save-item:active,
+.c-save-item:visited {
+  color: #343334; }
+
+a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
+  background-color: #717171;
+  padding: 10px 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
