@@ -5,5 +5,29 @@
 .c-product-details .product-info-stock-sku .value {
 	float: none;
 	text-align: left;
+	color: #343334;
 }
- 
+
+.c-rating__reviews,
+.c-rating__reviews:active,
+.c-rating__reviews:focus,
+.c-rating__reviews:hover,
+.c-rating__reviews:visited {
+	color: #343334;
+}
+
+.c-save-item,
+.c-save-item:active,
+.c-save-item:visited {
+	color: #343334;
+}
+
+a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
+	background-color: #717171;
+	padding: 10px 30px;
+	margin-top: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
