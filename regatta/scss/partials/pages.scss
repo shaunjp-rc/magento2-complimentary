@@ -672,3 +672,23 @@ margin: 10px;
 #camping-gurantee-page form > div > label {
 display: block
 }
+
+
+/*//////////////////////////
+
+/* Delivery Page */
+/*////////////////////////*/
+#delivery-information {
+  .arrow-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+#tabs .my-parcel {
+  max-width: 57px;
+  float: left;
+  margin: -5px 0px -10px -10px;
+  padding-right: 5px;
+}
+}
