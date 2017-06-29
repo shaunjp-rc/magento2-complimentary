@@ -47,8 +47,8 @@ jspm_packages
 .yarn-integrity
 
 # CSS maps
-*.css.map
-.css.map
+*.css
+*.map
 
 Extras
 .sass-cache
