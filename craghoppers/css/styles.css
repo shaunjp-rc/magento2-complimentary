@@ -3696,10 +3696,12 @@ a.micro-product__button {
   text-align: left; }
 
 .categorypath-men .categoryBanner__image,
+.categorypath-mens .categoryBanner__image,
 .categorypath-herren .categoryBanner__image {
   background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Mens.jpg) no-repeat center; }
 
-.categorypath-women .categoryBanner__image {
+.categorypath-women .categoryBanner__image,
+.categorypath-womens .categoryBanner__image {
   background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Womens.jpg) no-repeat center; }
 
 .categorypath-kids .categoryBanner__image,
