@@ -621,6 +621,35 @@ h4.c-feefo__titl {
   margin: 0; }
 
 /* END */
+/* store finder */
+.c-store-list__title {
+  color: #343334; }
+
+a.c-store-list__details {
+  padding: 0 0 0 25px;
+  color: #5f5f5e; }
+
+.c-store-list__distance {
+  color: #5f5f5e;
+  padding: 0 0 0 25px; }
+
+.c-store-list__address {
+  width: 100%;
+  font-size: 1.08rem; }
+
+.c-store-list__header {
+  color: #343334; }
+
+.o-list-inline,
+.s-footer-links-bottom ul,
+.s-footer-links-social ul {
+  padding: 0 25px 0 0; }
+
+.c-btn--alternate {
+  background: #5f5f5e;
+  border-color: #5f5f5e; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
