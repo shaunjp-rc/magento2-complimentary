@@ -3463,6 +3463,15 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   font-size: 14px;
   color: #fff; }
 
+.old-price .c-price__group {
+  margin-top: 1%; }
+
+.c-rating__wrap, .c-rating__wrap--product-tile {
+  margin-top: 2%; }
+
+@media only screen and (max-width: 770px) {
+  .c-tabs__tab {
+    padding: 1px 40px; } }
 /* Mega Menu */
 .mm__container {
   width: 1228px;
