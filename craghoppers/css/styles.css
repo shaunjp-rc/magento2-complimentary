@@ -1718,6 +1718,14 @@ div#form__close {
     overflow: scroll;
     height: 500px;
     padding: 20px 40px; } }
+/* Returns */
+.returns-myhermes {
+  padding: 1.5% 0 1% 0; }
+
+p.customerservice-left {
+  text-align: left; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
@@ -2843,6 +2851,14 @@ div#form__close {
     overflow: scroll;
     height: 500px;
     padding: 20px 40px; } }
+/* Returns */
+.returns-myhermes {
+  padding: 1.5% 0 1% 0; }
+
+p.customerservice-left {
+  text-align: left; }
+
+/* END */
 /* *********** START *********** */
 /* **** MICROSITE STYLES **** */
 /* All prefixed with micro- to avoid leakage */
