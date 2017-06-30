@@ -658,11 +658,6 @@ a.c-store-list__details {
 .c-store-list__header {
   color: #343334; }
 
-.o-list-inline,
-.s-footer-links-bottom ul,
-.s-footer-links-social ul {
-  padding: 0 25px 0 0; }
-
 .c-btn--alternate {
   background: #5f5f5e;
   border-color: #5f5f5e; }
@@ -4112,6 +4107,7 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   font-size: 14px;
   color: #fff; }
 
+
 .c-icon--quantity-plus {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/plus.svg) !important; }
 
@@ -4121,5 +4117,16 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 @media only screen and (max-width: 770px) {
   .c-qty__input {
     width: 60px; } }
+
+.old-price .c-price__group {
+  margin-top: 1%; }
+
+.c-rating__wrap, .c-rating__wrap--product-tile {
+  margin-top: 2%; }
+
+@media only screen and (max-width: 770px) {
+  .c-tabs__tab {
+    padding: 1px 40px; } }
+
 
 /*# sourceMappingURL=styles.css.map */
