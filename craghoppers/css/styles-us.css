@@ -365,6 +365,9 @@
   margin-bottom: 1.5%;
   text-transform: uppercase; }
 
+@media only screen and (max-width: 770px) {
+  .c-basket__header .btn-paypal {
+    padding-left: 0; } }
 @media only screen and (max-width: 740px) {
   .basket__delivery {
     width: 100%;
@@ -619,6 +622,21 @@ h4.c-feefo__titl {
 
 .c-feefo {
   margin: 0; }
+
+/* END */
+/* Main Nav */
+.s-main-menu .categories > li > a:active,
+.s-main-menu .categories > li > a:focus,
+.s-main-menu .categories > li > a:hover,
+.s-main-menu .categories > li > a:visited {
+  text-decoration: underline; }
+
+.s-main-menu .mm__column.mm-outlet {
+  float: right; }
+
+.s-main-menu .block .category-items {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 /* END */
 /* Homepage Specific Styles */
@@ -1964,6 +1982,12 @@ div#customerservice__row--kids table th {
 
 .mobilefootwearsection tr:first-child {
   font-weight: 600; }
+
+.cms-price-match-promise .redeye-form input {
+  width: 100%;
+  float: left;
+  clear: both;
+  border: 1px solid; }
 
 /* New Fit Guide Diagram Stuff */
 .fitGuideDiagrams {
@@ -3402,6 +3426,15 @@ p.pl-text-social {
   float: none;
   text-align: left; }
 
+.c-icon--quantity-plus {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/plus.svg) !important; }
+
+.c-icon--quantity-minus {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/minus.svg) !important; }
+
+@media only screen and (max-width: 770px) {
+  .c-qty__input {
+    width: 60px; } }
 /* Mega Menu */
 .mm__container {
   width: 1228px;

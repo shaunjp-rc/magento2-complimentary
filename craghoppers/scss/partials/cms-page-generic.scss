@@ -538,6 +538,12 @@
 	text-transform: uppercase;
 }
 
+@media only screen and (max-width:770px) {
+	.c-basket__header .btn-paypal {
+	    padding-left: 0;
+	}
+}
+
 @media only screen and (max-width:740px) {
 	.basket__delivery {
 		width: 100%;
@@ -863,4 +869,23 @@ h4.c-feefo__titl {
 .c-feefo {
 	margin: 0;
 }
+/* END */
+
+/* Main Nav */
+.s-main-menu .categories>li>a:active,
+.s-main-menu .categories>li>a:focus,
+.s-main-menu .categories>li>a:hover,
+.s-main-menu .categories>li>a:visited {
+	text-decoration: underline;
+}
+
+.s-main-menu .mm__column.mm-outlet {
+    float: right;
+}
+
+.s-main-menu .block .category-items {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* END */
