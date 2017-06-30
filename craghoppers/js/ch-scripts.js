@@ -114,7 +114,7 @@ $j(document).ready(function($) {
 
 
   // Lookbook Pop-up
-
+/*
   if ($j('html').hasClass('no-touch') == true || $j(window).width() >= 768) {
 
     $j('.lookbook__product').on('click', function(e){
@@ -151,7 +151,7 @@ $j(document).ready(function($) {
 
   }
 
-
+*/
 
   /* Customer service page mobile drop down */
 
