@@ -1311,6 +1311,19 @@ ul.fullWidthSlider__slidesList {
 
   .bannerOverlay__contentArea--slider {
     padding-bottom: 3%; } }
+.bannerOverlay-noimg {
+  height: 392px; }
+
+@media screen and (max-width: 1227px) {
+  .bannerOverlay-noimg {
+    height: 316px; } }
+@media screen and (max-width: 989px) {
+  .bannerOverlay-noimg {
+    height: 236px; } }
+@media screen and (max-width: 500px) {
+  .bannerOverlay-noimg {
+    height: 65vw;
+    max-height: 324px; } }
 /****** Customer Service Styles ******/
 .helppages .helppagesleft {
   float: left; }
