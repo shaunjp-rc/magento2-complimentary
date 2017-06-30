@@ -104,6 +104,26 @@ a.c-product-size__size-guide-link:hover {
     font-weight: 300;
 }
 
+.u-heading-beta.page-title {
+    margin-bottom: 2%;
+}
+
+.c-product-details .c-price__group {
+    margin-bottom: 0;
+}
+
+.old-price .c-price__group {
+    margin-top: 3%;
+} 
+
+.c-price.js-price-highlight {
+    margin-bottom: 3%;
+}
+
+.product.attribute.description div, .product.attribute.description ul {
+    font-size: inherit !important;
+}
+
 /* Plus/Minus images */
 .c-icon--quantity-plus {
     background-image: url(https://cdn.hawkshead.com/img/SS17/uk/misc/icons/plus.svg)!important;

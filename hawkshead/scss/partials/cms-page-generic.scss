@@ -612,7 +612,7 @@
     float: left;
 }
 
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:500px) {
 	.o-layout__item:nth-child(3),
 	.o-layout__item.c-basket__remove-group {
 		padding-left: 0%;
@@ -693,8 +693,19 @@
 
 /* Footer feefo logo */
 h4.c-feefo__titl {
-    margin: 0;
-    color: #fff;
+	margin: 0;
+	color: #fff;
+}
+
+@media only screen and (max-width:770px) {
+	.c-feefo {
+		margin: 0px 0 20px 0;
+	} 
+
+	.s-footer-links-social h4 {
+    	padding-left: 11%;
+	} 
+
 }
 /* END */
 
