@@ -870,3 +870,26 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
     }
 
 }
+
+.bannerOverlay-noimg {
+    height: 392px;
+}
+
+@media screen and (max-width: 1227px) {
+  .bannerOverlay-noimg {
+    height: 316px;
+  }
+} 
+
+@media screen and (max-width: 989px) {
+  .bannerOverlay-noimg {
+    height: 236px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bannerOverlay-noimg {
+      height: 65vw;
+      max-height: 324px;
+  }
+}
