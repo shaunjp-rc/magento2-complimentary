@@ -576,6 +576,14 @@ tr.headerrow,
   margin-top: 7%; }
 
 /* END */
+/* ios shadow */
+@media only screen and (max-width: 1024px) {
+  input#search.c-input.c-header-search__input,
+  input#newsletter.c-input-combined__input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; } }
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
