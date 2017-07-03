@@ -275,11 +275,13 @@ $j(document).ready(function($) {
   /* END */
 
   /* Homepage SEO show/hide */
+    var catname = jQuery('body').attr('class');
     $j('.pageSection--Seo').after('<div class="seo-container"><a><div class="readmore">Read more</div></a></div>');
     $j('.readmore').click(function(){
       $j('.pageSection--Seo').toggleClass('seo-open');
       $j('.pageSection--Seo + .seo-container .readmore').html('Read more');
       $j('.pageSection--Seo.seo-open + .seo-container .readmore').html('Read less');
+      ga('send', 'event', 'read-more-button', 'click', ''+catname+'');
     });
   /* END */
 
