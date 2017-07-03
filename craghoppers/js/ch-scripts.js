@@ -281,7 +281,7 @@ $j(document).ready(function($) {
       $j('.pageSection--Seo').toggleClass('seo-open');
       $j('.pageSection--Seo + .seo-container .readmore').html('Read more');
       $j('.pageSection--Seo.seo-open + .seo-container .readmore').html('Read less');
-      ga('send', 'event', 'read-more-button', 'click', ''+catname+'');
+      ga('send', 'event', 'read-more-button', 'click', '' + catname + '');
     });
   /* END */
 
