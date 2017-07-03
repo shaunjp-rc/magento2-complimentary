@@ -624,7 +624,6 @@ h4.c-feefo__titl {
   margin: 0; }
 
 /* END */
-
 /* Main Nav */
 .s-main-menu .categories > li > a:active,
 .s-main-menu .categories > li > a:focus,
@@ -1324,6 +1323,28 @@ ul.fullWidthSlider__slidesList {
   .bannerOverlay-noimg {
     height: 65vw;
     max-height: 324px; } }
+/* Homepage SEO show/hide */
+.pageSection--Seo {
+  height: 190px;
+  overflow: hidden;
+  position: relative; }
+
+.readmore {
+  margin: 0 auto;
+  text-align: center;
+  width: 10%;
+  background: #343334;
+  padding: 1% 0;
+  color: #fff;
+  cursor: pointer; }
+
+.seo-container {
+  margin-top: -4%; }
+
+.pageSection--Seo.seo-open {
+  height: 100%; }
+
+/* END */
 /****** Customer Service Styles ******/
 .helppages .helppagesleft {
   float: left; }
@@ -4115,28 +4136,6 @@ p.pl-text-social {
   text-align: left;
   color: #343334; }
 
-.c-rating__reviews,
-.c-rating__reviews:active,
-.c-rating__reviews:focus,
-.c-rating__reviews:hover,
-.c-rating__reviews:visited {
-  color: #343334; }
-
-.c-save-item,
-.c-save-item:active,
-.c-save-item:visited {
-  color: #343334; }
-
-a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
-  background-color: #717171;
-  padding: 10px 30px;
-  margin-top: 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px;
-  color: #fff; }
-
-
 .c-icon--quantity-plus {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/plus.svg) !important; }
 
@@ -4145,17 +4144,36 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 
 @media only screen and (max-width: 770px) {
   .c-qty__input {
-    width: 60px; } }
+    width: 60px; }
 
-.old-price .c-price__group {
-  margin-top: 1%; }
+  .c-rating__reviews,
+  .c-rating__reviews:active,
+  .c-rating__reviews:focus,
+  .c-rating__reviews:hover,
+  .c-rating__reviews:visited {
+    color: #343334; }
 
-.c-rating__wrap, .c-rating__wrap--product-tile {
-  margin-top: 2%; }
+  .c-save-item,
+  .c-save-item:active,
+  .c-save-item:visited {
+    color: #343334; }
 
+  a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
+    background-color: #717171;
+    padding: 10px 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff; }
+
+  .old-price .c-price__group {
+    margin-top: 1%; }
+
+  .c-rating__wrap, .c-rating__wrap--product-tile {
+    margin-top: 2%; } }
 @media only screen and (max-width: 770px) {
   .c-tabs__tab {
     padding: 1px 40px; } }
-
 
 /*# sourceMappingURL=styles.css.map */
