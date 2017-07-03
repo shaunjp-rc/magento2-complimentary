@@ -893,3 +893,31 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
       max-height: 324px;
   }
 }
+
+/* Homepage SEO show/hide */
+
+.pageSection--Seo {
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+}
+
+.readmore {
+    margin: 0 auto;
+    text-align: center;
+    width: 10%;
+    background: #343334;
+    padding: 1% 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.seo-container {
+    margin-top: -4%;
+}
+
+.pageSection--Seo.seo-open{
+  height: 100%;
+}
+
+/* END */
