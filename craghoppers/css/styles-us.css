@@ -661,7 +661,6 @@ a.c-store-list__details {
   background: #5f5f5e;
   border-color: #5f5f5e; }
 
-
 /* END */
 /* ios input */
 @media only screen and (max-width: 1024px) {
@@ -670,7 +669,6 @@ a.c-store-list__details {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; } }
-
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
@@ -3526,7 +3524,6 @@ p.pl-text-social {
 
 @media only screen and (max-width: 770px) {
   .c-qty__input {
-
     width: 60px; } }
 .c-rating__reviews,
 .c-rating__reviews:active,
@@ -3549,41 +3546,19 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   font-size: 14px;
   color: #fff; }
 
+@media only screen and (max-width: 770px) {
+  .c-tabs__tab {
+    padding: 1px 30px; } }
+.c-product-details .c-price__group {
+  margin-bottom: 0; }
+
+.c-rating__wrap,
+.c-rating__wrap--product-tile {
+  margin-top: 2%; }
+
 .old-price .c-price__group {
   margin-top: 1%; }
 
-    width: 60px; }
-
-  .c-rating__reviews,
-  .c-rating__reviews:active,
-  .c-rating__reviews:focus,
-  .c-rating__reviews:hover,
-  .c-rating__reviews:visited {
-    color: #343334; }
-
-  .c-save-item,
-  .c-save-item:active,
-  .c-save-item:visited {
-    color: #343334; }
-
-  a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
-    background-color: #717171;
-    padding: 10px 30px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
-    color: #fff; }
-
-
-  .old-price .c-price__group {
-    margin-top: 1%; }
-
-  .c-rating__wrap, .c-rating__wrap--product-tile {
-    margin-top: 2%; } }
-@media only screen and (max-width: 770px) {
-  .c-tabs__tab {
-    padding: 1px 40px; } }
 /* Mega Menu */
 .mm__container {
   width: 1228px;
