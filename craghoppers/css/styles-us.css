@@ -661,6 +661,7 @@ a.c-store-list__details {
   background: #5f5f5e;
   border-color: #5f5f5e; }
 
+
 /* END */
 /* ios input */
 @media only screen and (max-width: 1024px) {
@@ -669,6 +670,7 @@ a.c-store-list__details {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; } }
+
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
@@ -1331,6 +1333,28 @@ ul.fullWidthSlider__slidesList {
   .bannerOverlay-noimg {
     height: 65vw;
     max-height: 324px; } }
+/* Homepage SEO show/hide */
+.pageSection--Seo {
+  height: 190px;
+  overflow: hidden;
+  position: relative; }
+
+.readmore {
+  margin: 0 auto;
+  text-align: center;
+  width: 10%;
+  background: #343334;
+  padding: 1% 0;
+  color: #fff;
+  cursor: pointer; }
+
+.seo-container {
+  margin-top: -4%; }
+
+.pageSection--Seo.seo-open {
+  height: 100%; }
+
+/* END */
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -3502,6 +3526,7 @@ p.pl-text-social {
 
 @media only screen and (max-width: 770px) {
   .c-qty__input {
+
     width: 60px; } }
 .c-rating__reviews,
 .c-rating__reviews:active,
@@ -3527,9 +3552,35 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 .old-price .c-price__group {
   margin-top: 1%; }
 
-.c-rating__wrap, .c-rating__wrap--product-tile {
-  margin-top: 2%; }
+    width: 60px; }
 
+  .c-rating__reviews,
+  .c-rating__reviews:active,
+  .c-rating__reviews:focus,
+  .c-rating__reviews:hover,
+  .c-rating__reviews:visited {
+    color: #343334; }
+
+  .c-save-item,
+  .c-save-item:active,
+  .c-save-item:visited {
+    color: #343334; }
+
+  a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
+    background-color: #717171;
+    padding: 10px 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff; }
+
+
+  .old-price .c-price__group {
+    margin-top: 1%; }
+
+  .c-rating__wrap, .c-rating__wrap--product-tile {
+    margin-top: 2%; } }
 @media only screen and (max-width: 770px) {
   .c-tabs__tab {
     padding: 1px 40px; } }
