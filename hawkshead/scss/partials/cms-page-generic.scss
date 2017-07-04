@@ -793,6 +793,7 @@ tr.headerrow,
 }
 /* END */
 
+
 /* checkout address boxes */
 #checkout-step-shipping .o-layout__item:nth-child(3),
 #checkout-step-shipping .o-layout__item.c-basket__remove-group {
@@ -801,5 +802,10 @@ tr.headerrow,
 
 #checkout-step-shipping .o-layout__item:nth-child(4) {
 	text-align: left;
+
+/* error messages */
+.page.messages {
+	clear: both;
+
 }
 /* END */
