@@ -608,6 +608,15 @@ tr.headerrow,
     -moz-appearance: none;
     appearance: none; } }
 /* END */
+/* checkout address boxes */
+#checkout-step-shipping .o-layout__item:nth-child(3),
+#checkout-step-shipping .o-layout__item.c-basket__remove-group {
+  padding-left: 2%; }
+
+#checkout-step-shipping .o-layout__item:nth-child(4) {
+  text-align: left; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
