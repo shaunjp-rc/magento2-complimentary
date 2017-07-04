@@ -692,6 +692,11 @@ p.collectionhighlights__hoverstate--header {
     height: auto;
   }
 
+  .delivery-block .containercenter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
 
 @media screen and (min-width:768px) {
