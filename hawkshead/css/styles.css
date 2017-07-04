@@ -608,6 +608,11 @@ tr.headerrow,
     -moz-appearance: none;
     appearance: none; } }
 /* END */
+/* error messages */
+.page.messages {
+  clear: both; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
