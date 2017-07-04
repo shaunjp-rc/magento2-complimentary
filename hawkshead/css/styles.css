@@ -1166,7 +1166,11 @@ p.collectionhighlights__hoverstate--header {
     top: 72px; }
 
   .skip-link {
-    height: auto; } }
+    height: auto; }
+
+  .delivery-block .containercenter {
+    display: flex;
+    flex-wrap: wrap; } }
 @media screen and (min-width: 768px) {
   .skip-link {
     width: 100%; }
