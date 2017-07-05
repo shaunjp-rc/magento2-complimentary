@@ -614,10 +614,11 @@ tr.headerrow,
   padding-left: 2%; }
 
 #checkout-step-shipping .o-layout__item:nth-child(4) {
-  text-align: left;
-  /* error messages */ }
-  #checkout-step-shipping .o-layout__item:nth-child(4) .page.messages {
-    clear: both; }
+  text-align: left; }
+
+/* error messages */
+.page.messages {
+  clear: both; }
 
 /* END */
 /* Homepage Specific Styles */
