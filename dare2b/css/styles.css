@@ -987,9 +987,47 @@ html .mt_animate {
   .category-container.full .category-text {
     padding: 5px; } }
 /* Partials */
+/*////////////////////////*/
+/*.    Roundel styling.   */
+/*////////////////////////*/
+#product-roundel {
+  background: #2676ba;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+  float: right;
+  clear: right; }
+
+#monVars {
+  position: relative; }
+
+.roundel {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #2676ba;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important; }
+
 /*//////////////////////////
 /* Footer Block Links
 /*/
+.footerFeefo {
+  text-decoration: none; }
+
 .page-product-configurable #basket-promo {
   font-size: 15px; }
 
@@ -1055,7 +1093,7 @@ html .mt_animate {
     bottom: -23px;
     right: 0;
     left: 0;
-    color: #424243; } }
+    color: #b9b9b9; } }
 /* Mega menu styles mobile */
 @media screen and (max-width: 739px) {
   h3.mob-only {
@@ -1084,6 +1122,100 @@ html .mt_animate {
 
   .category-items div ul {
     padding: 10px !important; } }
+/****************************
+/* Contact Us Page
+/***************************/
+#delivery section h1 {
+  margin: 10px 0px 10px 0px !important; }
+
+.cp-faq .arrow-button {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 30px;
+  display: inline-block; }
+
+#contact-us #tabs .my-parcel {
+  max-width: 57px;
+  float: left;
+  margin: -5px 0px -10px -10px;
+  padding-right: 5px; }
+#contact-us .action-tabs .tabs *[data-action="tab"] {
+  flex-basis: initial !important; }
+#contact-us .methods, #contact-us .hours {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 20px !important;
+  margin-bottom: 30px; }
+#contact-us .methods a, #contact-us > p a {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer; }
+#contact-us h1 {
+  color: #333;
+  margin: 40px 0 20px 0; }
+#contact-us .rl-pop.active {
+  left: 0; }
+#contact-us .buttons-set > button {
+  float: left !important;
+  background: #5AA11F !important;
+  padding: 13px;
+  border-radius: 6px; }
+#contact-us .webforms-fields-ex_data_export_time_sent {
+  display: none; }
+#contact-us .webforms-fields-ex_data_export_recipient {
+  display: none; }
+#contact-us .fields.first > div:nth-child(2) {
+  display: none !important; }
+#contact-us textarea {
+  width: 370px;
+  border: 1px solid #ccc;
+  max-width: 90%; }
+#contact-us .fields.last {
+  display: none; }
+#contact-us .hours p {
+  margin: 2px 0; }
+#contact-us .methods ul, #contact-us .methods li {
+  margin: 0 !important;
+  padding: 0;
+  list-style-type: none; }
+#contact-us .methods i {
+  margin: 4px 10px 0 0; }
+#contact-us .methods ul li:nth-child(1) {
+  margin-bottom: 10px !Important;
+  display: block; }
+#contact-us .cms-page {
+  margin: 10px; }
+#contact-us #cu-form {
+  margin-top: 100px !important;
+  max-height: 80%;
+  overflow: auto;
+  z-index: 999999999999999;
+  border: 1px solid #ccc; }
+#contact-us .cms-page {
+  width: 1200px;
+  margin: 0 auto !important;
+  max-width: 96%; }
+#contact-us .cms-page strong {
+  font-weight: bold !important;
+  font-size: 24px; }
+#contact-us .cms-page li {
+  font-style: normal !important;
+  font-size: 16px !important; }
+#contact-us #contact-us-form button {
+  background: #333 !important; }
+#contact-us .cms-page .map {
+  margin: 30px 0; }
+#contact-us .cms-page .map a {
+  background: #333;
+  color: #eee;
+  text-decoration: none !important;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 8px; }
+#contact-us .cms-page ul, #contact-us .cms-page li {
+  list-style-type: none !important; }
+
 /****************************
 /* Garment Care
 /***************************/
