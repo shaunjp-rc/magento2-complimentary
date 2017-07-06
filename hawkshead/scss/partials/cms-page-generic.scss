@@ -577,17 +577,13 @@
 	}
 }
 
-@media only screen and (max-width:770px) {
-
-	.s-main-menu .categories {
-    	text-align: left;
-	} 
-
-}
-
 @media only screen and (max-width:500px) {
 	.s-main-menu .categories>li {
 	    display: block;
+	}
+
+	.s-main-menu .categories {
+    	text-align: left;
 	}
 
 }

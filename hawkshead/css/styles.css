@@ -447,12 +447,12 @@
 @media only screen and (max-width: 1227px) {
   .s-main-menu .categories > li {
     padding-right: 0%; } }
-@media only screen and (max-width: 770px) {
-  .s-main-menu .categories {
-    text-align: left; } }
 @media only screen and (max-width: 500px) {
   .s-main-menu .categories > li {
-    display: block; } }
+    display: block; }
+
+  .s-main-menu .categories {
+    text-align: left; } }
 /* END */
 /* Basket Updates */
 .o-layout__item:nth-child(4) {
