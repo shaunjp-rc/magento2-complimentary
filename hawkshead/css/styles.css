@@ -608,7 +608,6 @@ tr.headerrow,
     -moz-appearance: none;
     appearance: none; } }
 /* END */
-
 /* checkout address boxes */
 #checkout-step-shipping .o-layout__item:nth-child(3),
 #checkout-step-shipping .o-layout__item.c-basket__remove-group {
@@ -620,7 +619,6 @@ tr.headerrow,
 /* error messages */
 .page.messages {
   clear: both; }
-
 
 /* END */
 /* Homepage Specific Styles */
