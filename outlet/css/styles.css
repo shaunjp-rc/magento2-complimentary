@@ -940,6 +940,50 @@ html .mt_animate {
     width: 98% !important; } }
 /* Partials */
 /*////////////////////////*/
+/*    Responsive Table    */
+/*////////////////////////*/
+@media only screen and (max-width: 500px) {
+  .responsive-table::-webkit-scrollbar {
+    width: 1em;
+    height: 5px; }
+
+  .responsive-table::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+  .responsive-table::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey; }
+
+  .responsive-table {
+    overflow-x: scroll;
+    margin-bottom: 30px; }
+
+  .responsive-table table {
+    width: 250%; }
+
+  .responsive-table tr > td:first-child {
+    min-width: 120px;
+    background: #eaeaea;
+    position: absolute;
+    width: 33%;
+    left: inherit;
+    z-index: 1;
+    border: solid 1px #cccccc; }
+
+  .responsive-table tr td {
+    padding: 10px;
+    background: #f9f9f9;
+    /* left: 16%; */
+    /* position: relative; */
+    z-index: 0;
+    border: solid 1px #ece9e9; }
+
+  .responsive-table table tr {
+    position: relative; }
+
+  .responsive-table tr td:nth-child(2) {
+    padding-left: 20%; } }
+/*////////////////////////*/
 /*.    Roundel styling.   */
 /*////////////////////////*/
 #monVars {
