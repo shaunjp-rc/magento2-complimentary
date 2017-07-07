@@ -1,4 +1,41 @@
 /*////////////////////////*/
+/*.    Roundel styling.   */
+/*////////////////////////*/
+#monVars {
+  position: relative;
+}
+.roundel {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #d32526;
+  max-width: 53px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+}
+.page-product-configurable .save__product-page {
+  background: #d32526;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  float: right;
+  clear: right;
+}
+.save__product-page:last-child {
+  display: block !important;
+}
+/*////////////////////////*/
 /*     Error 404 page     */
 /*////////////////////////*/
 #error {
