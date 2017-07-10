@@ -670,6 +670,11 @@ a.c-store-list__details {
     -moz-appearance: none;
     appearance: none; } }
 /* END */
+/* Search Clear fix */
+.c-header-search .c-input-wrap__clear {
+  top: 25px; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -3508,6 +3513,9 @@ p.pl-text-social {
 .u-heading-epsilon {
   line-height: 1.4; }
 
+@media only screen and (max-width: 500px) {
+  .s-text-banner {
+    margin-top: 5%; } }
 .c-product-size__link {
   font-weight: normal; }
 
@@ -3748,9 +3756,19 @@ li.dropdown.dropdown--red a {
 .s-main-menu {
   position: relative; }
 
+.shopall {
+  display: none; }
+
 @media screen and (max-width: 500px) {
   .s-main-menu .categories > li {
     text-align: left;
+    display: block; }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%; }
+
+  .shopall {
     display: block; } }
 /* END */
 

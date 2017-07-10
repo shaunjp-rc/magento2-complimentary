@@ -242,10 +242,25 @@ li.dropdown.dropdown--red a {
   position: relative;
 }
 
-@media screen and (max-width: 500px) {
-  .s-main-menu .categories > li {
-      text-align: left;
-      display: block;
-  }
+.shopall {
+  display: none;
 }
+
+@media screen and (max-width:500px) {
+  .s-main-menu .categories > li {
+    text-align: left;
+    display: block;
+  }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%;
+  }
+
+  .shopall {
+    display: block;
+  }
+
+}
+
 /* END */
