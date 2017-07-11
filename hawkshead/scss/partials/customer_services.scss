@@ -330,11 +330,18 @@ div#form__close {
 .action-tabs .tabs *[data-action="tab"] {
     border: 1px solid #ddd;
     border-bottom: 0;
+
     padding: 10px 14px;
     flex-grow: 1;
     margin: 0 0px;
     cursor: pointer;
     font-size: 1.1em;
+
+    padding: 10px 16px;
+    flex-grow: 1;
+    margin: 0 0px;
+    cursor: pointer;
+    font-size: 1.2em;
     flex-basis: 200px;
 }
 
