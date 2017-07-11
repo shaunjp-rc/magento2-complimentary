@@ -1,16 +1,16 @@
 /****************************
-/* Contact Us Page
+/* Delivery And Returns Page
 /***************************/
-#delivery section h1{
-      margin: 10px 0px 10px 0px !important;
-}
-.cp-faq .arrow-button {
-  color: #ffffff;
-  text-decoration: none;
-  margin-bottom: 30px;
-  display: inline-block;
-}
-#contact-us {
+#delivery {
+  .cp-faq .arrow-button {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  section h1 {
+        margin: 10px 0px 10px 0px !important;
+  }
   #tabs .my-parcel {
     max-width: 57px;
     float: left;

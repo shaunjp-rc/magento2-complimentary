@@ -1,4 +1,16 @@
 /*////////////////////////*/
+/*      Basket Page       */
+/*////////////////////////*/
+.c-basket__footer{
+  .c-input-combined__input-wrapper{
+    .c-input-combined__input {
+      border: 2px solid #dedede !important;
+      background-color: #ebebeb !important;
+    }
+  }
+}
+
+/*////////////////////////*/
 /*    Responsive Table    */
 /*////////////////////////*/
 @media only screen and (max-width:500px) {
@@ -107,7 +119,7 @@
   .mobile-footer-links h4 {
       background: #606060;
       padding: 10px;
-      color: #ffffff;  
+      color: #ffffff;
   }
   .mobile-footer-links h4 + ul {
     display:none;
