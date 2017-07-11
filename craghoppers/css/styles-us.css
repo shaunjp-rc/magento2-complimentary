@@ -618,7 +618,8 @@
 /* END */
 /* feefo */
 h4.c-feefo__titl {
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 0; }
 
 .c-feefo {
   margin: 0; }
