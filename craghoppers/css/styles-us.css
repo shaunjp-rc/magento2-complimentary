@@ -2048,7 +2048,9 @@ tr.headerrow,
   font-weight: 600; }
 
 .datatablesizing {
-  margin-top: 1%; }
+  margin-top: 1%;
+  width: 100%;
+  text-align: center; }
 
 #customerservice__row--women {
   display: block; }
