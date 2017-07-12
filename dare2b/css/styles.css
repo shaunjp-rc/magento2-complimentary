@@ -951,6 +951,19 @@ html .mt_animate {
   background-color: #ebebeb !important; }
 
 /*////////////////////////*/
+/*.   PDP Styles          */
+/*////////////////////////*/
+#PDP-Size-Chart table {
+  width: 100%; }
+
+#PDP-Size-Chart thead {
+  background: #ddd; }
+
+#PDP-Size-Chart tr, td {
+  border: 1px solid;
+  padding: 4px; }
+
+/*////////////////////////*/
 /*.    Roundel styling.   */
 /*////////////////////////*/
 #product-roundel {
