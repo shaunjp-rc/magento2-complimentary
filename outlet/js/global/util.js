@@ -30,7 +30,7 @@ function rlBadge(){
       if(item.value.length){
         var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
         if(document.querySelector('.fotorama__stage')){
-	        document.querySelector('.fotorama__stage').innerHTML += "<span class='" + className + " mon-badge'>F" + item.value + "</span>";
+	        document.querySelector('.fotorama__stage').innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>";
 	    }
       }
     });
