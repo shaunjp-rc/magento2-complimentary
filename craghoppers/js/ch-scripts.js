@@ -200,28 +200,6 @@ $j(document).ready(function($) {
   });
   /* END */
 
-  //Mega Menu Sub Category Reveals    
-    
-   var mmCatHeader = $j('.mm__column--lookbook .lookbook__card');    
-    
-   mmCatHeader.hoverIntent({   
-     sensitivity: 18,    
-     over: function(){   
-       $j(this).find('.hidden-sub-cat').animate({    
-         // 'height': '36px',    
-         'opacity': '1'    
-       }, 600);    
-     },    
-     out: function(){    
-       $j(this).find('.hidden-sub-cat').animate({    
-         // 'height': '0',   
-         'opacity': '0'    
-       }, 200);    
-     }   
-   }); 
-
-   /* END */
-
    /* Footer mobile menu */
 
    $j('[data-target="toggleNextElement"]').click(function(){
