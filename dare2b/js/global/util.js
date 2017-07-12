@@ -29,8 +29,9 @@ function rlBadge(){
     Array.from(document.querySelectorAll(query)).forEach((item) => {
       if(item.value.length){
         var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
-        console.log(item.value);
-        document.querySelector('.fotorama__stage').innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>";
+        if(document.querySelector('.fotorama__stage')){
+	        document.querySelector('.fotorama__stage').innerHTML += "<span class='" + className + " mon-badge'>F" + item.value + "</span>";
+	    }
       }
     });
   }
