@@ -1088,7 +1088,8 @@ html .mt_animate {
   right: 0;
   background: rgba(255, 255, 255, 0.8);
   padding: 10px;
-  max-width: 90%; }
+  max-width: 90%;
+  width: 90%; }
 
 .category-container.full .category-title {
   position: absolute;
