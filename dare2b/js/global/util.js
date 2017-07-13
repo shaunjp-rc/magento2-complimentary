@@ -29,8 +29,8 @@ function rlBadge(){
     Array.from(document.querySelectorAll(query)).forEach((item) => {
       if(item.value.length){
         var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
-        if(document.querySelector('.fotorama__stage')){
-	        document.querySelector('.fotorama__stage').innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>";
+        if(document.querySelector('.gallery-placeholder')){
+	        document.querySelector('.gallery-placeholder').innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>";
 	    }
       }
     });
@@ -44,13 +44,13 @@ function rlPromo(){
 
   // product listing page
   Array.from(document.querySelectorAll('.c-product-details')).forEach((item) => {
-    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null
+    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
     if(value) document.querySelector(".product-info-stock-sku").innerHTML += "<span class='save__product-page' style='display:none;'>Save " + value + "%</span>";
   });
 
   // product details page
   Array.from(document.querySelectorAll('.c-product-tile__badge-content #monVars')).forEach((item) => {
-    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null
+    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
     if(value) item.innerHTML += "<div class='roundel' style='display:none;'>Save " + value + "%</div>";
   });
 
