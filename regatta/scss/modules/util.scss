@@ -57,7 +57,7 @@
 /* Flex grid styles
 /***************************/
 
-/* base flex styles */  
+/* base flex styles */
 .flex-container{display: flex; flex-wrap: wrap; margin: 10px 0;}
 .flex-container.flex-end{justify-content: flex-end;}
 .flex-container.flex-start{justify-content: flex-start}
@@ -168,7 +168,7 @@
   transform: rotateZ(180deg);
   transition: all ease 0.5s;
 }
-  
+
 .action-toggle .toggle-content{
   opacity: 0;
   max-height: 0;
@@ -298,7 +298,7 @@
 	margin: 20% 20% 10px;
 	padding: 20px;
 	border-radius: 4px;
-	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);	
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
 	box-sizing: border-box;
 	top: 0;
 }
@@ -412,7 +412,7 @@
   position: relative;
 }
 
-  
+
 }
 @media only screen and (max-width:739px) {
   .delivery-basket-container {
@@ -497,7 +497,10 @@ html .mt_animate {
 .mt_itemWrapper a {
     text-decoration: none;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
+    .page-product-configurable .monetate-product-relationships-one, .page-product-configurable .monetate-product-relationships-two {
+      max-width: 98%;
+    }
     .monetate-product-relationships-one, .monetate-product-relationships-two {
         max-width: 100%;
     }
