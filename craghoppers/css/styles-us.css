@@ -4104,9 +4104,11 @@ li.dropdown.dropdown--red a {
   .columnHead {
     margin-left: 1%; }
 
-  .s-main-menu .category-items .mm__column,
-  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+  .s-main-menu .category-items .mm__column {
     width: 33%; }
+
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%; }
 
   .mmLookbookColumn li {
     padding-right: 12px; }
@@ -4159,6 +4161,9 @@ li.dropdown.dropdown--red a {
 .shopall {
   display: none; }
 
+@media screen and (max-width: 770px) {
+  .shopall {
+    display: block; } }
 @media screen and (max-width: 500px) {
   .s-main-menu .categories > li {
     text-align: left;
@@ -4166,10 +4171,7 @@ li.dropdown.dropdown--red a {
 
   .s-main-menu .category-items .mm__column,
   .s-main-menu .category-items .mm__column.mm__column--lookbook {
-    width: 100%; }
-
-  .shopall {
-    display: block; } }
+    width: 100%; } }
 /* END */
 
 /*# sourceMappingURL=styles-us.css.map */
