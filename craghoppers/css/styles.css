@@ -708,6 +708,9 @@ a.c-store-list__details {
 .c-header-search .c-input-wrap__clear {
   top: 25px; }
 
+.c-header-search__suggestions {
+  top: 57px; }
+
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
