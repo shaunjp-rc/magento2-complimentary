@@ -939,6 +939,14 @@ html .mt_animate {
   .redeye-form > div {
     width: 98% !important; } }
 /* Partials */
+/*/////////////////////////*/
+/* Moved colours available */
+/*/////////////////////////*/
+.c-product-tile__img-wrapper .c-product-tile__item-extra-info {
+  position: relative;
+  background: #f3f3f3;
+  color: #4c4c4c; }
+
 /*////////////////////////*/
 /*    Responsive Table    */
 /*////////////////////////*/
