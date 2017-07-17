@@ -1896,8 +1896,11 @@ html .s-main-menu .block {
   border-radius: 4px; }
 
 @media screen and (max-width: 767px) {
+  .optionSelect > div {
+    width: 48% !important; }
+
   .redeye-form > div > div {
-    width: 100%; } }
+    width: 100% !important; } }
 #email-signup-page .flex-item {
   margin: 5px 0;
   display: inline-block;
