@@ -1,10 +1,16 @@
+body .c-product-tile__btn{
+  background: transparent;
+  border: 2px solid #34af65;
+  color: #34af65;
+}
+
 /*/////////////////////////*/
 /* Moved colours available */
 /*/////////////////////////*/
 .c-product-tile__img-wrapper .c-product-tile__item-extra-info {
     position: relative;
     background: #f3f3f3;
-    color: #4c4c4c; 
+    color: #4c4c4c;
 }
 
 @media only screen and (max-width: 1227px) {
