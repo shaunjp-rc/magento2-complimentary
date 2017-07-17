@@ -1,3 +1,11 @@
+/*/////////////////////////*/
+/* Moved colours available */
+/*/////////////////////////*/
+.c-product-tile__img-wrapper .c-product-tile__item-extra-info {
+    position: relative;
+    background: #f3f3f3;
+    color: #4c4c4c;
+}
 /*////////////////////////*/
 /*    Responsive Table    */
 /*////////////////////////*/
@@ -144,7 +152,7 @@
   .mobile-footer-links h4 {
       background: #606060;
       padding: 10px;
-      color: #ffffff;  
+      color: #ffffff;
   }
   .mobile-footer-links h4 + ul {
     display:none;
@@ -254,4 +262,3 @@
     color: #424243;
   }
 }
-

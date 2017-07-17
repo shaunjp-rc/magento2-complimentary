@@ -946,6 +946,14 @@ html .mt_animate {
   .responsive-table tr td:nth-child(2) {
     padding-left: 20%; } }
 /* Partials */
+/*/////////////////////////*/
+/* Moved colours available */
+/*/////////////////////////*/
+.c-product-tile__img-wrapper .c-product-tile__item-extra-info {
+  position: relative;
+  background: #f3f3f3;
+  color: #4c4c4c; }
+
 @media only screen and (max-width: 1227px) {
   body .s-main-menu .categories > li > a {
     font-size: 1rem; } }
