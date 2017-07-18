@@ -2,8 +2,6 @@
 // REGLIB
 // A Regatta JS Utility library
 // Author: Shaun Pelling
-// CONTENTS:
-//
 /////////////////////////////////////*/
 
 /*///////// Badge & Promo Behaviour ////////*/
@@ -102,23 +100,23 @@ function rlTabs(){
 	});
   
   // Pick up URL and open appropriate tab
-  var navigated = window.location.href;
-  nodes.forEach(function(node){
-    var nodeTarget = node.getAttribute('data-target');
-    if(navigated.indexOf(nodeTarget) !== -1){
-      
-      // Remove defaulted active classes
-      var activesList = document.body.querySelectorAll(".active");
-      var actives = Array.prototype.slice.call(nodeList,0);
-      nodes.forEach(function(active){
-        active.classList.remove('active');
-      });
-      
-      // Add active class to URL param
-      document.body.querySelector(nodeTarget).classList.add('active');
-      node.classList.add('active');
-    }
-  });
+	var navigated = window.location.href;
+	nodes.forEach(function(node){
+		var nodeTarget = node.getAttribute('data-target');
+		if(navigated.indexOf(nodeTarget) !== -1){
+
+			// Remove defaulted active classes
+			var activesList = document.body.querySelectorAll(".active");
+			var actives = Array.prototype.slice.call(nodeList,0);
+			nodes.forEach(function(active){
+			active.classList.remove('active');
+			});
+
+			// Add active class to URL param
+			document.body.querySelector(nodeTarget).classList.add('active');
+			node.classList.add('active');
+		}
+	});
 }
 
 /*////////// Select Behaviour //////////*/
@@ -153,93 +151,6 @@ function rlToggleClass(){
 		});	
 	});
 }
-
-/*//////////// Countdown Behaviour ////////////*/
-
-function rlClock(container, options){
-	
-	// create clock and append
-	var clock = document.createElement('div');
-  clock.className = options.selector;
-	document.getElementById(container).prepend(clock);
-
-	// create daily clock
-	if(options.daily){
-		
-		var endHour = parseInt(options.ends.split(':')[0]);
-		var endMins = parseInt(options.ends.split(':')[1]);
-		
-		// calculate hours
-		function getHours(){
-			var now = new Date();
-			return now.getHours() >= endHour && now.getMinutes() >= endMins ? (23 - now.getHours() + endHour) : (endHour - now.getHours());
-		} 
-		
-		// calculate minutes
-		function getMins(){
-			var now = new Date();
-			return now.getMinutes() >= endMins ? (59 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
-		}
-		
-		// start the countdown
-		var countdown = setInterval(function(){
-			
-			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
-			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
-			
-			// output HTML
-			document.querySelector('.' + options.selector).innerHTML = hours + mins;
-			
-		},1000);	
-		
-	// create deadline clock	
-	}	else {
-		
-		var endHour = parseInt(options.ends.split(':')[0]);
-		var endMins = parseInt(options.ends.split(':')[1]);
-		
-		// calculate days
-		function getDays(){
-			var now = new Date();
-			var msc = 1000 * 60 * 60 * 24;
-			var diff = Math.abs(options.deadline.getTime() - now.getTime());
-			return (Math.ceil(diff / msc) - 1);
-		} 
-		
-		// calculate hours
-		function getHours(){
-			var now = new Date();
-			return now.getHours() >= endHour ? (24 - now.getHours() + endHour) : (endHour - now.getHours());
-		} 
-		
-		// calculate minutes
-		function getMins(){
-			var now = new Date();
-			return now.getMinutes() >= endMins ? (60 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
-		}
-		
-		// start the countdown
-		var countdown = setInterval(function(){
-			
-			var days = '<span class="clock-days">' + getDays() + '<em> days </em></span>';
-			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
-			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
-			
-			if (getDays() == 0 && getHours() == 0 && getMins() == 0){
-				// output HTML
-				document.querySelector('.' + options.selector).innerHTML= 'Countdown Expired';
-				clearInterval(countdown);
-			} else {
-				// output HTML
-				document.querySelector('.' + options.selector).innerHTML = days + hours + mins;
-			}
-			
-			
-		},1000);	
-		
-	}
-	
-} // end clock
 
 /*//////////// Lightbox Behaviour ////////////*/
 
@@ -294,7 +205,7 @@ function rlPop(options){
 
 
 /*//////////// jQuery toggleClass ////////////*/
-// Anything with data-target="toggleNextElement" will toggle a class of the next element. 
+
 requirejs(['jquery'], function( $ ) {
 
     $('[data-target="toggleNextElement"]').click(function(){
