@@ -1620,6 +1620,23 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   background: #222222; }
 #homepage .action-tabs .tabs *[data-action="tab"]:hover {
   background: #0080c5; }
+#homepage .swiper-slide > ul {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  list-style-type: none;
+  text-align: center; }
+#homepage .swiper-slide > ul li a {
+  padding: 10px;
+  display: block;
+  width: 140px;
+  background: #111;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px; }
 
 @media only screen and (max-width: 740px) {
   #homepage .flex-item.col-6 {
