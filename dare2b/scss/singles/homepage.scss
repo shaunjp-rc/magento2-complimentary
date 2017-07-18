@@ -9,6 +9,26 @@
   .action-tabs .tabs *[data-action="tab"]{background: #444444;}
   .action-tabs .tabs *[data-action="tab"].active{background: #222222;}
   .action-tabs .tabs *[data-action="tab"]:hover {background: #0080c5;}
+  .swiper-slide > ul{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .swiper-slide > ul li a{
+    padding: 10px;
+    display: block;
+    width: 140px;
+    background: #111;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
 }
 
 @media only screen and (max-width: 740px) {
