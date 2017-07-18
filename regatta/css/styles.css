@@ -1063,6 +1063,25 @@ html .mt_animate {
     right: 0;
     left: 0;
     color: #424243; } }
+/*/////////////////////*/
+/* product page styles */
+/*/////////////////////*/
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
+  width: 100% !important; }
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item {
+  margin-bottom: 18px;
+  background: #efefef;
+  display: table;
+  padding: 5px 15PX;
+  border-radius: 100px;
+  color: #bdbdbd;
+  margin: 5px;
+  display: inline-block; }
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item a {
+  color: #8c8c8c;
+  text-decoration: none; }
+
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
