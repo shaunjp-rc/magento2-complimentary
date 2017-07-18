@@ -154,93 +154,6 @@ function rlToggleClass(){
 	});
 }
 
-/*//////////// Countdown Behaviour ////////////*/
-
-function rlClock(container, options){
-	
-	// create clock and append
-	var clock = document.createElement('div');
-  clock.className = options.selector;
-	document.getElementById(container).prepend(clock);
-
-	// create daily clock
-	if(options.daily){
-		
-		var endHour = parseInt(options.ends.split(':')[0]);
-		var endMins = parseInt(options.ends.split(':')[1]);
-		
-		// calculate hours
-		function getHours(){
-			var now = new Date();
-			return now.getHours() >= endHour && now.getMinutes() >= endMins ? (23 - now.getHours() + endHour) : (endHour - now.getHours());
-		} 
-		
-		// calculate minutes
-		function getMins(){
-			var now = new Date();
-			return now.getMinutes() >= endMins ? (59 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
-		}
-		
-		// start the countdown
-		var countdown = setInterval(function(){
-			
-			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
-			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
-			
-			// output HTML
-			document.querySelector('.' + options.selector).innerHTML = hours + mins;
-			
-		},1000);	
-		
-	// create deadline clock	
-	}	else {
-		
-		var endHour = parseInt(options.ends.split(':')[0]);
-		var endMins = parseInt(options.ends.split(':')[1]);
-		
-		// calculate days
-		function getDays(){
-			var now = new Date();
-			var msc = 1000 * 60 * 60 * 24;
-			var diff = Math.abs(options.deadline.getTime() - now.getTime());
-			return (Math.ceil(diff / msc) - 1);
-		} 
-		
-		// calculate hours
-		function getHours(){
-			var now = new Date();
-			return now.getHours() >= endHour ? (24 - now.getHours() + endHour) : (endHour - now.getHours());
-		} 
-		
-		// calculate minutes
-		function getMins(){
-			var now = new Date();
-			return now.getMinutes() >= endMins ? (60 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
-		}
-		
-		// start the countdown
-		var countdown = setInterval(function(){
-			
-			var days = '<span class="clock-days">' + getDays() + '<em> days </em></span>';
-			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
-			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
-			
-			if (getDays() == 0 && getHours() == 0 && getMins() == 0){
-				// output HTML
-				document.querySelector('.' + options.selector).innerHTML= 'Countdown Expired';
-				clearInterval(countdown);
-			} else {
-				// output HTML
-				document.querySelector('.' + options.selector).innerHTML = days + hours + mins;
-			}
-			
-			
-		},1000);	
-		
-	}
-	
-} // end clock
-
 /*//////////// Lightbox Behaviour ////////////*/
 
 function rlPop(options){
@@ -293,7 +206,7 @@ function rlPop(options){
 } // end rlPop()
 
 /*//////////// jQuery toggleClass ////////////*/
-// Anything with data-target="toggleNextElement" will toggle a class of the next element. 
+
 requirejs(['jquery'], function( $ ) {
 
     $('[data-target="toggleNextElement"]').click(function(){
