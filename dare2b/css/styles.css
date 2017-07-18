@@ -1253,6 +1253,10 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .s-main-menu .categories > li > a {
   font-size: 1.11rem; }
 
+.s-main-menu img {
+  width: 100% !important;
+  max-width: 140px !important; }
+
 /* Mega menu styles mobile */
 @media screen and (max-width: 739px) {
   h3.mob-only {
