@@ -1717,6 +1717,12 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   #footwear-info .foot-contents {
     float: none;
     width: 100%; } }
+/*//////////////////////////
+/* Delivery Page          */
+/*////////////////////////*/
+#delivery-information td {
+  padding: 10px; }
+
 /* Singles */
 #homepage .flex-item {
   border: solid 3px #ffffff; }
