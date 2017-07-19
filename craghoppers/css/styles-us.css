@@ -3661,38 +3661,29 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   margin-top: 1%; }
 
 /* Insect Repellent Collection Dump */
-.wrapper {
+.cms-insect-repellent-collection .wrapper {
   display: inline-block;
   max-width: 1228px; }
-
-.hero-irc {
+.cms-insect-repellent-collection .hero-irc {
   background-image: url("https://d1khwdv4lze0nb.cloudfront.net/images/SS16/US/Collection+Assets/IS_MainImage_1140x400px.jpg");
   height: 400px;
   background-size: cover; }
-
-.wrapper > *,
-.row-10 > * {
+.cms-insect-repellent-collection .wrapper > *,
+.cms-insect-repellent-collection .row-10 > * {
   float: left; }
-
-.row-10 {
+.cms-insect-repellent-collection .row-10 {
   width: 100%; }
-
-.row-8 {
+.cms-insect-repellent-collection .row-8 {
   width: 80%; }
-
-.row-7 {
+.cms-insect-repellent-collection .row-7 {
   width: 70%; }
-
-.row-5 {
+.cms-insect-repellent-collection .row-5 {
   width: 50%; }
-
-.row-3 {
+.cms-insect-repellent-collection .row-3 {
   width: 30%; }
-
-.row-2 {
+.cms-insect-repellent-collection .row-2 {
   width: 20%; }
-
-.row-3 a {
+.cms-insect-repellent-collection .row-3 a {
   border: 2px solid #000;
   width: 100%;
   float: left;
@@ -3703,21 +3694,16 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   margin-top: 3%;
   padding: 2% 0;
   font-size: 16px; }
-
-.hero-button {
+.cms-insect-repellent-collection .hero-button {
   padding: 0 1%; }
-
-.hero-info {
+.cms-insect-repellent-collection .hero-info {
   padding: 1.5%; }
-
-.row-clear {
+.cms-insect-repellent-collection .row-clear {
   border-bottom: 1px solid #000;
   margin-bottom: 2%; }
-
-.hero-product {
+.cms-insect-repellent-collection .hero-product {
   padding: 1.3% 2%; }
-
-.row-5 a {
+.cms-insect-repellent-collection .row-5 a {
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -3729,42 +3715,33 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   margin-bottom: 6%;
   font-size: 16px;
   margin-top: 2%; }
-
-.row-paddingleft {
+.cms-insect-repellent-collection .row-paddingleft {
   padding-left: 1%; }
-
-.row-paddingright {
+.cms-insect-repellent-collection .row-paddingright {
   padding-right: 1%; }
-
-.section-clear {
+.cms-insect-repellent-collection .section-clear {
   border: 1px solid;
   margin-bottom: 4%; }
-
-.tech-padding {
+.cms-insect-repellent-collection .tech-padding {
   padding: 0 2.5%; }
-
-.hero_hover {
+.cms-insect-repellent-collection .hero_hover {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: none;
   position: relative; }
-
-.row-10.hero-irc:hover .hero_hover {
+.cms-insect-repellent-collection .row-10.hero-irc:hover .hero_hover {
   display: block; }
-
-.hero_hover a {
+.cms-insect-repellent-collection .hero_hover a {
   width: 100%;
   height: 100%;
   display: table;
   text-decoration: none; }
-
-.play-buttoncontainer {
+.cms-insect-repellent-collection .play-buttoncontainer {
   text-align: center;
   vertical-align: middle;
   display: table-cell; }
-
-.play-buttoncontainer span {
+.cms-insect-repellent-collection .play-buttoncontainer span {
   color: #fff;
   font-weight: bold;
   font-size: 18px;
@@ -3778,8 +3755,7 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   background: -moz-linear-gradient(top, #7f7f7f 1%, #494949 100%);
   background: -webkit-linear-gradient(top, #7f7f7f 1%, #494949 100%);
   background: linear-gradient(to bottom, #7f7f7f 1%, #494949 100%); }
-
-.play-buttoncontainer span p {
+.cms-insect-repellent-collection .play-buttoncontainer span p {
   width: 0px;
   border-top: 8px solid transparent;
   border-left: 12px solid #fff;
@@ -3787,66 +3763,49 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   margin: 0 auto;
   top: 17px;
   position: relative; }
-
-.hero-tech {
+.cms-insect-repellent-collection .hero-tech {
   position: absolute; }
-
-.hero-product ul li {
+.cms-insect-repellent-collection .hero-product ul li {
   list-style-type: none; }
-
-.hero-product ul {
+.cms-insect-repellent-collection .hero-product ul {
   margin-left: 3%; }
-
-.hero-product p:first-child,
-.tech-padding h3 {
+.cms-insect-repellent-collection .hero-product p:first-child,
+.cms-insect-repellent-collection .tech-padding h3 {
   font-size: 1.5em;
   margin-bottom: 2%; }
-
-.hero-info h1 {
+.cms-insect-repellent-collection .hero-info h1 {
   line-height: 1.5; }
-
-.row-3 a:hover,
-.row-5 a:hover {
+.cms-insect-repellent-collection .row-3 a:hover,
+.cms-insect-repellent-collection .row-5 a:hover {
   background: #000;
   color: #fff; }
-
-.hero-product li strong {
+.cms-insect-repellent-collection .hero-product li strong {
   font-size: 15px;
   text-transform: uppercase; }
 
 @media only screen and (max-width: 550px) {
-  .row-7 {
+  .cms-insect-repellent-collection .row-7 {
     width: 100%; }
-
-  .row-5 {
+  .cms-insect-repellent-collection .row-5 {
     width: 100%; }
-
-  .row-3 {
+  .cms-insect-repellent-collection .row-3 {
     width: 100%; }
-
-  .row-paddingleft,
-  .row-paddingright {
+  .cms-insect-repellent-collection .row-paddingleft,
+  .cms-insect-repellent-collection .row-paddingright {
     padding: 0; }
-
-  .hero_hover {
+  .cms-insect-repellent-collection .hero_hover {
     display: block; }
-
-  .hero-button a:last-child {
+  .cms-insect-repellent-collection .hero-button a:last-child {
     margin-bottom: 2%; }
-
-  .row-clear {
+  .cms-insect-repellent-collection .row-clear {
     margin: 3% 0; }
-
-  .hero-product p {
+  .cms-insect-repellent-collection .hero-product p {
     margin-top: 1%; }
-
-  .hero-product img {
+  .cms-insect-repellent-collection .hero-product img {
     width: 100% !important; }
-
-  .row-5 a {
+  .cms-insect-repellent-collection .row-5 a {
     margin-bottom: 2%; }
-
-  .row-paddingright a {
+  .cms-insect-repellent-collection .row-paddingright a {
     margin-bottom: 0; } }
 /* END */
 /* Mega Menu */
