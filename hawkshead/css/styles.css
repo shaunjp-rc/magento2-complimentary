@@ -2340,4 +2340,19 @@ a.c-product-size__size-guide-link:hover {
 .c-save-item:visited {
   color: #5f5f5e !important; }
 
+/* PDP styles */
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
+  width: 100% !important; }
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item {
+  margin-bottom: 18px;
+  background: #f7f7f7;
+  padding: 5px 25px;
+  margin: 5px;
+  display: inline-block; }
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item a {
+  text-decoration: none;
+  color: #343334; }
+
 /*# sourceMappingURL=styles.css.map */
