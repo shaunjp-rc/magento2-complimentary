@@ -146,7 +146,7 @@
   flex-grow: 1;
   flex-shrink: 1; }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1024px) {
   /* flex column styles */
   .flex-item.col-1 {
     width: 24.99%; }
@@ -1674,7 +1674,7 @@ html .s-main-menu .block {
 #homepage .gender-spots a:nth-child(2) {
   margin: 8px 0px;
   display: block; }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1024px) {
   #homepage .gender-spots > a {
     width: 32.6%;
     display: block;

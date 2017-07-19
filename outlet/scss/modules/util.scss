@@ -165,7 +165,7 @@
     flex-grow: 1;
     flex-shrink: 1;
 }
-@media screen and (max-width:990px) {
+@media screen and (max-width:1024px) {
 
     /* flex column styles */
     .flex-item.col-1 {
@@ -463,7 +463,7 @@
     overflow-y: scroll;
   }
 
-.basket-container-promo-block { 
+.basket-container-promo-block {
     position: relative;
 }
 
