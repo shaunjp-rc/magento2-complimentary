@@ -260,6 +260,21 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
   filter: invert(100%);
   float: right;
 }
+.no-banner-sub-links a{
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.no-banner-sub-links a:after{
+  content: ">";
+  display: inline-block;
+  margin-left: 10px;
+  transform: scale(1,1.4);
+  position: relative;
+  top: 2px;
+}
 @media only screen and (max-width:1227px) {
   .category-container.full .category-title {
     top: 10%;
