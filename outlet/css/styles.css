@@ -1218,6 +1218,15 @@ body .c-checkbox-option__checkbox {
 
   .mobile-footer-links .toggleMain + ul li a {
     color: #606060; } }
+/*//////////////////////////
+/* Category banner styles */
+/*////////////////////////*/
+.c-campaign .s-text-banner > div > h1 {
+  margin-bottom: 0px; }
+
+.c-campaign .s-text-banner > div > p {
+  margin-top: 0px; }
+
 .s-text-banner {
   padding: 0; }
 
