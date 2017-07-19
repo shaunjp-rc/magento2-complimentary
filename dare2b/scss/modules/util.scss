@@ -116,7 +116,7 @@ input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0
 .flex-item.col-11{width: 91.63%;}
 .flex-item.col-12{width: 100%;}
 .flex-item.auto{flex-grow: 1; flex-shrink: 1;}
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1024px){
 /* flex column styles */
 .flex-item.col-1{width: 24.99%;}
 .flex-item.col-2{width: 24.99%;}
