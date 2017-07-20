@@ -3660,6 +3660,9 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 .old-price .c-price__group {
   margin-top: 1%; }
 
+@media only screen and (max-width: 550px) {
+  .c-product-details .product-info-price {
+    top: 0; } }
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100% !important; }
@@ -3675,6 +3678,54 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   text-decoration: none;
   color: #343334; }
 
+.viewall-related {
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1; }
+
+/* END */
+/* Endcap Section */
+.column.main + .o-region__inner {
+  width: 100%;
+  background: #ebebeb;
+  padding: 15px 0; }
+
+.monetate-container.m2 {
+  margin: 0 auto;
+  max-width: 1228px; }
+
+.outfit-builder.endcap-container {
+  background: #fff; }
+
+.outfit-builder.endcap-container {
+  padding: 1% 0; }
+
+.endcap-container > div {
+  margin: 0 auto;
+  padding: 0.5% 0; }
+
+.mt_animate {
+  margin-left: 0px; }
+
+.endcap-container .mt_sliderTop {
+  margin: 1% 0; }
+
+.mt_sliderTop .mt_title {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #343334; }
+
+.endcap-container a {
+  color: #343334; }
+
+.mt_arrowContainer {
+  margin-top: -5%; }
+
+@media only screen and (max-width: 550px) {
+  .column.main + .o-region__inner {
+    padding: 0; } }
 /* END */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
