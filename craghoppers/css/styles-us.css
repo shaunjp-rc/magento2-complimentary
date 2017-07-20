@@ -3675,6 +3675,12 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   text-decoration: none;
   color: #343334; }
 
+.viewall-related {
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1; }
+
 /* END */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {

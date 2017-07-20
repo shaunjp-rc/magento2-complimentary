@@ -2341,6 +2341,7 @@ a.c-product-size__size-guide-link:hover {
   color: #5f5f5e !important; }
 
 /* PDP styles */
+/* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100% !important; }
 
@@ -2354,5 +2355,13 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .page-product-configurable .o-list-stacked--spaced .o-list-stacked__item a {
   text-decoration: none;
   color: #343334; }
+
+.viewall-related {
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1; }
+
+/* END */
 
 /*# sourceMappingURL=styles.css.map */
