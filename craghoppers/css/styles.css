@@ -4382,7 +4382,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 /* END */
 /* Endcap Section */
-.column.main + .o-region__inner {
+.column.main + .o-region__inner,
+.columns + .o-region__inner {
   width: 100%;
   background: #ebebeb;
   padding: 15px 0; }
