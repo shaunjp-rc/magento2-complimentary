@@ -2363,5 +2363,46 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   line-height: 1; }
 
 /* END */
+/* PDP Endcap Section */
+.columns .product.info + .o-region__inner {
+  width: 100%;
+  background: #ebebeb;
+  padding: 5px 0; }
+
+.monetate-container.m2 {
+  margin: 0 auto;
+  max-width: 1228px; }
+
+.endcap-container {
+  background: #fff;
+  margin-top: 1%; }
+
+.outfit-builder.endcap-container {
+  padding: 1% 0; }
+
+.endcap-container > div {
+  margin: 0 auto;
+  padding: 0.5% 0; }
+
+.mt_animate {
+  margin-left: 0px; }
+
+.endcap-container .mt_sliderTop {
+  margin: 1% 0; }
+
+.mt_sliderTop .mt_title {
+  font-size: 18px;
+  color: #5f5f5e; }
+
+.endcap-container a {
+  color: #5f5f5e; }
+
+.mt_arrowContainer {
+  margin-top: -5%; }
+
+@media only screen and (max-width: 550px) {
+  .columns .product.info + .o-region__inner {
+    padding: 0; } }
+/* END */
 
 /*# sourceMappingURL=styles.css.map */
