@@ -1,3 +1,12 @@
+#ui-id-12 {
+  background: #c20000;
+  color: #ffffff;
+}
+
+#ui-id-12.ui-state-focus:after, #ui-id-12.ui-state-focus:after {
+  display: none;
+}
+
 body .c-product-tile__btn{
   background: transparent;
   border: 2px solid #34af65;
@@ -55,7 +64,7 @@ body .c-product-tile__btn{
   padding: 4px;
 }
 
-body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{ 
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
   width: 100% !important;
 }
 .page-product-configurable{
