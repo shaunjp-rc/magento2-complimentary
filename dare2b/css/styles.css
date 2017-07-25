@@ -1043,6 +1043,15 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   box-shadow: 0px 3px 6px -5px #000000;
   display: block !important; }
 
+@media only screen and (max-width: 350px) {
+  .mon-badge {
+    z-index: 1;
+    font-size: 10px;
+    padding: 5px; }
+
+  .roundel {
+    max-width: 42px;
+    padding: 5px; } }
 /*//////////////////////////
 /* Footer Block Links
 /*/
