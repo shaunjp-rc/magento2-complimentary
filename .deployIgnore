@@ -1,3 +1,4 @@
 .gitignore
 Gruntfile.js
 README.md
+.deployIgnore
