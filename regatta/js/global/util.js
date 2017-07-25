@@ -203,6 +203,43 @@ function rlPop(options){
 	
 } // end rlPop()
 
+/*//////////// SEO Expand Behaviour ////////////*/
+
+function rlExpand(){
+
+  var banner;
+
+  if(document.getElementsByClassName("s-text-banner")[0].getElementsByTagName('div')[1]){
+    banner = document.getElementsByClassName("s-text-banner")[0].getElementsByTagName('div')[1];
+  }
+  if(document.getElementById('top-level-cat-banner-text')){
+    banner = document.getElementById('top-level-cat-banner-text');
+  }
+
+  var seoText = banner.getElementsByTagName('p')[0];
+  var readBtn = document.createElement("button");
+
+  if (seoText.textContent.length > 140) {
+    seoText.classList.add('active');
+
+    // add button to DOM
+    readBtn.innerHTML = 'Read More';
+    banner.insertBefore(readBtn, seoText.nextSibling);
+
+    // add click events
+    readBtn.onclick = function(){
+      if(seoText.classList.contains('active')){
+        readBtn.innerHTML = 'Read Less';
+        seoText.classList.remove('active');
+      } else {
+        readBtn.innerHTML = 'Read More';
+        seoText.classList.add('active');
+      }
+    };
+
+  }
+ 
+} // end rlExpand()
 
 /*//////////// jQuery toggleClass ////////////*/
 
