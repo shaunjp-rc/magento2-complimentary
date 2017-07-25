@@ -1110,6 +1110,27 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   color: #8c8c8c;
   text-decoration: none; }
 
+/****************************
+/* Fred Hopper Toggle Styles
+/***************************/
+.s-text-banner div > p {
+  overflow: hidden;
+  display: block; }
+
+.s-text-banner div > p.active {
+  max-height: 50px; }
+
+.s-text-banner button {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  background: #ddd;
+  padding: 6px; }
+
+@media only screen and (min-width: 660px) {
+  .s-text-banner button {
+    display: none; } }
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
