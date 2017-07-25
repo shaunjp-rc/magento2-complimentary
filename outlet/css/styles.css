@@ -292,6 +292,19 @@
 
   .flex-item.col-12 {
     width: 100%; } }
+/********************************
+/* Product Page Size Table Styles
+/*******************************/
+.js-size-guide-modal td {
+  background: #f9f9f9;
+  border: solid 1px #e0e0e0;
+  text-transform: uppercase;
+  padding: 10px; }
+
+.js-size-guide-modal .table-heading > td {
+  background: #e0e0e0;
+  height: 50px; }
+
 /****************************
 /* Toggle Action Styles
 /***************************/
