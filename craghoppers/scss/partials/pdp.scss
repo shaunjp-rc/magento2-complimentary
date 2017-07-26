@@ -156,3 +156,66 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 }
 
 /* END */
+
+/* PDP Buying Guide */
+.page-product-configurable{
+
+	.fitGuideDiagrams__block {
+	    width: 29%;
+	    float: left;
+	    margin: 0 6% 2% 0;
+	    text-align: center;
+	}
+
+	.fitGuideDiagrams__block img {
+	    width: 100%;
+	    max-width: 318px;
+	}
+
+	.fitGuideDiagrams__fitTitle, .fitGuideDiagrams__fitDesc {
+	    text-align: left;
+	}
+
+	.imgcontainer {
+		position: absolute;
+		margin-top: -12%;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.4);
+		text-align: left;
+	}
+
+	.buyingguideContainer {
+    	position: relative;
+	}
+
+	.fitGuideDiagrams__block:last-child {
+    	margin-right: 0;
+	}
+
+	.imgcontainer span {
+	    width: 50%;
+	    float: left;
+	    text-align: center;
+	}
+
+	.imgcontainer span:hover {
+	    text-decoration: underline;
+	} 
+
+}
+
+@media only screen and (max-width:550px){
+.page-product-configurable{
+	.imgcontainer{
+		padding: 5px 0;
+	}
+
+	.fitGuideDiagrams__block {
+    	width: 100%;
+	}
+
+}
+
+}
+
+/* END */

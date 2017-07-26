@@ -3729,6 +3729,40 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .column.main + .o-region__inner {
     padding: 0; } }
 /* END */
+/* PDP Buying Guide */
+.page-product-configurable .fitGuideDiagrams__block {
+  width: 29%;
+  float: left;
+  margin: 0 6% 2% 0;
+  text-align: center; }
+.page-product-configurable .fitGuideDiagrams__block img {
+  width: 100%;
+  max-width: 318px; }
+.page-product-configurable .fitGuideDiagrams__fitTitle, .page-product-configurable .fitGuideDiagrams__fitDesc {
+  text-align: left; }
+.page-product-configurable .imgcontainer {
+  position: absolute;
+  margin-top: -12%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: left; }
+.page-product-configurable .buyingguideContainer {
+  position: relative; }
+.page-product-configurable .fitGuideDiagrams__block:last-child {
+  margin-right: 0; }
+.page-product-configurable .imgcontainer span {
+  width: 50%;
+  float: left;
+  text-align: center; }
+.page-product-configurable .imgcontainer span:hover {
+  text-decoration: underline; }
+
+@media only screen and (max-width: 550px) {
+  .page-product-configurable .imgcontainer {
+    padding: 5px 0; }
+  .page-product-configurable .fitGuideDiagrams__block {
+    width: 100%; } }
+/* END */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
   display: inline-block;
