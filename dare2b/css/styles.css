@@ -680,6 +680,15 @@
   display: block; }
 
 /****************************
+/* Misc
+/***************************/
+.c-icon--extra {
+  width: 20px; }
+
+@media only screen and (max-width: 660px) {
+  .c-icon--extra {
+    width: 30px; } }
+/****************************
 /* Monetate - Endcaps
 /***************************/
 .page-product-configurable .monetate-product-relationships-one, .page-product-configurable .monetate-product-relationships-two {
