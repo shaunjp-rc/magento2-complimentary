@@ -442,7 +442,18 @@
     width: 100%;
   }
 }
+/****************************
+/* Misc
+/***************************/
+.c-icon--extra{
+  width: 20px;
+}
+@media only screen and (max-width: 660px) {
+  .c-icon--extra{
+    width: 30px;
+  }
 
+}
 
 /****************************
 /* Monetate - Endcaps
