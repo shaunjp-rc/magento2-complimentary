@@ -39,3 +39,30 @@
 .c-save-item:visited {
 	color: #5f5f5e !important;
 }
+/* Mobile SEO show/hide */
+.catalog-category-view{
+  .banner__text + button {
+    display:none;
+  }
+
+}
+
+@media only screen and (max-width:550px){
+  .catalog-category-view{
+    .banner__text.active {
+        overflow: hidden;
+        max-height: 50px;
+    }
+
+    .banner__text + button {
+        display:block;
+        background: #769fd0;
+        border: 0;
+        color: #fff;
+        padding: 3px 20px;
+    }
+
+  }
+
+}
+/* END */
