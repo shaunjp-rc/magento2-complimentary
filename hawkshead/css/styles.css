@@ -2353,7 +2353,8 @@ a.c-product-size__size-guide-link:hover {
     background: #769fd0;
     border: 0;
     color: #fff;
-    padding: 3px 20px; } }
+    padding: 3px 20px;
+    margin: 0 auto; } }
 /* END */
 /* PDP styles */
 /* Related Categories */
