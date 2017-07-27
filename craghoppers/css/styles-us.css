@@ -3609,6 +3609,25 @@ p.pl-text-social {
 @media only screen and (max-width: 500px) {
   .s-text-banner {
     margin-top: 5%; } }
+/* Mobile SEO show/hide */
+.category-view__description + button {
+  display: none; }
+
+@media only screen and (max-width: 550px) {
+  .category-view__description.active {
+    overflow: hidden;
+    max-height: 36px; }
+
+  .category-view__description + button {
+    border: 0;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    background: #343334;
+    padding: 1% 6%;
+    color: #fff;
+    cursor: pointer; } }
+/* END */
 .c-product-size__link {
   font-weight: normal; }
 
