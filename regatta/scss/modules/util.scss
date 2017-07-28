@@ -449,14 +449,14 @@
   width: 20px;
 }
 .mobile-only {
-  display: none;
+  display: none !important;
 }
 @media only screen and (max-width: 660px) {
   .c-icon--extra{
     width: 30px;
   }
   .mobile-only {
-    display: block;
+    display: block !important;
   }
 }
 
