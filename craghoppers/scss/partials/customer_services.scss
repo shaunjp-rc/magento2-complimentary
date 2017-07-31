@@ -621,7 +621,7 @@ ul.delret-list {
 	color: #000;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 5% 0;
+	padding: 3% 0 5% 0;
 }
 
 .modern-slavery-left {
@@ -646,7 +646,7 @@ ul.delret-list {
 	padding: 15px 20px 15px 20px;
 	text-decoration: none;
 	text-transform: uppercase;
-	width: 190px;
+	width: 230px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -656,10 +656,18 @@ ul.delret-list {
 	text-decoration: none;
 }
 
+.modern-slavery-btn a, a:active, a:focus, a:hover, a:visited {
+	text-decoration: none;
+}
+
 .modern-slavery-img {
 	float: left;
 	width: 57%;
 	padding: 0 3% 0 0;
+}
+
+.modern-slavery-clear {
+	clear: both;
 }
 
 @media only screen and (max-width:800px) {
