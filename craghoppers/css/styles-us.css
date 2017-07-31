@@ -722,7 +722,8 @@ a.c-store-list__details {
   position: relative; }
 
 .flexslider .slides li {
-  position: relative; }
+  position: relative;
+  list-style-type: none; }
 
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flexslider-container {

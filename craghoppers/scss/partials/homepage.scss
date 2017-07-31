@@ -8,7 +8,10 @@
 /* Slider */
 
 .flexslider {background: #fff; /*border-bottom: 9px solid #444; border-top: 9px solid #444;*/ position: relative; }
-.flexslider .slides  li {position: relative;}
+.flexslider .slides  li {
+  position: relative; 
+  list-style-type: none;
+}
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flexslider-container {position: relative;}
 
