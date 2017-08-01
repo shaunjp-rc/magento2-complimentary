@@ -276,6 +276,14 @@ body .c-checkbox-option__checkbox{
 /*   Footer Block Links   */
 /*////////////////////////*/
 
+.c-feefo p, .c-feefo h4, .c-feefo h5{
+  color: #fff;
+}
+
+.c-footer__links a[onclick]{
+  text-decoration:none;
+}
+
 
 .page-product-configurable #basket-promo {
   font-size: 15px;

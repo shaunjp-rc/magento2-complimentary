@@ -144,6 +144,14 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
   font-size: 15px;
 }
 
+.c-feefo p, .c-feefo h4, .c-feefo h5{
+  color: #fff;
+}
+
+.c-footer__links a[onclick]{
+  text-decoration:none;
+}
+
 @media only screen and (max-width: 739px) {
   .mobile-footer-links h4::before {
       content: "+";
