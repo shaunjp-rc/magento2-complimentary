@@ -1217,7 +1217,10 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     display: none; }
 
   .s-text-banner div > p.active {
-    max-height: initial; } }
+    max-height: initial; }
+
+  #top-level-cat-banner-text {
+    padding-top: 0 !important; } }
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
