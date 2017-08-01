@@ -67,3 +67,34 @@
 
 }
 /* END */
+
+/* Roundals */
+#monVars { position: relative;}
+.roundel {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background: #F93E49;
+    max-width: 53px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 30px;
+    color: #ffffff;
+    display:block !important;
+}
+
+#product-roundel.percent-off{
+    background: #F93E49;
+    max-width: 53px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 30px;
+    color: #ffffff;
+    display: block !important;
+    float: right;
+}
+/* END */
