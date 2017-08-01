@@ -12,7 +12,7 @@ function rlBadge(){
 
   // product listing page
   if(document.querySelectorAll(query).length && document.querySelectorAll('.catalog-category-view').length){
-    Array.from(document.querySelectorAll(query)).forEach((item) => {
+    Array.from(document.querySelectorAll(query)).forEach(function(item){
       if(item.value.length){
         var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
         item.parentNode.innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>"
@@ -24,7 +24,7 @@ function rlBadge(){
   var query = "[name='monVar_promotion']";
 
   if(document.querySelectorAll(query).length){
-    Array.from(document.querySelectorAll(query)).forEach((item) => {
+    Array.from(document.querySelectorAll(query)).forEach(function(item){
       if(item.value.length){
         var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
         if(document.querySelector('.gallery-placeholder')){
@@ -41,13 +41,13 @@ function rlPromo(){
   var query = "#monVars_price_saving_percent";
 
   // product listing page
-  Array.from(document.querySelectorAll('.c-product-details')).forEach((item) => {
+  Array.from(document.querySelectorAll('.c-product-details')).forEach(function(item){
     var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
     if(value) document.querySelector(".product-info-stock-sku").innerHTML += "<span class='save__product-page' style='display:none;'>Save " + value + "%</span>";
   });
 
   // product details page
-  Array.from(document.querySelectorAll('.c-product-tile__badge-content #monVars')).forEach((item) => {
+  Array.from(document.querySelectorAll('.c-product-tile__badge-content #monVars')).forEach(function(item){
     var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
     if(value) item.innerHTML += "<div class='roundel' style='display:none;'>Save " + value + "%</div>";
   });
