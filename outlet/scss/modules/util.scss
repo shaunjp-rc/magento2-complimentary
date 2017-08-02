@@ -6,9 +6,37 @@
 .mob-only {
     display: none !important;
 }
+
+/****************************
+/* Media Query Mixins
+/***************************/
+
+$small-mobile: 450px;
+$large-mobile: 740px;
+$tablet-width: 1024px;
+
+@mixin small-mobile {
+  @media (max-width: #{$small-mobile}) {
+    @content;
+  }
+}
+
+@mixin large-mobile {
+  @media (max-width: #{$large-mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
 /****************************
 /* Badge Styles
 /***************************/
+
 .mon-badge {
     background: #e0e0e0;
     color: #000000;
@@ -32,6 +60,7 @@
     padding: 5px;
   }
 }
+
 /****************************
 /* Image Styles
 /***************************/

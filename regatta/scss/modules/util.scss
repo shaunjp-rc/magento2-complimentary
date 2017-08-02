@@ -4,6 +4,32 @@
 /**************************************************/
 
 /****************************
+/* Media Query Mixins
+/***************************/
+
+$small-mobile: 450px;
+$large-mobile: 740px;
+$tablet-width: 1024px;
+
+@mixin small-mobile {
+  @media (max-width: #{$small-mobile}) {
+    @content;
+  }
+}
+
+@mixin large-mobile {
+  @media (max-width: #{$large-mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+/****************************
 /* Image Styles
 /***************************/
 
