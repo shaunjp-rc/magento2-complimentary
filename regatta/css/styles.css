@@ -1459,6 +1459,132 @@ html .s-main-menu .block {
   .s-main-menu .categories > li h3 a:before {
     top: 6px; } }
 /*//////////////////////////
+/* Lacing Guide Page */
+/*////////////////////////*/
+#lacing-guide .flex-container {
+  background: #06e7d7; }
+#lacing-guide .flex-item h1, #lacing-guide .flex-item h2, #lacing-guide .flex-item span, #lacing-guide .flex-item {
+  text-align: center; }
+#lacing-guide .flex-item h1 {
+  color: #ffffff; }
+#lacing-guide .flex-item span {
+  min-height: 80px;
+  display: block; }
+#lacing-guide .col-3, #lacing-guide .col-4 {
+  background: #e7f8f7;
+  border: solid 5px #ffffff; }
+#lacing-guide .col-4 .boot {
+  max-height: 500px;
+  margin: 10px; }
+#lacing-guide .col-12 div {
+  background: #102423;
+  height: 100%; }
+#lacing-guide .col-12 .las-boot {
+  max-width: 50%;
+  float: left;
+  padding: 0px 0px 40px 70px; }
+#lacing-guide .col-12 div h2 {
+  float: right;
+  width: 100%;
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 70px;
+  position: relative;
+  z-index: 1;
+  padding-left: 20%; }
+#lacing-guide .col-12.all {
+  background: #082523; }
+#lacing-guide .col-12.all img {
+  max-width: 50%;
+  float: left; }
+#lacing-guide .col-12.all h2 {
+  padding-top: 4%;
+  color: #ffffff;
+  font-size: 40px;
+  height: 0px;
+  padding-bottom: 30px; }
+#lacing-guide .col-12.all h2:nth-child(3) {
+  padding-top: 0px;
+  padding-bottom: 50px; }
+#lacing-guide .las-boot + div {
+  padding-top: 5%; }
+#lacing-guide .final {
+  background: #e4f8f7; }
+#lacing-guide .button {
+  display: table;
+  margin: auto;
+  padding: 10px 30px;
+  background: #c0283f;
+  color: #ffffff; }
+#lacing-guide .all > a {
+  text-decoration: none; }
+#lacing-guide .col-12 div {
+  position: relative;
+  display: table;
+  background-image: url(https://cdn.regatta.com/img/ss17/uk/page/laces-guide/lines.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain; }
+#lacing-guide .col-12 div .lines {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  max-width: 200px; }
+#lacing-guide .col-12 span {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  width: 70%;
+  float: right;
+  right: 20px; }
+#lacing-guide .boot {
+  max-width: 80%; }
+@media screen and (max-width: 1024px) {
+  #lacing-guide .flex-item.col-3 {
+    width: 34.99% !important; }
+  #lacing-guide h2 {
+    font-size: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important; }
+  #lacing-guide .col-12.all h2:nth-child(3) {
+    margin-top: -10px;
+    padding-top: 0px !important;
+    padding-bottom: 20px !important; }
+  #lacing-guide .col-12 div h2 {
+    max-width: 100% !important; } }
+@media screen and (max-width: 740px) {
+  #lacing-guide .flex-item.col-3 {
+    width: 100% !important; }
+  #lacing-guide .all * {
+    width: 100% !important;
+    max-width: 100% !important; }
+  #lacing-guide .all h2 {
+    margin: auto !important;
+    float: left;
+    padding: 20px !important; }
+  #lacing-guide .col-12.all h2:nth-child(3) {
+    height: 50px; }
+  #lacing-guide .las-boot {
+    max-width: 100% !important; }
+  #lacing-guide .las-boot + div {
+    background-image: none; }
+  #lacing-guide .col-12 div h2 {
+    padding: 0px; }
+  #lacing-guide .col-12 span {
+    width: 90%;
+    right: 5%; } }
+@media screen and (min-width: 740px) {
+  #lacing-guide .c-page-wrapper {
+    background-image: url(https://cdn.regatta.com/img/ss17/uk/page/laces-guide/1920.jpg);
+    background-size: contain; }
+  #lacing-guide .breadcrumbs {
+    display: none; } }
+
+@media screen and (min-width: 740px) {
+  #lacing-guide {
+    margin-top: -30px; } }
+/*//////////////////////////
 /* Contact Us page */
 /*////////////////////////*/
 #contact-page .popup {
