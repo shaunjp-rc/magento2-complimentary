@@ -151,6 +151,7 @@
       right: 5%;
     }
   }
+}
   @media screen and (min-width:740px) {
     .c-page-wrapper {
       background-image: url(https://cdn.regatta.com/img/ss17/uk/page/laces-guide/1920.jpg);
@@ -159,13 +160,10 @@
     .breadcrumbs {
       display: none;
     }
-
-  }
-}
-  @media screen and (min-width:740px) {
     #lacing-guide {
       margin-top: -30px;
     }
+
   }
 
 /*//////////////////////////
