@@ -1577,14 +1577,15 @@ html .s-main-menu .block {
   #lacing-guide .col-12 span {
     width: 90%;
     right: 5%; } }
-@media screen and (min-width: 740px) {
-  #lacing-guide .c-page-wrapper {
-    background-image: url(https://cdn.regatta.com/img/ss17/uk/page/laces-guide/1920.jpg);
-    background-size: contain; }
-  #lacing-guide .breadcrumbs {
-    display: none; } }
 
 @media screen and (min-width: 740px) {
+  .c-page-wrapper {
+    background-image: url(https://cdn.regatta.com/img/ss17/uk/page/laces-guide/1920.jpg);
+    background-size: contain; }
+
+  .breadcrumbs {
+    display: none; }
+
   #lacing-guide {
     margin-top: -30px; } }
 /*//////////////////////////
