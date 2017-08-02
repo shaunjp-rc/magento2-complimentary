@@ -621,6 +621,25 @@ tr.headerrow,
   clear: both; }
 
 /* END */
+/* Current Fonts */
+@font-face {
+  font-family: 'CaveatBold';
+  src: url(https://cdn.hawkshead.com/fonts/caveat/Caveat-Bold.ttf); }
+@font-face {
+  font-family: 'CaveatRegular';
+  src: url(https://cdn.hawkshead.com/fonts/caveat/Caveat-Regular.ttf); }
+@font-face {
+  font-family: 'CormorantBold';
+  src: url(https://cdn.hawkshead.com/fonts/cormorant/CormorantGaramond-Bold.ttf); }
+@font-face {
+  font-family: 'CormorantRegular';
+  src: url(https://cdn.hawkshead.com/fonts/cormorant/CormorantGaramond-Regular.ttf); }
+@font-face {
+  font-family: 'FirasansBold';
+  src: url(https://cdn.hawkshead.com/fonts/firasans/FiraSans-Bold.ttf); }
+@font-face {
+  font-family: 'FirasansRegular';
+  src: url(https://cdn.hawkshead.com/fonts/firasans/FiraSans-Regular.ttf); }
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
