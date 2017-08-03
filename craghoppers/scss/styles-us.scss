@@ -2,12 +2,11 @@
 
 // For importing partials only... no Sass in here
 
-
+//utility styles
+@import 'modules/util';
 
 // Generic Stuff
 @import 'partials/cms-page-generic';
-
-
 
 // Specific Stuff
 @import 'partials/homepage';
@@ -24,6 +23,5 @@
 
 // Crags US styles only
 @import 'partials/us-styles';
-
 @import 'partials/mega_menu';
 
