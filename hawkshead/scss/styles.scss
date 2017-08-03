@@ -2,13 +2,11 @@
 
 // For importing partials only... no Sass in here
 
-
+@import 'modules/util';
 
 // Generic Stuff
 @import 'partials/cms-page-generic';
 @import 'partials/fonts';
-
-
 
 // Specific Stuff
 @import 'partials/homepage';
