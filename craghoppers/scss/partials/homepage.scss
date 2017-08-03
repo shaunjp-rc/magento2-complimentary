@@ -15,6 +15,9 @@
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flexslider-container {position: relative;}
 
+li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
+    display: none;
+}
 
 /* Caption style */
 .flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: url("../images/trans-03-16px.png") repeat; color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 15px; line-height: 18px;}
