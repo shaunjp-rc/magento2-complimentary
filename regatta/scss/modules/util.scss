@@ -24,7 +24,7 @@ $tablet-width: 1024px;
 }
 
 @mixin tablet {
-  @media (min-width: #{$tablet-width}) {
+  @media (max-width: #{$tablet-width}) {
     @content;
   }
 }
