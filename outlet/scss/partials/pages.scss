@@ -58,20 +58,6 @@
   }
 }
 
-/* mixin test */
-
-#faq .icon > img{
-  width:32px;
-  @include tablet {
-    width: 40px;
-  }
-  @include large-mobile {
-    width: 35px;
-  }
-  @include small-mobile {
-    width: 30px;
-  }
-}
 
 /*//////////////////////////
 /* Contact Us */

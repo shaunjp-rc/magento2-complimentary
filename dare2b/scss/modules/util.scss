@@ -11,13 +11,13 @@ $small-mobile: 450px;
 $large-mobile: 740px;
 $tablet-width: 1024px;
 
-@mixin small-mobile {
+@mixin smallmobile {
   @media (max-width: #{$small-mobile}) {
     @content;
   }
 }
 
-@mixin large-mobile {
+@mixin largemobile {
   @media (max-width: #{$large-mobile}) {
     @content;
   }
