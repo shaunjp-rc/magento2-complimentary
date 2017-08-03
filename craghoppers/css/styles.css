@@ -1210,6 +1210,9 @@ a.c-store-list__details {
 .flexslider-container {
   position: relative; }
 
+li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
+  display: none; }
+
 /* Caption style */
 .flex-caption {
   width: 96%;
