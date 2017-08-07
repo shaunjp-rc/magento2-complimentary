@@ -2267,9 +2267,9 @@ ul.delret-list {
 /* Modern SLavery Page */
 .modern-slavery-title {
   font-size: 300%;
-  font-family: Georgia, Times;
+  font-family: poppins,sans-serif;
+  font-weight: bold;
   color: #000;
-  text-transform: uppercase;
   text-align: center;
   padding: 3% 0 5% 0; }
 
@@ -2282,11 +2282,11 @@ ul.delret-list {
   font-size: 14px;
   line-height: 19px;
   color: #000;
-  font-family: Arial;
+  font-family: poppins,sans-serif;
   padding-bottom: 8%; }
 
 .modern-slavery-btn {
-  font-family: Arial;
+  font-family: poppins,sans-serif;
   color: #ffffff;
   font-size: 16px;
   background: #769fd0;
