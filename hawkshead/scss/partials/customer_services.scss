@@ -377,6 +377,82 @@ ul.delret-list {
 }
 /* END */
 
+/* Modern SLavery Page */
+
+.modern-slavery-title {
+    font-size: 300%; 
+    font-family: Georgia, Times;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3% 0 5% 0;
+}
+
+.modern-slavery-left {
+    float: left;
+    width: 34%;
+    padding: 0 3%;
+}
+
+.modern-slavery-copy {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    font-family: Arial;
+    padding-bottom: 8%;
+}
+
+.modern-slavery-btn {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #769fd0;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modern-slavery-btn:hover {
+    background: #6587af;
+}
+
+a:link, a:visited, a:hover, a:active .modern-slavery-btn {
+    text-decoration: none;
+}
+
+.modern-slavery-img {
+    float: left;
+    width: 57%;
+    padding: 0 3% 0 0;
+}
+
+.modern-slavery-clear {
+    clear: both;
+}
+
+@media only screen and (max-width:800px) {
+    .modern-slavery-title {
+        font-size: 200%;
+    }
+
+    .modern-slavery-left {
+        float: none;
+        width: 96%;
+        padding: 0 2%;
+    }
+
+    .modern-slavery-img {
+        float: none;
+        width: 96%;
+        padding: 5% 2% 0 2%;
+    }
+}
+
+/* END */
+
 /* Unsubscribe form */
 iframe.unsubscribe {
     border: 0;
