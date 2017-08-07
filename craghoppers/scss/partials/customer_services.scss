@@ -653,11 +653,10 @@ ul.delret-list {
 
 .modern-slavery-btn:hover {
 	background: #727c85;
-	text-decoration: none;
 }
 
-.modern-slavery-link {
-	text-decoration: none;
+a:link, a:visited, a:hover, a:active .modern-slavery-btn {
+    text-decoration: none;
 }
 
 .modern-slavery-img {

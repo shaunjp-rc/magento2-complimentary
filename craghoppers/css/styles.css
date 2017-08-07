@@ -2404,10 +2404,9 @@ ul.delret-list {
   font-weight: bold; }
 
 .modern-slavery-btn:hover {
-  background: #727c85;
-  text-decoration: none; }
+  background: #727c85; }
 
-.modern-slavery-link {
+a:link, a:visited, a:hover, a:active .modern-slavery-btn {
   text-decoration: none; }
 
 .modern-slavery-img {
