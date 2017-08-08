@@ -660,6 +660,49 @@
   }
 }
 
+/* New Swipe Banner Styles */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swipe .single-slide ul.slide-buttons{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  list-style-type: none;
+  text-align: center;
+  @include tablet {
+    display: none;
+  }
+}
+
+.swipe .single-slide ul.slide-buttons li a{
+  padding: 10px;
+  display: block;
+  width: 140px;
+  background: #111;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
 
 /*//////////////////////////
 /* Fabrics Page */
