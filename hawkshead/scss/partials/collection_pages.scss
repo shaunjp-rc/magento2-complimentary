@@ -109,7 +109,7 @@ section.collection.collection__background h2 {
 
 .collection__button--bottom {
 	margin: 0 auto;
-	width: 30%;
+	width: 45%;
 	padding: 0.7% 0;
 	font-weight: bold;
 	font-size: 16px;
@@ -194,6 +194,25 @@ section.collection.collection__background h2 {
 	padding-bottom: 2%;
 }
 
+.collection-lower-seo {
+    margin-top: 1.5%;
+}
+
+.collection__background strong {
+    text-align: center;
+    margin: 3% 0;
+    font-size: 22px;
+    width: 100%;
+    float: left;
+}
+
+.collection__highlight--info strong {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: none;
+    text-align: left;
+}
+
 @media only screen and (max-width:768px) {
 	.collection__wrapper {
 		display: -webkit-box;
@@ -245,3 +264,4 @@ section.collection.collection__background h2 {
     }
 
 }
+
