@@ -2,6 +2,7 @@ $green: #a0aa2f;
 
 .collection__wrapper {
 	display: inline-block;
+	width:100%;
 }
 
 .collection {
@@ -213,6 +214,13 @@ section.collection.collection__background h2 {
     text-align: left;
 }
 
+@media only screen and (max-width:989px) {
+	.collection__product-img img {
+	    width: 100%;
+	}
+
+}
+
 @media only screen and (max-width:768px) {
 	.collection__wrapper {
 		display: -webkit-box;
@@ -244,7 +252,6 @@ section.collection.collection__background h2 {
         display: block;
         float: none;
         margin: 0 auto;
-        width: auto;
         margin-bottom: 4%;
     }
 
