@@ -4401,9 +4401,9 @@ p.pl-text-social {
 .c-icon--quantity-minus {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/minus.svg) !important; }
 
-@media only screen and (max-width: 770px) {
-  .c-qty__input {
-    width: 60px; } }
+.c-qty__input {
+  width: 60px; }
+
 .c-rating__reviews,
 .c-rating__reviews:active,
 .c-rating__reviews:focus,
