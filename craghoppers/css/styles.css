@@ -2680,6 +2680,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 .pageSection--pageTopJustHeading {
   margin-bottom: 0; }
 
+.pageSection--pageTop h1,
 .pageSection--pageTop h2 {
   color: #666 !important;
   font-family: Georgia, Times, serif;
@@ -2688,15 +2689,18 @@ body[class*="cms-lookbook"] .breadcrumbs {
   font-weight: 400;
   margin-bottom: 1.2em; }
 
+.pageSection--pageTop h1 span,
 .pageSection--pageTop h2 span {
   display: block;
   text-transform: uppercase;
   font-size: 1.3em; }
 
 @media screen and (max-width: 420px) {
+  .pageSection--pageTop h1,
   .pageSection--pageTop h2 {
     font-size: 2em; }
 
+  .pageSection--pageTop h1 span,
   .pageSection--pageTop h2 span {
     font-size: 1.2em; } }
 h2.pageSection--pageTop__justHeading {
