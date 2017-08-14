@@ -4548,15 +4548,15 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* UTC Fonts */
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
 @font-face {
   font-family: 'Montserrat-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
 
 /*# sourceMappingURL=styles.css.map */
