@@ -4339,6 +4339,19 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
 /* END */
+/* UTC Fonts */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.ttf); }
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.ttf); }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.ttf); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.ttf); }
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
   display: inline-block;

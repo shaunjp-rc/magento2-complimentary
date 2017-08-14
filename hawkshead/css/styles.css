@@ -1104,23 +1104,14 @@ tr.headerrow,
 /* END */
 /* Current Fonts */
 @font-face {
-  font-family: 'CaveatBold';
-  src: url(https://cdn.hawkshead.com/fonts/caveat/Caveat-Bold.ttf); }
+  font-family: 'Lato-Regular';
+  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Regular.ttf); }
 @font-face {
-  font-family: 'CaveatRegular';
-  src: url(https://cdn.hawkshead.com/fonts/caveat/Caveat-Regular.ttf); }
+  font-family: 'Lato-Bold';
+  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Bold.ttf); }
 @font-face {
-  font-family: 'CormorantBold';
-  src: url(https://cdn.hawkshead.com/fonts/cormorant/CormorantGaramond-Bold.ttf); }
-@font-face {
-  font-family: 'CormorantRegular';
-  src: url(https://cdn.hawkshead.com/fonts/cormorant/CormorantGaramond-Regular.ttf); }
-@font-face {
-  font-family: 'FirasansBold';
-  src: url(https://cdn.hawkshead.com/fonts/firasans/FiraSans-Bold.ttf); }
-@font-face {
-  font-family: 'FirasansRegular';
-  src: url(https://cdn.hawkshead.com/fonts/firasans/FiraSans-Regular.ttf); }
+  font-family: 'Lato-Light';
+  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Light.ttf); }
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
