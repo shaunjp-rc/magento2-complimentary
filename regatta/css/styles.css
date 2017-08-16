@@ -910,6 +910,15 @@ html .mt_animate {
 
 /* Partials */
 /*/////////////////////////*/
+/*    Navigation Style     */
+/*/////////////////////////*/
+.s-main-menu {
+  background: #ffffff !important; }
+
+#ui-id-10 {
+  color: #e4cc44 !important; }
+
+/*/////////////////////////*/
 /* Moved colours available */
 /*/////////////////////////*/
 .c-product-tile__img-wrapper .c-product-tile__item-extra-info {
