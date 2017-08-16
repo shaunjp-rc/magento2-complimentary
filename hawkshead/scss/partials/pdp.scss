@@ -95,3 +95,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     display: block !important;
 }
 /* END */
+
+/* Hides any blocks that are empty */
+.endcap-container:empty {
+    display: none;
+}
+/* END */
