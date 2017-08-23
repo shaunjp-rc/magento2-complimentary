@@ -1,7 +1,11 @@
 .utc{
 	font-family:$montreg;
 }
-.cms-utc-journey #content .columns .o-region__inner {
+.cms-utc-journey #content .columns .o-region__inner,
+.cms-utc-story #content .columns .o-region__inner,
+.cms-utc-technologies #content .columns .o-region__inner,
+.cms-utc-mens #content .columns .o-region__inner,
+.cms-utc-womens #content .columns .o-region__inner {
     width: 100%;
 } 
 
