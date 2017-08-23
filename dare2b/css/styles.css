@@ -1320,6 +1320,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
   .no-banner-sub-links a {
     margin: 0px 10px; } }
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+  display: none; }
+
+/* END */
 /* Mega menu styles Desktop and Tablet */
 .mob-only {
   display: none !important; }

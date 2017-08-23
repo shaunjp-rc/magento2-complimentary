@@ -1236,6 +1236,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
   #top-level-cat-banner-text {
     padding-top: 0 !important; } }
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+  display: none; }
+
+/* END */
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
