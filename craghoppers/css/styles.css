@@ -4572,7 +4572,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
 
-.cms-utc-journey #content .columns .o-region__inner {
+.cms-utc-journey #content .columns .o-region__inner,
+.cms-utc-story #content .columns .o-region__inner,
+.cms-utc-technologies #content .columns .o-region__inner,
+.cms-utc-mens #content .columns .o-region__inner,
+.cms-utc-womens #content .columns .o-region__inner {
   width: 100%; }
 
 /* UTC Header */
