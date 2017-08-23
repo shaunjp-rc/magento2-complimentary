@@ -4750,7 +4750,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Reversible.jpg); }
 
 .utc-lowerhero {
-  padding: 2%; }
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .utc-techsection p {
   margin: 0; }
