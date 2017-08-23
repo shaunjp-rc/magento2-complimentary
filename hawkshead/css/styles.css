@@ -1102,6 +1102,11 @@ tr.headerrow,
   clear: both; }
 
 /* END */
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+  display: none; }
+
+/* END */
 /* Current Fonts */
 @font-face {
   font-family: 'Lato-Regular';

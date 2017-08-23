@@ -1193,6 +1193,11 @@ a.c-store-list__details {
   top: 57px; }
 
 /* END */
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+  display: none; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
