@@ -912,6 +912,9 @@ html .mt_animate {
 /*/////////////////////////*/
 /*    Navigation Style     */
 /*/////////////////////////*/
+#header .sale.ui-menu-item > a {
+  background: #c1011a !important; }
+
 .s-main-menu {
   background: #ffffff !important; }
 
@@ -1473,6 +1476,9 @@ html .s-main-menu .block {
 /*//////////////////////////
 /* Lacing Guide Page */
 /*////////////////////////*/
+.cms-lacing-guide .c-breadcrumbs {
+  display: none; }
+
 #lacing-guide .flex-container {
   background: #06e7d7; }
 #lacing-guide .flex-item h1, #lacing-guide .flex-item h2, #lacing-guide .flex-item span, #lacing-guide .flex-item {
