@@ -443,12 +443,13 @@
     height: 7px;
     max-width: 223px;
     border-radius: 10px;
+    margin: 4% 0 1% 0;
 }
 
 .utc-story-title {
 	color: #000;
-	font-family: Montserrat-Regular;
-	font-size: 200%;
+	font-family: $montbold;
+	font-size: 28px;
 	letter-spacing: 5px;
 	padding: 2% 0 1% 0;
 	text-transform: uppercase;
@@ -456,7 +457,7 @@
 
 .utc-story-copy {
 	color: #000;
-	font-family: Montserrat-Light;
+	font-family: $montlight;
 	font-size: 110%;
 	padding: 5% 15% 1% 0;
 	text-align: left;
