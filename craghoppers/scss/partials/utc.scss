@@ -9,6 +9,14 @@
     width: 100%;
 } 
 
+.cms-utc-journey .c-page-wrapper,
+.cms-utc-story .c-page-wrapper,
+.cms-utc-technologies .c-page-wrapper,
+.cms-utc-mens .c-page-wrapper,
+.cms-utc-womens .c-page-wrapper, {
+    padding: 30px 0 0 0;
+}
+
 .cms-utc-mens .flex-container,
 .cms-utc-womens .flex-container {
     margin: 0;
@@ -74,11 +82,11 @@
     text-align: center;
     color: #fff;
 	padding:2% 0;
-	    margin-top: 1%;
+	margin-top: 1%;
 }
 .utc-footer p {
     margin: 0;
-	    font-family: $montlight;
+	font-family: $montlight;
 	text-transform:uppercase;
 	letter-spacing:5px;
 }
@@ -602,4 +610,9 @@
 .flex-item-tech {
 	margin-bottom: 10px;
 }
+
+.utc-footer-padding {
+	margin-top: 4%;
+}
+
 /*Technologies End */

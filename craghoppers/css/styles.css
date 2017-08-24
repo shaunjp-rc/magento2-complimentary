@@ -4579,6 +4579,13 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .cms-utc-womens #content .columns .o-region__inner {
   width: 100%; }
 
+.cms-utc-journey .c-page-wrapper,
+.cms-utc-story .c-page-wrapper,
+.cms-utc-technologies .c-page-wrapper,
+.cms-utc-mens .c-page-wrapper,
+.cms-utc-womens .c-page-wrapper {
+  padding: 30px 0 0 0; }
+
 .cms-utc-mens .flex-container,
 .cms-utc-womens .flex-container {
   margin: 0; }
@@ -5101,6 +5108,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .flex-item-tech {
   margin-bottom: 10px; }
+
+.utc-footer-padding {
+  margin-top: 4%; }
 
 /*Technologies End */
 
