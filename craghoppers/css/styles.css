@@ -4579,7 +4579,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .cms-utc-womens #content .columns .o-region__inner {
   width: 100%; }
 
-.cms-utc-mens .flex-container {
+.cms-utc-mens .flex-container,
+.cms-utc-womens .flex-container {
   margin: 0; }
 
 .utc-strip-padding {
@@ -5097,6 +5098,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   font-size: 90%;
   padding: 5% 4% 0 4%;
   text-align: center; }
+
+.flex-item-tech {
+  margin-bottom: 10px; }
 
 /*Technologies End */
 
