@@ -4579,6 +4579,12 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .cms-utc-womens #content .columns .o-region__inner {
   width: 100%; }
 
+.cms-utc-mens .flex-container {
+  margin: 0; }
+
+.utc-strip-padding {
+  margin-top: 4%; }
+
 /* UTC Header */
 .utc-header {
   width: 100%;
@@ -4795,8 +4801,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   background-color: #f2f2f2; }
 
 .flex-container-styles {
-  padding: 1.2% 0;
-  background-color: #fff; }
+  padding: 1.5% 0;
+  background-color: #fff;
+  margin: 4% 0 6% 0; }
 
 .utc-plp-container {
   border-right: #9d9d9c;

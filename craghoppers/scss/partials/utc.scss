@@ -9,6 +9,14 @@
     width: 100%;
 } 
 
+.cms-utc-mens .flex-container {
+    margin: 0;
+}
+
+.utc-strip-padding {
+	margin-top: 4%;
+}
+
 /* UTC Header */
 .utc-header {
     width: 100%;
@@ -235,8 +243,9 @@
 } 
 
 .flex-container-styles {
-	padding: 1.2% 0;
+	padding: 1.5% 0;
 	background-color: #fff;
+	margin: 4% 0 6% 0;
 }
 
 .utc-plp-container {
