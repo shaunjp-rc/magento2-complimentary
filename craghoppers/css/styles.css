@@ -4950,6 +4950,28 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-story-img {
   padding-top: 4%; }
 
+.utc-story-divide {
+  background: #000;
+  height: 7px;
+  max-width: 223px;
+  border-radius: 10px; }
+
+.utc-story-title {
+  color: #000;
+  font-family: Montserrat-Regular;
+  font-size: 200%;
+  letter-spacing: 5px;
+  padding: 2% 0 1% 0;
+  text-transform: uppercase; }
+
+.utc-story-copy {
+  color: #000;
+  font-family: Montserrat-Light;
+  font-size: 110%;
+  padding: 5% 15% 1% 0;
+  text-align: left;
+  line-height: 200%; }
+
 /* UTC Story End */
 /* Technologies Start */
 .utc-technology-goretex {
