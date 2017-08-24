@@ -4825,6 +4825,12 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-plp-container:nth-child(11) {
   border: none; }
 
+.utc-plp-container-w:nth-child(3),
+.utc-plp-container-w:nth-child(7),
+.utc-plp-container-w:nth-child(10),
+.utc-plp-container-w:nth-child(11) {
+  border: none; }
+
 .utc-plp-title {
   color: #000;
   font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
