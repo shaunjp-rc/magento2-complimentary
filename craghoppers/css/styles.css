@@ -4579,7 +4579,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .cms-utc-womens #content .columns .o-region__inner {
   width: 100%; }
 
-
 .cms-utc-journey .c-page-wrapper,
 .cms-utc-story .c-page-wrapper,
 .cms-utc-technologies .c-page-wrapper,
@@ -4593,7 +4592,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .utc-strip-padding {
   margin-top: 4%; }
-
 
 /* UTC Header */
 .utc-header {
@@ -4827,7 +4825,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-safejourney {
   margin-top: 5%; }
 
-
 .utc-intro {
   margin: 1% 0; }
 
@@ -4983,13 +4980,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .utc-multihero img {
     width: 70%; } }
 /*PLP START */
-.flex-container-styles {
-  padding: 1.2% 0;
-  background-color: #fff; }
-
-.utc-plp-container {
-
-/*PLP START */
 .cms-utc-mens #content .columns .o-region__inner,
 .cms-utc-womens #content .columns .o-region__inner {
   background-color: #f2f2f2; }
@@ -5001,7 +4991,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .utc-plp-container,
 .utc-plp-container-w {
-
   border-right: #9d9d9c;
   border-width: 1px;
   border-right-style: solid;
@@ -5013,11 +5002,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-plp-container:nth-child(11) {
   border: none; }
 
-
-.utc-plp-title {
-  color: #000;
-  font-family: Montserrat-Light;
-
 .utc-plp-container-w:nth-child(3),
 .utc-plp-container-w:nth-child(7),
 .utc-plp-container-w:nth-child(10),
@@ -5027,7 +5011,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-plp-title {
   color: #000;
   font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-
   padding: 0 0 1% 0;
   text-align: center;
   font-size: 100%;
@@ -5101,7 +5084,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .utc-plp-product-link {
     padding: 3% 0 5% 0; } }
 /*PLP END */
-
 /* UTC Story Start */
 .utc-story-goretex {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-goretex.jpg);
@@ -5314,6 +5296,5 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   margin-top: 4%; }
 
 /*Technologies End */
-
 
 /*# sourceMappingURL=styles.css.map */
