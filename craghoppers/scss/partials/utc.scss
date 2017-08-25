@@ -267,10 +267,10 @@
     margin-top: 5%;
 }
 .utc-intro{
-    margin: 4% 0;
+    margin: 1% 0;
 }
 .utc-intro p {
-    font-size: 18px;
+    font-size: 14px;
 }
 .utc-lowerhero .utc-title{
     margin-left: 2%;
@@ -293,6 +293,17 @@
 }
 .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
     margin-top: 27%;
+}
+.utc-clear{
+    width: 100%;
+    clear:both;
+} 
+.utc-titleheader{
+    font-size: 18px;
+}
+.utc-subheader{
+    font-size: 16px;
+    margin-bottom: 0%;
 }
 
 @media only screen and (max-width:1125px){
