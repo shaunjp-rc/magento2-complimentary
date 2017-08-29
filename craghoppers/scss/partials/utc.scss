@@ -347,6 +347,12 @@
 .utc-logo img{
     max-width: 300px;
 }
+.utc-lowerseo {
+    margin-top: 1.5%;
+}
+.utc-lowerseo p {
+    margin-bottom: 0;
+}
 
 @media only screen and (max-width:1125px){
     .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
@@ -447,7 +453,9 @@
     }
     .flex-item.col-8.utc-lowerhero {
         padding: 2% 0;
-        background-size: 135%;
+        background-size: contain;
+        background-position: right;
+        background-color: #d2c3ac;
     }
     .flex-item.col-12.utc-techsection {
         width: 100%;
@@ -467,6 +475,15 @@
     .flex-item.col-8.utc-lowerhero.utc-heromale {
         background-size: cover;
     }
+    .utc-lowerhero.utc-herofemale{
+        background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens-Mobile.jpg);
+    }
+    .utc-lowerhero.utc-heromale{
+        background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens-Mobile.jpg);
+    }
+    .utc-lowerhero .utc-producttitle {
+        margin-top: 0;
+    }
 
 
 }
@@ -474,9 +491,6 @@
 @media only screen and (max-width:450px){
     .flex-item.col-4.utc-multihero {
         width: 100%;
-    }
-    .flex-item.col-8.utc-lowerhero {
-        background-size: cover;
     }
     .action-tabs .utc-subnav.tabs li,
     .action-tabs .utc-subnav.tabs li:first-of-type {
