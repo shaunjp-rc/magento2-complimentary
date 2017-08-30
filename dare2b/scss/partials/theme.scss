@@ -352,3 +352,54 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
     display: none;
 }
 /* END */
+
+.category-container-aw17{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+0,ffffff+20 */
+background: #ededed; /* Old browsers */
+background: -moz-linear-gradient(left, #ededed 0%, #ffffff 20%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ededed 0%,#ffffff 20%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ededed 0%,#ffffff 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.category-container-aw17 img{
+  float: right;
+  width: auto;
+  margin-left: 20px;
+}
+
+.category-container-aw17 .category-links,
+.category-container-aw17 .category-banner-text{
+  text-align: left !important;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+.category-container-aw17 .category-links{
+  padding-left: 0;
+}
+
+.category-container-aw17 .category-links a{
+  color: #111; margin-right: 10px;
+}
+
+.category-container-aw17 h1{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 989px){
+
+.category-container-aw17 img{
+  display: none;
+}
+
+.category-container-aw17{
+  background: #fff;
+}
+
+.category-container-aw17 .category-links,
+.category-container-aw17 .category-banner-text{
+  text-align: center !important
+}
+
+}
