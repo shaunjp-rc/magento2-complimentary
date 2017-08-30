@@ -422,6 +422,18 @@
 
 }
 
+@media only screen and (max-width:770px){
+    .utc-footer p:first-child{
+        font-size: 4.5vw;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .utc-multihero .utc-producttitle {
+        min-height: 48px;
+    }
+}
+
 @media only screen and (max-width:550px){
     .utc-nav + .flex-item.col-6 {
         display: none;
@@ -453,10 +465,9 @@
     }
     .flex-item.col-8.utc-lowerhero {
         padding: 2% 0;
-        background-size: contain;
-        background-position: right;
-        background-color: #d2c3ac;
-    }
+        background-position: top right;
+        background-color: #bcab8f;
+    } 
     .flex-item.col-12.utc-techsection {
         width: 100%;
     }
@@ -481,9 +492,10 @@
     .utc-lowerhero.utc-heromale{
         background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens-Mobile.jpg);
     }
-    .utc-lowerhero .utc-producttitle {
+    .utc-lowerhero .utc-producttitle,
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
         margin-top: 0;
-    }
+    } 
 
 
 }
@@ -499,8 +511,26 @@
     .utc-multihero img {
         width: 70%;
     }
+    .utc-multihero .utc-producttitle {
+        min-height: 0;
+    }
 
 }
+
+@media only screen and (max-width:420px) {
+    .flex-item.col-8.utc-lowerhero,
+    .flex-item.col-8.utc-lowerhero.utc-heromale {
+        padding: 2% 0 80% 0;
+        background-position-y: 100%;
+        background-size: contain;
+        background-color: transparent;
+    }
+    .utc-lowerhero .utc-productdesc {
+        width: 100%;
+    } 
+
+}
+
 /* END */
 /*PLP START */
 
