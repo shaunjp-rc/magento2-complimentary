@@ -1296,7 +1296,7 @@ html .s-main-menu .block {
   margin-bottom: -10px; }
 
 .category-items {
-  max-height: 518px;
+  max-height: 100%;
   overflow: hidden; }
 
 #mega-menu .sale a {
@@ -1353,7 +1353,7 @@ html .s-main-menu .block {
 
 @media screen and (max-width: 1227px) {
   .category-items {
-    max-height: 800px;
+    max-height: 100%;
     overflow: hidden; } }
 @media screen and (max-width: 990px) {
   #mega-menu .flex-item.col-2.mm-img {
