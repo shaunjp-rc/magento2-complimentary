@@ -531,7 +531,36 @@
 
 }
 
+/* Lightbox */
+.utc + .rl-pop.active {
+    margin-top: 2%;
+    height: 845px;
+    overflow-y: scroll;
+}
+.utc-producthighlights {
+    text-align: center;
+}
+.utc-producthighlights img {
+    width: 58%;
+}
+.utc-producthighlights .col-12{
+    background: #f6f6f6;
+    padding:4% 0;
+}
+.utc-producthighlights .col-12:nth-child(2) {
+    margin: 3% 0;
+}
+.utc-productprice {
+    margin-bottom: 5%;
+}
+.utc-showfull {
+    margin-top: 5%;
+}
+
 /* END */
+
+/* END */
+
 /*PLP START */
 
 .cms-utc-mens #content .columns .o-region__inner,
