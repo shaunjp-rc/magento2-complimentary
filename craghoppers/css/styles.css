@@ -4630,7 +4630,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-nav {
   width: 45%;
   background: rgba(0, 0, 0, 0.5);
-  padding: 2% 0 4% 0; }
+  padding: 3% 0 5% 0; }
 
 .utc-nav ul {
   margin: 0;
@@ -4648,6 +4648,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .utc-nav ul a:hover {
   text-decoration: underline; }
+
+.utc-headwrapper {
+  max-width: 800px; }
 
 /* END */
 /* UTC Footer */
@@ -5086,8 +5089,26 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   margin-bottom: 5%; }
 
 .utc-showfull {
-  margin-top: 5%; }
+  margin-top: 5%;
+  text-transform: uppercase; }
 
+.utc-producttitle {
+  text-transform: uppercase; }
+
+.utc-lightbox .utc-title {
+  width: 100%;
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 550px) {
+  .utc + .rl-pop.active {
+    margin-top: 18%;
+    height: 84%; }
+
+  .utc-productmain {
+    text-align: center; }
+
+  .utc-productmain img {
+    width: 70%; } }
 /* END */
 /* END */
 /*PLP START */
