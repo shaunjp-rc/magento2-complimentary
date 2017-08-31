@@ -812,17 +812,8 @@ h2.utc-title-lower {
 }
 
 @media only screen and (max-width:400px) {
-    .utc-story-goretex,
-    .utc-story-rfid,
-    .utc-story-aquadry,
-    .utc-story-nosilife,
-    .utc-story-antibacterial,
-    .utc-story-down {
-        max-width: 400px;
-        min-height: 190px;
-    }
-    .utc-story-box-title {
-        padding: 25% 0 0 0;
+    .cms-utc-story .col-2 {
+        width: 50%;
     }
 }
 
