@@ -5159,6 +5159,13 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100%;
   margin: 1.2%; }
 
+h2.utc-title-lower {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  padding-top: 4%; }
+
+.utc-lower-seo {
+  padding-bottom: 1.5%; }
+
 @media only screen and (max-width: 770px) {
   .utc-plp-title {
     padding: 0 4% 3% 4%;
@@ -5282,6 +5289,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   text-align: left;
   line-height: 200%; }
 
+@media only screen and (max-width: 770px) {
+  .utc-story-copy {
+    padding: 5% 0 1% 0; } }
 /* UTC Story End */
 /* Technologies Start */
 .utc-technology-goretex {
