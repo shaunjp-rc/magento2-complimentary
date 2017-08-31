@@ -72,6 +72,10 @@
   line-height: 1;
 }
 
+.mm__column.mm__column--img.expanded {
+  float: right;
+}
+
 @media only screen and (max-width:740px) {
   .s-main-menu .category-items .mm__column {
     width: 100%;
