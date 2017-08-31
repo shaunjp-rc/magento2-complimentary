@@ -806,6 +806,12 @@ h2.utc-title-lower {
 	line-height: 200%;
 }
 
+@media only screen and (max-width:770px) {
+    .utc-story-copy {
+        padding: 5% 0 1% 0;
+    }
+
+}
 /* UTC Story End */
 
 /* Technologies Start */
