@@ -18,3 +18,22 @@
 $latoreg: 'Lato-Regular', sans-serif;
 $latobold: 'Lato-Bold', sans-serif;
 $latolight: 'Lato-Light', sans-serif;
+
+@font-face {
+    font-family: 'Garamond-Regular';
+    src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Garamond-Light';
+    src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Garamond-Bold';
+    src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Bold.ttf);
+}
+
+$garareg: 'Garamond-Regular';
+$garalight: 'Garamond-Light';
+$garabold: 'Garamond-Bold';

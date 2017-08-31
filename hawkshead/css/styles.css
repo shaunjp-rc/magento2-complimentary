@@ -1117,6 +1117,15 @@ tr.headerrow,
 @font-face {
   font-family: 'Lato-Light';
   src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Light.ttf); }
+@font-face {
+  font-family: 'Garamond-Regular';
+  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Regular.ttf); }
+@font-face {
+  font-family: 'Garamond-Light';
+  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Light.ttf); }
+@font-face {
+  font-family: 'Garamond-Bold';
+  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Bold.ttf); }
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
