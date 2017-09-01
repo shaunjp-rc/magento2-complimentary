@@ -535,7 +535,7 @@
 }
 
 /* Lightbox */
-.utc + .rl-pop.active {
+.utc-lightbox.rl-pop.active {
     margin-top: 2%;
     height: 845px;
     overflow-y: scroll;
@@ -567,8 +567,16 @@
     width: 100%;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width:600px) {
+    .utc-lightbox.rl-pop.active {
+        margin-top: 22%;
+    }
+
+}
+
 @media only screen and (max-width:550px) {
-    .utc + .rl-pop.active {
+    .utc-lightbox.rl-pop.active {
         margin-top: 18%;
         height: 84%;
     }
