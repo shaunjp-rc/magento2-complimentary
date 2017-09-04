@@ -4923,6 +4923,10 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-lowerseo p {
   margin-bottom: 0; }
 
+.utc-multihero span img {
+  width: 100%;
+  cursor: pointer; }
+
 @media only screen and (max-width: 1125px) {
   .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
     margin-top: 23%; } }
