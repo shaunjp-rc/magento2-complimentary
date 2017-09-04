@@ -5017,7 +5017,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     background-color: #bcab8f; }
 
   .flex-item.col-12.utc-techsection {
-    width: 100%; }
+    width: 100%;
+    background-position: 0 -145px; }
 
   .utc-techsection p {
     font-size: 2.6vw; }
