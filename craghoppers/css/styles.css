@@ -4880,7 +4880,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .utc-subheader {
   font-size: 20px;
-  margin-bottom: 0%; }
+  margin-bottom: 0%;
+  line-height: 1.3; }
 
 .flex-item.col-12.utc-intro {
   padding: 0; }
@@ -5022,7 +5023,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
   .flex-item.col-12.utc-techsection {
     width: 100%;
-    background-position: 0 -145px; }
+    background-position: center; }
 
   .utc-techsection p {
     font-size: 2.6vw; }
