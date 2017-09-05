@@ -36,20 +36,20 @@
 	text-align: left;
 }
 
-.categorypath-men .categoryBanner__image,
-.categorypath-mens .categoryBanner__image,
-.categorypath-herren .categoryBanner__image {
-	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Mens.jpg) no-repeat center;
+.categorypath-women.category-women .womens-seoheader{
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Womens-TopLevel.jpg);
+    padding: 3% 0;
+    background-repeat: no-repeat;
 }
-
-.categorypath-women .categoryBanner__image,
-.categorypath-womens .categoryBanner__image {
-	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Womens.jpg) no-repeat center;
+.categorypath-men.category-men .mens-seoheader {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg);
+    padding: 3% 0;
+    background-repeat: no-repeat;
 }
-
-.categorypath-kids .categoryBanner__image,
-.categorypath-kinder .categoryBanner__image {
-	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Kids.jpg) no-repeat center;
+.categorypath-kids.category-kids .kids-seoheader {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Kids-TopLevel.jpg);
+    padding: 7.5% 0;
+    background-repeat: no-repeat;
 }
 
 .categorypath-accessories .categoryBanner__image,
@@ -65,6 +65,27 @@
 	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center;
 }
 
+.s-text-banner p:empty {
+    margin: 0;
+}
+.category-view__title {
+    margin-bottom: 0;
+    font-family: georgia;
+}
+.categorypath-men p.category-view__description,
+.categorypath-women p.category-view__description,
+.categorypath-womens p.category-view__description,
+.categorypath-kids p.category-view__description, {
+    width: 59%;
+    margin-bottom: 0;
+} 
+
+@media only screen and (max-width: 770px){
+	p.category-view__description {
+	    width: 100% !important;
+	} 
+
+}
 /* Mobile SEO show/hide */
 .seemore {
     margin: 0 auto;

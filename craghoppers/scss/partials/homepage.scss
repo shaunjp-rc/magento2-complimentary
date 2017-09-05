@@ -160,11 +160,12 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
 }
 
 .bannerOverlay__title--slider {
-   font-size: 2.7vw;
-   letter-spacing: 4px;
-   max-width: 80%;
-   margin: 0 auto;
-   display: table;
+  font-size: 2.7vw;
+  letter-spacing: 4px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: table;
+  font-family: Georgia,Arial,sans-serif;
 }
 
 .bannerOverlay__title--slider span {
@@ -926,4 +927,39 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
   height: 100%;
 }
 
+/* END */
+
+/* AW17 Updates */
+.pageSection--thirds .pageSection__title {
+    font-family: Georgia,Arial,sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.pageSection--thirds {
+    margin-top: 4%;
+}
+.pageSection--noTitle.pageBanner--desktop {
+    padding-top: 3vw;
+}
+.pageSection--community .pageSection__title {
+    font-family: Georgia,Arial,sans-serif;
+    font-size: 22px;
+}
+@media only screen and (max-width:989px){
+  .pageSection--thirds .pageSection__title {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .readmore {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .pageSection--thirds .pageSection__title {
+      font-size: 4.5vw;
+  }
+}
 /* END */

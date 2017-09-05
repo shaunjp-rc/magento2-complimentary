@@ -262,6 +262,18 @@ li.dropdown.dropdown--red a {
 
 }
 
+@media screen and (max-width:550px) {
+  
+  .s-main-menu .categories > li.ui-menu-item {
+      width: 100%;
+      text-align: left;
+  }
+  .s-main-menu .category-items .mm__column {
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width:500px) {
   .s-main-menu .categories > li {
     text-align: left;

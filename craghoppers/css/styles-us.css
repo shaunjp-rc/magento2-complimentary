@@ -1351,7 +1351,8 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
   letter-spacing: 4px;
   max-width: 80%;
   margin: 0 auto;
-  display: table; }
+  display: table;
+  font-family: Georgia,Arial,sans-serif; }
 
 .bannerOverlay__title--slider span {
   text-transform: lowercase;
@@ -1884,6 +1885,32 @@ ul.fullWidthSlider__slidesList {
 .pageSection--Seo.seo-open {
   height: 100%; }
 
+/* END */
+/* AW17 Updates */
+.pageSection--thirds .pageSection__title {
+  font-family: Georgia,Arial,sans-serif;
+  color: #fff;
+  font-size: 25px; }
+
+.pageSection--thirds {
+  margin-top: 4%; }
+
+.pageSection--noTitle.pageBanner--desktop {
+  padding-top: 3vw; }
+
+.pageSection--community .pageSection__title {
+  font-family: Georgia,Arial,sans-serif;
+  font-size: 22px; }
+
+@media only screen and (max-width: 989px) {
+  .pageSection--thirds .pageSection__title {
+    font-size: 21px; } }
+@media only screen and (max-width: 600px) {
+  .readmore {
+    width: 30%; } }
+@media only screen and (max-width: 450px) {
+  .pageSection--thirds .pageSection__title {
+    font-size: 4.5vw; } }
 /* END */
 /* Lookbook */
 /* Dump From Live */
@@ -3815,18 +3842,20 @@ a.micro-product__button {
   font-size: 12px;
   text-align: left; }
 
-.categorypath-men .categoryBanner__image,
-.categorypath-mens .categoryBanner__image,
-.categorypath-herren .categoryBanner__image {
-  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Mens.jpg) no-repeat center; }
+.categorypath-women.category-women .womens-seoheader {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Womens-TopLevel.jpg);
+  padding: 3% 0;
+  background-repeat: no-repeat; }
 
-.categorypath-women .categoryBanner__image,
-.categorypath-womens .categoryBanner__image {
-  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Womens.jpg) no-repeat center; }
+.categorypath-men.category-men .mens-seoheader {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg);
+  padding: 3% 0;
+  background-repeat: no-repeat; }
 
-.categorypath-kids .categoryBanner__image,
-.categorypath-kinder .categoryBanner__image {
-  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Kids.jpg) no-repeat center; }
+.categorypath-kids.category-kids .kids-seoheader {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Kids-TopLevel.jpg);
+  padding: 7.5% 0;
+  background-repeat: no-repeat; }
 
 .categorypath-accessories .categoryBanner__image,
 .categorypath- .categoryBanner__image {
@@ -3838,6 +3867,23 @@ a.micro-product__button {
 .categoryBanner .categoryBanner__image.categoryBanner__image--os {
   background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center; }
 
+.s-text-banner p:empty {
+  margin: 0; }
+
+.category-view__title {
+  margin-bottom: 0;
+  font-family: georgia; }
+
+.categorypath-men p.category-view__description,
+.categorypath-women p.category-view__description,
+.categorypath-womens p.category-view__description,
+.categorypath-kids p.category-view__description {
+  width: 59%;
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 770px) {
+  p.category-view__description {
+    width: 100% !important; } }
 /* Mobile SEO show/hide */
 .seemore {
   margin: 0 auto;
@@ -4510,6 +4556,18 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .cms-insect-repellent-collection .row-paddingright a {
     margin-bottom: 0; } }
 /* END */
+/* US Banners */
+.categorypath-womens.category-womens .category-view .s-text-banner > div:nth-child(2) {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Womens-TopLevel.jpg);
+  padding: 6.7% 0;
+  background-repeat: no-repeat; }
+
+.categorypath-men.category-men .category-view .s-text-banner > div:nth-child(2) {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg);
+  padding: 6.7% 0;
+  background-repeat: no-repeat; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
@@ -4710,6 +4768,13 @@ li.dropdown.dropdown--red a {
 @media screen and (max-width: 770px) {
   .shopall {
     display: block; } }
+@media screen and (max-width: 550px) {
+  .s-main-menu .categories > li.ui-menu-item {
+    width: 100%;
+    text-align: left; }
+
+  .s-main-menu .category-items .mm__column {
+    width: 100%; } }
 @media screen and (max-width: 500px) {
   .s-main-menu .categories > li {
     text-align: left;
