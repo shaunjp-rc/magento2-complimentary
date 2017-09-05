@@ -1618,7 +1618,7 @@ p.deliveryBar__text {
     padding: 0 6vw; } }
 .pageTextBlock__quote {
   display: block;
-  font-size: 2.4vw;
+  font-size: 2vw;
   line-height: 1.2;
   text-align: center; }
 
@@ -1634,7 +1634,7 @@ p.deliveryBar__text {
     font-size: 2em; } }
 .pageTextBlock__citation {
   display: block;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   line-height: 1;
   margin: 2vw 0;
   text-align: center; }
@@ -1751,7 +1751,7 @@ p.deliveryBar__text {
   margin: 0 2% 0 0; }
 
 .pageSection--noTitle {
-  padding-top: 6vw; }
+  padding-top: 3vw; }
 
 .pageBanner--mobile {
   display: none; }
@@ -1901,6 +1901,9 @@ ul.fullWidthSlider__slidesList {
 .pageSection--community .pageSection__title {
   font-family: Georgia,Arial,sans-serif;
   font-size: 22px; }
+
+.pageBanner--desktop {
+  margin-bottom: 0; }
 
 @media only screen and (max-width: 989px) {
   .pageSection--thirds .pageSection__title {
@@ -2716,7 +2719,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
   padding: 0; }
 
 .pageSection--noTitle {
-  padding-top: 6vw; }
+  padding-top: 3vw; }
 
 .pageSection--pageTop {
   text-align: center;

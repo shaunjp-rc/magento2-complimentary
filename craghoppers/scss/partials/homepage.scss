@@ -540,7 +540,7 @@ p.deliveryBar__text {
 .pageTextBlock__quote {
 	display: block;
 
-	font-size: 2.4vw;
+	font-size: 2vw;
 	line-height: 1.2;
 	text-align: center;
 }
@@ -569,8 +569,7 @@ p.deliveryBar__text {
 
 .pageTextBlock__citation {
 	display: block;
-	
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	line-height: 1;
 	margin: 2vw 0;
 	text-align: center;
@@ -733,7 +732,7 @@ p.deliveryBar__text {
 }
 
 .pageSection--noTitle {
-    padding-top: 6vw;
+    padding-top: 3vw;
 }
 
 .pageBanner--mobile {
@@ -945,6 +944,10 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
     font-family: Georgia,Arial,sans-serif;
     font-size: 22px;
 }
+.pageBanner--desktop {
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width:989px){
   .pageSection--thirds .pageSection__title {
     font-size: 21px;
@@ -962,4 +965,5 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
       font-size: 4.5vw;
   }
 }
+
 /* END */
