@@ -1357,7 +1357,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   margin-right: 10px; }
 
 .category-container-aw17 h1 {
-  margin-bottom: 0; }
+  margin-bottom: 10px;
+  line-height: 1.1em; }
 
 @media screen and (max-width: 989px) {
   .category-container-aw17 img {
