@@ -52,9 +52,10 @@
     background-repeat: no-repeat;
 }
 
-.categorypath-accessories .categoryBanner__image,
-.categorypath- .categoryBanner__image {
-	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Accessories.jpg) no-repeat center;
+.categorypath-accessories.category-accessories .accessories-seoheader {
+	background: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Accessories-TopLevel.jpg) no-repeat center;
+	padding: 7% 0;
+	background-repeat: no-repeat;
 }
 
 .categoryBanner .categoryBanner__image.categoryBanner__image--discovery {
@@ -75,7 +76,8 @@
 .categorypath-men p.category-view__description,
 .categorypath-women p.category-view__description,
 .categorypath-womens p.category-view__description,
-.categorypath-kids p.category-view__description, {
+.categorypath-kids p.category-view__description,
+.categorypath-accessories p.category-view__description {
     width: 59%;
     margin-bottom: 0;
 } 
