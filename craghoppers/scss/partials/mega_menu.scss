@@ -76,6 +76,11 @@
   float: right;
 }
 
+.columnHead h3 {
+  font-weight: bold;
+}
+
+
 @media only screen and (max-width:740px) {
   .s-main-menu .category-items .mm__column {
     width: 100%;
