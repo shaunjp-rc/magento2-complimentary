@@ -184,6 +184,9 @@
   text-decoration: underline;
 }
 
+ul.mm__column.mm__column--img.expanded {
+  float: right;
+}
 
 @media only screen and (max-width:779px){
     .offers-box.offers-box--main {
