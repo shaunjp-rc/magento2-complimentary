@@ -2688,6 +2688,9 @@ div#customerservice__row--kids table th {
 .cms-privacy-policy .customerservice__row li {
   list-style-type: disc; }
 
+.requiredfield {
+  color: #ff0000; }
+
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width: 989px) {
   .navbarlinks {
@@ -4413,6 +4416,60 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+/* Trouser Campaign Styles */
+.trou-vid-title {
+  font-family: georgia;
+  font-size: 32px;
+  letter-spacing: 7px;
+  padding: 3% 0;
+  text-transform: uppercase;
+  text-align: center; }
+
+.trou-vid-button-outer-container {
+  background-color: #f3f3f3;
+  min-height: 100px;
+  text-align: center;
+  padding: 2% 10%; }
+
+.trou-vid-button-mens,
+.trou-vid-button-womens,
+.trou-vid-button-kids {
+  font-family: Arial;
+  color: #fff;
+  font-size: 16px;
+  background: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 280px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase; }
+
+.trou-vid-button-mens:hover,
+.trou-vid-button-womens:hover,
+.trou-vid-button-kids:hover {
+  background: #343334;
+  text-decoration: none; }
+
+.trou-vid-padding {
+  clear: both;
+  height: 20px; }
+
+.videoSlide iframe {
+  width: 100%;
+  min-height: 500px; }
+
+.cms-the-trouserless-nightmare .flexslider .flex-direction-nav {
+  display: block !important; }
+
+@media only screen and (max-width: 550px) {
+  .videoSlide iframe {
+    min-height: 300px; }
+
+  .trou-vid-button-mens, .trou-vid-button-womens, .trou-vid-button-kids {
+    width: 100%;
+    margin-bottom: 1%; } }
+/* END */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
   display: inline-block;
@@ -4565,6 +4622,20 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .categorypath-men.category-men .mens-seoheader,
 .categorypath-women.category-women .womens-seoheader {
   padding: 6.8% 0; }
+
+/* END */
+/* US Checkout Changes */
+#checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
+  display: none !important; }
+
+.c-footer__payment-icons {
+  width: 125px !important; }
+
+#checkout .c-box-option__radio:checked + .c-box-option__inner .c-box-option__sub-title {
+  opacity: 0; }
+
+.c-basket__payment-icons {
+  background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important; }
 
 /* END */
 /* Mega Menu */
