@@ -1163,7 +1163,7 @@ html {
   margin-bottom: 1%; }
 
 p.sliderheader {
-  margin: 0 0 2%; }
+  margin: 0 0 1%; }
 
 .sliderstrip__desktop {
   margin: 2% 0 0; }
@@ -1515,8 +1515,8 @@ p.collectionhighlights__hoverstate--header {
   text-align: center;
   text-transform: uppercase;
   color: white;
-  font-family: "Lato-Bold", sans-serif;
-  font-size: 4.3em;
+  font-family: "Garamond-Regular";
+  font-size: 3.3em;
   letter-spacing: 10px;
   line-height: 1;
   margin-top: 7%;
