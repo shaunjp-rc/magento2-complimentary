@@ -479,6 +479,25 @@
   filter: grayscale(100%) brightness(500%);
   opacity: 1 !important; }
 
+/* Current Fonts */
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Bold.ttf); }
+@font-face {
+  font-family: 'Lato-Light';
+  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Light.ttf); }
+@font-face {
+  font-family: 'Garamond-Regular';
+  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Regular.ttf); }
+@font-face {
+  font-family: 'Garamond-Light';
+  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Light.ttf); }
+@font-face {
+  font-family: 'Garamond-Bold';
+  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Bold.ttf); }
 /* Generic stuff that can be used on any/every CMS page */
 .uspBanners {
   width: 100%;
@@ -753,16 +772,16 @@
   padding: 0; }
 
 .bannercontainer.mens {
-  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/mens-topbanner.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg); }
 
 .bannercontainer.womens {
-  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/womens-topbanner.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW17/UK/cat/top_level/Womens-TopLevel.png); }
 
 .bannercontainer.kids {
-  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/kids-topbanner.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW17/UK/cat/top_level/Kids-TopLevel.jpg); }
 
 .bannercontainer.footwear {
-  background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/footwear-topbanner.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW17/UK/cat/top_level/FootwearAccessories-TopLevel.jpg); }
 
 .bannercontainer.camping {
   background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/camping-topbanner.jpg); }
@@ -1107,25 +1126,11 @@ tr.headerrow,
   display: none; }
 
 /* END */
-/* Current Fonts */
-@font-face {
-  font-family: 'Lato-Regular';
-  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Regular.ttf); }
-@font-face {
-  font-family: 'Lato-Bold';
-  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Bold.ttf); }
-@font-face {
-  font-family: 'Lato-Light';
-  src: url(https://cdn.hawkshead.com/fonts/lato/Lato-Light.ttf); }
-@font-face {
-  font-family: 'Garamond-Regular';
-  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Regular.ttf); }
-@font-face {
-  font-family: 'Garamond-Light';
-  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Light.ttf); }
-@font-face {
-  font-family: 'Garamond-Bold';
-  src: url(https://cdn.hawkshead.com/fonts/garamond/CormorantGaramond-Bold.ttf); }
+/* Font overwrite */
+html {
+  font-family: "Lato-Regular", sans-serif; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
@@ -1158,7 +1163,7 @@ tr.headerrow,
   margin-bottom: 1%; }
 
 p.sliderheader {
-  margin: 0 0 2%; }
+  margin: 0 0 1%; }
 
 .sliderstrip__desktop {
   margin: 2% 0 0; }
@@ -1213,15 +1218,17 @@ p.collectionhighlights__hoverstate--header {
   width: 98%; }
 
 .transparentfullwidth {
-  margin-top: 2%; }
+  margin-top: 0; }
 
 .transparentfullwidth--blue .fourblocks__container {
-  width: 21%;
+  width: 22%;
   margin-right: 4%; }
 
+.delivery-block .containercenter {
+  padding: 0; }
+
 .sectionheader {
-  position: relative;
-  top: -.7em; }
+  position: relative; }
 
 .sectiontext {
   line-height: 1.4; }
@@ -1230,7 +1237,7 @@ p.collectionhighlights__hoverstate--header {
   display: block; }
 
 .transparentfullwidth--top {
-  margin-bottom: 2%; }
+  margin-bottom: 0; }
 
 .transparentfullwidth--bluechristmas {
   padding-bottom: 2%; }
@@ -1258,7 +1265,7 @@ p.collectionhighlights__hoverstate--header {
   max-width: 1140px;
   background: #fff;
   clear: both;
-  padding: 1%;
+  padding: 0 1%;
   display: table; }
 
 .containercenter--transparent {
@@ -1269,13 +1276,11 @@ p.collectionhighlights__hoverstate--header {
   text-transform: uppercase;
   float: left;
   width: 100%;
-  color: #fff;
-  font-size: 25px;
+  font-size: 28px;
   margin: 4% 0 0 0;
   letter-spacing: 5px;
   position: relative;
-  top: -.7em;
-  font-weight: bold; }
+  font-family: 'Garamond-Regular'; }
 
 .sectiontext {
   float: left;
@@ -1344,7 +1349,7 @@ p.collectionhighlights__hoverstate--header {
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid #fff;
   color: #fff;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif; }
+  font-family: "Lato-Bold", sans-serif; }
 
 .fourblocks__button {
   width: 100%;
@@ -1355,7 +1360,7 @@ p.collectionhighlights__hoverstate--header {
   color: white;
   text-transform: uppercase;
   font-size: 16px;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif; }
+  font-family: "Lato-Bold", sans-serif; }
 
 .sectionbutton--white:hover {
   background: rgba(255, 255, 255, 0.5); }
@@ -1395,10 +1400,10 @@ p.collectionhighlights__hoverstate--header {
   margin-top: 10%; }
 
 .fourblocks__header {
-  color: #555355;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+  font-family: 'Garamond-Regular';
   line-height: 1.2;
   font-size: 25px; }
 
@@ -1430,7 +1435,7 @@ p.collectionhighlights__hoverstate--header {
   color: white;
   font-size: 25px;
   text-transform: uppercase;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+  font-family: "Lato-Bold", sans-serif;
   line-height: 1.2;
   letter-spacing: 3px;
   margin-top: 24%; }
@@ -1456,7 +1461,7 @@ p.collectionhighlights__hoverstate--header {
 .sectionbutton--blue {
   background: #79A3D1;
   color: white;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+  font-family: "Lato-Bold", sans-serif;
   border: 1px solid #79A3D1;
   min-width: 285px; }
 
@@ -1477,8 +1482,8 @@ p.collectionhighlights__hoverstate--header {
   margin-right: 0; }
 
 .sectionheader--favourites {
-  margin-top: 0;
-  color: #2F3051; }
+  color: #000;
+  margin: 1% 0; }
 
 .homecont a {
   text-decoration: none;
@@ -1493,7 +1498,7 @@ p.collectionhighlights__hoverstate--header {
 .sectionbutton--green {
   background: #AEC483;
   color: white;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+  font-family: "Lato-Bold", sans-serif;
   border: 1px solid #AEC483;
   min-width: 285px; }
 
@@ -1510,8 +1515,8 @@ p.collectionhighlights__hoverstate--header {
   text-align: center;
   text-transform: uppercase;
   color: white;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
-  font-size: 4.3em;
+  font-family: "Garamond-Regular";
+  font-size: 3.3em;
   letter-spacing: 10px;
   line-height: 1;
   margin-top: 7%;
@@ -1534,7 +1539,7 @@ p.collectionhighlights__hoverstate--header {
   display: inline-block;
   text-align: center;
   color: white;
-  font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+  font-family: "Lato-Bold", sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   padding: 15px 0;
@@ -1575,32 +1580,30 @@ p.collectionhighlights__hoverstate--header {
   top: 0;
   width: 100%;
   height: 100%;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.4);
-  display: none; }
+  text-align: center; }
 
 .favourites__buttons {
-  width: 60%;
-  margin: 0 auto;
-  border: 2px solid #fff;
+  width: 44%;
+  margin: 0;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 16px;
   padding: 10px 0;
   margin-top: 1%;
-  background-color: rgba(255, 255, 255, 0.3);
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  display: inline-block; }
 
 .block__half:hover .favourites__overlay {
   display: block; }
 
 .favourites__overlay h3 {
   color: #fff;
-  font-weight: bold;
-  font-size: 24px;
-  letter-spacing: 2px;
-  margin-bottom: 5%; }
+  font-size: 40px;
+  margin-bottom: 5%;
+  font-family: 'Garamond-Light';
+  text-transform: uppercase;
+  letter-spacing: 4px; }
 
 .favourites__overlay--outer {
   display: table;
@@ -1611,7 +1614,8 @@ p.collectionhighlights__hoverstate--header {
   display: table-cell;
   height: 100%;
   text-align: center;
-  vertical-align: middle; }
+  vertical-align: bottom;
+  padding-bottom: 3%; }
 
 .sliderstrip--green {
   background-color: #96B265 !important; }
@@ -1629,6 +1633,22 @@ p.collectionhighlights__hoverstate--header {
   margin-top: 0; }
 
 .fourblocks__container--brand {
+  margin-top: 2%; }
+
+.sectionbutton--transparentblue {
+  background: transparent;
+  color: #79a3d1;
+  border: 1px solid #79A3D1;
+  min-width: 285px; }
+
+.sectionbutton--transparentblue:hover {
+  background: #79a3d1;
+  color: #fff; }
+
+.sectionheader-blue {
+  color: #79A3D1; }
+
+.brand__container + .buttoncontainer {
   margin-top: 2%; }
 
 /* Homepage Media Queries Start */
@@ -1721,7 +1741,7 @@ p.collectionhighlights__hoverstate--header {
     padding: 7px 0;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
-    font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+    font-family: "Lato-Bold", sans-serif;
     text-transform: uppercase;
     font-size: 18px; }
 
@@ -1937,12 +1957,18 @@ p.collectionhighlights__hoverstate--header {
     padding: 7px 0;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
-    font-family: 'poppinsbold', 'Helvetica Neue', Helvetica, 'Arial Black', Arial, sans-serif;
+    font-family: "Lato-Bold", sans-serif;
     text-transform: uppercase;
     font-size: 18px; }
 
   .favourites__overlay h3 {
     line-height: 1; } }
+@media only screen and (max-width: 460px) {
+  .favourites__buttons {
+    width: 100%; }
+
+  .favourites__overlay h3 {
+    font-size: 7vw; } }
 @media only screen and (max-width: 400px) {
   .fourblocks__social {
     width: 30%;
@@ -2697,7 +2723,7 @@ a.c-product-size__size-guide-link:hover {
 .genderheader {
   background: #6792C8;
   color: white;
-  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato-Regular", sans-serif;
   text-transform: uppercase;
   width: 100%;
   float: left;
@@ -2792,7 +2818,7 @@ a.c-product-size__size-guide-link:hover {
 
 .brandsubhead {
   color: #b2b2b2;
-  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato-Regular", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase; }

@@ -35,7 +35,7 @@
 .genderheader {
   background: #6792C8;
   color: white;
-  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: $latoreg;
   text-transform: uppercase;
   width: 100%;
   float: left;
@@ -156,7 +156,7 @@
 
 .brandsubhead {
   color: #b2b2b2;
-  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: $latoreg;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
