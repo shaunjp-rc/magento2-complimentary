@@ -1222,7 +1222,7 @@ p.collectionhighlights__hoverstate--header {
 
 .transparentfullwidth--blue .fourblocks__container {
   width: 22%;
-  margin-right: 4%; }
+  margin-right: 3.7%; }
 
 .delivery-block .containercenter {
   padding: 0; }
@@ -1655,6 +1655,9 @@ p.collectionhighlights__hoverstate--header {
 @media screen and (max-width: 1250px) {
   .sliderheader {
     font-size: 4.7vw; } }
+@media screen and (max-width: 989px) {
+  .transparentfullwidth--blue .fourblocks__container {
+    margin-right: 3%; } }
 @media screen and (max-width: 960px) {
   .slidersubtext {
     font-size: 18px; } }
