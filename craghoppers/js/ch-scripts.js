@@ -50,8 +50,9 @@ function rlTabs(){
 
 /* Mobile show/hide button */
 function mobileSEO(){
-  var banner = document.getElementsByClassName("s-text-banner")[0].childNodes[3];
-  var seoText = banner.getElementsByClassName('category-view__description')[0];
+  var banner = document.getElementsByClassName("s-text-banner")[0].childNodes[1];
+  var bannerTwo = document.getElementsByClassName("s-text-banner")[0].childNodes[3];
+  var seoText = banner.getElementsByClassName('category-view__description')[0] || bannerTwo.getElementsByClassName('category-view__description')[0];
   var readBtn = document.createElement("button");
 
   if (seoText.textContent.length > 140) {
