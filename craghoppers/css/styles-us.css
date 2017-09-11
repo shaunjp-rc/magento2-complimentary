@@ -4246,6 +4246,15 @@ p.pl-text-social {
     color: #fff;
     cursor: pointer; } }
 /* END */
+/* Tick boxes */
+.c-checkbox-option__checkbox:after {
+  margin: 1px; }
+
+.c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
+  border: 2px solid #dfe0e1;
+  background: #fff; }
+
+/* END */
 .c-product-size__link {
   font-weight: normal; }
 
