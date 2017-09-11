@@ -4409,6 +4409,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
 /* END */
+/* Tabbed boxes highlight */
+.c-tabs__tab.active .c-tabs__tab-link {
+  border-bottom: 8px solid #343334; }
+
+/* END */
 /* UTC Fonts */
 @font-face {
   font-family: 'Montserrat-Regular';
