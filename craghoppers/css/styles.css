@@ -5301,14 +5301,11 @@ h2.utc-title-lower {
 
   .utc-plp-container,
   .utc-plp-container-w {
+    border-right: none;
     border-bottom: #9d9d9c;
     border-width: 1px;
     border-bottom-style: solid;
     width: 50% !important; }
-
-  .utc-plp-container:nth-child(even),
-  .utc-plp-container-w:nth-child(even) {
-    border-right: none; }
 
   .utc-plp-title {
     padding: 5% 0 3% 0;
