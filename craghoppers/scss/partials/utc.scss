@@ -656,6 +656,13 @@
 	height: 110px;
 }
 
+.utc-plp-price {
+    font-family: $montlight;
+    padding: 2% 0;
+    text-align: center;
+    font-size: 90%;
+}
+
 .utc-plp-swatches {
 	text-align: center;
 }
@@ -720,20 +727,24 @@ h2.utc-title-lower {
 
 	.utc-plp-container,
     .utc-plp-container-w {
-		border-right: none;
 		border-bottom: #9d9d9c;
 		border-width: 1px;
 		border-bottom-style: solid;
-		width: 100% !important;
+		width: 50% !important;
 	}
+
+    .utc-plp-container:nth-child(even),
+    .utc-plp-container-w:nth-child(even) {
+        border-right: none;
+    }
 
 	.utc-plp-title {
 		padding: 5% 0 3% 0;
-		height: auto;
+		height: 55px;
 	}
 
 	.utc-plp-description {
-		height: auto;
+		height: 140px;
 	}
 
 	.utc-plp-product-link {
@@ -746,6 +757,10 @@ h2.utc-title-lower {
 
     .utc-plp-container-w:nth-child(11) {
         border-bottom: none;
+    }
+
+    .utc-plp-empty {
+        display: none;
     }
 }
 
