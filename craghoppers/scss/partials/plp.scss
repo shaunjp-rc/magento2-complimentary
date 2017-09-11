@@ -49,11 +49,11 @@
 
 /* Tick boxes */
 
-.c-checkbox-option__checkbox:after {
+body .c-checkbox-option__checkbox:after {
 	margin: 1px;
 }
 
-.c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
+body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
 	border: 2px solid #dfe0e1;
 	background: #fff;
 }
