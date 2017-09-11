@@ -4246,6 +4246,15 @@ p.pl-text-social {
     color: #fff;
     cursor: pointer; } }
 /* END */
+/* Tick boxes */
+body .c-checkbox-option__checkbox:after {
+  margin: 1px; }
+
+body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
+  border: 2px solid #dfe0e1;
+  background: #fff; }
+
+/* END */
 .c-product-size__link {
   font-weight: normal; }
 
@@ -4399,6 +4408,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     padding: 5px 0; }
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
+/* END */
+/* Tabbed boxes highlight */
+.c-tabs__tab.active .c-tabs__tab-link {
+  border-bottom: 8px solid #343334; }
+
 /* END */
 /* UTC Fonts */
 @font-face {
