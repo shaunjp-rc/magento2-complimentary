@@ -5570,7 +5570,7 @@ h2.utc-title-lower {
     font-size: 80%;
     padding: 5% 4% 0 4%; }
 
-  .cms-utc-technologies .flex-item {
+  .cms-utc-technologies .flex-item .col-4 .flex-item-tech {
     width: 50%; } }
 /*Technologies End */
 
