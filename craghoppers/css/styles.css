@@ -5546,6 +5546,9 @@ h2.utc-title-lower {
   margin-top: 4%; }
 
 @media only screen and (max-width: 740px) {
+  .cms-utc-technologies .flex-item .col-4 .flex-item-tech {
+    width: 50%; } }
+@media only screen and (max-width: 400px) {
   .utc-technology-goretex,
   .utc-technology-aquadry,
   .utc-technology-solarshield,
@@ -5568,10 +5571,7 @@ h2.utc-title-lower {
 
   .utc-technology-box-copy {
     font-size: 80%;
-    padding: 5% 4% 0 4%; }
-
-  .cms-utc-technologies .flex-item .col-4 .flex-item-tech {
-    width: 50%; } }
+    padding: 5% 4% 0 4%; } }
 /*Technologies End */
 
 /*# sourceMappingURL=styles.css.map */
