@@ -4430,6 +4430,60 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+/* Trouser Campaign Styles */
+.trou-vid-title {
+  font-family: georgia;
+  font-size: 32px;
+  letter-spacing: 7px;
+  padding: 3% 0;
+  text-transform: uppercase;
+  text-align: center; }
+
+.trou-vid-button-outer-container {
+  background-color: #f3f3f3;
+  min-height: 100px;
+  text-align: center;
+  padding: 2% 10%; }
+
+.trou-vid-button-mens,
+.trou-vid-button-womens,
+.trou-vid-button-kids {
+  font-family: Arial;
+  color: #fff;
+  font-size: 16px;
+  background: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 280px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase; }
+
+.trou-vid-button-mens:hover,
+.trou-vid-button-womens:hover,
+.trou-vid-button-kids:hover {
+  background: #343334;
+  text-decoration: none; }
+
+.trou-vid-padding {
+  clear: both;
+  height: 20px; }
+
+.videoSlide iframe {
+  width: 100%;
+  min-height: 500px; }
+
+.cms-the-trouserless-nightmare .flexslider .flex-direction-nav {
+  display: block !important; }
+
+@media only screen and (max-width: 550px) {
+  .videoSlide iframe {
+    min-height: 300px; }
+
+  .trou-vid-button-mens, .trou-vid-button-womens, .trou-vid-button-kids {
+    width: 100%;
+    margin-bottom: 1%; } }
+/* END */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
   display: inline-block;

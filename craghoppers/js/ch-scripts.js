@@ -89,12 +89,12 @@ var $j = jQuery.noConflict();
 $j(document).ready(function($) {
 
 
-	// Flexslider init
-	if ($j('.flexslider').length) {
-		setTimeout(function(){
+  // Flexslider init
+  if ($j('.flexslider').length) {
+    setTimeout(function(){
           $j('.flexslider').flexslider();
         }, 500);
-	}
+  }
 
   
 
