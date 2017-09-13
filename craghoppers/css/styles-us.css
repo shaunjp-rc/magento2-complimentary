@@ -4570,6 +4570,20 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   padding: 6.8% 0; }
 
 /* END */
+/* US Checkout Changes */
+#checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
+  display: none !important; }
+
+.c-footer__payment-icons {
+  width: 125px !important; }
+
+#checkout .c-box-option__radio:checked + .c-box-option__inner .c-box-option__sub-title {
+  opacity: 0; }
+
+.c-basket__payment-icons {
+  background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
