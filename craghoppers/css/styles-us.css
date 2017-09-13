@@ -2688,6 +2688,9 @@ div#customerservice__row--kids table th {
 .cms-privacy-policy .customerservice__row li {
   list-style-type: disc; }
 
+.requiredfield {
+  color: #ff0000; }
+
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width: 989px) {
   .navbarlinks {
