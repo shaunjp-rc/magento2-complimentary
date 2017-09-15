@@ -5790,7 +5790,7 @@ h2.utc-title-lower {
   .trou-box-title {
     padding: 10% 0 4% 0; }
 
-  .trou-header
+  .trou-header,
   .wtrou-header {
     display: none; }
 
