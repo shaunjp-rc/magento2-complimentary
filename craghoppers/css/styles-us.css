@@ -4486,6 +4486,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* END */
 /* Mens and Womens Trouser Page */
 .trou-header-mob,
+.wtrou-header-mob,
 .trou-copy-mob {
   display: none; }
 
@@ -4643,11 +4644,14 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .trou-box-title {
     padding: 10% 0 4% 0; }
 
-  .trou-header {
+  .trou-header
+  .wtrou-header {
     display: none; }
 
   .trou-header-mob,
-  .trou-copy-mob {
+  .trou-copy-mob,
+  .wtrou-header-mob,
+  .wtrou-copy-mob {
     display: block; }
 
   .trou-header-mob {
