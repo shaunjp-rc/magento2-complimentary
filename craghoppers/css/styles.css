@@ -5632,6 +5632,7 @@ h2.utc-title-lower {
 /* END */
 /* Mens and Womens Trouser Page */
 .trou-header-mob,
+.wtrou-header-mob,
 .trou-copy-mob {
   display: none; }
 
@@ -5789,11 +5790,14 @@ h2.utc-title-lower {
   .trou-box-title {
     padding: 10% 0 4% 0; }
 
-  .trou-header {
+  .trou-header,
+  .wtrou-header {
     display: none; }
 
   .trou-header-mob,
-  .trou-copy-mob {
+  .trou-copy-mob,
+  .wtrou-header-mob,
+  .wtrou-copy-mob {
     display: block; }
 
   .trou-header-mob {
