@@ -1337,7 +1337,25 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
     background-position: -31px 0;
     background-size: 200%; } }
 .flex-control-nav {
-  display: none; }
+  display: block;
+  margin: 0;
+  position: absolute;
+  bottom: 8px;
+  z-index: 99;
+  width: 100%;
+  text-align: center; }
+
+.flex-control-nav li {
+  display: inline-block; }
+
+.flex-control-nav li a {
+  background: transparent;
+  border-radius: 25px;
+  margin: 0 3px;
+  border: 2px solid #fff; }
+
+.flex-control-nav li a.flex-active {
+  background: #fff; }
 
 .fullWidthSlider__slidesList .fullWidthSlider__slideContainer {
   margin-left: 0; }
