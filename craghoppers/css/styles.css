@@ -1337,7 +1337,25 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
     background-position: -31px 0;
     background-size: 200%; } }
 .flex-control-nav {
-  display: none; }
+  display: block;
+  margin: 0;
+  position: absolute;
+  bottom: 8px;
+  z-index: 99;
+  width: 100%;
+  text-align: center; }
+
+.flex-control-nav li {
+  display: inline-block; }
+
+.flex-control-nav li a {
+  background: transparent;
+  border-radius: 25px;
+  margin: 0 3px;
+  border: 2px solid #fff; }
+
+.flex-control-nav li a.flex-active {
+  background: #fff; }
 
 .fullWidthSlider__slidesList .fullWidthSlider__slideContainer {
   margin-left: 0; }
@@ -2547,6 +2565,36 @@ iframe.unsubscribe {
 .mm-main h3 {
   font-weight: bold; }
 
+.s-main-menu .categories ul.mm__column li a {
+  text-align: left;
+  color: #343334 !important; }
+
+.megamenu-split .mm__column:first-of-type {
+  width: 40%; }
+.megamenu-split .menu-split {
+  display: inline-block;
+  float: left; }
+.megamenu-split .menu-split:last-of-type {
+  margin-left: 20%;
+  margin-top: 7%; }
+
+.mm__column--img img {
+  width: 100%; }
+
+@media only screen and (max-width: 1227px) {
+  .megamenu-split .menu-split:last-of-type {
+    margin-top: 8%; } }
+@media only screen and (max-width: 989px) {
+  .mm__column.mm__column--img {
+    display: none; }
+
+  .megamenu-split .mm__column {
+    width: 26%; }
+  .megamenu-split .menu-split:last-of-type {
+    margin-left: 12%;
+    margin-top: 9%; }
+  .megamenu-split .mm__column:first-of-type {
+    width: 48%; } }
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column {
     width: 100%; }
@@ -2566,10 +2614,14 @@ iframe.unsubscribe {
     width: 100%;
     margin-left: 0 !important;
     padding-left: 10px !important; } }
-.s-main-menu .categories ul.mm__column li a {
-  text-align: left;
-  color: #343334 !important; }
+@media only screen and (max-width: 600px) {
+  .megamenu-split .menu-split {
+    display: inline-block !important;
+    width: 100%;
+    margin: 0 !important; }
 
+  .s-main-menu .category-items .mm__column {
+    width: 100% !important; } }
 /* Insect Repellent Mega Menu */
 .s-main-menu .block .mmrow--nosilife {
   width: 50%;
