@@ -1016,8 +1016,14 @@ h2.utc-title-lower {
 	margin-top: 4%;
 }
 
-@media only screen and (max-width:740px) {
-    .cms-utc-technologies .flex-item .col-4 .flex-item-tech {
+@media only screen and (max-width:1024px) {
+    .flex-item.col-4.flex-item-tech{
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .flex-item.col-4.flex-item-tech{
         width: 50%;
     }
 }
