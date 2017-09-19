@@ -2614,14 +2614,22 @@ iframe.unsubscribe {
     width: 100%;
     margin-left: 0 !important;
     padding-left: 10px !important; } }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 739px) {
   .megamenu-split .menu-split {
     display: inline-block !important;
     width: 100%;
     margin: 0 !important; }
 
   .s-main-menu .category-items .mm__column {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .dropdown {
+    width: 100%;
+    text-align: left !important; }
+
+  .megamenu-split .menu-split {
+    display: inline-block !important;
+    width: 100%; } }
 /* Insect Repellent Mega Menu */
 .s-main-menu .block .mmrow--nosilife {
   width: 50%;
