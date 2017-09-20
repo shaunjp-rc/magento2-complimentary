@@ -2499,6 +2499,15 @@ iframe.unsubscribe {
   height: 1000px; }
 
 /* END */
+/* Success Message */
+.successmessage {
+  text-align: center;
+  background: #008000;
+  color: #fff;
+  padding: 2% 0;
+  font-size: 16px; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
