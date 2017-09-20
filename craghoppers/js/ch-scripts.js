@@ -59,7 +59,14 @@ function mobileSEO(){
     seoText.classList.add('active');
     // add button to DOM
     readBtn.innerHTML = 'Read More';
-    banner.insertBefore(readBtn, seoText.nextSibling);
+    if (bannerTwo.getElementsByClassName('category-view__description')[0]){
+        console.log('banner 2');
+        bannerTwo.querySelector('.seoheader').insertBefore(readBtn, seoText.nextSibling);
+    } else {
+        console.log('banner 1');
+        banner.insertBefore(readBtn, seoText.nextSibling);
+    }
+
     // add click events
     readBtn.onclick = function(){
       if(seoText.classList.contains('active')){
