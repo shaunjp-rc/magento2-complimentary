@@ -2383,6 +2383,11 @@ iframe.unsubscribe {
   height: 1000px; }
 
 /* END */
+/* Returns */
+.returns-myhermes {
+  padding: 1.5% 0 1% 0; }
+
+/* END */
 .collection__wrapper {
   display: inline-block;
   width: 100%; }
