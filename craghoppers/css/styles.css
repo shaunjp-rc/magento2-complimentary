@@ -2508,6 +2508,14 @@ iframe.unsubscribe {
   font-size: 16px; }
 
 /* END */
+/* Form error scroll */
+.redeye-form .invalid {
+  border: 2px solid #ff0000; }
+
+.redeye-form .popup {
+  color: #ff0000; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;

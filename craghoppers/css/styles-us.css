@@ -3023,6 +3023,14 @@ iframe.unsubscribe {
   font-size: 16px; }
 
 /* END */
+/* Form error scroll */
+.redeye-form .invalid {
+  border: 2px solid #ff0000; }
+
+.redeye-form .popup {
+  color: #ff0000; }
+
+/* END */
 /* *********** START *********** */
 /* **** MICROSITE STYLES **** */
 /* All prefixed with micro- to avoid leakage */

@@ -81,7 +81,15 @@ function mobileSEO(){
 }
 /* END */
 
-
+/* Form error scroll */
+function formScroll(){
+  if (jQuery(".invalid").length){
+    jQuery('html, body').animate({
+          scrollTop: jQuery(".invalid").offset().top
+      }, 2000);
+  }
+};
+/* END */
 
 
 /*
