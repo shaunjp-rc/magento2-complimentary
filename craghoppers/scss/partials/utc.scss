@@ -52,31 +52,40 @@
 .utc-herofemale {
     background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-2.jpg);
 }
-
-.utc-nav {
-    width: 45%;
-    background: rgba(0,0,0,0.5);
-    padding: 3% 0 5% 0;
+.utc-header .col-12 {
+    text-align: center;
 }
-.utc-nav ul {
-    margin: 0;
-    float: right;
+.utc-headwrapper {
+    margin: 0 auto;
+}
+.utc-logo {
+    margin: 3% 0;
+}
+.utc-header ul {
     list-style-type: none;
-    color: #fff;
-    padding-right: 25%;
     text-transform: uppercase;
     text-align: center;
-    font-family: $montreg;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
     line-height: 2.5;
+    margin: 0;
+    background: rgba(0,0,0,0.5);
+    padding: 0.3% 0;
 }
-.utc-nav ul a{
-	color:#fff
+.utc-header ul a {
+    color: #fff;
+    display: inline-block;
+    margin: 0 0.5%;
 }
-.utc-nav ul a:hover {
+.utc-activelink {
     text-decoration: underline;
 }
-.utc-headwrapper{
-    max-width: 800px;
+@media only screen and (max-width:600px){
+    .utc-headwrapper {
+        display: none;
+    }
+    .utc-header ul a {
+        display: block;
+    }
 }
 /* END */
 
@@ -322,9 +331,6 @@
 .utc-strip.utc-topstrip {
     margin-top: 1%;
 }
-.utc-logo {
-    margin-top: 2.5%;
-}
 .utc-headerbutton:first-of-type {
     margin-right: 0.5%;
 }
@@ -344,9 +350,6 @@
 .utc-headerbutton:hover{
     background:#fff;
     color:#000;
-}
-.utc-logo {
-    margin-top: 5.5%;
 }
 .utc-logo img{
     max-width: 300px;
