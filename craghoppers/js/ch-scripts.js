@@ -82,13 +82,14 @@ function mobileSEO(){
 /* END */
 
 /* Form error scroll */
-function formScroll(){
+jQuery(".redeye-form button").click(function(){
   if (jQuery(".invalid").length){
+    jQuery(".invalid").prev().addClass("invalidinput");
     jQuery('html, body').animate({
-          scrollTop: jQuery(".invalid").offset().top
-      }, 2000);
+          scrollTop: jQuery(".invalidinput").offset().top
+      });
   }
-};
+});
 /* END */
 
 
