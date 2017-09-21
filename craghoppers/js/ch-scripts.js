@@ -81,17 +81,6 @@ function mobileSEO(){
 }
 /* END */
 
-/* Form error scroll */
-jQuery(".redeye-form button").click(function(){
-  if (jQuery(".invalid").length){
-    jQuery(".invalid").prev().addClass("invalidinput");
-    jQuery('html, body').animate({
-          scrollTop: jQuery(".invalidinput").offset().top
-      });
-  }
-});
-/* END */
-
 
 /*
 	Craghoppers specific JS snippets
@@ -329,6 +318,16 @@ $j(document).ready(function($) {
     });
   /* END */
 
+  /* Form error scroll */
+  jQuery(".redeye-form button").click(function(){
+    if (jQuery(".invalid").length){
+      jQuery(".invalid").prev().addClass("invalidinput");
+      jQuery('html, body').animate({
+            scrollTop: jQuery(".invalidinput").offset().top
+        });
+    }
+  });
+  /* END */
  
 
 ////////////////////////////////  
