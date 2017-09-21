@@ -8,10 +8,16 @@
 /* Slider */
 
 .flexslider {background: #fff; /*border-bottom: 9px solid #444; border-top: 9px solid #444;*/ position: relative; }
-.flexslider .slides  li {position: relative;}
+.flexslider .slides  li {
+  position: relative; 
+  list-style-type: none;
+}
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flexslider-container {position: relative;}
 
+li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
+    display: none;
+}
 
 /* Caption style */
 .flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: url("../images/trans-03-16px.png") repeat; color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 15px; line-height: 18px;}
@@ -67,7 +73,7 @@
 .flex-direction-nav {
    position: absolute;
    top: 50%;
-   left: 5%;
+   left: 1%;
    margin-top: -28px;
    width: 90%;
 }
@@ -141,7 +147,25 @@
 }
 
 .flex-control-nav {
-  display: none;
+    display: block;
+    margin: 0;
+    position: absolute;
+    bottom: 8px;
+    z-index: 99;
+    width: 100%;
+    text-align: center;
+}
+.flex-control-nav li {
+    display: inline-block;
+}
+.flex-control-nav li a {
+    background: transparent;
+    border-radius: 25px;
+    margin: 0 3px;
+    border: 2px solid #fff;
+}
+.flex-control-nav li a.flex-active {
+    background: #fff;
 }
 
 .fullWidthSlider__slidesList .fullWidthSlider__slideContainer {
@@ -154,11 +178,12 @@
 }
 
 .bannerOverlay__title--slider {
-   font-size: 2.7vw;
-   letter-spacing: 4px;
-   max-width: 80%;
-   margin: 0 auto;
-   display: table;
+  font-size: 2.7vw;
+  letter-spacing: 4px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: table;
+  font-family: Georgia,Arial,sans-serif;
 }
 
 .bannerOverlay__title--slider span {
@@ -533,7 +558,7 @@ p.deliveryBar__text {
 .pageTextBlock__quote {
 	display: block;
 
-	font-size: 2.4vw;
+	font-size: 2vw;
 	line-height: 1.2;
 	text-align: center;
 }
@@ -562,8 +587,7 @@ p.deliveryBar__text {
 
 .pageTextBlock__citation {
 	display: block;
-	
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	line-height: 1;
 	margin: 2vw 0;
 	text-align: center;
@@ -726,7 +750,7 @@ p.deliveryBar__text {
 }
 
 .pageSection--noTitle {
-    padding-top: 6vw;
+    padding-top: 3vw;
 }
 
 .pageBanner--mobile {
@@ -797,7 +821,7 @@ p.deliveryBar__text {
 
     .flex-direction-nav {
         display: none;
-    }
+    } 
 }
 
 .pageSection--slider {
@@ -856,3 +880,108 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
     	font-size: 14px;
     }
 }
+
+.gtm-promo {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .flex-direction-nav {
+      margin-left: 0;
+    }
+    .bannerOverlay__contentArea--slider {
+      padding-bottom: 3%;
+    }
+
+}
+
+.bannerOverlay-noimg {
+    height: 392px;
+}
+
+@media screen and (max-width: 1227px) {
+  .bannerOverlay-noimg {
+    height: 316px;
+  }
+} 
+
+@media screen and (max-width: 989px) {
+  .bannerOverlay-noimg {
+    height: 236px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bannerOverlay-noimg {
+      height: 65vw;
+      max-height: 324px;
+  }
+}
+
+/* Homepage SEO show/hide */
+
+.pageSection--Seo {
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+}
+
+.readmore {
+    margin: 0 auto;
+    text-align: center;
+    width: 10%;
+    background: #343334;
+    padding: 1% 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.seo-container {
+    margin-top: -4%;
+}
+
+.pageSection--Seo.seo-open{
+  height: 100%;
+}
+
+/* END */
+
+/* AW17 Updates */
+.pageSection--thirds .pageSection__title {
+    font-family: Georgia,Arial,sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.pageSection--thirds {
+    margin-top: 4%;
+}
+.pageSection--noTitle.pageBanner--desktop {
+    padding-top: 3vw;
+}
+.pageSection--community .pageSection__title {
+    font-family: Georgia,Arial,sans-serif;
+    font-size: 22px;
+}
+.pageBanner--desktop {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:989px){
+  .pageSection--thirds .pageSection__title {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .readmore {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .pageSection--thirds .pageSection__title {
+      font-size: 4.5vw;
+  }
+}
+
+/* END */

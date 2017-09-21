@@ -181,6 +181,8 @@ tr.headerrow,
 
 .datatablesizing {
 	margin-top: 1%;
+	width: 100%;
+    text-align: center;
 }
 
 #customerservice__row--women {
@@ -233,6 +235,13 @@ div#customerservice__row--kids table th {
 
 .mobilefootwearsection tr:first-child {
 	font-weight: 600;
+}
+
+.cms-price-match-promise .redeye-form input {
+    width: 100%;
+    float: left;
+    clear: both;
+    border: 1px solid;
 }
 
 /* New Fit Guide Diagram Stuff */
@@ -299,6 +308,17 @@ div#customerservice__row--kids table th {
     font-size: 16px;
 } 
 
+.cms-privacy-policy .customerservice__row ul {
+    margin-left: 3%;
+}
+
+.cms-privacy-policy .customerservice__row li {
+    list-style-type: disc;
+}
+
+.requiredfield {
+    color: #ff0000;
+}
 
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width:989px) {
@@ -461,3 +481,247 @@ div#customerservice__row--kids table th {
 	}
 
 }
+
+/* New contact us page */
+.std .card p {
+    width: 100%;
+}
+.contact__card {
+    padding-bottom: 1%;
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
+}
+.contact__popup {
+    display: none;
+}
+
+.contact__popup.popup_open {
+    display: block;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    max-width: 1228px;
+    background: #fff;
+    top: 85px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 750px;
+}
+.popup__inner {
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+.popup__bg.popup_open {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 5;
+}
+div#form__close {
+    float: right;
+    background: #e3e3e3;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 999999999999;
+}
+.form_popup {
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 480px){
+  .contact__popup.popup_open {
+      overflow: scroll;
+      height: 500px;
+      padding: 20px 40px;
+  }
+}
+
+
+/* Returns */
+.returns-myhermes {
+    padding: 1.5% 0 1% 0;
+}
+
+p.customerservice-left {
+	text-align: left;
+}
+/* END */
+
+/* delivery and returns */
+.action-tabs .tabs-content {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.action-tabs .tabs {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.action-tabs .tabs *[data-action="tab"] {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    padding: 20px 14px;
+    flex-grow: 1;
+    margin: 0 0px;
+    cursor: pointer;
+    font-size: 1em;
+    flex-basis: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.action-tabs .tabs *[data-action="tab"]:hover {
+    background: #f7f7f7;
+}
+
+.action-tabs .tabs *[data-action="tab"].active {
+    background: #ddd;
+}
+
+.action-tabs .tabs-content > * {
+    display: none;
+}
+
+.action-tabs .tabs-content > *.active {
+    display: block
+}
+
+.delret-first {
+    padding-top: 1.5%;
+}
+
+h2.delret-title {
+    font-size: 1.7em;
+    padding-top: 1%;
+}
+
+h3.delret-title {
+    font-weight: 400;
+    font-size: 1.4em;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+ul.delret-list {
+    list-style: none;
+}
+/* END */
+
+/* Modern SLavery Page */
+
+.modern-slavery-title {
+	font-size: 300%; 
+	font-family: Georgia, Times;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 3% 0 5% 0;
+}
+
+.modern-slavery-left {
+	float: left;
+	width: 44%;
+	padding: 0 3%;
+}
+
+.modern-slavery-copy {
+	font-size: 14px;
+	line-height: 19px;
+	color: #000;
+	font-family: Arial;
+	padding-bottom: 8%;
+}
+
+.modern-slavery-btn {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+	background: #8996a2;
+	padding: 15px 20px 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 230px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.modern-slavery-btn:hover {
+	background: #727c85;
+}
+
+a:link, a:visited, a:hover, a:active .modern-slavery-btn {
+    text-decoration: none;
+}
+
+.modern-slavery-img {
+	float: left;
+	width: 47%;
+	padding: 0 3% 0 0;
+}
+
+.modern-slavery-clear {
+	clear: both;
+}
+
+@media only screen and (max-width:800px) {
+	.modern-slavery-title {
+		font-size: 200%;
+	}
+
+	.modern-slavery-left {
+		float: none;
+		width: 96%;
+		padding: 0 2%;
+	}
+
+	.modern-slavery-img {
+		float: none;
+		width: 96%;
+		padding: 5% 2% 0 2%;
+	}
+}
+
+/* END */
+
+
+/* Unsubscribe form */
+iframe.unsubscribe {
+	border: 0;
+	width: 100%;
+	padding-top: 2%;
+}
+/* END */
+
+/* contact us wufoo form */
+#wufooFormzcppv9q1o0smos {
+	height: 1000px;
+}
+/* END */
+
+/* Success Message */
+.successmessage {
+    text-align: center;
+    background: #008000;
+    color: #fff;
+    padding: 2% 0;
+    font-size: 16px;
+}
+/* END */
+
+/* Form error scroll */
+.redeye-form .invalid {
+    border: 2px solid #ff0000;
+}
+.redeye-form .popup{
+	color:#ff0000;
+}
+/* END */

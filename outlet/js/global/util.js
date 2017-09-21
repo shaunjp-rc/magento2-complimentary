@@ -6,6 +6,56 @@
 //
 /////////////////////////////////////*/
 
+/*///////// Badge & Promo Behaviour ////////*/
+
+function rlBadge(){
+
+  var query = "[name='monVar_promotion']";
+
+  // product listing page
+  if(document.querySelectorAll(query).length && document.querySelectorAll('.catalog-category-view').length){
+    Array.from(document.querySelectorAll(query)).forEach(function(item){
+      if(item.value.length){
+        var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
+        item.parentNode.innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>"
+      }
+    });
+  }
+
+  // product details page
+  var query = "[name='monVar_promotion']";
+
+  if(document.querySelectorAll(query).length){
+    Array.from(document.querySelectorAll(query)).forEach(function(item){
+      if(item.value.length){
+        var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
+        if(document.querySelector('.gallery-placeholder')){
+	        document.querySelector('.gallery-placeholder').innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>";
+	    }
+      }
+    });
+  }
+
+}
+
+function rlPromo(){
+
+  var query = "#monVars_price_saving_percent";
+
+  // product listing page
+  Array.from(document.querySelectorAll('.c-product-details')).forEach(function(item){
+    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
+    if(value) document.querySelector(".product-info-stock-sku").innerHTML += "<span class='save__product-page' style='display:none;'>Save " + value + "%</span>";
+  });
+
+  // product details page
+  Array.from(document.querySelectorAll('.c-product-tile__badge-content #monVars')).forEach(function(item){
+    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
+    if(value) item.innerHTML += "<div class='roundel' style='display:none;'>Save " + value + "%</div>";
+  });
+
+}
+
 /*///////// Toggle Behaviour ////////*/
 
 function rlToggle(){
@@ -104,94 +154,6 @@ function rlToggleClass(){
 	});
 }
 
-
-/*//////////// Countdown Behaviour ////////////*/
-
-function rlClock(container, options){
-	
-	// create clock and append
-	var clock = document.createElement('div');
-  clock.className = options.selector;
-	document.getElementById(container).prepend(clock);
-
-	// create daily clock
-	if(options.daily){
-		
-		var endHour = parseInt(options.ends.split(':')[0]);
-		var endMins = parseInt(options.ends.split(':')[1]);
-		
-		// calculate hours
-		function getHours(){
-			var now = new Date();
-			return now.getHours() >= endHour && now.getMinutes() >= endMins ? (23 - now.getHours() + endHour) : (endHour - now.getHours());
-		} 
-		
-		// calculate minutes
-		function getMins(){
-			var now = new Date();
-			return now.getMinutes() >= endMins ? (59 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
-		}
-		
-		// start the countdown
-		var countdown = setInterval(function(){
-			
-			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
-			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
-			
-			// output HTML
-			document.querySelector('.' + options.selector).innerHTML = hours + mins;
-			
-		},1000);	
-		
-	// create deadline clock	
-	}	else {
-		
-		var endHour = parseInt(options.ends.split(':')[0]);
-		var endMins = parseInt(options.ends.split(':')[1]);
-		
-		// calculate days
-		function getDays(){
-			var now = new Date();
-			var msc = 1000 * 60 * 60 * 24;
-			var diff = Math.abs(options.deadline.getTime() - now.getTime());
-			return (Math.ceil(diff / msc) - 1);
-		} 
-		
-		// calculate hours
-		function getHours(){
-			var now = new Date();
-			return now.getHours() >= endHour ? (24 - now.getHours() + endHour) : (endHour - now.getHours());
-		} 
-		
-		// calculate minutes
-		function getMins(){
-			var now = new Date();
-			return now.getMinutes() >= endMins ? (60 - now.getMinutes() + endMins) : (endMins - now.getMinutes());
-		}
-		
-		// start the countdown
-		var countdown = setInterval(function(){
-			
-			var days = '<span class="clock-days">' + getDays() + '<em> days </em></span>';
-			var hours = '<span class="clock-hours">' + getHours() + '<em> hrs </em></span>';
-			var mins = '<span class="clock-mins">' + getMins() + '<em> mins </em></span>';
-			
-			if (getDays() == 0 && getHours() == 0 && getMins() == 0){
-				// output HTML
-				document.querySelector('.' + options.selector).innerHTML= 'Countdown Expired';
-				clearInterval(countdown);
-			} else {
-				// output HTML
-				document.querySelector('.' + options.selector).innerHTML = days + hours + mins;
-			}
-			
-			
-		},1000);	
-		
-	}
-	
-} // end clock
-
 /*//////////// Lightbox Behaviour ////////////*/
 
 function rlPop(options){
@@ -243,8 +205,46 @@ function rlPop(options){
 	
 } // end rlPop()
 
+/*//////////// SEO Expand Behaviour ////////////*/
+
+function rlExpand(){
+
+  var banner;
+
+  if(document.getElementsByClassName("s-text-banner")[0].getElementsByTagName('div')[1]){
+    banner = document.getElementsByClassName("s-text-banner")[0].getElementsByTagName('div')[1];
+  }
+  if(document.getElementById('top-level-cat-banner-text')){
+    banner = document.getElementById('top-level-cat-banner-text');
+  }
+
+  var seoText = banner.getElementsByTagName('p')[0];
+  var readBtn = document.createElement("button");
+
+  if (seoText.textContent.length > 140) {
+    seoText.classList.add('active');
+
+    // add button to DOM
+    readBtn.innerHTML = 'Read More';
+    banner.insertBefore(readBtn, seoText.nextSibling);
+
+    // add click events
+    readBtn.onclick = function(){
+      if(seoText.classList.contains('active')){
+        readBtn.innerHTML = 'Read Less';
+        seoText.classList.remove('active');
+      } else {
+        readBtn.innerHTML = 'Read More';
+        seoText.classList.add('active');
+      }
+    };
+
+  }
+ 
+} // end rlExpand()
+
 /*//////////// jQuery toggleClass ////////////*/
-// Anything with data-target="toggleNextElement" will toggle a class of the next element. 
+
 requirejs(['jquery'], function( $ ) {
 
     $('[data-target="toggleNextElement"]').click(function(){

@@ -27,7 +27,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 }
 
 .pageSection--noTitle {
-	padding-top: 6vw;
+	padding-top: 3vw;
 }
 
 .pageSection--pageTop {
@@ -49,6 +49,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 	margin-bottom: 0;
 }
 
+.pageSection--pageTop h1,
 .pageSection--pageTop h2 {
 	color: #666 !important;
 	font-family: Georgia, Times, serif;
@@ -58,6 +59,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 	margin-bottom: 1.2em;
 }
 
+.pageSection--pageTop h1 span,
 .pageSection--pageTop h2 span {
 	display: block;
 	text-transform: uppercase;
@@ -65,10 +67,12 @@ body[class*="cms-lookbook"] .breadcrumbs {
 }
 
 @media screen and (max-width:420px) {
+	.pageSection--pageTop h1,
 	.pageSection--pageTop h2 {
 		font-size: 2em;
 	}
 
+	.pageSection--pageTop h1 span,
 	.pageSection--pageTop h2 span {
 		font-size: 1.2em;
 	}
@@ -91,7 +95,6 @@ h2.pageSection--pageTop__justHeading {
 
 .lookbook {
 	width: 100%;
-	display:table;
 	padding: 0 6%;
 }
 
@@ -482,7 +485,7 @@ h2.pageSection--pageTop__justHeading {
 .lookbook_decoration {
 	position: absolute;
 	max-width: 237px !important;
-	z-index: 10;
+	z-index: 1;
 }
 
 .lookbook_decoration--rain {
@@ -618,4 +621,14 @@ h2.pageSection--pageTop__justHeading {
 		width: 100%;
 	}
 
+}
+
+.collection-container {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.lookbook__atmos img {
+    width: 100%;
 }

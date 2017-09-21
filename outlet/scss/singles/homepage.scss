@@ -60,7 +60,7 @@
 	}
 	.four .arrow-button {
 		position: absolute;
-		bottom: 12vh;
+		bottom: 30%;
 		top: inherit;
 		left: 0;
 		right: 0;
@@ -73,7 +73,7 @@
 		position: absolute;
 	}
 	.four .flex-item a:hover .arrow-button {
-		bottom: 13vh;
+		bottom: 35%;
 	}
 	.three .by-price-title > span {
 		position: relative;
@@ -99,8 +99,52 @@
 			width: 50%;
 		}
 		.four .arrow-button {
-			top: 32vh;
-			bottom: initial;
+			top: initial;
+			bottom: 30%;
 		}
 	}
+}
+
+/* New Swipe Banner Styles */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swipe .single-slide ul.slide-buttons{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  list-style-type: none;
+  text-align: center;
+  @include tablet {
+    display: none;
+  }
+}
+
+.swipe .single-slide ul.slide-buttons li a{
+  padding: 10px;
+  display: block;
+  width: 140px;
+  background: #111;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
 }

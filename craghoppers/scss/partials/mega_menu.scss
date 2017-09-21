@@ -35,40 +35,101 @@
 }
 
 .mm__column--lookbook a {
-    padding: 0;
-    line-height: 1;
+  padding: 0;
+  line-height: 1;
 }
 
 .mm__column--lookbook li {
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
 }
 
 .mm__column--lookbook li.sub-cat {
-    float: left;
-    margin-left: 7%;
-    width: auto;
+  float: left;
+  margin-left: 7%;
+  width: auto;
 }
 
 .s-main-menu .block .category-items ul.hidden-sub-cat {
-    float: left;
-    padding: 0;
-    min-width: 200px;
+  float: left;
+  padding: 0;
+  min-width: 200px;
 }
 
 .mm__column--lookbook span {
-    float: left;
+  float: left;
 }
 
 .s-main-menu .category-items .mm__column.mm__column--lookbook {
-    width: 50%;
-}
-.s-main-menu .category-items .mm__column.mm__column--lookbook-img {
-    width: 25%;
+  width: 50%;
 }
 
+.s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+  width: 25%;
+}
+
+.mm__column a {
+  line-height: 1;
+}
+
+.mm__column.mm__column--img.expanded {
+  float: right;
+}
+
+.mm-main h3 {
+  font-weight: bold;
+}
+
+.s-main-menu .categories ul.mm__column li a {
+  text-align: left;
+  color: #343334 !important;
+}
+.megamenu-split{
+  .mm__column:first-of-type {
+      width: 40%;
+  }
+  .menu-split {
+      display: inline-block;
+      float:left;
+  }
+  .menu-split:last-of-type {
+      margin-left: 20%;
+      margin-top:7%;
+  }
+}
+.mm__column--img img {
+    width: 100%;
+}
+
+@media only screen and (max-width:1227px){
+  .megamenu-split{
+    .menu-split:last-of-type {
+        margin-top: 8%;
+    }
+  }
+
+}
+
+@media only screen and (max-width:989px){
+  .mm__column.mm__column--img {
+      display: none;
+  }
+  .megamenu-split{
+    .mm__column {
+        width: 26%;
+    }
+    .menu-split:last-of-type {
+        margin-left: 12%;
+        margin-top: 9%;
+    }
+    .mm__column:first-of-type {
+        width: 48%;
+    }
+  }
+}
+
+
 @media only screen and (max-width:740px) {
-  
   .s-main-menu .category-items .mm__column {
     width: 100%;
   }
@@ -82,8 +143,228 @@
     margin-left: 1%;
   }
 
-  .mm__column--img{
+  .mm__column--img {
     display: none;
   }
 
+    .ui-state-active {
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 10px !important;
+  }
+
 }
+
+@media only screen and (max-width:739px){
+  .megamenu-split{
+    .menu-split {
+        display: inline-block !important;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }
+    .s-main-menu .category-items .mm__column {
+        width: 100% !important;
+    }
+
+  .dropdown {
+    width: 100%;
+    text-align: left !important;
+  }
+  .megamenu-split .menu-split {
+    display: inline-block !important;
+    width: 100%;
+  }
+
+}
+
+
+
+/* Insect Repellent Mega Menu */
+.s-main-menu .block .mmrow--nosilife {
+  width: 50%;
+  margin-top: 3%;
+  text-align: left;
+}
+
+.s-main-menu .block .mmrow.mmrow--nosilife-image {
+  float: right;
+  width: auto;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  margin-top: 3%;
+}
+
+.s-main-menu .block .mmrow--nosilife ul.mmlist {
+  padding-left: 0;
+}
+
+.mmrow--nosilife .mmrow__header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+ul.mmlist {
+  padding-bottom: 8%;
+}
+
+ul.mm__column.mm__column--nosilife-fom.expanded {
+  width: 100%;
+  padding-left: 0;
+}
+
+li.dropdown.dropdown--red a {
+  color: #ff0000;
+}
+
+.s-main-menu .mm__container--insectrepellent .mm__column--img{
+  float: right;
+  width: auto;
+  padding: 0;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--extend{
+  width: auto;
+}
+
+.s-main-menu .category-items .whatisnosilife{
+  margin-top:11%; 
+}
+
+@media only screen and (max-width:1000px) {
+  .s-main-menu .block .mmrow--nosilife ul.mmlist {
+    padding-bottom: 2%;
+  }
+
+}
+
+@media only screen and (max-width:770px) {
+  .mm__column img {
+    margin-top: 0;
+    width: auto;
+  }
+
+  .columnHead {
+    margin-left: 1%;
+  }
+
+  .s-main-menu .category-items .mm__column{
+    width: 33%;
+  }
+
+
+  .s-main-menu .category-items .mm__column.mm__column--lookbook{
+    width: 100%;
+  }
+
+  .mmLookbookColumn li {
+    padding-right: 12px;
+  }
+
+  .hidden-sub-cat {
+    opacity: 1 !important;
+    width: 100%;
+  }
+
+  .mm__column.mm__column--img,
+  .mmLookbookColumn:nth-child(3),.s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+    display: none;
+  }
+
+  .mmLookbookColumn--links {
+    width: 90%;
+  }
+
+  .mm__column--lookbook li.sub-cat {
+    margin-left: 1%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .mm__column--lookbook span {
+    margin-left: 1%;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2%;
+  }
+
+  .s-main-menu .categories ul.mm__column li.sub-cat a {
+    margin-left: 0;
+  }
+
+  .s-main-menu .category-items .mm__column.mm__column--extend {
+    width: 100%;
+  }
+
+  .s-main-menu .category-items .whatisnosilife {
+    margin-top: 0;
+  }
+
+}
+
+/* centre align nav */
+.s-main-menu .categories>li {
+  text-align: center;
+  display: inline-block;
+  padding-right: 0.1%;
+}
+
+.s-main-menu .categories {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.s-main-menu {
+  position: relative;
+}
+
+.shopall {
+  display: none;
+}
+
+@media screen and (max-width:770px) {
+
+  .shopall {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:550px) {
+  
+  .s-main-menu .categories > li.ui-menu-item {
+      width: 100%;
+      text-align: left;
+  }
+  .s-main-menu .category-items .mm__column {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .s-main-menu .categories > li {
+    text-align: left;
+    display: block;
+  }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%;
+  }
+
+}
+
+/* END */
+
+/* Bear Grylls Style */
+.s-main-menu .categories ul.mm__column li.beargryllsclearance a {
+    color: #E16A17 !important;
+    font-weight: 700;
+}
+/* END */

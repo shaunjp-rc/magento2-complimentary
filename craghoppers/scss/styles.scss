@@ -2,23 +2,23 @@
 
 // For importing partials only... no Sass in here
 
-
+// utility styles
+@import 'modules/util';
 
 // Generic Stuff
 @import 'partials/cms-page-generic';
 
-
-
 // Specific Stuff
 @import 'partials/homepage';
 // @import 'partials/kit-guide' uncomment this when kitGuide goes live
-
 @import 'partials/customer_services';
-@import 'partials/mega_menu'; 
-
- 
+@import 'partials/mega_menu';
 @import 'partials/lookbook';
-@import 'partials/customer_services';
 @import 'partials/microsite';
 @import 'partials/toplevel_banners';
-
+@import 'partials/protect-liberate';
+@import 'partials/plp';
+@import 'partials/pdp'; 
+@import 'partials/fonts';
+@import 'partials/utc'; 
+@import 'partials/trouser_campaign'; 

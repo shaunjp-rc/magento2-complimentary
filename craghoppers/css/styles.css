@@ -1,3 +1,484 @@
+/***************************************************
+/* UTILITY CSS
+/* All below css is external from reglib
+/**************************************************/
+/****************************
+/* Image Styles
+/***************************/
+.cms-page img {
+  width: 100%; }
+
+/****************************
+/* Effects Library
+/***************************/
+.ease {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out; }
+
+/****************************
+/* Colour Library
+/***************************/
+.blue {
+  background-color: #0080c5;
+  color: #fff; }
+
+.green {
+  background-color: #5aa11f;
+  color: #fff; }
+
+.black {
+  background-color: #000;
+  color: #fff; }
+
+/****************************
+/* Button Styles
+/***************************/
+.arrow-button {
+  padding: 10px 30px 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/white-arrow-line.png);
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  background-size: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 11px 10px -5px rgba(0, 0, 0, 0.29);
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  top: 0px;
+  position: relative; }
+
+.arrow-button:hover {
+  position: relative;
+  top: -10px;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  box-shadow: 0px 11px 30px -5px rgba(0, 0, 0, 0.29); }
+
+/****************************
+/* Flex grid styles
+/***************************/
+/* base flex styles */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0; }
+
+.flex-container.flex-end {
+  justify-content: flex-end; }
+
+.flex-container.flex-start {
+  justify-content: flex-start; }
+
+.flex-container.flex-center {
+  justify-content: center; }
+
+.flex-container.flex-space {
+  justify-content: space-around; }
+
+.flex-item {
+  flex-grow: 1;
+  padding: 0 5px;
+  box-sizing: border-box; }
+
+.flex-item > img {
+  width: 100%; }
+
+.flex-container.flex-end > .flex-item,
+.flex-container.flex-start > .flex-item,
+.flex-container.flex-center > .flex-item,
+.flex-container.flex-space > .flex-item {
+  flex-grow: 0; }
+
+/* flex column styles */
+.flex-item.col-1 {
+  width: 8.33%; }
+
+.flex-item.col-2 {
+  width: 16.66%; }
+
+.flex-item.col-3 {
+  width: 24.99%; }
+
+.flex-item.col-4 {
+  width: 33.32%; }
+
+.flex-item.col-5 {
+  width: 41.65%; }
+
+.flex-item.col-6 {
+  width: 49.98%; }
+
+.flex-item.col-7 {
+  width: 58.31%; }
+
+.flex-item.col-8 {
+  width: 66.64%; }
+
+.flex-item.col-9 {
+  width: 74.97%; }
+
+.flex-item.col-10 {
+  width: 83.3%; }
+
+.flex-item.col-11 {
+  width: 91.63%; }
+
+.flex-item.col-12 {
+  width: 100%; }
+
+.flex-item.auto {
+  flex-grow: 1;
+  flex-shrink: 1; }
+
+@media screen and (max-width: 1024px) {
+  /* flex column styles */
+  .flex-item.col-1 {
+    width: 24.99%; }
+
+  .flex-item.col-2 {
+    width: 24.99%; }
+
+  .flex-item.col-3 {
+    width: 24.99%; }
+
+  .flex-item.col-4 {
+    width: 49.98%; }
+
+  .flex-item.col-5 {
+    width: 49.98%; }
+
+  .flex-item.col-6 {
+    width: 49.98%; }
+
+  .flex-item.col-7 {
+    width: 100%; }
+
+  .flex-item.col-8 {
+    width: 100%; }
+
+  .flex-item.col-9 {
+    width: 100%; }
+
+  .flex-item.col-10 {
+    width: 100%; }
+
+  .flex-item.col-11 {
+    width: 100%; }
+
+  .flex-item.col-12 {
+    width: 100%; }
+
+  .flex-box.tablet-first {
+    order: -1; }
+
+  .flex-box.tablet-last {
+    order: 13; } }
+@media screen and (max-width: 740px) {
+  /* flex column styles */
+  .flex-item.col-1 {
+    width: 49.98%; }
+
+  .flex-item.col-2 {
+    width: 49.98%; }
+
+  .flex-item.col-3 {
+    width: 49.98%; }
+
+  .flex-item.col-4 {
+    width: 49.98%; }
+
+  .flex-item.col-5 {
+    width: 49.98%; }
+
+  .flex-item.col-6 {
+    width: 49.98%; }
+
+  .flex-item.col-7 {
+    width: 100%; }
+
+  .flex-item.col-8 {
+    width: 100%; }
+
+  .flex-item.col-9 {
+    width: 100%; }
+
+  .flex-item.col-10 {
+    width: 100%; }
+
+  .flex-item.col-11 {
+    width: 100%; }
+
+  .flex-item.col-12 {
+    width: 100%; }
+
+  .flex-box.mobile-first {
+    order: -1; }
+
+  .flex-box.mobile-last {
+    order: 13; } }
+@media screen and (max-width: 740px) {
+  /* flex column styles */
+  .flex-item.col-1 {
+    width: 100%; }
+
+  .flex-item.col-2 {
+    width: 100%; }
+
+  .flex-item.col-3 {
+    width: 100%; }
+
+  .flex-item.col-4 {
+    width: 100%; }
+
+  .flex-item.col-5 {
+    width: 100%; }
+
+  .flex-item.col-6 {
+    width: 100%; }
+
+  .flex-item.col-7 {
+    width: 100%; }
+
+  .flex-item.col-8 {
+    width: 100%; }
+
+  .flex-item.col-9 {
+    width: 100%; }
+
+  .flex-item.col-10 {
+    width: 100%; }
+
+  .flex-item.col-11 {
+    width: 100%; }
+
+  .flex-item.col-12 {
+    width: 100%; } }
+/********************************
+/* Product Page Size Table Styles
+/*******************************/
+.js-size-guide-modal td {
+  background: #f9f9f9;
+  border: solid 1px #e0e0e0;
+  text-transform: uppercase;
+  padding: 10px; }
+
+.js-size-guide-modal .table-heading > td {
+  background: #e0e0e0;
+  height: 50px; }
+
+/****************************
+/* Toggle Action Styles
+/***************************/
+*[data-action="toggle"] {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  position: relative;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  padding-right: 30px; }
+
+*[data-action="toggle"]:hover {
+  background: #f7f7f7; }
+
+*[data-action="toggle"]::after {
+  content: "";
+  border-width: 0.65rem 0.5rem 0 0.5rem;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  transition: all ease 0.5s; }
+
+*[data-action="toggle"].active::after {
+  transform: rotateZ(180deg);
+  transition: all ease 0.5s; }
+
+.action-toggle .toggle-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease 0.5s; }
+
+.action-toggle .toggle-content.active {
+  opacity: 1;
+  max-height: 2000px;
+  transition: all ease 0.5s; }
+
+/****************************
+/* Tabs Styles
+/***************************/
+.action-tabs .tabs-content {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  position: relative; }
+
+.action-tabs .tabs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; }
+
+.action-tabs .tabs *[data-action="tab"] {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  padding: 10px 16px;
+  flex-grow: 1;
+  margin: 0 0px;
+  cursor: pointer;
+  font-size: 1.2em;
+  flex-basis: 200px; }
+
+.action-tabs .tabs *[data-action="tab"]:hover {
+  background: #f7f7f7; }
+
+.action-tabs .tabs *[data-action="tab"].active {
+  background: #ddd; }
+
+.action-tabs .tabs-content > * {
+  display: none; }
+
+.action-tabs .tabs-content > *.active {
+  display: block; }
+
+/****************************
+/* Overlay Banner Styles
+/***************************/
+.overlay-banner {
+  position: relative;
+  margin-bottom: 40px; }
+
+.overlay-banner img {
+  width: 100%; }
+
+.overlay-banner .overlay-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: table; }
+
+/****************************
+/* Parallax Styles
+/***************************/
+.action-parallax {
+  padding: 15% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.action-parallax h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 4vw;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.2); }
+
+/****************************
+/* Wrapper Styles
+/***************************/
+.content-wrapper {
+  max-width: 1228px;
+  margin: 0 auto;
+  width: 100%; }
+
+@media screen and (max-width: 1227px) {
+  .content-wrapper {
+    max-width: 990px;
+    margin: 0 auto; } }
+@media screen and (max-width: 989px) {
+  .content-wrapper {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 10px; } }
+/****************************
+/* Lightbox Styles
+/***************************/
+.pop-overlay {
+  display: none; }
+
+.pop-overlay.active {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 8; }
+
+.rl-pop {
+  display: none; }
+
+.rl-pop.active {
+  display: block;
+  position: fixed;
+  z-index: 9;
+  background: #fff;
+  width: 60%;
+  margin: 20% 20% 10px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  top: 0; }
+
+.rl-pop [data-action="pop-close"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 14px;
+  background: #ddd;
+  border-radius: 0 0 0 4px;
+  line-height: 0;
+  font-weight: bold;
+  cursor: pointer; }
+
+@media screen and (max-width: 700px) {
+  .rl-pop.active {
+    width: 90%;
+    margin: 20px 5%; } }
+/****************************
+/* Misc
+/***************************/
+.c-icon--extra {
+  width: 20px; }
+
+.mobile-only {
+  display: none !important; }
+
+@media only screen and (max-width: 660px) {
+  .c-icon--extra {
+    width: 30px; }
+
+  .mobile-only {
+    display: block !important; } }
+/****************************
+/* Slider Styles
+/***************************/
+.swiper-button-prev, .swiper-button-next {
+  filter: grayscale(100%) brightness(500%);
+  opacity: 1 !important; }
+
 /* Generic stuff that can be used on any/every CMS page */
 .cms-index-index .main-container {
   -moz-box-sizing: border-box;
@@ -365,6 +846,9 @@
   margin-bottom: 1.5%;
   text-transform: uppercase; }
 
+@media only screen and (max-width: 770px) {
+  .c-basket__header .btn-paypal {
+    padding-left: 0; } }
 @media only screen and (max-width: 740px) {
   .basket__delivery {
     width: 100%;
@@ -430,6 +914,290 @@
     border-style: solid;
     border-width: 0 7px 7px 7px;
     border-color: transparent transparent #afafaf transparent; } }
+.c-footer__social {
+  padding: 30px 0 20px 0; }
+
+/* Banner/SEO */
+.s-text-banner {
+  padding: 0; }
+
+.s-text-banner h1 {
+  font-weight: 700; }
+
+/* Lower SEO styles */
+.pageothertext,
+.s-text-banner {
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto;
+  text-align: left; }
+
+/* END */
+.bannerOverlay__cta--SaleBttn:hover {
+  background: #ff0000; }
+
+/* Competition Form */
+.cms-competition-form .toggles label,
+.cms-competition-form .toggles select {
+  width: 100%; }
+
+.cms-competition-form .redeye-form .input-box {
+  float: left;
+  width: 100%;
+  margin-top: 0; }
+
+.cms-competition-form .redeye-form .input-box input.input-text {
+  width: 100% !important; }
+
+.competitionterms {
+  margin-top: 1%;
+  border: 1px solid;
+  padding: 1%;
+  margin-bottom: 1%; }
+
+.competitionterms h3 {
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer; }
+
+.competitionterms--card {
+  display: none; }
+
+.competitionterms--card.topen {
+  display: block;
+  margin-top: 0.5%; }
+
+.competitionterms h3:after {
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #000 transparent transparent transparent;
+  content: '';
+  float: right;
+  margin-top: 0.5%; }
+
+.competitionterms h3.topen:after {
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #000 transparent;
+  content: '';
+  float: right;
+  margin-top: 0.5%; }
+
+.competition__container p {
+  width: 100% !important;
+  margin-top: 2%; }
+
+.competition__container .competitionterms--card p {
+  margin: 0; }
+
+/* END */
+/* No Results */
+.noresultbanner {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/no_results/NoResults_1268x311px.jpg);
+  background-size: cover;
+  padding: 4%;
+  text-align: center;
+  background-position: center center;
+  background-blend-mode: color;
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.noresults__suggestions ul {
+  list-style-type: none;
+  margin: 0; }
+
+.noresultscontainer {
+  text-align: center;
+  margin-top: 1%; }
+
+.noresultscontainer__nav a {
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 0.5% 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.noresultscontainer__nav a:hover {
+  background: #000;
+  color: #fff; }
+
+@media only screen and (max-width: 480px) {
+  .noresultscontainer__nav a {
+    width: 49%;
+    margin-top: 0.7%; } }
+@media only screen and (max-width: 400px) {
+  .noresultscontainer__nav a {
+    width: 100%; } }
+/* END */
+@media screen and (max-width: 770px) {
+  .c-accordion__content {
+    height: 70px; } }
+.c-input-wrap.c-input-wrap--icon-right {
+  padding-top: 16px; }
+
+.c-header-search .c-input-wrap__icon {
+  top: 18px; }
+
+.c-mini-cart {
+  padding-top: 27px; }
+
+.c-mini-cart__drop-down {
+  top: 65px; }
+
+@media only screen and (max-width: 500px) {
+  .c-mini-cart {
+    padding-top: 0; } }
+/*basket start*/
+.c-basket-checkout__shipping-price,
+.c-basket-checkout__subtotal-price,
+.c-basket-checkout__total-price {
+  margin-right: 0px; }
+
+.c-basket__subtotal {
+  float: right; }
+
+.o-layout__item:nth-child(4) {
+  text-align: right; }
+
+.c-basket__continue-shopping {
+  float: left; }
+
+.c-basket__content .o-layout__item:nth-child(3) {
+  padding-left: 48px !important; }
+
+.c-basket__remove {
+  padding-left: 48px; }
+
+.o-layout__item:nth-child(2) {
+  padding-left: 20px; }
+
+.c-basket__continue-shopping {
+  float: left;
+  margin-left: -72px;
+  background: #343334;
+  color: #fff !important;
+  padding: 5px 20px 4px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.33333;
+  border: 2px solid #343334; }
+
+/* END */
+/* Footer payment logos */
+.c-footer__payment-icons {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/logos/payment-options.png); }
+
+/* END */
+/* social icons */
+@media screen and (max-width: 770px) {
+  .s-footer-links-social .c-icon--facebook,
+  .s-footer-links-social .c-icon--google,
+  .s-footer-links-social .c-icon--instagram,
+  .s-footer-links-social .c-icon--twitter,
+  .s-footer-links-social .c-icon--youtube {
+    margin: 0 10px 0 0; } }
+/* END */
+/* feefo */
+h4.c-feefo__titl {
+  color: #fff;
+  margin-bottom: 0; }
+
+.c-feefo {
+  margin: 0; }
+
+@media only screen and (max-width: 770px) {
+  .c-feefo {
+    margin: 0px 0 20px 0; }
+
+  .s-footer-links-social h4 {
+    padding-left: 11%; } }
+@media screen and (max-width: 500px) {
+  body .c-feefo {
+    background-size: 80px;
+    padding: 0;
+    min-height: 42px;
+    background-position: left 15px center;
+    margin: 7px 0px;
+    position: relative; }
+
+  .c-feefo h4.c-feefo__titl {
+    display: none; }
+
+  .c-feefo .c-feefo__percentage {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+
+  .c-feefo__subtitle {
+    position: absolute;
+    bottom: -23px;
+    right: 0;
+    left: 0;
+    color: #424243; } }
+/* END */
+/* Main Nav */
+.s-main-menu .categories > li > a:active,
+.s-main-menu .categories > li > a:focus,
+.s-main-menu .categories > li > a:hover,
+.s-main-menu .categories > li > a:visited {
+  text-decoration: underline; }
+
+.s-main-menu .mm__column.mm-outlet {
+  float: right; }
+
+.s-main-menu .block .category-items {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* store finder */
+.c-store-list__title {
+  color: #343334; }
+
+a.c-store-list__details {
+  padding: 0 0 0 25px;
+  color: #5f5f5e; }
+
+.c-store-list__distance {
+  color: #5f5f5e;
+  padding: 0 0 0 25px; }
+
+.c-store-list__address {
+  width: 100%;
+  font-size: 1.08rem; }
+
+.c-store-list__header {
+  color: #343334; }
+
+.c-btn--alternate {
+  background: #5f5f5e;
+  border-color: #5f5f5e; }
+
+/* END */
+/* ios input */
+@media only screen and (max-width: 1024px) {
+  input#search.c-input.c-header-search__input,
+  input#newsletter.c-input-combined__input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; } }
+/* END */
+/* Search Clear fix */
+.c-header-search .c-input-wrap__clear {
+  top: 25px; }
+
+.c-header-search__suggestions {
+  top: 57px; }
+
+/* END */
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+  display: none; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -440,11 +1208,15 @@
   position: relative; }
 
 .flexslider .slides li {
-  position: relative; }
+  position: relative;
+  list-style-type: none; }
 
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flexslider-container {
   position: relative; }
+
+li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
+  display: none; }
 
 /* Caption style */
 .flex-caption {
@@ -513,7 +1285,7 @@
 .flex-direction-nav {
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 1%;
   margin-top: -28px;
   width: 90%; }
 
@@ -565,7 +1337,25 @@
     background-position: -31px 0;
     background-size: 200%; } }
 .flex-control-nav {
-  display: none; }
+  display: block;
+  margin: 0;
+  position: absolute;
+  bottom: 8px;
+  z-index: 99;
+  width: 100%;
+  text-align: center; }
+
+.flex-control-nav li {
+  display: inline-block; }
+
+.flex-control-nav li a {
+  background: transparent;
+  border-radius: 25px;
+  margin: 0 3px;
+  border: 2px solid #fff; }
+
+.flex-control-nav li a.flex-active {
+  background: #fff; }
 
 .fullWidthSlider__slidesList .fullWidthSlider__slideContainer {
   margin-left: 0; }
@@ -579,7 +1369,8 @@
   letter-spacing: 4px;
   max-width: 80%;
   margin: 0 auto;
-  display: table; }
+  display: table;
+  font-family: Georgia,Arial,sans-serif; }
 
 .bannerOverlay__title--slider span {
   text-transform: lowercase;
@@ -845,7 +1636,7 @@ p.deliveryBar__text {
     padding: 0 6vw; } }
 .pageTextBlock__quote {
   display: block;
-  font-size: 2.4vw;
+  font-size: 2vw;
   line-height: 1.2;
   text-align: center; }
 
@@ -861,7 +1652,7 @@ p.deliveryBar__text {
     font-size: 2em; } }
 .pageTextBlock__citation {
   display: block;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   line-height: 1;
   margin: 2vw 0;
   text-align: center; }
@@ -978,7 +1769,7 @@ p.deliveryBar__text {
   margin: 0 2% 0 0; }
 
 .pageSection--noTitle {
-  padding-top: 6vw; }
+  padding-top: 3vw; }
 
 .pageBanner--mobile {
   display: none; }
@@ -1069,6 +1860,79 @@ ul.fullWidthSlider__slidesList {
 
   .pageSection__title {
     font-size: 14px; } }
+.gtm-promo {
+  text-decoration: none; }
+
+@media screen and (max-width: 800px) {
+  .flex-direction-nav {
+    margin-left: 0; }
+
+  .bannerOverlay__contentArea--slider {
+    padding-bottom: 3%; } }
+.bannerOverlay-noimg {
+  height: 392px; }
+
+@media screen and (max-width: 1227px) {
+  .bannerOverlay-noimg {
+    height: 316px; } }
+@media screen and (max-width: 989px) {
+  .bannerOverlay-noimg {
+    height: 236px; } }
+@media screen and (max-width: 500px) {
+  .bannerOverlay-noimg {
+    height: 65vw;
+    max-height: 324px; } }
+/* Homepage SEO show/hide */
+.pageSection--Seo {
+  height: 190px;
+  overflow: hidden;
+  position: relative; }
+
+.readmore {
+  margin: 0 auto;
+  text-align: center;
+  width: 10%;
+  background: #343334;
+  padding: 1% 0;
+  color: #fff;
+  cursor: pointer; }
+
+.seo-container {
+  margin-top: -4%; }
+
+.pageSection--Seo.seo-open {
+  height: 100%; }
+
+/* END */
+/* AW17 Updates */
+.pageSection--thirds .pageSection__title {
+  font-family: Georgia,Arial,sans-serif;
+  color: #fff;
+  font-size: 25px; }
+
+.pageSection--thirds {
+  margin-top: 4%; }
+
+.pageSection--noTitle.pageBanner--desktop {
+  padding-top: 3vw; }
+
+.pageSection--community .pageSection__title {
+  font-family: Georgia,Arial,sans-serif;
+  font-size: 22px; }
+
+.pageBanner--desktop {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 989px) {
+  .pageSection--thirds .pageSection__title {
+    font-size: 21px; } }
+@media only screen and (max-width: 600px) {
+  .readmore {
+    width: 30%; } }
+@media only screen and (max-width: 450px) {
+  .pageSection--thirds .pageSection__title {
+    font-size: 4.5vw; } }
+/* END */
 /****** Customer Service Styles ******/
 .helppages .helppagesleft {
   float: left; }
@@ -1218,7 +2082,9 @@ tr.headerrow,
   font-weight: 600; }
 
 .datatablesizing {
-  margin-top: 1%; }
+  margin-top: 1%;
+  width: 100%;
+  text-align: center; }
 
 #customerservice__row--women {
   display: block; }
@@ -1260,6 +2126,12 @@ div#customerservice__row--kids table th {
 
 .mobilefootwearsection tr:first-child {
   font-weight: 600; }
+
+.cms-price-match-promise .redeye-form input {
+  width: 100%;
+  float: left;
+  clear: both;
+  border: 1px solid; }
 
 /* New Fit Guide Diagram Stuff */
 .fitGuideDiagrams {
@@ -1312,6 +2184,15 @@ div#customerservice__row--kids table th {
 .helppagesright span {
   font-weight: bold;
   font-size: 16px; }
+
+.cms-privacy-policy .customerservice__row ul {
+  margin-left: 3%; }
+
+.cms-privacy-policy .customerservice__row li {
+  list-style-type: disc; }
+
+.requiredfield {
+  color: #ff0000; }
 
 /* Media Queries for Customer Services Start */
 @media only screen and (max-width: 989px) {
@@ -1429,6 +2310,212 @@ div#customerservice__row--kids table th {
   .fitGuideDiagrams__block {
     width: 100%;
     margin: 0 0 2%; } }
+/* New contact us page */
+.std .card p {
+  width: 100%; }
+
+.contact__card {
+  padding-bottom: 1%;
+  border-bottom: 1px solid;
+  margin-bottom: 2%; }
+
+.contact__popup {
+  display: none; }
+
+.contact__popup.popup_open {
+  display: block;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  max-width: 1228px;
+  background: #fff;
+  top: 85px;
+  padding: 10px;
+  overflow-y: scroll;
+  height: 750px; }
+
+.popup__inner {
+  background: #fff;
+  float: left;
+  width: 100%; }
+
+.popup__bg.popup_open {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 5; }
+
+div#form__close {
+  float: right;
+  background: #e3e3e3;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 999999999999; }
+
+.form_popup {
+  cursor: pointer;
+  text-decoration: underline; }
+
+@media only screen and (max-width: 480px) {
+  .contact__popup.popup_open {
+    overflow: scroll;
+    height: 500px;
+    padding: 20px 40px; } }
+/* Returns */
+.returns-myhermes {
+  padding: 1.5% 0 1% 0; }
+
+p.customerservice-left {
+  text-align: left; }
+
+/* END */
+/* delivery and returns */
+.action-tabs .tabs-content {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  position: relative; }
+
+.action-tabs .tabs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; }
+
+.action-tabs .tabs *[data-action="tab"] {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  padding: 20px 14px;
+  flex-grow: 1;
+  margin: 0 0px;
+  cursor: pointer;
+  font-size: 1em;
+  flex-basis: 200px;
+  font-weight: bold;
+  text-align: center; }
+
+.action-tabs .tabs *[data-action="tab"]:hover {
+  background: #f7f7f7; }
+
+.action-tabs .tabs *[data-action="tab"].active {
+  background: #ddd; }
+
+.action-tabs .tabs-content > * {
+  display: none; }
+
+.action-tabs .tabs-content > *.active {
+  display: block; }
+
+.delret-first {
+  padding-top: 1.5%; }
+
+h2.delret-title {
+  font-size: 1.7em;
+  padding-top: 1%; }
+
+h3.delret-title {
+  font-weight: 400;
+  font-size: 1.4em;
+  padding-top: 20px;
+  margin-bottom: 5px; }
+
+ul.delret-list {
+  list-style: none; }
+
+/* END */
+/* Modern SLavery Page */
+.modern-slavery-title {
+  font-size: 300%;
+  font-family: Georgia, Times;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3% 0 5% 0; }
+
+.modern-slavery-left {
+  float: left;
+  width: 44%;
+  padding: 0 3%; }
+
+.modern-slavery-copy {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+  font-family: Arial;
+  padding-bottom: 8%; }
+
+.modern-slavery-btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #8996a2;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 230px;
+  text-align: center;
+  font-weight: bold; }
+
+.modern-slavery-btn:hover {
+  background: #727c85; }
+
+a:link, a:visited, a:hover, a:active .modern-slavery-btn {
+  text-decoration: none; }
+
+.modern-slavery-img {
+  float: left;
+  width: 47%;
+  padding: 0 3% 0 0; }
+
+.modern-slavery-clear {
+  clear: both; }
+
+@media only screen and (max-width: 800px) {
+  .modern-slavery-title {
+    font-size: 200%; }
+
+  .modern-slavery-left {
+    float: none;
+    width: 96%;
+    padding: 0 2%; }
+
+  .modern-slavery-img {
+    float: none;
+    width: 96%;
+    padding: 5% 2% 0 2%; } }
+/* END */
+/* Unsubscribe form */
+iframe.unsubscribe {
+  border: 0;
+  width: 100%;
+  padding-top: 2%; }
+
+/* END */
+/* contact us wufoo form */
+#wufooFormzcppv9q1o0smos {
+  height: 1000px; }
+
+/* END */
+/* Success Message */
+.successmessage {
+  text-align: center;
+  background: #008000;
+  color: #fff;
+  padding: 2% 0;
+  font-size: 16px; }
+
+/* END */
+/* Form error scroll */
+.redeye-form .invalid {
+  border: 2px solid #ff0000; }
+
+.redeye-form .popup {
+  color: #ff0000; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
@@ -1486,6 +2573,45 @@ div#customerservice__row--kids table th {
 .s-main-menu .category-items .mm__column.mm__column--lookbook-img {
   width: 25%; }
 
+.mm__column a {
+  line-height: 1; }
+
+.mm__column.mm__column--img.expanded {
+  float: right; }
+
+.mm-main h3 {
+  font-weight: bold; }
+
+.s-main-menu .categories ul.mm__column li a {
+  text-align: left;
+  color: #343334 !important; }
+
+.megamenu-split .mm__column:first-of-type {
+  width: 40%; }
+.megamenu-split .menu-split {
+  display: inline-block;
+  float: left; }
+.megamenu-split .menu-split:last-of-type {
+  margin-left: 20%;
+  margin-top: 7%; }
+
+.mm__column--img img {
+  width: 100%; }
+
+@media only screen and (max-width: 1227px) {
+  .megamenu-split .menu-split:last-of-type {
+    margin-top: 8%; } }
+@media only screen and (max-width: 989px) {
+  .mm__column.mm__column--img {
+    display: none; }
+
+  .megamenu-split .mm__column {
+    width: 26%; }
+  .megamenu-split .menu-split:last-of-type {
+    margin-left: 12%;
+    margin-top: 9%; }
+  .megamenu-split .mm__column:first-of-type {
+    width: 48%; } }
 @media only screen and (max-width: 740px) {
   .s-main-menu .category-items .mm__column {
     width: 100%; }
@@ -1498,7 +2624,165 @@ div#customerservice__row--kids table th {
     margin-left: 1%; }
 
   .mm__column--img {
-    display: none; } }
+    display: none; }
+
+  .ui-state-active {
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 10px !important; } }
+@media only screen and (max-width: 739px) {
+  .megamenu-split .menu-split {
+    display: inline-block !important;
+    width: 100%;
+    margin: 0 !important; }
+
+  .s-main-menu .category-items .mm__column {
+    width: 100% !important; }
+
+  .dropdown {
+    width: 100%;
+    text-align: left !important; }
+
+  .megamenu-split .menu-split {
+    display: inline-block !important;
+    width: 100%; } }
+/* Insect Repellent Mega Menu */
+.s-main-menu .block .mmrow--nosilife {
+  width: 50%;
+  margin-top: 3%;
+  text-align: left; }
+
+.s-main-menu .block .mmrow.mmrow--nosilife-image {
+  float: right;
+  width: auto;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  margin-top: 3%; }
+
+.s-main-menu .block .mmrow--nosilife ul.mmlist {
+  padding-left: 0; }
+
+.mmrow--nosilife .mmrow__header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 2%; }
+
+ul.mmlist {
+  padding-bottom: 8%; }
+
+ul.mm__column.mm__column--nosilife-fom.expanded {
+  width: 100%;
+  padding-left: 0; }
+
+li.dropdown.dropdown--red a {
+  color: #ff0000; }
+
+.s-main-menu .mm__container--insectrepellent .mm__column--img {
+  float: right;
+  width: auto;
+  padding: 0; }
+
+.s-main-menu .category-items .mm__column.mm__column--extend {
+  width: auto; }
+
+.s-main-menu .category-items .whatisnosilife {
+  margin-top: 11%; }
+
+@media only screen and (max-width: 1000px) {
+  .s-main-menu .block .mmrow--nosilife ul.mmlist {
+    padding-bottom: 2%; } }
+@media only screen and (max-width: 770px) {
+  .mm__column img {
+    margin-top: 0;
+    width: auto; }
+
+  .columnHead {
+    margin-left: 1%; }
+
+  .s-main-menu .category-items .mm__column {
+    width: 33%; }
+
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%; }
+
+  .mmLookbookColumn li {
+    padding-right: 12px; }
+
+  .hidden-sub-cat {
+    opacity: 1 !important;
+    width: 100%; }
+
+  .mm__column.mm__column--img,
+  .mmLookbookColumn:nth-child(3), .s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+    display: none; }
+
+  .mmLookbookColumn--links {
+    width: 90%; }
+
+  .mm__column--lookbook li.sub-cat {
+    margin-left: 1%;
+    width: 100%;
+    display: inline-block; }
+
+  .mm__column--lookbook span {
+    margin-left: 1%;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2%; }
+
+  .s-main-menu .categories ul.mm__column li.sub-cat a {
+    margin-left: 0; }
+
+  .s-main-menu .category-items .mm__column.mm__column--extend {
+    width: 100%; }
+
+  .s-main-menu .category-items .whatisnosilife {
+    margin-top: 0; } }
+/* centre align nav */
+.s-main-menu .categories > li {
+  text-align: center;
+  display: inline-block;
+  padding-right: 0.1%; }
+
+.s-main-menu .categories {
+  display: table;
+  margin: 0 auto;
+  text-align: center; }
+
+.s-main-menu {
+  position: relative; }
+
+.shopall {
+  display: none; }
+
+@media screen and (max-width: 770px) {
+  .shopall {
+    display: block; } }
+@media screen and (max-width: 550px) {
+  .s-main-menu .categories > li.ui-menu-item {
+    width: 100%;
+    text-align: left; }
+
+  .s-main-menu .category-items .mm__column {
+    width: 100%; } }
+@media screen and (max-width: 500px) {
+  .s-main-menu .categories > li {
+    text-align: left;
+    display: block; }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%; } }
+/* END */
+/* Bear Grylls Style */
+.s-main-menu .categories ul.mm__column li.beargryllsclearance a {
+  color: #E16A17 !important;
+  font-weight: 700; }
+
+/* END */
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -1518,7 +2802,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
   padding: 0; }
 
 .pageSection--noTitle {
-  padding-top: 6vw; }
+  padding-top: 3vw; }
 
 .pageSection--pageTop {
   text-align: center;
@@ -1535,6 +2819,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 .pageSection--pageTopJustHeading {
   margin-bottom: 0; }
 
+.pageSection--pageTop h1,
 .pageSection--pageTop h2 {
   color: #666 !important;
   font-family: Georgia, Times, serif;
@@ -1543,15 +2828,18 @@ body[class*="cms-lookbook"] .breadcrumbs {
   font-weight: 400;
   margin-bottom: 1.2em; }
 
+.pageSection--pageTop h1 span,
 .pageSection--pageTop h2 span {
   display: block;
   text-transform: uppercase;
   font-size: 1.3em; }
 
 @media screen and (max-width: 420px) {
+  .pageSection--pageTop h1,
   .pageSection--pageTop h2 {
     font-size: 2em; }
 
+  .pageSection--pageTop h1 span,
   .pageSection--pageTop h2 span {
     font-size: 1.2em; } }
 h2.pageSection--pageTop__justHeading {
@@ -1568,7 +2856,6 @@ h2.pageSection--pageTop__justHeading {
 
 .lookbook {
   width: 100%;
-  display: table;
   padding: 0 6%; }
 
 .lookbook h3 {
@@ -1890,7 +3177,7 @@ h2.pageSection--pageTop__justHeading {
 .lookbook_decoration {
   position: absolute;
   max-width: 237px !important;
-  z-index: 10; }
+  z-index: 1; }
 
 .lookbook_decoration--rain {
   top: 0;
@@ -2003,366 +3290,14 @@ h2.pageSection--pageTop__justHeading {
 
   .lookbook__atmos img {
     width: 100%; } }
-/****** Customer Service Styles ******/
-.helppages .helppagesleft {
-  float: left; }
-
-.helppages .helppagesright {
-  width: 86%;
-  padding-left: 2vw;
-  float: right; }
-
-.helppages li {
-  list-style-type: none;
-  padding: 2px; }
-
-.helppages .helppagemenuheadingfirst {
-  border-bottom: 4px solid #cccccc;
-  font-weight: bold;
-  margin-bottom: 15px; }
-
-.helppages .helppagemenuheading {
-  border-bottom: 4px solid #cccccc;
-  padding-top: 20px;
-  font-weight: bold;
-  margin-bottom: 15px; }
-
-.lefthandmenu {
-  margin-left: 0; }
-
-.customerservice__mobilemenu {
-  display: none; }
-
-.helppages {
-  display: flex; }
-
-.navbarlinks {
-  float: left;
-  padding: 5px;
-  background: #eee;
-  width: 25%;
-  text-align: center;
-  border-right: 1px solid #ddd; }
-
-.customerservice__row {
-  float: left;
-  width: 100%;
-  margin: 1% 0; }
-
-.cms-page-view p.customerservice__header {
-  font-weight: bold;
-  font-size: 16px;
-  text-transform: uppercase; }
-
-.cms-page-view p.customerservice__deliveryprice {
-  font-weight: bold; }
-
-.helppagesright p {
-  margin-bottom: 10px; }
-
-.helppages a {
-  color: #343334;
-  text-decoration: none; }
-
-.helppagesright a:last-child .navbarlinks {
-  border: 0; }
-
-.internationalzones1 {
-  font-weight: bold;
-  margin-top: 1%; }
-
-.redeye-form input,
-.redeye-form select,
-.redeye-form textarea {
+.collection-container {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%; }
 
-.newsletter input[type=checkbox] {
-  width: auto; }
-
-.newsletter label {
-  min-width: 135px;
-  float: left; }
-
-.studentbeans {
-  position: relative;
-  padding-bottom: 100%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden; }
-
-.studentbeans iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.deliveryinformation__header {
-  text-align: center;
-  float: left;
+.lookbook__atmos img {
   width: 100%; }
 
-.cms-page-view p.customerservice__header {
-  font-family: 'montserratbold', 'Arial Black', Gadget, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  text-transform: uppercase; }
-
-.customerservice__row {
-  float: left;
-  width: 100%;
-  margin: 1% 0; }
-
-.customerservice__row p {
-  margin: 0; }
-
-.cms-page-view p.customerservice__header--subheader {
-  text-transform: none;
-  font-size: 14px; }
-
-p.customerservice--margin {
-  margin-top: 1%; }
-
-.customerservice__row--border {
-  border-top: 1px solid #000; }
-
-.cms-page-view p.customerservice__header--mainheader {
-  font-size: 22px;
-  margin: 0;
-  text-decoration: underline; }
-
-.customerservice__row td,
-.customerservice__row th {
-  border: 2px solid #CCCCCC;
-  padding: 5px; }
-
-.card__gender {
-  width: 33%;
-  padding: 10px;
-  float: left;
-  text-align: center;
-  background: #eee;
-  border-right: 1px solid #ddd;
-  cursor: pointer; }
-
-.customerservice__row tr:first-child {
-  background: #ccc; }
-
-tr.headerrow,
-.customerservice__row th {
-  font-weight: 600; }
-
-.datatablesizing {
-  margin-top: 1%; }
-
-#customerservice__row--women {
-  display: block; }
-
-#customerservice__row--men,
-#customerservice__row--kids {
-  display: none; }
-
-div#customerservice__row--women table,
-div#customerservice__row--men table,
-div#customerservice__row--kids table,
-div#customerservice__row--women table th,
-div#customerservice__row--men table th,
-div#customerservice__row--kids table th {
-  text-align: center; }
-
-.helppagesright a:last-child {
-  float: none; }
-
-.isActive {
-  background: #b5b5b5; }
-
-.helppagesright table {
-  width: 100%; }
-
-.desktopfootwearsection {
-  display: table;
-  width: 100%; }
-
-.mobilefootwearsection {
-  display: none;
-  width: 100%; }
-
-.desktopfootwearsection tr:first-child {
-  background: none; }
-
-.desktopfootwearsection td:first-child {
-  font-weight: 600; }
-
-.mobilefootwearsection tr:first-child {
-  font-weight: 600; }
-
-/* New Fit Guide Diagram Stuff */
-.fitGuideDiagrams {
-  padding-top: 3%;
-  float: left; }
-
-.fitGuideDiagrams__title,
-.fitGuideDiagrams__blockContainer {
-  float: left;
-  clear: both; }
-
-.fitGuideDiagrams__block {
-  width: 29%;
-  float: left;
-  margin: 0 6% 2% 0; }
-
-.fitGuideDiagrams__block:last-child {
-  margin-right: 0; }
-
-.fit-tip .fitGuideDiagrams__block {
-  width: 100%;
-  margin: 0; }
-
-.fit-tip .fitGuideDiagrams__image {
-  width: 80%;
-  margin: 0 auto; }
-
-.guaranteeimg {
-  float: right; }
-
-.guaranteehead h3 {
-  font-weight: bold;
-  font-size: 18px; }
-
-.redeye-form button {
-  float: right;
-  background: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 35px;
-  text-transform: uppercase; }
-
-.redeye-form button:hover {
-  opacity: 0.8; }
-
-.redeye-form {
-  display: table;
-  width: 100%; }
-
-.helppagesright span {
-  font-weight: bold;
-  font-size: 16px; }
-
-/* Media Queries for Customer Services Start */
-@media only screen and (max-width: 989px) {
-  .navbarlinks {
-    width: 50%; }
-
-  a:nth-child(1) .navbarlinks,
-  a:nth-child(2) .navbarlinks {
-    border-bottom: 1px solid #ddd; }
-
-  a:nth-child(2) .navbarlinks {
-    border-right: 0; } }
-@media screen and (max-width: 768px) {
-  .fitGuideDiagrams__block {
-    width: 47%;
-    margin: 0 6% 2% 0; }
-
-  .fitGuideDiagrams__block:nth-child(2) {
-    margin-right: 0; } }
-@media only screen and (max-width: 740px) {
-  .helppages .helppagesleft {
-    display: none; }
-
-  .customerservice__mobilemenu {
-    display: block;
-    float: left;
-    width: 100%; }
-
-  .customerservice__mobile {
-    float: left;
-    padding: 10px 10px 0 10px;
-    cursor: pointer;
-    border-bottom: 4px solid #cccccc;
-    font-weight: bold;
-    margin-bottom: 3%; }
-
-  .customerservice__links {
-    float: left;
-    display: none;
-    padding-left: 10px; }
-
-  .customerservice__links ul {
-    float: left;
-    padding-right: 2%; }
-
-  .customerservice__links li {
-    padding: 4px 3px;
-    list-style: none; }
-
-  .helppagemenuheadingfirst {
-    border-bottom: 4px solid #cccccc;
-    font-weight: bold;
-    margin-bottom: 15px; }
-
-  .helppages {
-    display: inline-block; }
-
-  .helppages .helppagesright {
-    width: 100%;
-    padding-left: 0;
-    float: left; }
-
-  .customerservice__mobile:after {
-    content: '';
-    position: relative;
-    width: 0;
-    height: 0;
-    display: block;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid #000;
-    border-right: none;
-    top: 9px;
-    float: right;
-    left: 10px; }
-
-  .customerservice__mobile.active:after {
-    content: '';
-    position: relative;
-    width: 0;
-    height: 0;
-    display: block;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-    border-top: 4px solid #000;
-    border-bottom: none;
-    top: 11px;
-    float: right;
-    left: 10px; } }
-@media only screen and (max-width: 550px) {
-  .guaranteeimg {
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 131px;
-    display: table; } }
-@media only screen and (max-width: 526px) {
-  .customerservice__row td,
-  .customerservice__row th {
-    padding: 2px; } }
-@media only screen and (max-width: 480px) {
-  .desktopfootwearsection {
-    display: none; }
-
-  .mobilefootwearsection {
-    display: table; }
-
-  p.customerservice--margin {
-    margin-top: 2%; }
-
-  .customerservice__row tr:hover {
-    background: black;
-    color: white; } }
-@media screen and (max-width: 440px) {
-  .fitGuideDiagrams__block {
-    width: 100%;
-    margin: 0 0 2%; } }
 /* *********** START *********** */
 /* **** MICROSITE STYLES **** */
 /* All prefixed with micro- to avoid leakage */
@@ -2460,7 +3395,8 @@ div#customerservice__row--kids table th {
   border-top: 1px #000 solid; }
 
 .micro-sideNav--subNav {
-  list-style: none outside !important; }
+  list-style: none outside !important;
+  margin: 0; }
 
 .micro-sideNav--subNav .micro-sideNav__item {
   color: #999;
@@ -2481,31 +3417,64 @@ div#customerservice__row--kids table th {
   margin-top: 16px;
   width: 100%; }
 
+.micro-sideNav__item a,
+.micro-sideBar a {
+  text-decoration: none; }
+
 /* abandoned base modifier approach due to more differences than similarities in designs */
 .micro-hero {
   display: table-cell;
-  background-size: cover;
+  background-size: cover !important;
   vertical-align: top;
   position: relative; }
 
 .micro-hero--home {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Home_1200x800px.jpg") no-repeat top left; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-mainpage_hero.jpg") no-repeat top right;
+  color: #fff; }
 
 .micro-hero--what {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_What_1200x800px.jpg") no-repeat top left; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-whatisnosilife_hero.jpg") no-repeat top right; }
 
 .micro-hero--facts {
   background: #7f7a77; }
 
 .micro-hero--story {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Story_1200x800px.jpg") no-repeat top left; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-thesolution_hero.jpg") no-repeat top right; }
+
+.micro-hero--innercontainer {
+  float: left;
+  width: 47%;
+  margin-left: 5%;
+  clear: both; }
+
+.micro-hero--innercontainer .micro-hero__subtext {
+  margin-left: 0% !important;
+  width: 100%; }
+
+.micro-hero--home cite.micro-hero__citation {
+  border-color: #fff; }
+
+.micro-hero--home .micro-hero--innercontainer {
+  color: #fff; }
 
 @media screen and (max-width: 1100px) {
   .micro-hero {
-    background-position: top left -12vw; } }
+    background-position: top right -12vw; }
+
+  .micro-hero--what {
+    background-position: top right -8vw; }
+
+  .micro-hero--story {
+    background-position: top right -12vw; } }
 @media screen and (max-width: 940px) {
   .micro-hero {
-    background-position: top left -20vw; } }
+    background-position: top right -24vw; }
+
+  .micro-hero--what {
+    background-position: top right -8vw; }
+
+  .micro-hero--story {
+    background-position: top right -12vw; } }
 @media screen and (max-width: 768px) {
   .micro-sideBar {
     display: block;
@@ -2521,10 +3490,14 @@ div#customerservice__row--kids table th {
     display: block;
     width: 100%;
     float: left;
-    background-position: top left -18vw;
+    background-position: top right -30vw;
     min-height: 80vw;
     margin-bottom: 0;
     padding-bottom: 5%; }
+
+  .cms-nosilife .micro-hero {
+    background-position: top right 0vw;
+    background-size: cover; }
 
   .micro-hero--facts,
   .micro-hero--story {
@@ -2534,25 +3507,57 @@ div#customerservice__row--kids table th {
   .micro-shop,
   .micro-blog,
   .pageTextBlock--social {
-    display: none; } }
+    display: none; }
+
+  .micro-hero--what {
+    background-position: top right -11vw; }
+
+  .micro-hero--story {
+    background-position: top right -23vw; } }
 @media screen and (max-width: 560px) {
   .micro-hero {
     background-position: top left -5vw;
     background-size: 140%; }
 
+  .micro-hero--story.micro-hero {
+    background-size: 106%; }
+
   .micro-hero__logo {
-    width: 60px; } }
-@media screen and (max-width: 525px) {
-  .micro-hero--story {
-    background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Story_525x1034px.jpg") no-repeat top left; }
+    width: 75px; }
 
   .micro-hero--what {
-    background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_What_525x640px.jpg") no-repeat top left; } }
+    background-position: top right -5vw !important; } }
+@media screen and (max-width: 525px) {
+  .micro-hero--story.micro-hero--story {
+    background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiLifeMicrosite-Mobile-AStory-Fin.jpg") no-repeat top right;
+    background-size: cover; }
+
+  .micro-hero--what {
+    background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiLifeMicrosite-Mobile-WhatIsNosiLife-Fin.jpg") no-repeat top left;
+    background-size: cover;
+    background-position: center center !important; }
+
+  .micro-hero--home {
+    background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiLifeMicrosite-Mobile-MainPage-Fin.jpg") no-repeat top right; }
+
+  .micro-sidebar__tagline {
+    font-size: 2.5vw; }
+
+  .micro-hero__title {
+    width: 74%;
+    margin: 0 0 1vw 0; }
+
+  .micro-hero__subtitle {
+    margin-left: 0; } }
 @media screen and (max-width: 400px) {
   .micro-hero {
-    background-position: top left 2vw; } }
+    background-position: top right -65vw; }
+
+  .micro-hero--story {
+    background-position: top right -35vw; } }
 .micro-hero__logo {
-  margin: 5% 0 2vw 5%; }
+  margin: 5% 0 2vw 5%;
+  float: left; }
 
 .micro-hero--facts .micro-hero__logo {
   float: left;
@@ -2579,13 +3584,20 @@ div#customerservice__row--kids table th {
 
 .micro-hero__title {
   font-size: 2.8vw;
-  width: 48%;
+  width: 46%;
   line-height: 1.3;
-  margin: 0 0 1vw 5%;
+  margin: 0 0 1vw 8%;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700; }
+
+.micro-hero--what .micro-hero__title,
+.micro-hero--story .micro-hero__title {
+  width: 100%; }
+
+.micro-hero__title--white {
+  margin: 0 0 1vw 0; }
 
 .micro-hero__title--facts {
   float: left;
@@ -2609,8 +3621,14 @@ div#customerservice__row--kids table th {
 .micro-hero__subtitle {
   text-transform: uppercase;
   font-size: 1.8vw;
-  margin-left: 5%;
+  margin-left: 8%;
   line-height: 1.5; }
+
+.micro-hero--home .micro-hero__subtitle {
+  margin-left: 0; }
+
+.micro-hero--home .micro-hero__title {
+  margin: 0 0 1vw 0; }
 
 .micro-hero__subtext {
   margin-left: 5% !important;
@@ -2627,7 +3645,7 @@ div#customerservice__row--kids table th {
     width: 64%;
     font-size: 16px; } }
 .micro-hero--facts .micro-hero__subtext {
-  width: 90%; }
+  width: 90% !important; }
 
 .micro-hero__infographicRow {
   padding: 2.4% 0;
@@ -2661,7 +3679,7 @@ div#customerservice__row--kids table th {
 .micro-hero__quoteContainer {
   position: absolute;
   bottom: 5%;
-  left: 5%;
+  left: 8%;
   width: 32%; }
 
 .micro-hero__quote {
@@ -2752,12 +3770,12 @@ div#customerservice__row--kids table th {
   vertical-align: top; }
 
 .micro-collection__verticalBanner {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/LeftImage_Story_Womens_261x717px.jpg") no-repeat;
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiMicrosite-TheColution-VerticalBanner-Women.jpg") no-repeat;
   width: 214px;
   max-width: 214px; }
 
 .micro-collection__verticalBanner--kids {
-  background: url("//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/LeftImage_Story_Kids_261x717px.jpg") no-repeat; }
+  background: url("https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiMicrosite-TheColution-VerticalBanner-Kids.jpg") no-repeat; }
 
 .micro-collection__collectionArea {
   background: #ececec;
@@ -2779,7 +3797,7 @@ div#customerservice__row--kids table th {
 .micro-collection__heading {
   text-align: center;
   width: 36%;
-  font-size: 32px;
+  font-size: 22px;
   text-transform: none;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2795,21 +3813,21 @@ div#customerservice__row--kids table th {
   letter-spacing: 1px; }
 
 .micro-collection__productArea {
-  display: table;
-  width: 100%; }
+  width: 100%;
+  float: left; }
 
-.micro-collection__productsContainer,
-.micro-collection__banner {
-  display: table-cell;
-  vertical-align: top; }
+.micro-collection__productsContainer, .micro-collection__banner {
+  vertical-align: top;
+  float: left;
+  width: 100%;
+  text-align: center; }
 
 .micro-product {
-  width: 42%;
-  float: left;
-  position: relative;
-  padding-left: 4%;
+  width: 37%;
+  float: none;
   text-align: center;
-  margin-bottom: 4vw; }
+  display: inline-block;
+  margin: 0 auto 3vw auto; }
 
 .micro-product__image {
   width: 95%;
@@ -2823,7 +3841,7 @@ div#customerservice__row--kids table th {
 
 @media screen and (max-width: 800px) {
   .micro-product {
-    width: 100%; }
+    width: 40%; }
 
   .micro-collection__heading,
   .micro-collection__copy {
@@ -2846,7 +3864,7 @@ div#customerservice__row--kids table th {
   margin-bottom: 3vw; }
 
 a.micro-product__button {
-  background-color: #c6000d;
+  background-color: #802022;
   padding: 4% 12%;
   color: #fff !important;
   font-size: 17px;
@@ -2862,6 +3880,12 @@ a.micro-product__button {
   max-width: 319px;
   background-size: cover; }
 
+.micro-collection--mobile {
+  display: none; }
+
+@media screen and (min-width: 769px) and (max-width: 785px) {
+  .cms-nosilife .micro-hero--home {
+    padding-bottom: 40%; } }
 @media screen and (min-width: 1025px) {
   /* Seems like an odd thing to do, but is most reliable way of getting hover stuff to only work on non-touch devices. Once access to all code is possible we can do this better */
   .micro-product__description {
@@ -2910,22 +3934,34 @@ a.micro-product__button {
 
 @media screen and (min-width: 1141px) {
   .micro-hero__title {
-    font-size: 32px;
-    width: 48%; }
+    font-size: 30px;
+    width: 43%; }
+
+  .micro-hero--innercontainer .micro-hero__title {
+    width: 93%;
+    margin-left: 0; }
 
   .micro-hero__subtitle {
-    width: 48%;
+    width: 70%;
     font-size: 22px; }
+
+  .micro-hero--home .micro-hero__subtitle {
+    width: 85%; }
 
   .micro-quote p {
     font-size: 25px; } }
 @media screen and (max-width: 768px) {
   .micro-hero__title {
-    font-size: 22px;
-    width: 40%; }
+    font-size: 3.6vw;
+    width: 65%;
+    margin-left: 8%; }
+
+  .micro-hero__title.micro-hero__title--white {
+    margin: 0 0 1vw 0;
+    width: 100%; }
 
   .micro-hero__subtitle {
-    font-size: 14px; }
+    font-size: 2.6vw; }
 
   .micro-hero__subtext {
     width: 54%; }
@@ -2938,23 +3974,66 @@ a.micro-product__button {
     padding: 2vw 5%; }
 
   .micro-quote p {
-    font-size: 18px; } }
-@media screen and (max-width: 640px) {
-  .micro-hero__title {
-    width: 60%; }
+    font-size: 18px; }
 
+  .micro-hero__subtitle {
+    margin-left: 8%; }
+
+  .micro-sidebar__tagline {
+    font-size: 15px; }
+
+  .micro-sidebar__logo {
+    font-size: 38px; }
+
+  .micro-hero--home .micro-hero__title,
+  .micro-hero--home .micro-hero__subtitle {
+    margin-left: 0; } }
+@media screen and (max-width: 640px) {
   .micro-hero__subtext {
     width: 68%; }
 
   .micro-details__column {
-    width: 100%; } }
+    width: 100%; }
+
+  .micro-hero__subtext.micro-hero__subtext--white {
+    width: 100% !important; } }
+@media screen and (max-width: 580px) {
+  .micro-product {
+    width: 50%; }
+
+  .cms-a-nosilife-story .micro-collection__collectionArea {
+    display: none; }
+
+  .micro-collection--mobile {
+    display: block; }
+
+  .micro-collection--mobile span {
+    width: 70%;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+    margin-bottom: 1%;
+    padding: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    background: #802022;
+    color: #fff; } }
+@media screen and (max-width: 560px) {
+  .micro-hero--what .micro-hero__title {
+    width: 100%;
+    margin: 3% 0; }
+
+  .micro-hero--what .micro-hero--innercontainer,
+  .micro-hero--story .micro-hero--innercontainer {
+    width: 85%; } }
 @media screen and (max-width: 480px) {
   .micro-hero__subtext {
     width: 90%; } }
 @media screen and (max-width: 400px) {
   .micro-hero__title {
     font-size: 18px;
-    width: 44%; }
+    width: 100%; }
 
   .micro-hero__subtitle {
     font-size: 11px; } }
@@ -3042,7 +4121,6 @@ a.micro-product__button {
   list-style: none outside; }
 
 /* *********** END *********** */
-/* **** MICROSITE STYLES ****/
 .categoryBanner {
   display: table;
   height: 285px;
@@ -3072,19 +4150,1766 @@ a.micro-product__button {
   font-size: 12px;
   text-align: left; }
 
-.categorypath-men .categoryBanner__image,
-.categorypath-herren .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Mens.jpg) no-repeat center; }
+.categorypath-women.category-women .womens-seoheader {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Womens-TopLevel.jpg);
+  padding: 3% 0;
+  background-repeat: no-repeat; }
 
-.categorypath-women .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Womens.jpg) no-repeat center; }
+.categorypath-men.category-men .mens-seoheader {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg);
+  padding: 3% 0;
+  background-repeat: no-repeat; }
 
-.categorypath-kids .categoryBanner__image,
-.categorypath-kinder .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Kids.jpg) no-repeat center; }
+.categorypath-kids.category-kids .kids-seoheader {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Kids-TopLevel.jpg);
+  padding: 7.5% 0;
+  background-repeat: no-repeat; }
 
-.categorypath-accessories .categoryBanner__image,
-.categorypath- .categoryBanner__image {
-  background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Accessories.jpg) no-repeat center; }
+.categorypath-accessories.category-accessories .accessories-seoheader {
+  background: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Accessories-TopLevel.jpg) no-repeat center;
+  padding: 7% 0;
+  background-repeat: no-repeat; }
+
+.categoryBanner .categoryBanner__image.categoryBanner__image--discovery {
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Discovery.jpg) no-repeat center; }
+
+.categoryBanner .categoryBanner__image.categoryBanner__image--os {
+  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center; }
+
+.s-text-banner p:empty {
+  margin: 0; }
+
+.category-view__title {
+  margin-bottom: 0;
+  font-family: georgia; }
+
+.categorypath-men p.category-view__description,
+.categorypath-women p.category-view__description,
+.categorypath-womens p.category-view__description,
+.categorypath-kids p.category-view__description,
+.categorypath-accessories p.category-view__description {
+  width: 59%;
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 770px) {
+  p.category-view__description {
+    width: 100% !important; } }
+/* Mobile SEO show/hide */
+.seemore {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  background: #e3e3e3;
+  padding: 2% 0;
+  margin-top: 1%; }
+
+p.category-view__description.category-description {
+  display: block !important; }
+
+.category-view__title + .category-view__description .gradient {
+  margin-top: -5.5%; }
+
+.seemore.toggle-removebttn,
+.category-view__description + .category-view__description .gradient,
+.gradient.gradient-toggle,
+.mobileseo-container.close {
+  display: none; }
+
+.mobileseo-container {
+  margin-top: -7%; }
+
+@media only screen and (max-width: 644px) {
+  p.category-view__description.first-description {
+    max-height: 50px;
+    overflow: hidden; }
+
+  .mobileseo-container {
+    margin-top: -52px; } }
+@media only screen and (max-width: 375px) {
+  .category-view__title + .category-view__description .gradient {
+    margin-top: -12.5%; } }
+/* END */
+@media only screen and (max-width: 770px) {
+  .categoryBanner {
+    display: none; } }
+/* Protect Liberate Campaign */
+/* Started all classes with pl- so can be dumped in new system */
+.pl-half {
+  width: 50%;
+  float: left;
+  position: relative; }
+
+.pl-third {
+  float: left;
+  width: 32.24%; }
+
+.pl-third:nth-child(2) {
+  margin: 0 1.64%; }
+
+.pl-wrapper {
+  display: table;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px; }
+
+.pl-wrapper--inner {
+  float: left;
+  width: 100%; }
+
+.pl-wrapper p,
+.pl-wrapper img,
+.pl-third img {
+  width: 100%; }
+
+.pl-wrapper h1 span {
+  color: #961915; }
+
+.pl-wrapper h1 {
+  font-size: 40px;
+  margin: 2% 0; }
+
+.pl-text-margin {
+  margin-bottom: 3%; }
+
+.pl-text-font {
+  font-size: 32px;
+  font-family: Georgia, Times, "Times New Roman", serif !important;
+  /* important overwrites helvetica */ }
+
+.pl-georgia {
+  font-family: Georgia, Times, "Times New Roman", serif !important;
+  /* important overwrites helvetica */ }
+
+p.pl-apex-text {
+  width: 65%;
+  margin: 22% auto 4%;
+  font-size: 26px;
+  font-style: italic; }
+
+.pl-img__text {
+  text-decoration: underline;
+  width: 100%;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  margin-top: 55%; }
+
+.pl-img__container--men .pl-img__text {
+  margin-top: 56%;
+  margin-bottom: 30%; }
+
+.pl-img__container--women .pl-img__text {
+  margin-top: 61%;
+  margin-bottom: 29%; }
+
+p.pl-midas__text {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 15%;
+  display: inline-block;
+  font-size: 26px; }
+
+.pl-wrapper--inner--cragsworld {
+  background-image: url("https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/ThisIsCraghoppersWorld.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.pl-wrapper--inner--cragsworld p {
+  color: white;
+  font-size: 50px;
+  margin: 12.9% 0; }
+
+.pl-half--background {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/IconBG-Text.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.pl-half--background p {
+  color: #fff;
+  width: 88%;
+  margin: 25.5% auto;
+  font-size: 26px; }
+
+p.pl-text-liberate {
+  font-style: italic;
+  display: inline-block;
+  margin: 4% 0; }
+
+.pl-range-button {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  font-size: 18px;
+  padding: 0.8% 0;
+  font-weight: bold;
+  margin: 3% 8% 0 8%;
+  width: 25%;
+  min-width: 250px; }
+
+p.pl-gender-head {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 5% 0; }
+
+.pl-button {
+  border: 2px solid #000;
+  margin-top: 6%;
+  padding: 3% 0%;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px; }
+
+.pl-wrapper--inner--social img {
+  display: inline-block;
+  max-width: 70px;
+  margin: 0 3%; }
+
+p.pl-text-social {
+  font-style: italic;
+  margin: 4% 0 3% 0; }
+
+.pl-wrapper--inner--social {
+  margin-bottom: 2%; }
+
+.pl-product {
+  position: relative;
+  display: grid; }
+
+.pl-product--text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+.pl-img__container {
+  position: relative; }
+
+.pl-product--card-out {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+.pl-product--card--inn {
+  display: table-cell;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle; }
+
+.pl-cragsworld {
+  color: #fff;
+  font-size: 45px; }
+
+.pl-icon-text {
+  color: #fff;
+  width: 75%;
+  display: table;
+  margin: 0 auto; }
+
+.pl-half--video iframe {
+  width: 100%;
+  max-height: 420px;
+  height: 420px; }
+
+.pl-wrapper--inner a {
+  text-decoration: none; }
+
+@media only screen and (max-width: 1240px) {
+  .pl-wrapper--inner--cragsworld p {
+    font-size: 4.05vw; }
+
+  p.pl-apex-text,
+  p.pl-midas__text,
+  .pl-half--background p {
+    font-size: 2.1vw; }
+
+  p.pl-text-liberate {
+    width: 100%;
+    max-height: 100%; }
+
+  p.pl-text-liberate {
+    font-size: 2.62vw; }
+
+  .pl-half--video iframe {
+    height: 34.3vw; } }
+@media only screen and (max-width: 1227px) {
+  .pl-half--video iframe {
+    height: 338px; } }
+@media only screen and (max-width: 989px) {
+  .pl-half--video iframe {
+    height: 253px; } }
+@media only screen and (max-width: 767px) {
+  .pl-wrapper--inner--cragsworld {
+    background-image: url("https://cdn.craghoppers.com/img/SS17/UK/page/protect_liberate/ThisIsCraghoppersWorld-MOBILE.jpg");
+    background-size: contain; }
+
+  .pl-half--background {
+    background-size: cover;
+    padding: 1%; }
+
+  .pl-half--background p {
+    margin: 27% auto; }
+
+  p.pl-apex-text {
+    margin: 6% auto 4%; }
+
+  p.pl-midas__text {
+    margin-top: 7%; }
+
+  .pl-third:nth-child(2) {
+    margin: 0 0 0 1.64%; }
+
+  .pl-third {
+    float: left;
+    width: 49%; }
+
+  .pl-third:nth-child(3) {
+    margin-top: 3%; }
+
+  p.pl-apex-text,
+  p.pl-midas__text,
+  .pl-half--background p {
+    font-size: 16px; }
+
+  .pl-wrapper--inner--cragsworld p {
+    margin: 28.53% 0; }
+
+  .pl-wrapper {
+    float: none;
+    width: 70%;
+    margin: 0 auto; }
+
+  .pl-half {
+    width: 100%;
+    float: left; }
+
+  .pl-half--video {
+    float: none;
+    width: 70%;
+    margin: 0 auto; }
+
+  .pl-half {
+    width: 100%;
+    float: left; }
+
+  .pl-half--video {
+    display: none; }
+
+  .pl-cragsworld {
+    font-size: 4.5vw; } }
+@media only screen and (max-width: 700px) {
+  .pl-wrapper h1 {
+    font-size: 5.5vw; } }
+@media only screen and (max-width: 480px) {
+  .pl-icon-text {
+    font-size: 4vw; }
+
+  .pl-range-button {
+    margin: 3% 0;
+    width: 100%; } }
+@media only screen and (max-width: 420px) {
+  .pl-third {
+    width: 100%; }
+
+  .pl-third:nth-child(2) {
+    margin: 3% 0 0 0; } }
+/* END */
+#tech-image-wrapper img {
+  width: auto; }
+
+.c-product-tile__btn {
+  font-size: 1rem;
+  background: #bbb;
+  color: #343334;
+  border: none;
+  padding: 2px; }
+
+.u-heading-epsilon {
+  line-height: 1.4; }
+
+@media only screen and (max-width: 500px) {
+  .s-text-banner {
+    margin-top: 5%; } }
+/* Mobile SEO show/hide */
+.category-view__description + button {
+  display: none; }
+
+@media only screen and (max-width: 550px) {
+  .category-view__description.active {
+    overflow: hidden;
+    max-height: 36px; }
+
+  .category-view__description + button {
+    border: 0;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    background: #343334;
+    padding: 1% 6%;
+    color: #fff;
+    cursor: pointer; } }
+/* END */
+/* Tick boxes */
+body .c-checkbox-option__checkbox:after {
+  margin: 1px; }
+
+body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
+  border: 2px solid #dfe0e1;
+  background: #fff; }
+
+/* END */
+.c-product-size__link {
+  font-weight: normal; }
+
+.c-product-details .product-info-stock-sku .value {
+  float: none;
+  text-align: left;
+  color: #343334; }
+
+.c-icon--quantity-plus {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/plus.svg) !important; }
+
+.c-icon--quantity-minus {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/minus.svg) !important; }
+
+.c-qty__input {
+  width: 60px; }
+
+.c-rating__reviews,
+.c-rating__reviews:active,
+.c-rating__reviews:focus,
+.c-rating__reviews:hover,
+.c-rating__reviews:visited {
+  color: #343334; }
+
+.c-save-item,
+.c-save-item:active,
+.c-save-item:visited {
+  color: #343334; }
+
+a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
+  background-color: #717171;
+  padding: 10px 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff; }
+
+@media only screen and (max-width: 770px) {
+  .c-tabs__tab {
+    padding: 1px 30px; } }
+.c-product-details .c-price__group {
+  margin-bottom: 0; }
+
+.c-rating__wrap,
+.c-rating__wrap--product-tile {
+  margin-top: 2%; }
+
+.old-price .c-price__group {
+  margin-top: 1%; }
+
+@media only screen and (max-width: 550px) {
+  .c-product-details .product-info-price {
+    top: 0; } }
+/* Related Categories */
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
+  width: 100% !important; }
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item {
+  margin-bottom: 18px;
+  background: #f7f7f7;
+  padding: 5px 25px;
+  margin: 5px;
+  display: inline-block; }
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item a {
+  text-decoration: none;
+  color: #343334; }
+
+.viewall-related {
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1; }
+
+/* END */
+/* Endcap Section */
+.column.main + .o-region__inner,
+.columns + .o-region__inner {
+  width: 100%;
+  background: #ebebeb;
+  padding: 5px 0; }
+
+.monetate-container.m2 {
+  margin: 0 auto;
+  max-width: 1228px; }
+
+.endcap-container {
+  background: #fff;
+  margin-top: 1%; }
+
+.outfit-builder.endcap-container {
+  padding: 1% 0; }
+
+.endcap-container > div {
+  margin: 0 auto;
+  padding: 0.5% 0; }
+
+.mt_animate {
+  margin-left: 0px; }
+
+.endcap-container .mt_sliderTop {
+  margin: 1% 0; }
+
+.mt_sliderTop .mt_title {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #343334; }
+
+.endcap-container a {
+  color: #343334; }
+
+.mt_arrowContainer {
+  margin-top: -5%; }
+
+@media only screen and (max-width: 550px) {
+  .column.main + .o-region__inner {
+    padding: 0; } }
+/* END */
+/* PDP Buying Guide */
+.page-product-configurable .fitGuideDiagrams__block {
+  width: 29%;
+  float: left;
+  margin: 0 6% 2% 0;
+  text-align: center; }
+.page-product-configurable .fitGuideDiagrams__block img {
+  width: 100%;
+  max-width: 318px; }
+.page-product-configurable .fitGuideDiagrams__fitTitle, .page-product-configurable .fitGuideDiagrams__fitDesc {
+  text-align: left; }
+.page-product-configurable .imgcontainer {
+  position: absolute;
+  margin-top: -12%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: left; }
+.page-product-configurable .buyingguideContainer {
+  position: relative; }
+.page-product-configurable .fitGuideDiagrams__block:last-child {
+  margin-right: 0; }
+.page-product-configurable .imgcontainer span {
+  width: 50%;
+  float: left;
+  text-align: center; }
+.page-product-configurable .imgcontainer span:hover {
+  text-decoration: underline; }
+
+@media only screen and (max-width: 550px) {
+  .page-product-configurable .imgcontainer {
+    padding: 5px 0; }
+  .page-product-configurable .fitGuideDiagrams__block {
+    width: 100%; } }
+/* END */
+/* Tabbed boxes highlight */
+.c-tabs__tab.active .c-tabs__tab-link {
+  border-bottom: 8px solid #343334; }
+
+/* END */
+/* UTC Fonts */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+.utc {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+
+.cms-utc-journey #content .columns .o-region__inner,
+.cms-utc-story #content .columns .o-region__inner,
+.cms-utc-technologies #content .columns .o-region__inner,
+.cms-utc-mens #content .columns .o-region__inner,
+.cms-utc-womens #content .columns .o-region__inner {
+  width: 100%; }
+
+.cms-utc-journey .c-page-wrapper,
+.cms-utc-story .c-page-wrapper,
+.cms-utc-technologies .c-page-wrapper,
+.cms-utc-mens .c-page-wrapper,
+.cms-utc-womens .c-page-wrapper {
+  padding: 30px 0 0 0; }
+
+.cms-utc-mens .flex-container,
+.cms-utc-womens .flex-container {
+  margin: 0; }
+
+.utc-strip-padding {
+  margin-top: 3%; }
+
+/* UTC Header */
+.utc-header {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center center;
+  padding: 0; }
+
+.utc-car {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-3.jpg); }
+
+.utc-plane {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-1.jpg); }
+
+.utc-room {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-2.jpg); }
+
+.utc-product {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-4.jpg); }
+
+.utc-heromale {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-1.jpg); }
+
+.utc-herofemale {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-2.jpg); }
+
+.utc-nav {
+  width: 45%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3% 0 5% 0; }
+
+.utc-nav ul {
+  margin: 0;
+  float: right;
+  list-style-type: none;
+  color: #fff;
+  padding-right: 25%;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  line-height: 2.5; }
+
+.utc-nav ul a {
+  color: #fff; }
+
+.utc-nav ul a:hover {
+  text-decoration: underline; }
+
+.utc-headwrapper {
+  max-width: 800px; }
+
+/* END */
+/* UTC Footer */
+.utc-footer {
+  background: #000;
+  text-align: center;
+  color: #fff;
+  padding: 2% 0;
+  margin-top: 1%; }
+
+.utc-footer p {
+  margin: 0;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
+.utc-footer p:first-child {
+  font-size: 35px;
+  margin-bottom: 0.5%; }
+
+.utc-footer p:last-child {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+
+@media only screen and (max-width: 600px) {
+  .utc-nav {
+    width: 100%; }
+
+  .utc-nav ul {
+    float: none;
+    padding: 0; } }
+/* END */
+/* Center Container */
+.utc-centralcont {
+  max-width: 1228px;
+  margin: 0 auto; }
+
+.flex-container.utc-centralcont.utc-subnav.tabs {
+  margin: 0 auto;
+  text-transform: uppercase; }
+
+/* END */
+/* UTC Homepage */
+.utc-strip {
+  background: #000;
+  height: 7px;
+  max-width: 223px;
+  border-radius: 10px;
+  margin-top: 4%; }
+
+.utc-title {
+  font-family: "Montserrat-Medium", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 5px;
+  color: #000;
+  padding: 2% 0 1% 0;
+  line-height: 1.3; }
+
+.utc-subnav {
+  background: #000;
+  color: #fff;
+  padding: 1.5% 0; }
+
+.cms-utc-journey .action-tabs .tabs-content {
+  border: 0;
+  padding: 0; }
+
+.utc-multihero {
+  text-align: center; }
+
+.utc-multihero .utc-producttitle {
+  text-transform: uppercase;
+  margin: 5% 0;
+  display: table;
+  width: 100%;
+  letter-spacing: 1px; }
+
+.utc-multihero .utc-productdesc {
+  font-size: 12px;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  width: 75%;
+  margin: 0 auto; }
+
+.utc-multihero .utc-productdesc + span {
+  text-transform: uppercase;
+  display: table;
+  width: 100%;
+  margin: 4% 0 7% 0;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  cursor: pointer; }
+
+.flex-item.col-6.active {
+  background: #000 !important;
+  text-decoration: underline; }
+
+.action-tabs .utc-subnav.tabs li {
+  text-align: left;
+  border: 0; }
+
+.action-tabs .utc-subnav.tabs li:first-of-type {
+  text-align: right; }
+
+.action-tabs .utc-subnav.tabs li:hover {
+  background: #000;
+  text-decoration: underline; }
+
+.utc-button {
+  background: transparent;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0.5% 4%; }
+
+.utc-technical {
+  width: 271px;
+  font-size: 18px;
+  color: #000; }
+
+.utc-striphero {
+  padding: 4% 0px;
+  margin-top: 3%; }
+
+.utc-lowerhero.utc-herofemale {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens.jpg); }
+
+.utc-femaletechone {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Down.jpg); }
+
+.utc-femaletechtwo {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_RFID.jpg); }
+
+.utc-femaletechthree {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Reversible.jpg); }
+
+.utc-lowerhero {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.utc-techsection p {
+  margin: 0;
+  color: #fff; }
+
+.utc-journeytech {
+  padding: 0;
+  color: #fff; }
+
+.utc-techsection {
+  padding: 39% 0 4% 4%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.utc-lowerhero .utc-producttitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.3;
+  display: table;
+  margin-bottom: 2%;
+  letter-spacing: 2px;
+  color: #000;
+  margin-top: 29%;
+  margin-left: 2%; }
+
+.utc-lowerhero .utc-productdesc {
+  width: 208px;
+  font-size: 12px;
+  margin-left: 2%; }
+
+.utc-lowerhero .utc-productdesc + span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 2%;
+  cursor: pointer; }
+
+.utc-techsection span {
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff; }
+
+.utc-techsection span span {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+
+.utc-safejourney {
+  margin-top: 5%; }
+
+.utc-intro {
+  margin: 1% 0; }
+
+.utc-intro p {
+  font-size: 14px;
+  margin-bottom: 1%;
+  line-height: 1.2;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif; }
+
+.utc-lowerhero .utc-title {
+  margin-left: 2%; }
+
+.utc-lowerhero .utc-strip {
+  margin-left: 2%; }
+
+.utc-lowerhero.utc-heromale {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens.jpg); }
+
+.utc-maletechone {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_MensTech_Goretex.jpg); }
+
+.utc-maletechtwo {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_MensTech_RFID.jpg); }
+
+.utc-heromale + .utc-safejourney .utc-techsection {
+  padding: 64% 0 4% 4%; }
+
+.utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+  margin-top: 27%; }
+
+.utc-clear {
+  width: 100%;
+  clear: both; }
+
+.utc-titleheader {
+  font-size: 24px;
+  margin-bottom: 0.5%;
+  margin-top: 2%; }
+
+.utc-subheader {
+  font-size: 20px;
+  margin-bottom: 0%;
+  line-height: 1.3; }
+
+.flex-item.col-12.utc-intro {
+  padding: 0; }
+
+.utc-strip.utc-topstrip {
+  margin-top: 1%; }
+
+.utc-logo {
+  margin-top: 2.5%; }
+
+.utc-headerbutton:first-of-type {
+  margin-right: 0.5%; }
+
+.utc-headerbutton {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 0.5% 0;
+  width: 143px;
+  margin-top: 2%;
+  font-size: 12px; }
+
+.utc-header .col-6 {
+  text-align: center; }
+
+.utc-headerbutton:hover {
+  background: #fff;
+  color: #000; }
+
+.utc-logo {
+  margin-top: 5.5%; }
+
+.utc-logo img {
+  max-width: 300px; }
+
+.utc-lowerseo {
+  margin-top: 1.5%; }
+
+.utc-lowerseo p {
+  margin-bottom: 0; }
+
+.utc-multihero span img {
+  width: 100%;
+  cursor: pointer; }
+
+@media only screen and (max-width: 1125px) {
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+    margin-top: 23%; } }
+@media only screen and (max-width: 1024px) {
+  .flex-item.col-4.utc-multihero {
+    width: 33.32%; }
+
+  .flex-item.col-8.utc-lowerhero {
+    width: 66.64%; }
+
+  .flex-item.col-4.utc-journeytech {
+    width: 33.32%; }
+
+  .utc-lowerhero .utc-producttitle {
+    margin-top: 22%; }
+
+  .utc-intro + .flex-item.col-5 {
+    display: none; }
+
+  .utc-striphero .flex-item.col-7 {
+    width: 60%; }
+
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+    margin-top: 20%; } }
+@media only screen and (max-width: 950px) {
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+    margin-top: 17%; } }
+@media only screen and (max-width: 900px) {
+  .flex-item.col-8.utc-lowerhero {
+    width: 100%; }
+
+  .flex-item.col-4.utc-journeytech {
+    width: 100%; }
+
+  .flex-item.col-12.utc-techsection {
+    width: 33.4%;
+    display: inline-block;
+    padding: 10% 0 2% 1%;
+    margin-right: -5px; }
+
+  .utc-techsection p {
+    font-size: 1.8vw; }
+
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-techsection {
+    width: 50%;
+    margin-right: -4px; }
+
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+    margin-top: 31%; }
+
+  .utc-lowerhero.utc-heromale .utc-productdesc + span {
+    display: block;
+    margin-bottom: 2%; } }
+@media only screen and (max-width: 770px) {
+  .utc-footer p:first-child {
+    font-size: 4.5vw; } }
+@media only screen and (max-width: 550px) {
+  .utc-multihero .utc-producttitle {
+    min-height: 48px; } }
+@media only screen and (max-width: 550px) {
+  .utc-nav + .flex-item.col-6 {
+    display: none; }
+
+  .utc-header {
+    padding: 0;
+    margin-top: 16px; }
+
+  .flex-item.col-4.utc-multihero {
+    width: 50%;
+    flex-grow: 0; }
+
+  .utc-striphero .flex-item.col-7 {
+    display: none; }
+
+  .utc-technical {
+    width: 100%;
+    font-size: 16px; }
+
+  .utc-striphero .utc-strip {
+    margin-top: 0; }
+
+  .utc-striphero {
+    background-position: right center;
+    padding: 6% 3%; }
+
+  .utc-lowerhero .utc-title {
+    line-height: 1.3; }
+
+  .flex-item.col-8.utc-lowerhero {
+    padding: 2% 0;
+    background-position: top right;
+    background-color: #bcab8f; }
+
+  .flex-item.col-12.utc-techsection {
+    width: 100%;
+    background-position: center; }
+
+  .utc-techsection p {
+    font-size: 2.6vw; }
+
+  .utc-button {
+    padding: 0.5% 8%; }
+
+  .utc-title {
+    line-height: 1.3; }
+
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-techsection {
+    width: 100%; }
+
+  .flex-item.col-8.utc-lowerhero.utc-heromale {
+    background-size: cover; }
+
+  .utc-lowerhero.utc-herofemale {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens-Mobile.jpg); }
+
+  .utc-lowerhero.utc-heromale {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens-Mobile.jpg); }
+
+  .utc-lowerhero .utc-producttitle,
+  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+    margin-top: 0; } }
+@media only screen and (max-width: 450px) {
+  .flex-item.col-4.utc-multihero {
+    width: 100%; }
+
+  .action-tabs .utc-subnav.tabs li,
+  .action-tabs .utc-subnav.tabs li:first-of-type {
+    text-align: center; }
+
+  .utc-multihero img {
+    width: 70%; }
+
+  .utc-multihero .utc-producttitle {
+    min-height: 0; } }
+@media only screen and (max-width: 420px) {
+  .flex-item.col-8.utc-lowerhero,
+  .flex-item.col-8.utc-lowerhero.utc-heromale {
+    padding: 2% 0 80% 0;
+    background-position-y: 100%;
+    background-size: contain;
+    background-color: transparent; }
+
+  .utc-lowerhero .utc-productdesc {
+    width: 100%; } }
+/* Lightbox */
+.utc-lightbox.rl-pop.active {
+  margin-top: 2%;
+  height: 845px;
+  overflow-y: scroll; }
+
+.utc-producthighlights {
+  text-align: center; }
+
+.utc-producthighlights img {
+  width: 58%; }
+
+.utc-producthighlights .col-12 {
+  background: #f2f2f2;
+  padding: 4% 0; }
+
+.utc-producthighlights .col-12:nth-child(2) {
+  margin: 3% 0; }
+
+.utc-productprice {
+  margin-bottom: 5%; }
+
+.utc-showfull {
+  margin-top: 5%;
+  text-transform: uppercase; }
+
+.utc-producttitle {
+  text-transform: uppercase; }
+
+.utc-lightbox .utc-title {
+  width: 100%;
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 600px) {
+  .utc-lightbox.rl-pop.active {
+    margin-top: 22%; } }
+@media only screen and (max-width: 550px) {
+  .utc-lightbox.rl-pop.active {
+    margin-top: 18%;
+    height: 84%; }
+
+  .utc-productmain {
+    text-align: center; }
+
+  .utc-productmain img {
+    width: 70%; } }
+/* END */
+/*PLP START */
+.cms-utc-mens #content .columns .o-region__inner,
+.cms-utc-womens #content .columns .o-region__inner {
+  background-color: #f2f2f2; }
+
+.flex-container-styles {
+  padding: 1.5% 0;
+  background-color: #fff;
+  margin: 4% 0 6% 0; }
+
+.utc-plp-container,
+.utc-plp-container-w {
+  border-right: #9d9d9c;
+  border-width: 1px;
+  border-right-style: solid;
+  box-sizing: border-box;
+  padding: 0px; }
+
+.utc-plp-container:nth-child(3),
+.utc-plp-container:nth-child(7),
+.utc-plp-container:nth-child(11) {
+  border-right: none; }
+
+.utc-plp-container-w:nth-child(3),
+.utc-plp-container-w:nth-child(7),
+.utc-plp-container-w:nth-child(10),
+.utc-plp-container-w:nth-child(11) {
+  border-right: none; }
+
+.utc-plp-title {
+  color: #000;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  padding: 0 0 1% 0;
+  text-align: center;
+  font-size: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.utc-plp-image {
+  width: 75%;
+  margin: auto; }
+
+.utc-plp-description {
+  /*color: #716d68;*/
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  padding: 1% 6%;
+  text-align: center;
+  font-size: 90%;
+  height: 110px; }
+
+.utc-plp-price {
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  padding: 2% 0;
+  text-align: center;
+  font-size: 90%; }
+
+.utc-plp-swatches {
+  text-align: center; }
+
+.utc-plp-swatch-inner {
+  padding: 0 0.5%; }
+
+.utc-plp-product-link {
+  /*color: #716d68;*/
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  padding: 1% 0 1% 0;
+  text-align: center;
+  font-size: 90%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.utc-plp-product-horiz-divide {
+  height: 1px;
+  color: #000;
+  background-color: #9d9d9c;
+  width: 100%;
+  margin: 1.2%; }
+
+h2.utc-title-lower {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  padding-top: 4%; }
+
+.utc-lower-seo {
+  padding-bottom: 1.5%; }
+
+@media only screen and (max-width: 770px) {
+  .utc-plp-title {
+    padding: 0 4% 3% 4%;
+    height: 55px;
+    font-size: 90%; }
+
+  .utc-plp-product-link {
+    padding: 5% 0 1% 0; }
+
+  .utc-plp-description {
+    padding: 1% 6% 5% 6%;
+    height: 140px; }
+
+  .utc-plp-container {
+    width: 33.3% !important; } }
+@media only screen and (max-width: 400px) {
+  .utc-plp-product-horiz-divide {
+    display: none; }
+
+  .utc-plp-container,
+  .utc-plp-container-w {
+    border-right: none;
+    border-bottom: #9d9d9c;
+    border-width: 1px;
+    border-bottom-style: solid;
+    width: 46% !important;
+    margin: 2%; }
+
+  .utc-plp-title {
+    padding: 5% 0 3% 0;
+    height: 55px; }
+
+  .utc-plp-description {
+    height: 140px; }
+
+  .utc-plp-product-link {
+    padding: 3% 0 5% 0; }
+
+  .cms-utc-mens #content .columns .o-region__inner,
+  .cms-utc-womens #content .columns .o-region__inner {
+    background-color: #fff; }
+
+  .utc-plp-container-w:nth-child(11) {
+    border-bottom: none; }
+
+  .utc-plp-empty {
+    display: none; } }
+/*PLP END */
+/* UTC Story Start */
+.utc-story-goretex {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-goretex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 190px;
+  min-height: 190px; }
+
+.utc-story-rfid {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-rfid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 190px;
+  min-height: 190px; }
+
+.utc-story-aquadry {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-aquadry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 190px;
+  min-height: 190px; }
+
+.utc-story-nosilife {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-nosilife.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 190px;
+  min-height: 190px; }
+
+.utc-story-antibacterial {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-antibac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 190px;
+  min-height: 190px; }
+
+.utc-story-down {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-down.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 190px;
+  min-height: 190px; }
+
+.utc-story-box-title {
+  color: #fff;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 45% 0 0 0;
+  text-align: center; }
+
+.utc-story-box-title-bold {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+
+.utc-story-img {
+  padding-top: 4%; }
+
+.utc-story-divide {
+  background: #000;
+  height: 7px;
+  max-width: 223px;
+  border-radius: 10px;
+  margin: 4% 0 1% 0; }
+
+.utc-story-title {
+  color: #000;
+  font-family: "Montserrat-Medium", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  letter-spacing: 5px;
+  padding: 2% 0 1% 0;
+  text-transform: uppercase; }
+
+.utc-story-copy {
+  color: #000;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  padding: 5% 15% 1% 0;
+  text-align: left;
+  line-height: 200%; }
+
+@media only screen and (max-width: 400px) {
+  .cms-utc-story .col-2 {
+    width: 50%; }
+
+  .utc-story-copy {
+    padding: 5% 0 1% 0; } }
+/* UTC Story End */
+/* Technologies Start */
+.utc-technology-goretex {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/goretex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-aquadry {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/aquadry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-solarshield {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/solarshield.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-down {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/down.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-nosilife {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/nosilife.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-moisture-control {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/moisture-control.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-wash-wear {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/wash-wear.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-rfidshield {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/rfid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-lightweight {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/lightweight.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-security {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/security.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-anti-bacterial {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/anti-bac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-reversible {
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/reversible.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px; }
+
+.utc-technology-box-title {
+  color: #fff;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  font-size: 220%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 37% 0 0 0;
+  text-align: center;
+  line-height: 120%; }
+
+.utc-technology-box-title-bold {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+
+.utc-technology-box-copy {
+  color: #fff;
+  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  padding: 5% 4% 0 4%;
+  text-align: center; }
+
+.flex-item-tech {
+  margin-bottom: 10px; }
+
+.utc-footer-padding {
+  margin-top: 4%; }
+
+@media only screen and (max-width: 1024px) {
+  .flex-item.col-4.flex-item-tech {
+    width: 33%; } }
+@media only screen and (max-width: 850px) {
+  .utc-technology-box-copy {
+    font-size: 100%; } }
+@media only screen and (max-width: 770px) {
+  .flex-item.col-4.flex-item-tech {
+    width: 50%; }
+
+  .utc-technology-box-copy {
+    font-size: 120%; } }
+@media only screen and (max-width: 400px) {
+  .utc-technology-goretex,
+  .utc-technology-aquadry,
+  .utc-technology-solarshield,
+  .utc-technology-down,
+  .utc-technology-nosilife,
+  .utc-technology-moisture-control,
+  .utc-technology-wash-wear,
+  .utc-technology-rfidshield,
+  .utc-technology-lightweight,
+  .utc-technology-security,
+  .utc-technology-anti-bacterial,
+  .utc-technology-reversible {
+    min-height: 190px; }
+
+  .utc-technology-box-title {
+    font-size: 140%;
+    letter-spacing: 4px;
+    padding: 37% 0 0 0;
+    line-height: 120%; }
+
+  .utc-technology-box-copy {
+    font-size: 80%;
+    padding: 5% 4% 0 4%; } }
+/*Technologies End */
+/* Trouser Campaign Styles */
+.trou-vid-title {
+  font-family: georgia;
+  font-size: 32px;
+  letter-spacing: 7px;
+  padding: 3% 0;
+  text-transform: uppercase;
+  text-align: center; }
+
+.trou-vid-button-outer-container {
+  background-color: #f3f3f3;
+  min-height: 100px;
+  text-align: center;
+  padding: 2% 10%; }
+
+.trou-vid-button-mens,
+.trou-vid-button-womens,
+.trou-vid-button-kids {
+  font-family: Arial;
+  color: #fff;
+  font-size: 16px;
+  background: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 280px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase; }
+
+.trou-vid-button-mens:hover,
+.trou-vid-button-womens:hover,
+.trou-vid-button-kids:hover {
+  background: #343334;
+  text-decoration: none; }
+
+.trou-vid-padding {
+  clear: both;
+  height: 20px; }
+
+.videoSlide iframe {
+  width: 100%;
+  min-height: 500px; }
+
+.cms-the-trouserless-nightmare .flexslider .flex-direction-nav-trouser {
+  display: block !important; }
+
+@media only screen and (max-width: 550px) {
+  .videoSlide iframe {
+    min-height: 300px; }
+
+  .trou-vid-button-mens, .trou-vid-button-womens, .trou-vid-button-kids {
+    width: 100%;
+    margin-bottom: 1%; } }
+/* END */
+/* Mens and Womens Trouser Page */
+.trou-header-mob,
+.wtrou-header-mob,
+.trou-copy-mob {
+  display: none; }
+
+.trou-header {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/trouser-store/trousers-header.jpg);
+  min-height: 420px; }
+
+.wtrou-header {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/trouser-store/wtrousers-header.jpg);
+  min-height: 420px; }
+
+.trou-title {
+  color: #fff;
+  font-family: georgia;
+  text-transform: uppercase;
+  font-size: 37px;
+  padding: 79px 0 0 334px;
+  line-height: 42px; }
+
+.trou-copy {
+  color: #fff;
+  font-size: 15px;
+  padding: 79px 50px 0 30px;
+  line-height: 24px; }
+
+.trou-box-title {
+  font-family: georgia;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4% 0;
+  color: #000;
+  letter-spacing: 4px; }
+
+.trou-box-copy {
+  font-size: 19px;
+  padding: 5% 15%;
+  text-align: center;
+  color: #000;
+  background-color: #e5e5e5;
+  line-height: 26px; }
+
+.trou-box-btn-container {
+  background: #e5e5e5;
+  height: 90px; }
+
+.trou-box-btn {
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  background: #e5e5e5;
+  width: 270px;
+  margin: auto;
+  font-weight: bold; }
+
+.trou-box-btn:hover {
+  background: #cacaca;
+  text-decoration: none; }
+
+.trou-box-img {
+  text-align: center; }
+
+.trou-box-imgtitle {
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 4% 0;
+  color: #000;
+  font-weight: bold; }
+
+.trou-box-tech {
+  padding: 0 0 4% 0;
+  text-align: center; }
+
+.trou-box-prodbtn1,
+.trou-box-prodbtn2,
+.trou-box-prodbtn3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 270px;
+  margin: auto;
+  font-weight: bold;
+  color: #fff; }
+
+.trou-box-prodbtn1 a,
+.trou-box-prodbtn2 a,
+.trou-box-prodbtn3 a {
+  color: #fff;
+  text-decoration: none; }
+
+.trou-box-prodbtn1 {
+  background: #184347; }
+
+.trou-box-prodbtn2 {
+  background: #6c6c4d; }
+
+.trou-box-prodbtn3 {
+  background: #802023; }
+
+.trou-box-prodbtn1:hover,
+.trou-box-prodbtn2:hover,
+.trou-box-prodbtn3:hover {
+  text-decoration: none; }
+
+.trou-box-prodbtn1:hover {
+  background: #112f32; }
+
+.trou-box-prodbtn2:hover {
+  background: #505039; }
+
+.trou-box-prodbtn3:hover {
+  background: #61191b; }
+
+@media only screen and (max-width: 1024px) {
+  .trou-copy {
+    padding-top: 0;
+    padding-left: 34%; }
+
+  .flex-item.col-4.trou-column {
+    width: 33%; }
+
+  .trou-box-copy {
+    font-size: 16px;
+    height: 140px; }
+
+  .trou-box-btn {
+    font-size: 14px; } }
+@media only screen and (max-width: 989px) {
+  .trou-box-btn {
+    width: 85%; }
+
+  .trou-box-prodbtn1, .trou-box-prodbtn2, .trou-box-prodbtn3 {
+    width: 95%; }
+
+  .trou-title {
+    padding: 10px 0 0 334px; }
+
+  .trou-copy {
+    padding-left: 45%; }
+
+  .trou-box-title {
+    font-size: 20px; }
+
+  .trou-title {
+    font-size: 30px;
+    line-height: 30px; } }
+@media only screen and (max-width: 550px) {
+  .trou-box-title {
+    padding: 10% 0 4% 0; }
+
+  .trou-header,
+  .wtrou-header {
+    display: none; }
+
+  .trou-header-mob,
+  .trou-copy-mob,
+  .wtrou-header-mob,
+  .wtrou-copy-mob {
+    display: block; }
+
+  .trou-header-mob {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/trouser-store/trousers-header-mob.jpg);
+    min-height: 248px; }
+
+  .wtrou-header-mob {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/trouser-store/wtrousers-header-mob.jpg);
+    min-height: 248px; }
+
+  .trou-title-mob {
+    color: #fff;
+    font-family: georgia;
+    text-transform: uppercase;
+    font-size: 27px;
+    padding: 20% 0 0 40%;
+    line-height: 34px; }
+
+  .trou-copy-mob {
+    color: #000;
+    font-size: 15px;
+    padding: 10% 1%;
+    line-height: 24px; }
+
+  .flex-item.col-4.trou-column {
+    width: 100%; } }
+/* END */
 
 /*# sourceMappingURL=styles.css.map */

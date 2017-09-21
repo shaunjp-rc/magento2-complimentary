@@ -1,7 +1,12 @@
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
-
+#header .sale.ui-menu-item > a {
+  background: #c0283f;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
 html .s-main-menu .block{
   padding-bottom:0px;
 }
@@ -48,7 +53,7 @@ html .s-main-menu .block{
   margin-bottom: -10px;
 }
 .category-items{
-  max-height: 518px;
+  max-height: 100%;
   overflow: hidden
 }
 #mega-menu .sale a{
@@ -106,7 +111,7 @@ html .s-main-menu .block{
 
 @media screen and (max-width: 1227px){
   .category-items{
-    max-height: 800px;
+    max-height: 100%;
     overflow: hidden;
   }
   #mega-menu .flex-item.col-2{
@@ -264,4 +269,4 @@ html .s-main-menu .block{
   top: 6px;
 }
 
-}
+} 

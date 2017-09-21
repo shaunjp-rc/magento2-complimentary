@@ -46,6 +46,16 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# CSS maps
+*.css.map
+
+craghoppers/css/styles-us.css.map
+craghoppers/css/styles.css.map
+dare2b/css/styles.css.map
+hawkshead/css/styles.css.map
+outlet/css/styles.css.map
+regatta/css/styles.css.map
+
 Extras
 .sass-cache
 .git

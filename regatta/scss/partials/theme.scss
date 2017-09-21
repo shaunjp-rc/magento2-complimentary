@@ -1,12 +1,188 @@
-/*//////////////////////////
-/* Footer Block Links
+/*/////////////////////////*/
+/*    Navigation Style     */
+/*/////////////////////////*/
+#header .sale.ui-menu-item > a {
+    background: #c1011a !important;
+}
+
+.s-main-menu {
+    background: #ffffff !important;
+}
+#ui-id-11{
+  color: #e4cc44 !important;
+}
+
+/*/////////////////////////*/
+/* Moved colours available */
+/*/////////////////////////*/
+.c-product-tile__img-wrapper .c-product-tile__item-extra-info {
+    position: relative;
+    background: #f3f3f3;
+    color: #4c4c4c;
+}
 /*////////////////////////*/
+/*    Responsive Table    */
+/*////////////////////////*/
+@media only screen and (max-width:500px) {
+  .responsive-table::-webkit-scrollbar {
+    width: 1em;
+    height: 5px;
+  }
+  .responsive-table::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .responsive-table::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .responsive-table {
+    overflow-x: scroll;
+    margin-bottom: 30px;
+  }
+  .responsive-table table {
+    width: 250%;
+  }
+  .responsive-table tr > td:first-child {
+    min-width: 120px;
+    background: #eaeaea;
+    position: absolute;
+    width: 33%;
+    left: inherit;
+    z-index: 1;
+    border: solid 1px #cccccc;
+  }
+  .responsive-table tr td {
+    padding: 10px;
+    background: #f9f9f9;    /* left: 16%; */
+
+    /* position: relative; */
+    z-index: 0;
+    border: solid 1px #ece9e9;
+  }
+  .responsive-table table tr {
+    position: relative;
+  }
+  .responsive-table tr td:nth-child(2) {
+    padding-left: 20%;
+  }
+}
+
+/*////////////////////////*/
+/*.    Roundel styling.   */
+/*////////////////////////*/
+#monVars {
+  position: relative;
+}
+.roundel {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #000000;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+}
+#product-roundel.percent-off {
+  background: #000000;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+  float: right;
+}
+.save__product-page {
+  background: #000000;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+  float: right;
+  clear: right;
+}
+@media only screen and (max-width: 350px) {
+  .mon-badge {
+    z-index: 1;
+    font-size: 10px;
+    padding: 5px;
+  }
+  .roundel {
+    max-width: 42px;
+    padding: 5px;
+  }
+}
+/*////////////////////////*/
+/*Product page size Styles*/
+/*////////////////////////*/
+#sizeChartWrapper .td-style {
+  background: #f9f9f9;
+  border: solid 1px #e0e0e0;
+  text-transform: uppercase;
+  padding: 10px;
+}
+#sizeChartWrapper .table-heading > td {
+  background: #e0e0e0;
+  height: 50px;
+}
+
+/*//////////////////////////
+/* SEO Footer Text */
+/*////////////////////////*/
+#content + .c-campaign > .s-text-banner {
+  background: #f9f9f9;
+}
+#content + .c-campaign > .s-text-banner > div {
+  max-width: 1228px;
+  margin: 40px auto;
+  padding: 10px;
+  display: inline-block;
+}
+
+/*//////////////////////////
+/* Footer Block */
+/*////////////////////////*/
+
+.c-feefo p, .c-feefo h4, .c-feefo h5{
+  color: #fff;
+}
+
+.c-footer__links a[onclick]{
+  text-decoration:none;
+}
+
+.page-product-configurable #basket-promo {
+  font-size: 15px;
+}
+
+.c-feefo p, .c-feefo h4, .c-feefo h5{
+  color: #fff;
+}
+
+.c-footer__links a[onclick]{
+  text-decoration:none;
+}
+
 @media only screen and (max-width: 739px) {
   .mobile-footer-links h4::before {
       content: "+";
       float: right;
-      font-size: 15px;
-      margin-top: -3px;
+      font-size: 20px;
+      margin-top: -7px;
   }
   .mobile-footer-links .toggleMain::before {
       content: "-";
@@ -17,7 +193,7 @@
   .mobile-footer-links h4 {
       background: #606060;
       padding: 10px;
-      color: #ffffff;  
+      color: #ffffff;
   }
   .mobile-footer-links h4 + ul {
     display:none;
@@ -38,4 +214,169 @@
   .mobile-footer-links .toggleMain + ul li a{
     color:#606060;
   }
+}
+
+/*//////////////////////////
+/* Category banner styles */
+/*////////////////////////*/
+.c-campaign .s-text-banner > div > h1 {
+    margin-bottom: 0px;
+}
+.c-campaign .s-text-banner > div > p {
+    margin-top: 0px;
+}
+
+.s-text-banner{
+  padding: 0;
+}
+#top-level-cat-banner{
+  padding: 6px 6px 0;
+  background: #eee;
+}
+#top-level-cat-banner:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+#top-level-cat-banner-img{
+  float: left;
+  width: 19%;
+}
+#top-level-cat-banner-text {
+  float: right;
+  width: 81%;
+  text-align: left;
+  padding: 10px 30px;
+}
+#top-level-cat-banner-text > h1, #top-level-cat-banner-text > p {
+  margin-bottom: 0px;
+}
+#top-level-cat-banner-text li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 6px 10px 0 0;
+}
+
+#top-level-cat-banner-text ul{
+  padding: 0;
+  margin: 0;
+}
+
+#top-level-cat-banner-text li a{
+  color: #333;
+}
+
+@media screen and (max-width: 989px){
+
+#top-level-cat-banner-img{
+  display: none;
+}
+
+#top-level-cat-banner-text{
+  width: 100%;
+  padding: 20px
+}
+
+}
+
+/*/////////////////////////////
+/* Footer Block FeeFo Mobile */
+/*///////////////////////////*/
+@media screen and (max-width:500px) {
+  body .c-feefo {
+    background-size: 80px;
+    padding: 0;
+    min-height: 42px;
+    background-position: left 15px center;
+    margin: 7px 0px;
+    position: relative;
+  }
+  .c-feefo h4.c-feefo__titl {
+    display: none;
+  }
+  .c-feefo .c-feefo__percentage {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .c-feefo__subtitle {
+    position: absolute;
+    bottom: -23px;
+    right: 0;
+    left: 0;
+    color: #424243;
+  }
+}
+
+
+/*/////////////////////*/
+/* product page styles */
+/*/////////////////////*/
+
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
+  width: 100% !important;
+}
+.page-product-configurable{
+  .o-list-stacked--spaced .o-list-stacked__item {
+    margin-bottom: 18px;
+    background: #efefef;
+    display: table;
+    padding: 5px 15PX;
+    border-radius: 100px;
+    color: #bdbdbd;
+    margin: 5px;
+    display: inline-block;
+  }
+  .o-list-stacked--spaced .o-list-stacked__item a {
+    color: #8c8c8c;
+    text-decoration: none;
+  }
+}
+
+/****************************
+/* Fred Hopper Toggle Styles
+/***************************/
+.s-text-banner div > p{
+    overflow: hidden;
+    display: block;
+}
+
+.s-text-banner div > p.active {
+    max-height: 50px;
+}
+
+.s-text-banner button{
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  background: #ddd;
+  padding: 6px;
+}
+@media only screen and (min-width: 660px) {
+  .s-text-banner button{display:none;}
+  .s-text-banner div > p.active {
+    max-height: initial;
+  }
+  #top-level-cat-banner-text{
+    padding-top: 0 !important;
+  }
+}
+
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+    display: none;
+}
+/* END */
+
+/* wooform fix */
+#wufooFormp1q1w6fp0geptk7{
+  height: 1000px;
+}
+
+.s-text-banner{
+  max-width: 1180px;
+  margin: 0 auto;
 }

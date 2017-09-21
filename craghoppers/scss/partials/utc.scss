@@ -1,0 +1,1069 @@
+.utc{
+	font-family:$montreg;
+}
+.cms-utc-journey #content .columns .o-region__inner,
+.cms-utc-story #content .columns .o-region__inner,
+.cms-utc-technologies #content .columns .o-region__inner,
+.cms-utc-mens #content .columns .o-region__inner,
+.cms-utc-womens #content .columns .o-region__inner {
+    width: 100%;
+} 
+
+.cms-utc-journey .c-page-wrapper,
+.cms-utc-story .c-page-wrapper,
+.cms-utc-technologies .c-page-wrapper,
+.cms-utc-mens .c-page-wrapper,
+.cms-utc-womens .c-page-wrapper, {
+    padding: 30px 0 0 0;
+}
+
+.cms-utc-mens .flex-container,
+.cms-utc-womens .flex-container {
+    margin: 0;
+}
+
+.utc-strip-padding {
+	margin-top: 3%;
+}
+
+/* UTC Header */
+.utc-header {
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+.utc-car {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-3.jpg);
+}
+.utc-plane {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-1.jpg);
+}
+.utc-room {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-2.jpg);
+}
+.utc-product {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-4.jpg);
+}
+.utc-heromale {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-1.jpg);
+}
+.utc-herofemale {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-2.jpg);
+}
+
+.utc-nav {
+    width: 45%;
+    background: rgba(0,0,0,0.5);
+    padding: 3% 0 5% 0;
+}
+.utc-nav ul {
+    margin: 0;
+    float: right;
+    list-style-type: none;
+    color: #fff;
+    padding-right: 25%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $montreg;
+    line-height: 2.5;
+}
+.utc-nav ul a{
+	color:#fff
+}
+.utc-nav ul a:hover {
+    text-decoration: underline;
+}
+.utc-headwrapper{
+    max-width: 800px;
+}
+/* END */
+
+/* UTC Footer */
+.utc-footer {
+    background: #000;
+    text-align: center;
+    color: #fff;
+	padding:2% 0;
+	margin-top: 1%;
+}
+.utc-footer p {
+    margin: 0;
+	font-family: $montlight;
+	text-transform:uppercase;
+	letter-spacing:5px;
+}
+.utc-footer p:first-child {
+    font-size: 35px;
+    margin-bottom: 0.5%;
+}
+.utc-footer p:last-child {
+    font-family:$montreg;
+}
+
+@media only screen and (max-width:600px){
+	.utc-nav {
+    	width: 100%;
+	}
+	.utc-nav ul {
+		float: none;
+		padding: 0;
+	}
+}
+/* END */
+
+/* Center Container */
+.utc-centralcont{
+	max-width:1228px;
+	margin:0 auto;
+}
+.flex-container.utc-centralcont.utc-subnav.tabs {
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+/* END */
+/* UTC Homepage */
+.utc-strip{
+	background: #000;
+    height: 7px;
+    max-width: 223px;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+.utc-title{
+	font-family: $montmed;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: #000;
+    padding: 2% 0 1% 0;
+    line-height:1.3;
+}
+.utc-subnav {
+    background: #000;
+    color: #fff;
+    padding: 1.5% 0;
+}
+.cms-utc-journey .action-tabs .tabs-content {
+    border: 0;
+    padding: 0;
+}
+.utc-multihero {
+    text-align: center;
+}
+.utc-multihero .utc-producttitle {
+    text-transform: uppercase;
+    margin: 5% 0;
+    display: table;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.utc-multihero .utc-productdesc {
+    font-size: 12px;
+    font-family: $montlight;
+    width: 75%;
+    margin: 0 auto;
+}
+.utc-multihero .utc-productdesc + span {
+    text-transform: uppercase;
+    display: table;
+    width: 100%;
+    margin: 4% 0 7% 0;
+    font-family: $montlight;
+    font-size: 12px;
+    cursor: pointer;
+}
+.flex-item.col-6.active {
+    background: #000 !important;
+    text-decoration: underline;
+}
+.action-tabs .utc-subnav.tabs li {
+    text-align: left;
+    border: 0;
+}
+.action-tabs .utc-subnav.tabs li:first-of-type {
+    text-align: right;
+}
+.action-tabs .utc-subnav.tabs li:hover {
+    background: #000;
+    text-decoration: underline;
+}
+.utc-button{
+	background: transparent;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0.5% 4%;
+}
+.utc-technical {
+    width: 271px;
+    font-size: 18px;
+    color: #000;
+}
+.utc-striphero {
+    padding: 4% 0px;
+    margin-top: 3%;
+} 
+.utc-lowerhero.utc-herofemale{
+	background-image:url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens.jpg);
+}
+.utc-femaletechone{
+	background-image:url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Down.jpg);
+}
+.utc-femaletechtwo{
+	background-image:url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_RFID.jpg);
+}
+.utc-femaletechthree{
+	background-image:url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Reversible.jpg);
+}
+.utc-lowerhero {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.utc-techsection p {
+    margin: 0;
+    color: #fff;
+}
+.utc-journeytech{
+	padding: 0;
+	color: #fff;
+}
+.utc-techsection {
+    padding: 39% 0 4% 4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.utc-lowerhero .utc-producttitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    display: table;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+    color: #000;
+    margin-top: 29%;
+    margin-left: 2%;
+}
+.utc-lowerhero .utc-productdesc {
+    width: 208px;
+    font-size: 12px;
+    margin-left: 2%;
+}
+.utc-lowerhero .utc-productdesc + span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 2%;
+    cursor: pointer;
+} 
+
+.utc-techsection span {
+    text-transform: uppercase;
+    font-family: $montbold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+} 
+.utc-techsection span span {
+    font-family: $montreg;
+}
+.utc-safejourney{
+    margin-top: 5%;
+}
+.utc-intro{
+    margin: 1% 0;
+}
+.utc-intro p {
+    font-size: 14px;
+    margin-bottom: 1%;
+    line-height: 1.2;
+    font-family: $montlight;
+}
+.utc-lowerhero .utc-title{
+    margin-left: 2%;
+}
+.utc-lowerhero .utc-strip {
+    margin-left: 2%;
+}
+
+.utc-lowerhero.utc-heromale{
+    background-image:url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens.jpg)
+}
+.utc-maletechone {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_MensTech_Goretex.jpg);
+}
+.utc-maletechtwo {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_MensTech_RFID.jpg);
+}
+.utc-heromale + .utc-safejourney .utc-techsection {
+    padding: 64% 0 4% 4%;
+}
+.utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+    margin-top: 27%;
+}
+.utc-clear{
+    width: 100%;
+    clear:both;
+} 
+.utc-titleheader{
+    font-size: 24px;
+    margin-bottom: 0.5%;
+    margin-top: 2%;
+}
+.utc-subheader{
+    font-size: 20px;
+    margin-bottom: 0%;
+    line-height: 1.3;
+} 
+.flex-item.col-12.utc-intro {
+    padding: 0;
+} 
+.utc-strip.utc-topstrip {
+    margin-top: 1%;
+}
+.utc-logo {
+    margin-top: 2.5%;
+}
+.utc-headerbutton:first-of-type {
+    margin-right: 0.5%;
+}
+.utc-headerbutton {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 0.5% 0;
+    width: 143px;
+    margin-top: 2%;
+    font-size: 12px;
+}
+.utc-header .col-6 {
+    text-align: center;
+} 
+.utc-headerbutton:hover{
+    background:#fff;
+    color:#000;
+}
+.utc-logo {
+    margin-top: 5.5%;
+}
+.utc-logo img{
+    max-width: 300px;
+}
+.utc-lowerseo {
+    margin-top: 1.5%;
+}
+.utc-lowerseo p {
+    margin-bottom: 0;
+}
+.utc-multihero span img {
+    width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1125px){
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+        margin-top: 23%;
+    }
+
+}
+
+@media only screen and (max-width:1024px){
+    .flex-item.col-4.utc-multihero {
+        width: 33.32%;
+    }
+    .flex-item.col-8.utc-lowerhero {
+        width: 66.64%;
+    }
+    .flex-item.col-4.utc-journeytech {
+        width: 33.32%;
+    }
+    .utc-lowerhero .utc-producttitle {
+        margin-top: 22%;
+    }
+    .utc-intro + .flex-item.col-5 {
+        display: none;
+    }
+    .utc-striphero .flex-item.col-7 {
+        width: 60%;
+    }
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+        margin-top: 17%;
+    }
+
+}
+
+@media only screen and (max-width:900px){
+    .flex-item.col-8.utc-lowerhero {
+        width: 100%;
+    }
+    .flex-item.col-4.utc-journeytech {
+        width: 100%;
+    }
+    .flex-item.col-12.utc-techsection {
+        width: 33.4%;
+        display: inline-block;
+        padding: 10% 0 2% 1%;
+        margin-right: -5px;
+    }
+    .utc-techsection p {
+        font-size: 1.8vw;
+    }
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-techsection {
+        width: 50%;
+        margin-right: -4px;
+    }
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+        margin-top: 31%;
+    }
+    .utc-lowerhero.utc-heromale .utc-productdesc + span {
+        display: block;
+        margin-bottom: 2%;
+    }
+
+}
+
+@media only screen and (max-width:770px){
+    .utc-footer p:first-child{
+        font-size: 4.5vw;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .utc-multihero .utc-producttitle {
+        min-height: 48px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .utc-nav + .flex-item.col-6 {
+        display: none;
+    }
+    .utc-header {
+        padding: 0;
+        margin-top: 16px;
+    }
+    .flex-item.col-4.utc-multihero {
+        width: 50%;
+        flex-grow: 0;
+    }
+    .utc-striphero .flex-item.col-7 {
+        display: none;
+    }
+    .utc-technical {
+        width: 100%;
+        font-size: 16px;
+    }
+    .utc-striphero .utc-strip {
+        margin-top: 0;
+    }
+    .utc-striphero {
+        background-position: right center;
+        padding: 6% 3%;
+    }
+    .utc-lowerhero .utc-title {
+        line-height: 1.3;
+    }
+    .flex-item.col-8.utc-lowerhero {
+        padding: 2% 0;
+        background-position: top right;
+        background-color: #bcab8f;
+    } 
+    .flex-item.col-12.utc-techsection {
+        width: 100%;
+        background-position: center;
+    }
+    .utc-techsection p {
+        font-size: 2.6vw;
+    }
+    .utc-button {
+        padding: 0.5% 8%;
+    }
+    .utc-title {
+        line-height: 1.3;
+    }
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-techsection {
+        width: 100%;
+    }
+    .flex-item.col-8.utc-lowerhero.utc-heromale {
+        background-size: cover;
+    }
+    .utc-lowerhero.utc-herofemale{
+        background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens-Mobile.jpg);
+    }
+    .utc-lowerhero.utc-heromale{
+        background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens-Mobile.jpg);
+    }
+    .utc-lowerhero .utc-producttitle,
+    .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
+        margin-top: 0;
+    } 
+
+
+}
+
+@media only screen and (max-width:450px){
+    .flex-item.col-4.utc-multihero {
+        width: 100%;
+    }
+    .action-tabs .utc-subnav.tabs li,
+    .action-tabs .utc-subnav.tabs li:first-of-type {
+        text-align: center;
+    }
+    .utc-multihero img {
+        width: 70%;
+    }
+    .utc-multihero .utc-producttitle {
+        min-height: 0;
+    }
+
+}
+
+@media only screen and (max-width:420px) {
+    .flex-item.col-8.utc-lowerhero,
+    .flex-item.col-8.utc-lowerhero.utc-heromale {
+        padding: 2% 0 80% 0;
+        background-position-y: 100%;
+        background-size: contain;
+        background-color: transparent;
+    }
+    .utc-lowerhero .utc-productdesc {
+        width: 100%;
+    } 
+
+}
+
+/* Lightbox */
+.utc-lightbox.rl-pop.active {
+    margin-top: 2%;
+    height: 845px;
+    overflow-y: scroll;
+}
+.utc-producthighlights {
+    text-align: center;
+}
+.utc-producthighlights img {
+    width: 58%;
+}
+.utc-producthighlights .col-12{
+    background: #f2f2f2;
+    padding:4% 0;
+}
+.utc-producthighlights .col-12:nth-child(2) {
+    margin: 3% 0;
+}
+.utc-productprice {
+    margin-bottom: 5%;
+}
+.utc-showfull {
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.utc-producttitle {
+    text-transform: uppercase;
+}
+.utc-lightbox .utc-title {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:600px) {
+    .utc-lightbox.rl-pop.active {
+        margin-top: 22%;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    .utc-lightbox.rl-pop.active {
+        margin-top: 18%;
+        height: 84%;
+    }
+    .utc-productmain {
+        text-align: center;
+    }
+    .utc-productmain img {
+        width: 70%;
+    }
+
+}
+
+/* END */
+
+/*PLP START */
+
+.cms-utc-mens #content .columns .o-region__inner,
+.cms-utc-womens #content .columns .o-region__inner {
+    background-color: #f2f2f2;
+} 
+
+.flex-container-styles {
+	padding: 1.5% 0;
+	background-color: #fff;
+	margin: 4% 0 6% 0;
+}
+
+.utc-plp-container,
+.utc-plp-container-w {
+	border-right: #9d9d9c;
+	border-width: 1px;
+	border-right-style: solid;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+.utc-plp-container:nth-child(3),
+.utc-plp-container:nth-child(7),
+.utc-plp-container:nth-child(11) {
+	border-right: none;
+}
+
+.utc-plp-container-w:nth-child(3),
+.utc-plp-container-w:nth-child(7),
+.utc-plp-container-w:nth-child(10),
+.utc-plp-container-w:nth-child(11) {
+	border-right: none;
+}
+
+.utc-plp-title {
+	color: #000;
+	font-family: $montlight;
+	padding: 0 0 1% 0;
+	text-align: center;
+	font-size: 100%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.utc-plp-image {
+    width: 75%;
+    margin: auto;
+}
+
+.utc-plp-description {
+	/*color: #716d68;*/
+	font-family: $montlight;
+	padding: 1% 6%;
+	text-align: center;
+	font-size: 90%;
+	height: 110px;
+}
+
+.utc-plp-price {
+    font-family: $montlight;
+    padding: 2% 0;
+    text-align: center;
+    font-size: 90%;
+}
+
+.utc-plp-swatches {
+	text-align: center;
+}
+
+.utc-plp-swatch-inner {
+	padding: 0 0.5%;
+}
+
+.utc-plp-product-link {
+	/*color: #716d68;*/
+	font-family: $montlight;
+	padding: 1% 0 1% 0;
+	text-align: center;
+	font-size: 90%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.utc-plp-product-horiz-divide {
+	height: 1px;
+	color: #000;
+	background-color: #9d9d9c;
+	width: 100%;
+	margin: 1.2%;
+}
+h2.utc-title-lower {
+    font-family: $montreg;
+    padding-top: 4%;
+}
+
+.utc-lower-seo {
+    padding-bottom: 1.5%;
+}
+
+@media only screen and (max-width:770px) {
+	.utc-plp-title {
+		padding: 0 4% 3% 4%;
+		height: 55px;
+		font-size: 90%;
+	}
+
+	.utc-plp-product-link {
+		padding: 5% 0 1% 0;
+	}
+
+	.utc-plp-description {
+		padding: 1% 6% 5% 6%;
+		height: 140px;
+	}
+
+	.utc-plp-container {
+		width: 33.3% !important;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	.utc-plp-product-horiz-divide {
+		display: none;
+	}
+
+	.utc-plp-container,
+    .utc-plp-container-w {
+        border-right: none;
+		border-bottom: #9d9d9c;
+		border-width: 1px;
+		border-bottom-style: solid;
+		width: 46% !important;
+        margin: 2%;
+	}
+
+	.utc-plp-title {
+		padding: 5% 0 3% 0;
+		height: 55px;
+	}
+
+	.utc-plp-description {
+		height: 140px;
+	}
+
+	.utc-plp-product-link {
+		padding: 3% 0 5% 0;
+	}
+    .cms-utc-mens #content .columns .o-region__inner,
+    .cms-utc-womens #content .columns .o-region__inner {
+        background-color: #fff;
+    } 
+
+    .utc-plp-container-w:nth-child(11) {
+        border-bottom: none;
+    }
+
+    .utc-plp-empty {
+        display: none;
+    }
+}
+
+/*PLP END */
+
+
+/* UTC Story Start */
+
+.utc-story-goretex {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-goretex.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 190px;
+	min-height: 190px;
+}
+
+.utc-story-rfid {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-rfid.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 190px;
+	min-height: 190px;
+}
+
+.utc-story-aquadry {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-aquadry.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 190px;
+	min-height: 190px;
+}
+
+.utc-story-nosilife {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-nosilife.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 190px;
+	min-height: 190px;
+}
+
+.utc-story-antibacterial {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-antibac.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 190px;
+	min-height: 190px;
+}
+
+.utc-story-down {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-down.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 190px;
+	min-height: 190px;
+}
+
+.utc-story-box-title {
+	color: #fff;
+	font-family: $montlight;
+	font-size: 110%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 45% 0 0 0;
+	text-align: center;
+}
+
+.utc-story-box-title-bold {
+	font-family: $montreg;
+}
+
+.utc-story-img {
+	padding-top: 4%;
+}
+
+.utc-story-divide {
+	background: #000;
+    height: 7px;
+    max-width: 223px;
+    border-radius: 10px;
+    margin: 4% 0 1% 0;
+}
+
+.utc-story-title {
+	color: #000;
+	font-family: $montmed;
+	font-size: 28px;
+	letter-spacing: 5px;
+	padding: 2% 0 1% 0;
+	text-transform: uppercase;
+}
+
+.utc-story-copy {
+	color: #000;
+	font-family: $montlight;
+	font-size: 110%;
+	padding: 5% 15% 1% 0;
+	text-align: left;
+	line-height: 200%;
+}
+
+@media only screen and (max-width:400px) {
+    .cms-utc-story .col-2 {
+        width: 50%;
+    }
+
+    .utc-story-copy {
+        padding: 5% 0 1% 0;
+    }
+}
+
+/* UTC Story End */
+
+/* Technologies Start */
+.utc-technology-goretex {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/goretex.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-aquadry {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/aquadry.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-solarshield {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/solarshield.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-down {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/down.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-nosilife {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/nosilife.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-moisture-control {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/moisture-control.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-wash-wear {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/wash-wear.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-rfidshield {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/rfid.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-lightweight {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/lightweight.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-security {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/security.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-anti-bacterial {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/anti-bac.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-reversible {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/reversible.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 400px;
+	min-height: 400px;
+}
+
+.utc-technology-box-title {
+	color: #fff;
+	font-family: $montlight;
+	font-size: 220%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 37% 0 0 0;
+	text-align: center;
+	line-height: 120%;
+}
+
+.utc-technology-box-title-bold {
+	font-family: $montreg;
+}
+
+.utc-technology-box-copy {
+	color: #fff;
+	font-family: $montlight;
+	font-size: 90%;
+	padding: 5% 4% 0 4%;
+	text-align: center;
+}
+
+.flex-item-tech {
+	margin-bottom: 10px;
+}
+
+.utc-footer-padding {
+	margin-top: 4%;
+}
+
+@media only screen and (max-width:1024px) {
+    .flex-item.col-4.flex-item-tech{
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .utc-technology-box-copy {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .flex-item.col-4.flex-item-tech{
+        width: 50%;
+    }
+    .utc-technology-box-copy {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .utc-technology-goretex,
+    .utc-technology-aquadry,
+    .utc-technology-solarshield,
+    .utc-technology-down,
+    .utc-technology-nosilife,
+    .utc-technology-moisture-control,
+    .utc-technology-wash-wear,
+    .utc-technology-rfidshield,
+    .utc-technology-lightweight,
+    .utc-technology-security,
+    .utc-technology-anti-bacterial,
+    .utc-technology-reversible {
+        min-height: 190px;
+    }
+
+    .utc-technology-box-title {
+        font-size: 140%;
+        letter-spacing: 4px;
+        padding: 37% 0 0 0;
+        line-height: 120%;
+    }
+
+    .utc-technology-box-copy {
+        font-size: 80%;
+        padding: 5% 4% 0 4%;
+    }
+}
+
+/*Technologies End */

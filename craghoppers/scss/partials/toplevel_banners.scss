@@ -36,21 +36,112 @@
 	text-align: left;
 }
 
-.categorypath-men .categoryBanner__image,
-.categorypath-herren .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Mens.jpg) no-repeat center;
+.categorypath-women.category-women .womens-seoheader{
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Womens-TopLevel.jpg);
+    padding: 3% 0;
+    background-repeat: no-repeat;
+}
+.categorypath-men.category-men .mens-seoheader {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg);
+    padding: 3% 0;
+    background-repeat: no-repeat;
+}
+.categorypath-kids.category-kids .kids-seoheader {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Kids-TopLevel.jpg);
+    padding: 7.5% 0;
+    background-repeat: no-repeat;
 }
 
-.categorypath-women .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Womens.jpg) no-repeat center;
+.categorypath-accessories.category-accessories .accessories-seoheader {
+	background: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Accessories-TopLevel.jpg) no-repeat center;
+	padding: 7% 0;
+	background-repeat: no-repeat;
 }
 
-.categorypath-kids .categoryBanner__image,
-.categorypath-kinder .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Kids.jpg) no-repeat center;
+.categoryBanner .categoryBanner__image.categoryBanner__image--discovery {
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Discovery.jpg) no-repeat center;
 }
 
-.categorypath-accessories .categoryBanner__image,
-.categorypath- .categoryBanner__image {
-	background: url(//d1khwdv4lze0nb.cloudfront.net/images/SS17/category-banners/TopLevel-Accessories.jpg) no-repeat center;
+.categoryBanner .categoryBanner__image.categoryBanner__image--os {
+	background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center;
+}
+
+.s-text-banner p:empty {
+    margin: 0;
+}
+.category-view__title {
+    margin-bottom: 0;
+    font-family: georgia;
+}
+.categorypath-men p.category-view__description,
+.categorypath-women p.category-view__description,
+.categorypath-womens p.category-view__description,
+.categorypath-kids p.category-view__description,
+.categorypath-accessories p.category-view__description {
+    width: 59%;
+    margin-bottom: 0;
+} 
+
+@media only screen and (max-width: 770px){
+	p.category-view__description {
+	    width: 100% !important;
+	} 
+
+}
+/* Mobile SEO show/hide */
+.seemore {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    background: #e3e3e3;
+    padding: 2% 0;
+    margin-top: 1%;
+}
+
+p.category-view__description.category-description {
+    display: block !important;
+}
+
+.category-view__title + .category-view__description .gradient{
+	margin-top:-5.5%;
+}
+
+.seemore.toggle-removebttn,
+.category-view__description + .category-view__description .gradient,
+.gradient.gradient-toggle,
+.mobileseo-container.close{
+	display: none;
+}
+
+.mobileseo-container {
+    margin-top: -7%;
+} 
+
+
+@media only screen and (max-width: 644px){
+	p.category-view__description.first-description {
+	    max-height: 50px;
+	    overflow: hidden;
+	}
+
+	.mobileseo-container {
+	    margin-top: -52px;
+	}
+
+}
+
+@media only screen and (max-width: 375px){
+	.category-view__title + .category-view__description .gradient {
+	    margin-top: -12.5%;
+	}
+}
+
+/* END */
+
+
+@media only screen and (max-width:770px) {
+	.categoryBanner {
+		display: none;
+	}
+
 }

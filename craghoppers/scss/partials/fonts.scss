@@ -1,0 +1,26 @@
+/* UTC Fonts */
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf);
+}
+
+$montreg: 'Montserrat-Regular', Helvetica, Arial, sans-serif;
+$montmed: 'Montserrat-Medium', Helvetica, Arial, sans-serif;
+$montlight: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+$montbold: 'Montserrat-Bold', Helvetica, Arial, sans-serif; 

@@ -1,6 +1,157 @@
+#ui-id-12 {
+  background: #c20000;
+  color: #ffffff;
+}
+
+#ui-id-12.ui-state-focus:after, #ui-id-12.ui-state-focus:after {
+  display: none;
+}
+
+body .c-product-tile__btn{
+  background: transparent;
+  border: 2px solid #34af65;
+  color: #34af65;
+}
+
+/*/////////////////////////*/
+/* Moved colours available */
+/*/////////////////////////*/
+.c-product-tile__img-wrapper .c-product-tile__item-extra-info {
+    position: relative;
+    background: #f3f3f3;
+    color: #4c4c4c;
+}
+
+@media only screen and (max-width: 1227px) {
+  body .s-main-menu .categories > li > a {
+      font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 660px) and (max-width: 989px) {
+  body .s-main-menu .categories > li > a {
+      font-size: 0.8rem;
+  }
+}
+
+/*////////////////////////*/
+/*      Basket Page       */
+/*////////////////////////*/
+
+.c-basket__footer{
+  .c-input-combined__input-wrapper{
+    .c-input-combined__input {
+      border: 2px solid #dedede !important;
+      background-color: #ebebeb !important;
+    }
+  }
+}
+
+/*////////////////////////*/
+/*.   PDP Styles          */
+/*////////////////////////*/
+
+#PDP-Size-Chart table{
+  width: 100%
+}
+
+#PDP-Size-Chart thead{
+  background: #ddd;
+
+}
+
+#PDP-Size-Chart tr, td{
+  border: 1px solid;
+  padding: 4px;
+}
+
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
+  width: 100% !important;
+}
+.page-product-configurable{
+  .o-list-stacked--spaced .o-list-stacked__item {
+    margin-bottom: 18px;
+    background: #efefef;
+    display: table;
+    padding: 5px 15PX;
+    border-radius: 100px;
+    color: #bdbdbd;
+    margin: 5px;
+    display: inline-block;
+  }
+  .o-list-stacked--spaced .o-list-stacked__item a {
+    color: #8c8c8c;
+    text-decoration: none;
+  }
+}
+
+
+/*////////////////////////*/
+/*.    Roundel styling.   */
+/*////////////////////////*/
+
+#product-roundel {
+  background: #2676ba;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+  float: right;
+  clear: right;
+}
+#monVars {
+  position: relative;
+}
+.roundel {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #2676ba;
+  max-width: 53px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 6px 6px 6px 0px;
+  color: #ffffff;
+  box-shadow: 0px 3px 6px -5px #000000;
+  display: block !important;
+}
+@media only screen and (max-width: 350px) {
+  .mon-badge {
+    z-index: 1;
+    font-size: 10px;
+    padding: 5px;
+  }
+  .roundel {
+    max-width: 42px;
+    padding: 5px;
+  }
+}
+
 /*//////////////////////////
 /* Footer Block Links
 /*////////////////////////*/
+
+.footerFeefo {
+    text-decoration: none;
+}
+.page-product-configurable #basket-promo {
+  font-size: 15px;
+}
+
+.c-feefo p, .c-feefo h4, .c-feefo h5{
+  color: #fff;
+}
+
+.c-footer__links a[onclick]{
+  text-decoration:none;
+}
+
 @media only screen and (max-width: 739px) {
   .mobile-footer-links h4::before {
       content: "+";
@@ -17,7 +168,7 @@
   .mobile-footer-links h4 {
       background: #606060;
       padding: 10px;
-      color: #ffffff;  
+      color: #ffffff;
   }
   .mobile-footer-links h4 + ul {
     display:none;
@@ -38,4 +189,229 @@
   .mobile-footer-links .toggleMain + ul li a{
     color:#606060;
   }
+}
+
+
+/*/////////////////////////////
+/* Footer Block FeeFo Mobile */
+/*///////////////////////////*/
+
+@media screen and (max-width:500px) {
+  body .c-feefo {
+    background-size: 80px;
+    padding: 0;
+    min-height: 42px;
+    background-position: left 15px center;
+    margin: 7px 0px;
+    position: relative;
+  }
+  .c-feefo h4.c-feefo__titl {
+    display: none;
+  }
+  .c-feefo .c-feefo__percentage {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .c-feefo__subtitle {
+    position: absolute;
+    bottom: -23px;
+    right: 0;
+    left: 0;
+    color: #b9b9b9;
+  }
+}
+
+/*/////////////////////////////
+/* Category Banners          */
+/*///////////////////////////*/
+
+.category-container.full .category-text {
+  position: absolute;
+  top: 45%;
+  margin: auto;
+  left: 0;
+  display: table;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  max-width: 90%;
+  width: 90%;
+}
+
+.category-container.full .category-title {
+  position: absolute;
+  top: 20%;
+  margin: auto;
+  left: 40%;
+  font-size: 30px;
+  padding: 0px 20px;
+  color: #000000;
+  display: table;
+  right: auto;
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 90%;
+}
+
+.s-text-banner {
+  padding: 0px;
+}
+.category-container.full {
+  position: relative;
+}
+
+.category-container.full .category-links {
+  display: flex !important;
+  flex-wrap: wrap;
+  margin-top: -10px;
+}
+
+.category-container.full .category-links a {
+  flex-grow: 1;
+  margin: 0;
+  border: 1px solid #555;
+  border-left: 0;
+  background: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 10px;
+  flex-basis: 200px;
+}
+.category-container.full .category-links a img {
+  max-width: 10px;
+  margin-top: 3px;
+  filter: invert(100%);
+  float: right;
+}
+.no-banner-sub-links a{
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.no-banner-sub-links a:after{
+  content: ">";
+  display: inline-block;
+  margin-left: 10px;
+  transform: scale(1,1.4);
+  position: relative;
+  top: 2px;
+}
+@media only screen and (max-width:1227px) {
+  .category-container.full .category-title {
+    top: 10%;
+    font-size: 25px;
+  }
+  .category-container.full .category-text {
+    top: 30%;
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width:989px) {
+  .category-container.full .category-image {
+    display: none;
+  }
+  .category-container.full .category-text, .category-title {
+    position: relative !important;
+    left: auto !important;
+    display: block !important;
+    margin-bottom: 20px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .category-container.full .category-title {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width:480px) {
+  .category-container.full .category-links a {
+    flex-basis: 150px;
+    font-size: 10px;
+  }
+  .category-container.full .category-text {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 768px){
+.no-banner-sub-links{
+  margin-top: -10px;
+}
+.no-banner-sub-links a{
+  margin: 0px 10px;
+}
+}
+
+/* Account Style */
+.account.sales-order-view .box-order-billing-method {
+    display: none;
+}
+/* END */
+
+.category-view .s-text-banner{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+0,ffffff+20 */
+background: #ededed; /* Old browsers */
+background: -moz-linear-gradient(left, #ededed 0%, #ffffff 20%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ededed 0%,#ffffff 20%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ededed 0%,#ffffff 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.category-container-aw17 img{
+  float: right;
+  width: auto;
+  margin-left: 20px;
+}
+
+.category-container-aw17 .category-links,
+.category-container-aw17 .category-banner-text{
+  text-align: left !important;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+.category-container-aw17 .category-links{
+  padding-left: 0;
+}
+
+.category-container-aw17 .category-links a{
+  color: #111; margin-right: 10px;
+}
+
+.category-container-aw17 h1{
+  margin-bottom: 10px;
+  line-height: 1.1em;
+}
+
+@media screen and (max-width: 989px){
+
+.category-container-aw17 img{
+  display: none;
+}
+
+.category-container-aw17{
+  background: #fff;
+}
+
+.category-container-aw17 .category-links,
+.category-container-aw17 .category-banner-text{
+  text-align: center !important
+}
+
+}
+
+/* wooform fix */
+#wufooFormk1hcbt9l12keg2l{
+  height: 1000px;
+}
+
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 10px;
 }

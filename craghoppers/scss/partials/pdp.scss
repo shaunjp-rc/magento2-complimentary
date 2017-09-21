@@ -1,0 +1,228 @@
+.c-product-size__link {
+	font-weight: normal;
+}
+
+.c-product-details .product-info-stock-sku .value {
+	float: none;
+	text-align: left;
+	color: #343334;
+}
+ 
+.c-icon--quantity-plus {
+	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/plus.svg) !important;
+}
+
+.c-icon--quantity-minus {
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/misc/icons/minus.svg)!important;
+}
+
+.c-qty__input {
+	width: 60px;
+}
+
+.c-rating__reviews,
+.c-rating__reviews:active,
+.c-rating__reviews:focus,
+.c-rating__reviews:hover,
+.c-rating__reviews:visited {
+	color: #343334;
+}
+
+.c-save-item,
+.c-save-item:active,
+.c-save-item:visited {
+	color: #343334;
+}
+
+a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
+	background-color: #717171;
+	padding: 10px 30px;
+	margin-top: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+
+@media only screen and (max-width:770px) {
+	.c-tabs__tab {
+		padding: 1px 30px;
+	}
+}
+
+.c-product-details .c-price__group {
+	margin-bottom: 0;
+}
+
+.c-rating__wrap,
+.c-rating__wrap--product-tile {
+	margin-top: 2%;
+}
+
+.old-price .c-price__group {
+	margin-top: 1%;
+}
+
+@media only screen and (max-width:550px) {
+	.c-product-details .product-info-price {
+	    top: 0;
+	}
+}
+
+/* Related Categories */
+
+body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
+    width: 100% !important;
+}
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item {
+    margin-bottom: 18px;
+    background: #f7f7f7;
+    padding: 5px 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.page-product-configurable .o-list-stacked--spaced .o-list-stacked__item a {
+    text-decoration: none;
+    color: #343334;
+}
+
+.viewall-related {
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* END */
+
+/* Endcap Section */
+.column.main + .o-region__inner,
+.columns + .o-region__inner {
+    width: 100%;
+    background: #ebebeb;
+    padding: 5px 0;
+}
+
+.monetate-container.m2 {
+    margin: 0 auto;
+    max-width: 1228px;
+}
+
+.endcap-container {
+    background: #fff;
+    margin-top: 1%;
+}
+
+.outfit-builder.endcap-container{
+	padding:1% 0;
+}
+
+.endcap-container > div {
+    margin: 0 auto;
+    padding: 0.5% 0;
+} 
+ 
+.mt_animate {
+    margin-left: 0px;
+} 
+ 
+.endcap-container .mt_sliderTop {
+    margin: 1% 0;
+}
+
+.mt_sliderTop .mt_title {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #343334;
+}
+
+.endcap-container a {
+    color: #343334;
+}
+
+.mt_arrowContainer {
+    margin-top: -5%;
+}
+
+@media only screen and (max-width:550px){
+	.column.main + .o-region__inner {
+	    padding: 0;
+	}
+}
+
+/* END */
+
+/* PDP Buying Guide */
+.page-product-configurable{
+
+	.fitGuideDiagrams__block {
+	    width: 29%;
+	    float: left;
+	    margin: 0 6% 2% 0;
+	    text-align: center;
+	}
+
+	.fitGuideDiagrams__block img {
+	    width: 100%;
+	    max-width: 318px;
+	}
+
+	.fitGuideDiagrams__fitTitle, .fitGuideDiagrams__fitDesc {
+	    text-align: left;
+	}
+
+	.imgcontainer {
+		position: absolute;
+		margin-top: -12%;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.4);
+		text-align: left;
+	}
+
+	.buyingguideContainer {
+    	position: relative;
+	}
+
+	.fitGuideDiagrams__block:last-child {
+    	margin-right: 0;
+	}
+
+	.imgcontainer span {
+	    width: 50%;
+	    float: left;
+	    text-align: center;
+	}
+
+	.imgcontainer span:hover {
+	    text-decoration: underline;
+	} 
+
+}
+
+@media only screen and (max-width:550px){
+.page-product-configurable{
+	.imgcontainer{
+		padding: 5px 0;
+	}
+
+	.fitGuideDiagrams__block {
+    	width: 100%;
+	}
+
+}
+
+}
+
+/* END */
+
+
+/* Tabbed boxes highlight */
+
+.c-tabs__tab.active .c-tabs__tab-link {
+	border-bottom: 8px solid #343334;
+}
+
+/* END */
