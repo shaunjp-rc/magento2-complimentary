@@ -286,10 +286,10 @@ $j(document).ready(function($) {
 
    /* Footer mobile menu */
 
-   $j('[data-target="toggleNextElement"]').click(function(){
-      $j(this).next('*').toggleClass('toggleSub');
-      $j(this).toggleClass("toggleMain");
-    });
+  jQuery(".column.column--footer").click(function(){
+    jQuery(this).find('ul').toggleClass("toggleSub");
+    jQuery(this).toggleClass("toggleMain");
+  });
 
    /* END */
 
