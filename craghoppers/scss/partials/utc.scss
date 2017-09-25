@@ -874,11 +874,17 @@ h2.utc-title-lower {
     .flex-item.col-8.utc-story-main {
         width: 50%;
     }
+    .flex-item.col-2.story-col-2 {
+        width: 16.6%; 
+    }
 }
 
 @media only screen and (max-width:400px) {
     .cms-utc-story .col-2 {
         width: 50%;
+    }
+    .flex-item.col-2.story-col-2 {
+        width: 33.3%; 
     }
 }
 
