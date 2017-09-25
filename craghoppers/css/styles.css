@@ -4828,14 +4828,16 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   margin: 0;
   font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 5px; }
+  letter-spacing: 7px; }
 
 .utc-footer p:first-child {
   font-size: 35px;
-  margin-bottom: 0.5%; }
+  margin-bottom: 1%;
+  letter-spacing: 15px; }
 
 .utc-footer p:last-child {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  font-size: 20px; }
 
 @media only screen and (max-width: 600px) {
   .utc-nav {

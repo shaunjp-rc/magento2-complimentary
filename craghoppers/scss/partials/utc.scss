@@ -101,14 +101,16 @@
     margin: 0;
 	font-family: $montlight;
 	text-transform:uppercase;
-	letter-spacing:5px;
+	letter-spacing:7px;
 }
 .utc-footer p:first-child {
     font-size: 35px;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
+    letter-spacing: 15px;
 }
 .utc-footer p:last-child {
     font-family:$montreg;
+    font-size: 20px;
 }
 
 @media only screen and (max-width:600px){
