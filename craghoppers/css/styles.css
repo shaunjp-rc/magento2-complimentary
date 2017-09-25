@@ -5634,11 +5634,23 @@ h2.utc-title-lower {
   .utc-technology-box-copy {
     font-size: 100%; } }
 @media only screen and (max-width: 770px) {
-  .flex-item.col-4.flex-item-tech {
-    width: 50%; }
+  .utc-technology-goretex,
+  .utc-technology-aquadry,
+  .utc-technology-solarshield,
+  .utc-technology-down,
+  .utc-technology-nosilife,
+  .utc-technology-moisture-control,
+  .utc-technology-wash-wear,
+  .utc-technology-rfidshield,
+  .utc-technology-lightweight,
+  .utc-technology-security,
+  .utc-technology-anti-bacterial,
+  .utc-technology-reversible {
+    min-height: 260px; }
 
-  .utc-technology-box-copy {
-    font-size: 120%; } }
+  .utc-technology-box-title {
+    font-size: 180%;
+    padding: 20% 0 0 0; } }
 @media only screen and (max-width: 400px) {
   .utc-technology-goretex,
   .utc-technology-aquadry,
@@ -5655,10 +5667,7 @@ h2.utc-title-lower {
     min-height: 190px; }
 
   .utc-technology-box-title {
-    font-size: 140%;
-    letter-spacing: 4px;
-    padding: 37% 0 0 0;
-    line-height: 120%; }
+    font-size: 140%; }
 
   .utc-technology-box-copy {
     font-size: 80%;
