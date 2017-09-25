@@ -870,12 +870,22 @@ h2.utc-title-lower {
 @media only screen and (max-width:1024px) {
     .utc-story-copy {
         padding: 3% 1% 1% 0;
+        font-size: 85%;
     }
     .flex-item.col-8.utc-story-main {
         width: 50%;
     }
     .flex-item.col-2.story-col-2 {
         width: 16.6%; 
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .utc-story-box-title {
+        font-size: 90%;
+    }
+    .utc-story-down {
+        min-height: 140px;
     }
 }
 
