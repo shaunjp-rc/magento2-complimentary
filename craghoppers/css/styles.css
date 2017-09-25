@@ -5511,6 +5511,11 @@ h2.utc-title-lower {
   .utc-story-box-title {
     font-size: 90%; }
 
+  .utc-story-goretex,
+  .utc-story-rfid,
+  .utc-story-aquadry
+  .utc-story-nosilife
+  .utc-story-antibacterial
   .utc-story-down {
     min-height: 140px; } }
 @media only screen and (max-width: 400px) {
