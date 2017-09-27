@@ -5417,7 +5417,8 @@ h2.utc-title-lower {
   background-repeat: no-repeat;
   width: 100%;
   max-width: 190px;
-  min-height: 190px; }
+  min-height: 190px;
+  margin-bottom: 10px; }
 
 .utc-story-rfid {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-rfid.jpg);
@@ -5425,7 +5426,8 @@ h2.utc-title-lower {
   background-repeat: no-repeat;
   width: 100%;
   max-width: 190px;
-  min-height: 190px; }
+  min-height: 190px;
+  margin-bottom: 10px; }
 
 .utc-story-aquadry {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-aquadry.jpg);
@@ -5433,7 +5435,8 @@ h2.utc-title-lower {
   background-repeat: no-repeat;
   width: 100%;
   max-width: 190px;
-  min-height: 190px; }
+  min-height: 190px;
+  margin-bottom: 10px; }
 
 .utc-story-nosilife {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-nosilife.jpg);
@@ -5441,7 +5444,8 @@ h2.utc-title-lower {
   background-repeat: no-repeat;
   width: 100%;
   max-width: 190px;
-  min-height: 190px; }
+  min-height: 190px;
+  margin-bottom: 10px; }
 
 .utc-story-antibacterial {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-antibac.jpg);
@@ -5449,7 +5453,8 @@ h2.utc-title-lower {
   background-repeat: no-repeat;
   width: 100%;
   max-width: 190px;
-  min-height: 190px; }
+  min-height: 190px;
+  margin-bottom: 10px; }
 
 .utc-story-down {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-down.jpg);
@@ -5457,7 +5462,8 @@ h2.utc-title-lower {
   background-repeat: no-repeat;
   width: 100%;
   max-width: 190px;
-  min-height: 190px; }
+  min-height: 190px;
+  margin-bottom: 10px; }
 
 .utc-story-box-title {
   color: #fff;
@@ -5509,7 +5515,7 @@ h2.utc-title-lower {
     width: 16.6%; } }
 @media only screen and (max-width: 770px) {
   .utc-story-box-title {
-    font-size: 70%; }
+    font-size: 100%; }
 
   .utc-story-goretex,
   .utc-story-rfid,
@@ -5517,7 +5523,7 @@ h2.utc-title-lower {
   .utc-story-nosilife,
   .utc-story-antibacterial,
   .utc-story-down {
-    min-height: 140px; } }
+    min-height: 160px; } }
 @media only screen and (max-width: 400px) {
   .cms-utc-story .col-2 {
     width: 50%; }

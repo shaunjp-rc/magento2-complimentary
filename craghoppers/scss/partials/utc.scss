@@ -776,6 +776,7 @@ h2.utc-title-lower {
 	width: 100%;
 	max-width: 190px;
 	min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-rfid {
@@ -785,6 +786,7 @@ h2.utc-title-lower {
 	width: 100%;
 	max-width: 190px;
 	min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-aquadry {
@@ -794,6 +796,7 @@ h2.utc-title-lower {
 	width: 100%;
 	max-width: 190px;
 	min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-nosilife {
@@ -803,6 +806,7 @@ h2.utc-title-lower {
 	width: 100%;
 	max-width: 190px;
 	min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-antibacterial {
@@ -812,6 +816,7 @@ h2.utc-title-lower {
 	width: 100%;
 	max-width: 190px;
 	min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-down {
@@ -821,6 +826,7 @@ h2.utc-title-lower {
 	width: 100%;
 	max-width: 190px;
 	min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-box-title {
@@ -882,7 +888,7 @@ h2.utc-title-lower {
 
 @media only screen and (max-width:770px) {
     .utc-story-box-title {
-        font-size: 70%;
+        font-size: 100%;
     }
     .utc-story-goretex,
     .utc-story-rfid,
@@ -890,7 +896,7 @@ h2.utc-title-lower {
     .utc-story-nosilife,
     .utc-story-antibacterial,
     .utc-story-down {
-        min-height: 140px;
+        min-height: 160px;
     }
 }
 
