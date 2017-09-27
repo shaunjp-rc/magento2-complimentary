@@ -773,56 +773,35 @@ h2.utc-title-lower {
 
 .utc-story-goretex {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-goretex.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 190px;
-	min-height: 190px;
 }
 
 .utc-story-rfid {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-rfid.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 190px;
-	min-height: 190px;
 }
 
 .utc-story-aquadry {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-aquadry.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 190px;
-	min-height: 190px;
 }
 
 .utc-story-nosilife {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-nosilife.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 190px;
-	min-height: 190px;
 }
 
 .utc-story-antibacterial {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-antibac.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 190px;
-	min-height: 190px;
 }
 
 .utc-story-down {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-down.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 190px;
-	min-height: 190px;
+}
+
+.utc-story-box-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 190px;
+    min-height: 190px;
+    margin-bottom: 10px;
 }
 
 .utc-story-box-title {
@@ -884,15 +863,11 @@ h2.utc-title-lower {
 
 @media only screen and (max-width:770px) {
     .utc-story-box-title {
-        font-size: 70%;
+        font-size: 100%;
     }
-    .utc-story-goretex,
-    .utc-story-rfid,
-    .utc-story-aquadry,
-    .utc-story-nosilife,
-    .utc-story-antibacterial,
-    .utc-story-down {
-        min-height: 140px;
+    
+    .utc-story-box-img {
+        min-height: 160px;
     }
 }
 
@@ -910,110 +885,58 @@ h2.utc-title-lower {
 /* Technologies Start */
 .utc-technology-goretex {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/goretex.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-aquadry {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/aquadry.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-solarshield {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/solarshield.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-down {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/down.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-nosilife {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/nosilife.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-moisture-control {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/moisture-control.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-wash-wear {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/wash-wear.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-rfidshield {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/rfid.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-lightweight {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/lightweight.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-security {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/security.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-anti-bacterial {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/anti-bac.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
 }
 
 .utc-technology-reversible {
 	background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/reversible.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	max-width: 400px;
-	min-height: 400px;
+}
+
+.utc-technology-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
 }
 
 .utc-technology-box-title {
@@ -1060,20 +983,10 @@ h2.utc-title-lower {
 }
 
 @media only screen and (max-width:770px) {
-    .utc-technology-goretex,
-    .utc-technology-aquadry,
-    .utc-technology-solarshield,
-    .utc-technology-down,
-    .utc-technology-nosilife,
-    .utc-technology-moisture-control,
-    .utc-technology-wash-wear,
-    .utc-technology-rfidshield,
-    .utc-technology-lightweight,
-    .utc-technology-security,
-    .utc-technology-anti-bacterial,
-    .utc-technology-reversible {
+    .utc-technology-img  {
         min-height: 260px;
     }
+
     .utc-technology-box-title {
         font-size: 180%;
         padding: 20% 0 0 0;
@@ -1081,18 +994,7 @@ h2.utc-title-lower {
 }
 
 @media only screen and (max-width:400px) {
-    .utc-technology-goretex,
-    .utc-technology-aquadry,
-    .utc-technology-solarshield,
-    .utc-technology-down,
-    .utc-technology-nosilife,
-    .utc-technology-moisture-control,
-    .utc-technology-wash-wear,
-    .utc-technology-rfidshield,
-    .utc-technology-lightweight,
-    .utc-technology-security,
-    .utc-technology-anti-bacterial,
-    .utc-technology-reversible {
+    .utc-technology-img {
         min-height: 190px;
     }
 
