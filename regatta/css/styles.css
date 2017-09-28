@@ -1249,6 +1249,14 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   max-width: 1180px;
   margin: 0 auto; }
 
+@media screen and (max-width: 640px) {
+  #top-level-cat-banner-text > h1 {
+    line-height: 24px;
+    margin-bottom: 4px;
+    font-size: 18px; }
+
+  #top-level-cat-banner-text {
+    padding: 8px; } }
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/

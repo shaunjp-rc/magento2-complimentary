@@ -415,3 +415,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', end
   margin: 0 auto;
   padding: 10px;
 }
+
+@media screen and (max-width: 640px){
+  .category-container-aw17 .category-links{
+    padding: 8px !important;
+  }
+  .category-container-aw17 h1{
+    font-size: 24px;
+  }
+  .category-view .s-text-banner{
+    background: none;
+  }
+  .s-text-banner__links-wrapper{
+    display: none;
+  }
+}
