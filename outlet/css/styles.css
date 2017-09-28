@@ -452,6 +452,9 @@
     width: 90%;
     margin: 20px 5%; } }
 /* Partials */
+#minicart-content-wrapper .c-mini-cart__basket > a > span {
+  font-size: 18px; }
+
 /****************************
 /* Badge Styles
 /***************************/
