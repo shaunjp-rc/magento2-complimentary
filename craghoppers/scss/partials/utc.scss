@@ -76,7 +76,8 @@
     display: inline-block;
     margin: 0 0.5%;
 }
-.utc-activelink {
+.utc-activelink,
+.utc-header ul li:hover {
     text-decoration: underline;
 }
 @media only screen and (max-width:600px){
