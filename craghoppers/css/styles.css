@@ -4806,7 +4806,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   display: inline-block;
   margin: 0 0.5%; }
 
-.utc-activelink {
+.utc-activelink,
+.utc-header ul li:hover {
   text-decoration: underline; }
 
 @media only screen and (max-width: 600px) {
@@ -4831,13 +4832,13 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   letter-spacing: 7px; }
 
 .utc-footer p:first-child {
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 1%;
   letter-spacing: 15px; }
 
 .utc-footer p:last-child {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
-  font-size: 20px; }
+  font-size: 16px; }
 
 @media only screen and (max-width: 600px) {
   .utc-nav {
@@ -5087,6 +5088,12 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100%;
   cursor: pointer; }
 
+.utc-productmain img {
+  width: 89%; }
+
+.utc-productmain {
+  text-align: center; }
+
 @media only screen and (max-width: 1125px) {
   .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
     margin-top: 23%; } }
@@ -5143,6 +5150,10 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 @media only screen and (max-width: 770px) {
   .utc-footer p:first-child {
     font-size: 4.5vw; } }
+@media only screen and (max-width: 600px) {
+  #browsewomens #femaleherotwo,
+  #browsemens #maleheroone {
+    display: none; } }
 @media only screen and (max-width: 550px) {
   .utc-multihero .utc-producttitle {
     min-height: 48px; } }
@@ -5250,11 +5261,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .utc-producthighlights .col-12:nth-child(2) {
   margin: 3% 0; }
 
-.utc-productprice {
-  margin-bottom: 5%; }
-
 .utc-showfull {
-  margin-top: 5%;
   text-transform: uppercase; }
 
 .utc-producttitle {
