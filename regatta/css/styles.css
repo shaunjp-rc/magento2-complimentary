@@ -909,6 +909,9 @@ html .mt_animate {
   opacity: 1 !important; }
 
 /* Partials */
+#minicart-content-wrapper .c-mini-cart__basket > a > span {
+  font-size: 18px; }
+
 /*/////////////////////////*/
 /*    Navigation Style     */
 /*/////////////////////////*/
