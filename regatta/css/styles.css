@@ -1969,7 +1969,7 @@ html .s-main-menu .block {
 /* Homepage */
 /*////////////////////////*/
 @media screen and (min-width: 990px) {
-  .breadcrumbs {
+  #homepage .breadcrumbs {
     display: none; }
 
   #homepage-endcap + .mt_endcap.mt_horizontal .mt_sliderTop {
