@@ -1554,7 +1554,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .category-items h3 {
   text-align: left;
-  margin: 15px 0 5px 0; }
+  margin: 5px 0 0px 0;
+  font-weight: bold;
+  font-size: 14px; }
 
 .category-items .flex-container {
   padding: 0 !important;
