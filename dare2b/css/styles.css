@@ -1428,6 +1428,47 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
   .s-text-banner__links-wrapper {
     display: none; } }
+/* HIDE SEO TEXT ON MOB, MAKE LINKS BUTTONS */
+@media screen and (max-width: 770px) {
+  .category-title {
+    margin-top: 8px;
+    line-height: 1.3em; }
+
+  .category-container-aw17 .category-banner-text {
+    padding: 10px 0 0 !important; }
+
+  .category-container-aw17 .category-text, html body .category-text,
+  html body .category-container.full .category-text {
+    display: none;
+    height: 0;
+    overflow: hidden; }
+
+  html body .category-container-aw17 .category-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 0 !important; }
+
+  .category-container-aw17 .category-links > a {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: 0 !Important;
+    background: #333;
+    display: block;
+    box-sizing: border-box;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 2px 4px;
+    border: 1px solid #fff; }
+
+  .category-container-aw17 .category-links > a:after {
+    content: '>';
+    margin-left: 8px;
+    transform: scale(0.8, 1.4) !important;
+    display: inline-block;
+    float: right;
+    margin-right: 8px; } }
 /* Mega menu styles Desktop and Tablet */
 .mob-only {
   display: none !important; }
