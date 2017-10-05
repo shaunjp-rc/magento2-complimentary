@@ -1,24 +1,32 @@
 .utc{
 	font-family:$montreg;
 }
-.cms-utc-journey #content .columns .o-region__inner,
-.cms-utc-story #content .columns .o-region__inner,
-.cms-utc-technologies #content .columns .o-region__inner,
-.cms-utc-mens #content .columns .o-region__inner,
-.cms-utc-womens #content .columns .o-region__inner {
+.cms-ultimate-travel-collection #content .columns .o-region__inner,
+.cms-ultimate-travel-collection-have-a-safe-journey #content .columns .o-region__inner,
+.cms-ultimate-travel-collection-tailored-technologies #content .columns .o-region__inner,
+.cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
+.cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
     width: 100%;
 } 
 
-.cms-utc-journey .c-page-wrapper,
-.cms-utc-story .c-page-wrapper,
-.cms-utc-technologies .c-page-wrapper,
-.cms-utc-mens .c-page-wrapper,
-.cms-utc-womens .c-page-wrapper, {
-    padding: 30px 0 0 0;
+.cms-ultimate-travel-collection .c-page-wrapper,
+.cms-ultimate-travel-collection-have-a-safe-journey .c-page-wrapper,
+.cms-ultimate-travel-collection-tailored-technologies .c-page-wrapper,
+.cms-ultimate-travel-collection-mens .c-page-wrapper,
+.cms-ultimate-travel-collection-womens .c-page-wrapper, {
+    padding: 0;
 }
 
-.cms-utc-mens .flex-container,
-.cms-utc-womens .flex-container {
+.cms-ultimate-travel-collection .o-list-inline,
+.cms-ultimate-travel-collection-have-a-safe-journey .o-list-inline,
+.cms-ultimate-travel-collection-tailored-technologies .o-list-inline,
+.cms-ultimate-travel-collection-mens .o-list-inline,
+.cms-ultimate-travel-collection-womens .o-list-inline, {
+    display: none;
+}
+
+.cms-ultimate-travel-collection-mens .flex-container,
+.cms-ultimate-travel-collection-womens .flex-container {
     margin: 0;
 }
 
@@ -111,7 +119,16 @@
 }
 .utc-footer p:last-child {
     font-family:$montreg;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:400px){
+    .utc-footer p:first-child {
+        letter-spacing: 8px;
+    }
+    .utc-footer p:last-child {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width:600px){
@@ -157,7 +174,7 @@
     color: #fff;
     padding: 1.5% 0;
 }
-.cms-utc-journey .action-tabs .tabs-content {
+.cms-ultimate-travel-collection .action-tabs .tabs-content {
     border: 0;
     padding: 0;
 }
@@ -614,10 +631,15 @@
 
 /*PLP START */
 
-.cms-utc-mens #content .columns .o-region__inner,
-.cms-utc-womens #content .columns .o-region__inner {
+.cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
+.cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
     background-color: #f2f2f2;
 } 
+
+.cms-ultimate-travel-collection-mens p,
+.cms-ultimate-travel-collection-womens p {
+    margin-bottom: 1.5rem;
+}
 
 .flex-container-styles {
 	padding: 1.5% 0;
@@ -763,8 +785,8 @@ h2.utc-title-lower {
 	.utc-plp-product-link {
 		padding: 3% 0 5% 0;
 	}
-    .cms-utc-mens #content .columns .o-region__inner,
-    .cms-utc-womens #content .columns .o-region__inner {
+    .cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
+    .cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
         background-color: #fff;
     } 
 
@@ -884,7 +906,7 @@ h2.utc-title-lower {
 }
 
 @media only screen and (max-width:400px) {
-    .cms-utc-story .col-2 {
+    .cms-ultimate-travel-collection-have-a-safe-journey .col-2 {
         width: 50%;
     }
     .flex-item.col-2.story-col-2 {
@@ -896,7 +918,7 @@ h2.utc-title-lower {
     .utc-story-box-title {
         padding: 35% 0 0 0;
     }
-    #content > div.columns > div > div.utc-centralcont > div:nth-child(1) > span.flex-item.col-4.utc-story-img > img {
+    .cms-ultimate-travel-collection-have-a-safe-journey .utc-story-img img {
         width: 75%;
         padding: 3% 0;
     }
