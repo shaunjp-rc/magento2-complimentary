@@ -328,6 +328,16 @@ $j(document).ready(function($) {
     }
   });
   /* END */
+
+  /* Show/Hide copy within container */
+  function copytoggle(){
+    jQuery('.copy-toggle').after('<div class="copy-toggle-button">Read more...</div>');
+    jQuery('.copy-toggle-button').click(function(){
+      jQuery('.copy-toggle').toggleClass('active');
+      jQuery('.copy-toggle-button').html(jQuery('.copy-toggle-button').text() == 'Read more...' ? 'Read less' : 'Read more...');
+    });
+  }
+  /* END */
  
 
 ////////////////////////////////  
