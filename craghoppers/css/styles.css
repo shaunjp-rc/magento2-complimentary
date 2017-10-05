@@ -5306,9 +5306,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
   background-color: #f2f2f2; }
 
-.cms-ultimate-travel-collection-mens p,
-.cms-ultimate-travel-collection-womens p {
-  margin-bottom: 1.5rem; }
+.cms-ultimate-travel-collection-mens p:nth-child(1),
+.cms-ultimate-travel-collection-womens p:nth-child(1) {
+  margin-bottom: 1rem; }
 
 .flex-container-styles {
   padding: 1.5% 0;
@@ -5406,7 +5406,7 @@ h2.utc-title-lower {
 
   .utc-plp-description {
     padding: 1% 6% 5% 6%;
-    height: 160px;
+    height: 180px;
     line-height: 160%; } }
 @media only screen and (max-width: 400px) {
   .utc-plp-product-horiz-divide {
