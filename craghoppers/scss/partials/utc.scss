@@ -799,7 +799,7 @@ h2.utc-title-lower {
 	}
 
 	.utc-plp-description {
-		height: 200px;
+		height: 170px;
         line-height: 140%;
 	}
 
@@ -926,6 +926,13 @@ h2.utc-title-lower {
     }
 }
 
+@media only screen and (max-width:740px) {
+    .cms-ultimate-travel-collection-have-a-safe-journey .utc-story-img img {
+        width: 75%;
+        padding: 3% 0;
+    }
+}
+
 @media only screen and (max-width:400px) {
     .cms-ultimate-travel-collection-have-a-safe-journey .col-2 {
         width: 50%;
@@ -938,10 +945,6 @@ h2.utc-title-lower {
     }
     .utc-story-box-title {
         padding: 35% 0 0 0;
-    }
-    .cms-ultimate-travel-collection-have-a-safe-journey .utc-story-img img {
-        width: 75%;
-        padding: 3% 0;
     }
     .utc-story-title {
         font-size: 24px;
