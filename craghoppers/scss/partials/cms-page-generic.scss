@@ -995,6 +995,9 @@ a.c-store-list__details {
 	.copy-toggle-button{
 		display:none;
 	}
+	.copy-toggle {
+    	height: auto !important;
+	}
 }
 .copy-toggle{
 	height:95px;

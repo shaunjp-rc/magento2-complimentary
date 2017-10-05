@@ -1201,7 +1201,12 @@ a.c-store-list__details {
 /* show/hide copy within container */
 @media only screen and (min-width: 601px) {
   .copy-toggle-button {
-    display: none; } }
+
+    display: none; }
+
+  .copy-toggle {
+    height: auto !important; }
+}
 .copy-toggle {
   height: 95px;
   overflow: hidden; }
