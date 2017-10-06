@@ -5416,7 +5416,7 @@ h2.utc-title-lower {
   .utc-plp-container,
   .utc-plp-container-w {
     width: 33.3% !important; } }
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 600px) {
   .utc-plp-container,
   .utc-plp-container-w {
     width: 46% !important; } }
