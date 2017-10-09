@@ -52,7 +52,7 @@
     background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-2.jpg);
 }
 .utc-product {
-    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-4.jpg);
+    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-tech-header.jpg);
 }
 .utc-heromale {
     background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-1.jpg);
@@ -607,10 +607,20 @@
     width: 100%;
     margin-bottom: 0;
 }
+.utc-modelDetails {
+    max-width: 625px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+}
 
 @media only screen and (max-width:600px) {
     .utc-lightbox.rl-pop.active {
         margin-top: 22%;
+        height: 665px;
+    }
+    .utc-productmain img {
+        width: 70%;
     }
 
 }
