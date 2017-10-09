@@ -122,6 +122,12 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
   }
 }
 
+@media screen and (max-width: 740px) {
+  .pageSection--slider {
+      margin-top: 5%;
+  }
+}
+
 @media screen and (max-width: 500px) {
 
   .flex-direction-nav {
@@ -810,6 +816,9 @@ p.deliveryBar__text {
 
     .bannerOverlay__title--slider {
         margin-top: 10vw;
+    }
+    .cta-percentSaving{
+      margin-top: 30%;
     }
 }
 
