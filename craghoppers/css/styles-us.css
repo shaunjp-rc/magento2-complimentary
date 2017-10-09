@@ -1342,6 +1342,9 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
   .flex-direction-nav li a.flex-next:hover {
     background-position: -41px 0;
     background-size: 200%; } }
+@media screen and (max-width: 740px) {
+  .pageSection--slider {
+    margin-top: 5%; } }
 @media screen and (max-width: 500px) {
   .flex-direction-nav {
     margin-top: -15px; }
@@ -1837,7 +1840,10 @@ p.deliveryBar__text {
     padding-bottom: 2vw; }
 
   .bannerOverlay__title--slider {
-    margin-top: 10vw; } }
+    margin-top: 10vw; }
+
+  .cta-percentSaving {
+    margin-top: 30%; } }
 @media screen and (max-width: 420px) {
   .pageSection--thirds .pageBanner {
     max-height: 320px; }

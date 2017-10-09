@@ -1342,6 +1342,9 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
   .flex-direction-nav li a.flex-next:hover {
     background-position: -41px 0;
     background-size: 200%; } }
+@media screen and (max-width: 740px) {
+  .pageSection--slider {
+    margin-top: 5%; } }
 @media screen and (max-width: 500px) {
   .flex-direction-nav {
     margin-top: -15px; }
@@ -1837,7 +1840,10 @@ p.deliveryBar__text {
     padding-bottom: 2vw; }
 
   .bannerOverlay__title--slider {
-    margin-top: 10vw; } }
+    margin-top: 10vw; }
+
+  .cta-percentSaving {
+    margin-top: 30%; } }
 @media screen and (max-width: 420px) {
   .pageSection--thirds .pageBanner {
     max-height: 320px; }
@@ -4804,13 +4810,13 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-2.jpg); }
 
 .utc-product {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-4.jpg); }
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-tech-header.jpg); }
 
 .utc-heromale {
   background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-1.jpg); }
 
 .utc-herofemale {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-2.jpg); }
+  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-womens-header.jpg); }
 
 .utc-header .col-12 {
   text-align: center; }
@@ -5311,9 +5317,19 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100%;
   margin-bottom: 0; }
 
+.utc-modelDetails {
+  max-width: 625px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14px; }
+
 @media only screen and (max-width: 600px) {
   .utc-lightbox.rl-pop.active {
-    margin-top: 22%; } }
+    margin-top: 22%;
+    height: 665px; }
+
+  .utc-productmain img {
+    width: 70%; } }
 @media only screen and (max-width: 550px) {
   .utc-lightbox.rl-pop.active {
     margin-top: 18%;
@@ -5437,6 +5453,14 @@ h2.utc-title-lower {
   .utc-plp-container-w {
     width: 33.3% !important; } }
 @media only screen and (max-width: 740px) {
+  .utc-plp-container,
+  .utc-plp-container-w {
+    width: 33.3% !important; } }
+@media only screen and (max-width: 600px) {
+  .utc-plp-container,
+  .utc-plp-container-w {
+    width: 46% !important; } }
+@media only screen and (max-width: 400px) {
   .utc-plp-container,
   .utc-plp-container-w {
     border-right: none;
