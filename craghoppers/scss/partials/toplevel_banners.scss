@@ -143,12 +143,12 @@ p.category-view__description.category-description {
 	    overflow: hidden;
 	}
 	.category-view__description + button {
-	    display: none;
+	    display: block !important;
 	}
 	.category-view__description.active {
     	height: 50px;
 	}
-	.category-view__description.active + button {
+	.category-view__description + button {
 	    display: block;
 	    margin: 0 auto;
 	    background: #000;
