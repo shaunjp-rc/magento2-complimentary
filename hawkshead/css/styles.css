@@ -1131,6 +1131,26 @@ html {
   font-family: "Lato-Regular", sans-serif; }
 
 /* END */
+/* Store Locator */
+.c-store-list__distance {
+  color: #5f5f5e !important; }
+
+.c-store-list__details {
+  color: #5f5f5e !important; }
+
+.c-store-list__item:nth-child(even) {
+  background: rgba(118, 159, 208, 0.1) !important; }
+
+.c-store-list__item {
+  margin-bottom: 0 !important;
+  padding: 2.6% 1%;
+  border-bottom: 1px solid;
+  text-align: left; }
+
+.c-store-list__title {
+  text-align: left; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */

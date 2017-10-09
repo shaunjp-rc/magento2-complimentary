@@ -1221,6 +1221,20 @@ a.c-store-list__details {
   padding: 0.5% 0; }
 
 /* END */
+/* Store locator */
+.c-store-list__item:nth-child(odd) {
+  background: #f7f7f7 !important; }
+
+.c-store-list__item {
+  text-align: left;
+  border-bottom: 1px solid;
+  padding: 2.6% 1%;
+  margin-bottom: 0 !important; }
+
+.c-store-list__title {
+  text-align: left; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
