@@ -3990,6 +3990,27 @@ p.category-view__description.category-description {
 @media only screen and (max-width: 375px) {
   .category-view__title + .category-view__description .gradient {
     margin-top: -12.5%; } }
+/* PLP Show/Hide */
+@media only screen and (max-width: 650px) {
+  .category-view__description {
+    height: auto;
+    overflow: hidden; }
+
+  .category-view__description + button {
+    display: none; }
+
+  .category-view__description.active {
+    height: 50px; }
+
+  .category-view__description.active + button {
+    display: block;
+    margin: 0 auto;
+    background: #000;
+    border: #000;
+    color: #fff;
+    padding: 0.5% 50px;
+    margin-top: 1.5%; } }
+/* END */
 /* END */
 @media only screen and (max-width: 770px) {
   .categoryBanner {
