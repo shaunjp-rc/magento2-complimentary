@@ -1549,6 +1549,61 @@ body .c-product-tile .c-product-tile__btn {
 .c-product-tile__img {
   margin-bottom: 4px; }
 
+/* HIDE SEO TEXT ON CAT PAGES */
+@media screen and (max-width: 770px) {
+  #top-level-cat-banner {
+    padding: 10px 0 !important;
+    background: #fff !important; }
+
+  #top-level-cat-banner-text {
+    padding: 10px 0 0; }
+
+  #top-level-cat-banner-text h1, .s-text-banner h1 {
+    margin-top: 8px;
+    line-height: 1.3em;
+    text-align: center;
+    margin-bottom: 6px; }
+
+  #top-level-cat-banner-text p, .s-text-banner p {
+    display: none;
+    height: 0;
+    overflow: hidden; }
+
+  #top-level-cat-banner-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 0 !important; }
+
+  #top-level-cat-banner-text li {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: 0 !Important;
+    display: block; }
+
+  #top-level-cat-banner-text li a {
+    background: #333;
+    display: block;
+    box-sizing: border-box;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 2px 4px;
+    border: 1px solid #fff; }
+
+  #top-level-cat-banner-text li a:after {
+    content: '>';
+    margin-left: 8px;
+    transform: scale(0.8, 1.4) !important;
+    display: inline-block;
+    float: right;
+    margin-right: 8px; }
+
+  #top-level-cat-banner-text button {
+    display: none !important; }
+
+  .s-text-banner button {
+    display: none !important; } }
 @media screen and (max-width: 739px) {
   h3.mob-only {
     display: block !important;
