@@ -1050,7 +1050,7 @@ p.collectionhighlights__hoverstate--header {
 
 @media screen and (max-width:500px) {
   .sliderfullwidth__container {
-      margin-top: 40%;
+      margin-top: 25%;
   }
 
   .sliderfullwidth__container.newadventures {
@@ -1059,6 +1059,9 @@ p.collectionhighlights__hoverstate--header {
 
   .newadventures .slidersubtext--second {
     font-size: 3vw;
+  }
+  .sliderheader{
+    letter-spacing: 3px;
   }
 
 }

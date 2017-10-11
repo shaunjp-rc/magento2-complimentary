@@ -1965,13 +1965,16 @@ p.collectionhighlights__hoverstate--header {
     font-size: 6vw; } }
 @media screen and (max-width: 500px) {
   .sliderfullwidth__container {
-    margin-top: 40%; }
+    margin-top: 25%; }
 
   .sliderfullwidth__container.newadventures {
     margin-top: 20%; }
 
   .newadventures .slidersubtext--second {
-    font-size: 3vw; } }
+    font-size: 3vw; }
+
+  .sliderheader {
+    letter-spacing: 3px; } }
 @media screen and (max-width: 480px) {
   .threeblocks__communitymobile {
     display: block;
