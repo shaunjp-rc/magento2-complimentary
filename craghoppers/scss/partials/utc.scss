@@ -788,13 +788,6 @@ h2.utc-title-lower {
 @media only screen and (max-width:600px) {
     .utc-plp-container,
     .utc-plp-container-w {
-        width: 46% !important;
-    }
-}
-
-@media only screen and (max-width:400px) {
-    .utc-plp-container,
-    .utc-plp-container-w {
         border-right: none;
         border-bottom: #9d9d9c;
         border-width: 1px;
@@ -802,9 +795,7 @@ h2.utc-title-lower {
         width: 46% !important;
         margin: 2%;
     }
-}
 
-@media only screen and (max-width:400px) {
 	.utc-plp-product-horiz-divide {
 		display: none;
 	}
