@@ -1603,7 +1603,15 @@ body .c-product-tile .c-product-tile__btn {
     display: none !important; }
 
   .s-text-banner button {
-    display: none !important; } }
+    display: none !important; }
+
+  #top-level-cat-banner-text,
+  #top-level-cat-banner {
+    padding: 0; }
+
+  #top-level-cat-banner + div,
+  #top-level-cat-banner + div + div {
+    display: none; } }
 @media screen and (max-width: 739px) {
   h3.mob-only {
     display: block !important;
