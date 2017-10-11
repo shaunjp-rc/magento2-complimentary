@@ -1320,5 +1320,15 @@ body .c-product-tile .c-product-tile__btn{
 .s-text-banner button{
   display: none !important;
 }
+
+#top-level-cat-banner-text,
+#top-level-cat-banner{
+  padding: 0;
+}
+
+#top-level-cat-banner + div,
+#top-level-cat-banner + div + div{
+  display: none;
+}
   
 }
