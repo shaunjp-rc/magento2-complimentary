@@ -5429,7 +5429,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   padding: 1% 6%;
   text-align: center;
   font-size: 100%;
-  height: 110px; }
+  min-height: 12vh; }
 
 .utc-plp-price {
   font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
@@ -5471,19 +5471,22 @@ h2.utc-title-lower {
   .utc-plp-container,
   .utc-plp-container-w {
     width: 33.3% !important; } }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 950px) {
+  .utc-plp-description {
+    padding: 1% 6% 5% 6%;
+    min-height: 13vh;
+    line-height: 160%; } }
+@media only screen and (max-width: 900px) {
   .utc-plp-title {
     padding: 0 4% 3% 4%;
-    height: 65px;
-    font-size: 90%; }
+    height: 60px;
+    font-size: 90%; } }
+@media only screen and (max-width: 770px) {
+  .utc-plp-title {
+    height: 50px; }
 
   .utc-plp-product-link {
     padding: 5% 0 1% 0; }
-
-  .utc-plp-description {
-    padding: 1% 6% 5% 6%;
-    height: 180px;
-    line-height: 160%; }
 
   .utc-plp-container,
   .utc-plp-container-w {
@@ -5505,22 +5508,14 @@ h2.utc-title-lower {
   .utc-plp-product-horiz-divide {
     display: none; }
 
-  .utc-plp-container,
-  .utc-plp-container-w {
-    border-right: none;
-    border-bottom: #9d9d9c;
-    border-width: 1px;
-    border-bottom-style: solid;
-    width: 46% !important;
-    margin: 2%; }
-
   .utc-plp-title {
     padding: 5% 0 3% 0;
     height: 55px; }
 
   .utc-plp-description {
-    height: 170px;
-    line-height: 140%; }
+    min-height: 15vh;
+    line-height: 160%;
+    font-size: 120%; }
 
   .utc-plp-product-link {
     padding: 3% 0 5% 0; }
@@ -5534,6 +5529,24 @@ h2.utc-title-lower {
 
   .utc-plp-empty {
     display: none; } }
+@media only screen and (max-width: 540px) {
+  .utc-plp-description {
+    min-height: 18vh; } }
+@media only screen and (max-width: 460px) {
+  .utc-plp-description {
+    min-height: 21vh;
+    line-height: 150%; } }
+@media only screen and (max-width: 400px) {
+  .utc-plp-description {
+    min-height: 21vh; } }
+@media only screen and (max-width: 400px) {
+  .utc-plp-description {
+    min-height: 22vh; } }
+@media only screen and (max-width: 350px) {
+  .utc-plp-description {
+    min-height: 31vh;
+    line-height: 120%;
+    font-size: 110%; } }
 /*PLP END */
 /* UTC Story Start */
 .utc-story-goretex {
