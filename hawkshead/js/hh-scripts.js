@@ -73,6 +73,41 @@ function mobileSEO(){
 }
 /* END */
 
+  /* Endcap Lightbox */
+
+function productPull(){
+
+    jQuery('.mt_itemWrapper a').click(function(e) {
+        e.preventDefault();
+        var href = jQuery(this).attr('href');
+        jQuery( "body" ).append( "<div class='outputProduct'><div class='lightclose'><div class='outputClose' onClick='closeProduct();'>X</div></div><div id='outputFinal'><div class='ajaximgloader'><img id='ajaxload' src='https://cdn.hawkshead.com/img/SS17/uk/misc/icons/spinner.gif'></div></div></div>" );
+        jQuery("html").css('overflow-y', 'hidden');
+        jQuery(document).ajaxStart(function(){
+            jQuery("#ajaxload").css("display", "block");
+        });
+        jQuery(document).ajaxComplete(function(){
+            jQuery("#ajaxload").css("display", "none");
+        });
+
+        jQuery.ajax({
+           url:href,
+           type:'GET',
+           success: function(data) {
+               var content = jQuery('<div id="outputFinal">').append(data).find('.page.messages + div');
+               jQuery('#outputFinal').html( content );
+                e.preventDefault();
+                jQuery( "#outputFinal .c-product-details.o-layout__item.product-info-main.js-product-info-main" ).append( '<a href="'+href+'"class="productCTA">Buy Me</a>' );
+           }
+        });
+        
+   });
+}
+
+function closeProduct(){
+  jQuery('.outputProduct').remove();
+  jQuery("html").css('overflow-y', 'scroll');
+}
+
 
 requirejs(['jquery'], function( $ ) {
 
@@ -202,17 +237,20 @@ requirejs(['jquery'], function( $ ) {
       $j('.mobileseo-container:last-of-type .seemoreseo').html('Read less');
     });
 
-  };
-  /* END */
+  }
 
-
-
-    ////////////////////////////////
-    //Dont add anything below here//
-    ////////////////////////////////
   });
 
-});
+}); /* END REQUIRE JQUERY */
+
+/////////////////////////////////
+// Dont add anything below here//
+/////////////////////////////////
+
+
+    
+  
+
 
 
 
