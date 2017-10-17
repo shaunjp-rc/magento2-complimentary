@@ -80,7 +80,7 @@ function productPull(){
     jQuery('.mt_itemWrapper a').click(function(e) {
         e.preventDefault();
         var href = jQuery(this).attr('href');
-        jQuery( "body" ).append( "<div class='outputProduct'><div class='lightclose'><div class='outputClose' onClick='closeProduct();'>X</div></div><div id='outputFinal'><div class='ajaximgloader'><img id='ajaxload' src='https://cdn.hawkshead.com/img/SS17/uk/misc/icons/spinner.gif'></div></div></div>" );
+        jQuery( "body" ).append( "<div class='outputProduct' onClick='closeProduct();'><div class='lightclose'><div class='outputClose' onClick='closeProduct();'>X</div></div><div id='outputFinal'><div class='ajaximgloader'><img id='ajaxload' src='https://cdn.hawkshead.com/img/SS17/uk/misc/icons/spinner.gif'></div></div></div>" );
         jQuery("html").css('overflow-y', 'hidden');
         jQuery(document).ajaxStart(function(){
             jQuery("#ajaxload").css("display", "block");
