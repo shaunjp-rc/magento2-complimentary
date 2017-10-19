@@ -2030,6 +2030,27 @@ p.collectionhighlights__hoverstate--header {
     font-size: 6.2vw;
     top: 0; } }
 /* END */
+/* Sale */
+.fourblocks-sale {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.3);
+  top: 0; }
+
+.fourblocks__container {
+  position: relative; }
+
+.fourblocks-SaleCopy {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 67%;
+  font-size: 20px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; }
+
+/* END */
 /* Customer Services Styles */
 .helpnav {
   float: left;
