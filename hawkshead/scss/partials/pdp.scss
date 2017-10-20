@@ -101,3 +101,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     display: none;
 }
 /* END */
+
+/* roundel remove on pdp */
+div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
+    display: none !important;
+}
+/* END */
