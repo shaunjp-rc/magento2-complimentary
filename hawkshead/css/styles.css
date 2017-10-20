@@ -3081,6 +3081,11 @@ ul.mm__column.mm__column--img.expanded {
   float: right; }
 
 /* END */
+/* roundel removal on plp */
+div#monVars.roundelhide {
+  display: none !important; }
+
+/* END */
 /* PDP styles */
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
@@ -3162,6 +3167,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* Hides any blocks that are empty */
 .endcap-container:empty {
   display: none; }
+
+/* END */
+/* roundel remove on pdp */
+div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
+  display: none !important; }
 
 /* END */
 

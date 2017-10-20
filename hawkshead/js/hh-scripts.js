@@ -107,7 +107,16 @@ function closeProduct(){
   jQuery('.outputProduct').remove();
   jQuery("html").css('overflow-y', 'scroll');
 }
+/* END */
 
+/* Removal of roundal if less than 10% saving */
+function roundelRemove(){
+  jQuery('input[name=monVar_price_saving_percent]').filter(function(){
+      return parseInt(jQuery(this).val(), 10) < 10;
+  }).addClass('lessthan');
+  jQuery('input.lessthan').closest('div').addClass('roundelhide');
+}
+/* END */
 
 requirejs(['jquery'], function( $ ) {
 
