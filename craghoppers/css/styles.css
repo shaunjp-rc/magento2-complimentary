@@ -4937,11 +4937,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* END */
 /* UTC Homepage */
 .utc-strip {
-  background: #000;
-  height: 7px;
   max-width: 223px;
   border-radius: 10px;
-  margin-top: 3%; }
+  margin-top: 3%;
+  border-bottom: 6px solid #000000;
+  display: inline-block; }
 
 .utc-title {
   font-family: "Montserrat-Medium", Helvetica, Arial, sans-serif;
