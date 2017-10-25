@@ -182,7 +182,7 @@ p.collectionhighlights__hoverstate--header {
   margin: 4% 0 0 0;
   letter-spacing: 5px;
   position: relative;
-  font-family: 'Garamond-Regular';
+  font-family: 'Garamond-Bold';
 }
 
 .sectiontext {
@@ -840,6 +840,9 @@ p.collectionhighlights__hoverstate--header {
 
   .favourites__overlay {
     display: block;
+  }
+  .favourites__buttons {
+    font-size: 15px;
   }
 
 }

@@ -470,6 +470,12 @@
     list-style-type: none;
 }
 
+@media only screen and (max-width:1024px){
+	.s-text-banner *:empty {
+    	display: none;
+	}
+}
+
 @media only screen and (max-width:740px){
 
 	.noresults__container a {

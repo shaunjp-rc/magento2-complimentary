@@ -4938,7 +4938,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* UTC Homepage */
 .utc-strip {
   max-width: 223px;
-  margin-top: 3%;
+  margin-top: 40px;
   border-bottom: 6px solid #000000;
   display: inline-block; }
 

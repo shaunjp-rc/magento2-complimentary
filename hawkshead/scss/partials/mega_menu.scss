@@ -173,8 +173,7 @@
 }
 
 .s-main-menu .category-items.mm__container-brands .mm__column {
-    float: right;
-    width: 35%;
+    width: 33.33%;
 }
 
 .s-main-menu .categories>li>a:active,
@@ -186,6 +185,22 @@
 
 ul.mm__column.mm__column--img.expanded {
   float: right;
+}
+
+.device-menu {
+    display: none;
+}
+.desktop-menu {
+    display: block;
+}
+
+@media only screen and (max-width:1024px){
+  .desktop-menu {
+      display: none;
+  }
+  .device-menu {
+      display: block;
+  }
 }
 
 @media only screen and (max-width:779px){

@@ -869,6 +869,9 @@
   margin-left: 0;
   list-style-type: none; }
 
+@media only screen and (max-width: 1024px) {
+  .s-text-banner *:empty {
+    display: none; } }
 @media only screen and (max-width: 740px) {
   .noresults__container a {
     width: 49%;
@@ -1300,7 +1303,7 @@ p.collectionhighlights__hoverstate--header {
   margin: 4% 0 0 0;
   letter-spacing: 5px;
   position: relative;
-  font-family: 'Garamond-Regular'; }
+  font-family: 'Garamond-Bold'; }
 
 .sectiontext {
   float: left;
@@ -1823,7 +1826,10 @@ p.collectionhighlights__hoverstate--header {
     line-height: 1.3; }
 
   .favourites__overlay {
-    display: block; } }
+    display: block; }
+
+  .favourites__buttons {
+    font-size: 15px; } }
 @media only screen and (max-width: 740px) {
   .containercenter {
     width: 100%;
@@ -2152,15 +2158,15 @@ p.collectionhighlights__hoverstate--header {
   width: 100%; }
 
 .datatable td {
-  border: 1px solid #c1d62f;
+  border: 1px solid #769fd0;
   background-color: #FFFFFF;
   padding: 4px;
   width: 65px;
   text-align: center; }
 
 .datatable th {
-  border: 1px solid #c1d62f;
-  background-color: #c1d62f;
+  border: 1px solid #769fd0;
+  background-color: #769fd0;
   font-weight: bold;
   text-align: center;
   padding-left: 4px; }
@@ -2219,7 +2225,10 @@ p.collectionhighlights__hoverstate--header {
 
   .regattatablet {
     display: block;
-    width: 97%; } }
+    width: 97%; }
+
+  .redeye-form.cs-form {
+    width: 90%; } }
 @media screen and (max-width: 875px) {
   #cragsize {
     width: 18%; } }
@@ -2432,6 +2441,51 @@ iframe.unsubscribe {
   padding: 1.5% 0 1% 0;
   width: 75px; }
 
+/* END */
+/* CH Fit Guide */
+.fitGuideDiagrams {
+  padding-top: 3%;
+  float: left; }
+
+.fitGuideDiagrams__title,
+.fitGuideDiagrams__blockContainer {
+  float: left;
+  clear: both; }
+
+.fitGuideDiagrams__block {
+  width: 29%;
+  float: left;
+  margin: 0 6% 2% 0; }
+
+.fitGuideDiagrams__block:last-child {
+  margin-right: 0; }
+
+.fit-tip .fitGuideDiagrams__block {
+  width: 100%;
+  margin: 0; }
+
+.fit-tip .fitGuideDiagrams__image {
+  width: 80%;
+  margin: 0 auto; }
+
+.guaranteeimg {
+  float: right; }
+
+.guaranteehead h3 {
+  font-weight: bold;
+  font-size: 18px; }
+
+@media screen and (max-width: 768px) {
+  .fitGuideDiagrams__block {
+    width: 47%;
+    margin: 0 6% 2% 0; }
+
+  .fitGuideDiagrams__block:nth-child(2) {
+    margin-right: 0; } }
+@media screen and (max-width: 440px) {
+  .fitGuideDiagrams__block {
+    width: 100%;
+    margin: 0 0 2%; } }
 /* END */
 .collection__wrapper {
   display: inline-block;
@@ -2900,8 +2954,7 @@ a.c-product-size__size-guide-link:hover {
   display: none; }
 
 .s-main-menu .category-items.mm__container-brands .mm__column {
-  float: right;
-  width: 35%; }
+  width: 33.33%; }
 
 .s-main-menu .categories > li > a:active,
 .s-main-menu .categories > li > a:focus,
@@ -2912,6 +2965,18 @@ a.c-product-size__size-guide-link:hover {
 ul.mm__column.mm__column--img.expanded {
   float: right; }
 
+.device-menu {
+  display: none; }
+
+.desktop-menu {
+  display: block; }
+
+@media only screen and (max-width: 1024px) {
+  .desktop-menu {
+    display: none; }
+
+  .device-menu {
+    display: block; } }
 @media only screen and (max-width: 779px) {
   .offers-box.offers-box--main {
     padding: 10% 0;
@@ -3173,6 +3238,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   display: none !important; }
 
+/* END */
+/* reduce size of product title */
+@media only screen and (max-width: 1024px) {
+  .c-product-details .u-heading-beta {
+    font-size: 22px; } }
 /* END */
 
 /*# sourceMappingURL=styles.css.map */
