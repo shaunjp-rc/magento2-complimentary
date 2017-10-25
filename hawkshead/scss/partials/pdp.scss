@@ -107,3 +107,11 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     display: none !important;
 }
 /* END */
+
+/* reduce size of product title */
+@media only screen and (max-width:1024px){
+    .c-product-details .u-heading-beta {
+        font-size: 22px;
+    }
+}
+/* END */
