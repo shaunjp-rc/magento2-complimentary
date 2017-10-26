@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 		}
 	}
-}
+});
 
 /*///////// Badge & Promo Behaviour ////////*/
 
