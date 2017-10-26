@@ -1612,6 +1612,62 @@ body .c-product-tile .c-product-tile__btn {
   #top-level-cat-banner + div,
   #top-level-cat-banner + div + div {
     display: none; } }
+/* Monetate Additions */
+.page-product-configurable .u-heading-beta.page-title {
+  font-size: 1.41429rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.page-product-configurable .c-product-details .c-price__group {
+  margin-bottom: 0px !important; }
+
+.page-product-configurable .c-rating__wrap {
+  margin-bottom: 10px !important; }
+
+.page-product-configurable .c-product-details .product-options-wrapper {
+  position: relative; }
+
+.page-product-configurable .c-product-size__size-guide-link {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  color: #ffb835;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: solid 2px #ffb835;
+  text-decoration: none; }
+
+.page-product-configurable .c-product-size__size-guide-link:hover {
+  color: #ffffff;
+  border: solid 2px #ffb835;
+  background: #ffb835; }
+
+.page-product-configurable .c-product-size__link {
+  margin: 5px;
+  min-width: 73px; }
+
+.page-product-configurable .c-tabs {
+  margin-top: 0px; }
+
+.page-product-configurable .product-options-bottom {
+  margin-top: 20px; }
+
+.catalog-category-view .c-breadcrumbs {
+  margin-bottom: 10px; }
+
+.catalog-category-view .c-page-wrapper {
+  padding: 10px 0; }
+
+.catalog-category-view .s-text-banner {
+  height: auto;
+  overflow: visible; }
+
+.catalog-category-view .columns .column.main {
+  margin-top: -20px; }
+
+.s-main-menu .ui-menu {
+  z-index: 3 !important; }
+
 @media screen and (max-width: 739px) {
   h3.mob-only {
     display: block !important;
