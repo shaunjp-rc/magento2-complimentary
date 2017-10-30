@@ -8,11 +8,11 @@
  * https://github.com/luis-almeida
  */
 
-;(function($) {
+;(function(jQuery) {
 
-  $.fn.unveil = function(threshold, callback) {
+  jQuery.fn.unveil = function(threshold, callback) {
 
-    var $w = $(window),
+    var jQueryw = jQuery(window),
         th = threshold || 0,
         retina = window.devicePixelRatio > 1,
         attrib = retina? "data-src-retina" : "data-src",
@@ -30,13 +30,13 @@
 
     function unveil() {
       var inview = images.filter(function() {
-        var $e = $(this);
-        if ($e.is(":hidden")) return;
+        var jQuerye = jQuery(this);
+        if (jQuerye.is(":hidden")) return;
 
-        var wt = $w.scrollTop(),
-            wb = wt + $w.height(),
-            et = $e.offset().top,
-            eb = et + $e.height();
+        var wt = jQueryw.scrollTop(),
+            wb = wt + jQueryw.height(),
+            et = jQuerye.offset().top,
+            eb = et + jQuerye.height();
 
         return eb >= wt - th && et <= wb + th;
       });
@@ -45,7 +45,7 @@
       images = images.not(loaded);
     }
 
-    $w.on("scroll.unveil resize.unveil lookup.unveil", unveil);
+    jQueryw.on("scroll.unveil resize.unveil lookup.unveil", unveil);
 
     unveil();
 
