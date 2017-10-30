@@ -3172,6 +3172,9 @@ div#monVars.roundelhide {
   display: none !important; }
 
 /* END */
+.page-products .c-breadcrumbs {
+  margin-bottom: 0; }
+
 /* PDP styles */
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
