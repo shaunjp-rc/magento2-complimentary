@@ -845,3 +845,15 @@ html {
     text-align: left;
 }
 /* END */
+
+/* Tablet search bar */
+@media only screen and (max-width:1024px){
+	#header > header > div.o-region__inner > div > div.o-layout__item > div:nth-child(2) > div.o-layout__item:nth-child(1){
+		width: 67% !important;
+	    padding-left: 30px;
+	}
+	#header > header > div.o-region__inner > div > div.o-layout__item > div:nth-child(2) > div.o-layout__item {
+	    width: 33% !important;
+	}
+}
+/* END */
