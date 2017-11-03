@@ -3175,6 +3175,11 @@ ul.mm__column.mm__column--img.expanded {
   display: block !important;
   float: right; }
 
+@media only screen and (max-width: 770px) {
+  .roundel {
+    max-width: 45px;
+    padding: 6px 0 5px 0;
+    font-size: 12px; } }
 /* END */
 /* roundel removal on plp */
 div#monVars.roundelhide {
