@@ -2847,6 +2847,93 @@ iframe.unsubscribe {
   color: #ff0000; }
 
 /* END */
+/* Price Match Promise */
+.cms-price-match-promise .action-tabs .tabs *[data-action="tab"].active {
+  background: #fff;
+  border: 1px solid #000;
+  border-bottom: 0; }
+
+.cms-price-match-promise .action-tabs .tabs *[data-action="tab"] {
+  border: 0;
+  border-bottom: 1px solid #000; }
+
+.cms-price-match-promise .action-tabs .tabs-content {
+  border: 0; }
+
+.helppagesright span {
+  font-weight: bold;
+  font-size: 16px;
+  display: block; }
+
+.pmp-intro {
+  margin-bottom: 4%; }
+
+.pmp-intro span {
+  text-align: center; }
+
+.pmp-intro span:first-of-type {
+  font-family: Georgia, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 2%; }
+
+.pmp-intro span:first-of-type:before {
+  background: url(https://cdn.craghoppers.com/img/AW17/UK/misc/tick/Tick-Black.png);
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 10px; }
+
+.pmp-intro span:last-of-type {
+  margin-bottom: 2%; }
+
+#pmpcall {
+  text-align: center; }
+
+#pmpcall button {
+  text-align: center;
+  background: #F6AB00;
+  border: 1px solid #F6AB00;
+  color: #fff;
+  width: 350px;
+  padding: 0.5% 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold; }
+
+#pmpcall p {
+  font-weight: bold; }
+
+.pmp-terms {
+  font-style: italic; }
+
+.pmp-terms ul {
+  margin: 0; }
+
+.pmp-terms ul li:before {
+  content: '-';
+  margin-right: 5px; }
+
+.pmp-terms ul li {
+  padding: 0;
+  line-height: 1.5; }
+
+.cms-price-match-promise .action-tabs .tabs-content {
+  padding: 5% 0; }
+
+#pmpform form {
+  width: 75%; }
+
+#pmpform form button {
+  float: left;
+  margin-top: 3%; }
+
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
