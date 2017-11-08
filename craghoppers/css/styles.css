@@ -6121,6 +6121,11 @@ h2.utc-title-lower {
   .flex-item.col-4.flex-item-tech {
     width: 50%; } }
 /*Technologies End */
+/* Homepage Slider */
+@media only screen and (max-width: 600px) {
+  .bannerOverlay__cta.bannerOverlay__cta--slider.utc-cta {
+    margin-top: 32%; } }
+/* END */
 /* Trouser Campaign Styles */
 .trou-vid-title {
   font-family: georgia;

@@ -1134,3 +1134,11 @@ h2.utc-title-lower {
 }
 
 /*Technologies End */
+
+/* Homepage Slider */
+@media only screen and (max-width:600px){
+    .bannerOverlay__cta.bannerOverlay__cta--slider.utc-cta {
+        margin-top: 32%;
+    }
+}
+/* END */
