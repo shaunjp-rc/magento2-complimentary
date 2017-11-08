@@ -1273,12 +1273,15 @@ body .c-product-tile .c-product-tile__btn {
 
 /* HIDE SEO TEXT ON CAT PAGES */
 @media screen and (max-width: 770px) {
+  .catalog-category-view .c-page-wrapper {
+    padding: 0px 0 !important; }
+
   #top-level-cat-banner {
-    padding: 10px 0 !important;
+    padding: 0px 0 10px 0 !important;
     background: #fff !important; }
 
   #top-level-cat-banner-text {
-    padding: 10px 0 0; }
+    padding: 0px 0 10px 0; }
 
   #top-level-cat-banner-text h1, .s-text-banner h1 {
     margin-top: 8px;

@@ -1358,6 +1358,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .category-container.full .category-title {
     margin: 0px; } }
 @media only screen and (max-width: 480px) {
+  .s-text-banner {
+    padding: 0px 0px 10px 0px !important; }
+
   .category-container.full .category-links a {
     flex-basis: 150px;
     font-size: 10px; }
@@ -1435,7 +1438,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     line-height: 1.3em; }
 
   .category-container-aw17 .category-banner-text {
-    padding: 10px 0 0 !important; }
+    padding: 0px 0 0 !important; }
 
   .category-container-aw17 .category-text, html body .category-text,
   html body .category-container.full .category-text {

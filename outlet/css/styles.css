@@ -1391,6 +1391,12 @@ body .c-checkbox-option__checkbox {
   #top-level-cat-banner-text, #top-level-cat-banner-text-dare2b {
     width: 100%;
     padding: 20px; } }
+@media screen and (max-width: 989px) {
+  #top-level-cat-banner {
+    padding: 0px 0 10px 0px !important; }
+
+  .catalog-category-view .c-page-wrapper {
+    padding: 0px 0 10px 0 !important; } }
 /*/////////////////////////////
 /* Footer Block FeeFo Mobile */
 /*///////////////////////////*/

@@ -1057,6 +1057,14 @@ body .c-checkbox-option__checkbox{
 }
 
 }
+@media screen and (max-width: 989px){
+  #top-level-cat-banner {
+      padding: 0px 0 10px 0px!important;
+  }
+  .catalog-category-view .c-page-wrapper {
+    padding: 0px 0 10px 0 !important;
+  }
+}
 
 
 /*/////////////////////////////
