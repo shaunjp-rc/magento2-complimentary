@@ -3266,6 +3266,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   box-shadow: 0px 3px 6px -5px #000000;
   display: block !important; }
 
+@media only screen and (max-width: 600px) {
+  .c-product-details__old-price.old-price .c-price__group {
+    margin-top: 30%; } }
 /* END */
 /* Hides any blocks that are empty */
 .endcap-container:empty {
