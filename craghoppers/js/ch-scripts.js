@@ -157,9 +157,9 @@ requirejs(['jquery'], function( $ ) {
   /* END */
 
   /* Footer mobile menu */
-  jQuery(".column.column--footer").click(function(){
-    jQuery(this).children('ul').toggleClass("toggleSub");
-    jQuery(this).toggleClass("toggleMain");
+  jQuery('.column.column--footer h4').click(function(){
+    jQuery(this).next('ul').toggleClass('toggleSub');
+    jQuery(this).toggleClass('toggleMain');
   });
   /* END */
 
