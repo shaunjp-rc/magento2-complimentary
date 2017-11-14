@@ -1429,6 +1429,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .category-view .s-text-banner {
     background: none; }
 
+  .category-view .s-text-banner h1 {
+    margin-bottom: -20px; }
+
   .s-text-banner__links-wrapper {
     display: none; } }
 /* HIDE SEO TEXT ON MOB, MAKE LINKS BUTTONS */
