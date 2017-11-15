@@ -4,32 +4,6 @@
 // Author: Shaun Pelling
 /////////////////////////////////////*/
 
-/*////////// add h1's to blanks cats ///////////*/
-
-document.addEventListener("DOMContentLoaded", function(event) {
-	if( !(document.body.contains(document.querySelector('.s-text-banner'))) ){
-		if( document.body.contains(document.querySelector('.c-facet-list__selected-list > li:first-child h4')) ){
-			var rawText = document.querySelector('.c-facet-list__selected-list > li:first-child h4').textContent;
-			rawText = rawText.replace('Clear', '').trim();
-			
-			var newTitle = document.createElement('h1');
-			newTitle.textContent = rawText;
-			newTitle.style.textAlign = 'center';
-
-			document.querySelector('.category-view').appendChild(newTitle);
-
-			document.querySelector('.c-facet-list__selected-list').addEventListener('DOMSubtreeModified', function(){
-
-				rawText = document.querySelector('.c-facet-list__selected-list > li:first-child h4').textContent;
-				rawText = rawText.replace('Clear', '').trim();
-				newTitle.textContent = rawText;
-
-			});
-
-		}
-	}
-});
-
 /*///////// Badge & Promo Behaviour ////////*/
 
 function rlBadge(){
