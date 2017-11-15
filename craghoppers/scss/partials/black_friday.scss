@@ -1,0 +1,248 @@
+.blackfriday-wrapper {
+    display: inline-block;
+}
+
+.bf-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding: 7% 0;
+}
+
+.bf-banner_inner {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bf-innerwrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: table;
+}
+
+.bf-innerwrapper .flex-item.col-3,
+.bf-hero {
+    position: relative;
+}
+
+.flex-item.col-3.bf-scene:last-of-type {
+    margin: 0;
+}
+
+.blackfriday-wrapper .bannerOverlay__contents a {
+    display: inline-block;
+}
+
+.bf-banner_title {
+    margin-bottom: 0;
+    font-family: Georgia, Arial, sans-serif;
+    color: #fff;
+    font-size: 65px;
+    letter-spacing: 9px;
+    line-height: 1;
+}
+
+.blackfriday-wrapper .bf-scene .bannerOverlay__contents a {
+    display: block;
+}
+
+.bf-widewrapper {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.blackfriday-wrapper picture img{
+    width: 100%;
+}
+
+.bf-scene_title {
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bf-scene_cta {
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 1.5%;
+}
+
+.bf-scene a:first-of-type {
+    margin-top: 28%;
+}
+
+.bf-scene-active .bf-scene_title {
+    margin-top: 18%;
+}
+
+.bf-scene-disabled .bf-scene_title {
+    margin-top: -24%;
+}
+
+.bf-hero .bannerOverlay {
+    height: 67%;
+}
+
+.bf-cta_button {
+    width: 85%;
+    margin: 0 auto;
+    background: #E43A23;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5%;
+    padding: 1.5% 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid #E43A23;
+}
+
+.bf-cta_button:hover {
+    color: #E43A23;
+    background: #fff;
+}
+
+.bf-hero .bf-subtitle{
+    font-family: Georgia, Arial, sans-serif;
+}
+
+.bf-hero .bf-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.bf-hero .bf-subtitle {
+    font-family: Georgia, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.bf-scene-active .bf-scene_title.bf-scene_title-tues {
+    margin-top: 11%;
+}
+
+.bf-scene .bf-scene_title-tues + a:first-of-type {
+    margin-top: 24%;
+}
+
+.bf-banner_subtitle {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 28px;
+}
+
+.bf-hero .bf-subtitle span {
+    display: none;
+}
+
+.flex-item.col-4.bf-hero:last-of-type {
+    margin-bottom: 0;
+}
+
+.flex-container.bf-columnthree {
+    margin-top: 20px;
+}
+
+.flex-container.bf-columnfour {
+    margin-top: 6%;
+}
+
+@media only screen and (max-width:1024px) {
+    .flex-item.col-4.bf-hero {
+        width: 33.33%;
+    }
+
+}
+
+@media only screen and (max-width:989px) {
+    .bf-scene_title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .bf-hero .bf-title {
+        font-size: 20px;
+        margin-top: -10%;
+    }
+
+    .bf-hero .bf-subtitle {
+        font-size: 22px;
+    }
+
+
+}
+
+@media only screen and (max-width:600px) {
+    .bf-innerwrapper .flex-item.col-3.bf-scene {
+        margin-bottom: 1%;
+        width: 49.6%;
+    }
+
+    .flex-item.col-3.bf-scene:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .bf-banner_title{
+        font-size: 9vw;
+    }
+
+    .bf-banner_subtitle{
+        font-size: 4vw;
+    }
+
+    .bf-scene_title {
+        font-size: 5vw;
+    }
+
+    .flex-item.col-4.bf-hero {
+        width: 100%;
+    }
+
+    .bf-hero .bannerOverlay {
+        height: 20vw;
+    }
+
+    .bf-hero .bf-title {
+        display: none;
+    }
+
+    .bf-hero .bf-subtitle span {
+        display: inline-block;
+    }
+
+    .bf-hero .bf-subtitle {
+        font-size: 4vw;
+    }
+
+    .bf-cta a:first-of-type .bf-cta_button {
+        margin-top: 0;
+    }
+
+    .bf-hero {
+        margin-bottom: 6%;
+    }
+
+    .bf-scene_cta {
+        font-size: 3vw;
+    }
+
+}
