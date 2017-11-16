@@ -6505,7 +6505,8 @@ h2.utc-title-lower {
   color: #fff;
   font-weight: bold;
   letter-spacing: 4px;
-  font-size: 28px; }
+  font-size: 28px;
+  margin-bottom: 0; }
 
 .bf-hero .bf-subtitle span {
   display: none; }
@@ -6518,6 +6519,9 @@ h2.utc-title-lower {
 
 .flex-container.bf-columnfour {
   margin-top: 6%; }
+
+.bf-hero .bannerOverlay.bannerOverlayBF {
+  height: 61%; }
 
 @media only screen and (max-width: 1024px) {
   .flex-item.col-4.bf-hero {
@@ -6553,7 +6557,8 @@ h2.utc-title-lower {
   .flex-item.col-4.bf-hero {
     width: 100%; }
 
-  .bf-hero .bannerOverlay {
+  .bf-hero .bannerOverlay,
+  .bf-hero .bannerOverlay.bannerOverlayBF {
     height: 20vw; }
 
   .bf-hero .bf-title {
