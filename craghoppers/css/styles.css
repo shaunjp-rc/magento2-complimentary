@@ -6546,7 +6546,8 @@ h2.utc-title-lower {
     margin-right: 0; }
 
   .bf-banner_title {
-    font-size: 9vw; }
+    font-size: 9vw;
+    letter-spacing: 5px; }
 
   .bf-banner_subtitle {
     font-size: 4vw; }
