@@ -118,6 +118,34 @@ function roundelRemove(){
 }
 /* END */
 
+/* Feefo Reviews Page */
+function feefoReviews(){
+  (function (w) {
+    var feefoWidgetScript = document.createElement('script');
+    feefoWidgetScript.setAttribute('async', 'async');
+    feefoWidgetScript.setAttribute('src', '//register.feefo.com/feefo-widget/js/feefo-widget.js');
+    feefoWidgetScript.setAttribute('type', 'text/javascript');
+    feefoWidgetScript.onload = function () {
+      if (typeof w.feefoWidgetInstance === 'undefined') {
+        w.feefoWidgetInstance = feefoWidget({
+          debug: false,
+          hosts: {
+            api: 'api.feefo.com/api',
+            widget: 'register.feefo.com'
+          },
+          merchantId: 'hawkshead',
+          protocol: 'https',
+          source: 'javascript',
+          tags: '',
+          externalCta: ''
+        });
+      }
+    };
+    document.head.appendChild(feefoWidgetScript);
+  })(window);
+}
+/* END */
+
 requirejs(['jquery'], function( $ ) {
 
   var $j = jQuery.noConflict();
