@@ -2066,6 +2066,12 @@ p.collectionhighlights__hoverstate--header {
   border-bottom: 1px solid #fff; }
 
 /* END */
+/* Black Friday */
+.slidersubtext-bf {
+  font-size: 3.3em;
+  letter-spacing: 2px; }
+
+/* END */
 /* Customer Services Styles */
 .helpnav {
   float: left;
