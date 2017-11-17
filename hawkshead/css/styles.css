@@ -2069,7 +2069,11 @@ p.collectionhighlights__hoverstate--header {
 /* Black Friday */
 .slidersubtext-bf {
   font-size: 3.3em;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  margin-top: 0.5%; }
 
 /* END */
 /* Customer Services Styles */
