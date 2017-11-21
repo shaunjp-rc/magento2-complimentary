@@ -6610,5 +6610,10 @@ h2.utc-title-lower {
   margin-top: 3%; }
 .honesty-project ul {
   padding-left: 1.2%; }
+.honesty-project img {
+  margin: 0 auto;
+  display: table;
+  margin-bottom: 1.2%;
+  max-width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
