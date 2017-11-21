@@ -68,46 +68,6 @@
 }
 /* END */
 
-/* Roundals */
-#monVars { position: relative;}
-.roundel {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-    background: #F93E49;
-    max-width: 53px;
-    padding: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 30px;
-    color: #ffffff;
-    display:block !important;
-}
-
-#product-roundel.percent-off{
-    background: #F93E49;
-    max-width: 53px;
-    padding: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 30px;
-    color: #ffffff;
-    display: block !important;
-    float: right;
-}
-
-@media only screen and (max-width: 770px){
-    .roundel {
-        max-width: 45px;
-        padding: 6px 0 5px 0;
-        font-size: 12px;
-    }
-}
-
-/* END */
-
 /* roundel removal on plp */
 div#monVars.roundelhide {
     display: none !important;
