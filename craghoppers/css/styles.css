@@ -6681,16 +6681,15 @@ h2.utc-title-lower {
   background-color: #8996a2; }
 .honesty-project .block-6 {
   background-color: #6c6c4d; }
-@media screen and (max-width: 800px) {
-  .honesty-project .block-title {
-    line-height: 30px; } }
 @media screen and (max-width: 770px) {
   .honesty-project .width-770 {
     width: 100%; }
   .honesty-project .sip-rhep-img,
   .honesty-project .sip-bpf-img {
     max-width: 20%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .honesty-project .block-title {
+    line-height: 30px; } }
 @media screen and (max-width: 440px) {
   .honesty-project .block-middle {
     margin-left: 0;

@@ -136,11 +136,6 @@
 	.block-6 {
 		background-color: #6c6c4d;
 	}
-	@media screen and (max-width: 800px) {
-		.block-title {
-			line-height: 30px;
-		}
-	}
 	@media screen and (max-width: 770px) {
 		.width-770 {
 			width: 100%;
@@ -149,6 +144,9 @@
 		.sip-bpf-img {
 			max-width: 20%;
 			margin: 0 auto;
+		}
+		.block-title {
+			line-height: 30px;
 		}
 	}
 	@media screen and (max-width: 440px) {
