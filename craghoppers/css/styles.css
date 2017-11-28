@@ -6637,9 +6637,6 @@ h2.utc-title-lower {
     display: table;
     margin-bottom: 1.2%;
     max-width: 100%; }
-  .honesty-project .width-770 {
-    width: 770px;
-    margin: auto; }
   .honesty-project .hp-grey {
     background-color: #8996a2; }
   .honesty-project .hp-white {
@@ -6673,8 +6670,6 @@ h2.utc-title-lower {
     max-width: 900px;
     margin: auto; }
   @media screen and (max-width: 770px) {
-    .honesty-project .width-770 {
-      width: 100%; }
     .honesty-project .sip-rhep-img,
     .honesty-project .sip-bpf-img {
       max-width: 20%;

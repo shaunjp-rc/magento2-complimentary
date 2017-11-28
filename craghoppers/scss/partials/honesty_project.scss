@@ -69,10 +69,6 @@
 
 
 	/* HP Social Impact Programmes Start*/
-	.width-770 {
-		width: 770px;
-		margin:auto;
-	}
 	.hp-grey {
 		background-color: #8996a2;
 	}
@@ -116,9 +112,6 @@
 		margin: auto;
 	} 
 	@media screen and (max-width: 770px) {
-		.width-770 {
-			width: 100%;
-		}
 		.sip-rhep-img,
 		.sip-bpf-img {
 			max-width: 20%;
