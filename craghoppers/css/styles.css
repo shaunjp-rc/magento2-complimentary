@@ -6594,7 +6594,9 @@ h2.utc-title-lower {
   /* HP Homepage Start*/
   /* HP Homepage End*/
   /* HP Responsible Sourcing Start*/
-  /* HP Responsible Sourcing End */ }
+  /* HP Responsible Sourcing End */
+  /* HP Our Employees Start*/
+  /* HP Our Employees End*/ }
   .honesty-project .header-badge {
     width: 100%;
     max-width: 500px;
@@ -6635,9 +6637,6 @@ h2.utc-title-lower {
     display: table;
     margin-bottom: 1.2%;
     max-width: 100%; }
-  .honesty-project .width-770 {
-    width: 770px;
-    margin: auto; }
   .honesty-project .hp-grey {
     background-color: #8996a2; }
   .honesty-project .hp-white {
@@ -6645,7 +6644,7 @@ h2.utc-title-lower {
     margin-bottom: 5%; }
   .honesty-project .sip-rhep-img {
     max-width: 190px;
-    margin-right: 3%;
+    margin-right: 20px;
     margin: auto; }
   .honesty-project .sip-bpf-img {
     max-width: 130px;
@@ -6667,9 +6666,10 @@ h2.utc-title-lower {
     max-width: 371px; }
   .honesty-project .sip-img-reaching {
     max-width: 526px; }
+  .honesty-project .sip-container {
+    max-width: 900px;
+    margin: auto; }
   @media screen and (max-width: 770px) {
-    .honesty-project .width-770 {
-      width: 100%; }
     .honesty-project .sip-rhep-img,
     .honesty-project .sip-bpf-img {
       max-width: 20%;
@@ -6759,5 +6759,15 @@ h2.utc-title-lower {
     .honesty-project .rs-img-1,
     .honesty-project .rs-img-3 {
       max-width: 50%; } }
+  .honesty-project .hp-no-list {
+    list-style-position: inside;
+    margin: auto 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5;
+    max-width: 900px; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .oe-img {
+      width: 60%; } }
 
 /*# sourceMappingURL=styles.css.map */
