@@ -6690,7 +6690,7 @@ h2.utc-title-lower {
     display: table;
     width: 32.33%;
     float: left;
-    margin: 0px 1%; }
+    margin: 0.7% 0.5%; }
   .honesty-project .block-title {
     text-align: center;
     color: #fff;
@@ -6721,14 +6721,15 @@ h2.utc-title-lower {
       font-size: 25px; }
     .honesty-project .block-inner {
       width: 48%;
-      margin: 0px 1%; } }
+      margin: 1% 1%; } }
   @media screen and (max-width: 440px) {
     .honesty-project .block-middle {
       margin-left: 0;
       margin-right: 0; }
     .honesty-project .block-inner {
       float: none;
-      width: 100%; } }
+      width: 100%;
+      margin: 1% 0; } }
   .honesty-project .hp-yellow {
     background-color: #f4ae28; }
   .honesty-project .rs-rhep-img {
