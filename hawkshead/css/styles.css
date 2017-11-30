@@ -3490,5 +3490,215 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 
   .bf-scene_cta {
     font-size: 12px; } }
+.cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-our-mantra .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-our-employees .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-honety-project-modern-slavery .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-social-impact-programmes .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-the-environment .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
+.honesty-project {
+  /* HP Social Impact Programmes Start*/
+  /* HP Social Impact Programmes End*/
+  /* HP Homepage Start*/
+  /* HP Homepage End*/
+  /* HP Responsible Sourcing Start*/
+  /* HP Responsible Sourcing End */
+  /* HP Our Employees Start*/
+  /* HP Our Employees End*/
+  /* HP Our Mantra Start*/
+  /* HP Our Mantra Start*/ }
+  .honesty-project .header-badge {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Georgia;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 1.3;
+    padding: 1% 0;
+    margin-bottom: 5%;
+    color: #fff; }
+  .honesty-project .hp-maroon {
+    background: #802023; }
+  .honesty-project .hp-green {
+    background: #6c6c4d; }
+  .honesty-project .hp-darkgrey {
+    background: #3e413e; }
+  .honesty-project .hp-blue {
+    background: #294347; }
+  .honesty-project p,
+  .honesty-project ul,
+  .honesty-project h4 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 1.2%; }
+  .honesty-project h4 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 3%; }
+  .honesty-project ul,
+  .honesty-project ol {
+    padding-left: 1.2%;
+    list-style-type: disc;
+    list-style-position: inside; }
+  .honesty-project img {
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 1.2%;
+    max-width: 100%; }
+  .honesty-project a.honesty-pdf {
+    color: inherit;
+    text-decoration: underline; }
+  .honesty-project .hp-grey {
+    background-color: #8996a2; }
+  .honesty-project .hp-white {
+    color: #ffffff;
+    margin-bottom: 5%; }
+  .honesty-project .sip-rhep-img {
+    max-width: 190px;
+    margin-right: 20px;
+    margin: auto; }
+  .honesty-project .sip-bpf-img {
+    max-width: 130px;
+    margin-right: 3%;
+    margin: auto; }
+  .honesty-project .hp-list {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5; }
+  .honesty-project .sip-img {
+    text-align: center;
+    padding: 3% 0 2% 0;
+    margin: auto; }
+  .honesty-project .sip-img-impacting {
+    max-width: 388px; }
+  .honesty-project .sip-img-meal {
+    max-width: 371px; }
+  .honesty-project .sip-img-reaching {
+    max-width: 526px; }
+  .honesty-project .sip-container {
+    max-width: 900px;
+    margin: auto; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .sip-rhep-img,
+    .honesty-project .sip-bpf-img {
+      max-width: 20%;
+      margin: 0 auto; } }
+  .honesty-project .block-container {
+    padding-bottom: 20px; }
+  .honesty-project .clear {
+    clear: both; }
+  .honesty-project .block-inner {
+    height: 220px;
+    margin-top: 1.5%;
+    display: table;
+    width: 32.33%;
+    float: left;
+    margin: 0.7% 0.5%; }
+  .honesty-project .block-title {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 32px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 6%; }
+  .honesty-project .block-1 {
+    background-color: #3e413e; }
+  .honesty-project .block-2 {
+    background-color: #f4ae28; }
+  .honesty-project .block-3 {
+    background-color: #294347; }
+  .honesty-project .block-4 {
+    background-color: #802023; }
+  .honesty-project .block-5 {
+    background-color: #8996a2; }
+  .honesty-project .block-6 {
+    background-color: #6c6c4d; }
+  @media screen and (max-width: 800px) {
+    .honesty-project .block-title {
+      line-height: 30px;
+      font-size: 25px; }
+    .honesty-project .block-inner {
+      width: 48%;
+      margin: 1% 1%; } }
+  @media screen and (max-width: 440px) {
+    .honesty-project .block-middle {
+      margin-left: 0;
+      margin-right: 0; }
+    .honesty-project .block-inner {
+      float: none;
+      width: 100%;
+      margin: 1% 0; } }
+  .honesty-project .hp-yellow {
+    background-color: #f4ae28; }
+  .honesty-project .rs-rhep-img {
+    max-width: 190px;
+    margin-right: 3%;
+    margin: auto; }
+  .honesty-project .rs-bpf-img {
+    max-width: 130px;
+    margin-right: 3%;
+    margin: auto; }
+  .honesty-project .hp-list {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5; }
+  .honesty-project .rs-img {
+    text-align: center;
+    padding: 3% 0 2% 0;
+    margin: auto; }
+  .honesty-project .rs-img-1 {
+    max-width: 373px; }
+  .honesty-project .rs-img-2 {
+    max-width: 630px; }
+  .honesty-project .rs-img-3 {
+    max-width: 436px; }
+  .honesty-project .rs-img-4 {
+    max-width: 447px; }
+  .honesty-project .rs-img-5 {
+    max-width: 601px; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .rs-rhep-img,
+    .honesty-project .rs-bpf-img {
+      max-width: 20%;
+      margin: 0 auto; }
+    .honesty-project .rs-img-1,
+    .honesty-project .rs-img-3 {
+      max-width: 50%; } }
+  .honesty-project .hp-no-list {
+    list-style-position: inside;
+    margin: auto 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5;
+    max-width: 900px; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .oe-img {
+      width: 60%;
+      margin: auto; } }
+  .honesty-project .hp-list-mantra {
+    list-style-position: inside;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5;
+    max-width: 900px;
+    margin: auto; }
 
 /*# sourceMappingURL=styles.css.map */
