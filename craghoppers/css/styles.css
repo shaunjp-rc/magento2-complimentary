@@ -6642,6 +6642,9 @@ h2.utc-title-lower {
     display: table;
     margin-bottom: 1.2%;
     max-width: 100%; }
+  .honesty-project a.honesty-pdf {
+    color: inherit;
+    text-decoration: underline; }
   .honesty-project .hp-grey {
     background-color: #8996a2; }
   .honesty-project .hp-white {
