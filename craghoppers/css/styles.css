@@ -6601,7 +6601,7 @@ h2.utc-title-lower {
   /* HP Our Mantra Start*/ }
   .honesty-project .header-badge {
     width: 100%;
-    max-width: 500px;
+    /*max-width: 500px;*/
     margin: 0 auto;
     text-align: center;
     font-family: Georgia;
@@ -6609,29 +6609,35 @@ h2.utc-title-lower {
     font-size: 28px;
     line-height: 1.3;
     padding: 1% 0;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     color: #fff; }
   .honesty-project .hp-maroon {
-    background: #802023; }
+    background: #802023;
+    max-width: 550px; }
   .honesty-project .hp-green {
-    background: #6c6c4d; }
+    background: #6c6c4d;
+    max-width: 450px; }
   .honesty-project .hp-darkgrey {
-    background: #3e413e; }
+    background: #3e413e;
+    max-width: 330px; }
   .honesty-project .hp-blue {
-    background: #294347; }
+    background: #294347;
+    max-width: 330px; }
   .honesty-project p,
   .honesty-project ul,
   .honesty-project h4 {
     width: 100%;
     margin: 0 auto;
     max-width: 775px;
-    margin-bottom: 1.2%; }
+    margin-bottom: 1.2%;
+    color: #000; }
   .honesty-project h4 {
     text-align: center;
     font-family: Georgia;
-    font-size: 18px;
+    font-size: 24px;
     letter-spacing: 2px;
-    margin-top: 3%; }
+    margin-top: 3%;
+    color: #000; }
   .honesty-project ul,
   .honesty-project ol {
     padding-left: 1.2%;
@@ -6646,7 +6652,8 @@ h2.utc-title-lower {
     color: inherit;
     text-decoration: underline; }
   .honesty-project .hp-grey {
-    background-color: #8996a2; }
+    background-color: #8996a2;
+    max-width: 570px; }
   .honesty-project .hp-white {
     color: #ffffff;
     margin-bottom: 5%; }
@@ -6667,14 +6674,16 @@ h2.utc-title-lower {
     line-height: 1.5; }
   .honesty-project .sip-img {
     text-align: center;
-    padding: 3% 0 2% 0;
     margin: auto; }
   .honesty-project .sip-img-impacting {
-    max-width: 388px; }
+    max-width: 388px;
+    padding: 2% 0; }
   .honesty-project .sip-img-meal {
-    max-width: 371px; }
+    max-width: 371px;
+    padding: 1.5% 0 4% 0; }
   .honesty-project .sip-img-reaching {
-    max-width: 526px; }
+    max-width: 526px;
+    padding: 4.5% 0 3% 0; }
   .honesty-project .sip-container {
     max-width: 775px;
     margin: auto; }
@@ -6697,7 +6706,7 @@ h2.utc-title-lower {
   .honesty-project .block-title {
     text-align: center;
     color: #fff;
-    font-size: 25px;
+    font-size: 26px;
     text-transform: uppercase;
     font-family: Helvetica;
     font-weight: bold;
@@ -6734,7 +6743,8 @@ h2.utc-title-lower {
       width: 100%;
       margin: 1% 0; } }
   .honesty-project .hp-yellow {
-    background-color: #f4ae28; }
+    background-color: #f4ae28;
+    max-width: 470px; }
   .honesty-project .rs-rhep-img {
     max-width: 190px;
     margin-right: 3%;
@@ -6751,18 +6761,22 @@ h2.utc-title-lower {
     line-height: 1.5; }
   .honesty-project .rs-img {
     text-align: center;
-    padding: 3% 0 2% 0;
     margin: auto; }
   .honesty-project .rs-img-1 {
-    max-width: 373px; }
+    max-width: 373px;
+    padding: 0 0 3% 0; }
   .honesty-project .rs-img-2 {
-    max-width: 630px; }
+    max-width: 630px;
+    padding: 3% 0; }
   .honesty-project .rs-img-3 {
-    max-width: 436px; }
+    max-width: 436px;
+    padding: 3% 0; }
   .honesty-project .rs-img-4 {
-    max-width: 447px; }
+    max-width: 447px;
+    padding: 3% 0; }
   .honesty-project .rs-img-5 {
-    max-width: 601px; }
+    max-width: 601px;
+    padding: 3% 0 5% 0; }
   @media screen and (max-width: 770px) {
     .honesty-project .rs-rhep-img,
     .honesty-project .rs-bpf-img {
@@ -6778,6 +6792,8 @@ h2.utc-title-lower {
     font-size: 1.14286rem;
     line-height: 1.5;
     max-width: 775px; }
+  .honesty-project .oe-img {
+    padding: 3% 0; }
   @media screen and (max-width: 770px) {
     .honesty-project .oe-img {
       width: 60%;
