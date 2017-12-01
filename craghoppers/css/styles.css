@@ -6624,7 +6624,7 @@ h2.utc-title-lower {
   .honesty-project h4 {
     width: 100%;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 775px;
     margin-bottom: 1.2%; }
   .honesty-project h4 {
     text-align: center;
@@ -6676,7 +6676,7 @@ h2.utc-title-lower {
   .honesty-project .sip-img-reaching {
     max-width: 526px; }
   .honesty-project .sip-container {
-    max-width: 900px;
+    max-width: 775px;
     margin: auto; }
   @media screen and (max-width: 770px) {
     .honesty-project .sip-rhep-img,
@@ -6777,7 +6777,7 @@ h2.utc-title-lower {
     padding: 0;
     font-size: 1.14286rem;
     line-height: 1.5;
-    max-width: 900px; }
+    max-width: 775px; }
   @media screen and (max-width: 770px) {
     .honesty-project .oe-img {
       width: 60%;
@@ -6787,7 +6787,7 @@ h2.utc-title-lower {
     padding: 0;
     font-size: 1.14286rem;
     line-height: 1.5;
-    max-width: 900px;
+    max-width: 775px;
     margin: auto; }
 
 /*# sourceMappingURL=styles.css.map */
