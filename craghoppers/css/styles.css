@@ -6637,7 +6637,8 @@ h2.utc-title-lower {
     text-align: center;
     font-family: Georgia;
     font-size: 20px;
-    margin: 4% 0 2% 0;
+    margin-bottom: 2%;
+    margin-top: 4%;
     color: #000; }
   .honesty-project ul,
   .honesty-project ol {
