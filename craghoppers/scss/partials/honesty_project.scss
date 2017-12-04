@@ -56,9 +56,8 @@
 	h4 {
     	text-align: center;
     	font-family: Georgia;
-    	font-size: 24px;
-    	letter-spacing: 2px;
-    	margin-top: 3%;
+    	font-size: 20px;
+    	margin: 4% 0 2% 0;
     	color: #000;
 	}
 
@@ -75,12 +74,7 @@
 	    max-width: 100%;
 	}
 
-	a.honesty-pdf {
-    	color: inherit;
-    	text-decoration: underline;
-    }
-
-	/* HP Social Impact Programmes Start*/
+		/* HP Social Impact Programmes Start*/
 	.hp-grey {
 		background-color: #8996a2;
 		max-width: 570px;
@@ -297,4 +291,22 @@
 	    margin: auto;
 	}
 	/* HP Our Mantra Start*/
+
+	/* HP The Environment Start */
+	.hp-env1 {
+    	padding: 4% 0 3% 0;
+	}
+	.hp-env2 {
+    	padding: 2% 0;
+	}
+	.hp-bold {
+		font-weight: bold;
+    	font-size: 1.14286rem;
+	}
+	a.honesty-pdf {
+    	color: inherit;
+    	text-decoration: underline;
+    	font-weight: bold;
+    }
+	/* HP The Environment End */
 }
