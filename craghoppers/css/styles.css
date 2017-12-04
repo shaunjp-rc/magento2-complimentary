@@ -6598,7 +6598,9 @@ h2.utc-title-lower {
   /* HP Our Employees Start*/
   /* HP Our Employees End*/
   /* HP Our Mantra Start*/
-  /* HP Our Mantra Start*/ }
+  /* HP Our Mantra Start*/
+  /* HP The Environment Start */
+  /* HP The Environment End */ }
   .honesty-project .header-badge {
     width: 100%;
     /*max-width: 500px;*/
@@ -6634,9 +6636,8 @@ h2.utc-title-lower {
   .honesty-project h4 {
     text-align: center;
     font-family: Georgia;
-    font-size: 24px;
-    letter-spacing: 2px;
-    margin-top: 3%;
+    font-size: 20px;
+    margin: 4% 0 2% 0;
     color: #000; }
   .honesty-project ul,
   .honesty-project ol {
@@ -6647,9 +6648,6 @@ h2.utc-title-lower {
     display: table;
     margin-bottom: 1.2%;
     max-width: 100%; }
-  .honesty-project a.honesty-pdf {
-    color: inherit;
-    text-decoration: underline; }
   .honesty-project .hp-grey {
     background-color: #8996a2;
     max-width: 570px; }
@@ -6804,5 +6802,16 @@ h2.utc-title-lower {
     line-height: 1.5;
     max-width: 775px;
     margin: auto; }
+  .honesty-project .hp-env1 {
+    padding: 4% 0 3% 0; }
+  .honesty-project .hp-env2 {
+    padding: 2% 0; }
+  .honesty-project .hp-bold {
+    font-weight: bold;
+    font-size: 1.14286rem; }
+  .honesty-project a.honesty-pdf {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
