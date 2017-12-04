@@ -6579,11 +6579,11 @@ h2.utc-title-lower {
 
   .bf-scene_cta {
     font-size: 3vw; } }
-.cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-mantra .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-employees .breadcrumbs.c-breadcrumbs,
-.cms-the-honesty-honety-project-modern-slavery .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-modern-slavery .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-social-impact-programmes .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-the-environment .breadcrumbs.c-breadcrumbs {
   display: none; }
