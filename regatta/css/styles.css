@@ -912,6 +912,9 @@ html .mt_animate {
 #minicart-content-wrapper .c-mini-cart__basket > a > span {
   font-size: 18px; }
 
+.c-store-details__item .c-store-details__collection {
+  color: #000000 !important; }
+
 /*/////////////////////////*/
 /*    Navigation Style     */
 /*/////////////////////////*/
