@@ -2079,6 +2079,54 @@ p.collectionhighlights__hoverstate--header {
   background-color: #e83f42 !important; }
 
 /* END */
+/* Christmas */
+.xmas-slider1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Garamond-Regular";
+  font-size: 5em;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin-top: -15%; }
+
+.xmas-slider2 {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 3.5em;
+  margin-top: -24px;
+  font-family: "Lato-light", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.xmas-bold {
+  font-weight: bolder; }
+
+.xmas-sliderbutton {
+  padding: 8px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px #fff solid;
+  width: 20%; }
+
+.sliderstrip-xmas {
+  background-color: #cd2326 !important; }
+
+@media screen and (max-width: 770px) {
+  .xmas-slider1 {
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    margin-top: 0; }
+
+  .xmas-slider2 {
+    font-size: 1.6em;
+    margin-top: -4px;
+    letter-spacing: 2px; }
+
+  .xmas-sliderbutton {
+    background-color: #cd2326 !important;
+    border: none; } }
+/* END */
 /* Customer Services Styles */
 .helpnav {
   float: left;
@@ -3700,5 +3748,99 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     line-height: 1.5;
     max-width: 900px;
     margin: auto; }
+
+.cms-christmas .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
+.christmas img {
+  display: block;
+  border: 0;
+  margin: auto; }
+.christmas .xmas-fourblocks-img {
+  width: 100%;
+  display: block; }
+.christmas .xmas-twoblocks__button {
+  width: 100%;
+  background-color: #cc2225;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-family: 'Garamond-Light';
+  margin-bottom: 25px; }
+.christmas .xmas-bannerWrapper {
+  position: relative; }
+.christmas .xmas-innerwrapper-1140 {
+  max-width: 1140px; }
+.christmas .xmas-innerwrapper {
+  margin: 0 auto;
+  width: 100%; }
+.christmas .xmas-flex-item {
+  padding: 0 20px; }
+.christmas .xmas-slider1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Garamond-Regular";
+  font-size: 5em;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin-top: -15%; }
+.christmas .xmas-slider2 {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 3.5em;
+  margin-top: -24px;
+  font-family: "Lato-light", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+.christmas .xmas-bold {
+  font-weight: bolder; }
+.christmas .xmas-banner-padding {
+  clear: both;
+  height: 50px; }
+@media screen and (max-width: 1000px) {
+  .christmas .xmas-slider1 {
+    font-size: 4em; }
+  .christmas .xmas-slider2 {
+    font-size: 3em; } }
+@media screen and (max-width: 800px) {
+  .christmas .xmas-slider1 {
+    font-size: 3em; }
+  .christmas .xmas-slider2 {
+    font-size: 2.5em;
+    margin-top: -14px; }
+  .christmas .xmas-banner-padding {
+    height: 25px; }
+  .christmas .xmas-twoblocks__button {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 550px) {
+  .christmas .xmas-slider1 {
+    margin-top: -2%;
+    font-size: 2.5em; }
+  .christmas .xmas-slider2 {
+    font-size: 1.5em;
+    margin-top: -9px; } }
+@media screen and (max-width: 500px) {
+  .christmas .xmas-twoblocks__button {
+    padding: 5px 0;
+    font-size: 18px;
+    margin-bottom: 10px; }
+  .christmas .xmas-flex-item {
+    padding: 0 5px; }
+  .christmas .xmas-flex-container {
+    margin: 0; }
+  .christmas .xmas-slider1 {
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    margin-top: 7%; }
+  .christmas .xmas-slider2 {
+    font-size: 1.7em;
+    margin-top: -10px; }
+  .christmas .xmas-banner-padding {
+    height: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
