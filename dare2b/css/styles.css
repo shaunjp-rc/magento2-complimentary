@@ -1028,6 +1028,9 @@ html .mt_animate {
   .responsive-table tr td:nth-child(2) {
     padding-left: 20%; } }
 /* Partials */
+.c-store-details__item .c-store-details__collection {
+  color: #000000 !important; }
+
 #minicart-content-wrapper .c-mini-cart__basket > a > span {
   font-size: 18px; }
 
