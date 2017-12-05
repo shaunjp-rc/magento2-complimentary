@@ -1183,3 +1183,56 @@ p.collectionhighlights__hoverstate--header {
   background-color: #e83f42 !important;
 }
 /* END */
+
+
+/* Christmas */
+.xmas-slider1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Garamond-Regular";
+    font-size: 5em;
+    letter-spacing: 5px;
+    line-height: 1;
+    margin-top: -15%;
+}
+.xmas-slider2 {
+  text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 3.5em;
+    margin-top: -24px;
+    font-family: "Lato-light", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.xmas-bold {
+  font-weight: bolder;
+}
+.xmas-sliderbutton {
+    padding: 8px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px #fff solid;
+    width: 20%;
+}
+.sliderstrip-xmas {
+    background-color: #cd2326 !important;
+}
+
+@media screen and (max-width: 770px) {
+  .xmas-slider1 {
+      font-size: 2.3em;
+      letter-spacing: 2px;
+      margin-top: 0;
+  }
+  .xmas-slider2 {
+      font-size: 1.6em;
+      margin-top: -4px;
+      letter-spacing: 2px;
+  }
+  .xmas-sliderbutton {
+      background-color: #cd2326 !important;
+      border: none;
+  }
+}
+/* END */
