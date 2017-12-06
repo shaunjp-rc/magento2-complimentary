@@ -1219,6 +1219,15 @@ p.collectionhighlights__hoverstate--header {
     background-color: #cd2326 !important;
 }
 
+@media screen and (max-width: 1000px) {
+    .xmas-slider1 {
+        font-size: 3em;
+    }
+    .xmas-slider2 {
+        font-size: 2.5em;
+    }
+  }
+
 @media screen and (max-width: 770px) {
   .xmas-slider1 {
       font-size: 2.3em;
