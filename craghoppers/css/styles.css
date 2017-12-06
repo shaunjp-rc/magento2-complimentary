@@ -6597,6 +6597,8 @@ h2.utc-title-lower {
 .blackfriday-wrapper.Xmas .col-6.bf-hero .bf-title.christmas-title {
   width: 98.6%;
   margin: 0 auto; }
+.blackfriday-wrapper.Xmas .bf-hero .bf-title {
+  font-size: 18px; }
 
 @media only screen and (max-width: 1227px) {
   .blackfriday-wrapper.Xmas .col-6.bf-hero .bf-title.christmas-title {
