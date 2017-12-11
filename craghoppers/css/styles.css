@@ -6644,8 +6644,8 @@ h2.utc-title-lower {
   .blackfriday-wrapper.Xmas .col-6.bf-hero .bf-title.christmas-title {
     margin-bottom: 0.5%; } }
 /* END */
+.cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-mantra .breadcrumbs.c-breadcrumbs,
-.cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-employees .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-modern-slavery .breadcrumbs.c-breadcrumbs,
@@ -6755,6 +6755,8 @@ h2.utc-title-lower {
     .honesty-project .sip-bpf-img {
       max-width: 20%;
       margin: 0 auto; } }
+  .honesty-project .honesty-project-img {
+    padding-bottom: 25px; }
   .honesty-project .block-container {
     padding-bottom: 20px; }
   .honesty-project .clear {
@@ -6791,6 +6793,8 @@ h2.utc-title-lower {
   .honesty-project .block-6 {
     background-color: #6c6c4d; }
   @media screen and (max-width: 800px) {
+    .honesty-project .honesty-project-img {
+      max-width: 75%; }
     .honesty-project .block-title {
       line-height: 30px;
       font-size: 25px; }
