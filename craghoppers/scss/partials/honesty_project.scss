@@ -1,5 +1,5 @@
+.cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-mantra .breadcrumbs.c-breadcrumbs,
-.cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-employees .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-modern-slavery .breadcrumbs.c-breadcrumbs,
@@ -133,6 +133,9 @@
 
 
 	/* HP Homepage Start*/
+	.honesty-project-img {
+		padding-bottom: 25px;
+	}
 	.block-container {
 		padding-bottom: 20px;
 	}
@@ -179,6 +182,9 @@
 		background-color: #6c6c4d;
 	}
 	@media screen and (max-width: 800px) {
+		.honesty-project-img {
+			max-width: 75%;
+		}
 		.block-title {
 			line-height: 30px;
 			font-size: 25px;
