@@ -3694,7 +3694,8 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     background-color: #6c6c4d; }
   @media screen and (max-width: 800px) {
     .honesty-project .honesty-project-img {
-      max-width: 75%; }
+      max-width: 65%;
+      margin: auto; }
     .honesty-project .block-title {
       line-height: 30px;
       font-size: 25px; }
