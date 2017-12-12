@@ -184,13 +184,6 @@ requirejs(['jquery'], function( $ ) {
   });
   /* END */
 
-  /* Footer mobile menu */
-  jQuery('.column.column--footer h4').click(function(){
-    jQuery(this).next('ul').toggleClass('toggleSub');
-    jQuery(this).toggleClass('toggleMain');
-  });
-  /* END */
-
   /*Contact us page - Form pop up */
   $j('.form_popup').click(function(){
     $j('.contact__popup').addClass('popup_open');
