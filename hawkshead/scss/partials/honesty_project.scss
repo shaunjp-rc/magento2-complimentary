@@ -9,9 +9,6 @@
 }
 
 .honesty-project{
-    .honesty-project {
-        padding-top: 30px;
-    }
     .header-badge {
         width: 100%;
         /*max-width: 500px;*/
@@ -23,10 +20,11 @@
         line-height: 1.3;
         padding: 1% 0;
         margin-bottom: 3%;
+        margin-top: 2%;
         color: #fff;
     }
 
-    .hh-pink{
+    .hp-pink{
         background: #f18b85;
         max-width: 550px;
     }
@@ -41,7 +39,7 @@
         max-width: 330px;
     }
 
-    .hh-lightgreen{
+    .hp-lightgreen{
         background: #a3ae1e;
         max-width: 330px;
     }
@@ -63,6 +61,7 @@
         margin-bottom: 2%;
         margin-top: 4%;
         color: #000;
+        text-transform: uppercase;
     }
 
     ul,
@@ -79,7 +78,7 @@
     }
 
         /* HP Social Impact Programmes Start*/
-    .hh-purple {
+    .hp-purple {
         background-color: #332e51;
         max-width: 570px;
     }
@@ -110,11 +109,11 @@
         padding: 2% 0;
     }
     .sip-img-meal {
-        max-width: 371px;
+        max-width: 289px;
         padding: 1.5% 0 4% 0;   
     }
     .sip-img-reaching {
-        max-width: 526px;
+        max-width: 576px;
         padding: 4.5% 0 3% 0;
     }
     .sip-container {
@@ -152,15 +151,15 @@
     .block-title {
         text-align: center;
         color: #fff;
-        font-size: 26px;
+        font-size: 24px;
         text-transform: uppercase;
         font-family: "Lato-Bold", sans-serif;
         font-weight: bold;
         letter-spacing: 2px;
-        line-height: 32px;
+        line-height: 30px;
         display: table-cell;
         vertical-align: middle;
-        padding: 0 6%;
+        padding: 0 10%;
     }
     .block-1 {
         background-color: #6f9ed4;
@@ -296,6 +295,7 @@
         line-height: 1.5;
         max-width: 775px;
         margin: auto;
+        color: #000;
     }
     /* HP Our Way Start*/
 
