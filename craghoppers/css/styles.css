@@ -6666,6 +6666,9 @@ h2.utc-title-lower {
   /* HP Our Mantra Start*/
   /* HP The Environment Start */
   /* HP The Environment End */ }
+  .honesty-project .hp-back a {
+    color: black;
+    font-weight: bold; }
   .honesty-project .header-badge {
     width: 100%;
     /*max-width: 500px;*/
