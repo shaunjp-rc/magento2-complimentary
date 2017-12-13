@@ -100,3 +100,11 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     }
 }
 /* END */
+
+/* Mobile Add to basket */
+@media only screen and (max-width:600px){
+    .box-tocart .o-layout__item:nth-child(3) {
+        padding-left: 10px;
+    }
+}
+/* END */
