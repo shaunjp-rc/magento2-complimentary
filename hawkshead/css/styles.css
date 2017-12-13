@@ -3245,6 +3245,11 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .c-product-details .u-heading-beta {
     font-size: 22px; } }
 /* END */
+/* Mobile Add to basket */
+@media only screen and (max-width: 600px) {
+  .box-tocart .o-layout__item:nth-child(3) {
+    padding-left: 10px; } }
+/* END */
 .bf-banner {
   padding: 2.5% 0; }
 
