@@ -6875,7 +6875,8 @@ h2.utc-title-lower {
     font-size: 1.14286rem;
     line-height: 1.5;
     max-width: 775px;
-    margin: auto; }
+    margin: auto;
+    color: #000; }
   .honesty-project .hp-env1 {
     padding: 4% 0 3% 0; }
   .honesty-project .hp-env2 {
