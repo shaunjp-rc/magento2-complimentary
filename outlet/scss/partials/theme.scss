@@ -674,15 +674,16 @@ html .mt_animate {
   .responsive-table table {
     width: 250%;
   }
-  .responsive-table tr > td:first-child {
+ .responsive-table tr > td:first-child {
     min-width: 120px;
     background: #eaeaea;
     position: absolute;
     width: 33%;
+    height: 80px;
     left: inherit;
     z-index: 1;
     border: solid 1px #cccccc;
-  }
+}
   .responsive-table tr td {
     padding: 10px;
     background: #f9f9f9;    /* left: 16%; */
@@ -693,7 +694,8 @@ html .mt_animate {
   }
   .responsive-table table tr {
     position: relative;
-  }
+    height: 79px;
+}
   .responsive-table tr td:nth-child(2) {
     padding-left: 20%;
   }
