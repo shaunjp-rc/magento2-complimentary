@@ -53,6 +53,7 @@
     background: #eaeaea;
     position: absolute;
     width: 33%;
+    height: 80px;
     left: inherit;
     z-index: 1;
     border: solid 1px #cccccc;
@@ -66,7 +67,8 @@
     border: solid 1px #ece9e9;
   }
   .responsive-table table tr {
-    position: relative;
+      position: relative;
+      height: 79px;
   }
   .responsive-table tr td:nth-child(2) {
     padding-left: 20%;
