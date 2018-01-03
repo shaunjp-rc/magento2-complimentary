@@ -4052,9 +4052,16 @@ a.micro-product__button {
 .categorypath-women p.category-view__description,
 .categorypath-womens p.category-view__description,
 .categorypath-kids p.category-view__description,
-.categorypath-accessories p.category-view__description {
+.categorypath-accessories p.category-view__description,
+.header-customclothing p.category-view__description {
   width: 59%;
   margin-bottom: 0; }
+
+.header-customclothing {
+  padding: 6% 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-left: 2%; }
 
 @media only screen and (max-width: 770px) {
   p.category-view__description {
