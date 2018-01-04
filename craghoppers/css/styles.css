@@ -4621,6 +4621,9 @@ a.micro-product__button {
   color: #fff;
   padding-left: 2%; }
 
+.header-customclothing h1 {
+  color: #fff; }
+
 @media only screen and (max-width: 770px) {
   p.category-view__description {
     width: 100% !important; } }
@@ -6650,6 +6653,25 @@ h2.utc-title-lower {
     padding: 1.5% 0; }
   .blackfriday-wrapper.Xmas .col-6.bf-hero .bf-title.christmas-title {
     margin-bottom: 0.5%; } }
+/* END */
+/* Clearance Store */
+.clearance-store .bf-cta_button.clearance {
+  background: #184447;
+  border: 1px solid #184447; }
+
+.clearance-store .bf-cta_button.clearance:hover {
+  color: #184447;
+  background: #fff; }
+
+.clearance-store .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
+@media only screen and (max-width: 739px) {
+  .clearance-store .flex-item.col-4.bf-hero {
+    width: 100%; } }
+@media only screen and (max-width: 600px) {
+  .clearance-store .bannerOverlay.banner-clearance {
+    height: 29vw; } }
 /* END */
 .cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
 .cms-the-honesty-project-our-mantra .breadcrumbs.c-breadcrumbs,
