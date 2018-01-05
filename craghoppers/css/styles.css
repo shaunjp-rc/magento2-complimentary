@@ -1153,6 +1153,18 @@ h4.c-feefo__titl {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+/* Clearance Nav */
+.dropdown.clearance a {
+  color: #fff !important;
+  background: #880015;
+  padding: 10px !important; }
+
+@media only screen and (max-width: 650px) {
+  .dropdown.clearance a {
+    padding: 15px 0 !important;
+    padding-left: 10px !important;
+    margin-left: 0 !important; } }
+/* END */
 /* store finder */
 .c-store-list__title {
   color: #343334; }
