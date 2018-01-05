@@ -384,28 +384,47 @@
 /* END */
 
 /* Clearance Store */
-.clearance-store .bf-cta_button.clearance {
-    background: #184447;
-    border: 1px solid #184447;
-}
-.clearance-store .bf-cta_button.clearance:hover {
-    color: #184447;
-    background: #fff;
-}
+.clearance-store{
+    .bf-cta_button.clearance {
+        background: #184447;
+        border: 1px solid #184447;
+    }
+    .bf-cta_button.clearance:hover {
+        color: #184447;
+        background: #fff;
+    }
 
-.clearance-store .breadcrumbs.c-breadcrumbs {
-    display: none;
+    .breadcrumbs.c-breadcrumbs {
+        display: none;
+    }
+
+    .bf-innerwrapper .bannerOverlay__block{
+        background:#184447;
+        border: 4px solid #fff;
+    }
+
+    .clearance-noimg {
+        padding: 76.6% 0;
+    }
+
+    .flex-container.bf-columnfour {
+        margin-top: 3%;
+    }
 }
 
 @media only screen and (max-width: 739px){
-    .clearance-store .flex-item.col-4.bf-hero {
-        width: 100%;
+    .clearance-store{
+        .flex-item.col-4.bf-hero {
+            width: 100%;
+        }
     }
 }
 
 @media only screen and (max-width: 600px){
-    .clearance-store .bannerOverlay.banner-clearance {
-        height: 29vw;
+    .clearance-store{
+        .bannerOverlay.banner-clearance {
+            height: 29vw;
+        }
     }
 }
 /* END */

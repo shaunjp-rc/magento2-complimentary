@@ -398,6 +398,130 @@ p.deliveryBar__text {
 
 }
 
+.cms-homepage-promo-grid-ch-uk{
+
+  .o-region__inner.column.main,
+  .o-region__inner.s-promo-grid {
+      width: 100%;
+  }
+
+  section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+      max-width: 100%;
+  }
+
+  section.pageSection.pageSection--fullWidth.pageSection--noTitle.pageBanner--desktop {
+      margin: 0 auto;
+      float: none;
+  }
+
+  .pageSection--thirds {
+      margin-top: 1.75%;
+  }
+
+  .slider-replace{
+    position:relative;
+        width: 100%;
+  }
+
+  a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
+      width: 250px;
+  }
+
+  .bannerOverlay__contentArea--slider {
+      padding-bottom: 4%;
+  }
+
+  a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
+      width: 14%;
+      min-width: 200px;
+  }
+
+  .c-page-wrapper {
+      padding: 0 0;
+  }
+
+  .slider-replace {
+    text-align: center;
+  }
+
+  .slider-cta {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px #fff solid;
+    display: inline-block;
+    font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: .8;
+    margin: 0vw 1vw 0 0;
+    text-transform: uppercase;
+    width: 14%;
+    min-width: 200px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .slider-contentarea {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-bottom: 4%;
+  }
+
+  .slider-cta:hover {
+      background: #000;
+      color: #fff;
+  }
+
+  .slider-cta:last-of-type {
+      margin-right: 0;
+  }
+
+}
+
+@media only screen and (max-width:600px){
+  .cms-homepage-promo-grid-ch-uk{
+    a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
+      width: 60%;
+      padding: 2% 0;
+    }
+  }
+}
+
+@media only screen and (min-width:1200px){
+  .cms-homepage-promo-grid-ch-uk{
+    .slider-cta {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .cms-homepage-promo-grid-ch-uk{
+    .slider-cta {
+      display: block;
+      margin: 0 auto;
+      width: 45%;
+      margin-bottom: 1%;
+    }
+
+    .slider-cta:last-of-type{
+      margin-bottom: 0;
+      margin: 0 auto;
+    }
+
+    .slider-contentarea {
+      margin-bottom: 14%;
+    }
+  }
+}
+@media only screen and (max-width: 450px){
+  .cms-homepage-promo-grid-ch-uk{
+    .slider-contentarea {
+        margin-bottom: 9%;
+    }
+  }
+}
+
 
 /* Tehnologies */
 
