@@ -5220,174 +5220,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     text-decoration: underline;
     font-weight: bold; }
 
-/* Insect Repellent Collection Dump */
-.cms-insect-repellent-collection .wrapper {
-  display: inline-block;
-  max-width: 1228px; }
-.cms-insect-repellent-collection .hero-irc {
-  background-image: url("https://d1khwdv4lze0nb.cloudfront.net/images/SS16/US/Collection+Assets/IS_MainImage_1140x400px.jpg");
-  height: 400px;
-  background-size: cover; }
-.cms-insect-repellent-collection .wrapper > *,
-.cms-insect-repellent-collection .row-10 > * {
-  float: left; }
-.cms-insect-repellent-collection .row-10 {
-  width: 100%; }
-.cms-insect-repellent-collection .row-8 {
-  width: 80%; }
-.cms-insect-repellent-collection .row-7 {
-  width: 70%; }
-.cms-insect-repellent-collection .row-5 {
-  width: 50%; }
-.cms-insect-repellent-collection .row-3 {
-  width: 30%; }
-.cms-insect-repellent-collection .row-2 {
-  width: 20%; }
-.cms-insect-repellent-collection .row-3 a {
-  border: 2px solid #000;
-  width: 100%;
-  float: left;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 3%;
-  padding: 2% 0;
-  font-size: 16px; }
-.cms-insect-repellent-collection .hero-button {
-  padding: 0 1%; }
-.cms-insect-repellent-collection .hero-info {
-  padding: 1.5%; }
-.cms-insect-repellent-collection .row-clear {
-  border-bottom: 1px solid #000;
-  margin-bottom: 2%; }
-.cms-insect-repellent-collection .hero-product {
-  padding: 1.3% 2%; }
-.cms-insect-repellent-collection .row-5 a {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  border: 2px solid #000;
-  padding: 0.5% 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  margin-bottom: 6%;
-  font-size: 16px;
-  margin-top: 2%; }
-.cms-insect-repellent-collection .row-paddingleft {
-  padding-left: 1%; }
-.cms-insect-repellent-collection .row-paddingright {
-  padding-right: 1%; }
-.cms-insect-repellent-collection .section-clear {
-  border: 1px solid;
-  margin-bottom: 4%; }
-.cms-insect-repellent-collection .tech-padding {
-  padding: 0 2.5%; }
-.cms-insect-repellent-collection .hero_hover {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: none;
-  position: relative; }
-.cms-insect-repellent-collection .row-10.hero-irc:hover .hero_hover {
-  display: block; }
-.cms-insect-repellent-collection .hero_hover a {
-  width: 100%;
-  height: 100%;
-  display: table;
-  text-decoration: none; }
-.cms-insect-repellent-collection .play-buttoncontainer {
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell; }
-.cms-insect-repellent-collection .play-buttoncontainer span {
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
-  background: #494949;
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 0 auto;
-  line-height: 51px;
-  background: -moz-linear-gradient(top, #7f7f7f 1%, #494949 100%);
-  background: -webkit-linear-gradient(top, #7f7f7f 1%, #494949 100%);
-  background: linear-gradient(to bottom, #7f7f7f 1%, #494949 100%); }
-.cms-insect-repellent-collection .play-buttoncontainer span p {
-  width: 0px;
-  border-top: 8px solid transparent;
-  border-left: 12px solid #fff;
-  border-bottom: 8px solid transparent;
-  margin: 0 auto;
-  top: 17px;
-  position: relative; }
-.cms-insect-repellent-collection .hero-tech {
-  position: absolute; }
-.cms-insect-repellent-collection .hero-product ul li {
-  list-style-type: none; }
-.cms-insect-repellent-collection .hero-product ul {
-  margin-left: 3%; }
-.cms-insect-repellent-collection .hero-product p:first-child,
-.cms-insect-repellent-collection .tech-padding h3 {
-  font-size: 1.5em;
-  margin-bottom: 2%; }
-.cms-insect-repellent-collection .hero-info h1 {
-  line-height: 1.5; }
-.cms-insect-repellent-collection .row-3 a:hover,
-.cms-insect-repellent-collection .row-5 a:hover {
-  background: #000;
-  color: #fff; }
-.cms-insect-repellent-collection .hero-product li strong {
-  font-size: 15px;
-  text-transform: uppercase; }
-
-@media only screen and (max-width: 550px) {
-  .cms-insect-repellent-collection .row-7 {
-    width: 100%; }
-  .cms-insect-repellent-collection .row-5 {
-    width: 100%; }
-  .cms-insect-repellent-collection .row-3 {
-    width: 100%; }
-  .cms-insect-repellent-collection .row-paddingleft,
-  .cms-insect-repellent-collection .row-paddingright {
-    padding: 0; }
-  .cms-insect-repellent-collection .hero_hover {
-    display: block; }
-  .cms-insect-repellent-collection .hero-button a:last-child {
-    margin-bottom: 2%; }
-  .cms-insect-repellent-collection .row-clear {
-    margin: 3% 0; }
-  .cms-insect-repellent-collection .hero-product p {
-    margin-top: 1%; }
-  .cms-insect-repellent-collection .hero-product img {
-    width: 100% !important; }
-  .cms-insect-repellent-collection .row-5 a {
-    margin-bottom: 2%; }
-  .cms-insect-repellent-collection .row-paddingright a {
-    margin-bottom: 0; } }
-/* END */
-/* US Banners */
-.categorypath-men.category-men .mens-seoheader,
-.categorypath-women.category-women .womens-seoheader {
-  padding: 6.8% 0; }
-
-/* END */
-/* US Checkout Changes */
-#checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
-  display: none !important; }
-
-.c-footer__payment-icons {
-  width: 125px !important; }
-
-#checkout .c-box-option__radio:checked + .c-box-option__inner .c-box-option__sub-title {
-  opacity: 0; }
-
-.c-basket__payment-icons {
-  background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important; }
-
-/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
@@ -5656,6 +5488,174 @@ li.dropdown.dropdown--red a {
 .s-main-menu .categories ul.mm__column li.beargryllsclearance a {
   color: #E16A17 !important;
   font-weight: 700; }
+
+/* END */
+/* Insect Repellent Collection Dump */
+.cms-insect-repellent-collection .wrapper {
+  display: inline-block;
+  max-width: 1228px; }
+.cms-insect-repellent-collection .hero-irc {
+  background-image: url("https://d1khwdv4lze0nb.cloudfront.net/images/SS16/US/Collection+Assets/IS_MainImage_1140x400px.jpg");
+  height: 400px;
+  background-size: cover; }
+.cms-insect-repellent-collection .wrapper > *,
+.cms-insect-repellent-collection .row-10 > * {
+  float: left; }
+.cms-insect-repellent-collection .row-10 {
+  width: 100%; }
+.cms-insect-repellent-collection .row-8 {
+  width: 80%; }
+.cms-insect-repellent-collection .row-7 {
+  width: 70%; }
+.cms-insect-repellent-collection .row-5 {
+  width: 50%; }
+.cms-insect-repellent-collection .row-3 {
+  width: 30%; }
+.cms-insect-repellent-collection .row-2 {
+  width: 20%; }
+.cms-insect-repellent-collection .row-3 a {
+  border: 2px solid #000;
+  width: 100%;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 3%;
+  padding: 2% 0;
+  font-size: 16px; }
+.cms-insect-repellent-collection .hero-button {
+  padding: 0 1%; }
+.cms-insect-repellent-collection .hero-info {
+  padding: 1.5%; }
+.cms-insect-repellent-collection .row-clear {
+  border-bottom: 1px solid #000;
+  margin-bottom: 2%; }
+.cms-insect-repellent-collection .hero-product {
+  padding: 1.3% 2%; }
+.cms-insect-repellent-collection .row-5 a {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 0.5% 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 6%;
+  font-size: 16px;
+  margin-top: 2%; }
+.cms-insect-repellent-collection .row-paddingleft {
+  padding-left: 1%; }
+.cms-insect-repellent-collection .row-paddingright {
+  padding-right: 1%; }
+.cms-insect-repellent-collection .section-clear {
+  border: 1px solid;
+  margin-bottom: 4%; }
+.cms-insect-repellent-collection .tech-padding {
+  padding: 0 2.5%; }
+.cms-insect-repellent-collection .hero_hover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: relative; }
+.cms-insect-repellent-collection .row-10.hero-irc:hover .hero_hover {
+  display: block; }
+.cms-insect-repellent-collection .hero_hover a {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-decoration: none; }
+.cms-insect-repellent-collection .play-buttoncontainer {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell; }
+.cms-insect-repellent-collection .play-buttoncontainer span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  background: #494949;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  line-height: 51px;
+  background: -moz-linear-gradient(top, #7f7f7f 1%, #494949 100%);
+  background: -webkit-linear-gradient(top, #7f7f7f 1%, #494949 100%);
+  background: linear-gradient(to bottom, #7f7f7f 1%, #494949 100%); }
+.cms-insect-repellent-collection .play-buttoncontainer span p {
+  width: 0px;
+  border-top: 8px solid transparent;
+  border-left: 12px solid #fff;
+  border-bottom: 8px solid transparent;
+  margin: 0 auto;
+  top: 17px;
+  position: relative; }
+.cms-insect-repellent-collection .hero-tech {
+  position: absolute; }
+.cms-insect-repellent-collection .hero-product ul li {
+  list-style-type: none; }
+.cms-insect-repellent-collection .hero-product ul {
+  margin-left: 3%; }
+.cms-insect-repellent-collection .hero-product p:first-child,
+.cms-insect-repellent-collection .tech-padding h3 {
+  font-size: 1.5em;
+  margin-bottom: 2%; }
+.cms-insect-repellent-collection .hero-info h1 {
+  line-height: 1.5; }
+.cms-insect-repellent-collection .row-3 a:hover,
+.cms-insect-repellent-collection .row-5 a:hover {
+  background: #000;
+  color: #fff; }
+.cms-insect-repellent-collection .hero-product li strong {
+  font-size: 15px;
+  text-transform: uppercase; }
+
+@media only screen and (max-width: 550px) {
+  .cms-insect-repellent-collection .row-7 {
+    width: 100%; }
+  .cms-insect-repellent-collection .row-5 {
+    width: 100%; }
+  .cms-insect-repellent-collection .row-3 {
+    width: 100%; }
+  .cms-insect-repellent-collection .row-paddingleft,
+  .cms-insect-repellent-collection .row-paddingright {
+    padding: 0; }
+  .cms-insect-repellent-collection .hero_hover {
+    display: block; }
+  .cms-insect-repellent-collection .hero-button a:last-child {
+    margin-bottom: 2%; }
+  .cms-insect-repellent-collection .row-clear {
+    margin: 3% 0; }
+  .cms-insect-repellent-collection .hero-product p {
+    margin-top: 1%; }
+  .cms-insect-repellent-collection .hero-product img {
+    width: 100% !important; }
+  .cms-insect-repellent-collection .row-5 a {
+    margin-bottom: 2%; }
+  .cms-insect-repellent-collection .row-paddingright a {
+    margin-bottom: 0; } }
+/* END */
+/* US Banners */
+.categorypath-men.category-men .mens-seoheader,
+.categorypath-women.category-women .womens-seoheader {
+  padding: 6.8% 0; }
+
+/* END */
+/* US Checkout Changes */
+#checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
+  display: none !important; }
+
+.c-footer__payment-icons {
+  width: 125px !important; }
+
+#checkout .c-box-option__radio:checked + .c-box-option__inner .c-box-option__sub-title {
+  opacity: 0; }
+
+.c-basket__payment-icons {
+  background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important; }
 
 /* END */
 
