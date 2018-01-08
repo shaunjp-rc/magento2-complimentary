@@ -3877,6 +3877,16 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .cms-clearance-store .c-breadcrumbs {
   display: none; }
 
+.hh-clearance-store .cs-cta {
+  padding-bottom: 20px;
+  width: 85%;
+  margin: auto; }
+.hh-clearance-store .cs-img-title-main {
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase; }
 .hh-clearance-store .clearance-store .flex-container.cs-columnfour {
   margin-top: 3%; }
 .hh-clearance-store .clearance-store-wrapper {
@@ -4021,7 +4031,12 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .hh-clearance-store .cs-cta a:first-of-type .cs-cta_button {
     margin-top: 0; }
   .hh-clearance-store .cs-hero {
-    margin-bottom: 6%; } }
+    margin-bottom: 6%; }
+  .hh-clearance-store .cs-img-title {
+    display: none !important; }
+  .hh-clearance-store .cs-cta {
+    width: 100%;
+    margin: auto; } }
 .hh-clearance-store .clearance-store-wrapper.Xmas .cs-widewrapper {
   display: table; }
 .hh-clearance-store .clearance-store-wrapper.Xmas .bannerOverlay.bannerOverlayXmas {

@@ -3,6 +3,19 @@
 }
 
 .hh-clearance-store {
+    .cs-cta {
+        padding-bottom: 20px;
+        width: 85%;
+        margin: auto;
+    }
+
+    .cs-img-title-main {
+        font-size: 24px;
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 
     .clearance-store .flex-container.cs-columnfour {
         margin-top: 3%;
@@ -232,6 +245,13 @@
 
         .cs-hero {
             margin-bottom: 6%;
+        }
+        .cs-img-title {
+            display: none !important;
+        }
+        .cs-cta {
+            width: 100%;
+            margin: auto;
         }
     }
 
