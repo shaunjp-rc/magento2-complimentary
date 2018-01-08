@@ -1169,79 +1169,82 @@ p.collectionhighlights__hoverstate--header {
 } 
 /* END */
 
+/* Slider Full Width */
+.cms-homepage-promo-grid-hh-uk{
 
-/* Black Friday */
-.slidersubtext-bf {
-  font-size: 3.3em;
-  letter-spacing: 2px;
-  text-align: center;
-  margin: 0 auto;
-  color: white;
-  margin-top: 0.5%;
-}
-.sliderstrip--bf {
-  background-color: #e83f42 !important;
-}
-/* END */
+  .o-region__inner.column.main,
+  .o-region__inner.s-promo-grid {
+    width: 100%;
+  }
 
+  section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+    max-width: 100%;
+  }
 
-/* Christmas */
-.xmas-slider1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Garamond-Regular";
-    font-size: 5em;
-    letter-spacing: 5px;
-    line-height: 1;
-    margin-top: -15%;
-}
-.xmas-slider2 {
-  text-align: center;
+  section.pageSection.pageSection--fullWidth.pageSection--noTitle.pageBanner--desktop {
     margin: 0 auto;
-    color: white;
-    font-size: 3.5em;
-    margin-top: -24px;
-    font-family: "Lato-light", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-.xmas-bold {
-  font-weight: bolder;
-}
-.xmas-sliderbutton {
-    padding: 8px 0;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 1px #fff solid;
-    width: 20%;
-}
-.sliderstrip-xmas {
-    background-color: #cd2326 !important;
-}
-
-@media screen and (max-width: 1000px) {
-    .xmas-slider1 {
-        font-size: 3em;
-    }
-    .xmas-slider2 {
-        font-size: 2.5em;
-    }
+    float: none;
   }
 
-@media screen and (max-width: 770px) {
-  .xmas-slider1 {
-      font-size: 2.3em;
-      letter-spacing: 2px;
-      margin-top: 0;
+}
+
+ .pageSection--thirds {
+    margin-top: 1.75%;
+}
+
+ .slider-replace{
+  position:relative;
+}
+
+ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
+    width: 250px;
+}
+
+ .bannerOverlay__contentArea--slider {
+    padding-bottom: 4%;
+}
+
+ .sliderstrip__desktop {
+    margin-bottom: -1%;
+}
+
+ .c-page-wrapper {
+    padding: 0;
+}
+
+ .sliderbutton {
+    padding: 0;
+}
+ .sliderstrip__desktop {
+    margin: 0;
+}
+
+.fullWidthSlider__slide.pageBanner__image {
+    display: block;
+}
+
+@media only screen and (max-width:1028px){
+   .sliderstrip__desktop {
+    margin-bottom: -2%;
   }
-  .xmas-slider2 {
-      font-size: 1.6em;
-      margin-top: -4px;
-      letter-spacing: 2px;
+  
+}
+
+@media only screen and (max-width:740px){
+  .sliderstrip__desktop {
+    display: none !important;
   }
-  .xmas-sliderbutton {
-      background-color: #cd2326 !important;
-      border: none;
+  
+  .sliderstrip__desktop.sliderstrip__desktop--mobile{
+    display: block !important;
+    background:#C72123;
+  }
+  
+}   
+
+@media only screen and (max-width:650px){
+  .sliderbutton--thirds {
+      width: 50%;
   }
 }
 /* END */
