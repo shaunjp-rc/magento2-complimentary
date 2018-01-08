@@ -2964,6 +2964,9 @@ a.c-product-size__size-guide-link:hover {
 .columnHead.columnHead--kids h3 {
   color: #9CAC25; }
 
+.columnHead.columnHead--sale h3 {
+  color: #c72123; }
+
 .s-main-menu .category-items .mm__column.mm__column--camping {
   width: 37%; }
 
