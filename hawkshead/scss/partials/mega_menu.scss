@@ -63,11 +63,11 @@
 }
 
 .genderheader.womens {
-  background: #FF685D;
+  background: #fc8a81;
 }
 
 .s-main-menu .mm__container--womens .columnHead a {
-  color: #FF685D !important;
+  color: #fc8a81 !important;
 }
 
 .genderheader.kids {
@@ -104,15 +104,11 @@
 }
 
 .columnHead.columnHead--womens h3 {
-  color: #FF685D;
+  color: #fc8a81;
 }
 
 .columnHead.columnHead--kids h3 {
   color: #9CAC25;
-}
-
-.columnHead.columnHead--sale h3 {
-  color: #c72123;
 }
 
 .s-main-menu .category-items .mm__column.mm__column--camping {
@@ -363,6 +359,10 @@ ul.mm__column.mm__column--img.expanded {
 
 
 /* Clearance menu */
+.columnHead.columnHead--sale h3 {
+  color: #c72123;
+}
+
 .genderheader-sale {
     background: #c72123;
     color: #fff;
