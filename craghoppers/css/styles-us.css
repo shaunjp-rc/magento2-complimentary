@@ -5490,6 +5490,19 @@ li.dropdown.dropdown--red a {
   font-weight: 700; }
 
 /* END */
+/* Clearance nav */
+.dropdown.clearance li a {
+  background: transparent; }
+
+@media only screen and (min-width: 700px) {
+  .dropdown.clearance li a {
+    padding: 0 !important; } }
+.dropdown.clearance div a.ui-menu-back {
+  background: transparent;
+  color: #000 !important;
+  padding-left: 20px !important; }
+
+/* END */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
   display: inline-block;
