@@ -1,1 +1,29 @@
 // Only put in here styles needed for Crags DE
+.cms-homepage-promo-grid-ch-de {
+	.o-region__inner.column.main,
+	.o-region__inner.s-promo-grid {
+		width: 100%;
+	}
+
+}
+
+section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+	max-width: 1920px;
+	float: none;
+	margin: 0 auto;
+	display: flex;
+}
+
+ul.fullWidthSlider__slidesList {
+	width: 100%;
+}
+
+section.pageSection.pageSection--fullWidth.pageSection--noTitle {
+	margin: 0 auto;
+	float: none;
+}
+
+.pageSection--thirds {
+	margin: 0 auto;
+	display: flex;
+}
