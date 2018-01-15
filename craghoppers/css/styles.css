@@ -5176,6 +5176,21 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 .old-price .c-price__group {
   margin-top: 1%; }
 
+/* Tabbed boxes highlight */
+.c-tabs__tab.active .c-tabs__tab-link {
+  border-bottom: 8px solid #343334; }
+
+/* END */
+@media only screen and (max-width: 650px) {
+  .page-product-configurable .c-tabs__content .value,
+  .page-product-configurable ol.o-list-stacked.items.review-items,
+  .page-product-configurable .delivery-info.collateral-block,
+  .page-product-configurable #buyingguides .helppagesright {
+    width: 95%;
+    margin: 0 auto; }
+
+  .c-tabs__tab.active .c-tabs__tab-link {
+    border-bottom: 2px solid #343334; } }
 @media only screen and (max-width: 550px) {
   .c-product-details .product-info-price {
     top: 0; } }
@@ -5278,11 +5293,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
     padding: 5px 0; }
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
-/* END */
-/* Tabbed boxes highlight */
-.c-tabs__tab.active .c-tabs__tab-link {
-  border-bottom: 8px solid #343334; }
-
 /* END */
 /* UTC Fonts */
 @font-face {
