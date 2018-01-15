@@ -5317,7 +5317,10 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .cms-ultimate-travel-collection-have-a-safe-journey #content .columns .o-region__inner,
 .cms-ultimate-travel-collection-tailored-technologies #content .columns .o-region__inner,
 .cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
+.cms-ultimate-travel-collection-womens #content .columns .o-region__inner,
+.cms-ultimate-travel-collection-massgeschneiderte-technologien .columns .o-region__inner,
+.cms-ultimate-travel-collection-herren .columns .o-region__inner,
+.cms-ultimate-travel-collection-damen .columns .o-region__inner {
   width: 100%; }
 
 .cms-ultimate-travel-collection .c-page-wrapper,
