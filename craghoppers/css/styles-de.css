@@ -4615,7 +4615,7 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   .page-product-configurable ol.o-list-stacked.items.review-items,
   .page-product-configurable .delivery-info.collateral-block,
   .page-product-configurable #buyingguides .helppagesright {
-    width: 95%;
+    width: 90%;
     margin: 0 auto; }
 
   .c-tabs__tab.active .c-tabs__tab-link {
@@ -6498,5 +6498,19 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 @media only screen and (max-width: 650px) {
   .pageSection--thirds {
     display: table; } }
+/* Nosilife Microsite DE Only */
+.micro-hero--home .micro-hero__title,
+.micro-hero__title.micro-hero__title--white {
+  clear: both;
+  margin-left: 5%; }
+
+.pageSection.micro-collection {
+  padding-left: 0;
+  padding-right: 0; }
+
+.micro-hero--home .micro-hero__subtitle {
+  margin-left: 5%; }
+
+/* END */
 
 /*# sourceMappingURL=styles-de.css.map */
