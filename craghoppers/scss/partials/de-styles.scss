@@ -27,3 +27,9 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 	margin: 0 auto;
 	display: flex;
 }
+
+@media only screen and (max-width:650px){
+	.pageSection--thirds {
+	    display: table;
+	}
+}
