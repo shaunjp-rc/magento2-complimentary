@@ -4164,6 +4164,10 @@ a.micro-product__button {
 .header-customclothing h1 {
   color: #fff; }
 
+.category-view__title span {
+  font-size: 14px;
+  vertical-align: text-top; }
+
 @media only screen and (max-width: 770px) {
   p.category-view__description {
     width: 100% !important; } }
