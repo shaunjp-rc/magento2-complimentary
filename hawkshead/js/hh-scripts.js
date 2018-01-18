@@ -1,7 +1,8 @@
 /* UK/US Stock issue */
 window.onload = function(){
   if (typeof dataLayer.disable !== 'undefined') {
-    var disableds = dataLayer.disable.split(",");
+    var disable = dataLayer.disable.toString();
+    var disableds = disable.split(",");
 
     for (let i = 0; i < disableds.length; i++) {
       disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
