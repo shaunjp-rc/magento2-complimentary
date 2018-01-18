@@ -1,3 +1,18 @@
+/* UK/US Stock issue */
+window.onload = function(){
+  if (typeof dataLayer.disable !== 'undefined') {
+    var disableds = dataLayer.disable.split(",");
+
+    for (let i = 0; i < disableds.length; i++) {
+      disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+      disabled.classList.add("c-product-size__link--disabled");
+      disabled.classList.add("disabled");
+      disabled.setAttribute("disabled", "disabled");
+    }
+  }
+}
+/* END */
+
 /* delivery and returns tabs */
 function rlTabs(){
   var nodeList = document.body.querySelectorAll("[data-action='tab']");
