@@ -1,4 +1,5 @@
 /* UK/US Stock issue */
+window.onload = function(){
   if (typeof dataLayer.disable !== 'undefined') {
     var disableds = dataLayer.disable.split(",");
 
@@ -9,6 +10,7 @@
       disabled.setAttribute("disabled", "disabled");
     }
   }
+}
 /* END */
 
 /* delivery and returns tabs */
