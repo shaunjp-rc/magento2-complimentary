@@ -1,17 +1,24 @@
 /* UK/US Stock issue */
-window.onload = function(){
-  if (typeof dataLayer.disable !== 'undefined') {
-    var disable = dataLayer.disable.toString();
-    var disableds = disable.split(",");
+var stockInt = setInterval(function(){
 
-    for (let i = 0; i < disableds.length; i++) {
-      disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
-      disabled.classList.add("c-product-size__link--disabled");
-      disabled.classList.add("disabled");
-      disabled.setAttribute("disabled", "disabled");
+  if(document.querySelectorAll('.dis-ran').length < 1){
+    if (typeof dataLayer.disable !== 'undefined') {
+      var disable = dataLayer.disable.toString();
+      var disableds = disable.split(",");
+
+      for (let i = 0; i < disableds.length; i++) {
+        disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+        disabled.classList.add("c-product-size__link--disabled");
+        disabled.classList.add("dis-ran");
+        disabled.classList.add("disabled");
+        disabled.setAttribute("disabled", "disabled");
+      }
+
+      clearInterval(stockInt);
     }
   }
-}
+
+}, 1000); // end timeout
 /* END */
 
 /* delivery and returns tabs */
