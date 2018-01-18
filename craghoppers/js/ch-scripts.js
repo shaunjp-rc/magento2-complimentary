@@ -1,17 +1,14 @@
 /* UK/US Stock issue */
 var stockInt = setInterval(function(){
 
-  if(document.querySelectorAll('.dis-ran').length < 1){
+  if(document.querySelectorAll('.c-product-size__link').length > 0){
     if (typeof dataLayer.disable !== 'undefined') {
       var disable = dataLayer.disable.toString();
       var disableds = disable.split(",");
 
       for (let i = 0; i < disableds.length; i++) {
         disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
-        disabled.classList.add("c-product-size__link--disabled");
-        disabled.classList.add("dis-ran");
-        disabled.classList.add("disabled");
-        disabled.setAttribute("disabled", "disabled");
+        disabled.parentElement.removeChild(disabled);
       }
 
       clearInterval(stockInt);
@@ -19,7 +16,6 @@ var stockInt = setInterval(function(){
   }
 
 }, 1000); // end timeout
-
 /* END */
 
 /* delivery and returns tabs */
