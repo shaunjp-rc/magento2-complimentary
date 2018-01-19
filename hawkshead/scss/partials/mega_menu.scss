@@ -194,6 +194,10 @@ ul.mm__column.mm__column--img.expanded {
     display: block;
 }
 
+.s-main-menu .block {
+    z-index: 3;
+}
+
 @media only screen and (max-width:1024px){
   .desktop-menu {
       display: none;
