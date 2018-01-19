@@ -2032,13 +2032,14 @@ ul.fullWidthSlider__slidesList {
   position: relative; }
 
 .readmore {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   width: 10%;
   background: #343334;
   padding: 1% 0;
   color: #fff;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 4%; }
 
 .seo-container {
   margin-top: -4%; }
