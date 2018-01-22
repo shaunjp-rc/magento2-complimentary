@@ -2,25 +2,66 @@
 
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf);
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Montserrat-Regular.otf);
 }
 
 @font-face {
     font-family: 'Montserrat-Medium';
-    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf);
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Montserrat-Medium.otf);
 }
 
 @font-face {
     font-family: 'Montserrat-Light';
-    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf);
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Montserrat-Light.otf);
 }
 
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf);
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Montserrat-Bold.otf);
 }
 
 $montreg: 'Montserrat-Regular', Helvetica, Arial, sans-serif;
 $montmed: 'Montserrat-Medium', Helvetica, Arial, sans-serif;
 $montlight: 'Montserrat-Light', Helvetica, Arial, sans-serif;
 $montbold: 'Montserrat-Bold', Helvetica, Arial, sans-serif; 
+
+
+
+/* Film Awards Fonts */
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-MediumItalic';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf);
+}
+
+$gothblack: 'Gotham-Black', Helvetica, Arial, sans-serif;
+$gothbold: 'Gotham-Bold', Helvetica, Arial, sans-serif;
+$gothbook: 'Gotham-Book', Helvetica, Arial, sans-serif;
+$gothlight: 'Gotham-Light', Helvetica, Arial, sans-serif;
+$gothmed: 'Gotham-Medium', Helvetica, Arial, sans-serif; 
+$gothmedit: 'Gotham-MediumItalic', Helvetica, Arial, sans-serif; 
