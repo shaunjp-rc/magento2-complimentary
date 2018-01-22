@@ -2117,6 +2117,11 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
   .sliderbutton--thirds {
     width: 50%; } }
 /* END */
+/* Mobile slider Blue Background */
+.blue-background-mobile {
+  background-color: #85aedc !important; }
+
+/* END */
 /* Customer Services Styles */
 .helpnav {
   float: left;
