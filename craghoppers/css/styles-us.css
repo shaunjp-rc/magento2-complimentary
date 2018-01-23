@@ -4210,7 +4210,7 @@ a.micro-product__button {
   display: inline-block; }
 
 .FA-NavItem {
-  padding: 6% 0 0 5%;
+  padding: 6% 0 0 4%;
   display: inline-block;
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -4218,7 +4218,7 @@ a.micro-product__button {
   font-size: 16px; }
 
 .FA-NavItemBlue {
-  color: #248393; }
+  color: #248393 !important; }
 
 .FA-Banner {
   padding-top: 2%; }
@@ -4229,7 +4229,8 @@ a.micro-product__button {
   text-transform: uppercase;
   color: #000;
   font-size: 21px;
-  padding-top: 1%; }
+  padding-top: 1%;
+  letter-spacing: 1.5px; }
 
 .FA-Main-Header-Grey {
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
@@ -4237,7 +4238,8 @@ a.micro-product__button {
   text-transform: uppercase;
   color: #656565;
   font-size: 18px;
-  padding: 1% 0; }
+  padding: 1% 0;
+  letter-spacing: 1.5px; }
 
 .FA-Main-Copy {
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
@@ -4245,8 +4247,18 @@ a.micro-product__button {
   font-size: 18px;
   padding: 0 10% 0 0; }
 
+.FA-DiscoverFilm {
+  padding-top: 1%; }
+
 .FA-Main-Copy-Italic {
   font-style: italic; }
+
+ul.FA-list {
+  list-style: none;
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 18px;
+  margin-left: 0; }
 
 @media screen and (max-width: 1024px) {
   .cms-filmprize-about .flex-item.col-2 {
