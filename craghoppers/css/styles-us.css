@@ -2077,6 +2077,38 @@ ul.fullWidthSlider__slidesList {
   .pageSection--thirds .pageSection__title {
     font-size: 4.5vw; } }
 /* END */
+/* UTC Fonts */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+/* Film Awards Fonts */
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf); }
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf); }
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf); }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf); }
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf); }
+@font-face {
+  font-family: 'Gotham-MediumItalic';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf); }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -4085,6 +4117,162 @@ a.micro-product__button {
   list-style: none outside; }
 
 /* *********** END *********** */
+/* *********** FILM AWARDS START *********** */
+.FA-SocialContainer {
+  text-align: right; }
+
+.FA-Social {
+  padding: 5% 0 0 1%;
+  display: inline-block; }
+
+.FA-NavContainer {
+  text-align: right; }
+
+.FA-NavItem {
+  padding: 6% 0 0 5%;
+  display: inline-block;
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px; }
+
+.FA-NavItemBlue {
+  color: #248393; }
+
+.FA-Banner {
+  padding-top: 1%; }
+
+.FA-Main-Header {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 21px;
+  padding-top: 1%; }
+
+.FA-Main-Header-Grey {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #656565;
+  font-size: 18px;
+  padding: 1% 0; }
+
+.FA-Main-Copy {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 18px;
+  padding: 0 10% 0 0; }
+
+.FA-Main-Copy-Italic {
+  font-style: italic; }
+
+@media screen and (max-width: 1024px) {
+  .flex-item.col-2 {
+    width: 20%; }
+
+  .flex-item.col-10 {
+    width: 80%; } }
+@media only screen and (max-width: 770px) {
+  .FA-Social {
+    padding: 14% 0 0 1%; }
+
+  .FA-NavItem {
+    padding: 6% 0 0 2%; }
+
+  .FA-Main-Copy {
+    padding: 0; } }
+@media only screen and (max-width: 500px) {
+  .flex-item.col-2 {
+    width: 100%; }
+
+  .flex-item.col-10 {
+    width: 100%; }
+
+  .FA-Logo,
+  .FA-SocialContainer,
+  .FA-NavContainer {
+    text-align: center; }
+
+  .FA-NavItem {
+    padding: 2% 4% 0 4%; } }
+/* *********** END *********** */
+/* *********** FILM PRIZE *********** */
+.FA-SocialContainer,
+.FA-NavContainer {
+  text-align: right; }
+
+.FA-Social {
+  padding: 5% 0 0 1%;
+  display: inline-block; }
+
+.FA-NavItem {
+  padding: 6% 0 0 5%;
+  display: inline-block;
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px; }
+
+.FA-NavItemBlue {
+  color: #248393; }
+
+.FA-Banner {
+  padding-top: 1%; }
+
+.FA-Main-Header {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 21px;
+  padding-top: 1%; }
+
+.FA-Main-Header-Grey {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #656565;
+  font-size: 18px;
+  padding: 1% 0; }
+
+.FA-Main-Copy {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 18px;
+  padding: 0 10% 0 0; }
+
+.FA-Main-Copy-Italic {
+  font-style: italic; }
+
+@media screen and (max-width: 1024px) {
+  .cms-filmprize-about .flex-item.col-2 {
+    width: 20%; }
+
+  .cms-filmprize-about .flex-item.col-10 {
+    width: 80%; } }
+@media only screen and (max-width: 770px) {
+  .FA-Social {
+    padding: 14% 0 0 1%; }
+
+  .FA-NavItem {
+    padding: 6% 0 0 2%; }
+
+  .FA-Main-Copy {
+    padding: 0; } }
+@media only screen and (max-width: 500px) {
+  .cms-filmprize-about .flex-item.col-2,
+  .cms-filmprize-about .flex-item.col-10 {
+    width: 100%; }
+
+  .FA-Logo,
+  .FA-SocialContainer,
+  .FA-NavContainer {
+    text-align: center; }
+
+  .FA-NavItem {
+    padding: 2% 4% 0 4%; } }
+/* *********** END *********** */
 .categoryBanner {
   display: table;
   height: 285px;
@@ -4742,19 +4930,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
 /* END */
-/* UTC Fonts */
-@font-face {
-  font-family: 'Montserrat-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
-@font-face {
-  font-family: 'Montserrat-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
-@font-face {
-  font-family: 'Montserrat-Light';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
-@font-face {
-  font-family: 'Montserrat-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
 /* Trouser Campaign Styles */
 .trou-vid-title {
   font-family: georgia;
