@@ -4126,7 +4126,7 @@ a.micro-product__button {
   display: none; }
 
 .FA-Logo {
-  max-width: 153px; }
+  max-width: 170px; }
 
 .FA-SocialContainer,
 .FA-NavContainer {
@@ -4144,7 +4144,8 @@ a.micro-product__button {
   font-size: 16px; }
 
 .FA-NavItemBlue {
-  color: #248393 !important; }
+  color: #248393 !important;
+  text-decoration: underline; }
 
 .FA-Banner {
   padding-top: 2%; }
@@ -4161,13 +4162,13 @@ a.micro-product__button {
   font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #656565;
-  font-size: 18px;
+  font-size: 19px;
   padding: 1% 0; }
 
 .FA-Main-Copy {
   font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
   color: #000;
-  font-size: 18px;
+  font-size: 17px;
   padding: 0 23% 0 0; }
 
 .FA-Main-Copy a {
@@ -4181,10 +4182,16 @@ a.micro-product__button {
 
 ul.FA-list {
   list-style: none;
-  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
   color: #000;
   font-size: 18px;
   margin-left: 0; }
+
+.FA-SocialContainer {
+  display: inline-block; }
+
+.FA-SocialContainerMobile {
+  display: none; }
 
 @media screen and (max-width: 1024px) {
   .cms-filmprize-about .flex-item.col-2 {
@@ -4229,7 +4236,7 @@ ul.FA-list {
     text-align: center; }
 
   .FA-NavItem {
-    padding: 2% 6% 0 6%;
+    padding: 2% 4.5% 0 4.5%;
     font-size: 16px; }
 
   .FA-Main-Header {
@@ -4250,7 +4257,13 @@ ul.FA-list {
     font-size: 14px; }
 
   .FA-Logo {
-    max-width: 120px; } }
+    max-width: 120px; }
+
+  .FA-SocialContainer {
+    display: none; }
+
+  .FA-SocialContainerMobile {
+    display: inline-block; } }
 /* *********** END *********** */
 .categoryBanner {
   display: table;
