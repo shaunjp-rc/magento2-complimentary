@@ -4692,6 +4692,13 @@ a.micro-product__button {
 
 /* *********** END *********** */
 /* *********** FILM PRIZE *********** */
+.cms-filmprize .o-list-inline,
+.cms-filmprize-about .o-list-inline,
+.cms-filmprize-discover .o-list-inline,
+.cms-filmprize-enter .o-list-inline,
+.cms-filmprize-aboutcraghoppers .o-list-inline {
+  display: none; }
+
 .FA-Logo {
   max-width: 153px; }
 
