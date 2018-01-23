@@ -1102,3 +1102,182 @@ a.micro-product__button {
 }
 
 /* *********** END *********** */
+
+/* *********** FILM AWARDS START *********** */
+
+.FA-Logo {
+	max-width: 153px;
+}
+.FA-SocialContainer {
+    text-align: right;
+}
+.FA-Social {
+    padding: 6% 0 0 1%;
+    display: inline-block;
+}
+.FA-NavContainer {
+    text-align: right;
+}
+.FA-NavItem {
+    padding: 6% 0 0 5%;
+    display: inline-block;
+    font-family: $gothmed;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+.FA-NavItemBlue {
+    color: #248393;
+}
+.FA-Banner {
+    padding-top: 1%;
+}
+.FA-Main-Header {
+    font-family: $gothmed;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 21px;
+    padding: 2% 0 1% 0;
+}
+.FA-Main-Header-Grey {
+    font-family: $gothmed;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #656565;
+    font-size: 18px;
+    padding: 1% 0;
+}
+.FA-Main-Copy {
+    font-family: $gothmed;
+    color: #000;
+    font-size: 18px;
+    padding: 0 23% 0 0;
+}
+.FA-Main-Copy-Italic {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1024px){
+    .flex-item.col-2 {
+        width: 20%;
+    }
+    .flex-item.col-10 {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:770px){
+    .FA-Social {
+        padding: 14% 0 0 1%;
+    }
+    .FA-NavItem {
+        padding: 6% 0 0 2%;
+    }
+    .FA-Main-Copy {
+        padding: 0;
+    }
+}
+@media only screen and (max-width:500px){
+    .flex-item.col-2 {
+        width: 100%;
+    }
+    .flex-item.col-10 {
+        width: 100%;
+    }
+    .FA-Logo,
+    .FA-SocialContainer,
+    .FA-NavContainer {
+        text-align: center;
+    }
+    .FA-NavItem {
+        padding: 2% 4% 0 4%;
+    }
+}
+
+/* *********** END *********** */
+
+/* *********** FILM PRIZE *********** */
+
+.FA-SocialContainer,
+.FA-NavContainer {
+    text-align: right;
+}
+.FA-Social {
+    padding: 5% 0 0 1%;
+    display: inline-block;
+}
+.FA-NavItem {
+    padding: 6% 0 0 5%;
+    display: inline-block;
+    font-family: $gothmed;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+.FA-NavItemBlue {
+    color: #248393;
+}
+.FA-Banner {
+    padding-top: 2%;
+}
+.FA-Main-Header {
+    font-family: $gothmed;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 21px;
+    padding-top: 1%;
+}
+.FA-Main-Header-Grey {
+    font-family: $gothmed;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #656565;
+    font-size: 18px;
+    padding: 1% 0;
+}
+.FA-Main-Copy {
+    font-family: $gothmed;
+    color: #000;
+    font-size: 18px;
+    padding: 0 10% 0 0;
+}
+.FA-Main-Copy-Italic {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1024px){
+    .cms-filmprize-about .flex-item.col-2 {
+        width: 20%;
+    }
+    .cms-filmprize-about .flex-item.col-10 {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:770px){
+    .FA-Social {
+        padding: 14% 0 0 1%;
+    }
+    .FA-NavItem {
+        padding: 6% 0 0 2%;
+    }
+    .FA-Main-Copy {
+        padding: 0;
+    }
+}
+@media only screen and (max-width:500px){
+    .cms-filmprize-about .flex-item.col-2,
+    .cms-filmprize-about .flex-item.col-10 {
+        width: 100%;
+    }
+    .FA-Logo,
+    .FA-SocialContainer,
+    .FA-NavContainer {
+        text-align: center;
+    }
+    .FA-NavItem {
+        padding: 2% 4% 0 4%;
+    }
+}
+
+/* *********** END *********** */

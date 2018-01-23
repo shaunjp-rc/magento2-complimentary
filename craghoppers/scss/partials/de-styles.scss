@@ -1,0 +1,51 @@
+// Only put in here styles needed for Crags DE
+.cms-homepage-promo-grid-ch-de {
+	.o-region__inner.column.main,
+	.o-region__inner.s-promo-grid {
+		width: 100%;
+	}
+
+}
+
+section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+	max-width: 1920px;
+	float: none;
+	margin: 0 auto;
+	display: flex;
+}
+
+ul.fullWidthSlider__slidesList {
+	width: 100%;
+}
+
+section.pageSection.pageSection--fullWidth.pageSection--noTitle {
+	margin: 0 auto;
+	float: none;
+}
+
+.pageSection--thirds {
+	margin: 0 auto;
+	display: flex;
+}
+
+@media only screen and (max-width:650px){
+	.pageSection--thirds {
+	    display: table;
+	}
+}
+/* Nosilife Microsite DE Only */
+.micro-hero--home .micro-hero__title,
+.micro-hero__title.micro-hero__title--white {
+    clear: both;
+    margin-left: 5%;
+}
+
+.pageSection.micro-collection {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.micro-hero--home .micro-hero__subtitle {
+    margin-left: 5%;
+}
+/* END */

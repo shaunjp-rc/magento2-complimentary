@@ -244,3 +244,26 @@
     background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important;
 }
 /* END */
+
+/* Slider update */
+.cms-homepage-promo-grid-ch-us{
+  .o-region__inner.column.main,
+  .o-region__inner.s-promo-grid {
+      width: 100%;
+  }
+
+  section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+      max-width: 100%;
+  }
+
+  section.pageSection.pageSection--fullWidth.pageSection--noTitle.pageBanner--desktop {
+      margin: 0 auto;
+      float: none;
+  }
+}
+
+li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
+    background: #000 !important;
+}
+
+/* END */

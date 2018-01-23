@@ -1,3 +1,23 @@
+/* UK/US Stock issue */
+var stockInt = setInterval(function(){
+
+  if(document.querySelectorAll('.c-product-size__link').length > 0){
+    if (typeof dataLayer.disable !== 'undefined') {
+      var disable = dataLayer.disable.toString();
+      var disableds = disable.split(",");
+
+      for (let i = 0; i < disableds.length; i++) {
+        disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+        disabled.parentElement.removeChild(disabled);
+      }
+
+      clearInterval(stockInt);
+    }
+  }
+
+}, 1000); // end timeout
+/* END */
+
 /* delivery and returns tabs */
 function rlTabs(){
   var nodeList = document.body.querySelectorAll("[data-action='tab']");
@@ -109,6 +129,17 @@ function feefoReviews(){
 }
 /* END */
 
+/* Category lower SEO show/hide */
+function lowerseo(){
+  jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner').addClass('active');
+  jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active').after('<div class="lower-seobttn-container"><a><div class="readmore">Read more</div></a></div>');
+  jQuery('.lower-seobttn-container').click(function(){
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active').toggleClass('open');
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active + .lower-seobttn-container .readmore').html('Read more');
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open + .lower-seobttn-container .readmore').html('Read less');
+  });
+}
+/* END */
 
 /*
   Craghoppers specific JS snippets
