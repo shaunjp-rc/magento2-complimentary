@@ -4242,7 +4242,10 @@ ul.FA-list {
     font-size: 14px; }
 
   .FA-Social {
-    padding: 4% 0 0 1%; } }
+    padding: 4% 0 0 1%; }
+
+  ul.FA-list {
+    font-size: 14px; } }
 /* *********** END *********** */
 .categoryBanner {
   display: table;
