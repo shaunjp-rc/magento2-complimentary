@@ -4803,19 +4803,28 @@ ul.FA-list {
     text-align: center; }
 
   .FA-NavItem {
-    padding: 2% 4% 0 4%; }
+    padding: 2% 6% 0 6%;
+    font-size: 16px; }
 
   .FA-Main-Header {
-    font-size: 18px; }
+    font-size: 18px;
+    letter-spacing: 1px; }
 
   .FA-Main-Header-Grey {
-    font-size: 16px; }
+    font-size: 16px;
+    letter-spacing: 1px; }
 
   .FA-Main-Copy {
     font-size: 14px; }
 
   .FA-Social {
-    padding: 4% 0 0 1%; } }
+    padding: 4% 0 0 1%; }
+
+  ul.FA-list {
+    font-size: 14px; }
+
+  .FA-Logo {
+    max-width: 120px; } }
 /* *********** END *********** */
 .categoryBanner {
   display: table;
