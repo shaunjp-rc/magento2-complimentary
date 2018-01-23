@@ -4803,7 +4803,8 @@ ul.FA-list {
     text-align: center; }
 
   .FA-NavItem {
-    padding: 2% 4% 0 4%; }
+    padding: 2% 6% 0 6%;
+    font-size: 16px; }
 
   .FA-Main-Header {
     font-size: 18px; }
