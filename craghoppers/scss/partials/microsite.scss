@@ -1256,7 +1256,7 @@ a.micro-product__button {
 }
 @media only screen and (max-width:770px){
     .FA-Social {
-        padding: 14% 0 0 1%;
+        padding: 12% 0 0 1%;
     }
     .FA-NavItem {
         padding: 6% 0 0 2%;
@@ -1270,6 +1270,9 @@ a.micro-product__button {
     .cms-filmprize-about .flex-item.col-10 {
         width: 100%;
     }
+    .FA-Logo {
+    	margin: auto;
+    }
     .FA-Logo,
     .FA-SocialContainer,
     .FA-NavContainer {
@@ -1278,6 +1281,18 @@ a.micro-product__button {
     .FA-NavItem {
         padding: 2% 4% 0 4%;
     }
+    .FA-Main-Header {
+    	font-size: 18px;
+	}
+	.FA-Main-Header-Grey {
+    	font-size: 16px;
+	}
+	.FA-Main-Copy {
+    	font-size: 14px;
+	}
+	.FA-Social {
+    	padding: 4% 0 0 1%;
+	}
 }
 
 /* *********** END *********** */
