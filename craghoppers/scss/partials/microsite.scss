@@ -1207,7 +1207,7 @@ a.micro-product__button {
     display: inline-block;
 }
 .FA-NavItem {
-    padding: 6% 0 0 5%;
+    padding: 6% 0 0 4%;
     display: inline-block;
     font-family: $gothmed;
     font-weight: bold;
@@ -1215,7 +1215,7 @@ a.micro-product__button {
     font-size: 16px;
 }
 .FA-NavItemBlue {
-    color: #248393;
+    color: #248393 !important;
 }
 .FA-Banner {
     padding-top: 2%;
@@ -1227,6 +1227,7 @@ a.micro-product__button {
     color: #000;
     font-size: 21px;
     padding-top: 1%;
+    letter-spacing: 1.5px;
 }
 .FA-Main-Header-Grey {
     font-family: $gothmed;
@@ -1235,6 +1236,7 @@ a.micro-product__button {
     color: #656565;
     font-size: 18px;
     padding: 1% 0;
+    letter-spacing: 1.5px;
 }
 .FA-Main-Copy {
     font-family: $gothmed;
@@ -1242,8 +1244,21 @@ a.micro-product__button {
     font-size: 18px;
     padding: 0 10% 0 0;
 }
+.FA-Main-Copy a {
+    text-decoration: underline;
+}
+.FA-DiscoverFilm {
+	padding-top: 1%;
+}
 .FA-Main-Copy-Italic {
     font-style: italic;
+}
+ul.FA-list {
+    list-style: none;
+    font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    margin-left: 0;
 }
 
 @media screen and (max-width: 1024px){
@@ -1254,9 +1269,27 @@ a.micro-product__button {
         width: 80%;
     }
 }
+@media screen and (max-width: 900px){
+	.FA-NavItem {
+	    padding: 6% 0 0 5%;
+	    font-size: 16px;
+	}
+	.FA-Social {
+    	padding: 10% 0 0 1%;
+	}
+}
+@media only screen and (max-width:700px){
+    .FA-Social {
+        padding: 11% 0 0 1%;
+    }
+    .FA-NavItem {
+    	padding: 5% 0 0 2%;
+    	font-size: 14px;
+	}
+}
 @media only screen and (max-width:770px){
     .FA-Social {
-        padding: 14% 0 0 1%;
+        padding: 11% 0 0 1%;
     }
     .FA-NavItem {
         padding: 6% 0 0 2%;
@@ -1265,10 +1298,13 @@ a.micro-product__button {
         padding: 0;
     }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .cms-filmprize-about .flex-item.col-2,
     .cms-filmprize-about .flex-item.col-10 {
         width: 100%;
+    }
+    .FA-Logo {
+    	margin: auto;
     }
     .FA-Logo,
     .FA-SocialContainer,
@@ -1278,6 +1314,18 @@ a.micro-product__button {
     .FA-NavItem {
         padding: 2% 4% 0 4%;
     }
+    .FA-Main-Header {
+    	font-size: 18px;
+	}
+	.FA-Main-Header-Grey {
+    	font-size: 16px;
+	}
+	.FA-Main-Copy {
+    	font-size: 14px;
+	}
+	.FA-Social {
+    	padding: 4% 0 0 1%;
+	}
 }
 
 /* *********** END *********** */
