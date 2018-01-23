@@ -1244,6 +1244,9 @@ a.micro-product__button {
     font-size: 18px;
     padding: 0 10% 0 0;
 }
+.FA-Main-Copy a {
+    text-decoration: underline;
+}
 .FA-DiscoverFilm {
 	padding-top: 1%;
 }
@@ -1266,9 +1269,27 @@ ul.FA-list {
         width: 80%;
     }
 }
+@media screen and (max-width: 900px){
+	.FA-NavItem {
+	    padding: 6% 0 0 5%;
+	    font-size: 16px;
+	}
+	.FA-Social {
+    	padding: 10% 0 0 1%;
+	}
+}
+@media only screen and (max-width:700px){
+    .FA-Social {
+        padding: 11% 0 0 1%;
+    }
+    .FA-NavItem {
+    	padding: 5% 0 0 2%;
+    	font-size: 14px;
+	}
+}
 @media only screen and (max-width:770px){
     .FA-Social {
-        padding: 12% 0 0 1%;
+        padding: 11% 0 0 1%;
     }
     .FA-NavItem {
         padding: 6% 0 0 2%;
@@ -1277,7 +1298,7 @@ ul.FA-list {
         padding: 0;
     }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .cms-filmprize-about .flex-item.col-2,
     .cms-filmprize-about .flex-item.col-10 {
         width: 100%;
