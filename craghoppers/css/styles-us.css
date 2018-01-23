@@ -4245,7 +4245,10 @@ ul.FA-list {
     padding: 4% 0 0 1%; }
 
   ul.FA-list {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .FA-Logo {
+    max-width: 120px; } }
 /* *********** END *********** */
 .categoryBanner {
   display: table;
