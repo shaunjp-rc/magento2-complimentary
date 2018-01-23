@@ -4118,6 +4118,13 @@ a.micro-product__button {
 
 /* *********** END *********** */
 /* *********** FILM PRIZE *********** */
+.cms-filmprize .o-list-inline,
+.cms-filmprize-about .o-list-inline,
+.cms-filmprize-discover .o-list-inline,
+.cms-filmprize-about .filmprize-enter,
+.cms-filmprize-about .filmprize-about {
+  display: none; }
+
 .FA-Logo {
   max-width: 153px; }
 
