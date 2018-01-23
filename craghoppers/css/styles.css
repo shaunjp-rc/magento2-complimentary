@@ -4692,11 +4692,14 @@ a.micro-product__button {
 
 /* *********** END *********** */
 /* *********** FILM AWARDS START *********** */
+.FA-Logo {
+  max-width: 153px; }
+
 .FA-SocialContainer {
   text-align: right; }
 
 .FA-Social {
-  padding: 5% 0 0 1%;
+  padding: 6% 0 0 1%;
   display: inline-block; }
 
 .FA-NavContainer {
@@ -4722,7 +4725,7 @@ a.micro-product__button {
   text-transform: uppercase;
   color: #000;
   font-size: 21px;
-  padding-top: 1%; }
+  padding: 2% 0 1% 0; }
 
 .FA-Main-Header-Grey {
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
@@ -4736,7 +4739,7 @@ a.micro-product__button {
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
   color: #000;
   font-size: 18px;
-  padding: 0 10% 0 0; }
+  padding: 0 23% 0 0; }
 
 .FA-Main-Copy-Italic {
   font-style: italic; }
@@ -4792,7 +4795,7 @@ a.micro-product__button {
   color: #248393; }
 
 .FA-Banner {
-  padding-top: 1%; }
+  padding-top: 2%; }
 
 .FA-Main-Header {
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
