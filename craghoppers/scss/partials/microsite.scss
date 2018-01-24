@@ -1110,7 +1110,7 @@ a.micro-product__button {
 .cms-filmprize-about .o-list-inline,
 .cms-filmprize-discover .o-list-inline,
 .cms-filmprize-enter .o-list-inline,
-.cms-filmprize-aboutcraghoppers .o-list-inline, {
+.cms-filmprize-aboutcraghoppers .o-list-inline {
     display: none;
 }
 .FA-Logo {
@@ -1191,12 +1191,23 @@ ul.FA-list {
 }
 
 @media screen and (max-width: 1024px){
-    .cms-filmprize-about .flex-item.col-2 {
+	.cms-filmprize .flex-item.col-2,
+	.cms-filmprize-about .flex-item.col-2,
+	.cms-filmprize-discover .flex-item.col-2,
+	.cms-filmprize-enter .flex-item.col-2,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-2 {
         width: 20%;
     }
-    .cms-filmprize-about .flex-item.col-10 {
+    .cms-filmprize .flex-item.col-10,
+	.cms-filmprize-about .flex-item.col-10,
+	.cms-filmprize-discover .flex-item.col-10,
+	.cms-filmprize-enter .flex-item.col-10,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-10 {
         width: 80%;
     }
+    .FA-Logo {
+		max-width: 150px;
+	}
 }
 @media screen and (max-width: 900px){
 	.FA-NavItem {
@@ -1228,8 +1239,16 @@ ul.FA-list {
     }
 }
 @media only screen and (max-width:600px){
-    .cms-filmprize-about .flex-item.col-2,
-    .cms-filmprize-about .flex-item.col-10 {
+    .cms-filmprize .flex-item.col-2,
+	.cms-filmprize-about .flex-item.col-2,
+	.cms-filmprize-discover .flex-item.col-2,
+	.cms-filmprize-enter .flex-item.col-2,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-2,
+	.cms-filmprize .flex-item.col-10,
+	.cms-filmprize-about .flex-item.col-10,
+	.cms-filmprize-discover .flex-item.col-10,
+	.cms-filmprize-enter .flex-item.col-10,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-10 {
         width: 100%;
     }
     .FA-Logo {
