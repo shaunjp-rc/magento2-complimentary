@@ -4328,8 +4328,11 @@ ul.FA-list1 {
 .fp-tophero {
   width: 60%; }
 
-.fp-Container p,
-.fp-story h4 {
+.fp-Container p {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif; }
+
+.fp-story h4,
+.fp-Container .fp-storySub {
   font-family: "Gotham-Bold", Helvetica, Arial, sans-serif; }
 
 .fp-Intro p {

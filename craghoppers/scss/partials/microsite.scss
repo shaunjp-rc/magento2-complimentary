@@ -1334,8 +1334,12 @@ ul.FA-list1 {
 	width:60%;
 }
 
-.fp-Container p,
-.fp-story h4{
+.fp-Container p{
+	font-family: $gothbook;
+}
+
+.fp-story h4,
+.fp-Container .fp-storySub{
 	font-family: $gothbold;
 }
 
