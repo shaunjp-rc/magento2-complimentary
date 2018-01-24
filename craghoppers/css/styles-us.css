@@ -4196,7 +4196,11 @@ ul.FA-list {
   font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
   color: #000;
   font-size: 18px;
-  margin-left: 0; }
+  margin: 0; }
+
+ul.FA-list1 {
+  float: left;
+  padding-right: 20%; }
 
 .FA-SocialContainerMobile {
   display: none; }
@@ -4291,7 +4295,14 @@ ul.FA-list {
 
   .FA-SocialContainerMobile {
     display: block;
-    text-align: center; } }
+    text-align: center; }
+
+  .FA-MainContainer {
+    padding: 0 1%; }
+
+  ul.FA-list1 {
+    float: none;
+    padding-right: 0; } }
 /* *********** END *********** */
 .fp-Container h3 {
   background-color: #626262;
