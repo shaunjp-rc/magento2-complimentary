@@ -1102,3 +1102,333 @@ a.micro-product__button {
 }
 
 /* *********** END *********** */
+
+
+/* *********** FILM PRIZE *********** */
+
+.cms-filmprize .o-list-inline,
+.cms-filmprize-about .o-list-inline,
+.cms-filmprize-discover .o-list-inline,
+.cms-filmprize-enter .o-list-inline,
+.cms-filmprize-aboutcraghoppers .o-list-inline {
+    display: none;
+}
+.FA-Logo {
+	max-width: 170px;
+}
+.FA-SocialContainer,
+.FA-NavContainer {
+    text-align: right;
+}
+.FA-Social {
+    padding: 7% 0 0 1%;
+    display: inline-block;
+}
+.FA-NavItem {
+    padding: 6% 0 0 3.5%;
+    display: inline-block;
+    font-family: $gothbold;
+    color: #595c63;
+    font-size: 16px;
+}
+.FA-NavItem a {
+    color: #595c63;
+}
+.FA-NavItemBlue,
+.FA-NavItemBlue a {
+    color: #248393 !important;
+    text-decoration: underline;
+}
+.FA-Banner {
+    padding-top: 2%;
+}
+.FA-Main-Header {
+    font-family: $gothbold;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 21px;
+    padding: 2% 0 1% 0;
+    letter-spacing: 1.5px;
+}
+.FA-Main-Header-Grey {
+    font-family: $gothbold;
+    text-transform: uppercase;
+    color: #656565;
+    font-size: 19px;
+    padding: 1% 0;
+}
+.FA-Main-Copy {
+    font-family: $gothbook;
+    color: #000;
+    font-size: 17px;
+    padding: 0 23% 0 0;
+}
+.FA-Main-Copy a {
+    text-decoration: underline;
+}
+.FA-Main-Copy-Small {
+	font-family: $gothbook;
+    color: #000;
+    font-size: 15px;
+    padding: 2% 23% 0 0;
+}
+.FA-Main-Copy-Italic {
+    font-style: italic;
+}
+.FA-DiscoverFilm {
+	padding-top: 1%;
+	max-width: 234px;
+}
+ul.FA-list {
+    list-style: none;
+    font-family: $gothbook;
+    color: #000;
+    font-size: 18px;
+    margin-left: 0;
+}
+.FA-SocialContainerMobile {
+	display: none;
+}
+
+@media screen and (max-width: 1024px){
+	.cms-filmprize .flex-item.col-2,
+	.cms-filmprize-about .flex-item.col-2,
+	.cms-filmprize-discover .flex-item.col-2,
+	.cms-filmprize-enter .flex-item.col-2,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-2 {
+        width: 20%;
+    }
+    .cms-filmprize .flex-item.col-10,
+	.cms-filmprize-about .flex-item.col-10,
+	.cms-filmprize-discover .flex-item.col-10,
+	.cms-filmprize-enter .flex-item.col-10,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-10 {
+        width: 80%;
+    }
+    .FA-Logo {
+		max-width: 150px;
+	}
+}
+@media screen and (max-width: 900px){
+	.FA-NavItem {
+	    padding: 6% 0 0 5%;
+	    font-size: 16px;
+	}
+	.FA-Social {
+    	padding: 10% 0 0 1%;
+	}
+}
+@media only screen and (max-width:700px){
+    .FA-Social {
+        padding: 11% 0 0 1%;
+    }
+    .FA-NavItem {
+    	padding: 5% 0 0 2%;
+    	font-size: 14px;
+	}
+}
+@media only screen and (max-width:770px){
+    .FA-Social {
+        padding: 11% 0 0 1%;
+    }
+    .FA-NavItem {
+        padding: 6% 0 0 2%;
+    }
+    .FA-Main-Copy {
+        padding: 0;
+    }
+}
+@media only screen and (max-width:600px){
+    .cms-filmprize .flex-item.col-2,
+	.cms-filmprize-about .flex-item.col-2,
+	.cms-filmprize-discover .flex-item.col-2,
+	.cms-filmprize-enter .flex-item.col-2,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-2,
+	.cms-filmprize .flex-item.col-10,
+	.cms-filmprize-about .flex-item.col-10,
+	.cms-filmprize-discover .flex-item.col-10,
+	.cms-filmprize-enter .flex-item.col-10,
+	.cms-filmprize-aboutcraghoppers .flex-item.col-10 {
+        width: 100%;
+    }
+    .FA-Logo {
+    	margin: auto;
+    }
+    .FA-Logo,
+    .FA-SocialContainer,
+    .FA-NavContainer {
+        text-align: center;
+    }
+    .FA-NavItem {
+        padding: 2% 4.5% 0 4.5%;
+        font-size: 16px;
+    }
+    .FA-Main-Header {
+    	font-size: 18px;
+    	letter-spacing: 1px;
+	}
+	.FA-Main-Header-Grey {
+    	font-size: 16px;
+    	letter-spacing: 1px;
+	}
+	.FA-Main-Copy {
+    	font-size: 14px;
+	}
+	.FA-Social {
+    	padding: 6% 0 1% 1%;
+	}
+	ul.FA-list {
+    	font-size: 14px;
+	}
+	.FA-Logo {
+		max-width: 120px;
+	}
+	.FA-SocialContainer {
+		display: none;
+	}
+	.FA-SocialContainerMobile {
+		display: block;
+    	text-align: center;
+	}
+}
+
+/* *********** END *********** */
+
+.fp-Container h3 {
+    background-color: #626262;
+    color: #fff;
+    font-family: $gothbold;
+    font-size: 35px;
+    padding: 35px;
+    padding-left: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: none;
+    padding-right: 12%;
+}
+
+.fp-section {
+    display: flex;
+}
+
+.fp-Container img{
+	width:100%;
+}
+
+.fp-topleft{
+	width:40%;
+}
+
+.fp-tophero{
+	width:60%;
+}
+
+.fp-Container p,
+.fp-story h4{
+	font-family: $gothbold;
+}
+
+.fp-Intro p {
+    letter-spacing: 1px;
+}
+
+.fp-Intro {
+    width: 100%;
+    max-width: 352px;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.fp-story {
+    width: 50%;
+}
+
+.fp-story div {
+    margin-left: 3%;
+}
+
+.fp-story h4 span{
+	display:flex;
+}
+
+.fp-story h4 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.fp-storySub{
+	text-transform:uppercase;
+}
+
+.fp-section:nth-child(2),
+.fp-section:nth-child(3) {
+    margin-top: 4%;
+}
+
+.fp-low {
+    width: 42%;
+    display: flex;
+}
+
+a:nth-child(2) .fp-CTA {
+    margin: 0 20px;
+}
+
+.fp-CTA img {
+    width: auto;
+}
+
+@media only screen and (max-width:1227px){
+	.fp-low,
+	.fp-low + div {
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width:989px){
+
+	.fp-low {
+	    width: 100%;
+	    display: block;
+	}
+
+	.fp-low .fp-CTA,
+	.fp-CTA img,
+	.fp-topleft,
+	.fp-story {
+    	width: 100%;
+	}
+
+	a:nth-child(2) .fp-CTA {
+    	margin: 0;
+	}
+
+	.fp-low + div,
+	.fp-tophero {
+    	display: none;
+	}
+
+	.fp-Intro {
+	    max-width: 100%;
+	    margin-left: 0;
+	    margin-top: 0%;
+	    padding: 0 10px;
+	}
+
+	.fp-section {
+    	display: block;
+	}
+
+	.fp-story div {
+    	margin-left: 0;
+	}
+
+	.fp-story:last-of-type {
+    	margin-top: 3%;
+    	padding: 0 10px;
+	}
+
+
+}

@@ -1,3 +1,23 @@
+/* UK/US Stock issue */
+var stockInt = setInterval(function(){
+
+  if(document.querySelectorAll('.c-product-size__link').length > 0){
+    if (typeof dataLayer.disable !== 'undefined') {
+      var disable = dataLayer.disable.toString();
+      var disableds = disable.split(",");
+
+      for (let i = 0; i < disableds.length; i++) {
+        disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+        disabled.parentElement.removeChild(disabled);
+      }
+
+      clearInterval(stockInt);
+    }
+  }
+
+}, 1000); // end timeout
+/* END */
+
 /* delivery and returns tabs */
 function rlTabs(){
   var nodeList = document.body.querySelectorAll("[data-action='tab']");
