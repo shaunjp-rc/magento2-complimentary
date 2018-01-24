@@ -4143,7 +4143,11 @@ a.micro-product__button {
   color: #595c63;
   font-size: 16px; }
 
-.FA-NavItemBlue {
+.FA-NavItem a {
+  color: #595c63; }
+
+.FA-NavItemBlue,
+.FA-NavItemBlue a {
   color: #248393 !important;
   text-decoration: underline; }
 
@@ -4174,11 +4178,18 @@ a.micro-product__button {
 .FA-Main-Copy a {
   text-decoration: underline; }
 
+.FA-Main-Copy-Small {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 15px;
+  padding: 2% 23% 0 0; }
+
 .FA-Main-Copy-Italic {
   font-style: italic; }
 
 .FA-DiscoverFilm {
-  padding-top: 1%; }
+  padding-top: 1%;
+  max-width: 234px; }
 
 ul.FA-list {
   list-style: none;
@@ -4186,9 +4197,6 @@ ul.FA-list {
   color: #000;
   font-size: 18px;
   margin-left: 0; }
-
-.FA-SocialContainer {
-  display: inline-block; }
 
 .FA-SocialContainerMobile {
   display: none; }
