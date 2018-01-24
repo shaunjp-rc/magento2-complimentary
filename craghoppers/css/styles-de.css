@@ -4133,11 +4133,11 @@ a.micro-product__button {
   text-align: right; }
 
 .FA-Social {
-  padding: 5% 0 0 1%;
+  padding: 7% 0 0 1%;
   display: inline-block; }
 
 .FA-NavItem {
-  padding: 6% 0 0 5%;
+  padding: 6% 0 0 3.5%;
   display: inline-block;
   font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
   color: #595c63;
@@ -4278,7 +4278,7 @@ ul.FA-list {
     font-size: 14px; }
 
   .FA-Social {
-    padding: 4% 0 0 1%; }
+    padding: 6% 0 1% 1%; }
 
   ul.FA-list {
     font-size: 14px; }
@@ -4290,7 +4290,8 @@ ul.FA-list {
     display: none; }
 
   .FA-SocialContainerMobile {
-    display: inline-block; } }
+    display: block;
+    text-align: center; } }
 /* *********** END *********** */
 .fp-Container h3 {
   background-color: #626262;
