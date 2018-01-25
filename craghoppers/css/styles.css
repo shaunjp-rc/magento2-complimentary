@@ -5512,6 +5512,10 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   font-size: 14px;
   color: #fff; }
 
+.c-product-size__email-link:focus,
+.c-product-size__email-link:hover {
+  color: #717171; }
+
 @media only screen and (max-width: 770px) {
   .c-tabs__tab {
     padding: 1px 30px; } }
