@@ -79,3 +79,13 @@ div#monVars.roundelhide {
 }
 
 
+/*/////////////////////////*/
+/*    Hides Quick Buy     */
+/*/////////////////////////*/
+.catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+ display: none !important;
+ }
+
+.catalog-category-view .c-product-tile__img-wrapper {
+  margin-bottom: 10px;
+}
