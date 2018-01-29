@@ -1,3 +1,13 @@
+/*/////////////////////////*/
+/*    Hides Quick Buy     */
+/*/////////////////////////*/
+.catalog-category-view .c-product-tile__img-wrapper + .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+  display: none !important;
+}
+.catalog-category-view .c-product-tile__img-wrapper {
+    margin-bottom: 10px;
+}
+
 #minicart-content-wrapper .c-mini-cart__basket > a > span {
   font-size:18px;
 }
