@@ -76,3 +76,13 @@ body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
 /* END */
 
 
+/*/////////////////////////*/
+/*    Hides Quick Buy     */
+/*/////////////////////////*/
+.catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+ display: none !important;
+ }
+
+.catalog-category-view .c-product-tile__img-wrapper {
+  margin-bottom: 10px;
+}
