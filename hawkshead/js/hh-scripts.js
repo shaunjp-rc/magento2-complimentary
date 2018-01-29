@@ -154,7 +154,7 @@ function feefoReviews(){
             api: 'api.feefo.com/api',
             widget: 'register.feefo.com'
           },
-          merchantId: 'hawkshead-uk',
+          merchantId: 'hawkshead',
           protocol: 'https',
           source: 'javascript',
           tags: '',
