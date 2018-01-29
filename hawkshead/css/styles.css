@@ -3232,14 +3232,6 @@ div#monVars.roundelhide {
 .page-products .c-breadcrumbs {
   margin-bottom: 0; }
 
-/* Hide quick view */
-.catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
-  display: none !important; }
-
-.catalog-category-view .c-product-tile__img-wrapper {
-  margin-bottom: 10px; }
-
-/* END */
 /* PDP styles */
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
