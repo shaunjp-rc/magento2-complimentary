@@ -148,6 +148,7 @@ function feefoReviews(){
     feefoWidgetScript.onload = function () {
       if (typeof w.feefoWidgetInstance === 'undefined') {
         w.feefoWidgetInstance = feefoWidget({
+          assetUrl: '//register.feefo.com/feefo-widget',
           debug: false,
           hosts: {
             api: 'api.feefo.com/api',
