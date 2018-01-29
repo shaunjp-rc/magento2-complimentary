@@ -154,7 +154,7 @@ function feefoReviews(){
             api: 'api.feefo.com/api',
             widget: 'register.feefo.com'
           },
-          merchantId: 'craghoppers-uk',
+          merchantId: 'hawkshead-uk',
           protocol: 'https',
           source: 'javascript',
           tags: '',
