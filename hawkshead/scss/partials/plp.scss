@@ -77,3 +77,11 @@ div#monVars.roundelhide {
 .page-products .c-breadcrumbs {
     margin-bottom: 0;
 }
+
+/* Hide quick view */
+
+.o-layout__item button {
+    display: none !important;
+}
+
+/* END */

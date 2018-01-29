@@ -3232,6 +3232,11 @@ div#monVars.roundelhide {
 .page-products .c-breadcrumbs {
   margin-bottom: 0; }
 
+/* Hide quick view */
+.o-layout__item button {
+  display: none !important; }
+
+/* END */
 /* PDP styles */
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {

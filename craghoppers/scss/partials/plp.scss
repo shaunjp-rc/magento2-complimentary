@@ -74,3 +74,11 @@ body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
     margin-top: 0.5%;
 }
 /* END */
+
+/* Hide quick view */
+
+.o-layout__item button {
+    display: none !important;
+}
+
+/* END */
