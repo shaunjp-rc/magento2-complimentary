@@ -65,3 +65,106 @@ $gothbook: 'Gotham-Book', Helvetica, Arial, sans-serif;
 $gothlight: 'Gotham-Light', Helvetica, Arial, sans-serif;
 $gothmed: 'Gotham-Medium', Helvetica, Arial, sans-serif; 
 $gothmedit: 'Gotham-MediumItalic', Helvetica, Arial, sans-serif; 
+
+
+/* SS18 Fonts */
+
+@font-face {
+    font-family: 'CrimsonText-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonText-BoldItalic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonText-Italic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonText-Regular';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonText-SemiBold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonText-SemiBoldItalic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-SemiBoldItalic.ttf);
+}
+
+$crimbold: 'CrimsonText-Bold', Helvetica, Arial, sans-serif;
+$crimboldit: 'CrimsonText-BoldItalic', Helvetica, Arial, sans-serif;
+$crimit: 'CrimsonText-Italic', Helvetica, Arial, sans-serif;
+$crimreg: 'CrimsonText-Regular', Helvetica, Arial, sans-serif;
+$crimsembold: 'CrimsonText-SemiBold', Helvetica, Arial, sans-serif; 
+$crimsemboldit: 'CrimsonText-SemiBoldItalic', Helvetica, Arial, sans-serif; 
+
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBoldItalic';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-SemiBoldItalic.ttf);
+}
+
+$osbold: 'OpenSans-Bold', Helvetica, Arial, sans-serif;
+$osboldit: 'OpenSans-BoldItalic', Helvetica, Arial, sans-serif;
+$osexbold: 'OpenSans-ExtraBold', Helvetica, Arial, sans-serif;
+$osexboldit: 'OpenSans-ExtraBoldItalic', Helvetica, Arial, sans-serif;
+$osit: 'OpenSans-Italic', Helvetica, Arial, sans-serif; 
+$oslight: 'OpenSans-Light', Helvetica, Arial, sans-serif; 
+$oslightit: 'OpenSans-LightItalic', Helvetica, Arial, sans-serif;
+$osreg: 'OpenSans-Regular', Helvetica, Arial, sans-serif;
+$ossembold: 'OpenSans-SemiBold', Helvetica, Arial, sans-serif; 
+$ossemboldit: 'OpenSans-SemiBoldItalic', Helvetica, Arial, sans-serif; 
+
