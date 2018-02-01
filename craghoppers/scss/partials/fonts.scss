@@ -65,3 +65,40 @@ $gothbook: 'Gotham-Book', Helvetica, Arial, sans-serif;
 $gothlight: 'Gotham-Light', Helvetica, Arial, sans-serif;
 $gothmed: 'Gotham-Medium', Helvetica, Arial, sans-serif; 
 $gothmedit: 'Gotham-MediumItalic', Helvetica, Arial, sans-serif; 
+
+/* SS18 Fonts */
+
+@font-face {
+    font-family: 'CrimsonText-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonText-Regular';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.ttf);
+}
+
+$crimbold: 'CrimsonText-Bold', Helvetica, Arial, sans-serif;
+$crimreg: 'CrimsonText-Regular', Helvetica, Arial, sans-serif;
+
+
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Regular.ttf);
+}
+
+$osbold: 'OpenSans-Bold', Helvetica, Arial, sans-serif;
+$oslight: 'OpenSans-Light', Helvetica, Arial, sans-serif; 
+$osreg: 'OpenSans-Regular', Helvetica, Arial, sans-serif;
+
