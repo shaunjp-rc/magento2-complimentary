@@ -2112,19 +2112,19 @@ ul.fullWidthSlider__slidesList {
 /* SS18 Fonts */
 @font-face {
   font-family: 'CrimsonText-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.otf); }
 @font-face {
   font-family: 'CrimsonText-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.otf); }
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.otf); }
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.otf); }
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.otf); }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
