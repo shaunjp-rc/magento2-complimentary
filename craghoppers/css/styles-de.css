@@ -2118,13 +2118,13 @@ ul.fullWidthSlider__slidesList {
   src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.ttf); }
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Bold.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.ttf); }
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Light.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.ttf); }
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Regular.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.ttf); }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {

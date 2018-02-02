@@ -1288,13 +1288,13 @@ a.c-store-list__details {
   src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.ttf); }
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Bold.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.ttf); }
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Light.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.ttf); }
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/OpenSans-Regular.ttf); }
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.ttf); }
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
