@@ -1473,7 +1473,7 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
   max-width: 80%;
   margin: 0 auto;
   display: table;
-  font-family: Georgia,Arial,sans-serif; }
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .bannerOverlay__title--slider span {
   text-transform: lowercase;
@@ -2101,7 +2101,7 @@ ul.fullWidthSlider__slidesList {
 /* END */
 /* AW17 Updates */
 .pageSection--thirds .pageSection__title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 25px; }
 
@@ -2112,7 +2112,7 @@ ul.fullWidthSlider__slidesList {
   padding-top: 3vw; }
 
 .pageSection--community .pageSection__title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 22px; }
 
 .pageBanner--desktop {
@@ -2138,7 +2138,7 @@ ul.fullWidthSlider__slidesList {
   height: 368px; }
 
 .kg-intro-title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 34px;
   padding: 4% 0 1.7% 0;
   text-transform: uppercase;
@@ -2149,7 +2149,6 @@ ul.fullWidthSlider__slidesList {
   font-size: 14px;
   padding: 0 10%;
   text-align: center;
-  font-family: Arial;
   line-height: 20px; }
 
 .kg-pick-background {
@@ -2166,7 +2165,7 @@ ul.fullWidthSlider__slidesList {
   text-align: center; }
 
 .kg-pick-title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 34px;
   padding: 3.5% 0;
   text-transform: uppercase;
@@ -2178,7 +2177,6 @@ ul.fullWidthSlider__slidesList {
   font-size: 16px;
   padding: 0 0 3%;
   text-align: center;
-  font-family: Arial;
   text-transform: uppercase;
   color: #000;
   font-weight: bold; }
@@ -2200,7 +2198,7 @@ ul.fullWidthSlider__slidesList {
   background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-HotandWet.jpg); }
 
 .kg-weather-title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 34px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -2210,7 +2208,6 @@ ul.fullWidthSlider__slidesList {
 
 .kg-weather-copy {
   font-size: 16px;
-  font-family: Arial;
   line-height: 22px;
   color: #fff;
   padding: 0 6% 0 24%; }
@@ -2220,7 +2217,6 @@ ul.fullWidthSlider__slidesList {
   padding-top: 9%; }
 
 .kg-prod-title {
-  font-family: Arial;
   font-size: 17px;
   line-height: 24px;
   padding: 1% 2%;
@@ -2231,7 +2227,6 @@ ul.fullWidthSlider__slidesList {
   min-height: 9vh; }
 
 .kg-prod-copy {
-  font-family: Arial;
   font-size: 14px;
   padding: 0  0 5% 0;
   line-height: 20px;
@@ -2240,7 +2235,6 @@ ul.fullWidthSlider__slidesList {
   min-height: 7vh; }
 
 .kg-prod-btn {
-  font-family: Arial;
   color: #fff;
   font-size: 18px;
   background: #000;
@@ -2264,7 +2258,6 @@ ul.fullWidthSlider__slidesList {
   margin-top: 4%; }
 
 .kg-jim-quote {
-  font-family: Arial;
   color: #818181;
   font-size: 40px;
   text-align: center;
@@ -2272,7 +2265,6 @@ ul.fullWidthSlider__slidesList {
   line-height: 52px; }
 
 .kg-jim {
-  font-family: Arial;
   color: #000;
   font-size: 16px;
   text-align: center; }
@@ -2912,7 +2904,7 @@ ul.delret-list {
 /* Modern SLavery Page */
 .modern-slavery-title {
   font-size: 300%;
-  font-family: Georgia, Times;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
   text-align: center;
@@ -2927,11 +2919,9 @@ ul.delret-list {
   font-size: 14px;
   line-height: 19px;
   color: #000;
-  font-family: Arial;
   padding-bottom: 8%; }
 
 .modern-slavery-btn {
-  font-family: Arial;
   color: #ffffff;
   font-size: 16px;
   background: #8996a2;
@@ -3024,7 +3014,7 @@ iframe.unsubscribe {
   text-align: center; }
 
 .pmp-intro span:first-of-type {
-  font-family: Georgia, Arial, sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 22px;
   letter-spacing: 2px;
@@ -3411,7 +3401,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 .pageSection--pageTop h1,
 .pageSection--pageTop h2 {
   color: #666 !important;
-  font-family: Georgia, Times, serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-size: 2.4em;
   font-weight: 400;
@@ -3437,7 +3427,6 @@ h2.pageSection--pageTop__justHeading {
 .pageSection--pageTop p,
 .lookbook p {
   color: #666;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 300;
   font-size: 1.1em;
   font-weight: 400;
@@ -3448,7 +3437,7 @@ h2.pageSection--pageTop__justHeading {
   padding: 0 6%; }
 
 .lookbook h3 {
-  font-family: Georgia, Times, serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #666;
   text-transform: none;
   font-size: 2em;
@@ -3860,7 +3849,6 @@ h2.pageSection--pageTop__justHeading {
   float: right;
   top: -3%;
   right: -3%;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700; }
 
 .lookbook_popup__close:hover {
@@ -3870,8 +3858,7 @@ h2.pageSection--pageTop__justHeading {
   display: block;
   float: right;
   clear: both;
-  text-decoration: underline;
-  font-family: Helvetica, Arial, sans-serif; }
+  text-decoration: underline; }
 
 @media only screen and (max-width: 740px) {
   .lookbook {
@@ -3899,7 +3886,6 @@ h2.pageSection--pageTop__justHeading {
   margin-left: -3%; }
 
 .micro-megaMenu ul span {
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 400 !important;
   font-size: 13px !important;
   color: #333 !important; }
@@ -3923,8 +3909,7 @@ h2.pageSection--pageTop__justHeading {
 .cms-a-nosilife-story .col-main {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif; }
+  box-sizing: border-box; }
 
 .cms-nosilife .col-main *,
 .cms-what-is-nosilife .col-main *,
@@ -3941,7 +3926,6 @@ h2.pageSection--pageTop__justHeading {
   margin: 0 auto; }
 
 .micro-sectionContainer strong {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-weight: 400; }
 
@@ -3956,11 +3940,9 @@ h2.pageSection--pageTop__justHeading {
   padding: 30px 20px 0;
   background-color: #e7e6e4;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 32px; }
 
 .micro-sidebar__logo span {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .micro-sidebar__tagline {
@@ -3976,7 +3958,6 @@ h2.pageSection--pageTop__justHeading {
   margin: 0; }
 
 .micro-sideNav__item {
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700;
   font-size: 16px !important;
   text-transform: uppercase;
@@ -3993,7 +3974,6 @@ h2.pageSection--pageTop__justHeading {
   border: none;
   font-size: 14px;
   text-transform: none;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 14px !important; }
 
 .micro-sideNav--subNav .micro-sideNav__item:first-child {
@@ -4159,7 +4139,6 @@ h2.pageSection--pageTop__justHeading {
 
 .micro-hero__title,
 .micro-hero__subtitle {
-  font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   margin: 0;
   padding: 0; }
@@ -4178,7 +4157,6 @@ h2.pageSection--pageTop__justHeading {
   margin: 0 0 1vw 8%;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .micro-hero--what .micro-hero__title,
@@ -4223,7 +4201,6 @@ h2.pageSection--pageTop__justHeading {
   margin-left: 5% !important;
   width: 40%;
   font-size: 18px;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 300; }
 
 @media screen and (max-width: 1023px) {
@@ -4322,7 +4299,6 @@ h2.pageSection--pageTop__justHeading {
 
 .micro-details__text--tagline {
   font-size: 18px;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700;
   letter-spacing: .5px;
   margin-top: 48px !important; }
@@ -4398,7 +4374,6 @@ h2.pageSection--pageTop__justHeading {
   padding-right: 5%;
   color: #777;
   text-transform: uppercase;
-  font-family: Helvetica, Arial, sans-serif !important;
   letter-spacing: 1px; }
 
 .micro-collection__productArea {
@@ -4447,7 +4422,6 @@ h2.pageSection--pageTop__justHeading {
 
 .micro-product__price {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 3vw; }
@@ -4458,7 +4432,6 @@ a.micro-product__button {
   color: #fff !important;
   font-size: 17px;
   letter-spacing: 3px;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700; }
 
 .micro-product__button:hover {
@@ -5065,7 +5038,7 @@ a:nth-child(2) .fp-CTA {
 
 .category-view__title {
   margin-bottom: 0;
-  font-family: georgia; }
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .categorypath-men p.category-view__description,
 .categorypath-women p.category-view__description,
@@ -6635,7 +6608,7 @@ h2.utc-title-lower {
 /* END */
 /* Trouser Campaign Styles */
 .trou-vid-title {
-  font-family: georgia;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 32px;
   letter-spacing: 7px;
   padding: 3% 0;
@@ -6651,7 +6624,6 @@ h2.utc-title-lower {
 .trou-vid-button-mens,
 .trou-vid-button-womens,
 .trou-vid-button-kids {
-  font-family: Arial;
   color: #fff;
   font-size: 16px;
   background: #000;
@@ -6703,7 +6675,7 @@ h2.utc-title-lower {
 
 .trou-title {
   color: #fff;
-  font-family: georgia;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 37px;
   padding: 79px 0 0 334px;
@@ -6716,7 +6688,7 @@ h2.utc-title-lower {
   line-height: 24px; }
 
 .trou-box-title {
-  font-family: georgia;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 27px;
   text-transform: uppercase;
   text-align: center;
@@ -6867,7 +6839,7 @@ h2.utc-title-lower {
 
   .trou-title-mob {
     color: #fff;
-    font-family: georgia;
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 27px;
     padding: 20% 0 0 40%;
@@ -6917,7 +6889,7 @@ h2.utc-title-lower {
 
 .bf-banner_title {
   margin-bottom: 0;
-  font-family: Georgia, Arial, sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 65px;
   letter-spacing: 9px;
@@ -6935,7 +6907,7 @@ h2.utc-title-lower {
   width: 100%; }
 
 .bf-scene_title {
-  font-family: Georgia, Arial, sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 2px;
@@ -6981,7 +6953,7 @@ h2.utc-title-lower {
   background: #fff; }
 
 .bf-hero .bf-subtitle {
-  font-family: Georgia, Arial, sans-serif; }
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .bf-hero .bf-title {
   text-transform: uppercase;
@@ -6991,7 +6963,7 @@ h2.utc-title-lower {
   line-height: 1.3; }
 
 .bf-hero .bf-subtitle {
-  font-family: Georgia, Arial, sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 28px;
@@ -7200,7 +7172,7 @@ h2.utc-title-lower {
     /*max-width: 500px;*/
     margin: 0 auto;
     text-align: center;
-    font-family: Georgia;
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 28px;
     line-height: 1.3;
@@ -7229,7 +7201,7 @@ h2.utc-title-lower {
     color: #000; }
   .honesty-project h4 {
     text-align: center;
-    font-family: Georgia;
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 2%;
     margin-top: 4%;
@@ -7302,7 +7274,6 @@ h2.utc-title-lower {
     color: #fff;
     font-size: 26px;
     text-transform: uppercase;
-    font-family: Helvetica;
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 32px;

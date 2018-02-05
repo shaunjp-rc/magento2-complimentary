@@ -52,7 +52,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 .pageSection--pageTop h1,
 .pageSection--pageTop h2 {
 	color: #666 !important;
-	font-family: Georgia, Times, serif;
+	font-family: $crimreg;
 	text-transform: none;
 	font-size: 2.4em;
 	font-weight: 400;
@@ -86,7 +86,6 @@ h2.pageSection--pageTop__justHeading {
 .pageSection--pageTop p,
 .lookbook p {
 	color: #666;
-	font-family: Helvetica, Arial, sans-serif !important;
 	font-weight: 300;
 	font-size: 1.1em;
 	font-weight: 400;
@@ -99,7 +98,7 @@ h2.pageSection--pageTop__justHeading {
 }
 
 .lookbook h3 {
-	font-family: Georgia, Times, serif;
+	font-family: $crimreg;
 	color: #666;
 	text-transform: none;
 	font-size: 2em;
@@ -596,7 +595,6 @@ h2.pageSection--pageTop__justHeading {
 	float: right;
 	top: -3%;
 	right: -3%;
-	font-family: Helvetica, Arial, sans-serif !important;
 	font-weight: 700;
 }
 
@@ -609,7 +607,6 @@ h2.pageSection--pageTop__justHeading {
 	float: right;
 	clear: both;
 	text-decoration: underline;
-	font-family: Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width:740px) {
