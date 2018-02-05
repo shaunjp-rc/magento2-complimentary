@@ -1,5 +1,9 @@
 /* Generic stuff that can be used on any/every CMS page */
 
+html {
+    font-family: $osreg;
+}
+
 .cms-index-index .main-container {
    	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
