@@ -620,7 +620,7 @@ ul.delret-list {
 
 .modern-slavery-title {
 	font-size: 300%; 
-	font-family: Georgia, Times;
+	font-family: $crimreg;
 	color: #000;
 	text-transform: uppercase;
 	text-align: center;
@@ -637,12 +637,10 @@ ul.delret-list {
 	font-size: 14px;
 	line-height: 19px;
 	color: #000;
-	font-family: Arial;
 	padding-bottom: 8%;
 }
 
 .modern-slavery-btn {
-	font-family: Arial;
 	color: #ffffff;
 	font-size: 16px;
 	background: #8996a2;
@@ -757,7 +755,7 @@ iframe.unsubscribe {
 }
 
 .pmp-intro span:first-of-type {
-	font-family: Georgia, Arial, sans-serif;
+	font-family: $crimreg;
 	font-weight: 300;
 	font-size: 22px;
 	letter-spacing: 2px;
