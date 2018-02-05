@@ -479,6 +479,54 @@
   filter: grayscale(100%) brightness(500%);
   opacity: 1 !important; }
 
+/* UTC Fonts */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+/* Film Awards Fonts */
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf); }
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf); }
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf); }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf); }
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf); }
+@font-face {
+  font-family: 'Gotham-MediumItalic';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf); }
+/* SS18 Fonts */
+@font-face {
+  font-family: 'CrimsonText-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.otf); }
+@font-face {
+  font-family: 'CrimsonText-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.otf); }
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.otf); }
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.otf); }
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.otf); }
 /* Generic stuff that can be used on any/every CMS page */
 .cms-index-index .main-container {
   -moz-box-sizing: border-box;
@@ -2077,54 +2125,6 @@ ul.fullWidthSlider__slidesList {
   .pageSection--thirds .pageSection__title {
     font-size: 4.5vw; } }
 /* END */
-/* UTC Fonts */
-@font-face {
-  font-family: 'Montserrat-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
-@font-face {
-  font-family: 'Montserrat-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
-@font-face {
-  font-family: 'Montserrat-Light';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
-@font-face {
-  font-family: 'Montserrat-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
-/* Film Awards Fonts */
-@font-face {
-  font-family: 'Gotham-Black';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf); }
-@font-face {
-  font-family: 'Gotham-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf); }
-@font-face {
-  font-family: 'Gotham-Book';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf); }
-@font-face {
-  font-family: 'Gotham-Light';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf); }
-@font-face {
-  font-family: 'Gotham-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf); }
-@font-face {
-  font-family: 'Gotham-MediumItalic';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf); }
-/* SS18 Fonts */
-@font-face {
-  font-family: 'CrimsonText-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.otf); }
-@font-face {
-  font-family: 'CrimsonText-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.otf); }
-@font-face {
-  font-family: 'OpenSans-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.otf); }
-@font-face {
-  font-family: 'OpenSans-Light';
-  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.otf); }
-@font-face {
-  font-family: 'OpenSans-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.otf); }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
