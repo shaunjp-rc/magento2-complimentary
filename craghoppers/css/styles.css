@@ -4993,7 +4993,7 @@ a:nth-child(2) .fp-CTA {
   text-align: center;
   text-transform: uppercase;
   color: #000;
-  padding: 1% 0;
+  padding: 3% 0 1% 0;
   letter-spacing: 3px; }
 
 .cya-main-copy {
@@ -5084,7 +5084,7 @@ a:nth-child(2) .fp-CTA {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 36px;
   color: #000;
-  padding-top: 1%;
+  padding-top: 4%;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -5103,8 +5103,16 @@ a:nth-child(2) .fp-CTA {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: #000;
-  padding: 17% 0 7% 0;
   line-height: 32px; }
+
+.cyal-topcopy-expedition {
+  padding: 17% 0 7% 0; }
+
+.cyal-topcopy-explore {
+  padding: 20% 0 7% 0; }
+
+.cyal-topcopy-escape {
+  padding: 13% 0 7% 0; }
 
 .cyal-line {
   background-color: #000;
@@ -5133,7 +5141,7 @@ a:nth-child(2) .fp-CTA {
   background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/explore-desktop.jpg"); }
 
 .cyal-escape {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/expedition-desktop.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/escape-desktop.jpg"); }
 
 .cyal-inner {
   width: 32%;
@@ -5144,12 +5152,20 @@ a:nth-child(2) .fp-CTA {
   color: #000;
   font-size: 22px;
   background: #f1e9e1;
-  padding: 2% 35%;
   text-decoration: none;
   max-width: 100%;
   text-align: center;
   margin: 5% 0 2% 0;
   line-height: 30px; }
+
+.cyal-divide-expedition {
+  padding: 2% 35%; }
+
+.cyal-divide-explore {
+  padding: 2% 30%; }
+
+.cyal-divide-escape {
+  padding: 2% 34%; }
 
 .cyal-arrow {
   padding-top: 1%;
@@ -5200,10 +5216,14 @@ a:nth-child(2) .fp-CTA {
   .cyal-inner {
     width: 50%; }
 
-  .cyal-divide {
+  .cyal-divide-expedition,
+  .cyal-divide-explore,
+  .cyal-divide-escape {
     padding: 2% 20%; }
 
-  .cyal-topcopy {
+  .cyal-topcopy-expedition,
+  .cyal-topcopy-explore,
+  .cyal-topcopy-escape {
     padding: 13% 0 7% 0; } }
 @media screen and (max-width: 500px) {
   .cyal-header-mob {
