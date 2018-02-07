@@ -4978,6 +4978,213 @@ a:nth-child(2) .fp-CTA {
   .fp-story:last-of-type {
     margin-top: 3%;
     padding: 0 10px; } }
+/* *********** END *********** */
+/* *********** CHOOSE YOUR ADVENTURE *********** */
+/* choose home */
+.cya-title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; }
+
+.cya-subtitle {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 15%;
+  color: #000; }
+
+.cya-copy {
+  font-size: 16px;
+  text-align: center;
+  padding: 2% 5%;
+  color: #000; }
+
+.cya-cta {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 2% 0;
+  color: #000; }
+
+.cya-cta span {
+  text-decoration: underline; }
+
+@media screen and (max-width: 1024px) {
+  .flex-item.col-4 {
+    width: 33.32%; }
+
+  .cya-img {
+    min-height: 325px; }
+
+  .cya-subtitle {
+    padding: 0 5%; } }
+@media screen and (max-width: 650px) {
+  .flex-item.col-4 {
+    width: 99.9%;
+    margin: auto; }
+
+  .cya-img {
+    max-width: 375px;
+    margin: auto;
+    padding-top: 8%; }
+
+  .cya-cta {
+    padding: 0; } }
+@media screen and (max-width: 400px) {
+  .flex-item.col-4 {
+    width: 99.9%; }
+
+  .cya-copy {
+    padding: 2%;
+    line-height: 20px; }
+
+  .cya-img {
+    padding-top: 3%;
+    min-height: auto; } }
+/* choose landing */
+.cyal-title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  color: #000;
+  padding-top: 1%;
+  text-align: center;
+  text-transform: uppercase; }
+
+.cyal-subtitle {
+  font-size: 22px;
+  color: #000;
+  padding-bottom: 4%;
+  text-align: center; }
+
+.cyal-topcopy {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #000;
+  padding: 17% 0 7% 0;
+  line-height: 30px; }
+
+.cyal-line {
+  background-color: #000;
+  height: 1px;
+  width: 100%; }
+
+.cyal-bottomcopy {
+  font-size: 16px;
+  color: #000;
+  padding: 7% 20% 0 0;
+  line-height: 20px; }
+
+.cyal-header-mob {
+  display: none; }
+
+.cyal-main {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/cya-main.jpg");
+  width: 100%;
+  height: 554px;
+  background-position: center center;
+  background-size: cover; }
+
+.cyal-inner {
+  width: 32%;
+  margin: auto; }
+
+.cyal-divide {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 22px;
+  background: #f1e9e1;
+  padding: 2% 32%;
+  text-decoration: none;
+  max-width: 100%;
+  text-align: center;
+  margin: 2% 0; }
+
+.cyal-arrow {
+  padding-top: 1%;
+  text-align: center; }
+
+.cyal-title2 {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #000; }
+
+.cyal-copy2 {
+  font-size: 15px;
+  text-align: center;
+  padding: 3% 15%;
+  color: #000; }
+
+.cyal-price {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 0 3% 0;
+  color: #000; }
+
+.cyal-btn {
+  color: #fff;
+  font-size: 20px;
+  background: #3f413e;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  max-width: 42%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10%; }
+
+.cyal-btn:hover {
+  background: #626561;
+  text-decoration: none; }
+
+.cyal-img {
+  max-width: 445px;
+  margin: auto; }
+
+@media screen and (max-width: 770px) {
+  .cyal-inner {
+    width: 50%; }
+
+  .cyal-divide {
+    padding: 2% 20%; }
+
+  .cyal-topcopy {
+    padding: 13% 0 7% 0; } }
+@media screen and (max-width: 500px) {
+  .cyal-header-mob {
+    display: block; }
+
+  .cyal-main {
+    background-image: none;
+    height: auto; }
+
+  .cyal-inner {
+    width: 95%;
+    margin: auto; }
+
+  .cyal-topcopy {
+    font-size: 17px;
+    padding: 0 0 7% 0;
+    line-height: 26px; }
+
+  .cyal-divide {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 3% 5%;
+    margin: 6% 0; }
+
+  .cyal-copy {
+    padding: 5%; }
+
+  .cyal-btn {
+    font-size: 17px;
+    padding: 8px 20px; }
+
+  .cyal-img {
+    max-width: 80%; } }
+/* *********** END *********** */
 .categoryBanner {
   display: table;
   height: 285px;
