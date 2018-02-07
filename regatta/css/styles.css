@@ -1007,7 +1007,7 @@ html .mt_animate {
   position: absolute;
   right: 0;
   z-index: 1;
-  background: #000000;
+  background: #c0283f;
   max-width: 53px;
   padding: 10px;
   text-transform: uppercase;
@@ -1019,7 +1019,7 @@ html .mt_animate {
   display: block !important; }
 
 #product-roundel.percent-off {
-  background: #000000;
+  background: #c0283f;
   max-width: 53px;
   padding: 10px;
   text-transform: uppercase;
@@ -1032,7 +1032,7 @@ html .mt_animate {
   float: right; }
 
 .save__product-page {
-  background: #000000;
+  background: #c0283f;
   max-width: 53px;
   padding: 10px;
   text-transform: uppercase;
