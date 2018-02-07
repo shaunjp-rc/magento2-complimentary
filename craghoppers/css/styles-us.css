@@ -4415,12 +4415,34 @@ a:nth-child(2) .fp-CTA {
 /* *********** END *********** */
 /* *********** CHOOSE YOUR ADVENTURE *********** */
 /* choose home */
+.cms-choose-your-adventure .breadcrumbs.c-breadcrumbs,
+.cms-choose-your-adventure-escape .breadcrumbs.c-breadcrumbs,
+.cms-choose-your-adventure-expedition .breadcrumbs.c-breadcrumbs,
+.cms-choose-your-adventure-explore .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
+.cya-main-title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  padding: 1% 0;
+  letter-spacing: 3px; }
+
+.cya-main-copy {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 19% 1% 0;
+  color: #000; }
+
 .cya-title {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
-  color: #000; }
+  color: #000;
+  line-height: 40px; }
 
 .cya-subtitle {
   font-size: 18px;
@@ -4432,14 +4454,14 @@ a:nth-child(2) .fp-CTA {
 .cya-copy {
   font-size: 16px;
   text-align: center;
-  padding: 2% 5%;
+  padding: 4% 14% 3% 14%;
   color: #000; }
 
 .cya-cta {
   font-size: 18px;
   text-align: center;
   font-weight: bold;
-  padding: 2% 0;
+  padding: 2% 0 5% 0;
   color: #000; }
 
 .cya-cta span {
@@ -4465,7 +4487,10 @@ a:nth-child(2) .fp-CTA {
     padding-top: 8%; }
 
   .cya-cta {
-    padding: 0; } }
+    padding: 0 0 5% 0; }
+
+  .cya-main-copy {
+    line-height: 22px; } }
 @media screen and (max-width: 400px) {
   .flex-item.col-4 {
     width: 99.9%; }
@@ -4476,7 +4501,18 @@ a:nth-child(2) .fp-CTA {
 
   .cya-img {
     padding-top: 3%;
-    min-height: auto; } }
+    min-height: auto; }
+
+  .cya-main-title {
+    font-size: 28px;
+    padding: 4% 0;
+    letter-spacing: 2px;
+    line-height: 38px; }
+
+  .cya-main-copy {
+    font-size: 15px;
+    padding: 0 2% 1% 2%;
+    line-height: 24px; } }
 /* choose landing */
 .cyal-title {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
@@ -4484,20 +4520,25 @@ a:nth-child(2) .fp-CTA {
   color: #000;
   padding-top: 1%;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 40px; }
 
 .cyal-subtitle {
   font-size: 22px;
   color: #000;
-  padding-bottom: 4%;
-  text-align: center; }
+  padding-bottom: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 26px; }
 
 .cyal-topcopy {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: #000;
   padding: 17% 0 7% 0;
-  line-height: 30px; }
+  line-height: 32px; }
 
 .cyal-line {
   background-color: #000;
@@ -4508,17 +4549,25 @@ a:nth-child(2) .fp-CTA {
   font-size: 16px;
   color: #000;
   padding: 7% 20% 0 0;
-  line-height: 20px; }
+  line-height: 22px; }
 
 .cyal-header-mob {
   display: none; }
 
 .cyal-main {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/cya-main.jpg");
   width: 100%;
-  height: 554px;
+  height: 564px;
   background-position: center center;
   background-size: cover; }
+
+.cyal-expedition {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/expedition-desktop.jpg"); }
+
+.cyal-explore {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/explore-desktop.jpg"); }
+
+.cyal-escape {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/expedition-desktop.jpg"); }
 
 .cyal-inner {
   width: 32%;
@@ -4529,11 +4578,12 @@ a:nth-child(2) .fp-CTA {
   color: #000;
   font-size: 22px;
   background: #f1e9e1;
-  padding: 2% 32%;
+  padding: 2% 35%;
   text-decoration: none;
   max-width: 100%;
   text-align: center;
-  margin: 2% 0; }
+  margin: 5% 0 2% 0;
+  line-height: 30px; }
 
 .cyal-arrow {
   padding-top: 1%;
@@ -4576,6 +4626,9 @@ a:nth-child(2) .fp-CTA {
 .cyal-img {
   max-width: 445px;
   margin: auto; }
+
+.cyal-product {
+  min-height: 260px; }
 
 @media screen and (max-width: 770px) {
   .cyal-inner {
