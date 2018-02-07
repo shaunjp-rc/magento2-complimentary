@@ -393,3 +393,199 @@ li.dropdown.dropdown--red a {
     color: #880015 !important;
 }
 /* END */
+
+/* SS18 Updates */
+.collectionItem img {
+  width: 100%;
+}
+
+.mmColumnCollection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collectionItem {
+  width: 100%;
+  max-width: 225px;
+  position: relative;
+}
+
+.collectionItem:nth-child(3),
+.collectionItem:nth-child(6) {
+  margin: 0 12px;
+}
+
+.collection-title {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.collection-title-vertical {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+
+.s-main-menu .block .category-items ul.mmColumn {
+  width: 20%;
+}
+
+.s-main-menu .block .category-items ul.mmColumn.mmColumnCollection {
+  width: 60%;
+}
+
+.columnHead {
+  text-align: left;
+}
+
+.mmColumnCollection .columnHead {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.s-main-menu .block .category-items .mmColumn a {
+  padding: 2px 0;
+}
+
+.mmColumn:first-of-type + .mmColumn.mmColumnCollection {
+    float: right;
+}
+
+.s-main-menu .block .category-items .mmColumn a:hover {
+    color: #010001;
+}
+
+@media only screen and (max-width:1227px) {
+  .collectionItem {
+    max-width: 180px;
+  }
+
+}
+
+@media only screen and (max-width:989px) {
+  .collectionItem:nth-child(even),
+  .collectionItem:nth-child(odd) {
+    margin: 0;
+  }
+
+  .collectionItem {
+    max-width: 100%;
+  }
+
+  .collectionItem img {
+    display: none;
+  }
+
+  .collection-title-vertical {
+    text-align: left;
+  }
+
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn {
+    width: 33.33% !important
+  }
+
+  .mmColumnCollection .columnHead {
+    margin-top: 5%;
+  }
+
+  .s-main-menu .block .category-items .mmColumn.techColumn {
+    width: 25% !important;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn.techColumn {
+    width: 100% !important;
+  }
+
+  .collectionItem {
+    max-width: 100%;
+  }
+
+  .collectionItem img {
+    display: none;
+  }
+
+  .s-main-menu .block .category-items div.collection-title,
+  .s-main-menu .block .category-items div.collection-title-vertical {
+    display: block;
+  }
+
+  .collection-title {
+    position: relative;
+  }
+
+  .s-main-menu .block .category-items div.collection-title-vertical {
+    text-align: left;
+  }
+
+  .collectionItem:nth-child(odd) {
+    margin: 0;
+  }
+
+  .s-main-menu .categories > li .expanded li a {
+    line-height: 3;
+  }
+
+  .columnHead,
+  .mmColumnCollection .columnHead {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+  }
+
+  .columnHead{
+    margin-left: 10px;
+  }
+
+}
+
+.ambassadorHero {
+  width: 100%;
+  max-width: 125px;
+  position: relative;
+  margin-left: 12px;
+}
+
+.ambassadorHero:nth-child(2),
+.ambassadorHero:nth-child(7) {
+  margin-left: 0;
+}
+
+.s-main-menu .categories>li .mmColumn a {
+  text-align: left;
+}
+
+.ambassadorHero img {
+  width: 100%;
+}
+
+@media only screen and (max-width:1227px) {
+  .ambassadorHero {
+    max-width: 100px;
+    line-height: 1.2;
+  }
+
+}
+
+@media only screen and (max-width:989px) {
+  .ambassadorHero {
+    max-width: 100%;
+    margin-left: 0;
+    line-height: 2;
+  }
+
+  .ambassadorHero img {
+    display: none;
+  }
+
+}
