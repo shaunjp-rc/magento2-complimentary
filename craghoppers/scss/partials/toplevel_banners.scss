@@ -47,7 +47,7 @@
     background-size: cover;
     background-position: center;
 }
-.plp-header h3 {
+.plp-header h1 {
     text-align: center;
     color: #000;
     font-family: $crimreg;
@@ -62,7 +62,7 @@
     letter-spacing: 1px;
 }
 
-.plp-header.plp-toplevel h3 {
+.plp-header.plp-toplevel h1 {
     margin-bottom: 0;
 }
 
@@ -104,7 +104,7 @@
 	.plp-header.plp-toplevel {
     	padding: 13% 0;
 	}
-	.plp-header h3 {
+	.plp-header h1 {
 	    font-size: 4.6vw;
 	}
 }

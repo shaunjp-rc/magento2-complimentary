@@ -5604,7 +5604,7 @@ a:nth-child(2) .fp-CTA {
   background-size: cover;
   background-position: center; }
 
-.plp-header h3 {
+.plp-header h1 {
   text-align: center;
   color: #000;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
@@ -5618,7 +5618,7 @@ a:nth-child(2) .fp-CTA {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-.plp-header.plp-toplevel h3 {
+.plp-header.plp-toplevel h1 {
   margin-bottom: 0; }
 
 .plp-header.plp-toplevel {
@@ -5656,7 +5656,7 @@ a:nth-child(2) .fp-CTA {
   .plp-header.plp-toplevel {
     padding: 13% 0; }
 
-  .plp-header h3 {
+  .plp-header h1 {
     font-size: 4.6vw; } }
 /* Mobile SEO show/hide */
 .seemore {
