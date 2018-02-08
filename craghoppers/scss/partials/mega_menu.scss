@@ -408,6 +408,10 @@ li.dropdown.dropdown--red a {
   width: 100%;
   max-width: 225px;
   position: relative;
+  padding: 9% 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 1.2%;
 }
 
 .collectionItem:nth-child(3),
@@ -502,6 +506,10 @@ li.dropdown.dropdown--red a {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg);
 }
 
+.s-main-menu .categories > li .mmColumn .collectionItem a {
+    color: #fff;
+    text-align: center;
+}
 
 
 @media only screen and (max-width:1227px) {
@@ -544,8 +552,14 @@ li.dropdown.dropdown--red a {
     width: 25% !important;
   }
 
-  .collection-title {
+  .collectionItem {
     background: none;
+    padding:0;
+  }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    color: #343334;
+    text-align: left;
   }
 
 }

@@ -3435,7 +3435,11 @@ li.dropdown.dropdown--red a {
 .collectionItem {
   width: 100%;
   max-width: 225px;
-  position: relative; }
+  position: relative;
+  padding: 9% 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 1.2%; }
 
 .collectionItem:nth-child(3),
 .collectionItem:nth-child(6) {
@@ -3518,6 +3522,10 @@ li.dropdown.dropdown--red a {
 .collection-kdiscovery {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg); }
 
+.s-main-menu .categories > li .mmColumn .collectionItem a {
+  color: #fff;
+  text-align: center; }
+
 @media only screen and (max-width: 1227px) {
   .collectionItem {
     max-width: 180px; } }
@@ -3547,8 +3555,13 @@ li.dropdown.dropdown--red a {
   .s-main-menu .block .category-items .mmColumn.techColumn {
     width: 25% !important; }
 
-  .collection-title {
-    background: none; } }
+  .collectionItem {
+    background: none;
+    padding: 0; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    color: #343334;
+    text-align: left; } }
 @media only screen and (max-width: 700px) {
   .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn,
