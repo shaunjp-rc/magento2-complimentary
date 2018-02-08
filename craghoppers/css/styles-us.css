@@ -6354,6 +6354,47 @@ li.dropdown.dropdown--red a {
 .collection-kdiscovery {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg); }
 
+/* ambassadors */
+.ambass-coyote {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-CoyotePeterson.jpg); }
+
+.ambass-kevin {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-KevinRichardson.jpg); }
+
+.ambass-woods {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-WoodsWheatcroft.jpg); }
+
+.ambass-felix {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-FelixNdagijimana.jpg); }
+
+.ambass-tasmin {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-TamsinJones.jpg); }
+
+.ambass-faruk {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-FarukAkbas.jpg); }
+
+.ambass-claire {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-ClaireAspinall.jpg); }
+
+.ambass-david {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-DavidLove.jpg); }
+
+.ambass-brandon {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-BrandonEckroth.jpg); }
+
+.ambass-louisa {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-DrLouisaPreston.jpg); }
+
+.s-main-menu .categories > li .mmColumn .ambassadorHero a {
+  color: #fff;
+  text-align: center;
+  padding: 40% 0px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.s-main-menu .categories > li .mmColumn .ambassadorHero a:hover {
+  color: #fff; }
+
 .s-main-menu .categories > li .mmColumn .collectionItem a {
   color: #fff;
   text-align: center;
@@ -6421,6 +6462,15 @@ li.dropdown.dropdown--red a {
     padding: 0; }
 
   .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
+    color: #343334; }
+
+  .s-main-menu .categories > li .mmColumn .ambassadorHero a {
+    background: none;
+    color: #343334;
+    padding: 0;
+    text-align: left; }
+
+  .s-main-menu .categories > li .mmColumn .ambassadorHero a:hover {
     color: #343334; } }
 @media only screen and (max-width: 700px) {
   .s-main-menu .block .category-items .mmColumn,
@@ -6468,7 +6518,8 @@ li.dropdown.dropdown--red a {
   width: 100%;
   max-width: 125px;
   position: relative;
-  margin-left: 12px; }
+  margin-left: 12px;
+  margin-bottom: 1.2%; }
 
 .ambassadorHero:nth-child(2),
 .ambassadorHero:nth-child(7) {
