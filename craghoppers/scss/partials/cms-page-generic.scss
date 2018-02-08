@@ -1050,3 +1050,55 @@ a.c-store-list__details {
     text-align: left;
 }
 /* END */
+
+/* USP */
+.generic-usp {
+    text-align: center;
+    padding: 0.4% 0;
+    background: #8f9eab; /* background colour */
+    color: #fff !important; /* font colour */
+  	text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.generic-usp .pipe {
+    margin: 0 0.5%;
+}
+
+.generic-usp a {
+    color: #fff !important;
+}
+
+.generic-usp a:hover {
+    color: #fff !important;
+  text-decoration:underline;
+}
+
+.generic-usp div {
+    display: inline;
+}
+
+@media only screen and (max-width:1024px){
+  .generic-usp a {
+    font-size:13px;
+  }
+}
+
+@media only screen and (max-width:650px){
+  .generic-usp {
+    margin-top: 46px;
+  }
+}
+
+@media only screen and (max-width:532px) and (min-width:501px){
+  .generic-usp {
+      margin-top: 99px;
+  }
+}
+
+@media only screen and (max-width:426px){
+	.generic-usp div {
+	    display: block;
+	}
+}
+/* END */
