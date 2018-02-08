@@ -6313,7 +6313,10 @@ li.dropdown.dropdown--red a {
     text-decoration: underline; }
 
   .columnHead {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+
+  .collection-title-vertical {
+    color: #343334; } }
 .ambassadorHero {
   width: 100%;
   max-width: 125px;
