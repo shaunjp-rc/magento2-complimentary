@@ -408,6 +408,7 @@ li.dropdown.dropdown--red a {
   width: 100%;
   max-width: 225px;
   position: relative;
+  margin-bottom: 1.2%;
 }
 
 .collectionItem:nth-child(3),
@@ -502,11 +503,30 @@ li.dropdown.dropdown--red a {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg);
 }
 
+.s-main-menu .categories > li .mmColumn .collectionItem a {
+  color: #fff;
+  text-align: center;
+  padding: 29% 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
+.s-main-menu .categories > li .mmColumn .collectionItem a:hover{
+  color:#fff;
+}
 
 @media only screen and (max-width:1227px) {
   .collectionItem {
     max-width: 180px;
+  }
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
+    padding: 27% 0;
+    line-height: 1;
   }
 
 }
@@ -544,8 +564,28 @@ li.dropdown.dropdown--red a {
     width: 25% !important;
   }
 
-  .collection-title {
+  .collectionItem {
     background: none;
+    padding:0;
+  }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    color: #343334;
+    text-align: left;
+  }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
+    background: none;
+    padding: 0;
+  }
+  .s-main-menu .categories > li .mmColumn .collectionItem a:hover{
+    color:#343334;
   }
 
 }
@@ -599,6 +639,10 @@ li.dropdown.dropdown--red a {
 
   .collection-title-vertical {
     color: #343334;
+  }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a{
+    line-height: 3 !important;
   }
 
 }
