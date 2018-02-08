@@ -1589,6 +1589,7 @@ a:nth-child(2) .fp-CTA {
 	color: #000;
 	padding: 7% 20% 0 0;
 	line-height: 22px;
+	font-family: $crimreg;
 }
 .cyal-header-mob {
 	display: none;
@@ -1690,6 +1691,12 @@ a:nth-child(2) .fp-CTA {
 	.cyal-topcopy-explore,
 	.cyal-topcopy-escape {
 		padding: 13% 0 7% 0;
+	}
+	.cyal-copy2 {
+    	line-height: 22px;
+	}
+	.cyal-product {
+    	min-height: auto;
 	}
 }
 @media screen and (max-width: 500px) {
