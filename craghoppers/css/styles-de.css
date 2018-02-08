@@ -6234,17 +6234,13 @@ li.dropdown.dropdown--red a {
   margin: 0 12px; }
 
 .collection-title {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: table; }
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 .collection-title-vertical {
-  display: table-cell;
-  vertical-align: middle;
+  color: #fff;
   text-align: center;
-  color: #fff; }
+  padding: 29% 0; }
 
 .s-main-menu .block .category-items ul.mmColumn {
   width: 20%; }
@@ -6269,6 +6265,51 @@ li.dropdown.dropdown--red a {
 .s-main-menu .block .category-items .mmColumn a:hover {
   color: #010001; }
 
+.collection-minsect {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensInsectProtectiveClothing.jpg); }
+
+.collection-mutc {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensUTC.jpg); }
+
+.collection-moutdoor {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensOutdoorProtection.jpg); }
+
+.collection-mdofe {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensDofE.jpg); }
+
+.collection-msun {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensSunProtective.jpg); }
+
+.collection-mdiscovery {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensDiscovery.jpg); }
+
+.collection-winsect {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensInsectProtective.jpg); }
+
+.collection-wutc {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensUTC.jpg); }
+
+.collection-woutdoor {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensOutdoorProtection.jpg); }
+
+.collection-wdofe {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensDofE.jpg); }
+
+.collection-wsun {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensSunProtective.jpg); }
+
+.collection-wdiscovery {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensDiscovery.jpg); }
+
+.collection-kinsect {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsInsectProtective.jpg); }
+
+.collection-ksun {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsSunProtective.jpg); }
+
+.collection-kdiscovery {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg); }
+
 @media only screen and (max-width: 1227px) {
   .collectionItem {
     max-width: 180px; } }
@@ -6284,7 +6325,9 @@ li.dropdown.dropdown--red a {
     display: none; }
 
   .collection-title-vertical {
-    text-align: left; }
+    text-align: left;
+    padding: 0;
+    color: #000; }
 
   .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn {
@@ -6294,7 +6337,10 @@ li.dropdown.dropdown--red a {
     margin-top: 5%; }
 
   .s-main-menu .block .category-items .mmColumn.techColumn {
-    width: 25% !important; } }
+    width: 25% !important; }
+
+  .collection-title {
+    background: none; } }
 @media only screen and (max-width: 700px) {
   .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn,
