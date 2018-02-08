@@ -4618,7 +4618,7 @@ a:nth-child(2) .fp-CTA {
 .cyal-bottomcopy {
   font-size: 16px;
   color: #000;
-  padding: 7% 20% 0 0;
+  padding: 7% 13% 0 0;
   line-height: 22px;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
@@ -4652,7 +4652,7 @@ a:nth-child(2) .fp-CTA {
   text-decoration: none;
   max-width: 100%;
   text-align: center;
-  margin: 5% 0 2% 0;
+  margin: 3% 0 2% 0;
   line-height: 30px; }
 
 .cyal-divide-expedition {
@@ -4675,16 +4675,17 @@ a:nth-child(2) .fp-CTA {
   color: #000; }
 
 .cyal-copy2 {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
-  padding: 3% 15%;
+  padding: 3% 13%;
   color: #000; }
 
 .cyal-price {
   font-size: 24px;
   text-align: center;
   padding: 0 0 3% 0;
-  color: #000; }
+  color: #000;
+  font-weight: bold; }
 
 .cyal-btn {
   color: #fff;
@@ -4707,7 +4708,10 @@ a:nth-child(2) .fp-CTA {
   margin: auto; }
 
 .cyal-product {
-  min-height: 260px; }
+  min-height: 315px; }
+
+.cyal-product2 {
+  min-height: 285px; }
 
 @media screen and (max-width: 770px) {
   .cyal-inner {
