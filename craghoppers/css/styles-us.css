@@ -4812,7 +4812,8 @@ a:nth-child(2) .fp-CTA {
   margin-bottom: 2%;
   line-height: 1;
   font-size: 30px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-weight: 300; }
 
 .plp-header a {
   margin: 0 2%;
