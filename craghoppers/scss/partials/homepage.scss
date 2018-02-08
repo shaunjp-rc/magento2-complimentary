@@ -1153,6 +1153,13 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
   font-family: $crimreg;
 }
 
+.returningcustomer {
+    display: flex;
+}
+section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+    margin-top: 0;
+}
+
 @media only screen and (max-width:768px){
   .pageBanner:last-of-type .pageSection__title {
       padding: 2.4vw 30px 0;
