@@ -2185,7 +2185,7 @@ ul.fullWidthSlider__slidesList {
   font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
 
 .pageSection__title--Seo {
-  padding-top: 1vw;
+  padding-top: 1.2vw;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .returningcustomer {
@@ -6721,5 +6721,19 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
   background: #000 !important; }
 
 /* END */
+/* Mega menu */
+.collection-mrfid {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/RFID.jpg); }
+
+.collection-mrecycled {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/Recycled.jpg); }
+
+.collection-wrfid {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WRFID.jpg); }
+
+.collection-wrecycled {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WRecycled.jpg); }
+
+/*END*/
 
 /*# sourceMappingURL=styles-us.css.map */
