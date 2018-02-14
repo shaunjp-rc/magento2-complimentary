@@ -1591,7 +1591,8 @@ a:nth-child(2) .fp-CTA {
 	line-height: 22px;
 	font-family: $crimreg;
 }
-.cyal-header-mob {
+.cyal-header-mob,
+.cyal-header-tablet {
 	display: none;
 }
 .cyal-main {
@@ -1702,10 +1703,23 @@ a:nth-child(2) .fp-CTA {
 	.cyal-product {
     	min-height: auto;
 	}
+	.cyal-header-mob {
+		display: none;
+	}
+	.cyal-header-tablet {
+		display: block;
+	}
+	.cyal-main {
+		background-image: none;
+		height: auto;
+	}
 }
 @media screen and (max-width: 500px) {
 	.cyal-header-mob {
 		display: block;
+	}
+	.cyal-header-tablet {
+		display: none;
 	}
 	.cyal-main {
 		background-image: none;
