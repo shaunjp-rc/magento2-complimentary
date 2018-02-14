@@ -4763,10 +4763,15 @@ a:nth-child(2) .fp-CTA {
   .cyal-topcopy-expedition,
   .cyal-topcopy-explore,
   .cyal-topcopy-escape {
-    padding: 13% 0 7% 0; }
+    padding: 2% 0 4% 0; }
+
+  .cyal-title2 {
+    font-size: 24px;
+    line-height: 30px; }
 
   .cyal-copy2 {
-    line-height: 22px; }
+    line-height: 22px;
+    padding: 3% 7%; }
 
   .cyal-product {
     min-height: auto; }
@@ -4779,7 +4784,19 @@ a:nth-child(2) .fp-CTA {
 
   .cyal-main {
     background-image: none;
-    height: auto; } }
+    height: auto; }
+
+  .cyal-inner {
+    width: 95%;
+    margin: auto; }
+
+  .cyal-bottomcopy {
+    font-size: 18px;
+    padding: 5% 20% 15px 0;
+    line-height: 20px; }
+
+  .cyal-line {
+    width: 80%; } }
 @media screen and (max-width: 500px) {
   .cyal-header-mob {
     display: block; }
@@ -4791,14 +4808,16 @@ a:nth-child(2) .fp-CTA {
     background-image: none;
     height: auto; }
 
-  .cyal-inner {
-    width: 95%;
-    margin: auto; }
-
   .cyal-topcopy {
-    font-size: 17px;
-    padding: 0 0 7% 0;
-    line-height: 26px; }
+    font-size: 18px;
+    padding: 0 0 5% 0;
+    line-height: 24px; }
+
+  .cyal-line {
+    display: none; }
+
+  .cyal-bottomcopy {
+    line-height: 19px; }
 
   .cyal-divide {
     font-size: 18px;
@@ -4808,6 +4827,15 @@ a:nth-child(2) .fp-CTA {
 
   .cyal-copy {
     padding: 5%; }
+
+  .cyal-title2 {
+    line-height: 30px;
+    padding: 0 5%; }
+
+  .cyal-copy2 {
+    font-size: 16px;
+    padding: 3% 5%;
+    line-height: 21px; }
 
   .cyal-btn {
     font-size: 17px;
