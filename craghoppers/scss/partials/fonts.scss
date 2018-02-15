@@ -24,3 +24,78 @@ $montreg: 'Montserrat-Regular', Helvetica, Arial, sans-serif;
 $montmed: 'Montserrat-Medium', Helvetica, Arial, sans-serif;
 $montlight: 'Montserrat-Light', Helvetica, Arial, sans-serif;
 $montbold: 'Montserrat-Bold', Helvetica, Arial, sans-serif; 
+
+
+
+/* Film Awards Fonts */
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-MediumItalic';
+    src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf);
+}
+
+$gothblack: 'Gotham-Black', Helvetica, Arial, sans-serif;
+$gothbold: 'Gotham-Bold', Helvetica, Arial, sans-serif;
+$gothbook: 'Gotham-Book', Helvetica, Arial, sans-serif;
+$gothlight: 'Gotham-Light', Helvetica, Arial, sans-serif;
+$gothmed: 'Gotham-Medium', Helvetica, Arial, sans-serif; 
+$gothmedit: 'Gotham-MediumItalic', Helvetica, Arial, sans-serif; 
+
+/* SS18 Fonts */
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.otf);
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.otf);
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.otf);
+}
+
+$osbold: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+$osreg: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+$oslight: "OpenSans-Light", Helvetica, Arial, sans-serif; 
+
+@font-face {
+    font-family: "CrimsonText-Bolds";
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.otf);
+}
+
+@font-face {
+    font-family: "CrimsonText-Regular";
+    src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.otf);
+}
+
+$crimbold: "CrimsonText-Bolds", Helvetica, Arial, sans-serif;
+$crimreg: "CrimsonText-Regular", Helvetica, Arial, sans-serif;

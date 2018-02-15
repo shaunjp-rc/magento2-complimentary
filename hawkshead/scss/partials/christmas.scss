@@ -1,0 +1,125 @@
+.cms-christmas .breadcrumbs.c-breadcrumbs {
+        display: none;
+    }
+.christmas {
+    img {
+        display: block;
+        border: 0;
+        margin: auto;
+
+    }
+    .xmas-fourblocks-img {
+        width: 100%;
+        display: block;
+    }
+    .xmas-twoblocks__button {
+        width: 100%;
+        background-color: #cc2225; 
+        padding: 10px 0;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 26px;
+        letter-spacing: 1px;
+        font-family: 'Garamond-Light';
+        margin-bottom: 25px;
+    }
+    .xmas-bannerWrapper {
+        position: relative;
+    }
+    .xmas-innerwrapper-1140 {
+        max-width: 1140px;
+    }
+    .xmas-innerwrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .xmas-flex-item {
+        padding: 0 20px;
+    }
+    .xmas-slider1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: "Garamond-Regular";
+        font-size: 5em;
+        letter-spacing: 5px;
+        line-height: 1;
+        margin-top: -15%;
+    }
+    .xmas-slider2 {
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        font-size: 3.5em;
+        margin-top: -24px;
+        font-family: "Lato-light", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    .xmas-bold {
+        font-weight: bolder;
+    }
+    .xmas-banner-padding {
+        clear: both;
+        height: 50px;
+    }
+    @media screen and (max-width: 1000px) {
+        .xmas-slider1 {
+            font-size: 4em;
+        }
+        .xmas-slider2 {
+            font-size: 3em;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .xmas-slider1 {
+            font-size: 3em;
+        }
+        .xmas-slider2 {
+            font-size: 2.5em;
+            margin-top: -14px;
+        }
+        .xmas-banner-padding {
+            height: 25px;
+        }
+        .xmas-twoblocks__button {
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .xmas-slider1 {
+            margin-top: -2%;
+            font-size: 2.5em;
+        }
+        .xmas-slider2 {
+            font-size: 1.5em;
+            margin-top: -9px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .xmas-twoblocks__button {
+            padding: 5px 0;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .xmas-flex-item {
+            padding: 0 5px;
+        }
+        .xmas-flex-container {
+            margin: 0;
+        }
+        .xmas-slider1 {
+            font-size: 2.2em;
+            letter-spacing: 2px;
+            margin-top: 7%;
+        }
+        .xmas-slider2 {
+            font-size: 1.7em;
+            margin-top: -10px;
+        }
+        .xmas-banner-padding {
+            height: 20px;
+        }
+    }
+}

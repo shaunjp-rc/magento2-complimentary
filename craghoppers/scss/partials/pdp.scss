@@ -44,6 +44,11 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 	color: #fff;
 }
 
+.c-product-size__email-link:focus,
+.c-product-size__email-link:hover {
+    color: #717171;
+}
+
 @media only screen and (max-width:770px) {
 	.c-tabs__tab {
 		padding: 1px 30px;
@@ -61,6 +66,30 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 
 .old-price .c-price__group {
 	margin-top: 1%;
+}
+
+/* Tabbed boxes highlight */
+
+.c-tabs__tab.active .c-tabs__tab-link {
+	border-bottom: 8px solid #343334;
+}
+
+/* END */
+
+@media only screen and (max-width:650px) {
+	.page-product-configurable{
+		.c-tabs__content .value,
+		ol.o-list-stacked.items.review-items,
+		.delivery-info.collateral-block,
+		#buyingguides .helppagesright {
+		    width: 90%;
+		    margin: 0 auto;
+		}
+	}
+
+	.c-tabs__tab.active .c-tabs__tab-link {
+    	border-bottom: 2px solid #343334;
+	}
 }
 
 @media only screen and (max-width:550px) {
@@ -133,7 +162,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 }
 
 .mt_sliderTop .mt_title {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: $crimreg;
     font-weight: bold;
     font-size: 18px;
     color: #343334;
@@ -219,10 +248,3 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* END */
 
 
-/* Tabbed boxes highlight */
-
-.c-tabs__tab.active .c-tabs__tab-link {
-	border-bottom: 8px solid #343334;
-}
-
-/* END */

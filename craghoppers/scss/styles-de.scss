@@ -1,0 +1,32 @@
+// Master File
+
+// For importing partials only... no Sass in here
+
+//utility styles
+@import 'modules/util';
+@import 'partials/fonts';
+
+// Generic Stuff
+@import 'partials/cms-page-generic';
+
+// Specific Stuff
+@import 'partials/homepage';
+// @import 'partials/kit-guide' uncomment this when kitGuide goes live
+
+//shared between geos
+@import 'partials/lookbook';
+@import 'partials/customer_services';
+@import 'partials/microsite';
+@import 'partials/toplevel_banners';
+@import 'partials/protect-liberate';
+@import 'partials/plp';
+@import 'partials/pdp';
+@import 'partials/trouser_campaign';
+@import 'partials/honesty_project';
+@import 'partials/mega_menu';
+@import 'partials/utc';
+
+// Crags DE styles only
+@import 'partials/de-styles';
+
+

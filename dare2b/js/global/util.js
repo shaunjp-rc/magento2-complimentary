@@ -215,3 +215,14 @@ requirejs(['jquery'], function( $ ) {
     });
 
 });
+
+/*/////////// Checkout Page Delivery Instructions //////////*/
+
+if (document.querySelectorAll('.c-block-option__delivery_instruction textarea').length > 0){
+	
+	var boxes = document.querySelectorAll('.c-block-option__delivery_instruction textarea');
+	boxes.forEach(function(box){
+		box.setAttribute('maxlength', '108');
+	});
+
+}

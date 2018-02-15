@@ -63,11 +63,11 @@
 }
 
 .genderheader.womens {
-  background: #FF685D;
+  background: #fc8a81;
 }
 
 .s-main-menu .mm__container--womens .columnHead a {
-  color: #FF685D !important;
+  color: #fc8a81 !important;
 }
 
 .genderheader.kids {
@@ -104,7 +104,7 @@
 }
 
 .columnHead.columnHead--womens h3 {
-  color: #FF685D;
+  color: #fc8a81;
 }
 
 .columnHead.columnHead--kids h3 {
@@ -173,8 +173,7 @@
 }
 
 .s-main-menu .category-items.mm__container-brands .mm__column {
-    float: right;
-    width: 35%;
+    width: 33.33%;
 }
 
 .s-main-menu .categories>li>a:active,
@@ -186,6 +185,26 @@
 
 ul.mm__column.mm__column--img.expanded {
   float: right;
+}
+
+.device-menu {
+    display: none;
+}
+.desktop-menu {
+    display: block;
+}
+
+.s-main-menu .block {
+    z-index: 3;
+}
+
+@media only screen and (max-width:1024px){
+  .desktop-menu {
+      display: none;
+  }
+  .device-menu {
+      display: block;
+  }
 }
 
 @media only screen and (max-width:779px){
@@ -313,3 +332,55 @@ ul.mm__column.mm__column--img.expanded {
   }
   
 }
+
+/* Kids menu */
+@media only screen and (max-width: 1024px){
+  .device-block.left{
+    float:left;
+  }
+  .device-block.right{
+    float:right;
+  }
+  .s-main-menu .mm__container--kids .mm__column:nth-child(1) {
+      width: 45%;
+  }
+  .s-main-menu .block .category-items.mm__container--kids div {
+      display: block;
+  }
+}
+@media only screen and (max-width: 600px){
+  .s-main-menu .mm__container--kids .mm__column:nth-child(1) {
+      width: 100%;
+  }
+  .device-block.left,
+  .device-block.right{
+    float:none;
+  }
+
+}
+/* END */
+
+
+
+/* Clearance menu */
+.columnHead.columnHead--sale h3 {
+  color: #c72123;
+}
+
+.genderheader-sale {
+    background: #c72123;
+    color: #fff;
+    font-family: "Lato-Regular", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 1%;
+}
+
+.columnHead--sale h3 {
+    color: #c72123;
+}
+/* END */

@@ -470,6 +470,12 @@
     list-style-type: none;
 }
 
+@media only screen and (max-width:1024px){
+	.s-text-banner *:empty {
+    	display: none;
+	}
+}
+
 @media only screen and (max-width:740px){
 
 	.noresults__container a {
@@ -818,3 +824,36 @@ html {
 	font-family: $latoreg; 
 }
 /* END */ 
+
+/* Store Locator */
+.c-store-list__distance {
+    color: #5f5f5e !important;
+}
+.c-store-list__details {
+    color: #5f5f5e !important;
+}
+.c-store-list__item:nth-child(even) {
+    background: rgba(118, 159, 208, 0.1) !important;
+}
+.c-store-list__item {
+    margin-bottom: 0 !important;
+    padding: 2.6% 1%;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+.c-store-list__title {
+    text-align: left;
+}
+/* END */
+
+/* Tablet search bar */
+@media only screen and (max-width:1024px){
+	#header > header > div.o-region__inner > div > div.o-layout__item > div:nth-child(2) > div.o-layout__item:nth-child(1){
+		width: 67% !important;
+	    padding-left: 30px;
+	}
+	#header > header > div.o-region__inner > div > div.o-layout__item > div:nth-child(2) > div.o-layout__item {
+	    width: 33% !important;
+	}
+}
+/* END */

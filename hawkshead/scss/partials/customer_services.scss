@@ -120,7 +120,7 @@
 }
 
 .datatable td {
-    border: 1px solid #c1d62f;
+    border: 1px solid #769fd0;
     background-color: #FFFFFF;
     padding: 4px;
     width: 65px;
@@ -128,8 +128,8 @@
 }
 
 .datatable th {
-    border: 1px solid #c1d62f;
-    background-color: #c1d62f;
+    border: 1px solid #769fd0;
+    background-color: #769fd0;
     font-weight: bold;
     text-align: center;
     padding-left: 4px;
@@ -200,6 +200,10 @@
     .regattatablet {
         display: block;
         width: 97%;
+    }
+
+    .redeye-form.cs-form {
+        width: 90%;
     }
 
 }
@@ -468,5 +472,67 @@ iframe.unsubscribe {
 .returns-myhermes {
     padding: 1.5% 0 1% 0;
     width: 75px;
+}
+/* END */
+
+/* CH Fit Guide */
+.fitGuideDiagrams {
+  padding-top: 3%;
+  float: left;
+}
+
+.fitGuideDiagrams__title,
+.fitGuideDiagrams__blockContainer {
+  float: left;
+  clear: both;
+}
+
+.fitGuideDiagrams__block {
+  width: 29%;
+  float: left;
+  margin: 0 6% 2% 0;
+}
+
+.fitGuideDiagrams__block:last-child {
+  margin-right: 0;
+}
+
+.fit-tip .fitGuideDiagrams__block {
+  width: 100%;
+  margin: 0;
+}
+
+.fit-tip .fitGuideDiagrams__image {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.guaranteeimg {
+  float: right;
+}
+
+.guaranteehead h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+  .fitGuideDiagrams__block {
+    width: 47%;
+    margin: 0 6% 2% 0;
+  }
+
+  .fitGuideDiagrams__block:nth-child(2) {
+    margin-right: 0;
+  }
+
+}
+
+@media screen and (max-width:440px) {
+  .fitGuideDiagrams__block {
+    width: 100%;
+    margin: 0 0 2%;
+  }
+
 }
 /* END */

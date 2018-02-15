@@ -30,7 +30,7 @@
 @media only screen and (max-width:550px) {
 	.category-view__description.active {
 	    overflow: hidden;
-	    max-height: 36px;
+	    max-height: 50px;
 	} 
 
 	.category-view__description + button {
@@ -59,3 +59,30 @@ body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
 }
 
 /* END */
+
+/* Lower SEO */
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active {
+    height: 110px;
+    overflow: hidden;
+}
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open {
+    height: auto;
+    overflow: auto;
+}
+.lower-seobttn-container .readmore {
+    padding: 0.5% 0;
+    margin-top: 0.5%;
+}
+/* END */
+
+
+/*/////////////////////////*/
+/*    Hides Quick Buy     */
+/*/////////////////////////*/
+.catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+ display: none !important;
+ }
+
+.catalog-category-view .c-product-tile__img-wrapper {
+  margin-bottom: 10px;
+}

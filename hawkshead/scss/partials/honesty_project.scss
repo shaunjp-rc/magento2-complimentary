@@ -1,0 +1,323 @@
+.cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-our-way .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-our-employees .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-modern-slavery .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-social-impact-programmes .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-the-environment .breadcrumbs.c-breadcrumbs {
+    display: none;
+}
+
+.honesty-project{
+    .hp-back a {
+        color: black;
+        font-weight: bold;
+    }
+    .header-badge {
+        width: 100%;
+        /*max-width: 500px;*/
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Garamond-Regular";
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 1.3;
+        padding: 1% 0;
+        margin-bottom: 3%;
+        margin-top: 2%;
+        color: #fff;
+    }
+
+    .hp-pink{
+        background: #f18b85;
+        max-width: 550px;
+    }
+
+    .hp-yellow{
+        background: #ffd654;
+        max-width: 450px;
+    }
+
+    .hp-lightblue{
+        background: #6f9ed4;
+        max-width: 330px;
+    }
+
+    .hp-lightgreen{
+        background: #a3ae1e;
+        max-width: 330px;
+    }
+
+    p,
+    ul,
+    h4 {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 775px;
+        margin-bottom: 1.2%;
+        color: #000;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: "Garamond-Regular";
+        font-size: 20px;
+        margin-bottom: 2%;
+        margin-top: 4%;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    ul,
+    ol {
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
+    img{
+        margin: 0 auto;
+        display: table;
+        margin-bottom: 1.2%;
+        max-width: 100%;
+    }
+
+        /* HP Social Impact Programmes Start*/
+    .hp-purple {
+        background-color: #332e51;
+        max-width: 570px;
+    }
+    .sip-rhep-img {
+        max-width: 190px;
+        margin-right: 20px;
+        margin:auto;
+    }
+    .sip-bpf-img {
+        max-width: 130px;
+        margin-right: 3%;
+        margin:auto;
+    }
+    .hp-list {
+        list-style-position: inside;
+        list-style-type: disc;
+        margin: 0;
+        padding: 0;
+        font-size: 1.14286rem;
+        line-height: 1.5;
+    }
+    .sip-img {
+        text-align: center;
+        margin: auto;
+    }
+    .sip-img-impacting {
+        max-width: 388px;
+        padding: 2% 0;
+    }
+    .sip-img-meal {
+        max-width: 289px;
+        padding: 1.5% 0 4% 0;   
+    }
+    .sip-img-reaching {
+        max-width: 576px;
+        padding: 4.5% 0 3% 0;
+    }
+    .sip-container {
+        max-width: 775px;
+        margin: auto;
+    } 
+    @media screen and (max-width: 770px) {
+        .sip-rhep-img,
+        .sip-bpf-img {
+            max-width: 20%;
+            margin: 0 auto;
+        }
+    }
+    /* HP Social Impact Programmes End*/
+
+
+    /* HP Homepage Start*/
+    .honesty-project-img {
+        padding-bottom: 25px;
+    }
+    .block-container {
+        padding-bottom: 20px;
+    }
+    .clear {
+        clear: both;
+    }
+    .block-inner {
+        height: 220px;
+        margin-top: 1.5%;
+        display: table;
+        width: 32.33%;
+        float: left;
+        margin: 0.7% 0.5%;
+    }
+    .block-title {
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: "Lato-Bold", sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 10%;
+    }
+    .block-1 {
+        background-color: #6f9ed4;
+    }
+    .block-2 {
+        background-color: #5b6672;
+    }
+    .block-3 {
+        background-color: #a3ae1e;
+    }
+    .block-4 {
+        background-color: #f18b85;
+    }
+    .block-5 {
+        background-color: #332e51;
+    }
+    .block-6 {
+        background-color: #ffd654;
+    }
+    @media screen and (max-width: 800px) {
+        .honesty-project-img {
+            max-width: 65%;
+            margin: auto;
+        }
+        .block-title {
+            line-height: 30px;
+            font-size: 25px;
+        }
+        .block-inner {
+            width: 48%;
+            margin: 1% 1%;
+        }
+    }
+    @media screen and (max-width: 440px) {
+        .block-middle {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .block-inner {
+            float: none;
+            width: 100%;
+            margin: 1% 0;
+        }
+    }
+    /* HP Homepage End*/
+
+    /* HP Responsible Sourcing Start*/
+    .hp-dark-grey {
+        background-color: #5b6672;
+        max-width: 470px;
+    }
+    .rs-rhep-img {
+        max-width: 190px;
+        margin-right: 3%;
+        margin:auto;
+    }
+    .rs-bpf-img {
+        max-width: 130px;
+        margin-right: 3%;
+        margin:auto;
+    }
+    .hp-list {
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+        font-size: 1.14286rem;
+        line-height: 1.5;
+    }
+    .rs-img {
+        text-align: center;
+        margin: auto;
+    }
+    .rs-img-1 {
+        max-width: 373px;
+        padding: 0 0 3% 0;
+    }
+    .rs-img-2 {
+        max-width: 634px;
+        padding: 3% 0;
+    }
+    .rs-img-3 {
+        max-width: 436px;
+        padding: 3% 0;
+    }
+    .rs-img-4 {
+        max-width: 451px;
+        padding: 3% 0;
+    }
+    .rs-img-5 {
+        max-width: 587px;
+        padding: 3% 0 5% 0;
+    }
+
+    @media screen and (max-width: 770px) {
+        .rs-rhep-img,
+        .rs-bpf-img {
+            max-width: 20%;
+            margin: 0 auto;
+        }
+        .rs-img-1,
+        .rs-img-3 {
+            max-width: 50%;
+        }
+    }
+    /* HP Responsible Sourcing End */
+
+    /* HP Our Employees Start*/
+    .hp-no-list {
+        list-style-position: inside;
+        margin: auto 0;
+        padding: 0;
+        font-size: 1.14286rem;
+        line-height: 1.5;
+        max-width: 775px;
+    }
+    .oe-img {
+        padding: 3% 0;
+    }
+
+    @media screen and (max-width: 770px) {
+        .oe-img {
+            width: 60%;
+            margin: auto;
+        }
+    }
+    /* HP Our Employees End*/
+
+    /* HP Our Way Start*/
+    .hp-list-mantra {
+        list-style-position: inside;
+        padding: 0;
+        font-size: 1.14286rem;
+        line-height: 1.5;
+        max-width: 775px;
+        margin: auto;
+        color: #000;
+    }
+    /* HP Our Way Start*/
+
+    /* HP The Environment Start */
+    .hp-env1 {
+        padding: 4% 0 3% 0;
+    }
+    .hp-env2 {
+        padding: 2% 0;
+    }
+    .hp-bold {
+        font-weight: bold;
+        font-size: 1.14286rem;
+    }
+    a.honesty-pdf {
+        color: inherit;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    /* HP The Environment End */
+}

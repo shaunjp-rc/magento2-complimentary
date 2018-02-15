@@ -1,5 +1,9 @@
 /* Generic stuff that can be used on any/every CMS page */
 
+html {
+    font-family: $osreg;
+}
+
 .cms-index-index .main-container {
    	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -934,6 +938,22 @@ h4.c-feefo__titl {
     padding-bottom: 10px;
 }
 
+/* Clearance Nav */
+.dropdown.clearance a {
+    color: #fff !important;
+    background: #880015;
+    padding: 10px !important;
+}
+
+@media only screen and (max-width: 650px){
+	.dropdown.clearance a {
+	    padding: 15px 0 !important;
+	    padding-left: 10px !important;
+	    margin-left: 0 !important;
+	}
+}
+/* END */
+
 /* store finder */
 .c-store-list__title {
 	color: #343334;
@@ -988,5 +1008,97 @@ a.c-store-list__details {
 /* Account Style */
 .account.sales-order-view .box-order-billing-method {
     display: none;
+}
+/* END */
+/* show/hide copy within container */
+@media only screen and (min-width:601px){
+	.copy-toggle-button{
+		display:none;
+	}
+	.copy-toggle {
+    	height: auto !important;
+	}
+}
+.copy-toggle{
+	height:95px;
+	overflow: hidden;
+}
+.copy-toggle.active {
+    height: auto;
+}
+.copy-toggle-button {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 120px;
+    padding: 0.5% 0;
+}
+/* END */
+
+/* Store locator */
+.c-store-list__item:nth-child(odd) {
+    background: #f7f7f7 !important;
+}
+.c-store-list__item {
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 2.6% 1%;
+    margin-bottom:0 !important;
+}
+.c-store-list__title {
+    text-align: left;
+}
+/* END */
+
+/* USP */
+.generic-usp {
+    text-align: center;
+    padding: 0.4% 0;
+    background: #8f9eab; /* background colour */
+    color: #fff !important; /* font colour */
+  	text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.generic-usp .pipe {
+    margin: 0 0.5%;
+}
+
+.generic-usp a {
+    color: #fff !important;
+}
+
+.generic-usp a:hover {
+    color: #fff !important;
+  text-decoration:underline;
+}
+
+.generic-usp div {
+    display: inline;
+}
+
+@media only screen and (max-width:1024px){
+  .generic-usp a {
+    font-size:13px;
+  }
+}
+
+@media only screen and (max-width:650px){
+  .generic-usp {
+    margin-top: 46px;
+  }
+}
+
+@media only screen and (max-width:500px){
+	.generic-usp {
+	    margin-top: 19px;
+	}
+}
+
+@media only screen and (max-width:426px){
+	.generic-usp div {
+	    display: block;
+	}
 }
 /* END */

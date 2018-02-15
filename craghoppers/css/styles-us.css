@@ -479,7 +479,58 @@
   filter: grayscale(100%) brightness(500%);
   opacity: 1 !important; }
 
+/* UTC Fonts */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+/* Film Awards Fonts */
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf); }
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf); }
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf); }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf); }
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf); }
+@font-face {
+  font-family: 'Gotham-MediumItalic';
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf); }
+/* SS18 Fonts */
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Bold.otf); }
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Light.otf); }
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url(https://cdn.craghoppers.com/fonts/open_sans/OpenSans-Regular.otf); }
+@font-face {
+  font-family: "CrimsonText-Bolds";
+  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Bold.otf); }
+@font-face {
+  font-family: "CrimsonText-Regular";
+  src: url(https://cdn.craghoppers.com/fonts/crimson/CrimsonText-Regular.otf); }
 /* Generic stuff that can be used on any/every CMS page */
+html {
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
+
 .cms-index-index .main-container {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1153,6 +1204,18 @@ h4.c-feefo__titl {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+/* Clearance Nav */
+.dropdown.clearance a {
+  color: #fff !important;
+  background: #880015;
+  padding: 10px !important; }
+
+@media only screen and (max-width: 650px) {
+  .dropdown.clearance a {
+    padding: 15px 0 !important;
+    padding-left: 10px !important;
+    margin-left: 0 !important; } }
+/* END */
 /* store finder */
 .c-store-list__title {
   color: #343334; }
@@ -1197,6 +1260,80 @@ a.c-store-list__details {
 .account.sales-order-view .box-order-billing-method {
   display: none; }
 
+/* END */
+/* show/hide copy within container */
+@media only screen and (min-width: 601px) {
+  .copy-toggle-button {
+    display: none; }
+
+  .copy-toggle {
+    height: auto !important; } }
+.copy-toggle {
+  height: 95px;
+  overflow: hidden; }
+
+.copy-toggle.active {
+  height: auto; }
+
+.copy-toggle-button {
+  background: #000;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  width: 120px;
+  padding: 0.5% 0; }
+
+/* END */
+/* Store locator */
+.c-store-list__item:nth-child(odd) {
+  background: #f7f7f7 !important; }
+
+.c-store-list__item {
+  text-align: left;
+  border-bottom: 1px solid;
+  padding: 2.6% 1%;
+  margin-bottom: 0 !important; }
+
+.c-store-list__title {
+  text-align: left; }
+
+/* END */
+/* USP */
+.generic-usp {
+  text-align: center;
+  padding: 0.4% 0;
+  background: #8f9eab;
+  /* background colour */
+  color: #fff !important;
+  /* font colour */
+  text-transform: uppercase;
+  letter-spacing: 0.6px; }
+
+.generic-usp .pipe {
+  margin: 0 0.5%; }
+
+.generic-usp a {
+  color: #fff !important; }
+
+.generic-usp a:hover {
+  color: #fff !important;
+  text-decoration: underline; }
+
+.generic-usp div {
+  display: inline; }
+
+@media only screen and (max-width: 1024px) {
+  .generic-usp a {
+    font-size: 13px; } }
+@media only screen and (max-width: 650px) {
+  .generic-usp {
+    margin-top: 46px; } }
+@media only screen and (max-width: 500px) {
+  .generic-usp {
+    margin-top: 19px; } }
+@media only screen and (max-width: 426px) {
+  .generic-usp div {
+    display: block; } }
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
@@ -1319,6 +1456,9 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
   .flex-direction-nav li a.flex-next:hover {
     background-position: -41px 0;
     background-size: 200%; } }
+@media screen and (max-width: 740px) {
+  .pageSection--slider {
+    margin-top: 5%; } }
 @media screen and (max-width: 500px) {
   .flex-direction-nav {
     margin-top: -15px; }
@@ -1370,7 +1510,7 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2) {
   max-width: 80%;
   margin: 0 auto;
   display: table;
-  font-family: Georgia,Arial,sans-serif; }
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .bannerOverlay__title--slider span {
   text-transform: lowercase;
@@ -1517,6 +1657,92 @@ p.deliveryBar__text {
 @media screen and (max-width: 1024px) {
   .pageBanner--featuredProducts .bannerOverlay__contents--isHover {
     display: none; } }
+.cms-homepage-promo-grid-ch-uk .o-region__inner.column.main,
+.cms-homepage-promo-grid-ch-uk .o-region__inner.s-promo-grid {
+  width: 100%; }
+.cms-homepage-promo-grid-ch-uk section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+  max-width: 100%; }
+.cms-homepage-promo-grid-ch-uk section.pageSection.pageSection--fullWidth.pageSection--noTitle.pageBanner--desktop {
+  margin: 0 auto;
+  float: none; }
+
+.pageSection--thirds {
+  margin-top: 1.75%; }
+
+.slider-replace {
+  position: relative;
+  width: 100%; }
+
+a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
+  width: 250px; }
+
+.bannerOverlay__contentArea--slider {
+  padding-bottom: 4%; }
+
+a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
+  width: 14%;
+  min-width: 200px; }
+
+.c-page-wrapper {
+  padding: 0 0; }
+
+.slider-replace {
+  text-align: center; }
+
+.slider-cta {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px #fff solid;
+  display: inline-block;
+  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: .8;
+  margin: 0vw 1vw 0 0;
+  text-transform: uppercase;
+  width: 14%;
+  min-width: 200px;
+  text-align: center;
+  padding: 10px 0; }
+
+.slider-contentarea {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 4%; }
+
+.slider-cta:hover {
+  background: #000;
+  color: #fff; }
+
+.slider-cta:last-of-type {
+  margin-right: 0; }
+
+@media only screen and (max-width: 700px) {
+  .pageSection--slider {
+    margin-top: 0; } }
+@media only screen and (max-width: 600px) {
+  a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
+    width: 60%;
+    padding: 2% 0; } }
+@media only screen and (min-width: 1200px) {
+  .slider-cta {
+    font-size: 14px;
+    padding: 12px 24px; } }
+@media only screen and (max-width: 650px) {
+  .slider-cta {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    margin-bottom: 1%; }
+
+  .slider-cta:last-of-type {
+    margin-bottom: 0;
+    margin: 0 auto; }
+
+  .slider-contentarea {
+    margin-bottom: 14%; } }
+@media only screen and (max-width: 450px) {
+  .slider-contentarea {
+    margin-bottom: 9%; } }
 /* Tehnologies */
 .pageSection--technologies {
   background-color: #e7eff2;
@@ -1667,10 +1893,6 @@ p.deliveryBar__text {
   .pageTextBlock__citation {
     font-size: 1.4em; } }
 /* Homepage SEO text */
-.pageSection__title--Seo {
-  border-top: 1px #ccc solid;
-  padding-top: 2vw; }
-
 @media screen and (max-width: 1000px) {
   .u-lastElement,
   .pageSection,
@@ -1789,15 +2011,9 @@ p.deliveryBar__text {
   .pageSection--halves .pageBanner:first-child {
     margin: 0; }
 
-  .pageSection--community .pageBanner,
-  .pageSection--halves .pageBanner:first-child {
-    margin-bottom: 6% !important; }
-
-  .pageSection--thirds .pageBanner:nth-child(odd) {
-    margin-right: .5%; }
-
+  .pageSection--thirds .pageBanner:nth-child(odd),
   .pageSection--thirds .pageBanner:nth-child(even) {
-    margin-left: .5%; }
+    margin-top: 2%; }
 
   .pageBanner--mobile {
     display: block; }
@@ -1814,7 +2030,10 @@ p.deliveryBar__text {
     padding-bottom: 2vw; }
 
   .bannerOverlay__title--slider {
-    margin-top: 10vw; } }
+    margin-top: 10vw; }
+
+  .cta-percentSaving {
+    margin-top: 30%; } }
 @media screen and (max-width: 420px) {
   .pageSection--thirds .pageBanner {
     max-height: 320px; }
@@ -1884,18 +2103,23 @@ ul.fullWidthSlider__slidesList {
     max-height: 324px; } }
 /* Homepage SEO show/hide */
 .pageSection--Seo {
-  height: 190px;
+  height: 150px;
   overflow: hidden;
   position: relative; }
 
 .readmore {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   width: 10%;
   background: #343334;
   padding: 1% 0;
   color: #fff;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 4%;
+  min-width: 100px;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 
 .seo-container {
   margin-top: -4%; }
@@ -1906,7 +2130,7 @@ ul.fullWidthSlider__slidesList {
 /* END */
 /* AW17 Updates */
 .pageSection--thirds .pageSection__title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 25px; }
 
@@ -1917,7 +2141,7 @@ ul.fullWidthSlider__slidesList {
   padding-top: 3vw; }
 
 .pageSection--community .pageSection__title {
-  font-family: Georgia,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 22px; }
 
 .pageBanner--desktop {
@@ -1933,6 +2157,76 @@ ul.fullWidthSlider__slidesList {
   .pageSection--thirds .pageSection__title {
     font-size: 4.5vw; } }
 /* END */
+/* SS18 Updates */
+.pageSectionHome.pageSection--halves {
+  display: flex; }
+
+.pageSection:empty {
+  display: none; }
+
+.pageSection {
+  margin: 2% auto; }
+
+.pageBanner:first-of-type .pageSection__title {
+  padding: 2.4vw 60px 0;
+  line-height: 1.2; }
+
+.pageBanner:last-of-type .pageSection__title {
+  padding: 2.4vw 50px 0;
+  line-height: 1.2; }
+
+.bannerOverlay__subTitle {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px; }
+
+.pageSection--thirds .pageSection__title {
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
+
+.pageSection__title--Seo {
+  padding-top: 1.2vw;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
+
+.returningcustomer {
+  display: flex; }
+
+section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+  margin-top: 0; }
+
+@media only screen and (max-width: 768px) {
+  .pageBanner:last-of-type .pageSection__title {
+    padding: 2.4vw 30px 0; } }
+@media only screen and (max-width: 740px) {
+  .pageSection--thirds .pageBanner, .pageSection--halves .pageBanner {
+    width: 100%;
+    margin: 0;
+    max-height: 440px;
+    overflow: hidden; }
+
+  .pageSection--thirds .pageBanner:nth-child(odd) {
+    margin-right: 0; }
+
+  .pageSection--thirds .pageBanner:nth-child(even) {
+    margin-left: 0; }
+
+  .pageSection--halves .pageBanner:first-of-type {
+    margin-right: 1%; }
+
+  .pageSection--halves .pageBanner:last-of-type {
+    margin-left: 1%; }
+
+  .pageSection--Seo {
+    height: 140px; }
+
+  .pageSection--thirds .pageBanner:first-of-type {
+    margin-top: 0; }
+
+  .pageBanner:first-of-type .pageSection__title {
+    padding: 2.4vw 1% 0; } }
+@media only screen and (max-width: 700px) {
+  .bannerOverlay__subTitle {
+    font-size: 4.5vw; } }
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -1972,7 +2266,7 @@ body[class*="cms-lookbook"] .breadcrumbs {
 .pageSection--pageTop h1,
 .pageSection--pageTop h2 {
   color: #666 !important;
-  font-family: Georgia, Times, serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-size: 2.4em;
   font-weight: 400;
@@ -1998,7 +2292,6 @@ h2.pageSection--pageTop__justHeading {
 .pageSection--pageTop p,
 .lookbook p {
   color: #666;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 300;
   font-size: 1.1em;
   font-weight: 400;
@@ -2009,7 +2302,7 @@ h2.pageSection--pageTop__justHeading {
   padding: 0 6%; }
 
 .lookbook h3 {
-  font-family: Georgia, Times, serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #666;
   text-transform: none;
   font-size: 2em;
@@ -2421,7 +2714,6 @@ h2.pageSection--pageTop__justHeading {
   float: right;
   top: -3%;
   right: -3%;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700; }
 
 .lookbook_popup__close:hover {
@@ -2431,8 +2723,7 @@ h2.pageSection--pageTop__justHeading {
   display: block;
   float: right;
   clear: both;
-  text-decoration: underline;
-  font-family: Helvetica, Arial, sans-serif; }
+  text-decoration: underline; }
 
 @media only screen and (max-width: 740px) {
   .lookbook {
@@ -2944,7 +3235,7 @@ ul.delret-list {
 /* Modern SLavery Page */
 .modern-slavery-title {
   font-size: 300%;
-  font-family: Georgia, Times;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
   text-align: center;
@@ -2959,11 +3250,9 @@ ul.delret-list {
   font-size: 14px;
   line-height: 19px;
   color: #000;
-  font-family: Arial;
   padding-bottom: 8%; }
 
 .modern-slavery-btn {
-  font-family: Arial;
   color: #ffffff;
   font-size: 16px;
   background: #8996a2;
@@ -3031,6 +3320,93 @@ iframe.unsubscribe {
   color: #ff0000; }
 
 /* END */
+/* Price Match Promise */
+.cms-price-match-promise .action-tabs .tabs *[data-action="tab"].active {
+  background: #fff;
+  border: 1px solid #000;
+  border-bottom: 0; }
+
+.cms-price-match-promise .action-tabs .tabs *[data-action="tab"] {
+  border: 0;
+  border-bottom: 1px solid #000; }
+
+.cms-price-match-promise .action-tabs .tabs-content {
+  border: 0; }
+
+.helppagesright span {
+  font-weight: bold;
+  font-size: 16px;
+  display: block; }
+
+.pmp-intro {
+  margin-bottom: 4%; }
+
+.pmp-intro span {
+  text-align: center; }
+
+.pmp-intro span:first-of-type {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 2%; }
+
+.pmp-intro span:first-of-type:before {
+  background: url(https://cdn.craghoppers.com/img/AW17/UK/misc/tick/Tick-Black.png);
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 10px; }
+
+.pmp-intro span:last-of-type {
+  margin-bottom: 2%; }
+
+#pmpcall {
+  text-align: center; }
+
+#pmpcall button {
+  text-align: center;
+  background: #F6AB00;
+  border: 1px solid #F6AB00;
+  color: #fff;
+  width: 350px;
+  padding: 0.5% 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold; }
+
+#pmpcall p {
+  font-weight: bold; }
+
+.pmp-terms {
+  font-style: italic; }
+
+.pmp-terms ul {
+  margin: 0; }
+
+.pmp-terms ul li:before {
+  content: '-';
+  margin-right: 5px; }
+
+.pmp-terms ul li {
+  padding: 0;
+  line-height: 1.5; }
+
+.cms-price-match-promise .action-tabs .tabs-content {
+  padding: 5% 0; }
+
+#pmpform form {
+  width: 75%; }
+
+#pmpform form button {
+  float: left;
+  margin-top: 3%; }
+
+/* END */
 /* *********** START *********** */
 /* **** MICROSITE STYLES **** */
 /* All prefixed with micro- to avoid leakage */
@@ -3043,7 +3419,6 @@ iframe.unsubscribe {
   margin-left: -3%; }
 
 .micro-megaMenu ul span {
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 400 !important;
   font-size: 13px !important;
   color: #333 !important; }
@@ -3067,8 +3442,7 @@ iframe.unsubscribe {
 .cms-a-nosilife-story .col-main {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif; }
+  box-sizing: border-box; }
 
 .cms-nosilife .col-main *,
 .cms-what-is-nosilife .col-main *,
@@ -3085,7 +3459,6 @@ iframe.unsubscribe {
   margin: 0 auto; }
 
 .micro-sectionContainer strong {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-weight: 400; }
 
@@ -3100,11 +3473,9 @@ iframe.unsubscribe {
   padding: 30px 20px 0;
   background-color: #e7e6e4;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 32px; }
 
 .micro-sidebar__logo span {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .micro-sidebar__tagline {
@@ -3120,7 +3491,6 @@ iframe.unsubscribe {
   margin: 0; }
 
 .micro-sideNav__item {
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700;
   font-size: 16px !important;
   text-transform: uppercase;
@@ -3137,7 +3507,6 @@ iframe.unsubscribe {
   border: none;
   font-size: 14px;
   text-transform: none;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 14px !important; }
 
 .micro-sideNav--subNav .micro-sideNav__item:first-child {
@@ -3303,7 +3672,6 @@ iframe.unsubscribe {
 
 .micro-hero__title,
 .micro-hero__subtitle {
-  font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   margin: 0;
   padding: 0; }
@@ -3322,7 +3690,6 @@ iframe.unsubscribe {
   margin: 0 0 1vw 8%;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .micro-hero--what .micro-hero__title,
@@ -3367,7 +3734,6 @@ iframe.unsubscribe {
   margin-left: 5% !important;
   width: 40%;
   font-size: 18px;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 300; }
 
 @media screen and (max-width: 1023px) {
@@ -3466,7 +3832,6 @@ iframe.unsubscribe {
 
 .micro-details__text--tagline {
   font-size: 18px;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700;
   letter-spacing: .5px;
   margin-top: 48px !important; }
@@ -3542,7 +3907,6 @@ iframe.unsubscribe {
   padding-right: 5%;
   color: #777;
   text-transform: uppercase;
-  font-family: Helvetica, Arial, sans-serif !important;
   letter-spacing: 1px; }
 
 .micro-collection__productArea {
@@ -3591,7 +3955,6 @@ iframe.unsubscribe {
 
 .micro-product__price {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 3vw; }
@@ -3602,7 +3965,6 @@ a.micro-product__button {
   color: #fff !important;
   font-size: 17px;
   letter-spacing: 3px;
-  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: 700; }
 
 .micro-product__button:hover {
@@ -3854,79 +4216,734 @@ a.micro-product__button {
   list-style: none outside; }
 
 /* *********** END *********** */
-.categoryBanner {
-  display: table;
-  height: 285px;
-  width: 100%;
-  background: #fff; }
+/* *********** FILM PRIZE *********** */
+.cms-filmprize .o-list-inline,
+.cms-filmprize-about .o-list-inline,
+.cms-filmprize-discover .o-list-inline,
+.cms-filmprize-enter .o-list-inline,
+.cms-filmprize-aboutcraghoppers .o-list-inline {
+  display: none; }
 
-.categoryBanner__image {
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
+.FA-Logo {
+  max-width: 170px; }
+
+.FA-SocialContainer,
+.FA-NavContainer {
+  text-align: right; }
+
+.FA-Social {
+  padding: 7% 0 0 1%;
+  display: inline-block; }
+
+.FA-NavItem {
+  padding: 6% 0 0 3.5%;
+  display: inline-block;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #595c63;
+  font-size: 16px; }
+
+.FA-NavItem a {
+  color: #595c63; }
+
+.FA-NavItemBlue,
+.FA-NavItemBlue a {
+  color: #248393 !important;
+  text-decoration: underline; }
+
+.FA-Banner {
+  padding-top: 2%; }
+
+.FA-Main-Header {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 21px;
+  padding: 2% 0 1% 0;
+  letter-spacing: 1.5px; }
+
+.FA-Main-Header-Grey {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #656565;
+  font-size: 19px;
+  padding: 1% 0; }
+
+.FA-Main-Copy {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 17px;
+  padding: 0 23% 0 0; }
+
+.FA-Main-Copy a {
+  text-decoration: underline; }
+
+.FA-Main-Copy-Small {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 15px;
+  padding: 2% 23% 0 0; }
+
+.FA-Main-Copy-Italic {
+  font-style: italic; }
+
+.FA-DiscoverFilm {
+  padding-top: 1%;
+  max-width: 234px; }
+
+ul.FA-list {
+  list-style: none;
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 18px;
+  margin: 0; }
+
+ul.FA-list1 {
+  float: left;
+  padding-right: 20%; }
+
+.FA-SocialContainerMobile {
+  display: none; }
+
+@media screen and (max-width: 1024px) {
+  .cms-filmprize .flex-item.col-2,
+  .cms-filmprize-about .flex-item.col-2,
+  .cms-filmprize-discover .flex-item.col-2,
+  .cms-filmprize-enter .flex-item.col-2,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-2 {
+    width: 20%; }
+
+  .cms-filmprize .flex-item.col-10,
+  .cms-filmprize-about .flex-item.col-10,
+  .cms-filmprize-discover .flex-item.col-10,
+  .cms-filmprize-enter .flex-item.col-10,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-10 {
+    width: 80%; }
+
+  .FA-Logo {
+    max-width: 150px; } }
+@media screen and (max-width: 900px) {
+  .FA-NavItem {
+    padding: 6% 0 0 5%;
+    font-size: 16px; }
+
+  .FA-Social {
+    padding: 10% 0 0 1%; } }
+@media only screen and (max-width: 700px) {
+  .FA-Social {
+    padding: 11% 0 0 1%; }
+
+  .FA-NavItem {
+    padding: 5% 0 0 2%;
+    font-size: 14px; } }
+@media only screen and (max-width: 770px) {
+  .FA-Social {
+    padding: 11% 0 0 1%; }
+
+  .FA-NavItem {
+    padding: 6% 0 0 2%; }
+
+  .FA-Main-Copy {
+    padding: 0; } }
+@media only screen and (max-width: 600px) {
+  .cms-filmprize .flex-item.col-2,
+  .cms-filmprize-about .flex-item.col-2,
+  .cms-filmprize-discover .flex-item.col-2,
+  .cms-filmprize-enter .flex-item.col-2,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-2,
+  .cms-filmprize .flex-item.col-10,
+  .cms-filmprize-about .flex-item.col-10,
+  .cms-filmprize-discover .flex-item.col-10,
+  .cms-filmprize-enter .flex-item.col-10,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-10 {
+    width: 100%; }
+
+  .FA-Logo {
+    margin: auto; }
+
+  .FA-Logo,
+  .FA-SocialContainer,
+  .FA-NavContainer {
+    text-align: center; }
+
+  .FA-NavItem {
+    padding: 2% 4.5% 0 4.5%;
+    font-size: 16px; }
+
+  .FA-Main-Header {
+    font-size: 18px;
+    letter-spacing: 1px; }
+
+  .FA-Main-Header-Grey {
+    font-size: 16px;
+    letter-spacing: 1px; }
+
+  .FA-Main-Copy {
+    font-size: 14px; }
+
+  .FA-Social {
+    padding: 6% 0 1% 1%; }
+
+  ul.FA-list {
+    font-size: 14px; }
+
+  .FA-Logo {
+    max-width: 120px; }
+
+  .FA-SocialContainer {
+    display: none; }
+
+  .FA-SocialContainerMobile {
+    display: block;
+    text-align: center; }
+
+  .FA-MainContainer {
+    padding: 0 1%; }
+
+  ul.FA-list1 {
+    float: none;
+    padding-right: 0; } }
+/* *********** END *********** */
+.fp-Container h3 {
+  background-color: #626262;
+  color: #fff;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  padding: 35px;
+  padding-left: 20px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: none;
+  padding-right: 12%; }
+
+.fp-section {
+  display: flex; }
+
+.fp-Container img {
   width: 100%; }
 
-.categoryBanner__title {
-  color: #fff;
-  font-size: 64px;
-  letter-spacing: 9px;
-  line-height: 1em;
-  margin: 0;
-  text-align: center;
+.fp-topleft {
+  width: 40%; }
+
+.fp-tophero {
+  width: 60%; }
+
+.fp-Container p {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif; }
+
+.fp-story h4,
+.fp-Container .fp-storySub {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif; }
+
+.fp-Intro p {
+  letter-spacing: 1px; }
+
+.fp-Intro {
+  width: 100%;
+  max-width: 352px;
+  margin-left: 5%;
+  margin-top: 7%; }
+
+.fp-story {
+  width: 50%; }
+
+.fp-story div {
+  margin-left: 3%; }
+
+.fp-story h4 span {
+  display: flex; }
+
+.fp-story h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 1px; }
+
+.fp-storySub {
   text-transform: uppercase; }
 
-.category-view__title {
-  font-weight: 700;
-  text-align: left; }
+.fp-section:nth-child(2),
+.fp-section:nth-child(3) {
+  margin-top: 4%; }
 
-.category-view__description {
-  font-size: 12px;
-  text-align: left; }
+.fp-low {
+  width: 42%;
+  display: flex; }
 
-.categorypath-women.category-women .womens-seoheader {
-  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Womens-TopLevel.jpg);
-  padding: 3% 0;
-  background-repeat: no-repeat; }
+a:nth-child(2) .fp-CTA {
+  margin: 0 20px; }
 
-.categorypath-men.category-men .mens-seoheader {
-  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Mens-TopLevel.jpg);
-  padding: 3% 0;
-  background-repeat: no-repeat; }
+.fp-CTA img {
+  width: auto; }
 
-.categorypath-kids.category-kids .kids-seoheader {
-  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Kids-TopLevel.jpg);
-  padding: 7.5% 0;
-  background-repeat: no-repeat; }
+@media only screen and (max-width: 1227px) {
+  .fp-low,
+  .fp-low + div {
+    width: 50%; } }
+@media only screen and (max-width: 989px) {
+  .fp-low {
+    width: 100%;
+    display: block; }
 
-.categorypath-accessories.category-accessories .accessories-seoheader {
-  background: url(https://cdn.craghoppers.com/img/AW17/UK/cat/top_level/Accessories-TopLevel.jpg) no-repeat center;
-  padding: 7% 0;
-  background-repeat: no-repeat; }
+  .fp-low .fp-CTA,
+  .fp-CTA img,
+  .fp-topleft,
+  .fp-story {
+    width: 100%; }
 
-.categoryBanner .categoryBanner__image.categoryBanner__image--discovery {
-  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-Discovery.jpg) no-repeat center; }
+  a:nth-child(2) .fp-CTA {
+    margin: 0; }
 
-.categoryBanner .categoryBanner__image.categoryBanner__image--os {
-  background: url(https://cdn.craghoppers.com/img/SS17/UK/cat/top_level/TopLevel-OS.jpg) no-repeat center; }
+  .fp-low + div,
+  .fp-tophero {
+    display: none; }
 
-.s-text-banner p:empty {
-  margin: 0; }
+  .fp-Intro {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 0%;
+    padding: 0 10px; }
+
+  .fp-section {
+    display: block; }
+
+  .fp-story div {
+    margin-left: 0; }
+
+  .fp-story:last-of-type {
+    margin-top: 3%;
+    padding: 0 10px; } }
+/* *********** END *********** */
+/* *********** CHOOSE YOUR ADVENTURE *********** */
+/* choose home */
+.cms-choose-your-adventure .breadcrumbs.c-breadcrumbs,
+.cms-choose-your-adventure-escape .breadcrumbs.c-breadcrumbs,
+.cms-choose-your-adventure-expedition .breadcrumbs.c-breadcrumbs,
+.cms-choose-your-adventure-explore .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
+.cya-main-title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  padding: 3% 0 1% 0;
+  letter-spacing: 3px; }
+
+.cya-main-copy {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 19% 1% 19%;
+  color: #000; }
+
+.cya-title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 40px; }
+
+.cya-subtitle {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 15%;
+  color: #000; }
+
+.cya-copy {
+  font-size: 16px;
+  text-align: center;
+  padding: 4% 14% 3% 14%;
+  color: #000; }
+
+.cya-cta {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 2% 0 5% 0;
+  color: #000; }
+
+.cya-cta span {
+  text-decoration: underline; }
+
+@media screen and (max-width: 1024px) {
+  .flex-item.col-4 {
+    width: 33.32%; }
+
+  .cya-img {
+    min-height: 325px; }
+
+  .cya-subtitle {
+    padding: 0 5%; } }
+@media screen and (max-width: 650px) {
+  .flex-item.col-4 {
+    width: 99.9%;
+    margin: auto; }
+
+  .cya-img {
+    max-width: 375px;
+    margin: auto;
+    padding-top: 8%; }
+
+  .cya-cta {
+    padding: 0 0 5% 0; }
+
+  .cya-main-copy {
+    line-height: 22px; } }
+@media screen and (max-width: 400px) {
+  .flex-item.col-4 {
+    width: 99.9%; }
+
+  .cya-copy {
+    padding: 2%;
+    line-height: 20px; }
+
+  .cya-img {
+    padding-top: 3%;
+    min-height: auto; }
+
+  .cya-main-title {
+    font-size: 28px;
+    padding: 4% 0;
+    letter-spacing: 2px;
+    line-height: 38px; }
+
+  .cya-main-copy {
+    font-size: 15px;
+    padding: 0 2% 1% 2%;
+    line-height: 24px; } }
+/* choose landing */
+.cyal-title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  color: #000;
+  padding-top: 4%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 40px; }
+
+.cyal-subtitle {
+  font-size: 22px;
+  color: #000;
+  padding-bottom: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 26px; }
+
+.cyal-topcopy {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #000;
+  line-height: 32px; }
+
+.cyal-topcopy-expedition {
+  padding: 17% 0 7% 0; }
+
+.cyal-topcopy-explore {
+  padding: 20% 0 7% 0; }
+
+.cyal-topcopy-escape {
+  padding: 13% 0 7% 0; }
+
+.cyal-line {
+  background-color: #000;
+  height: 1px;
+  width: 100%; }
+
+.cyal-bottomcopy {
+  font-size: 16px;
+  color: #000;
+  padding: 7% 13% 0 0;
+  line-height: 22px;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
+
+.cyal-header-mob,
+.cyal-header-tablet {
+  display: none; }
+
+.cyal-main {
+  width: 100%;
+  height: 564px;
+  background-position: center center;
+  background-size: cover; }
+
+.cyal-expedition {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/page/adventure/expedition-desktop.jpg"); }
+
+.cyal-explore {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/page/adventure/explore-desktop.jpg"); }
+
+.cyal-escape {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/page/adventure/escape-desktop.jpg"); }
+
+.cyal-inner {
+  width: 32%;
+  margin: auto; }
+
+.cyal-divide {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 22px;
+  background: #f1e9e1;
+  text-decoration: none;
+  max-width: 100%;
+  text-align: center;
+  margin: 3% 0 2% 0;
+  line-height: 30px; }
+
+.cyal-divide-expedition {
+  padding: 2% 35%; }
+
+.cyal-divide-explore {
+  padding: 2% 30%; }
+
+.cyal-divide-escape {
+  padding: 2% 34%; }
+
+.cyal-arrow {
+  padding-top: 1%;
+  text-align: center; }
+
+.cyal-title2 {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #000; }
+
+.cyal-copy2 {
+  font-size: 18px;
+  text-align: center;
+  padding: 3% 13%;
+  color: #000; }
+
+.cyal-price {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 0 3% 0;
+  color: #000;
+  font-weight: bold; }
+
+.cyal-btn {
+  color: #fff;
+  font-size: 20px;
+  background: #3f413e;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  max-width: 42%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10%; }
+
+.cyal-btn:hover {
+  background: #626561;
+  text-decoration: none; }
+
+.cyal-img {
+  max-width: 445px;
+  margin: auto; }
+
+.cyal-product {
+  min-height: 315px; }
+
+.cyal-product2 {
+  min-height: 285px; }
+
+@media screen and (max-width: 770px) {
+  .cyal-inner {
+    width: 50%; }
+
+  .cyal-divide-expedition,
+  .cyal-divide-explore,
+  .cyal-divide-escape {
+    padding: 2% 20%; }
+
+  .cyal-topcopy-expedition,
+  .cyal-topcopy-explore,
+  .cyal-topcopy-escape {
+    padding: 2% 0 4% 0; }
+
+  .cyal-title2 {
+    font-size: 24px;
+    line-height: 30px; }
+
+  .cyal-copy2 {
+    line-height: 22px;
+    padding: 3% 7%; }
+
+  .cyal-product {
+    min-height: auto; }
+
+  .cyal-header-mob {
+    display: none; }
+
+  .cyal-header-tablet {
+    display: block; }
+
+  .cyal-main {
+    background-image: none;
+    height: auto; }
+
+  .cyal-inner {
+    width: 95%;
+    margin: auto; }
+
+  .cyal-bottomcopy {
+    font-size: 18px;
+    padding: 5% 20% 15px 0;
+    line-height: 20px; }
+
+  .cyal-line {
+    width: 80%; } }
+@media screen and (max-width: 500px) {
+  .cyal-header-mob {
+    display: block; }
+
+  .cyal-header-tablet {
+    display: none; }
+
+  .cyal-main {
+    background-image: none;
+    height: auto; }
+
+  .cyal-topcopy {
+    font-size: 18px;
+    padding: 0 0 5% 0;
+    line-height: 24px; }
+
+  .cyal-line {
+    display: none; }
+
+  .cyal-bottomcopy {
+    line-height: 19px; }
+
+  .cyal-divide {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 3% 5%;
+    margin: 6% 0; }
+
+  .cyal-copy {
+    padding: 5%; }
+
+  .cyal-title2 {
+    line-height: 30px;
+    padding: 0 5%; }
+
+  .cyal-copy2 {
+    font-size: 16px;
+    padding: 3% 5%;
+    line-height: 21px; }
+
+  .cyal-btn {
+    font-size: 17px;
+    padding: 8px 20px; }
+
+  .cyal-img {
+    max-width: 80%; } }
+/* *********** END *********** */
+.plp-fleece {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece.jpg"); }
+
+.plp-trousers {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers.jpg"); }
+
+.plp-jackets {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets.jpg"); }
+
+.plp-shirts {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts.jpg"); }
+
+.plp-headerMens {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Mens.jpg"); }
+
+.plp-headerWomens {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Womens.jpg"); }
+
+.plp-headerKids {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Kids.jpg"); }
 
 .category-view__title {
   margin-bottom: 0;
-  font-family: georgia; }
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .categorypath-men p.category-view__description,
 .categorypath-women p.category-view__description,
 .categorypath-womens p.category-view__description,
 .categorypath-kids p.category-view__description,
-.categorypath-accessories p.category-view__description {
+.categorypath-accessories p.category-view__description,
+.header-customclothing p.category-view__description {
   width: 59%;
   margin-bottom: 0; }
 
-@media only screen and (max-width: 770px) {
-  p.category-view__description {
-    width: 100% !important; } }
+.header-customclothing {
+  padding: 6% 0; }
+
+.plp-header {
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 4.9% 0;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1%; }
+
+.plp-header h1 {
+  text-align: center;
+  color: #000;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  margin-bottom: 2%;
+  line-height: 1;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 300; }
+
+.plp-header a {
+  margin: 0 2%;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.plp-header.plp-toplevel h1 {
+  margin-bottom: 0; }
+
+.plp-header.plp-toplevel {
+  padding: 6.9% 0; }
+
+.category-view__description {
+  width: 100% !important;
+  font-size: 14px; }
+
+@media only screen and (max-width: 700px) {
+  .plp-fleece {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-.jpg"); }
+
+  .plp-trousers {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Trousers.jpg"); }
+
+  .plp-jackets {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Jackets.jpg"); }
+
+  .plp-shirts {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Shirts.jpg"); }
+
+  .plp-headerMens {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Mens.jpg"); }
+
+  .plp-headerWomens {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Womens.jpg"); }
+
+  .plp-headerKids {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Kids.jpg"); }
+
+  .plp-header {
+    padding: 10% 0; }
+
+  .plp-header.plp-toplevel {
+    padding: 13% 0; }
+
+  .plp-header h1 {
+    font-size: 4.6vw; } }
 /* Mobile SEO show/hide */
 .seemore {
   margin: 0 auto;
@@ -3961,10 +4978,27 @@ p.category-view__description.category-description {
 @media only screen and (max-width: 375px) {
   .category-view__title + .category-view__description .gradient {
     margin-top: -12.5%; } }
+/* PLP Show/Hide */
+@media only screen and (max-width: 650px) {
+  .category-view__description {
+    height: auto;
+    overflow: hidden; }
+
+  .category-view__description + button {
+    display: block !important; }
+
+  .category-view__description.active {
+    height: 50px; }
+
+  .category-view__description + button {
+    display: block;
+    margin: 0 auto;
+    background: #000;
+    border: #000;
+    color: #fff;
+    padding: 0.5% 50px;
+    margin-top: 1.5%; } }
 /* END */
-@media only screen and (max-width: 770px) {
-  .categoryBanner {
-    display: none; } }
 /* Protect Liberate Campaign */
 /* Started all classes with pl- so can be dumped in new system */
 .pl-half {
@@ -4272,7 +5306,7 @@ p.pl-text-social {
 @media only screen and (max-width: 550px) {
   .category-view__description.active {
     overflow: hidden;
-    max-height: 36px; }
+    max-height: 50px; }
 
   .category-view__description + button {
     border: 0;
@@ -4293,6 +5327,29 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
   background: #fff; }
 
 /* END */
+/* Lower SEO */
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active {
+  height: 110px;
+  overflow: hidden; }
+
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open {
+  height: auto;
+  overflow: auto; }
+
+.lower-seobttn-container .readmore {
+  padding: 0.5% 0;
+  margin-top: 0.5%; }
+
+/* END */
+/*/////////////////////////*/
+/*    Hides Quick Buy     */
+/*/////////////////////////*/
+.catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+  display: none !important; }
+
+.catalog-category-view .c-product-tile__img-wrapper {
+  margin-bottom: 10px; }
+
 .c-product-size__link {
   font-weight: normal; }
 
@@ -4331,6 +5388,10 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
   font-size: 14px;
   color: #fff; }
 
+.c-product-size__email-link:focus,
+.c-product-size__email-link:hover {
+  color: #717171; }
+
 @media only screen and (max-width: 770px) {
   .c-tabs__tab {
     padding: 1px 30px; } }
@@ -4344,6 +5405,21 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 .old-price .c-price__group {
   margin-top: 1%; }
 
+/* Tabbed boxes highlight */
+.c-tabs__tab.active .c-tabs__tab-link {
+  border-bottom: 8px solid #343334; }
+
+/* END */
+@media only screen and (max-width: 650px) {
+  .page-product-configurable .c-tabs__content .value,
+  .page-product-configurable ol.o-list-stacked.items.review-items,
+  .page-product-configurable .delivery-info.collateral-block,
+  .page-product-configurable #buyingguides .helppagesright {
+    width: 90%;
+    margin: 0 auto; }
+
+  .c-tabs__tab.active .c-tabs__tab-link {
+    border-bottom: 2px solid #343334; } }
 @media only screen and (max-width: 550px) {
   .c-product-details .product-info-price {
     top: 0; } }
@@ -4398,7 +5474,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   margin: 1% 0; }
 
 .mt_sliderTop .mt_title {
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: #343334; }
@@ -4447,27 +5523,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
 /* END */
-/* Tabbed boxes highlight */
-.c-tabs__tab.active .c-tabs__tab-link {
-  border-bottom: 8px solid #343334; }
-
-/* END */
-/* UTC Fonts */
-@font-face {
-  font-family: 'Montserrat-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
-@font-face {
-  font-family: 'Montserrat-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
-@font-face {
-  font-family: 'Montserrat-Light';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
-@font-face {
-  font-family: 'Montserrat-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
 /* Trouser Campaign Styles */
 .trou-vid-title {
-  font-family: georgia;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 32px;
   letter-spacing: 7px;
   padding: 3% 0;
@@ -4483,7 +5541,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .trou-vid-button-mens,
 .trou-vid-button-womens,
 .trou-vid-button-kids {
-  font-family: Arial;
   color: #fff;
   font-size: 16px;
   background: #000;
@@ -4535,7 +5592,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .trou-title {
   color: #fff;
-  font-family: georgia;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 37px;
   padding: 79px 0 0 334px;
@@ -4548,7 +5605,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   line-height: 24px; }
 
 .trou-box-title {
-  font-family: georgia;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 27px;
   text-transform: uppercase;
   text-align: center;
@@ -4699,7 +5756,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
   .trou-title-mob {
     color: #fff;
-    font-family: georgia;
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 27px;
     padding: 20% 0 0 40%;
@@ -4714,174 +5771,250 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .flex-item.col-4.trou-column {
     width: 100%; } }
 /* END */
-/* Insect Repellent Collection Dump */
-.cms-insect-repellent-collection .wrapper {
-  display: inline-block;
-  max-width: 1228px; }
-.cms-insect-repellent-collection .hero-irc {
-  background-image: url("https://d1khwdv4lze0nb.cloudfront.net/images/SS16/US/Collection+Assets/IS_MainImage_1140x400px.jpg");
-  height: 400px;
-  background-size: cover; }
-.cms-insect-repellent-collection .wrapper > *,
-.cms-insect-repellent-collection .row-10 > * {
-  float: left; }
-.cms-insect-repellent-collection .row-10 {
-  width: 100%; }
-.cms-insect-repellent-collection .row-8 {
-  width: 80%; }
-.cms-insect-repellent-collection .row-7 {
-  width: 70%; }
-.cms-insect-repellent-collection .row-5 {
-  width: 50%; }
-.cms-insect-repellent-collection .row-3 {
-  width: 30%; }
-.cms-insect-repellent-collection .row-2 {
-  width: 20%; }
-.cms-insect-repellent-collection .row-3 a {
-  border: 2px solid #000;
-  width: 100%;
-  float: left;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 3%;
-  padding: 2% 0;
-  font-size: 16px; }
-.cms-insect-repellent-collection .hero-button {
-  padding: 0 1%; }
-.cms-insect-repellent-collection .hero-info {
-  padding: 1.5%; }
-.cms-insect-repellent-collection .row-clear {
-  border-bottom: 1px solid #000;
-  margin-bottom: 2%; }
-.cms-insect-repellent-collection .hero-product {
-  padding: 1.3% 2%; }
-.cms-insect-repellent-collection .row-5 a {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  border: 2px solid #000;
-  padding: 0.5% 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  margin-bottom: 6%;
-  font-size: 16px;
-  margin-top: 2%; }
-.cms-insect-repellent-collection .row-paddingleft {
-  padding-left: 1%; }
-.cms-insect-repellent-collection .row-paddingright {
-  padding-right: 1%; }
-.cms-insect-repellent-collection .section-clear {
-  border: 1px solid;
-  margin-bottom: 4%; }
-.cms-insect-repellent-collection .tech-padding {
-  padding: 0 2.5%; }
-.cms-insect-repellent-collection .hero_hover {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: none;
-  position: relative; }
-.cms-insect-repellent-collection .row-10.hero-irc:hover .hero_hover {
-  display: block; }
-.cms-insect-repellent-collection .hero_hover a {
-  width: 100%;
-  height: 100%;
-  display: table;
-  text-decoration: none; }
-.cms-insect-repellent-collection .play-buttoncontainer {
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell; }
-.cms-insect-repellent-collection .play-buttoncontainer span {
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
-  background: #494949;
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 0 auto;
-  line-height: 51px;
-  background: -moz-linear-gradient(top, #7f7f7f 1%, #494949 100%);
-  background: -webkit-linear-gradient(top, #7f7f7f 1%, #494949 100%);
-  background: linear-gradient(to bottom, #7f7f7f 1%, #494949 100%); }
-.cms-insect-repellent-collection .play-buttoncontainer span p {
-  width: 0px;
-  border-top: 8px solid transparent;
-  border-left: 12px solid #fff;
-  border-bottom: 8px solid transparent;
-  margin: 0 auto;
-  top: 17px;
-  position: relative; }
-.cms-insect-repellent-collection .hero-tech {
-  position: absolute; }
-.cms-insect-repellent-collection .hero-product ul li {
-  list-style-type: none; }
-.cms-insect-repellent-collection .hero-product ul {
-  margin-left: 3%; }
-.cms-insect-repellent-collection .hero-product p:first-child,
-.cms-insect-repellent-collection .tech-padding h3 {
-  font-size: 1.5em;
-  margin-bottom: 2%; }
-.cms-insect-repellent-collection .hero-info h1 {
-  line-height: 1.5; }
-.cms-insect-repellent-collection .row-3 a:hover,
-.cms-insect-repellent-collection .row-5 a:hover {
-  background: #000;
-  color: #fff; }
-.cms-insect-repellent-collection .hero-product li strong {
-  font-size: 15px;
-  text-transform: uppercase; }
+.cms-the-honesty-project .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-our-mantra .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-responsible-sourcing .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-our-employees .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-modern-slavery .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-social-impact-programmes .breadcrumbs.c-breadcrumbs,
+.cms-the-honesty-project-the-environment .breadcrumbs.c-breadcrumbs {
+  display: none; }
 
-@media only screen and (max-width: 550px) {
-  .cms-insect-repellent-collection .row-7 {
-    width: 100%; }
-  .cms-insect-repellent-collection .row-5 {
-    width: 100%; }
-  .cms-insect-repellent-collection .row-3 {
-    width: 100%; }
-  .cms-insect-repellent-collection .row-paddingleft,
-  .cms-insect-repellent-collection .row-paddingright {
-    padding: 0; }
-  .cms-insect-repellent-collection .hero_hover {
-    display: block; }
-  .cms-insect-repellent-collection .hero-button a:last-child {
-    margin-bottom: 2%; }
-  .cms-insect-repellent-collection .row-clear {
-    margin: 3% 0; }
-  .cms-insect-repellent-collection .hero-product p {
-    margin-top: 1%; }
-  .cms-insect-repellent-collection .hero-product img {
-    width: 100% !important; }
-  .cms-insect-repellent-collection .row-5 a {
-    margin-bottom: 2%; }
-  .cms-insect-repellent-collection .row-paddingright a {
-    margin-bottom: 0; } }
-/* END */
-/* US Banners */
-.categorypath-men.category-men .mens-seoheader,
-.categorypath-women.category-women .womens-seoheader {
-  padding: 6.8% 0; }
+.honesty-project {
+  /* HP Social Impact Programmes Start*/
+  /* HP Social Impact Programmes End*/
+  /* HP Homepage Start*/
+  /* HP Homepage End*/
+  /* HP Responsible Sourcing Start*/
+  /* HP Responsible Sourcing End */
+  /* HP Our Employees Start*/
+  /* HP Our Employees End*/
+  /* HP Our Mantra Start*/
+  /* HP Our Mantra Start*/
+  /* HP The Environment Start */
+  /* HP The Environment End */ }
+  .honesty-project .hp-back a {
+    color: black;
+    font-weight: bold; }
+  .honesty-project .header-badge {
+    width: 100%;
+    /*max-width: 500px;*/
+    margin: 0 auto;
+    text-align: center;
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 1.3;
+    padding: 1% 0;
+    margin-bottom: 3%;
+    color: #fff; }
+  .honesty-project .hp-maroon {
+    background: #802023;
+    max-width: 550px; }
+  .honesty-project .hp-green {
+    background: #6c6c4d;
+    max-width: 450px; }
+  .honesty-project .hp-darkgrey {
+    background: #3e413e;
+    max-width: 330px; }
+  .honesty-project .hp-blue {
+    background: #294347;
+    max-width: 330px; }
+  .honesty-project p,
+  .honesty-project ul,
+  .honesty-project h4 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 775px;
+    margin-bottom: 1.2%;
+    color: #000; }
+  .honesty-project h4 {
+    text-align: center;
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    color: #000; }
+  .honesty-project ul,
+  .honesty-project ol {
+    list-style-type: disc;
+    list-style-position: inside; }
+  .honesty-project img {
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 1.2%;
+    max-width: 100%; }
+  .honesty-project .hp-grey {
+    background-color: #8996a2;
+    max-width: 570px; }
+  .honesty-project .hp-white {
+    color: #ffffff;
+    margin-bottom: 5%; }
+  .honesty-project .sip-rhep-img {
+    max-width: 190px;
+    margin-right: 20px;
+    margin: auto; }
+  .honesty-project .sip-bpf-img {
+    max-width: 130px;
+    margin-right: 3%;
+    margin: auto; }
+  .honesty-project .hp-list {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5; }
+  .honesty-project .sip-img {
+    text-align: center;
+    margin: auto; }
+  .honesty-project .sip-img-impacting {
+    max-width: 388px;
+    padding: 2% 0; }
+  .honesty-project .sip-img-meal {
+    max-width: 371px;
+    padding: 1.5% 0 4% 0; }
+  .honesty-project .sip-img-reaching {
+    max-width: 526px;
+    padding: 4.5% 0 3% 0; }
+  .honesty-project .sip-container {
+    max-width: 775px;
+    margin: auto; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .sip-rhep-img,
+    .honesty-project .sip-bpf-img {
+      max-width: 20%;
+      margin: 0 auto; } }
+  .honesty-project .honesty-project-img {
+    padding-bottom: 25px; }
+  .honesty-project .block-container {
+    padding-bottom: 20px; }
+  .honesty-project .clear {
+    clear: both; }
+  .honesty-project .block-inner {
+    height: 220px;
+    margin-top: 1.5%;
+    display: table;
+    width: 32.33%;
+    float: left;
+    margin: 0.7% 0.5%; }
+  .honesty-project .block-title {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 32px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 6%; }
+  .honesty-project .block-1 {
+    background-color: #3e413e; }
+  .honesty-project .block-2 {
+    background-color: #f4ae28; }
+  .honesty-project .block-3 {
+    background-color: #294347; }
+  .honesty-project .block-4 {
+    background-color: #802023; }
+  .honesty-project .block-5 {
+    background-color: #8996a2; }
+  .honesty-project .block-6 {
+    background-color: #6c6c4d; }
+  @media screen and (max-width: 800px) {
+    .honesty-project .honesty-project-img {
+      max-width: 65%;
+      margin: auto; }
+    .honesty-project .block-title {
+      line-height: 30px;
+      font-size: 25px; }
+    .honesty-project .block-inner {
+      width: 48%;
+      margin: 1% 1%; } }
+  @media screen and (max-width: 440px) {
+    .honesty-project .block-middle {
+      margin-left: 0;
+      margin-right: 0; }
+    .honesty-project .block-inner {
+      float: none;
+      width: 100%;
+      margin: 1% 0; } }
+  .honesty-project .hp-yellow {
+    background-color: #f4ae28;
+    max-width: 470px; }
+  .honesty-project .rs-rhep-img {
+    max-width: 190px;
+    margin-right: 3%;
+    margin: auto; }
+  .honesty-project .rs-bpf-img {
+    max-width: 130px;
+    margin-right: 3%;
+    margin: auto; }
+  .honesty-project .hp-list {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5; }
+  .honesty-project .rs-img {
+    text-align: center;
+    margin: auto; }
+  .honesty-project .rs-img-1 {
+    max-width: 373px;
+    padding: 0 0 3% 0; }
+  .honesty-project .rs-img-2 {
+    max-width: 630px;
+    padding: 3% 0; }
+  .honesty-project .rs-img-3 {
+    max-width: 436px;
+    padding: 3% 0; }
+  .honesty-project .rs-img-4 {
+    max-width: 447px;
+    padding: 3% 0; }
+  .honesty-project .rs-img-5 {
+    max-width: 601px;
+    padding: 3% 0 5% 0; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .rs-rhep-img,
+    .honesty-project .rs-bpf-img {
+      max-width: 20%;
+      margin: 0 auto; }
+    .honesty-project .rs-img-1,
+    .honesty-project .rs-img-3 {
+      max-width: 50%; } }
+  .honesty-project .hp-no-list {
+    list-style-position: inside;
+    margin: auto 0;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5;
+    max-width: 775px; }
+  .honesty-project .oe-img {
+    padding: 3% 0; }
+  @media screen and (max-width: 770px) {
+    .honesty-project .oe-img {
+      width: 60%;
+      margin: auto; } }
+  .honesty-project .hp-list-mantra {
+    list-style-position: inside;
+    padding: 0;
+    font-size: 1.14286rem;
+    line-height: 1.5;
+    max-width: 775px;
+    margin: auto;
+    color: #000; }
+  .honesty-project .hp-env1 {
+    padding: 4% 0 3% 0; }
+  .honesty-project .hp-env2 {
+    padding: 2% 0; }
+  .honesty-project .hp-bold {
+    font-weight: bold;
+    font-size: 1.14286rem; }
+  .honesty-project a.honesty-pdf {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold; }
 
-/* END */
-/* US Checkout Changes */
-#checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
-  display: none !important; }
-
-.c-footer__payment-icons {
-  width: 125px !important; }
-
-#checkout .c-box-option__radio:checked + .c-box-option__inner .c-box-option__sub-title {
-  opacity: 0; }
-
-.c-basket__payment-icons {
-  background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important; }
-
-/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
@@ -4963,6 +6096,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 
 .mm__column--img img {
   width: 100%; }
+
+.s-main-menu .block {
+  z-index: 3; }
 
 @media only screen and (max-width: 1227px) {
   .megamenu-split .menu-split:last-of-type {
@@ -5149,5 +6285,501 @@ li.dropdown.dropdown--red a {
   font-weight: 700; }
 
 /* END */
+/* Clearance nav */
+.dropdown.clearance li a {
+  background: transparent; }
+
+@media only screen and (min-width: 700px) {
+  .dropdown.clearance li a {
+    padding: 0 !important; } }
+.dropdown.clearance div a.ui-menu-back {
+  background: transparent;
+  color: #000 !important;
+  padding-left: 20px !important; }
+
+.s-main-menu .categories ul.mm__column li.mm-main-clearance a {
+  color: #880015 !important; }
+
+/* END */
+/* SS18 Updates */
+.collectionItem img {
+  width: 100%; }
+
+.mmColumnCollection {
+  display: flex;
+  flex-wrap: wrap; }
+
+.collectionItem {
+  width: 100%;
+  max-width: 225px;
+  position: relative;
+  margin-bottom: 1.2%; }
+
+.collectionItem:nth-child(3),
+.collectionItem:nth-child(6) {
+  margin: 0 12px; }
+
+.collection-title {
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.collection-title-vertical {
+  color: #fff;
+  text-align: center;
+  padding: 29% 0; }
+
+.s-main-menu .block .category-items ul.mmColumn {
+  width: 20%; }
+
+.s-main-menu .block .category-items ul.mmColumn.mmColumnCollection {
+  width: 60%; }
+
+.columnHead {
+  text-align: left; }
+
+.mmColumnCollection .columnHead {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%; }
+
+.s-main-menu .block .category-items .mmColumn a {
+  padding: 2px 0; }
+
+.mmColumn:first-of-type + .mmColumn.mmColumnCollection {
+  float: right; }
+
+.s-main-menu .block .category-items .mmColumn a:hover {
+  color: #010001; }
+
+.collection-minsect {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensInsectProtectiveClothing.jpg); }
+
+.collection-mutc {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensUTC.jpg); }
+
+.collection-moutdoor {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensOutdoorProtection.jpg); }
+
+.collection-mdofe {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensDofE.jpg); }
+
+.collection-msun {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensSunProtective.jpg); }
+
+.collection-mdiscovery {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensDiscovery.jpg); }
+
+.collection-winsect {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensInsectProtective.jpg); }
+
+.collection-wutc {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensUTC.jpg); }
+
+.collection-woutdoor {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensOutdoorProtection.jpg); }
+
+.collection-wdofe {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensDofE.jpg); }
+
+.collection-wsun {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensSunProtective.jpg); }
+
+.collection-wdiscovery {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensDiscovery.jpg); }
+
+.collection-kinsect {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsInsectProtective.jpg); }
+
+.collection-ksun {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsSunProtective.jpg); }
+
+.collection-kdiscovery {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg); }
+
+/* ambassadors */
+.ambass-coyote {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-CoyotePeterson.jpg); }
+
+.ambass-kevin {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-KevinRichardson.jpg); }
+
+.ambass-woods {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-WoodsWheatcroft.jpg); }
+
+.ambass-felix {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-FelixNdagijimana.jpg); }
+
+.ambass-tasmin {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-TamsinJones.jpg); }
+
+.ambass-faruk {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-FarukAkbas.jpg); }
+
+.ambass-claire {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-ClaireAspinall.jpg); }
+
+.ambass-david {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-DavidLove.jpg); }
+
+.ambass-brandon {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-BrandonEckroth.jpg); }
+
+.ambass-louisa {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-DrLouisaPreston.jpg); }
+
+.s-main-menu .categories > li .mmColumn .ambassadorHero a {
+  color: #fff;
+  text-align: center;
+  padding: 40% 0px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.s-main-menu .categories > li .mmColumn .ambassadorHero a:hover {
+  color: #fff; }
+
+.s-main-menu .categories > li .mmColumn .collectionItem a {
+  color: #fff;
+  text-align: center;
+  padding: 29% 0px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.s-main-menu .categories > li .mmColumn .collectionItem a:hover {
+  color: #fff; }
+
+@media only screen and (max-width: 1227px) {
+  .collectionItem {
+    max-width: 180px; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
+    padding: 27% 0;
+    line-height: 1; } }
+@media only screen and (max-width: 989px) {
+  .collectionItem:nth-child(even),
+  .collectionItem:nth-child(odd) {
+    margin: 0; }
+
+  .collectionItem {
+    max-width: 100%; }
+
+  .collectionItem img {
+    display: none; }
+
+  .collection-title-vertical {
+    text-align: left;
+    padding: 0;
+    color: #000; }
+
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn {
+    width: 33.33% !important; }
+
+  .mmColumnCollection .columnHead {
+    margin-top: 5%; }
+
+  .s-main-menu .block .category-items .mmColumn.techColumn {
+    width: 25% !important; }
+
+  .collectionItem {
+    background: none;
+    padding: 0; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    color: #343334;
+    text-align: left; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
+    background: none;
+    padding: 0; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
+    color: #343334; }
+
+  .s-main-menu .categories > li .mmColumn .ambassadorHero a {
+    background: none;
+    color: #343334;
+    padding: 0;
+    text-align: left; }
+
+  .s-main-menu .categories > li .mmColumn .ambassadorHero a:hover {
+    color: #343334; } }
+@media only screen and (max-width: 700px) {
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn.techColumn {
+    width: 100% !important; }
+
+  .collectionItem {
+    max-width: 100%; }
+
+  .collectionItem img {
+    display: none; }
+
+  .s-main-menu .block .category-items div.collection-title,
+  .s-main-menu .block .category-items div.collection-title-vertical {
+    display: block; }
+
+  .collection-title {
+    position: relative; }
+
+  .s-main-menu .block .category-items div.collection-title-vertical {
+    text-align: left; }
+
+  .collectionItem:nth-child(odd) {
+    margin: 0; }
+
+  .s-main-menu .categories > li .expanded li a {
+    line-height: 3; }
+
+  .columnHead,
+  .mmColumnCollection .columnHead {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline; }
+
+  .columnHead {
+    margin-left: 10px; }
+
+  .collection-title-vertical {
+    color: #343334; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    line-height: 3 !important; } }
+.ambassadorHero {
+  width: 100%;
+  max-width: 125px;
+  position: relative;
+  margin-left: 12px;
+  margin-bottom: 1.2%; }
+
+.ambassadorHero:nth-child(2),
+.ambassadorHero:nth-child(7) {
+  margin-left: 0; }
+
+.s-main-menu .categories > li .mmColumn a {
+  text-align: left; }
+
+.ambassadorHero img {
+  width: 100%; }
+
+@media only screen and (max-width: 1227px) {
+  .ambassadorHero {
+    max-width: 100px;
+    line-height: 1.2; } }
+@media only screen and (max-width: 989px) {
+  .ambassadorHero {
+    max-width: 100%;
+    margin-left: 0;
+    line-height: 2; }
+
+  .ambassadorHero img {
+    display: none; } }
+/* Insect Repellent Collection Dump */
+.cms-insect-repellent-collection .wrapper {
+  display: inline-block;
+  max-width: 1228px; }
+.cms-insect-repellent-collection .hero-irc {
+  background-image: url("https://d1khwdv4lze0nb.cloudfront.net/images/SS16/US/Collection+Assets/IS_MainImage_1140x400px.jpg");
+  height: 400px;
+  background-size: cover; }
+.cms-insect-repellent-collection .wrapper > *,
+.cms-insect-repellent-collection .row-10 > * {
+  float: left; }
+.cms-insect-repellent-collection .row-10 {
+  width: 100%; }
+.cms-insect-repellent-collection .row-8 {
+  width: 80%; }
+.cms-insect-repellent-collection .row-7 {
+  width: 70%; }
+.cms-insect-repellent-collection .row-5 {
+  width: 50%; }
+.cms-insect-repellent-collection .row-3 {
+  width: 30%; }
+.cms-insect-repellent-collection .row-2 {
+  width: 20%; }
+.cms-insect-repellent-collection .row-3 a {
+  border: 2px solid #000;
+  width: 100%;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 3%;
+  padding: 2% 0;
+  font-size: 16px; }
+.cms-insect-repellent-collection .hero-button {
+  padding: 0 1%; }
+.cms-insect-repellent-collection .hero-info {
+  padding: 1.5%; }
+.cms-insect-repellent-collection .row-clear {
+  border-bottom: 1px solid #000;
+  margin-bottom: 2%; }
+.cms-insect-repellent-collection .hero-product {
+  padding: 1.3% 2%; }
+.cms-insect-repellent-collection .row-5 a {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 0.5% 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 6%;
+  font-size: 16px;
+  margin-top: 2%; }
+.cms-insect-repellent-collection .row-paddingleft {
+  padding-left: 1%; }
+.cms-insect-repellent-collection .row-paddingright {
+  padding-right: 1%; }
+.cms-insect-repellent-collection .section-clear {
+  border: 1px solid;
+  margin-bottom: 4%; }
+.cms-insect-repellent-collection .tech-padding {
+  padding: 0 2.5%; }
+.cms-insect-repellent-collection .hero_hover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: relative; }
+.cms-insect-repellent-collection .row-10.hero-irc:hover .hero_hover {
+  display: block; }
+.cms-insect-repellent-collection .hero_hover a {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-decoration: none; }
+.cms-insect-repellent-collection .play-buttoncontainer {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell; }
+.cms-insect-repellent-collection .play-buttoncontainer span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  background: #494949;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  line-height: 51px;
+  background: -moz-linear-gradient(top, #7f7f7f 1%, #494949 100%);
+  background: -webkit-linear-gradient(top, #7f7f7f 1%, #494949 100%);
+  background: linear-gradient(to bottom, #7f7f7f 1%, #494949 100%); }
+.cms-insect-repellent-collection .play-buttoncontainer span p {
+  width: 0px;
+  border-top: 8px solid transparent;
+  border-left: 12px solid #fff;
+  border-bottom: 8px solid transparent;
+  margin: 0 auto;
+  top: 17px;
+  position: relative; }
+.cms-insect-repellent-collection .hero-tech {
+  position: absolute; }
+.cms-insect-repellent-collection .hero-product ul li {
+  list-style-type: none; }
+.cms-insect-repellent-collection .hero-product ul {
+  margin-left: 3%; }
+.cms-insect-repellent-collection .hero-product p:first-child,
+.cms-insect-repellent-collection .tech-padding h3 {
+  font-size: 1.5em;
+  margin-bottom: 2%; }
+.cms-insect-repellent-collection .hero-info h1 {
+  line-height: 1.5; }
+.cms-insect-repellent-collection .row-3 a:hover,
+.cms-insect-repellent-collection .row-5 a:hover {
+  background: #000;
+  color: #fff; }
+.cms-insect-repellent-collection .hero-product li strong {
+  font-size: 15px;
+  text-transform: uppercase; }
+
+@media only screen and (max-width: 550px) {
+  .cms-insect-repellent-collection .row-7 {
+    width: 100%; }
+  .cms-insect-repellent-collection .row-5 {
+    width: 100%; }
+  .cms-insect-repellent-collection .row-3 {
+    width: 100%; }
+  .cms-insect-repellent-collection .row-paddingleft,
+  .cms-insect-repellent-collection .row-paddingright {
+    padding: 0; }
+  .cms-insect-repellent-collection .hero_hover {
+    display: block; }
+  .cms-insect-repellent-collection .hero-button a:last-child {
+    margin-bottom: 2%; }
+  .cms-insect-repellent-collection .row-clear {
+    margin: 3% 0; }
+  .cms-insect-repellent-collection .hero-product p {
+    margin-top: 1%; }
+  .cms-insect-repellent-collection .hero-product img {
+    width: 100% !important; }
+  .cms-insect-repellent-collection .row-5 a {
+    margin-bottom: 2%; }
+  .cms-insect-repellent-collection .row-paddingright a {
+    margin-bottom: 0; } }
+/* END */
+/* US Banners */
+.categorypath-men.category-men .mens-seoheader,
+.categorypath-women.category-women .womens-seoheader {
+  padding: 6.8% 0; }
+
+/* END */
+/* US Checkout Changes */
+#checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
+  display: none !important; }
+
+.c-footer__payment-icons {
+  width: 125px !important; }
+
+#checkout .c-box-option__radio:checked + .c-box-option__inner .c-box-option__sub-title {
+  opacity: 0; }
+
+.c-basket__payment-icons {
+  background: url(https://cdn.craghoppers.com/img/AW17/US/misc/payment_types/payment-icons-us.jpg) no-repeat !important; }
+
+/* END */
+/* Slider update */
+.cms-homepage-promo-grid-ch-us .o-region__inner.column.main,
+.cms-homepage-promo-grid-ch-us .o-region__inner.s-promo-grid {
+  width: 100%; }
+.cms-homepage-promo-grid-ch-us section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+  max-width: 100%; }
+.cms-homepage-promo-grid-ch-us section.pageSection.pageSection--fullWidth.pageSection--noTitle.pageBanner--desktop {
+  margin: 0 auto;
+  float: none; }
+
+li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
+  background: #000 !important; }
+
+/* END */
+/* Mega menu */
+.collection-mrfid {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/RFID.jpg); }
+
+.collection-mrecycled {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/Recycled.jpg); }
+
+.collection-wrfid {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WRFID.jpg); }
+
+.collection-wrecycled {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WRecycled.jpg); }
+
+/*END*/
 
 /*# sourceMappingURL=styles-us.css.map */

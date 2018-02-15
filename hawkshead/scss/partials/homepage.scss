@@ -182,7 +182,7 @@ p.collectionhighlights__hoverstate--header {
   margin: 4% 0 0 0;
   letter-spacing: 5px;
   position: relative;
-  font-family: 'Garamond-Regular';
+  font-family: 'Garamond-Bold';
 }
 
 .sectiontext {
@@ -841,6 +841,9 @@ p.collectionhighlights__hoverstate--header {
   .favourites__overlay {
     display: block;
   }
+  .favourites__buttons {
+    font-size: 15px;
+  }
 
 }
 
@@ -1050,7 +1053,7 @@ p.collectionhighlights__hoverstate--header {
 
 @media screen and (max-width:500px) {
   .sliderfullwidth__container {
-      margin-top: 40%;
+      margin-top: 25%;
   }
 
   .sliderfullwidth__container.newadventures {
@@ -1059,6 +1062,9 @@ p.collectionhighlights__hoverstate--header {
 
   .newadventures .slidersubtext--second {
     font-size: 3vw;
+  }
+  .sliderheader{
+    letter-spacing: 3px;
   }
 
 }
@@ -1139,4 +1145,113 @@ p.collectionhighlights__hoverstate--header {
 
 }
 
+/* END */
+
+/* Sale */
+.fourblocks-sale{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.3);
+    top: 0;
+}
+.fourblocks__container {
+    position: relative;
+}
+.fourblocks-SaleCopy {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 67%;
+    font-size: 20px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+} 
+/* END */
+
+/* Slider Full Width */
+.cms-homepage-promo-grid-hh-uk{
+
+  .o-region__inner.column.main,
+  .o-region__inner.s-promo-grid {
+    width: 100%;
+  }
+
+  section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
+    max-width: 100%;
+  }
+
+  section.pageSection.pageSection--fullWidth.pageSection--noTitle.pageBanner--desktop {
+    margin: 0 auto;
+    float: none;
+  }
+
+}
+
+ .pageSection--thirds {
+    margin-top: 1.75%;
+}
+
+ .slider-replace{
+  position:relative;
+}
+
+ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
+    width: 250px;
+}
+
+ .bannerOverlay__contentArea--slider {
+    padding-bottom: 4%;
+}
+
+ .sliderstrip__desktop {
+    margin-bottom: -1%;
+}
+
+ .c-page-wrapper {
+    padding: 0;
+}
+
+ .sliderbutton {
+    padding: 0;
+}
+ .sliderstrip__desktop {
+    margin: 0;
+}
+
+.fullWidthSlider__slide.pageBanner__image {
+    display: block;
+}
+
+@media only screen and (max-width:1028px){
+   .sliderstrip__desktop {
+    margin-bottom: -2%;
+  }
+  
+}
+
+@media only screen and (max-width:740px){
+  .sliderstrip__desktop {
+    display: none !important;
+  }
+  
+  .sliderstrip__desktop.sliderstrip__desktop--mobile{
+    display: block !important;
+    background:#C72123;
+  }
+  
+}   
+
+@media only screen and (max-width:650px){
+  .sliderbutton--thirds {
+      width: 50%;
+  }
+}
+/* END */
+
+
+/* Mobile slider Blue Background */
+.blue-background-mobile {
+    background-color: #85aedc !important;
+}
 /* END */

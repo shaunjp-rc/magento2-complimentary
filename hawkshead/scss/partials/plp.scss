@@ -68,33 +68,24 @@
 }
 /* END */
 
-/* Roundals */
-#monVars { position: relative;}
-.roundel {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-    background: #F93E49;
-    max-width: 53px;
-    padding: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 30px;
-    color: #ffffff;
-    display:block !important;
-}
-
-#product-roundel.percent-off{
-    background: #F93E49;
-    max-width: 53px;
-    padding: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 30px;
-    color: #ffffff;
-    display: block !important;
-    float: right;
+/* roundel removal on plp */
+div#monVars.roundelhide {
+    display: none !important;
 }
 /* END */
+
+.page-products .c-breadcrumbs {
+    margin-bottom: 0;
+}
+
+
+/*/////////////////////////*/
+/*    Hides Quick Buy     */
+/*/////////////////////////*/
+.catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+ display: none !important;
+ }
+
+.catalog-category-view .c-product-tile__img-wrapper {
+  margin-bottom: 10px;
+}

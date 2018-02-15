@@ -1,3 +1,23 @@
+/* UK/US Stock issue */
+var stockInt = setInterval(function(){
+
+  if(document.querySelectorAll('.c-product-size__link').length > 0){
+    if (typeof dataLayer.disable !== 'undefined') {
+      var disable = dataLayer.disable.toString();
+      var disableds = disable.split(",");
+
+      for (let i = 0; i < disableds.length; i++) {
+        disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+        disabled.parentElement.removeChild(disabled);
+      }
+
+      clearInterval(stockInt);
+    }
+  }
+
+}, 1000); // end timeout
+/* END */
+
 /* delivery and returns tabs */
 function rlTabs(){
   var nodeList = document.body.querySelectorAll("[data-action='tab']");
@@ -81,38 +101,69 @@ function mobileSEO(){
 }
 /* END */
 
+/* Feefo Reviews Page */
+function feefoReviews(){
+  (function (w) {
+    var feefoWidgetScript = document.createElement('script');
+    feefoWidgetScript.setAttribute('async', 'async');
+    feefoWidgetScript.setAttribute('src', '//register.feefo.com/feefo-widget/js/feefo-widget.js');
+    feefoWidgetScript.setAttribute('type', 'text/javascript');
+    feefoWidgetScript.onload = function () {
+      if (typeof w.feefoWidgetInstance === 'undefined') {
+        w.feefoWidgetInstance = feefoWidget({
+          assetUrl: '//register.feefo.com/feefo-widget',
+          debug: false,
+          hosts: {
+            api: 'api.feefo.com/api',
+            widget: 'register.feefo.com'
+          },
+          merchantId: 'craghoppers-uk',
+          protocol: 'https',
+          source: 'javascript',
+          tags: '',
+          externalCta: ''
+        });
+      }
+    };
+    document.head.appendChild(feefoWidgetScript);
+  })(window);
+}
+/* END */
+
+/* Category lower SEO show/hide */
+function lowerseo(){
+  jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner').addClass('active');
+  jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active').after('<div class="lower-seobttn-container"><a><div class="readmore">Read more</div></a></div>');
+  jQuery('.lower-seobttn-container').click(function(){
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active').toggleClass('open');
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active + .lower-seobttn-container .readmore').html('Read more');
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open + .lower-seobttn-container .readmore').html('Read less');
+  });
+}
+/* END */
 
 /*
-	Craghoppers specific JS snippets
+  Craghoppers specific JS snippets
  */
-
 requirejs(['jquery'], function( $ ) {
-
-
-var $j = jQuery.noConflict();
-
-$j(document).ready(function($) {
-
-
+  var $j = jQuery.noConflict();
+  $j(document).ready(function($) {
+  //////////////////////////////////  
+  //DONT ADD ANY JQUERY ABOVE HERE//
+  //////////////////////////////////  
   // Flexslider init
   if ($j('.flexslider').length) {
     setTimeout(function(){
-          $j('.flexslider').flexslider();
-        }, 500);
+      $j('.flexslider').flexslider();
+    }, 500);
   }
 
-  
-
-
-    
 
 
   // Homepage Recs
-
   if ($j('body').hasClass('cms-index-index')) {
     var getLastTopCat = localStorage.getItem('lastTopCatVisit'),
         getLastSubCat = localStorage.getItem('lastSubCatVisit');
-
     if (getLastTopCat === 'Men' && getLastSubCat === 'Jackets') {
       $j('.pageSection__homepageRecs').addClass('pageSection__homepageRecs--Men-Jackets').removeClass('pageSection__homepageRecs');
     } else if (getLastTopCat === 'Women' && getLastSubCat === 'Jackets') {
@@ -120,143 +171,24 @@ $j(document).ready(function($) {
     }
   }
 
-
   // Adds a class to body for easy targetting of Kit Guide results pages
-
   if ($j('.kitGuideResultsContainer').length) {
     $j('body').addClass('kitGuideResultsPage');
   }
 
-
-  // Welcome Back Basket Message
-
-  //set up some variables to check value of to decide if message should show or not
-  var numInBasket = $j('.header-minicart .count').text();
-  var wbbCookie = getCookie('welcomeBackBasket');
-  var wbbReferrer = document.referrer;
-
-  //make sure message only shows if there is something in customers basket, they dont have the cookie, they haven't come from another page on site, and they arent returning directly to basket or checkout pages
-  if (numInBasket != 0 && wbbCookie != 'true' && wbbReferrer.indexOf("craghoppers.com") < 0 && window.location.pathname != "/checkout/cart/" && window.location.pathname != "/checkout/onepage/") {
-
-    //create block for message
-    var welcomeBackBasketBox = $j('<div id="welcomeBackBasketBox"><h3>Welcome Back <span class="welcomeBackBasketBox__close">X</span></h3><p>Last time you were here you added ' + numInBasket + ' items to your basket:</p><table class="welcomeBackBasketBox__items"></table><span class="welcomeBackBasketBox__extraItems"></span><span class="welcomeBackBasketBox__button welcomeBackBasketBox__close">Continue Shopping</span><a class="welcomeBackBasketBox__button welcomeBackBasketBox__button--basket" href="/checkout/cart/">Go to Basket</a></div>');
-  
-    //attach block to body on page load
-    $j('body').append(welcomeBackBasketBox);  
-
-    //scrape mini cart for product image and name and then create table cells to put them in before appending it to the table in welcomeBackBasketBox
-    var wbBasketContents = $j('.mini-products-list li:nth-child(-n+2)').each(function(){
-          var wbBasketImg = $j(this).find('img').clone();
-          var wbBasketTitle = $j(this).find('.product-name').clone();
-
-          var wbBasketCell1 = $j('<td class="wbc1"></td>');
-          var wbBasketCell2 = $j('<td class="wbc2"></td>');
-          var wbBasketRow = $j('<tr></tr>');
-
-          wbBasketImg.appendTo(wbBasketCell1);
-          wbBasketTitle.appendTo(wbBasketCell2);
-
-          wbBasketCell1.appendTo(wbBasketRow);
-          wbBasketCell2.appendTo(wbBasketRow);
-
-          wbBasketRow.appendTo('.welcomeBackBasketBox__items');
-        });
-
-    if (numInBasket > 2) {
-      var remainderInBasket = numInBasket - 2;
-      $j('<p>... along with ' + remainderInBasket + ' more items.</p>').appendTo('.welcomeBackBasketBox__extraItems');
-    }
-
-    //now message is complete slide message in from the right. On completion set a cookie and send event to GA
-    welcomeBackBasketBox.delay(300).animate({
-      'right': '0'
-    }, 1200, function(){
-      document.cookie = "welcomeBackBasket=true";
-      ga('send', 'event', 'Welcome Back Basket', 'shown');
-    });
-
-
-    //Slide message off screen and then remove it from DOM if customer clicks cross or Continue Shopping button. Send event to GA.
-    $j('.welcomeBackBasketBox__close').on('click', function(){
-
-      welcomeBackBasketBox.animate({
-        'right': '-100%'
-      }, 800, function(){
-
-        welcomeBackBasketBox.detach();
-      });
-
-      ga('send', 'event', 'Welcome Back Basket', 'closed');
-    });
-
-    //Send event to GA if customer clicks Go to Basket
-    $j('.welcomeBackBasketBox__button--basket').on('click', function(){
-      ga('send', 'event', 'Welcome Back Basket', 'Go to Basket');  
-    });
-    
-  }
-
-
-  // Lookbook Pop-up
-/*
-  if ($j('html').hasClass('no-touch') == true || $j(window).width() >= 768) {
-
-    $j('.lookbook__product').on('click', function(e){
-      e.preventDefault();
-      var lbProductUrl = $j(this).attr('href');
-      var lbPopup = $j('<div class="lookbook_popup product-view"><span class="lookbook_popup__close">X</span></div>');
-
-      $j('body').append(lbPopup);
-
-      var jqXHR = $j.get(lbProductUrl, function(data){
-        var lbProductDetails = $j(data).find('.product-essential');
-        $j('.lookbook_popup').append(lbProductDetails);
-      });
-
-      jqXHR.done(function(){
-        AmAjaxShoppCartLoad('.btn-cart');
-        $j('.MagicToolboxSelectorsContainer, .sharing-links').remove();
-        $j('<a class="lookbook_popup__more" href="'+ lbProductUrl +'">More Details ></a>').appendTo('.box-related');
-
-        $j('.lookbook_popup__close').on('click', function(){
-          $j('.lookbook_popup').fadeOut(300, function(){
-            $j('.lookbook_popup').remove();
-          });
-        });
-
-        $j('.btn-cart').on('click', function(){
-          $j('.lookbook_popup').delay(1000).fadeOut(300, function(){
-            $j('.lookbook_popup').remove();
-          });
-        });
-      });    
-
-    });
-
-  }
-
-*/
-
   /* Customer service page mobile drop down */
-
   $j(".customerservice__mobile").click(function(){
-        $j(".customerservice__links").toggle();
-        $j(".customerservice__mobile").toggleClass("active");
+    $j(".customerservice__links").toggle();
+    $j(".customerservice__mobile").toggleClass("active");
   });
-
   /* END */
 
-  /* Sizing Guide Script */
-
-
   //Size guide script
-
   $j(function(){
     $j("#card__gender--women").addClass("isActive");
   });
 
   $j("#card__gender--women").click(function(){
-
     $j("#customerservice__row--women").show();
     $j("#customerservice__row--men").hide();
     $j("#customerservice__row--kids").hide();
@@ -284,17 +216,8 @@ $j(document).ready(function($) {
   });
   /* END */
 
-   /* Footer mobile menu */
-
-  jQuery(".column.column--footer").click(function(){
-    jQuery(this).find('ul').toggleClass("toggleSub");
-    jQuery(this).toggleClass("toggleMain");
-  });
-
-   /* END */
-
-   /*Contact us page - Form pop up */
-   $j('.form_popup').click(function(){
+  /*Contact us page - Form pop up */
+  $j('.form_popup').click(function(){
     $j('.contact__popup').addClass('popup_open');
     $j('.form_popup').addClass('popup_open');
     $j('.popup__bg').addClass('popup_open');
@@ -308,14 +231,14 @@ $j(document).ready(function($) {
   /* END */
 
   /* Homepage SEO show/hide */
-    var catname = jQuery('body').attr('class');
-    $j('.pageSection--Seo').after('<div class="seo-container"><a><div class="readmore">Read more</div></a></div>');
-    $j('.readmore').click(function(){
-      $j('.pageSection--Seo').toggleClass('seo-open');
-      $j('.pageSection--Seo + .seo-container .readmore').html('Read more');
-      $j('.pageSection--Seo.seo-open + .seo-container .readmore').html('Read less');
-      ga('send', 'event', 'read-more-button', 'click', '' + catname + '');
-    });
+  var catname = jQuery('body').attr('class');
+  $j('.pageSection--Seo').after('<div class="seo-container"><a><div class="readmore">Read more</div></a></div>');
+  $j('.readmore').click(function(){
+    $j('.pageSection--Seo').toggleClass('seo-open');
+    $j('.pageSection--Seo + .seo-container .readmore').html('Read more');
+    $j('.pageSection--Seo.seo-open + .seo-container .readmore').html('Read less');
+    ga('send', 'event', 'read-more-button', 'click', '' + catname + '');
+  });
   /* END */
 
   /* Form error scroll */
@@ -328,11 +251,21 @@ $j(document).ready(function($) {
     }
   });
   /* END */
- 
 
-////////////////////////////////  
-//DONT ADD ANYTHING BELOW HERE//
-////////////////////////////////
+  /* Show/Hide copy within container */
+    jQuery('.copy-toggle').after('<div class="copy-toggle-button">Read more...</div>');
+    jQuery('.copy-toggle-button').click(function(){
+      jQuery('.copy-toggle').toggleClass('active');
+      jQuery('.copy-toggle-button').html(jQuery('.copy-toggle-button').text() == 'Read more...' ? 'Read less' : 'Read more...');
+    });
+  /* END */
+
+    
+   
+
+  //////////////////////////////////  
+  ///DONT ADD ANYTHING BELOW HERE///
+  //////////////////////////////////
+  });
 });
 
-});

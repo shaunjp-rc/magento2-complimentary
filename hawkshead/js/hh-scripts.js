@@ -1,3 +1,23 @@
+/* UK/US Stock issue */
+var stockInt = setInterval(function(){
+
+  if(document.querySelectorAll('.c-product-size__link').length > 0){
+    if (typeof dataLayer.disable !== 'undefined') {
+      var disable = dataLayer.disable.toString();
+      var disableds = disable.split(",");
+
+      for (let i = 0; i < disableds.length; i++) {
+        disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+        disabled.parentElement.removeChild(disabled);
+      }
+
+      clearInterval(stockInt);
+    }
+  }
+
+}, 1000); // end timeout
+/* END */
+
 /* delivery and returns tabs */
 function rlTabs(){
   var nodeList = document.body.querySelectorAll("[data-action='tab']");
@@ -73,6 +93,79 @@ function mobileSEO(){
 }
 /* END */
 
+  /* Endcap Lightbox */
+
+function productPull(){
+
+    jQuery('.mt_itemWrapper a').click(function(e) {
+        e.preventDefault();
+        var href = jQuery(this).attr('href');
+        jQuery( "body" ).append( "<div class='outputProduct' onClick='closeProduct();'><div class='lightclose'><div class='outputClose' onClick='closeProduct();'>X</div></div><div id='outputFinal'><div class='ajaximgloader'><img id='ajaxload' src='https://cdn.hawkshead.com/img/SS17/uk/misc/icons/spinner.gif'></div></div></div>" );
+        jQuery("html").css('overflow-y', 'hidden');
+        jQuery(document).ajaxStart(function(){
+            jQuery("#ajaxload").css("display", "block");
+        });
+        jQuery(document).ajaxComplete(function(){
+            jQuery("#ajaxload").css("display", "none");
+        });
+
+        jQuery.ajax({
+           url:href,
+           type:'GET',
+           success: function(data) {
+               var content = jQuery('<div id="outputFinal">').append(data).find('.page.messages + div');
+               jQuery('#outputFinal').html( content );
+                e.preventDefault();
+                jQuery( "#outputFinal .c-product-details.o-layout__item.product-info-main.js-product-info-main" ).append( '<a href="'+href+'"class="productCTA">Buy Me</a>' );
+           }
+        });
+        
+   });
+}
+
+function closeProduct(){
+  jQuery('.outputProduct').remove();
+  jQuery("html").css('overflow-y', 'scroll');
+}
+/* END */
+
+/* Removal of roundal if less than 10% saving */
+function roundelRemove(){
+  jQuery('input[name=monVar_price_saving_percent]').filter(function(){
+      return parseInt(jQuery(this).val(), 10) < 10;
+  }).addClass('lessthan');
+  jQuery('input.lessthan').closest('div').addClass('roundelhide');
+}
+/* END */
+
+/* Feefo Reviews Page */
+function feefoReviews(){
+  (function (w) {
+    var feefoWidgetScript = document.createElement('script');
+    feefoWidgetScript.setAttribute('async', 'async');
+    feefoWidgetScript.setAttribute('src', '//register.feefo.com/feefo-widget/js/feefo-widget.js');
+    feefoWidgetScript.setAttribute('type', 'text/javascript');
+    feefoWidgetScript.onload = function () {
+      if (typeof w.feefoWidgetInstance === 'undefined') {
+        w.feefoWidgetInstance = feefoWidget({
+          assetUrl: '//register.feefo.com/feefo-widget',
+          debug: false,
+          hosts: {
+            api: 'api.feefo.com/api',
+            widget: 'register.feefo.com'
+          },
+          merchantId: 'hawkshead',
+          protocol: 'https',
+          source: 'javascript',
+          tags: '',
+          externalCta: ''
+        });
+      }
+    };
+    document.head.appendChild(feefoWidgetScript);
+  })(window);
+}
+/* END */
 
 requirejs(['jquery'], function( $ ) {
 
@@ -202,17 +295,20 @@ requirejs(['jquery'], function( $ ) {
       $j('.mobileseo-container:last-of-type .seemoreseo').html('Read less');
     });
 
-  };
-  /* END */
+  }
 
-
-
-    ////////////////////////////////
-    //Dont add anything below here//
-    ////////////////////////////////
   });
 
-});
+}); /* END REQUIRE JQUERY */
+
+/////////////////////////////////
+// Dont add anything below here//
+/////////////////////////////////
+
+
+    
+  
+
 
 
 
