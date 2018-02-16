@@ -1335,6 +1335,18 @@ a.c-store-list__details {
   .generic-usp div {
     display: block; } }
 /* END */
+/* FOOTER */
+#footer .s-footer-links > div {
+  width: 18.5% !important;
+  padding-bottom: 15px; }
+
+.s-footer-links-social {
+  margin-left: -3px; }
+
+ul.follow-us {
+  padding-top: 15px; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
