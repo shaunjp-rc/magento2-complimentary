@@ -1,117 +1,73 @@
 /* Generic stuff that can be used on any/every CMS page */
 .uspBanners {
-	width: 100%;
-	max-width: 1260px;
-	margin: 0 auto;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	display: none;
 }
 
-.uspBanners * {
-	-moz-box-sizing: inherit;
-	-webkit-box-sizing: inherit;
-	box-sizing: inherit;
-}
-
-.uspBanners__container {
-	float: left;
-	margin: 1% 0;
-	width: 100%;
-}
-
-.uspBanners__banner {
-	display: block;
-	width: 32%;
-	float: left;
-	margin: 0;
+.generic-usp {
 	text-align: center;
-	color: #fff !important;
-	background-color: #ccc;
-	padding: 1% 0;
+	padding: 0.4% 0;
+	background: rgb(47, 47, 83); /* background colour */
+	color: #fff !important; /* font colour */
 	text-transform: uppercase;
-	font-size: 1.2vw;
-	letter-spacing: 1px;
-	border: 3px #ccc solid;
+	letter-spacing: 0.6px;
 }
 
-.uspBanners__banner:hover {
-	background: #fff;
-	color: #999 !important;
+.generic-usp .pipe {
+	margin: 0 0.5%;
 }
 
-.uspBanners__banner:nth-child(2) {
-	margin: 0 2%;
+.generic-usp a {
+	color: #fff !important;
 }
 
-@media screen and (min-width:1260px) {
-	.uspBanners {
-		width: 100%;
-	}
-
-	a.uspBanners__banner {
-		font-size: 16px;
-	}
-
+.generic-usp a:hover {
+	color: #fff !important;
+	text-decoration: underline;
 }
 
-@media screen and (max-width:960px) {
-	a.uspBanners__banner {
-		font-size: 11px;
-	}
+.generic-usp div {
+	display: inline;
+}
 
-	.uspBanners__banner {
-		width: 32.667%;
-	}
-
-	.uspBanners__banner:nth-child(2) {
-		margin: 0 1%;
+@media only screen and (max-width:1024px) {
+	.generic-usp a {
+		font-size: 13px;
 	}
 
 }
 
-@media screen and (max-width:840px) {
-	.uspBanners__container {
-		float: left;
-		width: 100%;
-		background: #ccc;
-		text-align: center;
-		padding: 1% 0;
+@media only screen and (max-width:600px) {
+	.generic-usp {
+		margin-top: 9px;
 	}
 
-	.uspBanners__banner {
-		display: inline;
-		width: auto;
-		float: none;
-		margin: 0 3%;
-		padding: 0;
+	.generic-usp .pipe {
+		display: none;
 	}
 
-	.uspBanners__banner:last-child {
-		margin: 0 0 0 3%;
-	}
-
-	.uspBanners__banner:hover {
-		text-decoration: underline;
-	}
-
-}
-
-@media screen and (max-width:660px) {
-	.uspBanners__banner {
+	.generic-usp div {
 		display: block;
-		width: 100%;
-		text-align: center;
-		padding: 0;
-		margin: 0;
 	}
 
-	.uspBanners__banner:nth-child(2) {
-		margin: 0;
+}
+
+@media only screen and (max-width:600px) {
+	.generic-usp {
+		margin-top: 37px;
 	}
 
-	.uspBanners__banner:last-child {
-		margin: 0;
+}
+
+@media only screen and (max-width:532px) and (min-width:501px) {
+	.generic-usp {
+		margin-top: 99px;
+	}
+
+}
+
+@media only screen and (max-width:426px) {
+	.generic-usp div {
+		display: block;
 	}
 
 }
