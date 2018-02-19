@@ -1344,14 +1344,22 @@ body .c-product-tile .c-product-tile__btn {
     margin: 0 !Important;
     display: block; }
 
+  .s-main-menu .block .category-items a {
+    font-size: 13px; }
+
   #top-level-cat-banner-text li a {
-    background: #c1011a;
     display: block;
     box-sizing: border-box;
-    color: #fff !important;
     text-decoration: none;
     padding: 2px 4px;
-    border: 1px solid #fff; }
+    border: 1px solid #ddd;
+    margin: 4px;
+    border-radius: 10px;
+    color: #333 !important;
+    background: #fff !important; }
+
+  .category-outlet #top-level-cat-banner-text.closing h1 {
+    margin-top: 10px; }
 
   #top-level-cat-banner-text li a:after {
     content: '>';
