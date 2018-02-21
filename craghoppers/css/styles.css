@@ -7963,7 +7963,7 @@ h2.utc-title-lower {
     margin-bottom: 5%; }
   .honesty-project .sip-rhep-img {
     max-width: 190px;
-    margin-right: 20px;
+    margin-right: 20px !important;
     margin: auto; }
   .honesty-project .sip-bpf-img {
     max-width: 130px;
@@ -8081,7 +8081,7 @@ h2.utc-title-lower {
     padding: 3% 0; }
   .honesty-project .rs-img-4 {
     max-width: 447px;
-    padding: 3% 0; }
+    padding: 3% 0 0 0; }
   .honesty-project .rs-img-5 {
     max-width: 601px;
     padding: 3% 0 5% 0; }
