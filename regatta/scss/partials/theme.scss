@@ -336,6 +336,27 @@ html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
 }
 
 }
+@media screen and (max-width: 550px){
+  .s-text-banner #top-level-cat-banner-text ul {
+      display: block;
+      overflow: auto;
+      white-space: nowrap;
+  }
+  .s-text-banner #top-level-cat-banner-text li {
+      flex-grow: unset;
+      flex-basis: unset;
+      margin: 0 !Important;
+      display: inline-block;
+  }
+  .s-text-banner #top-level-cat-banner-text li a {
+    padding: 7px;
+  }
+  .s-text-banner #top-level-cat-banner-text li a:after {
+      margin-right: 0px !important;
+      margin-top: -1px !important;
+  }
+
+}
 
 /*/////////////////////////////
 /* Footer Block FeeFo Mobile */
