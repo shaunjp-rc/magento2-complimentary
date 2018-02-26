@@ -84,14 +84,15 @@ ul.flex-direction-nav {
 }
 
 .sliderbutton {
-  width: 17%;
   display: inline-block;
   text-align: center;
-  color: #000;
+  color: #fff;
   font-family: $latobold;
   text-transform: uppercase;
   font-size: 18px;
   min-width: 175px;
+  letter-spacing: 2px;
+  margin: 0 1.5%;
 }
 
 .sliderstrip__desktop--mobile {
@@ -100,6 +101,11 @@ ul.flex-direction-nav {
 
 .sliderbutton:hover {
   text-decoration: underline;
+}
+
+.slides {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .cms-homepage-promo-grid-hh-uk {
@@ -141,10 +147,15 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
 
 .sliderstrip__desktop {
   text-align: center;
+  padding:0.5% 0;
 }
 
 .fullWidthSlider__slide.pageBanner__image {
   display: block;
+}
+
+.slider-cta-mobile {
+  display: none;
 }
 
 @media only screen and (max-width:1028px) {
@@ -152,6 +163,18 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo.utc-cta {
     margin-bottom: -2%;
   }
 
+}
+
+@media only screen and (max-width:700px) {
+  .sliderfullwidth__container {
+    margin-bottom: 10%;
+  }
+  .slider-cta-mobile {
+    display: block;
+  }
+  .slider-cta {
+    display: none;
+  }
 }
 
 @media only screen and (max-width:650px) {
@@ -279,7 +302,7 @@ section .blogPost .blogPost-Copy {
 }
 
 .slide-newarrival .sliderbutton {
-  margin-left: 4%;
+  margin-left: 8%;
   color: #fff;
   letter-spacing: 2px;
   text-decoration: underline;
@@ -540,6 +563,9 @@ section .blogPost .blogPost-Copy {
 @media only screen and (max-width:450px){
   .sectionRow-Community a.flex-item.col-4 {
     width: 100%;
+  }
+  .sliderbutton {
+    font-size: 4vw;
   }
 }
 
