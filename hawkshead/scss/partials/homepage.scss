@@ -317,18 +317,8 @@ section .blogPost .blogPost-Copy {
   max-width: 255px;
 }
 
-.topBrand:first-of-type img,
-.thirdBrand:nth-child(5) img {
-  float:right;
-}
-
-.topBrand:nth-child(4) img,
-.thirdBrand:nth-child(7) img {
-  float: left;
-}
-
-.topBrand:nth-child(3) img,
-.thirdBrand:nth-child(6) img {
+.topBrand img,
+.thirdBrand img{
   margin: 0 auto;
 }
 
