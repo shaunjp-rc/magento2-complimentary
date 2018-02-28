@@ -3319,7 +3319,14 @@ ul.mm__column.mm__column--img.expanded {
     text-align: left !important;
     font-size: 1rem !important;
     line-height: 26px;
-    color: #000; } }
+    color: #000; }
+
+  .s-main-menu .block .category-items a.collectionImg {
+    padding: 0 !important;
+    color: #000 !important;
+    text-align: left !important;
+    font-size: 14px !important;
+    line-height: 30px; } }
 @media only screen and (max-width: 700px) {
   .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn,
