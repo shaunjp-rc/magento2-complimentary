@@ -30,6 +30,7 @@
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #000;
 }
 
 .genderheader {
@@ -72,11 +73,6 @@
 
 .genderheader.kids {
   background: #9CAC25;
-}
-
-.s-main-menu .mm__container--kids .columnHead a,
-.mm__container--kids .columnHead h3 {
-  color: #9CAC25 !important;
 }
 
 .genderheader.camping {
@@ -602,11 +598,17 @@ ul.mm__column.mm__column--img.expanded {
       color: #000;
   }
   .s-main-menu .block .category-items a.collectionImg {
-    padding: 0 !important;
-    color: #000 !important;
-    text-align: left !important;
-    font-size: 14px !important;
-    line-height: 30px;
+      padding: 0 !important;
+      color: #000 !important;
+      text-align: left !important;
+      font-size: 14px !important;
+      line-height: 30px;
+}
+  .column17,
+  .column25,
+  .column33,
+  .column51 {
+    width: 24% !important;
 }
 
 
