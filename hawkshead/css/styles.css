@@ -2894,10 +2894,10 @@ a.c-product-size__size-guide-link:hover {
 .s-main-menu .block .category-items {
   padding-bottom: 0.5%; }
 
-/*.s-main-menu .mm__container .mm__column--collections .columnHead a,
+.s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
-  color: #b2b2b2 !important;
-}*/
+  color: #b2b2b2 !important; }
+
 .genderheader.mens {
   background: #2F3051; }
 
@@ -3164,18 +3164,7 @@ ul.mm__column.mm__column--img.expanded {
 .column51 {
   width: 49% !important; }
 
-a.collection-moutdoor,
-a.collection-mactive,
-a.collection-minsect,
-a.collection-mcycle,
-a.collection-woutdoor,
-a.collection-wactive,
-a.collection-winsect,
-a.collection-wcycle,
-a.collection-koutdoor,
-a.collection-kactive,
-a.collection-kinsect,
-a.collection-kcycle {
+a.collectionImg {
   padding: 21% 0 !important;
   color: #fff !important;
   text-align: center !important;
@@ -3288,18 +3277,6 @@ a.collection-kcycle {
 .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
   color: #fff; }
 
-@media only screen and (max-width: 1227px) {
-  .collectionItem {
-    max-width: 180px; }
-
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
-    padding: 27% 0;
-    line-height: 1; } }
 @media only screen and (max-width: 989px) {
   .collectionItem:nth-child(even),
   .collectionItem:nth-child(odd) {
@@ -3316,7 +3293,6 @@ a.collection-kcycle {
     padding: 0;
     color: #000; }
 
-  .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn {
     width: 33.33% !important; }
 
@@ -3333,16 +3309,6 @@ a.collection-kcycle {
   .s-main-menu .categories > li .mmColumn .collectionItem a {
     color: #343334;
     text-align: left; }
-
-  .s-main-menu .categories > li .mmColumn .collectionItem a,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
-  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
-    background: none;
-    padding: 0; }
 
   .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
     color: #343334; } }
