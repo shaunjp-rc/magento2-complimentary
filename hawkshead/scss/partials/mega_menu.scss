@@ -51,7 +51,7 @@
 
 .s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
-  color: #b2b2b2 !important;
+  color: #000 !important;
 }
 
 .genderheader.mens {
@@ -599,7 +599,9 @@ ul.mm__column.mm__column--img.expanded {
       text-align: left !important;
       font-size: 1rem !important;
       line-height: 26px;
+      color: #000;
   }
+
 
 }
 
@@ -663,6 +665,15 @@ ul.mm__column.mm__column--img.expanded {
   .column33,
   .column51 {
     width: 100% !important;
+}
+.s-main-menu .block .category-items a.collectionImg {
+    padding: 8px 0 !important;
+    color: #000 !important;
+    text-align: left !important;
+    font-size: 1.16667rem !important;
+}
+.s-main-menu .categories>li a {
+    padding: 8px 0;
 }
 
 }
