@@ -2362,7 +2362,8 @@ a.c-product-size__size-guide-link:hover {
 .columnHead h3 {
   font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #000; }
 
 .genderheader {
   background: #6792C8;
@@ -2397,10 +2398,6 @@ a.c-product-size__size-guide-link:hover {
 
 .genderheader.kids {
   background: #9CAC25; }
-
-.s-main-menu .mm__container--kids .columnHead a,
-.mm__container--kids .columnHead h3 {
-  color: #9CAC25 !important; }
 
 .genderheader.camping {
   background: #ffd35e; }
@@ -2811,7 +2808,13 @@ ul.mm__column.mm__column--img.expanded {
     color: #000 !important;
     text-align: left !important;
     font-size: 14px !important;
-    line-height: 30px; } }
+    line-height: 30px; }
+
+  .column17,
+  .column25,
+  .column33,
+  .column51 {
+    width: 24% !important; } }
 @media only screen and (max-width: 700px) {
   .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn,
