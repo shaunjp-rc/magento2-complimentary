@@ -3360,7 +3360,13 @@ a.collectionImg {
     color: #343334; }
 
   .s-main-menu .categories > li .mmColumn .collectionItem a {
-    line-height: 3 !important; } }
+    line-height: 3 !important; }
+
+  .column17,
+  .column25,
+  .column33,
+  .column51 {
+    width: 100% !important; } }
 .s-main-menu .categories > li .mmColumn a {
   text-align: left; }
 
