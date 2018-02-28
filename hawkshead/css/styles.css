@@ -1123,6 +1123,18 @@ html {
   #header > header > div.o-region__inner > div > div.o-layout__item > div:nth-child(2) > div.o-layout__item {
     width: 33% !important; } }
 /* END */
+/* FOOTER */
+#footer .s-footer-links > div {
+  width: 18.5% !important;
+  padding-bottom: 5%; }
+
+.s-footer-links-social {
+  margin-left: -16px; }
+
+ul.follow-us {
+  padding-top: 15px; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
@@ -2882,10 +2894,10 @@ a.c-product-size__size-guide-link:hover {
 .s-main-menu .block .category-items {
   padding-bottom: 0.5%; }
 
-.s-main-menu .mm__container .mm__column--collections .columnHead a,
+/*.s-main-menu .mm__container .mm__column--collections .columnHead a,
 .s-main-menu .block .category-items a {
-  color: #b2b2b2 !important; }
-
+  color: #b2b2b2 !important;
+}*/
 .genderheader.mens {
   background: #2F3051; }
 
@@ -3133,6 +3145,252 @@ ul.mm__column.mm__column--img.expanded {
   color: #c72123; }
 
 /* END */
+/* SS18 Updates */
+.s-main-menu .block .category-items > :last-child {
+  padding-right: 0; }
+
+.s-main-menu .category-items .mm__column {
+  float: left; }
+
+.column17 {
+  width: 17% !important; }
+
+.column25 {
+  width: 25% !important; }
+
+.column33 {
+  width: 33.33% !important; }
+
+.column51 {
+  width: 49% !important; }
+
+a.collection-moutdoor,
+a.collection-mactive,
+a.collection-minsect,
+a.collection-mcycle,
+a.collection-woutdoor,
+a.collection-wactive,
+a.collection-winsect,
+a.collection-wcycle,
+a.collection-koutdoor,
+a.collection-kactive,
+a.collection-kinsect,
+a.collection-kcycle {
+  padding: 21% 0 !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 17px !important; }
+
+.collectionItem img {
+  width: 100%; }
+
+.mmColumnCollection {
+  display: flex;
+  flex-wrap: wrap; }
+
+.collectionItem {
+  width: 100%;
+  max-width: 225px;
+  position: relative;
+  margin-bottom: 1.2%; }
+
+.collectionItem:nth-child(2),
+.collectionItem:nth-child(4) {
+  margin: 0 12px 12px 0; }
+
+.collection-title {
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.collection-title-vertical {
+  color: #fff;
+  text-align: center;
+  padding: 29% 0; }
+
+.s-main-menu .block .category-items ul.mmColumn {
+  width: 20%; }
+
+.s-main-menu .block .category-items ul.mmColumn.mmColumnCollection {
+  width: 60%; }
+
+.columnHead {
+  text-align: left; }
+
+.mmColumnCollection .columnHead {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%; }
+
+.s-main-menu .block .category-items .mmColumn a {
+  padding: 2px 0; }
+
+.mmColumn:first-of-type + .mmColumn.mmColumnCollection {
+  float: right; }
+
+.s-main-menu .block .category-items .mmColumn a:hover {
+  color: #010001; }
+
+.collection-moutdoor {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/OutdoorLifestyle-Mens-270x140.jpg); }
+
+.collection-mactive {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/ActiveOutdoor-Mens-270x140.jpg); }
+
+.collection-minsect {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/InsectProtect-Mens-270x140.jpg); }
+
+.collection-mcycle {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/CycleRange-Mens-270x140.jpg); }
+
+.collection-woutdoor {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/OutdoorLifestyle-Womens-270x140.jpg); }
+
+.collection-wactive {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/ActiveOutdoor-Womens-270x140.jpg); }
+
+.collection-winsect {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/InsectProtect-Womens-270x140.jpg); }
+
+.collection-wcycle {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/CycleRange-Womens-270x140.jpg); }
+
+.collection-koutdoor {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/OutdoorLifestyle-Kids-270x140.jpg); }
+
+.collection-kactive {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/ActiveOutdoor-Kids-270x140.jpg); }
+
+.collection-kinsect {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/InsectProtect-Kids-270x140.jpg); }
+
+.collection-kswimwear {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/Swimwear-Kids-270x140.jpg); }
+
+.collection-atents {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Tents-270x140.jpg); }
+
+.collection-aluggage {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Luggage-270x140.jpg); }
+
+.collection-apets {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Pets-270x140.jpg); }
+
+.collection-arucksacks {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Rucksacks-270x140.jpg); }
+
+.s-main-menu .categories > li .mmColumn .collectionItem a {
+  color: #fff;
+  text-align: center;
+  padding: 29% 0px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.s-main-menu .categories > li .mmColumn .collectionItem a:hover {
+  color: #fff; }
+
+@media only screen and (max-width: 1227px) {
+  .collectionItem {
+    max-width: 180px; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
+    padding: 27% 0;
+    line-height: 1; } }
+@media only screen and (max-width: 989px) {
+  .collectionItem:nth-child(even),
+  .collectionItem:nth-child(odd) {
+    margin: 0; }
+
+  .collectionItem {
+    max-width: 100%; }
+
+  .collectionItem img {
+    display: none; }
+
+  .collection-title-vertical {
+    text-align: left;
+    padding: 0;
+    color: #000; }
+
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn {
+    width: 33.33% !important; }
+
+  .mmColumnCollection .columnHead {
+    margin-top: 5%; }
+
+  .s-main-menu .block .category-items .mmColumn.techColumn {
+    width: 25% !important; }
+
+  .collectionItem {
+    background: none;
+    padding: 0; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    color: #343334;
+    text-align: left; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-moutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-mdiscovery,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-woutdoor,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdofe,
+  .s-main-menu .categories > li .mmColumn .collectionItem a.collection-wdiscovery {
+    background: none;
+    padding: 0; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
+    color: #343334; } }
+@media only screen and (max-width: 700px) {
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn,
+  .s-main-menu .block .category-items .mmColumn.techColumn {
+    width: 100% !important; }
+
+  .collectionItem {
+    max-width: 100%; }
+
+  .collectionItem img {
+    display: none; }
+
+  .s-main-menu .block .category-items div.collection-title,
+  .s-main-menu .block .category-items div.collection-title-vertical {
+    display: block; }
+
+  .collection-title {
+    position: relative; }
+
+  .s-main-menu .block .category-items div.collection-title-vertical {
+    text-align: left; }
+
+  .collectionItem:nth-child(odd) {
+    margin: 0; }
+
+  .s-main-menu .categories > li .expanded li a {
+    line-height: 3; }
+
+  .columnHead,
+  .mmColumnCollection .columnHead {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline; }
+
+  .columnHead {
+    margin-left: 10px; }
+
+  .collection-title-vertical {
+    color: #343334; }
+
+  .s-main-menu .categories > li .mmColumn .collectionItem a {
+    line-height: 3 !important; } }
+.s-main-menu .categories > li .mmColumn a {
+  text-align: left; }
+
 #tech-image-wrapper img {
   width: auto; }
 
