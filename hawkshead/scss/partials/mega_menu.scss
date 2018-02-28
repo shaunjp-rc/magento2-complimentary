@@ -412,7 +412,7 @@ ul.mm__column.mm__column--img.expanded {
 .column51{
     width: 49% !important;
 }
-a.collectionImg{
+.s-main-menu .block .category-items a.collectionImg {
     padding: 21% 0 !important;
     color: #fff !important;
     text-align: center !important;
@@ -572,7 +572,7 @@ a.collectionImg{
   }
 
   .mmColumnCollection .columnHead {
-    margin-top: 5%;
+    margin-top: 0;
   }
 
   .s-main-menu .block .category-items .mmColumn.techColumn {
@@ -667,6 +667,6 @@ a.collectionImg{
 
 }
 
-.s-main-menu .categories>li .mmColumn a {
-  text-align: left;
+.s-main-menu .categories>li:last-child a {
+    text-align: left;
 }

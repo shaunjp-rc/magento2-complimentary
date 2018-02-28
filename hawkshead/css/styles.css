@@ -2647,7 +2647,7 @@ ul.mm__column.mm__column--img.expanded {
 .column51 {
   width: 49% !important; }
 
-a.collectionImg {
+.s-main-menu .block .category-items a.collectionImg {
   padding: 21% 0 !important;
   color: #fff !important;
   text-align: center !important;
@@ -2780,7 +2780,7 @@ a.collectionImg {
     width: 33.33% !important; }
 
   .mmColumnCollection .columnHead {
-    margin-top: 5%; }
+    margin-top: 0; }
 
   .s-main-menu .block .category-items .mmColumn.techColumn {
     width: 25% !important; }
@@ -2850,7 +2850,7 @@ a.collectionImg {
   .column33,
   .column51 {
     width: 100% !important; } }
-.s-main-menu .categories > li .mmColumn a {
+.s-main-menu .categories > li:last-child a {
   text-align: left; }
 
 #tech-image-wrapper img {
