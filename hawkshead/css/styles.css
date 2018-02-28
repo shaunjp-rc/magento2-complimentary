@@ -3207,7 +3207,7 @@ a.collectionImg {
 
 .mmColumnCollection .columnHead {
   width: 100%;
-  margin-top: 2%;
+  margin-top: 0;
   margin-bottom: 1%; }
 
 .s-main-menu .block .category-items .mmColumn a {
@@ -3311,7 +3311,14 @@ a.collectionImg {
     text-align: left; }
 
   .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
-    color: #343334; } }
+    color: #343334; }
+
+  a.collectionImg {
+    background-image: none !important;
+    padding: 0 !important;
+    text-align: left !important;
+    font-size: 1rem !important;
+    line-height: 26px; } }
 @media only screen and (max-width: 700px) {
   .s-main-menu .block .category-items .mmColumn,
   .s-main-menu .block .category-items .mmColumn,

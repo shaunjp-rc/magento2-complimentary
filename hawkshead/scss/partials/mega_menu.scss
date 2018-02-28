@@ -393,7 +393,6 @@ ul.mm__column.mm__column--img.expanded {
 
 
 
-
 /* SS18 Updates */
 .s-main-menu .block .category-items>:last-child {
     padding-right: 0;
@@ -413,7 +412,6 @@ ul.mm__column.mm__column--img.expanded {
 .column51{
     width: 49% !important;
 }
-
 a.collectionImg{
     padding: 21% 0 !important;
     color: #fff !important;
@@ -466,7 +464,7 @@ a.collectionImg{
 
 .mmColumnCollection .columnHead {
   width: 100%;
-  margin-top: 2%;
+  margin-top: 0;
   margin-bottom: 1%;
 }
 
@@ -593,6 +591,14 @@ a.collectionImg{
 
   .s-main-menu .categories > li .mmColumn .collectionItem a:hover{
     color:#343334;
+  }
+
+  a.collectionImg {
+      background-image: none !important;
+      padding: 0 !important;
+      text-align: left !important;
+      font-size: 1rem !important;
+      line-height: 26px;
   }
 
 }
