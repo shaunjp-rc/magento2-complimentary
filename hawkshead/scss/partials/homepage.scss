@@ -317,14 +317,19 @@ section .blogPost .blogPost-Copy {
   max-width: 255px;
 }
 
-.topBrand:first-of-type,
-.thirdBrand:nth-child(5) {
-  text-align: right;
+.topBrand:first-of-type img,
+.thirdBrand:nth-child(5) img {
+  float:right;
 }
 
-.topBrand:nth-child(4),
-.thirdBrand:nth-child(7) {
-  text-align: left;
+.topBrand:nth-child(4) img,
+.thirdBrand:nth-child(7) img {
+  float: left;
+}
+
+.topBrand:nth-child(3) img,
+.thirdBrand:nth-child(6) img {
+  margin: 0 auto;
 }
 
 .thirdBrand img {
@@ -416,7 +421,7 @@ section .blogPost .blogPost-Copy {
 }
 
 .sectionRow-Hero {
-    margin-top: 1%;
+  margin-top: 1%;
 }
 
 @media only screen and (max-width:1028px) {
