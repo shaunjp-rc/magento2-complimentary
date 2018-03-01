@@ -5423,7 +5423,7 @@ a:nth-child(2) .fp-CTA {
 .cya-copy {
   font-size: 16px;
   text-align: center;
-  padding: 4% 14% 3% 14%;
+  padding: 4% 10% 3% 10%;
   color: #000; }
 
 .cya-cta {
@@ -5563,14 +5563,10 @@ a:nth-child(2) .fp-CTA {
   margin: 3% 0 2% 0;
   line-height: 30px; }
 
-.cyal-divide-expedition {
-  padding: 2% 35%; }
-
-.cyal-divide-explore {
-  padding: 2% 30%; }
-
+.cyal-divide-expedition,
+.cyal-divide-explore,
 .cyal-divide-escape {
-  padding: 2% 34%; }
+  padding: 2% 30%; }
 
 .cyal-arrow {
   padding-top: 1%;
