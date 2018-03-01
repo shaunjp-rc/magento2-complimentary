@@ -351,9 +351,24 @@ html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
   .s-text-banner #top-level-cat-banner-text li a {
     padding: 7px;
   }
+  
   .s-text-banner #top-level-cat-banner-text li a:after {
       margin-right: 0px !important;
       margin-top: -1px !important;
+  }
+
+  .s-text-banner #top-level-cat-banner-text ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+
+  .s-text-banner #top-level-cat-banner-text ul::-webkit-scrollbar {
+    height: 6px;
+    background-color: #363636;
+  }
+
+  .s-text-banner #top-level-cat-banner-text ul::-webkit-scrollbar-thumb {
+    background-color: #363636;
   }
 
 }
