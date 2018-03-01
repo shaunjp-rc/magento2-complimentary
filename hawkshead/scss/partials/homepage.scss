@@ -67,7 +67,6 @@ ul.flex-direction-nav {
   width: 45px;
 }
 
-.flex-control-paging,
 .flex-direction-nav li a.prev,
 .flex-direction-nav li a.next {
   display: none;
@@ -106,6 +105,37 @@ ul.flex-direction-nav {
 .slides {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+ol.flex-control-nav.flex-control-paging {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  display: block;
+}
+
+ol.flex-control-nav.flex-control-paging li {
+  display: inline-block;
+}
+
+ol.flex-control-nav.flex-control-paging li a {
+  color: transparent;
+  background: transparent;
+  width: 13px;
+  height: 13px;
+  display: block;
+  border-radius: 10px;
+  margin-right: 5px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+ol.flex-control-nav.flex-control-paging li a.flex-active {
+  border: 2px solid #fff;
+  background: #fff;
 }
 
 .cms-homepage-promo-grid-hh-uk {
