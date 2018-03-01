@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'CrimsonText-Bold';
+  src: url('CrimsonText-Bold.eot');
+  src: url('CrimsonText-Bold.woff2') format('woff2'),
+       url('CrimsonText-Bold.woff') format('woff'),
+       url('CrimsonText-Bold.ttf') format('truetype'),
+       url('CrimsonText-Bold.svg#CrimsonText-Bold') format('svg'),
+       url('CrimsonText-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
