@@ -3176,7 +3176,7 @@ ul.mm__column.mm__column--img.expanded {
 
 .collectionItem {
   width: 100%;
-  max-width: 225px;
+  max-width: 270px !important;
   position: relative;
   margin-bottom: 1.2%; }
 
