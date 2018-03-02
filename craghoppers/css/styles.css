@@ -3765,6 +3765,11 @@ li.dropdown.dropdown--red a {
 
   .ambassadorHero img {
     display: none; } }
+/* Outlet nav */
+.mm-outlet {
+  color: #ff0000; }
+
+/* End */
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {

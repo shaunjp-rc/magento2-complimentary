@@ -6604,6 +6604,11 @@ li.dropdown.dropdown--red a {
 
   .ambassadorHero img {
     display: none; } }
+/* Outlet nav */
+.mm-outlet {
+  color: #ff0000; }
+
+/* End */
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
 
