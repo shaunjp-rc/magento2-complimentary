@@ -6604,6 +6604,11 @@ li.dropdown.dropdown--red a {
 
   .ambassadorHero img {
     display: none; } }
+/* Outlet nav */
+.mm-outlet {
+  color: #ff0000; }
+
+/* End */
 /* Insect Repellent Collection Dump */
 .cms-insect-repellent-collection .wrapper {
   display: inline-block;
