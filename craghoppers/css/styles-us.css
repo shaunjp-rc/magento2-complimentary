@@ -6606,7 +6606,7 @@ li.dropdown.dropdown--red a {
     display: none; } }
 /* Outlet nav */
 .mm-outlet {
-  color: #ff0000; }
+  color: #ff0000 !important; }
 
 /* End */
 /* Insect Repellent Collection Dump */
