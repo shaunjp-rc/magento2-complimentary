@@ -4,7 +4,7 @@
   src: url('OpenSans-Regular.woff2') format('woff2'),
        url('OpenSans-Regular.woff') format('woff'),
        url('OpenSans-Regular.ttf') format('truetype'),
-       url('OpenSans-Regular.svg#OpenSans-Regular') format('svg'),
+       url('OpenSans-Regular.otf') format('otf'),
        url('OpenSans-Regular.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
