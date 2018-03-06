@@ -30,6 +30,24 @@
       margin: 5px;
       min-width: 66px;
   } 
+
+
+   .catalog-category-view  .modal-inner-wrap::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+
+   .catalog-category-view  .modal-inner-wrap::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+  }
+
+   .catalog-category-view  .modal-inner-wrap::-webkit-scrollbar-thumb {
+    background-color: #000000;
+  }
+   .catalog-category-view  .modal-inner-wrap {
+    overflow-x: hidden !important;
+  }
 }
 
 /*/////////////////////////*/
