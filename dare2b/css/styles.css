@@ -1041,6 +1041,17 @@ html .mt_animate {
   background-color: #5b5b5b; }
 
 /*/////////////////////////*/
+/*    Quick Buy resize     */
+/*/////////////////////////*/
+@media only screen and (max-width: 600px) {
+  .catalog-category-view .modal-popup.c-quick-view--wrapper .modal-inner-wrap {
+    width: 90% !important; }
+
+  .catalog-category-view .c-product-size__link {
+    margin-right: 0px !important;
+    margin: 5px;
+    min-width: 66px; } }
+/*/////////////////////////*/
 /*    Hides Quick Buy     */
 /*/////////////////////////*/
 /*
