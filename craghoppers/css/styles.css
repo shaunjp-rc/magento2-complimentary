@@ -6394,6 +6394,11 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .page-product-configurable .fitGuideDiagrams__block {
     width: 100%; } }
 /* END */
+/* PDP more reviews up on mobile for fits me button */
+@media only screen and (max-width: 550px) {
+  .c-rating__wrap {
+    margin-bottom: 3%; } }
+/* END */
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
 
