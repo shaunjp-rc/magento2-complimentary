@@ -1364,8 +1364,9 @@ section .mt_sliderTop .mt_title {
   letter-spacing: 1px;
   font-size: 20px; }
 
-.blogPost {
-  position: relative; }
+section.sectionRow .blogPost {
+  position: relative;
+  margin-bottom: 1vw; }
 
 section .blogPost .blogPost-Copy {
   position: absolute;
