@@ -293,8 +293,9 @@ section .mt_sliderTop .mt_title {
   font-size: 20px;
 }
 
-.blogPost {
+section.sectionRow .blogPost {
   position: relative;
+  margin-bottom: 1vw;
 }
 
 section .blogPost .blogPost-Copy {
