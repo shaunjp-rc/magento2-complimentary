@@ -6336,6 +6336,9 @@ li.dropdown.dropdown--red a {
   position: relative;
   margin-bottom: 1.2%; }
 
+.collectionItemWide {
+  max-width: 696px !important; }
+
 .collectionItem:nth-child(3),
 .collectionItem:nth-child(6) {
   margin: 0 12px; }
@@ -6420,6 +6423,9 @@ li.dropdown.dropdown--red a {
 .collection-kdiscovery {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg); }
 
+.collection-abags {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/accessories/AccessoriesBags.jpg); }
+
 /* ambassadors */
 .ambass-coyote {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-CoyotePeterson.jpg); }
@@ -6467,6 +6473,9 @@ li.dropdown.dropdown--red a {
   padding: 29% 0px;
   background-size: contain;
   background-repeat: no-repeat; }
+
+.s-main-menu .categories > li .mmColumn .collectionItemWide a {
+  padding: 9% 0px; }
 
 .s-main-menu .categories > li .mmColumn .collectionItem a:hover {
   color: #fff; }
