@@ -75,7 +75,7 @@ function mobileSEO(){
   var seoText = banner.getElementsByClassName('category-view__description')[0] || bannerTwo.getElementsByClassName('category-view__description')[0];
   var readBtn = document.createElement("button");
 
-  if (seoText.textContent.length > 140) {
+  if (seoText.textContent.length > 320) {
     seoText.classList.add('active');
     // add button to DOM
     readBtn.innerHTML = 'Read More';
