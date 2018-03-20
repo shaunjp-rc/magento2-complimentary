@@ -16,6 +16,24 @@
 }
 
 
+/*//////////////////////////*/
+/* Product Page Size Button */
+/*//////////////////////////*/
+.page-product-configurable .c-product-size__size-guide-link{
+  position: relative !important;
+  top: 0px;
+  right: 0;
+  color: #2e76b9;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+.page-product-configurable .c-product-size__size-guide-link:hover {
+  color: initial;
+  border: none;
+  background: none;
+}
 /*/////////////////////////*/
 /*    Quick Buy resize     */
 /*/////////////////////////*/
