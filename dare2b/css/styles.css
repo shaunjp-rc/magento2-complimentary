@@ -1040,6 +1040,24 @@ html .mt_animate {
 .c-facet-list__list--scroll::-webkit-scrollbar-thumb {
   background-color: #5b5b5b; }
 
+/*//////////////////////////*/
+/* Product Page Size Button */
+/*//////////////////////////*/
+.page-product-configurable .c-product-size__size-guide-link {
+  position: relative !important;
+  top: 0px;
+  right: 0;
+  color: #2e76b9;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none; }
+
+.page-product-configurable .c-product-size__size-guide-link:hover {
+  color: initial;
+  border: none;
+  background: none; }
+
 /*/////////////////////////*/
 /*    Quick Buy resize     */
 /*/////////////////////////*/
@@ -1556,21 +1574,6 @@ body .c-product-tile .c-product-tile__btn {
 
 .page-product-configurable .c-product-details .product-options-wrapper {
   position: relative; }
-
-.page-product-configurable .c-product-size__size-guide-link {
-  position: absolute;
-  top: 0px;
-  right: 7px;
-  color: #2e76b9;
-  padding: 5px 30px;
-  border-radius: 5px;
-  border: solid 2px #2e76b9;
-  text-decoration: none; }
-
-.page-product-configurable .c-product-size__size-guide-link:hover {
-  color: #ffffff;
-  border: solid 2px #2e76b9;
-  background: #2e76b9; }
 
 .page-product-configurable .c-product-size__link {
   margin: 5px;
