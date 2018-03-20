@@ -927,6 +927,27 @@ html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
 .c-facet-list__list--scroll::-webkit-scrollbar-thumb {
   background-color: #5b5b5b; }
 
+/*//////////////////////////*/
+/* Product Page Size Button */
+/*//////////////////////////*/
+.page-product-configurable .c-product-size__size-guide-link {
+  position: relative !important;
+  top: 0px;
+  right: 0;
+  color: #ffb835;
+  padding: 0 !important;
+  border-radius: 5px;
+  border: none !important;
+  text-decoration: none; }
+
+.page-product-configurable .c-product-size__size-guide-link:hover {
+  color: black;
+  border: none;
+  background: none; }
+
+.page-product-configurable .c-product-size__size-guide-link.missing {
+  top: 0px !important; }
+
 /*/////////////////////////*/
 /*    Quick Buy resize     */
 /*/////////////////////////*/
