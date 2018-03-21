@@ -23,6 +23,70 @@ html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
 .c-facet-list__list--scroll::-webkit-scrollbar-thumb {
   background-color: #5b5b5b;
 }
+/*//////////////////////////*/
+/* MonVars Product Badging  */
+/*//////////////////////////*/
+.mon-badge {
+    background: #f9b835;
+    color: #000000;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.gallery-placeholder .mon-badge{
+  left: 120px;
+}
+
+#monVars { position: relative;}
+.roundel {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background: #000000;
+    max-width: 53px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 6px 6px 6px 0px;
+    color: #ffffff;
+    box-shadow: 0px 3px 6px -5px #000000;
+    display:block !important;
+}
+
+#product-roundel.percent-off{
+    background: #000000;
+    max-width: 53px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 6px 6px 6px 0px;
+    color: #ffffff;
+    box-shadow: 0px 3px 6px -5px #000000;
+    display: block !important;
+    float: right;
+}
+.save__product-page{
+    background: #000000;
+    max-width: 53px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 6px 6px 6px 0px;
+    color: #ffffff;
+    box-shadow: 0px 3px 6px -5px #000000;
+    display: block !important;
+    float: right;
+    clear: right;
+}
 
 
 /*//////////////////////////*/
