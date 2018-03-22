@@ -160,7 +160,6 @@ requirejs(['jquery'], function( $ ) {
 
   /* Mobile Footer */
   jQuery(".column.column--footer h4").click(function(){
-    console.log("hello")
     jQuery(this).toggleClass("active");
     jQuery(this).next().toggleClass("active");
   });
