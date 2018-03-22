@@ -158,7 +158,13 @@ requirejs(['jquery'], function( $ ) {
     }, 500);
   }
 
-
+  /* Mobile Footer */
+  jQuery(".column.column--footer h4").click(function(){
+    console.log("hello")
+    jQuery(this).toggleClass("active");
+    jQuery(this).next().toggleClass("active");
+  });
+  /* END */
 
   // Homepage Recs
   if ($j('body').hasClass('cms-index-index')) {
@@ -259,8 +265,6 @@ requirejs(['jquery'], function( $ ) {
       jQuery('.copy-toggle-button').html(jQuery('.copy-toggle-button').text() == 'Read more...' ? 'Read less' : 'Read more...');
     });
   /* END */
-
-    
    
 
   //////////////////////////////////  
