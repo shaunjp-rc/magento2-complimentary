@@ -1041,7 +1041,9 @@ html .mt_animate {
   background-color: #5b5b5b; }
 
 html .c-basket__payment-icons {
-  background: url(https://cdn.regatta.com/img/global-images/PaymentMethods.png) no-repeat; }
+  background: url(https://cdn.dare2b.com/img/global-images/PaymentMethods.png) no-repeat;
+  background-size: 100%;
+  background-position: center; }
 
 /*//////////////////////////*/
 /* Product Page Size Button */

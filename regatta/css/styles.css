@@ -928,7 +928,9 @@ html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
   background-color: #5b5b5b; }
 
 html .c-basket__payment-icons {
-  background: url(https://cdn.regatta.com/img/global-images/PaymentMethods.png) no-repeat; }
+  background: url(https://cdn.regatta.com/img/global-images/PaymentMethods.png) no-repeat;
+  background-size: 100%;
+  background-position: center; }
 
 /*//////////////////////////*/
 /* MonVars Product Badging  */
