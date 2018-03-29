@@ -20,6 +20,50 @@ html .c-basket__payment-icons {
   background-size: 100%;
   background-position: center;
 }
+/*//////////////////////////*/
+/* Cookie bar               */
+/*//////////////////////////*/
+#notice-cookie-block .content > p {
+  font-size: 0px;
+  margin: 0px;
+}
+
+#notice-cookie-block .content * {
+  display: inline-block;
+  color: #ffffff;
+}
+
+#notice-cookie-block #btn-cookie-allow {
+  background: #2cbe4e;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 20px;
+}
+
+#notice-cookie-block .content {
+  background: rgba(43, 45, 47, 0.97);
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.37);
+}
+
+#notice-cookie-block a {
+}
+
+#notice-cookie-block .content a {
+  margin-top: -10px;
+  line-height: 17px;
+}
+
+#notice-cookie-block a:after {
+  content: "By continuing to use this site you consent to the use of cookies in accordance with our cookie policy";
+  font-size: 15px;
+  display: block;
+}
 
 /*//////////////////////////*/
 /* Product Page Size Button */
