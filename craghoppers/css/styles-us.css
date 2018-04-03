@@ -5407,6 +5407,8 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 
 .c-save-item,
 .c-save-item:active,
+.c-save-item:focus,
+.c-save-item:hover,
 .c-save-item:visited {
   color: #343334; }
 
