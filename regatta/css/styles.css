@@ -1891,6 +1891,10 @@ body .c-product-tile .c-product-tile__btn {
 
   .column-content a {
     padding: 0 !important; } }
+html[lang="en-IE"] .page-layout-checkout .c-order-summary__basket-link,
+html[lang="en-IE"] .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
+  display: none; }
+
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
