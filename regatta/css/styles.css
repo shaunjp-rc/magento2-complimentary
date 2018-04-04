@@ -1895,6 +1895,9 @@ html[lang="en-IE"] .page-layout-checkout .c-order-summary__basket-link,
 html[lang="en-IE"] .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
   display: none; }
 
+html[lang="en-IE"] .Buy-1-Get-1-Free.mon-badge {
+  display: none !important; }
+
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
