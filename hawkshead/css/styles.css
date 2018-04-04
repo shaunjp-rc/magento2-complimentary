@@ -2501,6 +2501,9 @@ a.c-product-size__size-guide-link:hover {
   letter-spacing: 2px;
   margin-bottom: 1%; }
 
+.columnHead a {
+  padding: 0 !important; }
+
 .s-main-menu .block .category-items {
   padding-bottom: 0.5%; }
 
@@ -2512,13 +2515,13 @@ a.c-product-size__size-guide-link:hover {
   background: #2F3051; }
 
 .s-main-menu .mm__container--mens .columnHead a {
-  color: #2F3051 !important; }
+  color: #000 !important; }
 
 .genderheader.womens {
   background: #fc8a81; }
 
 .s-main-menu .mm__container--womens .columnHead a {
-  color: #fc8a81 !important; }
+  color: #000 !important; }
 
 .genderheader.kids {
   background: #9CAC25; }
@@ -2527,7 +2530,7 @@ a.c-product-size__size-guide-link:hover {
   background: #ffd35e; }
 
 .s-main-menu .mm__container--camping .columnHead a {
-  color: #ffd35e; }
+  color: #000; }
 
 .s-main-menu .category-items .mm__column.mm__column--footwear {
   width: 17%; }
@@ -2538,14 +2541,10 @@ a.c-product-size__size-guide-link:hover {
 .s-main-menu .category-items .mm__column.mm__column--footwear.mm__column--img {
   width: 27%; }
 
-.columnHead.columnHead--mens h3 {
-  color: #2F3051; }
-
-.columnHead.columnHead--womens h3 {
-  color: #fc8a81; }
-
+.columnHead.columnHead--mens h3,
+.columnHead.columnHead--womens h3,
 .columnHead.columnHead--kids h3 {
-  color: #9CAC25; }
+  color: #000; }
 
 .s-main-menu .category-items .mm__column.mm__column--camping {
   width: 37%; }
