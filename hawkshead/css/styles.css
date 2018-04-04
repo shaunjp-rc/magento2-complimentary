@@ -2246,6 +2246,125 @@ section.collection.collection__background h2 {
     float: none;
     margin: 0 auto;
     margin-top: 2%; } }
+/* SS18 COLLECTION PAGE START */
+.cms-preview-ls .o-region__inner {
+  width: 100% !important; }
+
+.collection-container {
+  max-width: 1228px;
+  margin: auto; }
+
+.coll-endcap-title {
+  text-align: center;
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 20px;
+  padding: 3% 0 0 0;
+  text-transform: uppercase; }
+
+.monetate-mens-active-outdoor-endcap,
+.monetate-mens-cycle-range-endcap,
+.monetate-mens-insect-protection-endcap,
+.monetate-mens-outdoor-lifestyle-endcap,
+.monetate-womens-active-outdoor-endcap,
+.monetate-womens-cycle-range-endcap,
+.monetate-womens-insect-protection-endcap,
+.monetate-womens-outdoor-lifestyle-endcap {
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto;
+  padding-bottom: 1%; }
+
+.monetate-mens-active-outdoor-endcap .mt_prodName,
+.monetate-mens-active-outdoor-endcap .mt_altPrice,
+.monetate-mens-cycle-range-endcap .mt_prodName,
+.monetate-mens-cycle-range-endcap .mt_altPrice,
+.monetate-mens-mens-insect-endcap .mt_prodName,
+.monetate-mens-mens-insect-endcap .mt_altPrice,
+.monetate-mens-outdoor-lifestyle-endcap .mt_prodName,
+.monetate-mens-outdoor-lifestyle-endcap .mt_altPrice,
+.monetate-wommens-active-outdoor-endcap .mt_prodName,
+.monetate-wommens-active-outdoor-endcap .mt_altPrice,
+.monetate-wommens-cycle-range-endcap .mt_prodName,
+.monetate-wommens-cycle-range-endcap .mt_altPrice,
+.monetate-wommens-mens-insect-endcap .mt_prodName,
+.monetate-wommens-mens-insect-endcap .mt_altPrice,
+.monetate-womens-outdoor-lifestyle-endcap .mt_prodName,
+.monetate-womens-outdoor-lifestyle-endcap .mt_altPrice {
+  color: #000; }
+
+.coll-banner-middle {
+  text-align: center; }
+
+.coll-btn-container {
+  text-align: center;
+  display: block; }
+
+.coll-btn {
+  font-family: "Lato-Regular", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1% 7%;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 4% auto 3% auto;
+  display: inline-block; }
+
+.coll-btn:hover {
+  text-decoration: none; }
+
+.coll-btn-active {
+  background: #fc8a80; }
+
+.coll-btn-active:hover {
+  background: #fbaaa3; }
+
+.coll-btn-cycle {
+  background: #fed158; }
+
+.coll-btn-cycle:hover {
+  background: #ffd460; }
+
+.coll-btn-insect {
+  background: #ca2023; }
+
+.coll-btn-insect:hover {
+  background: #c93b3e; }
+
+.coll-btn-lifestyle {
+  background: #85aedc; }
+
+.coll-btn-lifestyle:hover {
+  background: #a4bedb; }
+
+.coll-footer-copy {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 18px;
+  padding: 0% 0 5% 0;
+  max-width: 1228px;
+  margin: auto; }
+
+@media screen and (max-width: 770px) {
+  .coll-btn {
+    font-size: 16px;
+    padding: 1% 7%;
+    margin: 5% auto 4% auto; }
+
+  .coll-footer-copy {
+    font-size: 16px;
+    padding: 0 2% 5% 2%;
+    max-width: 100%;
+    line-height: 24px; } }
+@media screen and (max-width: 550px) {
+  .coll-btn {
+    font-size: 14px;
+    margin: 6% auto 5% auto; }
+
+  .coll-footer-copy {
+    font-size: 14px;
+    padding: 0 5% 5% 5%; } }
+/* SS18 COLLECTION PAGE END */
 .minusone,
 .plusone {
   font-size: 22px;
