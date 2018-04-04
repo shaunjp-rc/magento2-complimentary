@@ -60,7 +60,7 @@
 }
 
 .s-main-menu .mm__container--mens .columnHead a {
-  color: #2F3051 !important;
+  color: #000 !important;
 }
 
 .genderheader.womens {
@@ -68,7 +68,7 @@
 }
 
 .s-main-menu .mm__container--womens .columnHead a {
-  color: #fc8a81 !important;
+  color: #000 !important;
 }
 
 .genderheader.kids {
@@ -80,7 +80,7 @@
 }
 
 .s-main-menu .mm__container--camping .columnHead a {
-  color: #ffd35e;
+  color: #000;
 }
 
 .s-main-menu .category-items .mm__column.mm__column--footwear {
@@ -95,16 +95,10 @@
   width: 27%;
 }
 
-.columnHead.columnHead--mens h3 {
-  color: #2F3051;
-}
-
-.columnHead.columnHead--womens h3 {
-  color: #fc8a81;
-}
-
+.columnHead.columnHead--mens h3,
+.columnHead.columnHead--womens h3,
 .columnHead.columnHead--kids h3 {
-  color: #9CAC25;
+  color: #000;
 }
 
 .s-main-menu .category-items .mm__column.mm__column--camping {
