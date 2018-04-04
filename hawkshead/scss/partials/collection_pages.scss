@@ -293,36 +293,20 @@ section.collection.collection__background h2 {
 	text-transform: uppercase;
 }
 
-.monetate-mens-active-outdoor-endcap,
-.monetate-mens-cycle-range-endcap,
-.monetate-mens-insect-protection-endcap,
-.monetate-mens-outdoor-lifestyle-endcap,
-.monetate-womens-active-outdoor-endcap,
-.monetate-womens-cycle-range-endcap,
-.monetate-womens-insect-protection-endcap,
-.monetate-womens-outdoor-lifestyle-endcap {
+
+.collection-monetate-endcap .mt_endcap.mt_horizontal {
+	max-width: 100% !important;
+}
+
+.collection-monetate-endcap {
     width: 100%;
     max-width: 1228px;
     margin: 0 auto;
     padding-bottom: 1%;
 }
 
-.monetate-mens-active-outdoor-endcap .mt_prodName,
-.monetate-mens-active-outdoor-endcap .mt_altPrice,
-.monetate-mens-cycle-range-endcap .mt_prodName,
-.monetate-mens-cycle-range-endcap .mt_altPrice,
-.monetate-mens-mens-insect-endcap .mt_prodName,
-.monetate-mens-mens-insect-endcap .mt_altPrice,
-.monetate-mens-outdoor-lifestyle-endcap .mt_prodName,
-.monetate-mens-outdoor-lifestyle-endcap .mt_altPrice,
-.monetate-wommens-active-outdoor-endcap .mt_prodName,
-.monetate-wommens-active-outdoor-endcap .mt_altPrice,
-.monetate-wommens-cycle-range-endcap .mt_prodName,
-.monetate-wommens-cycle-range-endcap .mt_altPrice,
-.monetate-wommens-mens-insect-endcap .mt_prodName,
-.monetate-wommens-mens-insect-endcap .mt_altPrice,
-.monetate-womens-outdoor-lifestyle-endcap .mt_prodName,
-.monetate-womens-outdoor-lifestyle-endcap .mt_altPrice {
+.collection-monetate-endcap .mt_prodName,
+.collection-monetate-endcap .mt_altPrice {
     color: #000;
 }
 
@@ -417,5 +401,6 @@ section.collection.collection__background h2 {
 		padding: 0 5% 5% 5%;
 	}
 }
+
 
 /* SS18 COLLECTION PAGE END */
