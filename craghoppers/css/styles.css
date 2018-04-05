@@ -3235,7 +3235,14 @@ iframe.unsubscribe {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 5%; }
+  margin-top: 0%; }
+
+.columnHeadGrey a {
+  color: #343334 !important; }
+
+.columnHead a {
+  padding: 0 !important;
+  color: #343334 !important; }
 
 .mm__column img {
   margin-top: 5%; }
