@@ -3241,7 +3241,7 @@ iframe.unsubscribe {
   color: #343334 !important; }
 
 .columnHead a {
-  padding: 0 !important;
+  /*padding: 0 !important;*/
   color: #343334 !important; }
 
 .mm__column img {
