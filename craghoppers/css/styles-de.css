@@ -6645,7 +6645,8 @@ li.dropdown.dropdown--red a {
   .ambassadorHero img {
     display: none; } }
 /* Outlet nav */
-.mm-outlet {
+.mm-outlet,
+a.mm-outlet {
   color: #ff0000 !important; }
 
 /* End */
