@@ -6081,13 +6081,12 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 0%; }
+  margin-top: 5%; }
 
 .columnHeadGrey a {
   color: #343334 !important; }
 
 .columnHead a {
-  /*padding: 0 !important;*/
   color: #343334 !important; }
 
 .mm__column img {
