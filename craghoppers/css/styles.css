@@ -2803,7 +2803,26 @@ div#customerservice__row--kids table th {
 .requiredfield {
   color: #ff0000; }
 
+.datatablesizing30 {
+  width: 32% !important;
+  float: left;
+  margin-right: 12px; }
+
+.header_padding_top {
+  padding-top: 5%; }
+
+.action-tabs-sizing .tabs-content {
+  border: none !important;
+  padding: 0 !important;
+  position: relative; }
+
+.action-tabs-sizing .tabs-content {
+  border-top: 1px solid #ddd !important; }
+
 /* Media Queries for Customer Services Start */
+@media only screen and (max-width: 500px) {
+  .datatablesizing30 {
+    width: 100% !important; } }
 @media only screen and (max-width: 989px) {
   .navbarlinks {
     width: 50%; }
