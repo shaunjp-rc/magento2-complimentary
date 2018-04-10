@@ -7666,5 +7666,13 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
   margin-left: 5%; }
 
 /* END */
+/* Contact us form start */
+.newsletterde .newsetter label {
+  min-width: 180px;
+  float: left; }
+.newsletterde .newsletter-top {
+  margin-top: 20px; }
+
+/* Contact us form end */
 
 /*# sourceMappingURL=styles-de.css.map */
