@@ -101,7 +101,7 @@ function mobileSEO(){
 }
 /* END */
 
-/* Feefo Reviews Page */
+/* Feefo Reviews Page UK */
 function feefoReviews(){
   (function (w) {
     var feefoWidgetScript = document.createElement('script');
@@ -118,6 +118,64 @@ function feefoReviews(){
             widget: 'register.feefo.com'
           },
           merchantId: 'craghoppers-uk',
+          protocol: 'https',
+          source: 'javascript',
+          tags: '',
+          externalCta: ''
+        });
+      }
+    };
+    document.head.appendChild(feefoWidgetScript);
+  })(window);
+}
+/* END */
+
+/* Feefo Reviews Page USA */
+function feefoReviewsUSA(){
+  (function (w) {
+    var feefoWidgetScript = document.createElement('script');
+    feefoWidgetScript.setAttribute('async', 'async');
+    feefoWidgetScript.setAttribute('src', '//register.feefo.com/feefo-widget/js/feefo-widget.js');
+    feefoWidgetScript.setAttribute('type', 'text/javascript');
+    feefoWidgetScript.onload = function () {
+      if (typeof w.feefoWidgetInstance === 'undefined') {
+        w.feefoWidgetInstance = feefoWidget({
+          assetUrl: '//register.feefo.com/feefo-widget',
+          debug: false,
+          hosts: {
+            api: 'api.feefo.com/api',
+            widget: 'register.feefo.com'
+          },
+          merchantId: 'craghoppers-us',
+          protocol: 'https',
+          source: 'javascript',
+          tags: '',
+          externalCta: ''
+        });
+      }
+    };
+    document.head.appendChild(feefoWidgetScript);
+  })(window);
+}
+/* END */
+
+/* Feefo Reviews Page DE */
+function feefoReviewsDE(){
+  (function (w) {
+    var feefoWidgetScript = document.createElement('script');
+    feefoWidgetScript.setAttribute('async', 'async');
+    feefoWidgetScript.setAttribute('src', '//register.feefo.com/feefo-widget/js/feefo-widget.js');
+    feefoWidgetScript.setAttribute('type', 'text/javascript');
+    feefoWidgetScript.onload = function () {
+      if (typeof w.feefoWidgetInstance === 'undefined') {
+        w.feefoWidgetInstance = feefoWidget({
+          assetUrl: '//register.feefo.com/feefo-widget',
+          debug: false,
+          hosts: {
+            api: 'api.feefo.com/api',
+            widget: 'register.feefo.com'
+          },
+          merchantId: 'craghoppers-de',
           protocol: 'https',
           source: 'javascript',
           tags: '',
