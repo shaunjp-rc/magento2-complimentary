@@ -3074,6 +3074,9 @@ ul.delret-list {
   color: #000;
   padding-bottom: 8%; }
 
+.modern-slavery-btn-container {
+  display: block; }
+
 .modern-slavery-btn {
   color: #ffffff;
   font-size: 16px;
@@ -3081,9 +3084,9 @@ ul.delret-list {
   padding: 15px 20px 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  width: 230px;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  display: inline-block; }
 
 .modern-slavery-btn:hover {
   background: #727c85; }
