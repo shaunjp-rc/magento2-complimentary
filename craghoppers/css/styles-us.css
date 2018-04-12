@@ -4901,23 +4901,12 @@ a:nth-child(2) .fp-CTA {
     max-width: 80%; } }
 /* *********** END *********** */
 /* SS18 Mid season Sale Start*/
+.cms-mid-season-sale .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
 .midseasonsale-wrapper {
   display: inline-block; }
 
-/*.mss-banner {
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: table;
-    height: 100%;
-    width: 100%;
-    padding: 7% 0;
-}*/
-/*.mss-banner_inner {
-    display: table-cell;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-}*/
 .mss-innerwrapper {
   width: 100%;
   max-width: 1000px;
@@ -4934,14 +4923,6 @@ a:nth-child(2) .fp-CTA {
 .midseasonsale-wrapper .bannerOverlay__contents a {
   display: inline-block; }
 
-/*.mss-banner_title {
-    margin-bottom: 0;
-    font-family: $crimreg;
-    color: #fff;
-    font-size: 65px;
-    letter-spacing: 9px;
-    line-height: 1;
-}*/
 .midseasonsale-wrapper .mss-scene .bannerOverlay__contents a {
   display: block; }
 
@@ -4953,31 +4934,6 @@ a:nth-child(2) .fp-CTA {
 .midseasonsale-wrapper picture img {
   width: 100%; }
 
-/*.mss-scene_title {
-    font-family: $crimreg;
-    font-size: 26px;
-    line-height: 1.1;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}*/
-/*.mss-scene_cta {
-    color: #fff;
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 1.5%;
-}*/
-/*.mss-scene a:first-of-type {
-    margin-top: 28%;
-}*/
-/*.mss-scene-active .mss-scene_title {
-    margin-top: 18%;
-}*/
-/*.mss-scene-disabled .mss-scene_title {
-    margin-top: -24%;
-}*/
 .mss-hero .bannerOverlay {
   height: 67%; }
 
@@ -5016,12 +4972,6 @@ a:nth-child(2) .fp-CTA {
   font-size: 28px;
   line-height: 1; }
 
-/*.mss-scene-active .mss-scene_title.mss-scene_title-tues {
-    margin-top: 11%;
-}*/
-/*.mss-scene .mss-scene_title-tues + a:first-of-type {
-    margin-top: 24%;
-}*/
 .mss-banner_subtitle {
   color: #f6ab00;
   font-weight: bold;
@@ -5038,29 +4988,25 @@ a:nth-child(2) .fp-CTA {
 .flex-container.mss-columnthree {
   margin-top: 20px; }
 
-/*.flex-container.mss-columnfour {
-    margin-top: 6%;
-}*/
 .mss-hero .bannerOverlay.bannerOverlaymss {
   height: 61%; }
 
-/*@media only screen and (max-width:1024px) {
-    .flex-item.col-4.mss-hero {
-        width: 33.33%;
-    }
+.cms-mid-season-sale .bannerOverlay__contentArea {
+  padding-bottom: 10%; }
 
-}*/
 @media only screen and (max-width: 989px) {
-  /*.mss-scene_title {
-      font-size: 20px;
-      margin-left: 10px;
-  }*/
   .mss-hero .mss-title {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -10%; }
 
   .mss-hero .mss-subtitle {
-    font-size: 22px; } }
+    font-size: 20px; }
+
+  .mss-cta_button {
+    font-size: 12px; }
+
+  .cms-mid-season-sale .bannerOverlay__contentArea {
+    padding-bottom: 7%; } }
 @media only screen and (max-width: 600px) {
   .mss-innerwrapper .flex-item.col-3.mss-scene {
     margin-bottom: 1%;
@@ -5069,19 +5015,6 @@ a:nth-child(2) .fp-CTA {
   .flex-item.col-3.mss-scene:nth-child(2) {
     margin-right: 0; }
 
-  /*.mss-banner_title{
-      font-size: 9vw;
-      letter-spacing: 5px;
-  }*/
-  /*.mss-banner_subtitle{
-      font-size: 4vw;
-  }*/
-  /*.mss-scene_title {
-      font-size: 5vw;
-  }*/
-  /*.flex-item.col-4.mss-hero {
-      width: 100%;
-  }*/
   .mss-hero .bannerOverlay,
   .mss-hero .bannerOverlay.bannerOverlaymss {
     height: 20vw; }
@@ -5101,9 +5034,12 @@ a:nth-child(2) .fp-CTA {
   .mss-hero {
     margin-bottom: 6%; }
 
-  /*.mss-scene_cta {
-      font-size: 3vw;
-  }*/ }
+  .mss-cta {
+    margin: 2% 0 7% 0; }
+
+  .cms-mid-season-sale .bannerOverlay__contentArea {
+    padding-top: 10%;
+    padding-bottom: 0; } }
 /* SS18 Mid season Sale End*/
 .plp-fleece {
   background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece.jpg"); }
