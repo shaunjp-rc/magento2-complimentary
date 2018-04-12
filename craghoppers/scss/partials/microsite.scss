@@ -1783,21 +1783,21 @@ a:nth-child(2) .fp-CTA {
     display: inline-block;
 }
 
-.mss-banner {
+/*.mss-banner {
     background-size: cover;
     background-repeat: no-repeat;
     display: table;
     height: 100%;
     width: 100%;
     padding: 7% 0;
-}
+}*/
 
-.mss-banner_inner {
+/*.mss-banner_inner {
     display: table-cell;
     height: 100%;
     text-align: center;
     vertical-align: middle;
-}
+}*/
 
 .mss-innerwrapper {
     width: 100%;
@@ -1819,14 +1819,14 @@ a:nth-child(2) .fp-CTA {
     display: inline-block;
 }
 
-.mss-banner_title {
+/*.mss-banner_title {
     margin-bottom: 0;
     font-family: $crimreg;
     color: #fff;
     font-size: 65px;
     letter-spacing: 9px;
     line-height: 1;
-}
+}*/
 
 .midseasonsale-wrapper .mss-scene .bannerOverlay__contents a {
     display: block;
@@ -1842,15 +1842,15 @@ a:nth-child(2) .fp-CTA {
     width: 100%;
 }
 
-.mss-scene_title {
+/*.mss-scene_title {
     font-family: $crimreg;
     font-size: 26px;
     line-height: 1.1;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
+}*/
 
-.mss-scene_cta {
+/*.mss-scene_cta {
     color: #fff;
     text-decoration: underline;
     text-transform: uppercase;
@@ -1858,19 +1858,19 @@ a:nth-child(2) .fp-CTA {
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 1.5%;
-}
+}*/
 
-.mss-scene a:first-of-type {
+/*.mss-scene a:first-of-type {
     margin-top: 28%;
-}
+}*/
 
-.mss-scene-active .mss-scene_title {
+/*.mss-scene-active .mss-scene_title {
     margin-top: 18%;
-}
+}*/
 
-.mss-scene-disabled .mss-scene_title {
+/*.mss-scene-disabled .mss-scene_title {
     margin-top: -24%;
-}
+}*/
 
 .mss-hero .bannerOverlay {
     height: 67%;
@@ -1879,7 +1879,7 @@ a:nth-child(2) .fp-CTA {
 .mss-cta_button {
     width: 85%;
     margin: 0 auto;
-    background: #E43A23;
+    background: #f6ab00;
     text-align: center;
     color: #fff;
     font-weight: bold;
@@ -1888,11 +1888,11 @@ a:nth-child(2) .fp-CTA {
     padding: 1.5% 0;
     font-size: 16px;
     letter-spacing: 1px;
-    border: 1px solid #E43A23;
+    border: 1px solid #f6ab00;
 }
 
 .mss-cta_button:hover {
-    color: #E43A23;
+    color: #f6ab00;
     background: #fff;
 }
 
@@ -1916,16 +1916,16 @@ a:nth-child(2) .fp-CTA {
     line-height: 1;
 }
 
-.mss-scene-active .mss-scene_title.mss-scene_title-tues {
+/*.mss-scene-active .mss-scene_title.mss-scene_title-tues {
     margin-top: 11%;
-}
+}*/
 
-.mss-scene .mss-scene_title-tues + a:first-of-type {
+/*.mss-scene .mss-scene_title-tues + a:first-of-type {
     margin-top: 24%;
-}
+}*/
 
 .mss-banner_subtitle {
-    color: #E43A23;
+    color: #f6ab00;
     font-weight: bold;
     letter-spacing: 4px;
     font-size: 28px;
@@ -1944,26 +1944,26 @@ a:nth-child(2) .fp-CTA {
     margin-top: 20px;
 }
 
-.flex-container.mss-columnfour {
+/*.flex-container.mss-columnfour {
     margin-top: 6%;
-}
+}*/
 
 .mss-hero .bannerOverlay.bannerOverlaymss {
     height: 61%;
 }
 
-@media only screen and (max-width:1024px) {
+/*@media only screen and (max-width:1024px) {
     .flex-item.col-4.mss-hero {
         width: 33.33%;
     }
 
-}
+}*/
 
 @media only screen and (max-width:989px) {
-    .mss-scene_title {
+    /*.mss-scene_title {
         font-size: 20px;
         margin-left: 10px;
-    }
+    }*/
 
     .mss-hero .mss-title {
         font-size: 20px;
@@ -1987,22 +1987,22 @@ a:nth-child(2) .fp-CTA {
         margin-right: 0;
     }
 
-    .mss-banner_title{
+    /*.mss-banner_title{
         font-size: 9vw;
         letter-spacing: 5px;
-    }
+    }*/
 
-    .mss-banner_subtitle{
+    /*.mss-banner_subtitle{
         font-size: 4vw;
-    }
+    }*/
 
-    .mss-scene_title {
+    /*.mss-scene_title {
         font-size: 5vw;
-    }
+    }*/
 
-    .flex-item.col-4.mss-hero {
+    /*.flex-item.col-4.mss-hero {
         width: 100%;
-    }
+    }*/
 
     .mss-hero .bannerOverlay,
     .mss-hero .bannerOverlay.bannerOverlaymss {
@@ -2029,9 +2029,9 @@ a:nth-child(2) .fp-CTA {
         margin-bottom: 6%;
     }
 
-    .mss-scene_cta {
+    /*.mss-scene_cta {
         font-size: 3vw;
-    }
+    }*/
 
 }
 /* SS18 Mid season Sale End*/
