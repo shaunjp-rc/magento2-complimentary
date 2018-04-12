@@ -4988,7 +4988,7 @@ a:nth-child(2) .fp-CTA {
 .mss-hero .bannerOverlay.bannerOverlaymss {
   height: 61%; }
 
-.cms-mid-season-sale .bannerOverlay__contentArea {
+.cms-mid-season .bannerOverlay__contentArea {
   padding-bottom: 10%; }
 
 @media only screen and (max-width: 989px) {
@@ -5002,11 +5002,15 @@ a:nth-child(2) .fp-CTA {
   .mss-cta_button {
     font-size: 12px; }
 
-  .cms-mid-season-sale .bannerOverlay__contentArea {
+  .cms-mid-season .bannerOverlay__contentArea {
     padding-bottom: 7%; } }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 730px) {
   .mss-hero .mss-title {
-    margin-top: -14%; } }
+    margin-top: -20%;
+    font-size: 16px; }
+
+  .mss-hero .mss-subtitle {
+    font-size: 17px; } }
 @media only screen and (max-width: 650px) {
   .mss-cta_button {
     font-size: 16px; }
@@ -5040,9 +5044,9 @@ a:nth-child(2) .fp-CTA {
   .mss-cta {
     margin: 2% 0 7% 0; }
 
-  .cms-mid-season-sale .bannerOverlay__contentArea {
-    padding-top: 0;
-    padding-bottom: 29%; } }
+  .cms-mid-season .bannerOverlay__contentArea {
+    padding-top: 9%;
+    padding-bottom: 0; } }
 /* SS18 Mid season Sale End*/
 .plp-fleece {
   background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece.jpg"); }
