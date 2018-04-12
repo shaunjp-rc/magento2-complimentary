@@ -1369,6 +1369,9 @@ ul.follow-us {
 .guaranteehead {
   padding-top: 3%; }
 
+span.requiredfield {
+  display: inline-block; }
+
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */

@@ -1369,6 +1369,9 @@ ul.follow-us {
 .guaranteehead {
   padding-top: 3%; }
 
+span.requiredfield {
+  display: inline-block; }
+
 /* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
@@ -7957,11 +7960,6 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
   margin-top: 20px; }
 
 /* Contact us form end */
-/* register guarantee form start */
-.cms-lebenslange-garantie span.requiredfield {
-  display: inline-block; }
-
-/* register guarantee form end */
 /* honesty project form start */
 .honesty-project .block-title {
   font-size: 21px !important; }
