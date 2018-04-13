@@ -4,6 +4,9 @@
 // Author: Shaun Pelling
 /////////////////////////////////////*/
 
+/*///////// Unticking account sign up ////////*/
+jQuery('.customer-account-create .newsletter .c-checkbox-option__label input').prop('checked', false);
+
 /*///////// Badge & Promo Behaviour ////////*/
 
 function rlBadge(){
