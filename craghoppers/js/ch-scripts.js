@@ -202,7 +202,6 @@ function lowerseo(){
 
 // Delivery Estimates 
 function delEst(){
-  console.log("Del Est One");
   // current date
   var todayDate = new Date();
 
@@ -214,7 +213,7 @@ function delEst(){
     // Standard Delivery
 
       // current date
-      var standardToday = new Date(testDate);
+      var standardToday = new Date();
         var standardNewDate = new Date();
 
         // if the day is monday
@@ -272,7 +271,7 @@ function delEst(){
       //Express Delivery
 
         // current date
-      var expressToday = new Date(testDate);
+      var expressToday = new Date();
         var expressNewDate = new Date();
 
         // if the day is friday and after 7pm, set delivery date to tuesday
@@ -340,7 +339,7 @@ function delEst(){
 
       // Click and Collect
         // current date
-      var ccToday = new Date(testDate);
+      var ccToday = new Date();
         var ccNewDate = new Date();
 
         // if between mon & thurs
@@ -453,7 +452,6 @@ function delEst(){
         jQuery('.pdpCP').html(clickCollect);
 
     //END
-    console.log("Del Est Two");
   }
 // END
 
