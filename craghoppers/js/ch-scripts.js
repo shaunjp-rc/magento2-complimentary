@@ -200,6 +200,261 @@ function lowerseo(){
 }
 /* END */
 
+// Delivery Estimates 
+function delEst(){
+  // current date
+  var todayDate = new Date();
+
+  var testDate = new Date("April 16, 2018 11:30:00");
+
+    var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    var month = ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+    // Standard Delivery
+
+      // current date
+      var standardToday = new Date();
+        var standardNewDate = new Date();
+
+        // if the day is monday
+        if (standardToday.getDay() == 1){
+          // add 7 to day due to not delivering on sunday
+          standardNewDate.setDate(standardToday.getDate()+7);
+        } else {
+          // gets current date and adds 6 to it for standard delivery
+          standardNewDate.setDate(standardToday.getDate()+6);
+      }
+
+        // extract the day from date
+        var stanDay = standardNewDate.getDay();
+
+        // extract the date
+        var stanDate = standardNewDate.getDate();
+
+        // extract the month
+        var stanMonth = standardNewDate.getMonth();
+
+        //get estimated date
+        var stanEstDate = stanDate;
+        // work out what suffix it needs, nth, st etc.
+        var stanSingle = stanEstDate % 10,
+            stanDouble = stanEstDate % 100;
+        if (stanSingle == 1 && stanDouble != 11) {
+            var stanSuffix = "st";
+        } else
+        if (stanSingle == 2 && stanDouble != 12) {
+            var stanSuffix = "nd";
+        } else
+        if (stanSingle == 3 && stanDouble != 13) {
+            var stanSuffix = "rd";
+        }else {
+          var stanSuffix = "th";
+      }
+
+        // turn day number into relating day name
+        var dayName = days[stanDay];
+
+        // turn month number into relating month name
+        var monthName = month[stanMonth];
+
+        // concat vars and print to DOM
+        var standard = 'Get it no later than ' + (dayName) + ' ' + (stanDate) + (stanSuffix) + ' ' + (monthName);
+        jQuery('.standard').html(standard);
+        // pdp print to DOM
+        jQuery('.pdpStan').html(standard);
+        // prints to checkout delivery options
+        jQuery('#label_carrier_default_ampersand_standard').prepend('<div class="delest checkStan"></div>');
+        jQuery('.checkStan').html(standard);
+
+      // END
+
+      //Express Delivery
+
+        // current date
+      var expressToday = new Date();
+        var expressNewDate = new Date();
+
+        // if the day is friday and after 7pm, set delivery date to tuesday
+        if (expressToday.getDay() == 5 && expressToday.getHours() >= 19){
+          expressNewDate.setDate(expressToday.getDate()+4);
+        } else if (expressToday.getDay() == 6){ //if the day is saturday, set delivery to tuesday
+          expressNewDate.setDate(expressToday.getDate()+3);
+        } else if (expressToday.getDay() == 0){ //if the day is sunday, set delivery to tuesday
+          expressNewDate.setDate(expressToday.getDate()+2);
+        } else if (expressToday.getHours() >= 0 && expressToday.getHours() < 19){ // if time is between 12am & 7pm
+          // gets current date and adds 1 to it
+          expressNewDate.setDate(expressToday.getDate()+1);
+      } else{
+        // gets current date and adds 2 to it
+        expressNewDate.setDate(expressToday.getDate()+2);
+      }
+
+        // extract the day from date
+        var expDay = expressNewDate.getDay();
+
+        // extract the date
+        var expDate = expressNewDate.getDate();
+
+        // extract the month
+        var expMonth = expressNewDate.getMonth();
+
+        //get estimated date
+        var expEstDate = expDate;
+        // work out what suffix it needs, nth, st etc.
+        var expSingle = expEstDate % 10,
+            expDouble = expEstDate % 100;
+        if (expSingle == 1 && expDouble != 11) {
+            var expSuffix = "st";
+        } else
+        if (expSingle == 2 && expDouble != 12) {
+            var expSuffix = "nd";
+        } else
+        if (expSingle == 3 && expDouble != 13) {
+            var expSuffix = "rd";
+        }else {
+          var expSuffix = "th";
+      }
+
+        // turn day number into relating day name
+        var expressDay = days[expDay];
+
+      // turn month number into relating month name
+        var expressMonth = month[expMonth];
+
+        // concat vars and print to DOM
+        var express = 'Get it by ' + (expressDay) + ' ' + (expDate) + (expSuffix) + ' ' + (expressMonth);
+        var premium = 'Get it by 12pm ' + (expressDay) + ' ' + (expDate) + (expSuffix) + ' ' + (expressMonth);
+        jQuery('.express').html(express);
+        jQuery('.premium').html(premium);
+        // pdp pring to DOM
+        jQuery('.pdpExpress').html(express);
+        jQuery('.pdpPrem').html(premium);
+        // prints to checkout delivery options
+        jQuery('#label_carrier_default_ampersand_express').prepend('<div class="delest checkExpress"></div>');
+        jQuery('.checkExpress').html(express);
+        jQuery('#label_carrier_premium_ampersand_express').prepend('<div class="delest checkPrem"></div>');
+        jQuery('.checkPrem').html(premium);
+
+      // END
+
+      // Click and Collect
+        // current date
+      var ccToday = new Date();
+        var ccNewDate = new Date();
+
+        // if between mon & thurs
+      if (ccToday.getDay() >= 1 && ccToday.getDay() <= 4){
+
+        // hours is less than 15 (before 3pm)
+        if (ccToday.getHours() < 15){
+
+          // add 2 to current date
+          ccNewDate.setDate(ccToday.getDate()+2);
+
+        // hours is 15 and minutes less than/equal 30 (between 3pm and 3.30pm)
+        } else if (ccToday.getHours() == 15 && ccToday.getMinutes() <= 30){
+
+          // add 2 to current date
+          ccNewDate.setDate(ccToday.getDate()+2);
+
+        // hours is 15 and mins greater than 30 (between 3.30pm and 4pm)
+        } else if (ccToday.getHours() == 15 && ccToday.getMinutes() > 30){
+
+          // add 3 to current date
+          ccNewDate.setDate(ccToday.getDate()+3);
+
+        } else if (ccToday.getHours() > 15){
+
+          // add 3 to current date
+          ccNewDate.setDate(ccToday.getDate()+3);
+
+        }
+
+      }
+
+      // if day is friday
+      if (ccToday.getDay() == 5){
+
+        // hours is less than 15 (before 3pm)
+        if (ccToday.getHours() < 15){
+
+          // add 1 to current date
+          ccNewDate.setDate(ccToday.getDate()+1);
+
+        // hours is 15 and minutes less than/equal 30 (between 3pm and 3.30pm)
+        } else if (ccToday.getHours() == 15 && ccToday.getMinutes() <= 30){
+
+          // add 1 to current date
+          ccNewDate.setDate(ccToday.getDate()+1);
+
+        // hours is 15 and mins greater than 30 (between 3.30pm and 4pm)
+        } else if (ccToday.getHours() == 15 && ccToday.getMinutes() > 30){
+
+          // add 3 to current date
+          ccNewDate.setDate(ccToday.getDate()+3);
+
+        } else if (ccToday.getHours() > 15){
+
+          // add 3 to current date
+          ccNewDate.setDate(ccToday.getDate()+3);
+
+        }
+
+      }
+
+        // if day is saturday
+        if (ccToday.getDay() == 6){
+          ccNewDate.setDate(ccToday.getDate()+3); // add 3 days to date, collect tuesday
+        }
+        // if day is sunday
+        if (ccToday.getDay() == 0){ // if day is sunday
+          ccNewDate.setDate(ccToday.getDate()+2); // add 2 days to date, collect tuesday
+        }
+
+        // gets current date and adds 2 to it for click and collect
+        //ccNewDate.setDate(ccToday.getDate()+2);
+
+        // extract the day from date
+        var ccDay = ccNewDate.getDay();
+
+        // extract the date
+        var ccDate = ccNewDate.getDate();
+
+        // extract the month
+        var ccMonth = ccNewDate.getMonth();
+
+        //get estimated date
+        var ccEstDate = ccDate;
+        // work out what suffix it needs, nth, st etc.
+        var ccSingle = ccEstDate % 10,
+            ccDouble = ccEstDate % 100;
+        if (ccSingle == 1 && ccDouble != 11) {
+            var ccSuffix = "st";
+        } else
+        if (ccSingle == 2 && ccDouble != 12) {
+            var ccSuffix = "nd";
+        } else
+        if (ccSingle == 3 && ccDouble != 13) {
+            var ccSuffix = "rd";
+        }else {
+          var ccSuffix = "th";
+      }
+
+        // turn day number into relating day name
+        var ccNameDay = days[ccDay];
+
+      // turn month number into relating month name
+        var ccNameMonth = month[ccMonth];
+
+        // concat vars and print to DOM
+        var clickCollect = 'Available to collect from ' + (ccNameDay) + ' ' + (ccDate) + (ccSuffix) + ' ' + (ccNameMonth);
+        jQuery('.collect').html(clickCollect);
+        jQuery('.pdpCP').html(clickCollect);
+
+    //END
+  }
+// END
+
 /*
   Craghoppers specific JS snippets
  */
