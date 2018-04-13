@@ -7,9 +7,11 @@
 /////////////////////////////////////*/
 
 /*///////// Unticking account sign up ////////*/
-jQuery('.customer-account-create .newsletter .c-checkbox-option__label input').prop('checked', false);
-/*///////// Badge & Promo Behaviour ////////*/
+requirejs(['jquery'], function( $ ) {
+    jQuery('.customer-account-create .newsletter .c-checkbox-option__label input').prop('checked', false);
+});
 
+/*///////// Badge & Promo Behaviour ////////*/
 function rlBadge(){
 
   var query = "[name='monVar_promotion']";
