@@ -4807,6 +4807,12 @@ a:nth-child(2) .fp-CTA {
 .cyal-product2 {
   min-height: 285px; }
 
+.cyal-divide.cya-button {
+  padding: 4%; }
+
+.flex-item.col-6.col-6btn {
+  padding: 0; }
+
 @media screen and (max-width: 770px) {
   .cyal-inner {
     width: 50%; }
@@ -4879,7 +4885,7 @@ a:nth-child(2) .fp-CTA {
     font-size: 18px;
     line-height: 26px;
     padding: 3% 5%;
-    margin: 6% 0; }
+    margin: 1% 0; }
 
   .cyal-copy {
     padding: 5%; }
