@@ -12,6 +12,9 @@
 @import 'partials/menu.scss';
 @import 'partials/pages.scss';
 
+html:lang(en-IE) {
+	@import 'partials/ireland.scss';
+}
 /* Singles */
 
 
