@@ -3456,6 +3456,16 @@ html .s-main-menu .block {
 
   .style-school-banner {
     margin-top: 300px; } }
+html:lang(en-IE) {
+  /*/////////////////////////////////////////*/
+  /* Ireland only CSS  Starts                */
+  /*/////////////////////////////////////////*/
+  /*/////////////////////////////////////////*/
+  /* Ireland only CSS Ends.                 */
+  /*/////////////////////////////////////////*/ }
+  html:lang(en-IE) .s-header-links .links > li:first-child {
+    display: none; }
+
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */
