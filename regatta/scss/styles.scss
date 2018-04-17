@@ -11,7 +11,42 @@
 @import 'partials/blocks.scss';
 @import 'partials/menu.scss';
 @import 'partials/pages.scss';
-@import 'partials/ireland.scss';
+
+/* IE STYLES ONLY */
+
+html:lang(en-IE) {
+	@import 'partials/ireland.scss';
+}
+
+/* FR STYLES ONLY */
+
+html:lang(fr-FR) {
+	@import 'partials/france.scss';
+}
+
+/* DE STYLES ONLY */
+
+html:lang(de-DE) {
+	@import 'partials/germany.scss';
+}
+
+/* IT STYLES ONLY */
+
+html:lang(it-IT) {
+	@import 'partials/italy.scss';
+}
+
+/* RU STYLES ONLY */
+
+html:lang(ru-RU) {
+	@import 'partials/russia.scss';
+}
+
+/* ES STYLES ONLY */
+
+html:lang(es-ES) {
+	@import 'partials/spain.scss';
+}
 
 /* Singles */
 
