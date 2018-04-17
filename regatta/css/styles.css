@@ -1891,21 +1891,6 @@ body .c-product-tile .c-product-tile__btn {
 
   .column-content a {
     padding: 0 !important; } }
-html[lang="en-IE"] .page-layout-checkout .c-order-summary__basket-link,
-html[lang="en-IE"] .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
-  display: none; }
-
-html[lang="en-IE"] .Buy-1-Get-1-Free.mon-badge {
-  display: none !important; }
-
-html[lang="en-IE"] div[name="shippingAddress.postcode"] label:after {
-  content: '*';
-  color: #e32e2e;
-  margin-left: 5px; }
-
-html[lang="en-IE"] span[class="2-for-33 mon-badge"] {
-  display: none !important; }
-
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
@@ -3456,16 +3441,28 @@ html .s-main-menu .block {
 
   .style-school-banner {
     margin-top: 300px; } }
-html:lang(en-IE) {
-  /*/////////////////////////////////////////*/
-  /* Ireland only CSS  Starts                */
-  /*/////////////////////////////////////////*/
-  /*/////////////////////////////////////////*/
-  /* Ireland only CSS Ends.                 */
-  /*/////////////////////////////////////////*/ }
-  html:lang(en-IE) .s-header-links .links > li:first-child {
-    display: none; }
+/* IE STYLES ONLY */
+html:lang(en-IE) .s-header-links .links > li:first-child {
+  display: none; }
+html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
+  display: none; }
+html:lang(en-IE) .page-layout-checkout .c-order-summary__basket-link,
+html:lang(en-IE) .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
+  display: none; }
+html:lang(en-IE) .Buy-1-Get-1-Free.mon-badge {
+  display: none !important; }
+html:lang(en-IE) div[name="shippingAddress.postcode"] label:after {
+  content: '*';
+  color: #e32e2e;
+  margin-left: 5px; }
+html:lang(en-IE) span[class="2-for-33 mon-badge"] {
+  display: none !important; }
 
+/* FR STYLES ONLY */
+/* DE STYLES ONLY */
+/* IT STYLES ONLY */
+/* RU STYLES ONLY */
+/* ES STYLES ONLY */
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */
