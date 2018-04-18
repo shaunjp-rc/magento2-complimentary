@@ -1597,6 +1597,50 @@ section .blogPost .blogPost-Copy {
   .slide-newarrival .sliderbutton {
     margin-left: 4.5%;
     font-size: 4.2vw; } }
+.heroButton {
+  background: #CC1130;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  padding: 1% 0;
+  font-family: "Garamond-Regular";
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 0 !important; }
+
+.heroButton strong {
+  display: block;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 18px; }
+
+.sectionRow.sectionHeros .col-6 {
+  margin-bottom: 1%; }
+
+.sectionRow.sectionHeros .col-6:nth-child(3),
+.sectionRow.sectionHeros .col-6:nth-child(4) {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 740px) {
+  .sectionHeros .flex-item.col-6 {
+    width: 49.98%; } }
+@media only screen and (max-width: 700px) {
+  .sectionRow.sectionHeros .col-6:nth-child(3),
+  .sectionRow.sectionHeros .col-6:nth-child(4) {
+    margin-bottom: 1%; }
+
+  .heroButton {
+    font-size: 2.9vw;
+    letter-spacing: 1px; }
+
+  .heroButton strong {
+    font-size: 2.5vw; } }
+@media only screen and (max-width: 450px) {
+  .heroButton {
+    font-size: 2.7vw; }
+
+  .sectionRow.sectionHeros .col-6 {
+    margin-bottom: 3%; } }
 /* Customer Services Styles */
 .helpnav {
   float: left;
