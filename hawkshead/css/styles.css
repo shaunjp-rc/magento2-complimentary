@@ -1615,7 +1615,7 @@ section .blogPost .blogPost-Copy {
   font-size: 18px; }
 
 .sectionRow.sectionHeros .col-6 {
-  margin-bottom: 1%; }
+  margin-bottom: 10px; }
 
 .sectionRow.sectionHeros .col-6:nth-child(3),
 .sectionRow.sectionHeros .col-6:nth-child(4) {
