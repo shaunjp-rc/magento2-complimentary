@@ -1,0 +1,4879 @@
+
+  {
+    "items": {
+      "storeList": [
+        {
+          "store": {
+            "StoreID": "6AOU1",
+            "name": "6th Avenue Outfitters",
+            "street": "524 West 6th Avenue",
+            "city": "Anchorage",
+            "region": "AK",
+            "country": "US",
+            "postcode": 99501,
+            "telephone": "907 276 0233",
+            "latitude": 61.216299,
+            "longitude": -149.892475
+          }
+        },
+        {
+          "store": {
+            "StoreID": "AOCC1",
+            "name": "A-One Clothing",
+            "street": "358 King Street East",
+            "city": "Kingston",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "K7L 3B6",
+            "telephone": "613 548 8732",
+            "latitude": 44.231227,
+            "longitude": -76.481162
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ACEU1",
+            "name": "Active Endeavors",
+            "street": "138 S Clinton Street",
+            "city": "Iowa City",
+            "region": "IA",
+            "country": "US",
+            "postcode": 52240,
+            "telephone": "319 400 2414",
+            "latitude": 41.659212,
+            "longitude": -91.534321
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ACIU1",
+            "name": "Active Sports Inc",
+            "street": "200 S. Owasso Blvd E",
+            "city": "St. Paul",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55117,
+            "telephone": "800 992 7245",
+            "latitude": 45.030552,
+            "longitude": -93.094214
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "3054 Independence Dr",
+            "city": "Birmingham",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35209,
+            "telephone": "205 870 1919",
+            "latitude": 33.47641,
+            "longitude": -86.787663
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "108 Inverness Plaza",
+            "city": "Birmingham",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35242,
+            "telephone": "205 980 3303",
+            "latitude": 33.418704,
+            "longitude": -86.696216
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "119 North Court Street",
+            "city": "Florence",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35630,
+            "telephone": "256 764 1809",
+            "latitude": 34.80082,
+            "longitude": -87.676309
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "9 Durhu Dr Suite 305",
+            "city": "Mobile",
+            "region": "AL",
+            "country": "US",
+            "postcode": 36608,
+            "telephone": "251 340 0528",
+            "latitude": 30.689155,
+            "longitude": -88.131103
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "4710 Frank St Suite 116",
+            "city": "Trussville",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35235,
+            "telephone": "205 655 6025",
+            "latitude": 33.642467,
+            "longitude": -86.624855
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "7917 Vaughn Rd",
+            "city": "Montgomery",
+            "region": "AL",
+            "country": "US",
+            "postcode": 36116,
+            "telephone": "334 227 3232",
+            "latitude": 32.340403,
+            "longitude": -86.177662
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALAU1",
+            "name": "Alabama Outdoors",
+            "street": "2030 Cecil Ashburne Dr Suite 105",
+            "city": "Huntsville",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35802,
+            "telephone": "256 885 3561",
+            "latitude": 34.67152,
+            "longitude": 34.67152
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALOC1",
+            "name": "Alberni Outpost Holdings Corp",
+            "street": "3290 North Island Hwy",
+            "city": "Nanaimo",
+            "region": "BC",
+            "country": "US",
+            "postcode": "V9T 1W1",
+            "telephone": "250 760 0044",
+            "latitude": 49.205585,
+            "longitude": -124.007577
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALOU1",
+            "name": "Algonquin Outfitters",
+            "street": "86 Main St East",
+            "city": "Huntsville",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "P1H 2C7",
+            "telephone": "705 787 0262",
+            "latitude": 45.327351,
+            "longitude": -79.216452
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ALCU1",
+            "name": "Allen's Clothing Inc.",
+            "street": "828 Lincoln Ave",
+            "city": "Steamboat Springs",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80477,
+            "telephone": "970 879 0351",
+            "latitude": 40.486745,
+            "longitude": -106.835053
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Alpine Shop",
+            "street": "213 Church Street",
+            "city": "Sandpoint",
+            "region": "ID",
+            "country": "US",
+            "postcode": 83864,
+            "telephone": "208 263 5157",
+            "latitude": 48.273739,
+            "longitude": -116.549532
+          }
+        },
+        {
+          "store": {
+            "StoreID": "APLU1",
+            "name": "Alpine Shop Ltd",
+            "street": "440 N. Kirkwood Road",
+            "city": "St.Louis",
+            "region": "MO",
+            "country": "US",
+            "postcode": 63122,
+            "telephone": "314 962 7715",
+            "latitude": 38.586037,
+            "longitude": -90.405584
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ASOU1",
+            "name": "Alpine Sports Outfitters",
+            "street": "452 Old Mammoth Rd",
+            "city": "Mammoth Lakes",
+            "region": "CA",
+            "country": "US",
+            "postcode": 93546,
+            "telephone": "310 947 2207",
+            "latitude": 37.639532,
+            "longitude": -118.967398
+          }
+        },
+        {
+          "store": {
+            "StoreID": "APPU1",
+            "name": "Appalachian Outfitters",
+            "street": "60 Kendall Park Road",
+            "city": "Penninsula",
+            "region": "OH",
+            "country": "US",
+            "postcode": 44264,
+            "telephone": "330 655 5444",
+            "latitude": 41.219585,
+            "longitude": -81.492713
+          }
+        },
+        {
+          "store": {
+            "StoreID": "APOU1",
+            "name": "Appalachian Ski and Outdoors",
+            "street": "123 S.Allen Street",
+            "city": "State College",
+            "region": "PA",
+            "country": "US",
+            "postcode": 16801,
+            "telephone": "814 234 3000",
+            "latitude": 40.794115,
+            "longitude": -77.860594
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ARLU1",
+            "name": "Arlberg Sports, Inc.",
+            "street": "25 N. Wenatchee Ave.",
+            "city": "Wenatchee",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98801,
+            "telephone": "509 663 7401",
+            "latitude": 47.425814,
+            "longitude": -120.311952
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WOWU1",
+            "name": "Army Navy Store",
+            "street": "505 West Main Street",
+            "city": "Ashland",
+            "region": "WI",
+            "country": "US",
+            "postcode": 54806,
+            "telephone": "715 682 4393",
+            "latitude": 46.589463,
+            "longitude": -90.888693
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BBTU1",
+            "name": "B & B Travelware LLC",
+            "street": "913 Willow St, Suite 201",
+            "city": "San Jose",
+            "region": "CA",
+            "country": "US",
+            "postcode": 95125,
+            "telephone": "408 266 5398",
+            "latitude": 37.310257,
+            "longitude": -121.897663
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BCEU1",
+            "name": "Backcountry Edge, Inc",
+            "street": "708, Ditz Drive",
+            "city": "Manheim",
+            "region": "PA",
+            "country": "US",
+            "postcode": 17545,
+            "telephone": "717 665 1576",
+            "latitude": 40.171045,
+            "longitude": -76.379569
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BPSU1",
+            "name": "Backpackers Shop",
+            "street": "5128 Colorado Ave",
+            "city": "Sheffield Village",
+            "region": "OH",
+            "country": "US",
+            "postcode": 44054,
+            "telephone": "440 934 5345",
+            "latitude": 41.464783,
+            "longitude": -82.08368
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BSOU1",
+            "name": "Bay Shore Outdoor Stores, Inc.",
+            "street": "2457 South Bay Shore Drive (Hwy.42)",
+            "city": "Sister Bay",
+            "region": "WI",
+            "country": "US",
+            "postcode": 54234,
+            "telephone": "920 854 7598",
+            "latitude": 45.18515,
+            "longitude": -87.129508
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BSTU1",
+            "name": "Bay Street Outfitters",
+            "street": "825 Bay Street",
+            "city": "Beaufort",
+            "region": "SC",
+            "country": "US",
+            "postcode": 29902,
+            "telephone": "843 524 5250",
+            "latitude": 32.430992,
+            "longitude": -80.671402
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BMOA1",
+            "name": "Bear Mountain Outfitters",
+            "street": "302 Main Street",
+            "city": "Highlands",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28741,
+            "telephone": "828 526 8213",
+            "latitude": 35.053193,
+            "longitude": -83.198612
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Big Sky Sports",
+            "street": "50 Big Sky Resort Road",
+            "city": "Big Sky",
+            "region": "MT",
+            "country": "US",
+            "postcode": 59716,
+            "telephone": "800 548 4486",
+            "latitude": 45.283436,
+            "longitude": -111.400367
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BRMU1",
+            "name": "Blue Ridge Mountain Outfitters",
+            "street": "500 E Main St #202",
+            "city": "GA 30513",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30513,
+            "telephone": "706 258 3232",
+            "latitude": 34.86723,
+            "longitude": -84.322884
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BMSU1",
+            "name": "Boone Mountain Sports",
+            "street": "2962 Evergreen Pkwy",
+            "city": "Evergreen",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80439,
+            "telephone": "303 670 0039",
+            "latitude": 39.660541,
+            "longitude": -105.352139
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Boyne Country Sports",
+            "street": "1200 Bay View Rd",
+            "city": "Petoskey",
+            "region": "MI",
+            "country": "US",
+            "postcode": 49770,
+            "telephone": "231 439 4906",
+            "latitude": 45.382876,
+            "longitude": -84.942576
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Boyne Country Sports",
+            "street": "42881 S Woodward",
+            "city": "Bloomfield Hills",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48304,
+            "telephone": "248 338 0803",
+            "latitude": 42.602328,
+            "longitude": -83.263977
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Boyne Country Sports",
+            "street": "1 Boyne Mountain Road",
+            "city": "Boyne Falls",
+            "region": "MI",
+            "country": "US",
+            "postcode": 49713,
+            "telephone": "231 549 6006",
+            "latitude": 45.16288,
+            "longitude": -84.93006
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Boyne Country Sports",
+            "street": "27782 Novi Road",
+            "city": "Novi",
+            "region": "MI",
+            "country": "US",
+            "postcode": 28375,
+            "telephone": "248 347 3323",
+            "latitude": 42.492545,
+            "longitude": -83.474919
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Boyne Country Sports",
+            "street": "101 E Front Street",
+            "city": "Traverse City",
+            "region": "MI",
+            "country": "US",
+            "postcode": 49684,
+            "telephone": "231 941 1999",
+            "latitude": 44.76426,
+            "longitude": -85.623518
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BISU1",
+            "name": "Bracortons Inc",
+            "street": "1106 Commonwealth Blvd",
+            "city": "Tupelo",
+            "region": "MS",
+            "country": "US",
+            "postcode": 38804,
+            "telephone": "662-617-4637",
+            "latitude": 42.3515,
+            "longitude": -71.124571
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMCU1",
+            "name": "Buckeye Sports Center",
+            "street": "4610 State Rd",
+            "city": "Peninsula",
+            "region": "OH",
+            "country": "US",
+            "postcode": 44264,
+            "telephone": "330 929 3366",
+            "latitude": 41.197169,
+            "longitude": -81.50237
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BFOU1",
+            "name": "Buffalo Fleece & Outerwear",
+            "street": "758 Elmwood Ave",
+            "city": "Buffalo",
+            "region": "NY",
+            "country": "US",
+            "postcode": 14222,
+            "telephone": "716 883 4380",
+            "latitude": 42.917744,
+            "longitude": -78.877375
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BUFU1",
+            "name": "Buffalo Peak Outfitters",
+            "street": "4500 Interstate 55 North Frontage Rd #115",
+            "city": "Jackson",
+            "region": "MS",
+            "country": "US",
+            "postcode": 39211,
+            "telephone": "601 366 2557",
+            "latitude": 32.354947,
+            "longitude": -90.150885
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CAMU1",
+            "name": "Camp Saver",
+            "street": "2280 S. Heritage Dr",
+            "city": "Nibley",
+            "region": "UT",
+            "country": "US",
+            "postcode": 84321,
+            "telephone": "435 578 1330",
+            "latitude": 41.691018,
+            "longitude": -111.865892
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CANU1",
+            "name": "Canfields Sporting Goods",
+            "street": "8457 West Center Road",
+            "city": "Omaha",
+            "region": "NE",
+            "country": "US",
+            "postcode": 68124,
+            "telephone": "402 393 3363",
+            "latitude": 41.233082,
+            "longitude": -96.046772
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CCRU1",
+            "name": "Canyon Country River Adventures,Inc",
+            "street": "225 South Main Street",
+            "city": "Moab",
+            "region": "UT",
+            "country": "US",
+            "postcode": 84532,
+            "telephone": "866 904 1163",
+            "latitude": 38.56995,
+            "longitude": -109.550515
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CBKU1",
+            "name": "CB KIDS",
+            "street": "326 Elk Ave",
+            "city": "Crested Butte",
+            "region": "CO",
+            "country": "US",
+            "postcode": 81224,
+            "telephone": "970 349 2884",
+            "latitude": 38.869519,
+            "longitude": -106.984721
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CSPU1",
+            "name": "Chalet Sports",
+            "street": "108 West Main Street",
+            "city": "Bozeman",
+            "region": "MT",
+            "country": "US",
+            "postcode": 59771,
+            "telephone": "406 587 4595",
+            "latitude": 45.679128,
+            "longitude": -111.039013
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CHSU1",
+            "name": "Champaign Surplus",
+            "street": "303 S. Neil Street",
+            "city": "Champaign",
+            "region": "IL",
+            "country": "US",
+            "postcode": 61820,
+            "telephone": "217 356 4703",
+            "latitude": 40.114039,
+            "longitude": -88.243978
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CILU1",
+            "name": "Changes in Latitude Travel Store",
+            "street": "2525 Arapahoe St Unit H2A",
+            "city": "Boulder",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80302,
+            "telephone": "303 786 8406",
+            "latitude": 40.016945,
+            "longitude": -105.261669
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Charley Geiger's",
+            "street": "50 Shopping Plaza",
+            "city": "Chagrin Falls",
+            "region": "OH",
+            "country": "US",
+            "postcode": 44022,
+            "telephone": "800 758 7547",
+            "latitude": 41.431387,
+            "longitude": -81.390484
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Charley Geiger's",
+            "street": "14710 Detroit Avenue",
+            "city": "Lakewood",
+            "region": "OH",
+            "country": "US",
+            "postcode": 44107,
+            "telephone": "800 758 7547",
+            "latitude": 41.485163,
+            "longitude": -81.798755
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Charley Geiger's",
+            "street": "1020 Euclid Ave",
+            "city": "Cleveland",
+            "region": "OH",
+            "country": "US",
+            "postcode": 44115,
+            "telephone": "216 755 4500",
+            "latitude": 41.500092,
+            "longitude": -81.685388
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MCSU1",
+            "name": "Clare Swan Montecito",
+            "street": "1485 E.Valley Rd Suite 12",
+            "city": "Santa Barbara",
+            "region": "CA",
+            "country": "US",
+            "postcode": 93108,
+            "telephone": "805 969 1746",
+            "latitude": 34.437035,
+            "longitude": -119.632796
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CLLU1",
+            "name": "Colorado Love Outdoors",
+            "street": "28 W. Main Street",
+            "city": "Cortez",
+            "region": "CO",
+            "country": "US",
+            "postcode": 81321,
+            "telephone": "970 564 3299",
+            "latitude": 37.34894,
+            "longitude": -108.585884
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CVTU1",
+            "name": "Columbia Valley Trading Company",
+            "street": "926 7th Ave, PO Box 2093",
+            "city": "Ivermere,",
+            "region": "BC",
+            "country": "US",
+            "postcode": "V0A 1K0",
+            "telephone": "250 342 3366",
+            "latitude": 50.505412,
+            "longitude": -116.028828
+          }
+        },
+        {
+          "store": {
+            "StoreID": "CUMU1",
+            "name": "Cumberland Transit",
+            "street": "2807 West End Ave",
+            "city": 37203,
+            "region": "TN",
+            "country": "US",
+            "postcode": 37203,
+            "telephone": "615 321 4069",
+            "latitude": 36.153982,
+            "longitude": -86.793902
+          }
+        },
+        {
+          "store": {
+            "StoreID": "DWPU1",
+            "name": "Dan Webster's Pro Shop",
+            "street": "2022 M-119",
+            "city": "Petoskey",
+            "region": "MI",
+            "country": "US",
+            "postcode": 49770,
+            "telephone": "231 348 2926",
+            "latitude": 45.374953,
+            "longitude": -84.957231
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Dekdebruns Ski & Snowboard",
+            "street": "18 Washington St",
+            "city": "Ellicottville",
+            "region": "NY",
+            "country": "US",
+            "postcode": 14731,
+            "telephone": "716 699 2754",
+            "latitude": 42.278127,
+            "longitude": -78.668205
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Denali Branford",
+            "street": "1004 Main St",
+            "city": "Branford",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6405,
+            "telephone": "203 488 0802",
+            "latitude": 41.281615,
+            "longitude": -72.811831
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Denali Mohegan Sun",
+            "street": "The Shops at Mohegan Sun",
+            "city": "Uncasville",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6382,
+            "telephone": "860 862 2267",
+            "latitude": 41.49226,
+            "longitude": -72.089031
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Denali New Haven",
+            "street": "13 Broadway",
+            "city": "New Haven",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6511,
+            "telephone": "203 495 9355",
+            "latitude": 41.311078,
+            "longitude": -72.930121
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Denali Old Saybrook",
+            "street": "75 Main St",
+            "city": "Old Saybrook",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6475,
+            "telephone": "860 339 5270",
+            "latitude": 41.294691,
+            "longitude": -72.377235
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Denali Wakefield Mall",
+            "street": "160 Old Tower Hill Rd",
+            "city": "Wakefield",
+            "region": "RI",
+            "country": "US",
+            "postcode": 2879,
+            "telephone": "401 783 4714",
+            "latitude": 41.443412,
+            "longitude": -71.482565
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Denali Wesftield Trumbull",
+            "street": "5065 Main St #265",
+            "city": "Trumball",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6611,
+            "telephone": "203 502 8493",
+            "latitude": 41.229353,
+            "longitude": -73.226474
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WCRU1",
+            "name": "Diamond Brand Outdoors",
+            "street": "145 Cane Crk Ind Prk, Ste 100",
+            "city": "Fletcher",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28732,
+            "telephone": "828 684 6262",
+            "latitude": 35.435361,
+            "longitude": -82.482629
+          }
+        },
+        {
+          "store": {
+            "StoreID": "DLTU1",
+            "name": "Distant Lands Travel Outfitters",
+            "street": "20 S Raymond Ave",
+            "city": "Pasadena",
+            "region": "CA",
+            "country": "US",
+            "postcode": 91105,
+            "telephone": "626 449 3220",
+            "latitude": 34.145454,
+            "longitude": -118.14866
+          }
+        },
+        {
+          "store": {
+            "StoreID": "45DU1",
+            "name": "Early Snows LLC / 45 Degrees",
+            "street": "229 Main Street South",
+            "city": "Stillwater",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55082,
+            "telephone": "651 430 3609",
+            "latitude": 45.055339,
+            "longitude": -92.805845
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TEPU1",
+            "name": "Elephant's Perch",
+            "street": "280 East Ave",
+            "city": "Ketchum",
+            "region": "ID",
+            "country": "US",
+            "postcode": 83340,
+            "telephone": "208 726 3497",
+            "latitude": 43.681844,
+            "longitude": -114.362118
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ESLU1",
+            "name": "Erehwon Mountain Outfiiters",
+            "street": "746 West Algonquin Road",
+            "city": "Arlington Heights",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60005,
+            "telephone": "847 439 1400",
+            "latitude": 42.049059,
+            "longitude": -87.989804
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ESLU1",
+            "name": "Erehwon Mountain Outfiiters",
+            "street": "599 West Glen Bay Avenue",
+            "city": "Glendale",
+            "region": "WI",
+            "country": "US",
+            "postcode": 53217,
+            "telephone": "414 332 9000",
+            "latitude": 43.121921,
+            "longitude": -87.915774
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ESLU1",
+            "name": "Erehwon Mountain Outfiiters",
+            "street": "47 E Chicago Ave",
+            "city": "Naperville",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60540,
+            "telephone": "331 215 6900",
+            "latitude": 41.771855,
+            "longitude": -88.147493
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ESLU1",
+            "name": "Erehwon Mountain Outfiiters",
+            "street": "2585 Waukegan Rd",
+            "city": "Bannockburn",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60015,
+            "telephone": "847 948 7250",
+            "latitude": 42.199296,
+            "longitude": -87.85864
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ESLU1",
+            "name": "Erehwon Mountain Outfiiters",
+            "street": "20505 N Rand Rd",
+            "city": "Kildeer",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60047,
+            "telephone": "847 726 1301",
+            "latitude": 42.162484,
+            "longitude": -88.050281
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMCU1",
+            "name": "Foothill Village Sports Den",
+            "street": "1350 Foothill Dr",
+            "city": "Salt Lake City",
+            "region": "UT",
+            "country": "US",
+            "postcode": 84108,
+            "telephone": "801 582 5611",
+            "latitude": 40.739948,
+            "longitude": -111.827169
+          }
+        },
+        {
+          "store": {
+            "StoreID": "GFFU1",
+            "name": "Gear For Adventure",
+            "street": "305 Buffalo Street",
+            "city": "Hamburg",
+            "region": "NY",
+            "country": "US",
+            "postcode": 14075,
+            "telephone": "716 646 4327",
+            "latitude": 42.723391,
+            "longitude": -78.825349
+          }
+        },
+        {
+          "store": {
+            "StoreID": "GOSU1",
+            "name": "Good Sports",
+            "street": "5039 Beckwith Blvd. H102",
+            "city": "San Antonio",
+            "region": "TX",
+            "country": "US",
+            "postcode": 78249,
+            "telephone": "210 694 0851",
+            "latitude": 29.573596,
+            "longitude": -98.587724
+          }
+        },
+        {
+          "store": {
+            "StoreID": "GEOC1",
+            "name": "Great Escape Outfitters",
+            "street": "369 Richmond Road",
+            "city": "Ottawa",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "K2A 0E7",
+            "telephone": "613 729 7777",
+            "latitude": 45.391549,
+            "longitude": -75.755309
+          }
+        },
+        {
+          "store": {
+            "StoreID": "GROU1",
+            "name": "Great Outdoor Store",
+            "street": "201 E 10th St",
+            "city": "Sioux Falls",
+            "region": "SD",
+            "country": "US",
+            "postcode": 57104,
+            "telephone": "605 335 1132",
+            "latitude": 43.545764,
+            "longitude": -96.724908
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SALU1",
+            "name": "H.Savinar Luggage",
+            "street": "6931 Topanga Cyn Blvd",
+            "city": "Canoga Park",
+            "region": "CA",
+            "country": "US",
+            "postcode": 91303,
+            "telephone": "818 703 1313",
+            "latitude": 34.196624,
+            "longitude": -118.606224
+          }
+        },
+        {
+          "store": {
+            "StoreID": "HARU1",
+            "name": "Harmon Travel",
+            "street": "1529 W Washington St",
+            "city": "Idaho",
+            "region": "ID",
+            "country": "US",
+            "postcode": 83702,
+            "telephone": "208 388 3000",
+            "latitude": 43.623964,
+            "longitude": -116.209165
+          }
+        },
+        {
+          "store": {
+            "StoreID": "HCSU1",
+            "name": "High Country Sports",
+            "street": "465 W. Mt. Pleasant",
+            "city": "Livingston",
+            "region": "NJ",
+            "country": "US",
+            "postcode": 7039,
+            "telephone": "973 994 3630",
+            "latitude": 40.796243,
+            "longitude": -74.345128
+          }
+        },
+        {
+          "store": {
+            "StoreID": "HBSU1",
+            "name": "Hollyloft Ski and Bike",
+            "street": "600 Fairmount Ave.",
+            "city": "Jamestown",
+            "region": "NY",
+            "country": "US",
+            "postcode": 14701,
+            "telephone": "716 483 2330",
+            "latitude": 42.097334,
+            "longitude": -79.274353
+          }
+        },
+        {
+          "store": {
+            "StoreID": "HOLU1",
+            "name": "House Of Logan",
+            "street": "20 Townsend Ave",
+            "city": "Boothbay Harbor",
+            "region": "ME",
+            "country": "US",
+            "postcode": 4538,
+            "telephone": "207 633 2293",
+            "latitude": 44.52638,
+            "longitude": -109.065208
+          }
+        },
+        {
+          "store": {
+            "StoreID": "HJGU1",
+            "name": "Hungry Jack's General Store, Inc",
+            "street": "5655 W Hwy 22",
+            "city": "Wilson",
+            "region": "WY",
+            "country": "US",
+            "postcode": 83014,
+            "telephone": "307 733 3561",
+            "latitude": 43.4986,
+            "longitude": -110.875
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ITOU1",
+            "name": "ILC Travel Outfitters",
+            "street": "328 No Hwy 89",
+            "city": "North Salt Lake",
+            "region": "UT",
+            "country": "US",
+            "postcode": 84054,
+            "telephone": "801 294 9303",
+            "latitude": 40.847496,
+            "longitude": -111.906644
+          }
+        },
+        {
+          "store": {
+            "StoreID": "IURU1",
+            "name": "Index Urban",
+            "street": "3833 4th Avenue",
+            "city": "San Diego",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92103,
+            "telephone": "619 255 5755",
+            "latitude": 32.74747,
+            "longitude": -117.161269
+          }
+        },
+        {
+          "store": {
+            "StoreID": "JEHC1",
+            "name": "J. E. Harper & Co. Travel Supply",
+            "street": "314 Ridge RD N",
+            "city": "Ridgeway",
+            "region": "ON",
+            "country": "US",
+            "postcode": "L0S 1N0",
+            "telephone": "289 876 8787",
+            "latitude": 42.88333,
+            "longitude": -79.051854
+          }
+        },
+        {
+          "store": {
+            "StoreID": "JAXU1",
+            "name": "Jax Outdoor",
+            "street": "4723 W.Lincoln Way",
+            "city": "Ames",
+            "region": "IA",
+            "country": "US",
+            "postcode": 50014,
+            "telephone": "515 292 2276",
+            "latitude": 42.022391,
+            "longitude": -93.677171
+          }
+        },
+        {
+          "store": {
+            "StoreID": "JAXU1",
+            "name": "Jax Outdoor",
+            "street": "1200 N.College Ave.",
+            "city": "Fort Collins",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80524,
+            "telephone": "970 221 0544",
+            "latitude": 40.602178,
+            "longitude": -105.074975
+          }
+        },
+        {
+          "store": {
+            "StoreID": "JAXU1",
+            "name": "Jax Outdoor",
+            "street": "900 S. Hwy 287",
+            "city": "Lafayette",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80026,
+            "telephone": "720 266 6160",
+            "latitude": 39.989806,
+            "longitude": -105.097203
+          }
+        },
+        {
+          "store": {
+            "StoreID": "JLTC1",
+            "name": "Jet-Lag Travel Fashion Inc.",
+            "street": "110-12031 2nd Ave,",
+            "city": "Richmond",
+            "region": "BC",
+            "country": "CA",
+            "postcode": "V7E 3L6",
+            "telephone": "604 277 3331",
+            "latitude": 49.126162,
+            "longitude": -123.159243
+          }
+        },
+        {
+          "store": {
+            "StoreID": "JSEU1",
+            "name": "Jet-Setter",
+            "street": "66 Laurier W.",
+            "city": "Montreal",
+            "region": "QC",
+            "country": "US",
+            "postcode": "H2T 2N4",
+            "telephone": "514 271 5058",
+            "latitude": 45.522239,
+            "longitude": -73.593142
+          }
+        },
+        {
+          "store": {
+            "StoreID": "KATU1",
+            "name": "Kaehler Travel",
+            "street": "553 Chestnut Ave",
+            "city": "Winnetta",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60093,
+            "telephone": "847 386 6730",
+            "latitude": 42.106241,
+            "longitude": -87.734915
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TOUU1",
+            "name": "Kamloops Outfitters Ltd",
+            "street": "925 Notre Dame Drive",
+            "city": "Kamloops",
+            "region": "BC",
+            "country": "US",
+            "postcode": "V2E 2C2",
+            "telephone": "250 318 6174",
+            "latitude": 50.6632,
+            "longitude": -120.365503
+          }
+        },
+        {
+          "store": {
+            "StoreID": "KENU1",
+            "name": "Kenco Work and Safety Store Inc",
+            "street": "1000, Hurley Mountain Rd",
+            "city": "Kingston",
+            "region": "NY",
+            "country": "US",
+            "postcode": 12401,
+            "telephone": "845 340 0552",
+            "latitude": 41.953355,
+            "longitude": -74.049041
+          }
+        },
+        {
+          "store": {
+            "StoreID": "KFOU1",
+            "name": "Kevin's Guns and Sporting Goods",
+            "street": "3350 Capital Circle NE",
+            "city": "Tallahassee",
+            "region": "FL",
+            "country": "US",
+            "postcode": 32308,
+            "telephone": "850 386 5544",
+            "latitude": 30.497342,
+            "longitude": -84.247249
+          }
+        },
+        {
+          "store": {
+            "StoreID": "KIHU1",
+            "name": "King Holdings, LLC.",
+            "street": "2013 Cobalt Dr.",
+            "city": "Louisville",
+            "region": "KY",
+            "country": "US",
+            "postcode": 40299,
+            "telephone": "502 267 1855",
+            "latitude": 38.217702,
+            "longitude": -85.549974
+          }
+        },
+        {
+          "store": {
+            "StoreID": "KITU1",
+            "name": "Kittery Trading Post",
+            "street": "301 US Route 1",
+            "city": "Kittery",
+            "region": "ME",
+            "country": "US",
+            "postcode": 3904,
+            "telephone": "888 587 6246",
+            "latitude": 43.11185,
+            "longitude": -70.735646
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Laacke & Joys",
+            "street": "19233 Bluemound Rd",
+            "city": "Brookfield",
+            "region": "WI",
+            "country": "US",
+            "postcode": 53045,
+            "telephone": "262 782 2960",
+            "latitude": 43.035291,
+            "longitude": -88.152103
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WOWU1",
+            "name": "Larson's Department Store",
+            "street": "327 North First Avenue",
+            "city": "Sandpoint",
+            "region": "ID",
+            "country": "US",
+            "postcode": 83864,
+            "telephone": "208 263 2414",
+            "latitude": 48.275882,
+            "longitude": -116.548136
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Loon Mountain Sports",
+            "street": "41 Loon Brook Road",
+            "city": "Lincoln",
+            "region": "NH",
+            "country": "US",
+            "postcode": 3251,
+            "telephone": "603 745 8111",
+            "latitude": 44.054878,
+            "longitude": -71.638208
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MSOA1",
+            "name": "Massey's Outfitters",
+            "street": "509 North Carrolton",
+            "city": "New Orleans",
+            "region": "LA",
+            "country": "US",
+            "postcode": 70119,
+            "telephone": "504 648 0292",
+            "latitude": 29.977994,
+            "longitude": -90.097491
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MSOA1",
+            "name": "Massey's Outfitters",
+            "street": "7519 Corporate Blvd",
+            "city": "Baton Rouge",
+            "region": "LA",
+            "country": "US",
+            "postcode": 70809,
+            "telephone": "225 246 7100",
+            "latitude": 30.42472,
+            "longitude": -91.12391
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MSOA1",
+            "name": "Massey's Outfitters",
+            "street": "816 North Highway 190",
+            "city": "Covington",
+            "region": "LA",
+            "country": "US",
+            "postcode": 70433,
+            "telephone": "985 809 7544",
+            "latitude": 30.448625,
+            "longitude": -90.082014
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MSOA1",
+            "name": "Massey's Outfitters",
+            "street": "3131 Veterans Blvd",
+            "city": "Metairie",
+            "region": "LA",
+            "country": "US",
+            "postcode": 70002,
+            "telephone": "504 885 1144",
+            "latitude": 30.003921,
+            "longitude": -90.154009
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "2918 Broadstone Rd",
+            "city": "Banner Elk",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28604,
+            "telephone": "828 963 6511",
+            "latitude": "36. 209147",
+            "longitude": -81.777023
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "516 Trade St NW",
+            "city": "Winston-Salem",
+            "region": "NC",
+            "country": "US",
+            "postcode": 27101,
+            "telephone": "336 727 2015",
+            "latitude": 36.100161,
+            "longitude": -80.246687
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "630 W King St",
+            "city": "Boone",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28607,
+            "telephone": "828 262 0000",
+            "latitude": 36.218664,
+            "longitude": -81.683579
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "3565 NC 194",
+            "city": "Sugar Grove",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28679,
+            "telephone": "828 963 6511",
+            "latitude": 36.210437,
+            "longitude": -81.781374
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "15 Biltmore Ave",
+            "city": "Ashville",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28801,
+            "telephone": "828 232 1883",
+            "latitude": 35.594018,
+            "longitude": -82.55184
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "527 N Main St",
+            "city": "Hendersonville",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28792,
+            "telephone": "828 696 1883",
+            "latitude": 35.318157,
+            "longitude": -82.460911
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "63 N Main St",
+            "city": "Waynesville",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28786,
+            "telephone": "828 452 2101",
+            "latitude": 35.490657,
+            "longitude": -82.987964
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "1601 Main St",
+            "city": "Columbia",
+            "region": "SC",
+            "country": "US",
+            "postcode": 29201,
+            "telephone": "803 771 2300",
+            "latitude": 34.006659,
+            "longitude": -81.03656
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "111 N Main St",
+            "city": "Greenville",
+            "region": "SC",
+            "country": "US",
+            "postcode": 29601,
+            "telephone": "864 235 1883",
+            "latitude": 34.852098,
+            "longitude": -82.398987
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MGSU1",
+            "name": "Mast General Store",
+            "street": "402 S Gay St",
+            "city": "Knoxville",
+            "region": "TN",
+            "country": "US",
+            "postcode": 37902,
+            "telephone": "865 546 1336",
+            "latitude": 35.966316,
+            "longitude": -83.918548
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BSEU1",
+            "name": "Mian St Outlet",
+            "street": "211 S. Main St",
+            "city": "Breckenridge",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80424,
+            "telephone": "970 453 1300",
+            "latitude": 39.480348,
+            "longitude": -106.046541
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MMOU1",
+            "name": "Midwest Mountaineering",
+            "street": "309 Cedar Ave South",
+            "city": "Minneapolis",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55454,
+            "telephone": "612 339 2068",
+            "latitude": 44.97068,
+            "longitude": -93.246883
+          }
+        },
+        {
+          "store": {
+            "StoreID": "NMLU1",
+            "name": "Moosejaw",
+            "street": "410 Iona Ave",
+            "city": "Grand Rapids",
+            "region": "MI",
+            "country": "US",
+            "postcode": 49503,
+            "telephone": "616 570 0135",
+            "latitude": 42.955271,
+            "longitude": -85.669984
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "1248 West Paces Ferry Rd NW",
+            "city": "Atlanta",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30327,
+            "telephone": "404 343 1764",
+            "latitude": 33.848979,
+            "longitude": -84.428039
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "675 Ponce de Leon Ave E-184",
+            "city": "Atlanta",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30308,
+            "telephone": "470 344 1745",
+            "latitude": 33.772522,
+            "longitude": -84.365968
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "1556 W McEwen Dr",
+            "city": "Franklin",
+            "region": "TN",
+            "country": "US",
+            "postcode": 37076,
+            "telephone": "615 465 6447",
+            "latitude": 35.934976,
+            "longitude": -86.82579
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "920 Bob Wallace Ave SW",
+            "city": "Huntsville",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35801,
+            "telephone": "256 384 3220",
+            "latitude": 34.712028,
+            "longitude": -86.588566
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "325 The Bridge St",
+            "city": "Huntsville",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35806,
+            "telephone": "256 327 8438",
+            "latitude": 34.715041,
+            "longitude": -86.673105
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "6200 Grand River Blvd E",
+            "city": "Leeds",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35094,
+            "telephone": "205 699 8264",
+            "latitude": 33.549707,
+            "longitude": -86.596121
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "339 S College St",
+            "city": "Auburn",
+            "region": "AL",
+            "country": "US",
+            "postcode": 36830,
+            "telephone": "334 246 3570",
+            "latitude": 32.60031,
+            "longitude": -85.481033
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "127 Summit Blvd",
+            "city": "Birmingham",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35243,
+            "telephone": "205 967 7607",
+            "latitude": 33.445641,
+            "longitude": -86.731728
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "2800 Cahaba Village Plaza #250",
+            "city": "Birmingham",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35243,
+            "telephone": "205 970 3300",
+            "latitude": 33.461269,
+            "longitude": -86.753921
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "2000 Riverchase Galleria",
+            "city": "Birmingham",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35244,
+            "telephone": "205 985 3215",
+            "latitude": 33.379032,
+            "longitude": -86.808352
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MHOU1",
+            "name": "Mountain High Outfitters",
+            "street": "1320 McFarland Blvd E",
+            "city": "Tuscaloosa",
+            "region": "AL",
+            "country": "US",
+            "postcode": 35401,
+            "telephone": "205 632 7071",
+            "latitude": 33.199986,
+            "longitude": -87.525938
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMCU1",
+            "name": "Mountain Man Sports",
+            "street": "2735 N Reynolds Rd",
+            "city": "Toledo",
+            "region": "OH",
+            "country": "US",
+            "postcode": 43615,
+            "telephone": "419 536 0001",
+            "latitude": 41.671996,
+            "longitude": -83.669123
+          }
+        },
+        {
+          "store": {
+            "StoreID": "MTOU1",
+            "name": "Mountain Tops Outfitters",
+            "street": "144 Main Street",
+            "city": "Beacon",
+            "region": "NY",
+            "country": "US",
+            "postcode": 12508,
+            "telephone": "845 831 1997",
+            "latitude": 41.50855,
+            "longitude": -73.976541
+          }
+        },
+        {
+          "store": {
+            "StoreID": "AOCU1",
+            "name": "Mountainman Outdoor Supply Company",
+            "street": "2855 State Route 28",
+            "city": "Old Forge",
+            "region": "NY",
+            "country": "US",
+            "postcode": 13420,
+            "telephone": "315 369 6672",
+            "latitude": 43.703322,
+            "longitude": -74.987639
+          }
+        },
+        {
+          "store": {
+            "StoreID": "AOCU1",
+            "name": "Mountainman Outdoor Supply Company",
+            "street": "490 Broadway",
+            "city": "Saratoga Springs",
+            "region": "NY",
+            "country": "US",
+            "postcode": 12866,
+            "telephone": "518 584 3500",
+            "latitude": 43.083703,
+            "longitude": -73.784125
+          }
+        },
+        {
+          "store": {
+            "StoreID": "NADU1",
+            "name": "Next Adventure",
+            "street": "426 SE Grand Ave",
+            "city": "Portland",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97214,
+            "telephone": "503 233 0706",
+            "latitude": 45.519634,
+            "longitude": -122.660474
+          }
+        },
+        {
+          "store": {
+            "StoreID": "NAOU1",
+            "name": "Nugget Alaskan Outfitters",
+            "street": "9107 Mendenhall Mall Road",
+            "city": "Juneau",
+            "region": "AK",
+            "country": "US",
+            "postcode": 99801,
+            "telephone": "907 789 0956",
+            "latitude": 58.371816,
+            "longitude": -134.58897
+          }
+        },
+        {
+          "store": {
+            "StoreID": "OUSU1",
+            "name": "Outdoor Source Inc",
+            "street": "3124 Kingsdale Center",
+            "city": "Columbus",
+            "region": "Ohio",
+            "country": "US",
+            "postcode": 43221,
+            "telephone": "614 457 3620",
+            "latitude": 40.020802,
+            "longitude": -83.059079
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMCU1",
+            "name": "Outpost Sports",
+            "street": "3602 Grape Rd",
+            "city": "Mishawaka",
+            "region": "IN",
+            "country": "US",
+            "postcode": 46545,
+            "telephone": "574 259 1000",
+            "latitude": 41.693175,
+            "longitude": -86.186869
+          }
+        },
+        {
+          "store": {
+            "StoreID": "OZAU1",
+            "name": "Ozark Adventures",
+            "street": "1111 E. Republic Road Suite 140",
+            "city": "Springfield",
+            "region": "MO",
+            "country": "US",
+            "postcode": 65807,
+            "telephone": "417 889 6633",
+            "latitude": 37.138869,
+            "longitude": -93.28027
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PAPU1",
+            "name": "Pack & Paddle",
+            "street": "601, East Pinhook Road",
+            "city": "Lafayette",
+            "region": "LA",
+            "country": "US",
+            "postcode": 70501,
+            "telephone": "337 232 5854",
+            "latitude": 30.218567,
+            "longitude": -92.003885
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PSGA1",
+            "name": "Paragon Sporting Goods",
+            "street": "867 Broadway",
+            "city": "New York",
+            "region": "NY",
+            "country": "US",
+            "postcode": 10003,
+            "telephone": "212 255 8889",
+            "latitude": 40.737724,
+            "longitude": -73.990558
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PFTU1",
+            "name": "Peace Frogs Travel Outfitters",
+            "street": "1043 Millmont St",
+            "city": "Charlottesville",
+            "region": "VA",
+            "country": "US",
+            "postcode": 22903,
+            "telephone": "434 977 1415",
+            "latitude": 38.05115,
+            "longitude": -78.505601
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PESU1",
+            "name": "Peace Surplus",
+            "street": "14 Historic Route 66",
+            "city": "Flagstaff",
+            "region": "AZ",
+            "country": "US",
+            "postcode": 86001,
+            "telephone": "928 779 4521",
+            "latitude": 35.19803,
+            "longitude": -111.64957
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PMOU1",
+            "name": "Pine Mountain Outfitters, LLC",
+            "street": "645 Hwy 2034",
+            "city": "Whitesburg",
+            "region": "KY",
+            "country": "US",
+            "postcode": 41858,
+            "telephone": "606 633 8400",
+            "latitude": 37.131152,
+            "longitude": -82.793175
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PTSC1",
+            "name": "Pipestone Travel Store",
+            "street": "10816 Macleod Trl #472",
+            "city": "Calgary",
+            "region": "AB",
+            "country": "CA",
+            "postcode": "T2J 5N8",
+            "telephone": "403 777 1767",
+            "latitude": 50.956213,
+            "longitude": -114.069658
+          }
+        },
+        {
+          "store": {
+            "StoreID": "PIRA1",
+            "name": "Piragis Northwoods Co",
+            "street": "105 N.Central Ave",
+            "city": "Ely",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55731,
+            "telephone": "218 365 6745",
+            "latitude": 47.903472,
+            "longitude": -91.867104
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Princeton Sports",
+            "street": "6239 Falls Road",
+            "city": "Baltimore",
+            "region": "MD",
+            "country": "US",
+            "postcode": 21209,
+            "telephone": "410 828 1127",
+            "latitude": 39.383658,
+            "longitude": -76.65663
+          }
+        },
+        {
+          "store": {
+            "StoreID": "RBOU1",
+            "name": "Red Beard's Outfitter, LLC",
+            "street": "4354 Old Shell Road",
+            "city": "Mobile",
+            "region": "AL",
+            "country": "US",
+            "postcode": 36608,
+            "telephone": "251 217 7466",
+            "latitude": 30.698176,
+            "longitude": -88.142119
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S011",
+            "name": "REI",
+            "street": "222 Yale Ave N",
+            "city": "Seattle",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98109,
+            "telephone": "206 223 1944",
+            "latitude": 47.620207,
+            "longitude": -122.329518
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S088",
+            "name": "REI",
+            "street": "7777 Edinger Ave #138",
+            "city": "Huntington Beach",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92647,
+            "telephone": "714 379 1930",
+            "latitude": 33.732857,
+            "longitude": -117.994088
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S080",
+            "name": "REI",
+            "street": "401 Park Dr Ste 103",
+            "city": "Boston",
+            "region": "MA",
+            "country": "US",
+            "postcode": "0-2215",
+            "telephone": "617 236 0746",
+            "latitude": 42.344667,
+            "longitude": -71.102357
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S056",
+            "name": "REI",
+            "street": "12634 N Paradise Village Pkwy W",
+            "city": "Pheonix",
+            "region": "AZ",
+            "country": "US",
+            "postcode": 85032,
+            "telephone": "602 996 5400",
+            "latitude": 33.602114,
+            "longitude": -111.989205
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S066",
+            "name": "REI",
+            "street": "766 E Big Beaver Rd",
+            "city": "Troy",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48083,
+            "telephone": "248 689 4402",
+            "latitude": 42.560995,
+            "longitude": -83.132334
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S073",
+            "name": "REI",
+            "street": "1703 S Brentwood Blvd",
+            "city": "Brentwood",
+            "region": "MO",
+            "country": "US",
+            "postcode": 63144,
+            "telephone": "314 918 1004",
+            "latitude": 38.626232,
+            "longitude": -90.347802
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S090",
+            "name": "REI",
+            "street": "1590 Leucadia Blvd",
+            "city": "Encinatas",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92024,
+            "telephone": "760 944 9020",
+            "latitude": 33.069728,
+            "longitude": -117.2642
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S129",
+            "name": "REI",
+            "street": "160 W Wetmore Rd",
+            "city": "Tucson",
+            "region": "AZ",
+            "country": "US",
+            "postcode": 85705,
+            "telephone": "520 887 1938",
+            "latitude": 32.287555,
+            "longitude": -110.973655
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S077",
+            "name": "REI",
+            "street": "2715 Santa Rosa Ave",
+            "city": "Santa Rosa",
+            "region": "CA",
+            "country": "US",
+            "postcode": 95407,
+            "telephone": "707 540 9025",
+            "latitude": 38.411238,
+            "longitude": -122.715072
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S150",
+            "name": "REI",
+            "street": "4862 Big Island Drive",
+            "city": "Jacksonville",
+            "region": "FL",
+            "country": "US",
+            "postcode": 32246,
+            "telephone": "904 996 1613",
+            "latitude": 30.253518,
+            "longitude": -81.532122
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S081",
+            "name": "REI",
+            "street": "230 W 10600 S #1700",
+            "city": "Sandy",
+            "region": "UT",
+            "country": "US",
+            "postcode": 84070,
+            "telephone": "801 501 0850",
+            "latitude": 40.564411,
+            "longitude": -111.898168
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S025",
+            "name": "REI",
+            "street": "870 N 54th St",
+            "city": "Chandler",
+            "region": "AZ",
+            "country": "US",
+            "postcode": 85226,
+            "telephone": "480 940 4006",
+            "latitude": 33.316536,
+            "longitude": -111.97087
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S095",
+            "name": "REI",
+            "street": "2424 Preston Rd",
+            "city": "Plano",
+            "region": "TX",
+            "country": "US",
+            "postcode": 75093,
+            "telephone": "972 985 2241",
+            "latitude": 33.03053,
+            "longitude": -96.792814
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S130",
+            "name": "REI",
+            "street": "710 S Rampart Blvd",
+            "city": "Las Vegas",
+            "region": "NV",
+            "country": "US",
+            "postcode": 89145,
+            "telephone": "702 951 4488",
+            "latitude": 36.163289,
+            "longitude": -115.288012
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S093",
+            "name": "REI",
+            "street": "12218 E Foothill Blvd",
+            "city": "Rancho Cucamonga",
+            "region": "CA",
+            "country": "US",
+            "postcode": 91739,
+            "telephone": "909 646 8360",
+            "latitude": 34.107563,
+            "longitude": -117.5385
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S086",
+            "name": "REI",
+            "street": "2425 Iron Point Rd",
+            "city": "Folsom",
+            "region": "CA",
+            "country": "US",
+            "postcode": 95630,
+            "telephone": "916 817 8944",
+            "latitude": 38.643884,
+            "longitude": -121.121326
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S078",
+            "name": "REI",
+            "street": "240 Andover Park W",
+            "city": "Tukwila",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98188,
+            "telephone": "206 248 1938",
+            "latitude": 47.456377,
+            "longitude": -122.253343
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S043",
+            "name": "REI",
+            "street": "306 Lawrence St, Eugene Planning Mill Bldg",
+            "city": "Eugene",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97401,
+            "telephone": "541 465 1800",
+            "latitude": 44.056366,
+            "longitude": -123.099181
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S105",
+            "name": "REI",
+            "street": "71 Raymond Rd",
+            "city": "West Hartford",
+            "region": "CT",
+            "country": "US",
+            "postcode": "0-6107",
+            "telephone": "860 233 2211",
+            "latitude": 41.760154,
+            "longitude": -72.739228
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S067",
+            "name": "REI",
+            "street": "2225 Harvard Way",
+            "city": "Reno",
+            "region": "NV",
+            "country": "US",
+            "postcode": 89502,
+            "telephone": "775 828 9090",
+            "latitude": 39.502169,
+            "longitude": -119.78678
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S103",
+            "name": "REI",
+            "street": "601 N Lamar Blvd",
+            "city": "Austin",
+            "region": "TX",
+            "country": "US",
+            "postcode": 78703,
+            "telephone": "512 482 3357",
+            "latitude": 30.271746,
+            "longitude": -97.753268
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S119",
+            "name": "REI",
+            "street": "5757 Pacific Ave A105",
+            "city": "Stockton",
+            "region": "CA",
+            "country": "US",
+            "postcode": 95207,
+            "telephone": "209 957 9479",
+            "latitude": 38.00093,
+            "longitude": -121.319045
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S112",
+            "name": "REI",
+            "street": "7810 N Blackstone Ave",
+            "city": "Fresno",
+            "region": "CA",
+            "country": "US",
+            "postcode": 93720,
+            "telephone": "559 261 4168",
+            "latitude": 36.849475,
+            "longitude": -119.789656
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S071",
+            "name": "REI",
+            "street": "43962 Fremont Blvd",
+            "city": "Fremont",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94538,
+            "telephone": "510 651 0305",
+            "latitude": 37.510484,
+            "longitude": -121.947589
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S096",
+            "name": "REI",
+            "street": "380 SW Powerhouse Dr",
+            "city": "Bend",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97702,
+            "telephone": "541 385 0594",
+            "latitude": 44.046326,
+            "longitude": -121.31506
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S087",
+            "name": "REI",
+            "street": "2220 Village Walk Dr #150",
+            "city": "Henderson",
+            "region": "NV",
+            "country": "US",
+            "postcode": 89052,
+            "telephone": "702 896 7111",
+            "latitude": 36.02199,
+            "longitude": -115.085792
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S156",
+            "name": "REI",
+            "street": "6700 Papermill Dr NW",
+            "city": "Knoxville",
+            "region": "TN",
+            "country": "US",
+            "postcode": 37919,
+            "telephone": "865 584 1938",
+            "latitude": 35.933567,
+            "longitude": -84.014724
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S176",
+            "name": "REI",
+            "street": "1587 Boston Post Rd",
+            "city": "Milford",
+            "region": "CT",
+            "country": "US",
+            "postcode": "0-6460",
+            "telephone": "203 783 0945",
+            "latitude": 41.245776,
+            "longitude": -73.027379
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S092",
+            "name": "REI",
+            "street": "17717 Tomball Pkwy",
+            "city": "Houston",
+            "region": "TX",
+            "country": "US",
+            "postcode": 77064,
+            "telephone": "832 237 8833",
+            "latitude": 29.958059,
+            "longitude": -95.546872
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S047",
+            "name": "REI",
+            "street": "8300 W Emerald St",
+            "city": "Boise",
+            "region": "ID",
+            "country": "US",
+            "postcode": 83704,
+            "telephone": "208 322 1141",
+            "latitude": 43.611842,
+            "longitude": -116.285625
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S097",
+            "name": "REI",
+            "street": "4291 The Cir At N Hills St",
+            "city": "Raleigh",
+            "region": "NC",
+            "country": "US",
+            "postcode": 27609,
+            "telephone": "919 571 5031",
+            "latitude": 35.837397,
+            "longitude": -78.642224
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S082",
+            "name": "REI",
+            "street": "98 Old Derby St Ste 270",
+            "city": "Hingham",
+            "region": "MA",
+            "country": "US",
+            "postcode": 2043,
+            "telephone": "781 740 9430",
+            "latitude": 42.180057,
+            "longitude": -70.907382
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S072",
+            "name": "REI",
+            "street": "3275 N Reserve St Ste K2",
+            "city": "Missoula",
+            "region": "MT",
+            "country": "US",
+            "postcode": 59808,
+            "telephone": "406 541 1938",
+            "latitude": 46.894376,
+            "longitude": -114.041139
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S127",
+            "name": "REI",
+            "street": "2020 Old Brick Rd",
+            "city": "Glen Allen",
+            "region": "VA",
+            "country": "US",
+            "postcode": 23060,
+            "telephone": "804 360 1381",
+            "latitude": 37.647994,
+            "longitude": -77.597209
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S128",
+            "name": "REI",
+            "street": "600 Settlers Ridge Center Dr",
+            "city": "Pittsburgh",
+            "region": "PA",
+            "country": "US",
+            "postcode": 15205,
+            "telephone": "412 747 1180",
+            "latitude": 40.440618,
+            "longitude": -80.149077
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S122",
+            "name": "REI",
+            "street": "201 University Oaks Blvd #1100",
+            "city": "Round Rock",
+            "region": "TX",
+            "country": "US",
+            "postcode": 78664,
+            "telephone": "512 255 1938",
+            "latitude": 30.556642,
+            "longitude": -97.688139
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S155",
+            "name": "REI",
+            "street": "323 S Windsor Ln",
+            "city": "Flagstaff",
+            "region": "AZ",
+            "country": "US",
+            "postcode": 86001,
+            "telephone": "928 213 1914",
+            "latitude": 35.191366,
+            "longitude": -111.644391
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S108",
+            "name": "REI",
+            "street": "3334 W Friendly Ave #140",
+            "city": "Greensboro",
+            "region": "NC",
+            "country": "US",
+            "postcode": 27410,
+            "telephone": "336 323 3117",
+            "latitude": 36.087301,
+            "longitude": -79.839339
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S157",
+            "name": "REI",
+            "street": "1011 E Southlake Blvd",
+            "city": "Southlake",
+            "region": "TX",
+            "country": "US",
+            "postcode": 76092,
+            "telephone": "817 416 0948",
+            "latitude": 32.940142,
+            "longitude": -97.136282
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S175",
+            "name": "REI",
+            "street": "5924 Convair Dr",
+            "city": "Fort Worth",
+            "region": "TX",
+            "country": "US",
+            "postcode": 76109,
+            "telephone": "817 732 9539",
+            "latitude": 32.69895,
+            "longitude": -97.413804
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S115",
+            "name": "REI",
+            "street": "9755 Northlake Centre Pkwy",
+            "city": "Charlotte",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28216,
+            "telephone": "704 921 0320",
+            "latitude": 35.348029,
+            "longitude": -80.857903
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S106",
+            "name": "REI",
+            "street": "11067 Carolina Pkwy",
+            "city": "Pineville",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28134,
+            "telephone": "704 341 7405",
+            "latitude": 35.080847,
+            "longitude": -80.877085
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S145",
+            "name": "REI",
+            "street": "1140 Woodruff Rd #400",
+            "city": "Greenville",
+            "region": "SC",
+            "country": "US",
+            "postcode": 29607,
+            "telephone": "864 297 0588",
+            "latitude": 34.825812,
+            "longitude": -82.301003
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S173",
+            "name": "REI",
+            "street": "18750 Gulf Fwy",
+            "city": "Friendswood",
+            "region": "TX",
+            "country": "US",
+            "postcode": 77546,
+            "telephone": "281 488 0083",
+            "latitude": 29.536555,
+            "longitude": -95.149004
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S121",
+            "name": "REI",
+            "street": "14696 Delaware St",
+            "city": "Westminster",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80023,
+            "telephone": "720 872 1938",
+            "latitude": 39.963295,
+            "longitude": -104.991026
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S167",
+            "name": "REI",
+            "street": "5901 Mills Civic Pkwy",
+            "city": "West Des Moines",
+            "region": "IA",
+            "country": "US",
+            "postcode": 50266,
+            "telephone": "515 221 1938",
+            "latitude": 41.559931,
+            "longitude": -93.787492
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S075",
+            "name": "REI",
+            "street": "129 N Ely St - Main 2",
+            "city": "Kennewick",
+            "region": "WA",
+            "country": "US",
+            "postcode": 99336,
+            "telephone": "509 734 8989",
+            "latitude": 46.210911,
+            "longitude": -119.16063
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S079",
+            "name": "REI",
+            "street": "1600 Mall of Georgia Blvd #800",
+            "city": "Buford",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30519,
+            "telephone": "770 831 0676",
+            "latitude": 34.06362,
+            "longitude": -83.99527
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S107",
+            "name": "REI",
+            "street": "402 Santa Monica Blvd",
+            "city": "Santa Monica",
+            "region": "CA",
+            "country": "US",
+            "postcode": 90401,
+            "telephone": "310 458 4370",
+            "latitude": 34.016482,
+            "longitude": -118.494776
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S041",
+            "name": "REI",
+            "street": "1751 Walnut St",
+            "city": "Cary",
+            "region": "NC",
+            "country": "US",
+            "postcode": 27511,
+            "telephone": "919 460 9995",
+            "latitude": 35.764198,
+            "longitude": -78.745112
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S048",
+            "name": "REI",
+            "street": "7483 W Towne Way",
+            "city": "Madison",
+            "region": "WI",
+            "country": "US",
+            "postcode": 53719,
+            "telephone": "608 833 6680",
+            "latitude": 43.056605,
+            "longitude": -89.512637
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S049",
+            "name": "REI",
+            "street": "4025 S College Ave",
+            "city": "Fort Collins",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80525,
+            "telephone": "970 223 0123",
+            "latitude": 40.531718,
+            "longitude": -105.078473
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S058",
+            "name": "REI",
+            "street": "17559 Haggerty Rd",
+            "city": "Northville",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48167,
+            "telephone": "248 347 2100",
+            "latitude": 42.414221,
+            "longitude": -83.4355
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S062",
+            "name": "REI",
+            "street": "63 W Aylesbury Rd",
+            "city": "Timonium",
+            "region": "MD",
+            "country": "US",
+            "postcode": 21093,
+            "telephone": "410 252 5920",
+            "latitude": 39.438919,
+            "longitude": -76.628806
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S064",
+            "name": "REI",
+            "street": "261 Franklin Rd",
+            "city": "Brentwood",
+            "region": "TN",
+            "country": "US",
+            "postcode": 37027,
+            "telephone": "615 376 4248",
+            "latitude": 36.030381,
+            "longitude": -86.791665
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S068",
+            "name": "REI",
+            "street": "1376 E Woodermen Rd",
+            "city": "Colorado Springs",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80920,
+            "telephone": "719 260 1455",
+            "latitude": 38.933831,
+            "longitude": -104.799744
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S110",
+            "name": "REI",
+            "street": "22 Chapel View Blvd",
+            "city": "Cranston",
+            "region": "RI",
+            "country": "US",
+            "postcode": 2920,
+            "telephone": "401 275 5250",
+            "latitude": 41.755235,
+            "longitude": -71.459434
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S113",
+            "name": "REI",
+            "street": "145 General Stilwell Dr",
+            "city": "Marina",
+            "region": "CA",
+            "country": "US",
+            "postcode": 93933,
+            "telephone": "831 883 8048",
+            "latitude": 36.667305,
+            "longitude": -121.809613
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S114",
+            "name": "REI",
+            "street": "500 Market St #100",
+            "city": "Sante Fe",
+            "region": "NM",
+            "country": "US",
+            "postcode": 87501,
+            "telephone": "505 982 3557",
+            "latitude": 35.683797,
+            "longitude": -105.948576
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S116",
+            "name": "REI",
+            "street": "735 NW Gilman Blvd",
+            "city": "Issaquah",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98027,
+            "telephone": "425 313 1660",
+            "latitude": 47.541527,
+            "longitude": -122.049029
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S124",
+            "name": "REI",
+            "street": "970 W Eisenhower Pkwy",
+            "city": "Ann Arbor",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48103,
+            "telephone": "734 827 1938",
+            "latitude": 42.247313,
+            "longitude": -83.7588
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S125",
+            "name": "REI",
+            "street": "740 Ernest W Barrett Pkwy NW #450",
+            "city": "Kennesaw",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30144,
+            "telephone": "770 425 4480",
+            "latitude": 34.008816,
+            "longitude": -84.573818
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S132",
+            "name": "REI",
+            "street": "2700 Seaglass Way",
+            "city": "Oxnard",
+            "region": "CA",
+            "country": "US",
+            "postcode": 93036,
+            "telephone": "805 981 1938",
+            "latitude": 34.238873,
+            "longitude": -119.176254
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S139",
+            "name": "REI",
+            "street": "49 Fitzgerald St",
+            "city": "Yonkers",
+            "region": "NY",
+            "country": "US",
+            "postcode": 10710,
+            "telephone": "914 410 9500",
+            "latitude": 40.966248,
+            "longitude": -73.856734
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S151",
+            "name": "REI",
+            "street": "6281 W 135th St",
+            "city": "Overland Park",
+            "region": "KS",
+            "country": "US",
+            "postcode": 66223,
+            "telephone": "913 402 1938",
+            "latitude": 38.883004,
+            "longitude": -94.657819
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S153",
+            "name": "REI",
+            "street": "10903 Myhre PI NW",
+            "city": "Silverdale",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98383,
+            "telephone": "360 337 1938",
+            "latitude": 47.662619,
+            "longitude": -122.688941
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S154",
+            "name": "REI",
+            "street": "4150 Worth Ave",
+            "city": "Columbus",
+            "region": "OH",
+            "country": "US",
+            "postcode": 43219,
+            "telephone": "614 475 1938",
+            "latitude": 40.055524,
+            "longitude": -82.907721
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S017",
+            "name": "REI",
+            "street": "2962 El Camino Real",
+            "city": "Tustin",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92782,
+            "telephone": "714 505 0205",
+            "latitude": 33.721439,
+            "longitude": -117.79562
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S019",
+            "name": "REI",
+            "street": "3285 3300 S",
+            "city": "Salt Lake City",
+            "region": "UT",
+            "country": "US",
+            "postcode": 84109,
+            "telephone": "801 486 2100",
+            "latitude": 40.700802,
+            "longitude": -111.801012
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S046",
+            "name": "REI",
+            "street": "1975 Diamond Blvd Suite B-100",
+            "city": "Concord",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94520,
+            "telephone": "925 825 9400",
+            "latitude": 37.968662,
+            "longitude": -122.056518
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S026",
+            "name": "REI",
+            "street": "279 Salem St",
+            "city": "Reading",
+            "region": "MA",
+            "country": "US",
+            "postcode": 1867,
+            "telephone": "781 944 5103",
+            "latitude": 42.525554,
+            "longitude": -71.087005
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S036",
+            "name": "REI",
+            "street": "7410 SW Bridgeport Rd",
+            "city": "Tigard",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97224,
+            "telephone": "503 624 8600",
+            "latitude": 45.39318,
+            "longitude": -122.752385
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S091",
+            "name": "REI",
+            "street": "910 Rose Avenue",
+            "city": "North Bethesda",
+            "region": "MD",
+            "country": "US",
+            "postcode": 20852,
+            "telephone": "301 770 1751",
+            "latitude": 39.050852,
+            "longitude": -77.115929
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S102",
+            "name": "REI",
+            "street": "12160 SE 82nd Ave",
+            "city": "Portland",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97086,
+            "telephone": "503 659 1156",
+            "latitude": 45.434698,
+            "longitude": -122.572601
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S034",
+            "name": "REI",
+            "street": "3509 Carlin Springs Rd",
+            "city": "Falls Church",
+            "region": "VA",
+            "country": "US",
+            "postcode": 22041,
+            "telephone": "703 379 9400",
+            "latitude": 38.848854,
+            "longitude": -77.123197
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S057",
+            "name": "REI",
+            "street": "375 Cochituate Rd",
+            "city": "Framingham",
+            "region": "MA",
+            "country": "US",
+            "postcode": 1701,
+            "telephone": "508 270 6325",
+            "latitude": 42.305342,
+            "longitude": -71.393716
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S055",
+            "name": "REI",
+            "street": "7538 Westheimer Rd",
+            "city": "Houston",
+            "region": "TX",
+            "country": "US",
+            "postcode": 77063,
+            "telephone": "713 353 2582",
+            "latitude": 29.739914,
+            "longitude": -95.501883
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S014",
+            "name": "REI",
+            "street": "1800 Rosecrans Ave Ste E",
+            "city": "Manhattan Beach",
+            "region": "CA",
+            "country": "US",
+            "postcode": 90266,
+            "telephone": "310 727 0728",
+            "latitude": 33.900538,
+            "longitude": -118.379724
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S076",
+            "name": "REI",
+            "street": "213 Corte Madera Town Center",
+            "city": "Corte Madere",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94925,
+            "telephone": "415 927 1938",
+            "latitude": 37.928019,
+            "longitude": -122.517
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S123",
+            "name": "REI",
+            "street": "1466 N Halsted St",
+            "city": "Chicago",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60642,
+            "telephone": "312 951 6020",
+            "latitude": 41.908325,
+            "longitude": -87.648446
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S015",
+            "name": "REI",
+            "street": "750 American Blvd W",
+            "city": "Bloomington",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55420,
+            "telephone": "952 884 4315",
+            "latitude": 44.86066,
+            "longitude": -93.291306
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S018",
+            "name": "REI",
+            "street": "1416 Platte St",
+            "city": "Denver",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80202,
+            "telephone": "303 756 3100",
+            "latitude": 39.755599,
+            "longitude": -105.009778
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S029",
+            "name": "REI",
+            "street": "5556 Copley Dr",
+            "city": "San Diego",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92111,
+            "telephone": "858 279 4400",
+            "latitude": 32.838482,
+            "longitude": -117.163086
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S063",
+            "name": "REI",
+            "street": "214 N Santa Anita Ave",
+            "city": "Arcadia",
+            "region": "CA",
+            "country": "US",
+            "postcode": 91006,
+            "telephone": "626 447 1062",
+            "latitude": 34.142571,
+            "longitude": -118.031022
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S013",
+            "name": "REI",
+            "street": "1405 NW Johnson St",
+            "city": "Portland",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97209,
+            "telephone": "503 221 1938",
+            "latitude": 45.528917,
+            "longitude": -122.68576
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S039",
+            "name": "REI",
+            "street": "18605 Devonshire St",
+            "city": "Northridge",
+            "region": "CA",
+            "country": "US",
+            "postcode": 91324,
+            "telephone": "818 831 5555",
+            "latitude": 34.258635,
+            "longitude": -118.538511
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S104",
+            "name": "REI",
+            "street": "2450 E Charleston Rd",
+            "city": "Mountain View",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94043,
+            "telephone": "650 969 1938",
+            "latitude": 37.423191,
+            "longitude": -122.096643
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S012",
+            "name": "REI",
+            "street": "1338 San Pablo Ave",
+            "city": "Berkeley",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94702,
+            "telephone": "510 527 4140",
+            "latitude": 37.878994,
+            "longitude": -122.296276
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S038",
+            "name": "REI",
+            "street": "1119 Industrial Rd #1B",
+            "city": "San Carlos",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94070,
+            "telephone": "650 508 2330",
+            "latitude": 37.504245,
+            "longitude": -122.246482
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S022",
+            "name": "REI",
+            "street": "400 El Paseo de Saratoga",
+            "city": "San Josa",
+            "region": "CA",
+            "country": "US",
+            "postcode": 95130,
+            "telephone": "408 871 8765",
+            "latitude": 37.28885,
+            "longitude": -121.991922
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S164",
+            "name": "REI",
+            "street": "7531 North Point Pkwy",
+            "city": "Alpharetta",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30022,
+            "telephone": "770 998 2622",
+            "latitude": 34.042362,
+            "longitude": -84.305788
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S142",
+            "name": "REI",
+            "street": "303 Lafayette St",
+            "city": "New York",
+            "region": "NY",
+            "country": "US",
+            "postcode": 10012,
+            "telephone": "212 680 1938",
+            "latitude": 40.724741,
+            "longitude": -73.995276
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S083",
+            "name": "REI",
+            "street": "840 Brannan St",
+            "city": "San Fransisco",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94103,
+            "telephone": "415 934 1938",
+            "latitude": 37.772501,
+            "longitude": -122.404587
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S033",
+            "name": "REI",
+            "street": "1800 Northeast Expy",
+            "city": "Atlanta",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30329,
+            "telephone": "404 633 6508",
+            "latitude": 33.840003,
+            "longitude": -84.321388
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S054",
+            "name": "REI",
+            "street": "1165 Perimeter Center W #200",
+            "city": "Atlanta",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30338,
+            "telephone": "770 901 9200",
+            "latitude": 33.928833,
+            "longitude": -84.348822
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S148",
+            "name": "REI",
+            "street": "6220 Topanga Canyon Blvd",
+            "city": "Woodland Hills",
+            "region": "CA",
+            "country": "US",
+            "postcode": 91367,
+            "telephone": "818 703 5300",
+            "latitude": 34.183408,
+            "longitude": -118.604992
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S137",
+            "name": "REI",
+            "street": "6100 Dobbin Rd Ste B",
+            "city": "Columbia",
+            "region": "MD",
+            "country": "US",
+            "postcode": 21045,
+            "telephone": "410 872 1742",
+            "latitude": 39.198405,
+            "longitude": -76.810935
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S143",
+            "name": "REI",
+            "street": "7099 Amador Plaza Rd",
+            "city": "Dublin",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94568,
+            "telephone": "925 828 9826",
+            "latitude": 37.706779,
+            "longitude": -121.927849
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S021",
+            "name": "REI",
+            "street": "1790 Expo Pkwy",
+            "city": "Sacramento",
+            "region": "CA",
+            "country": "US",
+            "postcode": 95815,
+            "telephone": "916 924 8900",
+            "latitude": 38.597628,
+            "longitude": -121.449631
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S030",
+            "name": "REI",
+            "street": "1550 Mercantile Ave NE",
+            "city": "Albuquerque",
+            "region": "NM",
+            "country": "US",
+            "postcode": 87107,
+            "telephone": "505 247 1191",
+            "latitude": 35.135231,
+            "longitude": -106.607345
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S032",
+            "name": "REI",
+            "street": "9901 N Capital of Texas Hwy Ste 200",
+            "city": "Austin",
+            "region": "TX",
+            "country": "US",
+            "postcode": 78759,
+            "telephone": "512 343 5550",
+            "latitude": 30.389369,
+            "longitude": -97.740598
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S174",
+            "name": "REI",
+            "street": "430 N Orlando Ave",
+            "city": "Winter Park",
+            "region": "FL",
+            "country": "US",
+            "postcode": 32789,
+            "telephone": "407 647 0731",
+            "latitude": 28.600902,
+            "longitude": -81.364526
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S045",
+            "name": "REI",
+            "street": "5929 E Northwest Hwy",
+            "city": "Dallas",
+            "region": "TX",
+            "country": "US",
+            "postcode": 75231,
+            "telephone": "214 368 1938",
+            "latitude": 32.866292,
+            "longitude": -96.762609
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S051",
+            "name": "REI",
+            "street": "17W160 W 22nd St",
+            "city": "Oakbrook Terrace",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60181,
+            "telephone": "630 574 7700",
+            "latitude": 41.847174,
+            "longitude": -87.961516
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S133",
+            "name": "REI",
+            "street": "280 NJ-10",
+            "city": "East Hanover",
+            "region": "NJ",
+            "country": "US",
+            "postcode": 7936,
+            "telephone": "973 581 1938",
+            "latitude": 40.806322,
+            "longitude": -74.369674
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S061",
+            "name": "REI",
+            "street": "9637 E Country Line Rd",
+            "city": "Englewood",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80112,
+            "telephone": "303 858 1726",
+            "latitude": 39.569129,
+            "longitude": -104.876074
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S016",
+            "name": "REI",
+            "street": "1200 W Northern Lights Blvd A",
+            "city": "Anchorage",
+            "region": "AK",
+            "country": "US",
+            "postcode": 99503,
+            "telephone": "907 272 4565",
+            "latitude": 61.194466,
+            "longitude": -149.906044
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S020",
+            "name": "REI",
+            "street": "410 116th Ave NE",
+            "city": "Bellevue",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98004,
+            "telephone": "425 455 1938",
+            "latitude": 47.613394,
+            "longitude": -122.184927
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S024",
+            "name": "REI",
+            "street": "1125 N Monroe St",
+            "city": "Spokane",
+            "region": "WA",
+            "country": "US",
+            "postcode": 99201,
+            "telephone": "509 328 9900",
+            "latitude": 47.667775,
+            "longitude": -117.42705
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S035",
+            "name": "REI",
+            "street": "3000 184th St SW #952",
+            "city": "Lynwood",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98037,
+            "telephone": "425 640 6200",
+            "latitude": 47.8304,
+            "longitude": -122.273219
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S037",
+            "name": "REI",
+            "street": "200 Ridge Pike #115",
+            "city": "Conshohocken",
+            "region": "PA",
+            "country": "US",
+            "postcode": 19428,
+            "telephone": "610 940 0809",
+            "latitude": 40.095933,
+            "longitude": -75.287611
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S040",
+            "name": "REI",
+            "street": "888 Willow Rd",
+            "city": "Northbrook",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60062,
+            "telephone": "847 480 1938",
+            "latitude": 42.108029,
+            "longitude": -87.801018
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S042",
+            "name": "REI",
+            "street": "Schneiderman's Plaza",
+            "city": "Roseville",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55113,
+            "telephone": "651 635 0211",
+            "latitude": 45.016531,
+            "longitude": -93.182902
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S044",
+            "name": "REI",
+            "street": "1789 28th St",
+            "city": "Boulder",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80301,
+            "telephone": "303 583 9970",
+            "latitude": 40.019251,
+            "longitude": -105.259902
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S060",
+            "name": "REI",
+            "street": "13100 W Capital Dr",
+            "city": "Brookfield",
+            "region": "WI",
+            "country": "US",
+            "postcode": 53005,
+            "telephone": "262 783 6150",
+            "latitude": 43.090033,
+            "longitude": -88.074977
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S065",
+            "name": "REI",
+            "street": "400 36th St",
+            "city": "Bellingham",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98225,
+            "telephone": "360 647 8955",
+            "latitude": 48.730563,
+            "longitude": -122.472153
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S069",
+            "name": "REI",
+            "street": "3825 S Steele St",
+            "city": "Tacoma",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98409,
+            "telephone": "253 671 1938",
+            "latitude": 47.222274,
+            "longitude": -122.466281
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S070",
+            "name": "REI",
+            "street": "644 North Ave",
+            "city": "Grand Junction",
+            "region": "CO",
+            "country": "US",
+            "postcode": 81501,
+            "telephone": "970 254 8970",
+            "latitude": 39.077975,
+            "longitude": -108.561873
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S084",
+            "name": "REI",
+            "street": "11950 Grand Commons Ave",
+            "city": "Fairfax",
+            "region": "VA",
+            "country": "US",
+            "postcode": 22030,
+            "telephone": "571 522 6568",
+            "latitude": 38.858,
+            "longitude": -77.358343
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S085",
+            "name": "REI",
+            "street": "6911 Fayetteville Rd #109",
+            "city": "Durham",
+            "region": "NC",
+            "country": "US",
+            "postcode": 27713,
+            "telephone": "919 806 3442",
+            "latitude": 35.902956,
+            "longitude": -78.936188
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S089",
+            "name": "REI",
+            "street": "2235 NW Allie Ave",
+            "city": "Hillsboro",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97124,
+            "telephone": "503 617 6072",
+            "latitude": 45.537257,
+            "longitude": -122.877982
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S094",
+            "name": "REI",
+            "street": "501 Rte 73 South",
+            "city": "Marlton",
+            "region": "NJ",
+            "country": "US",
+            "postcode": 8053,
+            "telephone": "856 810 1938",
+            "latitude": 39.879708,
+            "longitude": -74.923453
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S101",
+            "name": "REI",
+            "street": "412 S 27th St",
+            "city": "Pittsburgh",
+            "region": "PA",
+            "country": "US",
+            "postcode": 15203,
+            "telephone": "412 488 9410",
+            "latitude": 40.428608,
+            "longitude": -79.96601
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S109",
+            "name": "REI",
+            "street": "11581 Fountains Dr, The Fountains",
+            "city": "Maple Grove",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55369,
+            "telephone": "763 493 7861",
+            "latitude": 45.091189,
+            "longitude": -93.427752
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S117",
+            "name": "REI",
+            "street": "31 Schenck Pkwy",
+            "city": "Asheville",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28803,
+            "telephone": "828 687 0918",
+            "latitude": 35.485725,
+            "longitude": -82.553633
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S118",
+            "name": "REI",
+            "street": "1209 E Golf Rd",
+            "city": "Schaumburg",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60173,
+            "telephone": "847 619 6729",
+            "latitude": 42.049603,
+            "longitude": -88.04997
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S131",
+            "name": "REI",
+            "street": "11745 I H-10 West #110",
+            "city": "San Antonio",
+            "region": "TX",
+            "country": "US",
+            "postcode": 78230,
+            "telephone": "210 877 2329",
+            "latitude": 29.548671,
+            "longitude": -98.582404
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S134",
+            "name": "REI",
+            "street": "321 Anacapa St",
+            "city": "Santa Barbara",
+            "region": "CA",
+            "country": "US",
+            "postcode": 93101,
+            "telephone": "805 560 1938",
+            "latitude": 34.415992,
+            "longitude": -119.693033
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S135",
+            "name": "REI",
+            "street": "189 Connecticut Ave",
+            "city": "Norwalk",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6854,
+            "telephone": "203 838 1938",
+            "latitude": 41.103583,
+            "longitude": -73.43256
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S136",
+            "name": "REI",
+            "street": "2220 Tschache Ln",
+            "city": "Bozeman",
+            "region": "MT",
+            "country": "US",
+            "postcode": 59718,
+            "telephone": "406 587 1938",
+            "latitude": 45.695614,
+            "longitude": -111.065104
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S138",
+            "name": "REI",
+            "street": "144 Glen Cove Rd",
+            "city": "Carle Place",
+            "region": "NY",
+            "country": "US",
+            "postcode": 11514,
+            "telephone": "516 873 8540",
+            "latitude": 40.744184,
+            "longitude": -73.617883
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S140",
+            "name": "REI",
+            "street": "2200 Bergen Town Ctr",
+            "city": "Paramus",
+            "region": "NJ",
+            "country": "US",
+            "postcode": 7652,
+            "telephone": "201 226 1560",
+            "latitude": 40.915099,
+            "longitude": -74.059821
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S141",
+            "name": "REI",
+            "street": "625 Black Lake Blvd SW #410",
+            "city": "Olympia",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98502,
+            "telephone": "360 786 1938",
+            "latitude": 47.041937,
+            "longitude": -122.93787
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S144",
+            "name": "REI",
+            "street": "15200 Potomac Town Pl #140",
+            "city": "Woodridge",
+            "region": "VA",
+            "country": "US",
+            "postcode": 22191,
+            "telephone": "703 583 1938",
+            "latitude": 38.626929,
+            "longitude": -77.287509
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S146",
+            "name": "REI",
+            "street": "8490 Castleton Corner Dr",
+            "city": "Indianapolis",
+            "region": "IN",
+            "country": "US",
+            "postcode": 46250,
+            "telephone": "317 585 1938",
+            "latitude": 39.910115,
+            "longitude": -86.074209
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S147",
+            "name": "REI",
+            "street": "85 Rossanley Dr",
+            "city": "Medford",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97501,
+            "telephone": "541 732 1938",
+            "latitude": 42.343019,
+            "longitude": -122.881587
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S149",
+            "name": "REI",
+            "street": "2643 Edmondson Rd",
+            "city": "Cincinnati",
+            "region": "OH",
+            "country": "US",
+            "postcode": 45209,
+            "telephone": "513 924 1938",
+            "latitude": 39.147909,
+            "longitude": -84.445964
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S152",
+            "name": "REI",
+            "street": "8209 Watson St",
+            "city": "McLean",
+            "region": "VA",
+            "country": "US",
+            "postcode": 22102,
+            "telephone": "703 506 1938",
+            "latitude": 38.918328,
+            "longitude": -77.228782
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S159",
+            "name": "REI",
+            "street": "6035 Ulali Dr NE",
+            "city": "Keizer",
+            "region": "OR",
+            "country": "US",
+            "postcode": 97303,
+            "telephone": "503 393 0909",
+            "latitude": 45.008172,
+            "longitude": -123.00072
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S161",
+            "name": "REI",
+            "street": "3371 US Hwy 1 #34 - Mercer Mall",
+            "city": "Lawrenceville",
+            "region": "NJ",
+            "country": "US",
+            "postcode": 8648,
+            "telephone": "609 750 1938",
+            "latitude": 40.296203,
+            "longitude": -74.684923
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S162",
+            "name": "REI",
+            "street": "161 Town Square PI",
+            "city": "King of Prussia",
+            "region": "PA",
+            "country": "US",
+            "postcode": 19406,
+            "telephone": "484 231 1703",
+            "latitude": 40.082354,
+            "longitude": -75.404629
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S165",
+            "name": "REI",
+            "street": "2300 Fashion Ctr Blvd",
+            "city": "Newark",
+            "region": "DE",
+            "country": "US",
+            "postcode": 19072,
+            "telephone": "302 369 1938",
+            "latitude": 39.673915,
+            "longitude": -75.649688
+          }
+        },
+        {
+          "store": {
+            "StoreID": "S169",
+            "name": "REI",
+            "street": "201 M St NE",
+            "city": "Washington",
+            "region": "DC",
+            "country": "US",
+            "postcode": 20002,
+            "telephone": "202 543 2040",
+            "latitude": 38.904998,
+            "longitude": -77.002955
+          }
+        },
+        {
+          "store": {
+            "StoreID": "REOC1",
+            "name": "Revy Outdoors Enterprises Ltd",
+            "street": "201 Mackenzie Ave",
+            "city": "Revelstoke",
+            "region": "BC",
+            "country": "US",
+            "postcode": "V0E 2SO",
+            "telephone": "250 814 2575",
+            "latitude": 51.000438,
+            "longitude": -118.196505
+          }
+        },
+        {
+          "store": {
+            "StoreID": "RIVA1",
+            "name": "River Jack Outdoor Trading Co",
+            "street": "181 NE Broad St",
+            "city": "Southern Pines",
+            "region": "NC",
+            "country": "US",
+            "postcode": 28387,
+            "telephone": "910 6925225",
+            "latitude": 35.174273,
+            "longitude": -79.390644
+          }
+        },
+        {
+          "store": {
+            "StoreID": "RSOU1",
+            "name": "River Sports Outfitters, Inc.",
+            "street": "2918 Sutherland Ave",
+            "city": "Knoxville",
+            "region": "TN",
+            "country": "US",
+            "postcode": 37919,
+            "telephone": "865 523 0066",
+            "latitude": 35.952826,
+            "longitude": -83.963215
+          }
+        },
+        {
+          "store": {
+            "StoreID": "RMIC1",
+            "name": "Roam Shop, Rivers Oceans and Mountains",
+            "street": "639 Baker Street",
+            "city": "Nelson",
+            "region": "BC",
+            "country": "CA",
+            "postcode": "VIL 4J3",
+            "telephone": "250 354 2056",
+            "latitude": 49.492772,
+            "longitude": -117.292047
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ROAU1",
+            "name": "Rocktown Adventures",
+            "street": "303 N Main St Suite 800",
+            "city": "Rockford",
+            "region": "IL",
+            "country": "US",
+            "postcode": 61101,
+            "telephone": "815 636 9066",
+            "latitude": 42.273215,
+            "longitude": -89.092644
+          }
+        },
+        {
+          "store": {
+            "StoreID": "DREU1",
+            "name": "Rooten's Luggage",
+            "street": "17775 Main Street",
+            "city": "Irvine",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92614,
+            "telephone": "949 250 0774",
+            "latitude": 33.686499,
+            "longitude": -117.857177
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SAOU1",
+            "name": "Sam's Department Stores Inc",
+            "street": "74 Main Street",
+            "city": "Brattleboro",
+            "region": "VT",
+            "country": "US",
+            "postcode": 5301,
+            "telephone": "802 254 2933",
+            "latitude": 42.851676,
+            "longitude": -72.557929
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSPU1",
+            "name": "Shedhorn Sports",
+            "street": "103 Main St",
+            "city": "Ennis",
+            "region": "MT",
+            "country": "US",
+            "postcode": 59729,
+            "telephone": "406 682 4210",
+            "latitude": 45.348824,
+            "longitude": -111.727152
+          }
+        },
+        {
+          "store": {
+            "StoreID": "NBSU1",
+            "name": "Shepherd & Schaller Sporting Goods",
+            "street": "324 Scott Street",
+            "city": "Wausau",
+            "region": "WI",
+            "country": "US",
+            "postcode": 54403,
+            "telephone": "715 845 5432",
+            "latitude": 44.960843,
+            "longitude": -89.626963
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Ski Haus",
+            "street": "317 S. Broadway",
+            "city": "Salem",
+            "region": "NH",
+            "country": "US",
+            "postcode": 3079,
+            "telephone": "603 898 1722",
+            "latitude": 42.756274,
+            "longitude": -71.209878
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMIC1",
+            "name": "Smith Army Surplus",
+            "street": "86 Princess St",
+            "city": "Kingston",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "K7L 1A5",
+            "telephone": "613 546 0305",
+            "latitude": 44.231446,
+            "longitude": -76.48204
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPAU1",
+            "name": "Sportago Inc",
+            "street": "1380 Main Street Suite 101",
+            "city": "St Helena",
+            "region": "CA",
+            "country": "US",
+            "postcode": 94574,
+            "telephone": "707 963 9042",
+            "latitude": 38.505351,
+            "longitude": -122.470063
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "222 Hurontarop St",
+            "city": "Collingwood",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "L9Y 2M2",
+            "telephone": "705 445 3773",
+            "latitude": 44.497425,
+            "longitude": -80.216925
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "125 March_ Way",
+            "city": "Ottowa",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "K1S 5J3",
+            "telephone": "613 216 6000",
+            "latitude": 45.399754,
+            "longitude": -75.685832
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "5000 Hwy 7",
+            "city": "Markham",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "L3R 4M9",
+            "telephone": "905 258 1111",
+            "latitude": 43.868821,
+            "longitude": -79.288448
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "9350 Yonge St",
+            "city": "Richmond Hill",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "L4C 5G2",
+            "telephone": "905 292 0001",
+            "latitude": 43.853931,
+            "longitude": -79.437775
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "25 The West Mall",
+            "city": "Etobicoke",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "M9C 1B8",
+            "telephone": "416 620 7750",
+            "latitude": 43.611823,
+            "longitude": -79.557016
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "2545 Yong St",
+            "city": "Toronto",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "M4P 2H5",
+            "telephone": "416 485 4440",
+            "latitude": 43.713207,
+            "longitude": -79.399395
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "2665 Yong St",
+            "city": "Toronto",
+            "region": "ON",
+            "country": "CA",
+            "postcode": "M4P 2J6",
+            "telephone": "416 485 1611",
+            "latitude": 43.716137,
+            "longitude": -79.400163
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SPLC1",
+            "name": "Sporting Life, Inc",
+            "street": "100 Anderson Rd SE",
+            "city": "Calgary",
+            "region": "AB",
+            "country": "CA",
+            "postcode": "T2J 3V1",
+            "telephone": "403 313 4477",
+            "latitude": 50.952101,
+            "longitude": -114.064461
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BOYU1",
+            "name": "Sugarloaf",
+            "street": "9004 Main St",
+            "city": "Carrabassett Valley",
+            "region": "ME",
+            "country": "US",
+            "postcode": 4947,
+            "telephone": "800 843 5623",
+            "latitude": 45.054252,
+            "longitude": -70.308665
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SUMU1",
+            "name": "Summit Hut",
+            "street": "5251 E Speedway Blvd",
+            "city": "Tuscon",
+            "region": "AZ",
+            "country": "US",
+            "postcode": 85712,
+            "telephone": 5203250660,
+            "latitude": 32.236644,
+            "longitude": -110.880486
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMSU1",
+            "name": "Summit Sports",
+            "street": "1751 S Telegraph Road",
+            "city": "Bloomfield Hills",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48302,
+            "telephone": "248 738 4444",
+            "latitude": 42.615136,
+            "longitude": -83.310756
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMSU1",
+            "name": "Summit Sports",
+            "street": "2650 Grand River Ave.",
+            "city": "East Lansing",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48823,
+            "telephone": "517 332 4000",
+            "latitude": 42.726091,
+            "longitude": -84.447981
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMSU1",
+            "name": "Summit Sports",
+            "street": "8180 Grand River",
+            "city": "Brighton",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48114,
+            "telephone": "810 227 6877",
+            "latitude": 42.553484,
+            "longitude": -83.791524
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMSU1",
+            "name": "Summit Sports",
+            "street": "690 South Old Woodward",
+            "city": "Birmingham",
+            "region": "MI",
+            "country": "US",
+            "postcode": 48009,
+            "telephone": "248 220 1999",
+            "latitude": 42.541889,
+            "longitude": -83.210025
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SMCU1",
+            "name": "Sun Valley Sports",
+            "street": "8418 Castleton Corner Dr",
+            "city": "Indianapolis",
+            "region": "IN",
+            "country": "US",
+            "postcode": 46250,
+            "telephone": "317 577 5500",
+            "latitude": 39.909846,
+            "longitude": -86.07257
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ISSU1",
+            "name": "Sunlight Sports",
+            "street": "1131 Sheridan Ave",
+            "city": "Cody",
+            "region": "WY",
+            "country": "US",
+            "postcode": 82414,
+            "telephone": "307 587 9517",
+            "latitude": 44.52638,
+            "longitude": -109.065208
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SAIU1",
+            "name": "Sunrift Adventures, Inc",
+            "street": "1 Center Street",
+            "city": "TRAVELERS REST",
+            "region": "SC",
+            "country": "US",
+            "postcode": 29690,
+            "telephone": "864 834 3019",
+            "latitude": 34.968108,
+            "longitude": -82.443787
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TSGC1",
+            "name": "Taku Sports Group",
+            "street": "309 Main Street",
+            "city": "Whitehouse",
+            "region": "YT",
+            "country": "CA",
+            "postcode": "Y1A 2B3",
+            "telephone": "867 667 4495",
+            "latitude": 60.718909,
+            "longitude": -135.054912
+          }
+        },
+        {
+          "store": {
+            "StoreID": "UCTU1",
+            "name": "Tents and Trails",
+            "street": "21 Park Place",
+            "city": "New York",
+            "region": "NY",
+            "country": "US",
+            "postcode": 10007,
+            "telephone": "212 227 1760",
+            "latitude": 40.713229,
+            "longitude": -74.00862
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TBCU1",
+            "name": "The Base Camp",
+            "street": "1730 Grand Ave",
+            "city": "Billings",
+            "region": "MT",
+            "country": "US",
+            "postcode": 59102,
+            "telephone": "406 248 4555",
+            "latitude": 45.783759,
+            "longitude": -108.560442
+          }
+        },
+        {
+          "store": {
+            "StoreID": "COLU1",
+            "name": "The Flying Crane",
+            "street": "409 Main Street",
+            "city": "Colorado",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80443,
+            "telephone": "970 668 2016",
+            "latitude": 39.57627,
+            "longitude": -106.097235
+          }
+        },
+        {
+          "store": {
+            "StoreID": "THHU1",
+            "name": "The Hiking Hut, Inc",
+            "street": "106 E Elkhorn Ave",
+            "city": "Estes Park",
+            "region": "CO",
+            "country": "US",
+            "postcode": 80517,
+            "telephone": "970 586 0708",
+            "latitude": 40.375912,
+            "longitude": -105.523238
+          }
+        },
+        {
+          "store": {
+            "StoreID": "THMU1",
+            "name": "The Mountaineer",
+            "street": "1866 NYS Rte 73",
+            "city": "Keene Valley",
+            "region": "NY",
+            "country": "US",
+            "postcode": 12943,
+            "telephone": "518 576 2281",
+            "latitude": 44.195341,
+            "longitude": -73.786398
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TOWU1",
+            "name": "The Outside World",
+            "street": "471 Quill Drive",
+            "city": "Dawsonville",
+            "region": "GA",
+            "country": "US",
+            "postcode": 30534,
+            "telephone": "706 265 4500",
+            "latitude": 34.347476,
+            "longitude": -84.048259
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TSHU1",
+            "name": "The Sport Haus",
+            "street": "19505 7th Avenue NE, Ste. 107",
+            "city": "Poulsbo",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98370,
+            "telephone": "360 697 2311",
+            "latitude": 47.739843,
+            "longitude": -122.641035
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TTHU1",
+            "name": "The Trail House",
+            "street": "17 South Market Street",
+            "city": "Frederick",
+            "region": "MD",
+            "country": "US",
+            "postcode": 21701,
+            "telephone": "301 694 8448",
+            "latitude": 39.413616,
+            "longitude": -77.411254
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRLU1",
+            "name": "The Traveler",
+            "street": "256 Winslow Way E",
+            "city": "Bainbridge Island",
+            "region": "WA",
+            "country": "US",
+            "postcode": 98110,
+            "telephone": "206 842 4578",
+            "latitude": 47.624841,
+            "longitude": -122.51902
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TWSU1",
+            "name": "The Warren Store",
+            "street": "284 Main Street",
+            "city": "VT 05674",
+            "region": "VT",
+            "country": "US",
+            "postcode": "0-3674",
+            "telephone": "802 496 3864",
+            "latitude": 44.142574,
+            "longitude": -72.842682
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TFHC1",
+            "name": "Tiggs For Him & Her",
+            "street": "48 Manitoba St",
+            "city": "Bracebridge",
+            "region": "ON",
+            "country": "US",
+            "postcode": "P1L 1S1",
+            "telephone": "705 645 4743",
+            "latitude": 45.04109,
+            "longitude": -79.310584
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TOOC1",
+            "name": "Totem Outdoor Outfitters",
+            "street": "7430 99 St",
+            "city": "Edmonton",
+            "region": "AB",
+            "country": "US",
+            "postcode": "T6E 3R9",
+            "telephone": "780 432 1223",
+            "latitude": 53.510601,
+            "longitude": -113.48643
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BTCU1",
+            "name": "Townsend Bertram & Company",
+            "street": "200 N Grensboro St #A16",
+            "city": "Carrboro",
+            "region": "NC",
+            "country": "US",
+            "postcode": 27510,
+            "telephone": "919 933 9712",
+            "latitude": 35.911668,
+            "longitude": -79.07128
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TCOU1",
+            "name": "Trail Creek Outfitters",
+            "street": "487 Glen Eagle Square",
+            "city": "Glen MIlls",
+            "region": "PA",
+            "country": "US",
+            "postcode": 19342,
+            "telephone": "610 558 4006",
+            "latitude": 39.866006,
+            "longitude": -75.544262
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRAA1",
+            "name": "Trailblazer Central LLC",
+            "street": "296 Elm St",
+            "city": "New Haven",
+            "region": "CT",
+            "country": "US",
+            "postcode": 6511,
+            "telephone": "203 865 6244",
+            "latitude": 41.310917,
+            "longitude": -72.931187
+          }
+        },
+        {
+          "store": {
+            "StoreID": "TRDU1",
+            "name": "Traveler's Depot",
+            "street": "1655 Garnet Avenue",
+            "city": "San Diego",
+            "region": "CA",
+            "country": "US",
+            "postcode": 92109,
+            "telephone": "858 483 1421",
+            "latitude": 32.799888,
+            "longitude": -117.239451
+          }
+        },
+        {
+          "store": {
+            "StoreID": "SSLU1",
+            "name": "Tyrol Ski & Sports",
+            "street": "1923 2nd Street SW",
+            "city": "Rochester",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55902,
+            "telephone": "507 288 1683",
+            "latitude": 44.021946,
+            "longitude": -92.492937
+          }
+        },
+        {
+          "store": {
+            "StoreID": "UDCU1",
+            "name": "Uncle Dan's Camping and Travel",
+            "street": "621 Central Ave",
+            "city": "Highland Park",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60035,
+            "telephone": "847 266 8600",
+            "latitude": 42.185427,
+            "longitude": -87.800763
+          }
+        },
+        {
+          "store": {
+            "StoreID": "UDCU1",
+            "name": "Uncle Dan's Camping and Travel",
+            "street": "901 Church St",
+            "city": "Evanston",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60201,
+            "telephone": "847 475 7100",
+            "latitude": 42.048632,
+            "longitude": -87.684073
+          }
+        },
+        {
+          "store": {
+            "StoreID": "UDCU1",
+            "name": "Uncle Dan's Camping and Travel",
+            "street": "3551 N Southport Ave",
+            "city": "Chicago",
+            "region": "IL",
+            "country": "US",
+            "postcode": 60657,
+            "telephone": "773 348 5800",
+            "latitude": 41.946709,
+            "longitude": -87.663711
+          }
+        },
+        {
+          "store": {
+            "StoreID": "ULMU1",
+            "name": "Uncle Lem's Mountain Outfitters",
+            "street": "9715 Kingston Pike",
+            "city": "Knoxville",
+            "region": "TN",
+            "country": "US",
+            "postcode": 37922,
+            "telephone": "865 357 8566",
+            "latitude": 35.907206,
+            "longitude": -84.10927
+          }
+        },
+        {
+          "store": {
+            "StoreID": "UNBC1",
+            "name": "Up The Nippising Backcountry",
+            "street": "8-1100 Golf Links Road",
+            "city": "Hamilton",
+            "region": "ON",
+            "country": "US",
+            "postcode": "L9K 1J8",
+            "telephone": "905 648 6844",
+            "latitude": 43.227332,
+            "longitude": -79.938387
+          }
+        },
+        {
+          "store": {
+            "StoreID": "URTU1",
+            "name": "Urban Travelor",
+            "street": "2480 Fairview Ave N",
+            "city": "St. Paul",
+            "region": "MN",
+            "country": "US",
+            "postcode": 55113,
+            "telephone": "651 631 9655",
+            "latitude": 45.017571,
+            "longitude": -93.177082
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BUOU1",
+            "name": "Vance Outdoor,Inc.",
+            "street": "4250 Alum Creek Drive",
+            "city": "Obetz",
+            "region": "OH",
+            "country": "US",
+            "postcode": 43207,
+            "telephone": "614 489 5025",
+            "latitude": 52.314531,
+            "longitude": -82.929976
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BUOU1",
+            "name": "Vance Outdoor,Inc.",
+            "street": "150 Arrowhead Blvd",
+            "city": "Hebron",
+            "region": "OH",
+            "country": "US",
+            "postcode": 43025,
+            "telephone": "740 928 3474",
+            "latitude": 39.958573,
+            "longitude": -82.477871
+          }
+        },
+        {
+          "store": {
+            "StoreID": "BUOU1",
+            "name": "Vance Outdoor,Inc.",
+            "street": "3723 Cleveland Ave",
+            "city": "Columbus",
+            "region": "OH",
+            "country": "US",
+            "postcode": 43224,
+            "telephone": "614 471 7000",
+            "latitude": 40.044564,
+            "longitude": -82.959046
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WOIU1",
+            "name": "Wanderlust Outfitters, Inc.",
+            "street": "120 State Street",
+            "city": "St Joseph",
+            "region": "MI",
+            "country": "US",
+            "postcode": 49085,
+            "telephone": "269 281 7047",
+            "latitude": 42.110597,
+            "longitude": -86.481334
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WTGU1",
+            "name": "Way To Go",
+            "street": "538 W Plumb Ln #F",
+            "city": "Reno",
+            "region": "NV",
+            "country": "US",
+            "postcode": 89509,
+            "telephone": "775 824 0440",
+            "latitude": 39.504913,
+            "longitude": -119.815805
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WIIA1",
+            "name": "Wild Iris Mountain Sports Inc",
+            "street": "166 Main Street",
+            "city": "Lander",
+            "region": "WY",
+            "country": "US",
+            "postcode": 82520,
+            "telephone": "307 332 4541",
+            "latitude": 42.832866,
+            "longitude": -108.728284
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WROU1",
+            "name": "Wild River Outfitters",
+            "street": "3636 Virginia Beach Blvd Ste 108",
+            "city": "Virginia Beach",
+            "region": "VA",
+            "country": "US",
+            "postcode": 23452,
+            "telephone": "757 431 8566",
+            "latitude": 36.841618,
+            "longitude": -76.097498
+          }
+        },
+        {
+          "store": {
+            "StoreID": "WISU1",
+            "name": "Willey's Store Inc.",
+            "street": "7 Breezy Ave",
+            "city": "Greensboro",
+            "region": "VT",
+            "country": "US",
+            "postcode": 5841,
+            "telephone": "802 533 2554",
+            "latitude": 44.57564,
+            "longitude": -72.295507
+          }
+        }
+      ]
+    }
+  }
