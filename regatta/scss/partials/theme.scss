@@ -31,6 +31,27 @@ html .c-basket__payment-icons {
 }
 
 /*//////////////////////////*/
+/* Corner Peels             */
+/*//////////////////////////*/
+#js-react-fredhopper .roundel {
+  right: -47px;
+  top: -11px;
+  max-width: 130px;
+  width: 100%;
+  padding: 20px 40px 5px 40px;
+  border-radius: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 12px;
+  line-height: 12px;
+}
+#js-react-fredhopper div > li{
+  overflow: hidden;
+}
+
+
+/*//////////////////////////*/
 /* Cookie bar               */
 /*//////////////////////////*/
 #notice-cookie-block .content > p {
