@@ -1121,14 +1121,8 @@ html .c-basket__payment-icons {
 /*/////////////////////////*/
 /*    Navigation Style     */
 /*/////////////////////////*/
-#header .sale.ui-menu-item > a {
-  background: #c1011a !important; }
-
 .s-main-menu {
   background: #ffffff !important; }
-
-#ui-id-11 {
-  color: #e4cc44 !important; }
 
 /*/////////////////////////*/
 /* Moved colours available */
@@ -1913,12 +1907,6 @@ body .c-product-tile .c-product-tile__btn {
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
-#header .sale.ui-menu-item > a {
-  background: #c0283f;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px; }
-
 html .s-main-menu .block {
   padding-bottom: 0px; }
 
