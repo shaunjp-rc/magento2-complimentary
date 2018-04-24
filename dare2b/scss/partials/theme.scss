@@ -387,12 +387,13 @@ width:100%;
   float: right;
   width: auto;
   margin-left: 20px;
+  max-width: 350px !important;
 }
 
 .category-container-aw17 .category-links,
 .category-container-aw17 .category-banner-text{
   text-align: left !important;
-  padding: 20px;
+  padding: 10px !important;
   font-size: 1.1em;
 }
 
