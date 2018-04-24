@@ -1,0 +1,31 @@
+// Staging File
+
+// For importing partials only... no Sass in here
+
+// utility styles
+@import 'modules/util';
+@import 'partials/fonts';
+
+// Generic Stuff
+@import 'partials/cms-page-generic';
+
+// Specific Stuff
+@import 'partials/homepage';
+@import 'partials/kit-guide';
+@import 'partials/customer_services';
+@import 'partials/mega_menu';
+@import 'partials/lookbook';
+@import 'partials/microsite';
+@import 'partials/toplevel_banners';
+@import 'partials/protect-liberate';
+@import 'partials/plp';
+@import 'partials/pdp'; 
+@import 'partials/utc'; 
+@import 'partials/trouser_campaign'; 
+@import 'partials/black_friday'; 
+@import 'partials/honesty_project';
+@import 'partials/technologies';
+@import 'partials/checkout';
+
+// staging only styles
+@import 'partials/staging/styles';

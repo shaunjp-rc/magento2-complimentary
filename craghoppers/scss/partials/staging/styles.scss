@@ -1,0 +1,955 @@
+/*********************************************
+
+CH Staging styles
+For testing purposes only
+All code must be cleared after it goes live
+
+**********************************************/
+
+
+/* Mega Menu */
+.mm__container {
+  width: 1228px;
+  margin: 0 auto;
+}
+
+.s-main-menu .category-items .mm__column {
+  width: 20%;
+  float: left;
+  margin-left: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+.mm__column a {
+  text-decoration: none;
+}
+
+.mm__column h3 {
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 2;
+  text-transform: none;
+}
+
+.columnHead {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.columnSubHead{
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.columnSubHead.Outlet a{
+  color: #ff0000 !important;
+}
+
+.columnHeadGrey a {
+  color: #343334!important;
+}
+
+.columnHead a {
+  color: #343334!important;
+  padding: 0 !important; 
+}
+
+.mm__column img {
+  margin-top: 5%;
+}
+
+.mm__column--lookbook a {
+  padding: 0;
+  line-height: 1;
+}
+
+.mm__column--lookbook li {
+  float: left;
+  width: 100%;
+}
+
+.mm__column--lookbook li.sub-cat {
+  float: left;
+  margin-left: 7%;
+  width: auto;
+}
+
+.s-main-menu .block .category-items ul.hidden-sub-cat {
+  float: left;
+  padding: 0;
+  min-width: 200px;
+}
+
+.mm__column--lookbook span {
+  float: left;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--lookbook {
+  width: 50%;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+  width: 25%;
+}
+
+.mm__column a {
+  line-height: 1;
+}
+
+.mm__column.mm__column--img.expanded {
+  float: right;
+}
+
+.mm-main h3 {
+  font-weight: bold;
+}
+
+.s-main-menu .categories ul.mm__column li a {
+  text-align: left;
+  color: #343334 !important;
+}
+.megamenu-split{
+  .mm__column:first-of-type {
+      width: 40%;
+  }
+  .menu-split {
+      display: inline-block;
+      float:left;
+  }
+  .menu-split:last-of-type {
+      margin-left: 20%;
+      margin-top:7%;
+  }
+}
+.mm__column--img img {
+    width: 100%;
+}
+
+.s-main-menu .block {
+    z-index: 3;
+}
+
+@media only screen and (max-width:1227px){
+  .megamenu-split{
+    .menu-split:last-of-type {
+        margin-top: 8%;
+    }
+  }
+
+}
+
+@media only screen and (max-width:989px){
+  .mm__column.mm__column--img {
+      display: none;
+  }
+  .megamenu-split{
+    .mm__column {
+        width: 26%;
+    }
+    .menu-split:last-of-type {
+        margin-left: 12%;
+        margin-top: 9%;
+    }
+    .mm__column:first-of-type {
+        width: 48%;
+    }
+  }
+}
+
+
+@media only screen and (max-width:740px) {
+  .s-main-menu .category-items .mm__column {
+    width: 100%;
+  }
+
+  .mm__column img {
+    margin-top: 0;
+    width: auto;
+  }
+
+  .columnHead {
+    margin-left: 1%;
+  }
+
+  .mm__column--img {
+    display: none;
+  }
+
+    .ui-state-active {
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 10px !important;
+  }
+
+}
+
+@media only screen and (max-width:739px){
+  .megamenu-split{
+    .menu-split {
+        display: inline-block !important;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }
+    .s-main-menu .category-items .mm__column {
+        width: 100% !important;
+    }
+
+  .dropdown {
+    width: 100%;
+    text-align: left !important;
+  }
+  .megamenu-split .menu-split {
+    display: inline-block !important;
+    width: 100%;
+  }
+
+}
+
+
+
+/* Insect Repellent Mega Menu */
+.s-main-menu .block .mmrow--nosilife {
+  width: 50%;
+  margin-top: 3%;
+  text-align: left;
+}
+
+.s-main-menu .block .mmrow.mmrow--nosilife-image {
+  float: right;
+  width: auto;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  margin-top: 3%;
+}
+
+.s-main-menu .block .mmrow--nosilife ul.mmlist {
+  padding-left: 0;
+}
+
+.mmrow--nosilife .mmrow__header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+ul.mmlist {
+  padding-bottom: 8%;
+}
+
+ul.mm__column.mm__column--nosilife-fom.expanded {
+  width: 100%;
+  padding-left: 0;
+}
+
+li.dropdown.dropdown--red a {
+  color: #ff0000;
+}
+
+.s-main-menu .mm__container--insectrepellent .mm__column--img{
+  float: right;
+  width: auto;
+  padding: 0;
+}
+
+.s-main-menu .category-items .mm__column.mm__column--extend{
+  width: auto;
+}
+
+.s-main-menu .category-items .whatisnosilife{
+  margin-top:11%; 
+}
+
+@media only screen and (max-width:1000px) {
+  .s-main-menu .block .mmrow--nosilife ul.mmlist {
+    padding-bottom: 2%;
+  }
+
+}
+
+@media only screen and (max-width:770px) {
+  .mm__column img {
+    margin-top: 0;
+    width: auto;
+  }
+
+  .columnHead {
+    margin-left: 1%;
+  }
+
+  .s-main-menu .category-items .mm__column{
+    width: 33%;
+  }
+
+
+  .s-main-menu .category-items .mm__column.mm__column--lookbook{
+    width: 100%;
+  }
+
+  .mmLookbookColumn li {
+    padding-right: 12px;
+  }
+
+  .hidden-sub-cat {
+    opacity: 1 !important;
+    width: 100%;
+  }
+
+  .mm__column.mm__column--img,
+  .mmLookbookColumn:nth-child(3),.s-main-menu .category-items .mm__column.mm__column--lookbook-img {
+    display: none;
+  }
+
+  .mmLookbookColumn--links {
+    width: 90%;
+  }
+
+  .mm__column--lookbook li.sub-cat {
+    margin-left: 1%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .mm__column--lookbook span {
+    margin-left: 1%;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2%;
+  }
+
+  .s-main-menu .categories ul.mm__column li.sub-cat a {
+    margin-left: 0;
+  }
+
+  .s-main-menu .category-items .mm__column.mm__column--extend {
+    width: 100%;
+  }
+
+  .s-main-menu .category-items .whatisnosilife {
+    margin-top: 0;
+  }
+
+}
+
+/* centre align nav */
+.s-main-menu .categories>li {
+  text-align: center;
+  display: inline-block;
+  padding-right: 0.1%;
+}
+
+.s-main-menu .categories {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.s-main-menu {
+  position: relative;
+}
+
+.shopall {
+  display: none;
+}
+
+@media screen and (max-width:770px) {
+
+  .shopall {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:550px) {
+  
+  .s-main-menu .categories > li.ui-menu-item {
+      width: 100%;
+      text-align: left;
+  }
+  .s-main-menu .category-items .mm__column {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .s-main-menu .categories > li {
+    text-align: left;
+    display: block;
+  }
+
+  .s-main-menu .category-items .mm__column,
+  .s-main-menu .category-items .mm__column.mm__column--lookbook {
+    width: 100%;
+  }
+
+}
+
+/* END */
+
+/* Bear Grylls Style */
+.s-main-menu .categories ul.mm__column li.beargryllsclearance a {
+    color: #E16A17 !important;
+    font-weight: 700;
+}
+/* END */
+
+/* Clearance nav */
+.dropdown.clearance li a {
+    background: transparent;
+}
+@media only screen and (min-width:700px){
+    .dropdown.clearance li a {
+        padding:0 !important;
+    }
+}
+
+.dropdown.clearance div a.ui-menu-back {
+    background: transparent;
+    color: #000 !important;
+    padding-left: 20px !important;
+}
+
+.s-main-menu .categories ul.mm__column li.mm-main-clearance a {
+    color: #880015 !important;
+}
+/* END */
+
+/* SS18 Updates */
+.columnHead {
+  text-align: left;
+}
+
+.collection-minsect{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensInsectProtectiveClothing.jpg);
+}
+.collection-mutc{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensUTC.jpg);
+}
+.collection-moutdoor{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensOutdoorProtection.jpg);
+}
+.collection-mdofe{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensDofE.jpg);
+}
+.collection-msun{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensSunProtective.jpg);
+}
+.collection-mdiscovery{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensDiscovery.jpg);
+}
+.collection-winsect{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensInsectProtective.jpg);
+}
+.collection-wutc{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensUTC.jpg);
+}
+.collection-woutdoor{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensOutdoorProtection.jpg);
+}
+.collection-wdofe{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensDofE.jpg);
+}
+.collection-wsun{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensSunProtective.jpg);
+}
+.collection-wdiscovery{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensDiscovery.jpg);
+}
+.collection-wrecycled{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/womens/WomensRecycled.jpg);
+}
+.collection-kinsect{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsInsectProtective.jpg);
+}
+.collection-ksun{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsSunProtective.jpg);
+}
+.collection-kdiscovery{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsDiscovery.jpg);
+}
+.collection-abags{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/accessories/AccessoriesBags.jpg);
+}
+
+
+/* ambassadors */
+.ambass-coyote{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-CoyotePeterson.jpg);
+}
+.ambass-kevin{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-KevinRichardson.jpg);
+}
+.ambass-woods{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-WoodsWheatcroft.jpg);
+}
+.ambass-felix{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-FelixNdagijimana.jpg);
+}
+.ambass-tasmin{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-TamsinJones.jpg);
+}
+.ambass-faruk{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-FarukAkbas.jpg);
+}
+.ambass-claire{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-ClaireAspinall.jpg);
+}
+.ambass-david{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-DavidLove.jpg);
+}
+.ambass-brandon{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-BrandonEckroth.jpg);
+}
+.ambass-louisa{
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/ambassadors/Ambassadors-DrLouisaPreston.jpg);
+}
+
+
+
+/* Outlet nav */
+.mm-outlet,
+a.mm-outlet {
+  color: #ff0000 !important;
+}
+/* End */
+
+  /* Mobile Menu */
+
+
+.menuSection {
+  width: 20% !important;
+}
+
+.menuSection.menuCollection {
+  width: 60% !important;
+  
+}
+
+.menuMobileOnly {
+  display: none;
+}
+
+.collectionItem {
+  width: 100%;
+  max-width: 225px;
+  position: relative;
+  margin-bottom: 1.2%;
+}
+
+.collectionItem:nth-child(2),
+.collectionItem:nth-child(5) {
+  margin: 0 12px;
+}
+
+.s-main-menu .block .category-items .collectionItem a {
+  color: #fff;
+  text-align: center;
+  padding: 29% 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menuSection.menuCollection .columnHead {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.menuSection.menuCollection .columnContent {
+  width: 100%;
+  padding-left: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s-main-menu .block .category-items ul.columnContent {
+  padding: 0;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 1227px){
+  .collectionItem {
+    max-width: 180px;
+  }
+
+
+  .collectionItem a.collection-moutdoor,
+  .collectionItem a.collection-mdofe,
+  .collectionItem a.collection-mdiscovery,
+  .collectionItem a.collection-woutdoor,
+  .collectionItem a.collection-wdofe,
+  .collectionItem a.collection-wdiscovery {
+    padding: 27% 0;
+    line-height: 1;
+  }
+
+
+}
+
+@media only screen and (max-width: 989px) {
+  .collectionItem:nth-child(even),
+  .collectionItem:nth-child(odd) {
+    margin: 0; 
+  }
+
+  .collectionItem {
+    max-width: 100%;
+  }
+
+  .s-main-menu .block .category-items .collectionItem a {
+    color: #343334 !important;
+    text-align: left !important;
+    padding:0 !important;
+    background: none;
+  }
+
+  .menuSection,
+  .menuSection.menuCollection {
+    width: 33% !important;
+  }
+
+}
+
+@media only screen and (max-width:700px){
+  .collectionItem a {
+    background: transparent;
+  }
+}
+
+@media only screen and (max-width:678px){
+
+  .ui-menu.ui-widget.active {
+    display: block !important;
+  }
+
+  .columnContent,
+  .menuSection.menuCollection .columnContent {
+    display: none;
+  }
+
+  .columnContent.active,
+  .menuSection.menuCollection .columnContent.active {
+    display: block;
+  }
+  
+  .s-main-menu .block {
+    background: transparent;
+  }
+
+  .ui-menu-back {
+    margin-top: -55px;
+    color: transparent !important;
+  }
+
+  .c-icon--right-grey, .s-main-menu .categories>li a.ui-menu-back:before {
+    background: transparent !important;
+  }
+
+  .c-mobile-menu {
+    top: 65px;
+  }
+
+  .c-mobile-menu__currency,
+  .c-mobile-menu__home {
+    display: none;
+  }
+
+  .columnHead.columnEnabled.active {
+    display: block;
+  }
+
+  @keyframes slideUp{
+    0% {top:800px;}
+    100% {top: 0px;}
+  }
+
+  .category-items.ui-menu-item.sectionActive,
+  ul.columnContent.expanded.active {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background: #fff;
+  }
+
+  .columnHead {
+    padding: 15px 0 15px 10px;
+    margin: 0;
+  }
+
+  .category-items.ui-menu-item.sectionActive {
+    padding-top: 0 !important;
+  }
+  
+  h2.columnHead.columnEnabled.active {
+    background: #CCCCCC;
+    padding: 15px 0 15px 10px;
+    margin-top: 0;
+  }
+
+  .menuSection {
+    display: block !important;
+    padding-left: 0 !important;
+  }
+
+  .ui-state-active {
+    background-color: #959595 !important;
+    color: #fff !important;
+  }
+
+  .c-icon--right-grey, .s-main-menu .categories>li a:before {
+    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/BlackArrow.svg)!important;
+    animation-name: arrowSpinReverse;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes arrowSpin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+  }
+
+  .c-icon--right-grey, .s-main-menu .categories > li a.ui-state-active:before {
+    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/WhiteArrow.svg) !important;
+    animation-name: arrowSpin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    right: 20px;
+  }
+
+
+  h2.columnHead.columnEnabled.active:before{
+    animation-name: arrowSpin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    margin-top: 8px;
+  }
+
+  @keyframes arrowSpinReverse{
+    0% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+  .columnHead:before {
+    content: '';
+    width: 15px;
+    height: 9px;
+    position: absolute;
+    right: 20px;
+    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/GreyArrow.svg);
+    background-repeat: no-repeat;
+    animation-name: arrowSpinReverse;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  ul.columnContent.active a:before{
+    background-image: none !important;
+  }
+
+  .ui-corner-all.ui-state-active:before {
+    background-image: url(data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20enc…ath%3E%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%3C%2Fg%3E%3C%2Fsvg%3E)!important;
+    background-repeat: no-repeat!important;
+    background-position: 50%;
+    display: block !important;
+    width: 50px;
+    height: 50px;
+    content: ' ';
+  }
+
+  .c-mobile-menu.is-category-open li.dropdown.ui-menu-item {
+    overflow: hidden;
+  }
+
+  .menuOutletHead{
+    color: #ff0000;
+  }
+
+  .columnSubHead.Outlet{
+    display: none;
+  }
+
+  .menuMobileOnly,
+  .menuMobileOnly .columnSubHead.Outlet{
+    display: block;
+  }
+
+  .c-mobile-menu {
+    max-width: 90%;
+  }
+
+  html.nav-before-open.nav-open {
+    overflow: hidden;
+  }
+
+  .action.nav-toggle.navActive {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-top: 65px;
+  }
+
+  .action.nav-toggle.navActive i {
+    margin: 20px 0;
+    top: -55px;
+    position: relative;
+    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/close/menuClose.svg) !important;
+  }
+
+  .o-layout__item.navActive {
+    height: 65px;
+  }
+
+  /*.action.nav-toggle.navActive i:before {
+    content: 'Close';
+    left: 40px;
+    position: relative;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #363636;
+  }*/
+
+  .c-header--sticky .c-mini-cart {
+    padding-top: 0;
+  }
+  
+  .nav-before-open.nav-open .c-header--sticky{
+    .o-layout__item.u-4\/12{
+      display: none;
+    }
+
+    .o-layout__item.navActive + div {
+      margin-left: 33%;
+    }
+    
+  }
+
+  .menuSection,
+  .menuSection.menuCollection {
+    width: 100% !important;
+  }
+
+  .menuSection.menuCollection .columnHead {
+    margin-top: 0;
+  }
+
+  .s-main-menu .categories>li a.menuOutletHead {
+    color: #ff0000 !important;
+    margin-left: 0;
+    font-size: 16px;
+    border-bottom: 0;
+    z-index: 0;
+  }
+
+  .menuMobileOnly .columnHead:before,
+  .s-main-menu .categories>li .menuMobileOnly a:before {
+    background-image: none !important;
+  }
+
+  .menuSection.menuCollection .collectionItem a {
+    line-height: 3;
+  }
+
+  i.c-header__icon.c-icon--menu,
+  i.c-header__icon.c-icon--menu::before,
+  i.c-header__icon.c-icon--menu::after {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background-color: #363636;
+    top: 11px;
+    left: 20px;
+  }
+
+  i.c-header__icon.c-icon--menu::before {
+    top: -8px;
+    content: ' ';
+    left: 0;
+  }
+
+  i.c-header__icon.c-icon--menu::after {
+    top: 8px;
+    content: ' ';
+    left: 0;
+  }
+
+  @keyframes menuBeforeLineClose{
+    0%{top:-8px; transform: rotate(0deg);}
+    50%{top:0px; transform: rotate(0deg);}
+    100%{top:0px; transform: rotate(45deg);}
+  }
+
+  @keyframes menuAfterLineClose{
+    0%{top:8px; transform: rotate(0deg);}
+    50%{top:0px; transform: rotate(0deg);}
+    100%{top:0px; transform: rotate(-45deg);}
+  }
+
+  @keyframes menuLineCloseColour{
+    0%{background-color:#000;}
+    100%{background-color:transparent;}
+  }
+
+  span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen{
+    animation-name: menuLineCloseColour;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen::before{
+    animation-name: menuBeforeLineClose;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen::after{
+    animation-name: menuAfterLineClose;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed{
+    animation-name: menuLineCloseColour;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+  }
+
+  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed::before{
+    animation-name: menuBeforeLineClose;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+  }
+
+  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed::after{
+    animation-name: menuAfterLineClose;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+  }
+
+  span.action.nav-toggle {
+    display: inline-block;
+  }
+
+
+i.c-header__icon.c-icon--menu.menuOpen{}
+i.c-header__icon.c-icon--menu.menuClosed{}
+
+  
+  
+
+
+}
+/* END */
+
