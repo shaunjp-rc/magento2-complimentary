@@ -8994,6 +8994,13 @@ a.mm-outlet {
 .collectionItem:nth-child(5) {
   margin: 0 12px; }
 
+.collectionItem:nth-child(3),
+.collectionItem:nth-child(6) {
+  margin: 0; }
+
+.s-main-menu .block .category-items {
+  padding-top: 10px; }
+
 .s-main-menu .block .category-items .collectionItem a {
   color: #fff;
   text-align: center;
@@ -9015,6 +9022,33 @@ a.mm-outlet {
   padding: 0;
   z-index: 3; }
 
+.columnContentFullWidth .collectionItem {
+  max-width: 100%; }
+
+.s-main-menu .block .category-items .collectionItem a.collection-abags {
+  padding: 9.1% 0; }
+
+.menuAmbassadors .collectionItem:nth-child(1),
+.menuAmbassadors .collectionItem:nth-child(6) {
+  margin-left: 0; }
+
+.menuAmbassadors .collectionItem {
+  width: 100%;
+  max-width: 125px;
+  position: relative;
+  margin-left: 12px;
+  margin-bottom: 1.2%; }
+
+.s-main-menu .block .category-items .menuAmbassadors .collectionItem a {
+  padding: 40% 0px; }
+
+.s-main-menu .categories .columnContent li a {
+  text-align: left; }
+
+.menuAmbassadors .collectionItem:nth-child(2),
+.menuAmbassadors .collectionItem:nth-child(5) {
+  margin-right: 0; }
+
 @media only screen and (max-width: 1227px) {
   .collectionItem {
     max-width: 180px; }
@@ -9026,7 +9060,11 @@ a.mm-outlet {
   .collectionItem a.collection-wdofe,
   .collectionItem a.collection-wdiscovery {
     padding: 27% 0;
-    line-height: 1; } }
+    line-height: 1; }
+
+  .menuAmbassadors .collectionItem {
+    max-width: 100px;
+    line-height: 1.2; } }
 @media only screen and (max-width: 989px) {
   .collectionItem:nth-child(even),
   .collectionItem:nth-child(odd) {
@@ -9043,7 +9081,12 @@ a.mm-outlet {
 
   .menuSection,
   .menuSection.menuCollection {
-    width: 33% !important; } }
+    width: 33% !important; }
+
+  .menuAmbassadors .collectionItem {
+    max-width: 100%;
+    margin-left: 0;
+    line-height: 2; } }
 @media only screen and (max-width: 700px) {
   .collectionItem a {
     background: transparent; } }
@@ -9093,7 +9136,7 @@ a.mm-outlet {
     background: #fff; }
 
   .columnHead {
-    padding: 15px 0 15px 10px;
+    padding: 15px 0 15px 20px;
     margin: 0; }
 
   .category-items.ui-menu-item.sectionActive {
@@ -9101,7 +9144,7 @@ a.mm-outlet {
 
   h2.columnHead.columnEnabled.active {
     background: #CCCCCC;
-    padding: 15px 0 15px 10px;
+    padding: 15px 0 15px 20px;
     margin-top: 0; }
 
   .menuSection {
@@ -9194,7 +9237,7 @@ a.mm-outlet {
     margin: 20px 0;
     top: -55px;
     position: relative;
-    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/close/menuClose.svg) !important; }
+    background-image: none !important; }
 
   .o-layout__item.navActive {
     height: 65px; }
@@ -9279,9 +9322,14 @@ a.mm-outlet {
       transform: rotate(-45deg); } }
   @keyframes menuLineCloseColour {
     0% {
-      background-color: #000; }
+      background-color: #363636; }
     100% {
       background-color: transparent; } }
+  @keyframes menuLineCloseColourTwo {
+    0% {
+      background-color: transparent; }
+    100% {
+      background-color: #363636; } }
   span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen {
     animation-name: menuLineCloseColour;
     animation-duration: 1s;
@@ -9297,26 +9345,57 @@ a.mm-outlet {
     animation-duration: 1s;
     animation-fill-mode: forwards; }
 
-  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed {
-    animation-name: menuLineCloseColour;
-    animation-duration: 2.5s;
-    animation-fill-mode: forwards;
-    animation-direction: reverse; }
+  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni {
+    animation-name: menuLineCloseColourTwo;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; }
 
-  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed::before {
+  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni::before {
     animation-name: menuBeforeLineClose;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-direction: reverse; }
 
-  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed::after {
+  span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni::after {
     animation-name: menuAfterLineClose;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-direction: reverse; }
 
   span.action.nav-toggle {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .menuLabel {
+    display: none; }
+
+  .menuLabel.active {
+    left: 35px;
+    position: relative;
+    top: -14px;
+    font-style: normal;
+    font-size: 16px;
+    display: block; }
+
+  .s-main-menu .categories > li > a:hover,
+  .columnHead, .mmColumnCollection .columnHead {
+    text-decoration: none; }
+
+  .s-main-menu .categories > li .expanded li a {
+    line-height: 2;
+    text-transform: capitalize; }
+
+  .s-main-menu .categories > li a {
+    margin-left: 0 !important;
+    padding-left: 20px !important; }
+
+  .s-main-menu .categories > li .menuSection h2 > a {
+    padding-left: 0 !important; }
+
+  .c-mobile-menu__secondary-menu {
+    padding-left: 20px; }
+
+  .s-main-menu .block .category-items .collectionItem a {
+    padding: 20px !important; } }
 /* END */
 
 /*# sourceMappingURL=staging-styles.css.map */
