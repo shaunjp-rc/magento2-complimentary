@@ -9242,15 +9242,6 @@ a.mm-outlet {
   .o-layout__item.navActive {
     height: 65px; }
 
-  /*.action.nav-toggle.navActive i:before {
-    content: 'Close';
-    left: 40px;
-    position: relative;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.4;
-    color: #363636;
-  }*/
   .c-header--sticky .c-mini-cart {
     padding-top: 0; }
 
@@ -9395,7 +9386,10 @@ a.mm-outlet {
     padding-left: 20px; }
 
   .s-main-menu .block .category-items .collectionItem a {
-    padding: 20px !important; } }
+    padding: 20px !important; }
+
+  .c-header--sticky .o-layout__item {
+    position: relative; } }
 /* END */
 
 /*# sourceMappingURL=staging-styles.css.map */
