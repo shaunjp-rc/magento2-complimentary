@@ -913,17 +913,19 @@ a.mm-outlet {
   }
 
   i.c-header__icon.c-icon--menu::before {
-    top: -8px;
+    top: 0px;
     content: ' ';
     left: 0;
     display: block;
+    margin-top: -8px;
   }
 
   i.c-header__icon.c-icon--menu::after {
-    top: 8px;
+    top: 0px;
     content: ' ';
     left: 0;
     display: block;
+    margin-top: 8px;
   }
 
   i.c-header__icon.c-icon--menu.menuOpen:before {
