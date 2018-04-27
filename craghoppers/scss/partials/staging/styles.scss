@@ -929,7 +929,13 @@ a.mm-outlet {
     -moz-animation-name: menuLineCloseColour;
     -o-animation-name: menuLineCloseColour;
     animation-name: menuLineCloseColour;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
@@ -960,7 +966,13 @@ a.mm-outlet {
     -moz-animation-name: menuBeforeLineClose;
     -o-animation-name: menuBeforeLineClose;
     animation-name: menuBeforeLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
@@ -969,7 +981,13 @@ a.mm-outlet {
     -moz-animation-name: menuBeforeLineClose;
     -o-animation-name: menuBeforeLineClose;
     animation-name: menuBeforeLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-direction: reverse;
   }
@@ -1005,7 +1023,13 @@ a.mm-outlet {
     -moz-animation-name: menuAfterLineClose;
     -o-animation-name: menuAfterLineClose;
     animation-name: menuAfterLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
@@ -1014,7 +1038,13 @@ a.mm-outlet {
     -moz-animation-name: menuAfterLineClose;
     -o-animation-name: menuAfterLineClose;
     animation-name: menuAfterLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-direction: reverse;
   }
@@ -1050,7 +1080,13 @@ a.mm-outlet {
     -moz-animation-name: menuLineCloseColourTwo;
     -o-animation-name: menuLineCloseColourTwo;
     animation-name: menuLineCloseColourTwo;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
     animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
