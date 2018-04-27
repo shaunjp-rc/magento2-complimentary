@@ -942,23 +942,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuBeforeClose {
-    0%{top: -8px;}
-    100%{top: 0px;}
+    0%{margin-top: -8px;}
+    100%{margin-top: 0px;}
   }  
 
   @-moz-keyframes menuBeforeClose {
-    0%{top: -8px;}
-    100%{top: 0px;}
+    0%{margin-top: -8px;}
+    100%{margin-top: 0px;}
   }
 
   @-o-keyframes menuBeforeClose {
-    0%{top: -8px;}
-    100%{top: 0px;}
+    0%{margin-top: -8px;}
+    100%{margin-top: 0px;}
   }
 
   @keyframes menuBeforeClose {
-    0%{top: -8px;}
-    100%{top: 0px;}
+    0%{margin-top: -8px;}
+    100%{margin-top: 0px;}
   }
 
   ///////////////////////////////////////////////////////////////////////
@@ -980,23 +980,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuAfterClose {
-    0%{top: 8px;}
-    100%{top: 0px;}
+    0%{margin-top: 8px;}
+    100%{margin-top: 0px;}
   }  
 
   @-moz-keyframes menuAfterClose {
-    0%{top: 8px;}
-    100%{top: 0px;}
+    0%{margin-top: 8px;}
+    100%{margin-top: 0px;}
   }
 
   @-o-keyframes menuAfterClose {
-    0%{top: 8px;}
-    100%{top: 0px;}
+    0%{margin-top: 8px;}
+    100%{margin-top: 0px;}
   }
 
   @keyframes menuAfterClose {
-    0%{top: 8px;}
-    100%{top: 0px;}
+    0%{margin-top: 8px;}
+    100%{margin-top: 0px;}
   }
 
 
@@ -1016,23 +1016,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuBeforeCloseReverse {
-    0%{top: 0px;}
-    100%{top: -8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: -8px;}
   }  
 
   @-moz-keyframes menuBeforeCloseReverse {
-    0%{top: 0px;}
-    100%{top: -8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: -8px;}
   }
 
   @-o-keyframes menuBeforeCloseReverse {
-    0%{top: 0px;}
-    100%{top: -8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: -8px;}
   }
 
   @keyframes menuBeforeCloseReverse {
-    0%{top: 0px;}
-    100%{top: -8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: -8px;}
   }
 
   i.c-header__icon.c-icon--menu.menuClosed.menuAni:after{
@@ -1051,23 +1051,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuAfterCloseReverse {
-    0%{top: 0px;}
-    100%{top: 8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: 8px;}
   }  
 
   @-moz-keyframes menuAfterCloseReverse {
-    0%{top: 0px;}
-    100%{top: 8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: 8px;}
   }
 
   @-o-keyframes menuAfterCloseReverse {
-    0%{top: 0px;}
-    100%{top: 8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: 8px;}
   }
 
   @keyframes menuAfterCloseReverse {
-    0%{top: 0px;}
-    100%{top: 8px;}
+    0%{margin-top: 0px;}
+    100%{margin-top: 8px;}
   }
 
 
