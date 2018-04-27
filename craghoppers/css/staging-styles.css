@@ -9361,6 +9361,74 @@ a.mm-outlet {
       top: 8px; }
     100% {
       top: 0px; } }
+  i.c-header__icon.c-icon--menu.menuClosed.menuAni:before {
+    -webkit-animation-name: menuBeforeCloseReverse;
+    -moz-animation-name: menuBeforeCloseReverse;
+    -o-animation-name: menuBeforeCloseReverse;
+    animation-name: menuBeforeCloseReverse;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  @-webkit-keyframes menuBeforeCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: -8px; } }
+  @-moz-keyframes menuBeforeCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: -8px; } }
+  @-o-keyframes menuBeforeCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: -8px; } }
+  @keyframes menuBeforeCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: -8px; } }
+  i.c-header__icon.c-icon--menu.menuClosed.menuAni:after {
+    -webkit-animation-name: menuAfterCloseReverse;
+    -moz-animation-name: menuAfterCloseReverse;
+    -o-animation-name: menuAfterCloseReverse;
+    animation-name: menuAfterCloseReverse;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  @-webkit-keyframes menuAfterCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: 8px; } }
+  @-moz-keyframes menuAfterCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: 8px; } }
+  @-o-keyframes menuAfterCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: 8px; } }
+  @keyframes menuAfterCloseReverse {
+    0% {
+      top: 0px; }
+    100% {
+      top: 8px; } }
   /*span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen {
     -webkit-animation-name: menuLineCloseColour;
     -moz-animation-name: menuLineCloseColour;
