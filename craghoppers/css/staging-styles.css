@@ -9296,7 +9296,13 @@ a.mm-outlet {
     -moz-animation-name: menuLineCloseColour;
     -o-animation-name: menuLineCloseColour;
     animation-name: menuLineCloseColour;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
   @-webkit-keyframes menuLineCloseColour {
@@ -9324,7 +9330,13 @@ a.mm-outlet {
     -moz-animation-name: menuBeforeLineClose;
     -o-animation-name: menuBeforeLineClose;
     animation-name: menuBeforeLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
   span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni::before {
@@ -9332,7 +9344,13 @@ a.mm-outlet {
     -moz-animation-name: menuBeforeLineClose;
     -o-animation-name: menuBeforeLineClose;
     animation-name: menuBeforeLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-direction: reverse; }
 
@@ -9381,7 +9399,13 @@ a.mm-outlet {
     -moz-animation-name: menuAfterLineClose;
     -o-animation-name: menuAfterLineClose;
     animation-name: menuAfterLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
   span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni::after {
@@ -9389,8 +9413,17 @@ a.mm-outlet {
     -moz-animation-name: menuAfterLineClose;
     -o-animation-name: menuAfterLineClose;
     animation-name: menuAfterLineClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
     animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+    -webkit-animation-direction: reverse;
+    -moz-animation-direction: reverse;
+    -o-animation-direction: reverse;
     animation-direction: reverse; }
 
   @-webkit-keyframes menuAfterLineClose {
@@ -9438,7 +9471,13 @@ a.mm-outlet {
     -moz-animation-name: menuLineCloseColourTwo;
     -o-animation-name: menuLineCloseColourTwo;
     animation-name: menuLineCloseColourTwo;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
     animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
   @-webkit-keyframes menuLineCloseColourTwo {
