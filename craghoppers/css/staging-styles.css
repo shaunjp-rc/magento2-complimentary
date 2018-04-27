@@ -9292,9 +9292,9 @@ a.mm-outlet {
     left: 0; }
 
   span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen {
-    -webkit-animation: menuLineCloseColour;
-    -moz-animation: menuLineCloseColour;
-    -o-animation: menuLineCloseColour;
+    -webkit-animation-name: menuLineCloseColour;
+    -moz-animation-name: menuLineCloseColour;
+    -o-animation-name: menuLineCloseColour;
     animation-name: menuLineCloseColour;
     animation-duration: 1s;
     animation-fill-mode: forwards; }
@@ -9320,17 +9320,17 @@ a.mm-outlet {
     100% {
       background-color: transparent; } }
   span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen::before {
-    -webkit-animation: menuBeforeLineClose;
-    -moz-animation: menuBeforeLineClose;
-    -o-animation: menuBeforeLineClose;
+    -webkit-animation-name: menuBeforeLineClose;
+    -moz-animation-name: menuBeforeLineClose;
+    -o-animation-name: menuBeforeLineClose;
     animation-name: menuBeforeLineClose;
     animation-duration: 1s;
     animation-fill-mode: forwards; }
 
   span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni::before {
-    -webkit-animation: menuBeforeLineClose;
-    -moz-animation: menuBeforeLineClose;
-    -o-animation: menuBeforeLineClose;
+    -webkit-animation-name: menuBeforeLineClose;
+    -moz-animation-name: menuBeforeLineClose;
+    -o-animation-name: menuBeforeLineClose;
     animation-name: menuBeforeLineClose;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -9377,17 +9377,17 @@ a.mm-outlet {
       top: 0px;
       transform: rotate(45deg); } }
   span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen::after {
-    -webkit-animation: menuAfterLineClose;
-    -moz-animation: menuAfterLineClose;
-    -o-animation: menuAfterLineClose;
+    -webkit-animation-name: menuAfterLineClose;
+    -moz-animation-name: menuAfterLineClose;
+    -o-animation-name: menuAfterLineClose;
     animation-name: menuAfterLineClose;
     animation-duration: 1s;
     animation-fill-mode: forwards; }
 
   span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni::after {
-    -webkit-animation: menuAfterLineClose;
-    -moz-animation: menuAfterLineClose;
-    -o-animation: menuAfterLineClose;
+    -webkit-animation-name: menuAfterLineClose;
+    -moz-animation-name: menuAfterLineClose;
+    -o-animation-name: menuAfterLineClose;
     animation-name: menuAfterLineClose;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -9396,23 +9396,23 @@ a.mm-outlet {
   @-webkit-keyframes menuAfterLineClose {
     0% {
       top: 8px;
-      transform: rotate(0deg); }
+      -webkit-transform: rotate(0deg); }
     50% {
       top: 0px;
-      transform: rotate(0deg); }
+      -webkit-transform: rotate(0deg); }
     100% {
       top: 0px;
-      transform: rotate(-45deg); } }
+      -webkit-transform: rotate(-45deg); } }
   @-moz-keyframes menuAfterLineClose {
     0% {
       top: 8px;
-      transform: rotate(0deg); }
+      -moz-transform: rotate(0deg); }
     50% {
       top: 0px;
-      transform: rotate(0deg); }
+      -moz-transform: rotate(0deg); }
     100% {
       top: 0px;
-      transform: rotate(-45deg); } }
+      -moz-transform: rotate(-45deg); } }
   @-o-keyframes menuAfterLineClose {
     0% {
       top: 8px;
@@ -9434,9 +9434,9 @@ a.mm-outlet {
       top: 0px;
       transform: rotate(-45deg); } }
   span.action.nav-toggle i.c-header__icon.c-icon--menu.menuClosed.menuAni {
-    -webkit-animation: menuLineCloseColourTwo;
-    -moz-animation: menuLineCloseColourTwo;
-    -o-animation: menuLineCloseColourTwo;
+    -webkit-animation-name: menuLineCloseColourTwo;
+    -moz-animation-name: menuLineCloseColourTwo;
+    -o-animation-name: menuLineCloseColourTwo;
     animation-name: menuLineCloseColourTwo;
     animation-duration: 1.5s;
     animation-fill-mode: forwards; }
