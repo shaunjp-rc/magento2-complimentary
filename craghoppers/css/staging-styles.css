@@ -9421,6 +9421,9 @@ a.mm-outlet {
     -moz-animation-fill-mode: forwards;
     -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+    -webkit-animation-direction: reverse;
+    -moz-animation-direction: reverse;
+    -o-animation-direction: reverse;
     animation-direction: reverse; }
 
   @-webkit-keyframes menuAfterLineClose {
