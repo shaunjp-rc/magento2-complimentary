@@ -916,15 +916,125 @@ a.mm-outlet {
     top: -8px;
     content: ' ';
     left: 0;
+    display: block;
   }
 
   i.c-header__icon.c-icon--menu::after {
     top: 8px;
     content: ' ';
     left: 0;
+    display: block;
   }
 
-  span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen {
+  i.c-header__icon.c-icon--menu.menuOpen:before {
+    -webkit-animation-name: menuBeforeClose;
+    -moz-animation-name: menuBeforeClose;
+    -o-animation-name: menuBeforeClose;
+    animation-name: menuBeforeClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  @-webkit-keyframes menuBeforeClose {
+    0%{top: -8px;}
+    100%{top: 0px;}
+  }  
+
+  @-moz-keyframes menuBeforeClose {
+    0%{top: -8px;}
+    100%{top: 0px;}
+  }
+
+  @-o-keyframes menuBeforeClose {
+    0%{top: -8px;}
+    100%{top: 0px;}
+  }
+
+  @keyframes menuBeforeClose {
+    0%{top: -8px;}
+    100%{top: 0px;}
+  }
+
+  ///////////////////////////////////////////////////////////////////////
+
+
+  i.c-header__icon.c-icon--menu.menuOpen:after {
+    -webkit-animation-name: menuAfterClose;
+    -moz-animation-name: menuAfterClose;
+    -o-animation-name: menuAfterClose;
+    animation-name: menuAfterClose;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  @-webkit-keyframes menuAfterClose {
+    0%{top: 8px;}
+    100%{top: 0px;}
+  }  
+
+  @-moz-keyframes menuAfterClose {
+    0%{top: 8px;}
+    100%{top: 0px;}
+  }
+
+  @-o-keyframes menuAfterClose {
+    0%{top: 8px;}
+    100%{top: 0px;}
+  }
+
+  @keyframes menuAfterClose {
+    0%{top: 8px;}
+    100%{top: 0px;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen {
     -webkit-animation-name: menuLineCloseColour;
     -moz-animation-name: menuLineCloseColour;
     -o-animation-name: menuLineCloseColour;
@@ -1111,7 +1221,7 @@ a.mm-outlet {
   @keyframes menuLineCloseColourTwo{
     0%{background-color:transparent;}
     100%{background-color:#363636;}
-  }
+  }*/
 
   span.action.nav-toggle {
     display: inline-block;
