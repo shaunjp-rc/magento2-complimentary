@@ -22,6 +22,7 @@ requirejs(['jquery'], function( $ ) {
     jQuery(".category-items.ui-menu-item").toggleClass("sectionActive");
   });
 
+
   jQuery(".columnHead").click(function(e){
     e.stopPropagation();
     //console.log("Menu Open Fire");
@@ -35,6 +36,7 @@ requirejs(['jquery'], function( $ ) {
     jQuery(this).addClass("columnEnabled");
     jQuery(this).addClass("active");
     jQuery(this).next().addClass("active");
+    jQuery(this).addClass("activeColumn");
 
     jQuery('.c-mobile-menu.is-category-open').animate({
         scrollTop: jQuery(".s-main-menu").position().top - 700
