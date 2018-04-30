@@ -9295,7 +9295,7 @@ a.mm-outlet {
     display: block;
     margin-top: 8px; }
 
-  i.c-header__icon.c-icon--menu.menuOpen:before {
+  i.c-header__icon.c-icon--menu.menuOpen::before {
     -webkit-animation-name: menuBeforeClose;
     -moz-animation-name: menuBeforeClose;
     -o-animation-name: menuBeforeClose;
@@ -9307,7 +9307,8 @@ a.mm-outlet {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards; }
+    animation-fill-mode: forwards;
+    content: ""; }
 
   @-webkit-keyframes menuBeforeClose {
     from {
@@ -9329,7 +9330,7 @@ a.mm-outlet {
       margin-top: -8px; }
     to {
       margin-top: 0px; } }
-  i.c-header__icon.c-icon--menu.menuOpen:after {
+  i.c-header__icon.c-icon--menu.menuOpen::after {
     -webkit-animation-name: menuAfterClose;
     -moz-animation-name: menuAfterClose;
     -o-animation-name: menuAfterClose;
@@ -9341,7 +9342,8 @@ a.mm-outlet {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards; }
+    animation-fill-mode: forwards;
+    content: ""; }
 
   @-webkit-keyframes menuAfterClose {
     from {
@@ -9363,7 +9365,7 @@ a.mm-outlet {
       margin-top: 8px; }
     to {
       margin-top: 0px; } }
-  i.c-header__icon.c-icon--menu.menuClosed.menuAni:before {
+  i.c-header__icon.c-icon--menu.menuClosed.menuAni::before {
     -webkit-animation-name: menuBeforeCloseReverse;
     -moz-animation-name: menuBeforeCloseReverse;
     -o-animation-name: menuBeforeCloseReverse;
@@ -9375,7 +9377,8 @@ a.mm-outlet {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards; }
+    animation-fill-mode: forwards;
+    content: ""; }
 
   @-webkit-keyframes menuBeforeCloseReverse {
     from {
@@ -9397,7 +9400,7 @@ a.mm-outlet {
       margin-top: 0px; }
     to {
       margin-top: -8px; } }
-  i.c-header__icon.c-icon--menu.menuClosed.menuAni:after {
+  i.c-header__icon.c-icon--menu.menuClosed.menuAni::after {
     -webkit-animation-name: menuAfterCloseReverse;
     -moz-animation-name: menuAfterCloseReverse;
     -o-animation-name: menuAfterCloseReverse;
@@ -9409,7 +9412,8 @@ a.mm-outlet {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards; }
+    animation-fill-mode: forwards;
+    content: ""; }
 
   @-webkit-keyframes menuAfterCloseReverse {
     from {
