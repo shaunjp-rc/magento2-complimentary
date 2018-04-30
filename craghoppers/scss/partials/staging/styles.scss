@@ -1341,6 +1341,12 @@ a.mm-outlet {
     position: relative;
   }
 
+  html.nav-open,
+  html.nav-open body{
+    position: relative;
+    overflow: hidden;
+  }
+
   
 }
 /* END */
