@@ -944,23 +944,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuBeforeClose {
-    0%{margin-top: -8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: -8px;}
+    to {margin-top: 0px;}
   }  
 
   @-moz-keyframes menuBeforeClose {
-    0%{margin-top: -8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: -8px;}
+    to {margin-top: 0px;}
   }
 
   @-o-keyframes menuBeforeClose {
-    0%{margin-top: -8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: -8px;}
+    to {margin-top: 0px;}
   }
 
   @keyframes menuBeforeClose {
-    0%{margin-top: -8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: -8px;}
+    to {margin-top: 0px;}
   }
 
   ///////////////////////////////////////////////////////////////////////
@@ -982,23 +982,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuAfterClose {
-    0%{margin-top: 8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: 8px;}
+    to {margin-top: 0px;}
   }  
 
   @-moz-keyframes menuAfterClose {
-    0%{margin-top: 8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: 8px;}
+    to {margin-top: 0px;}
   }
 
   @-o-keyframes menuAfterClose {
-    0%{margin-top: 8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: 8px;}
+    to {margin-top: 0px;}
   }
 
   @keyframes menuAfterClose {
-    0%{margin-top: 8px;}
-    100%{margin-top: 0px;}
+    from {margin-top: 8px;}
+    to {margin-top: 0px;}
   }
 
 
@@ -1018,23 +1018,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuBeforeCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: -8px;}
+    from {margin-top: 0px;}
+    to {margin-top: -8px;}
   }  
 
   @-moz-keyframes menuBeforeCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: -8px;}
+    from {margin-top: 0px;}
+    to {margin-top: -8px;}
   }
 
   @-o-keyframes menuBeforeCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: -8px;}
+    from {margin-top: 0px;}
+    to {margin-top: -8px;}
   }
 
   @keyframes menuBeforeCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: -8px;}
+    from {margin-top: 0px;}
+    to {margin-top: -8px;}
   }
 
   i.c-header__icon.c-icon--menu.menuClosed.menuAni:after{
@@ -1053,23 +1053,23 @@ a.mm-outlet {
   }
 
   @-webkit-keyframes menuAfterCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: 8px;}
+    from {margin-top: 0px;}
+    to {margin-top: 8px;}
   }  
 
   @-moz-keyframes menuAfterCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: 8px;}
+    from {margin-top: 0px;}
+    to {margin-top: 8px;}
   }
 
   @-o-keyframes menuAfterCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: 8px;}
+    from {margin-top: 0px;}
+    to {margin-top: 8px;}
   }
 
   @keyframes menuAfterCloseReverse {
-    0%{margin-top: 0px;}
-    100%{margin-top: 8px;}
+    from {margin-top: 0px;}
+    to {margin-top: 8px;}
   }
 
 
