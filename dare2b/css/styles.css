@@ -695,7 +695,8 @@
 /* Monetate - Endcaps
 /***************************/
 .page-product-configurable .monetate-product-relationships-one, .page-product-configurable .monetate-product-relationships-two {
-  max-width: 48%;
+  max-width: 98%;
+  width: 100%;
   float: left;
   border: solid 1px #dedede;
   border-radius: 2px;
@@ -742,9 +743,6 @@ html .mt_animate {
   max-width: 1228px;
   margin: auto;
   padding: 1% 0%; }
-
-.monetate-product-relationships-one .mt_sliderMask ul li.mt_item, .monetate-product-relationships-two .mt_sliderMask ul li.mt_item {
-  max-width: 245px; }
 
 .c-tabs.product.info.detailed {
   z-index: 2; }
@@ -1352,12 +1350,13 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .category-container-aw17 img {
   float: right;
   width: auto;
-  margin-left: 20px; }
+  margin-left: 20px;
+  max-width: 350px !important; }
 
 .category-container-aw17 .category-links,
 .category-container-aw17 .category-banner-text {
   text-align: left !important;
-  padding: 20px;
+  padding: 10px !important;
   font-size: 1.1em; }
 
 .category-container-aw17 .category-links {

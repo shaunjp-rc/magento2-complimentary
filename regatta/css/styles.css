@@ -576,7 +576,8 @@
 /* Monetate - Endcaps
 /***************************/
 .page-product-configurable .monetate-product-relationships-one, .page-product-configurable .monetate-product-relationships-two {
-  max-width: 48%;
+  /* max-width: 48%; */
+  max-width: 98%;
   float: left;
   border: solid 1px #dedede;
   border-radius: 2px;
@@ -616,9 +617,6 @@ html .mt_animate {
   max-width: 1228px;
   margin: auto;
   padding: 1% 0%; }
-
-.monetate-product-relationships-one .mt_sliderMask ul li.mt_item, .monetate-product-relationships-two .mt_sliderMask ul li.mt_item {
-  max-width: 245px; }
 
 .c-tabs.product.info.detailed {
   z-index: 2; }
@@ -933,6 +931,25 @@ html .c-basket__payment-icons {
   background-position: center; }
 
 /*//////////////////////////*/
+/* Corner Peels             */
+/*//////////////////////////*/
+#js-react-fredhopper .roundel {
+  right: -47px;
+  top: -11px;
+  max-width: 130px;
+  width: 100%;
+  padding: 20px 40px 5px 40px;
+  border-radius: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 12px;
+  line-height: 12px; }
+
+#js-react-fredhopper div > li {
+  overflow: hidden; }
+
+/*//////////////////////////*/
 /* Cookie bar               */
 /*//////////////////////////*/
 #notice-cookie-block .content > p {
@@ -1102,14 +1119,8 @@ html .c-basket__payment-icons {
 /*/////////////////////////*/
 /*    Navigation Style     */
 /*/////////////////////////*/
-#header .sale.ui-menu-item > a {
-  background: #c1011a !important; }
-
 .s-main-menu {
   background: #ffffff !important; }
-
-#ui-id-11 {
-  color: #e4cc44 !important; }
 
 /*/////////////////////////*/
 /* Moved colours available */
@@ -1891,30 +1902,9 @@ body .c-product-tile .c-product-tile__btn {
 
   .column-content a {
     padding: 0 !important; } }
-html[lang="en-IE"] .page-layout-checkout .c-order-summary__basket-link,
-html[lang="en-IE"] .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
-  display: none; }
-
-html[lang="en-IE"] .Buy-1-Get-1-Free.mon-badge {
-  display: none !important; }
-
-html[lang="en-IE"] div[name="shippingAddress.postcode"] label:after {
-  content: '*';
-  color: #e32e2e;
-  margin-left: 5px; }
-
-html[lang="en-IE"] span[class="2-for-33 mon-badge"] {
-  display: none !important; }
-
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
-#header .sale.ui-menu-item > a {
-  background: #c0283f;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px; }
-
 html .s-main-menu .block {
   padding-bottom: 0px; }
 
@@ -3456,6 +3446,28 @@ html .s-main-menu .block {
 
   .style-school-banner {
     margin-top: 300px; } }
+/* IE STYLES ONLY */
+html:lang(en-IE) .s-header-links .links > li:first-child {
+  display: none; }
+html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
+  display: none; }
+html:lang(en-IE) .page-layout-checkout .c-order-summary__basket-link,
+html:lang(en-IE) .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
+  display: none; }
+html:lang(en-IE) .Buy-1-Get-1-Free.mon-badge {
+  display: none !important; }
+html:lang(en-IE) div[name="shippingAddress.postcode"] label:after {
+  content: '*';
+  color: #e32e2e;
+  margin-left: 5px; }
+html:lang(en-IE) span[class="2-for-33 mon-badge"] {
+  display: none !important; }
+
+/* FR STYLES ONLY */
+/* DE STYLES ONLY */
+/* IT STYLES ONLY */
+/* RU STYLES ONLY */
+/* ES STYLES ONLY */
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */

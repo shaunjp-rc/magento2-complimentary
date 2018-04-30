@@ -1597,6 +1597,58 @@ section .blogPost .blogPost-Copy {
   .slide-newarrival .sliderbutton {
     margin-left: 4.5%;
     font-size: 4.2vw; } }
+.heroButton {
+  background: #CC1130;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  padding: 1% 0;
+  font-family: "Garamond-Regular";
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 0 !important; }
+
+.heroButton strong {
+  display: block;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 18px; }
+
+.sectionRow.sectionHeros .col-6 {
+  margin-bottom: 10px; }
+
+.sectionRow.sectionHeros .col-6:nth-child(3),
+.sectionRow.sectionHeros .col-6:nth-child(4) {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 740px) {
+  .sectionHeros .flex-item.col-6 {
+    width: 49.98%; } }
+@media only screen and (max-width: 700px) {
+  .sectionRow.sectionHeros .col-6:nth-child(3),
+  .sectionRow.sectionHeros .col-6:nth-child(4) {
+    margin-bottom: 1%; }
+
+  .heroButton {
+    font-size: 2.9vw;
+    letter-spacing: 0;
+    padding: 2% 0; }
+
+  .heroButton strong {
+    font-size: 2.5vw;
+    margin-top: 1%; }
+
+  .heroButton span {
+    display: block; } }
+@media only screen and (max-width: 450px) {
+  .heroButton {
+    font-size: 4.2vw; }
+
+  .sectionRow.sectionHeros .col-6 {
+    margin-bottom: 3%; }
+
+  .heroButton strong {
+    font-size: 3.8vw; } }
 /* Customer Services Styles */
 .helpnav {
   float: left;
@@ -2247,10 +2299,24 @@ section.collection.collection__background h2 {
     margin: 0 auto;
     margin-top: 2%; } }
 /* SS18 COLLECTION PAGE START */
-.cms-preview-ls .breadcrumbs.c-breadcrumbs {
+.cms-his-active-lifestyle .breadcrumbs.c-breadcrumbs,
+.cms-his-cycle-collection .breadcrumbs.c-breadcrumbs,
+.cms-his-insect-protection .breadcrumbs.c-breadcrumbs,
+.cms-his-outdoor-lifestyle .breadcrumbs.c-breadcrumbs,
+.cms-hers-active-lifestyle .breadcrumbs.c-breadcrumbs,
+.cms-hers-cycle-collection .breadcrumbs.c-breadcrumbs,
+.cms-hers-insect-protection .breadcrumbs.c-breadcrumbs,
+.cms-hers-outdoor-lifestyle .breadcrumbs.c-breadcrumbs {
   display: none; }
 
-.cms-preview-ls .o-region__inner {
+.cms-his-active-lifestyle .o-region__inner.column.main,
+.cms-his-cycle-collection .o-region__inner.column.main,
+.cms-his-insect-protection .o-region__inner.column.main,
+.cms-his-outdoor-lifestyle .o-region__inner.column.main,
+.cms-hers-active-lifestyle .o-region__inner.column.main,
+.cms-hers-cycle-collection .o-region__inner.column.main,
+.cms-hers-insect-protection .o-region__inner.column.main,
+.cms-hers-outdoor-lifestyle .o-region__inner.column.main {
   width: 100% !important; }
 
 .collection-container {

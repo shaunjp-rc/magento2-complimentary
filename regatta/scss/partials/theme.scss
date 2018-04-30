@@ -31,6 +31,27 @@ html .c-basket__payment-icons {
 }
 
 /*//////////////////////////*/
+/* Corner Peels             */
+/*//////////////////////////*/
+#js-react-fredhopper .roundel {
+  right: -47px;
+  top: -11px;
+  max-width: 130px;
+  width: 100%;
+  padding: 20px 40px 5px 40px;
+  border-radius: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 12px;
+  line-height: 12px;
+}
+#js-react-fredhopper div > li{
+  overflow: hidden;
+}
+
+
+/*//////////////////////////*/
 /* Cookie bar               */
 /*//////////////////////////*/
 #notice-cookie-block .content > p {
@@ -223,16 +244,11 @@ html .c-basket__payment-icons {
 /*/////////////////////////*/
 /*    Navigation Style     */
 /*/////////////////////////*/
-#header .sale.ui-menu-item > a {
-    background: #c1011a !important;
-}
 
 .s-main-menu {
     background: #ffffff !important;
 }
-#ui-id-11{
-  color: #e4cc44 !important;
-}
+
 
 /*/////////////////////////*/
 /* Moved colours available */
@@ -1157,23 +1173,4 @@ body .c-product-tile .c-product-tile__btn{
     padding: 0 !important;
   }
 
-}
-
-html[lang="en-IE"] .page-layout-checkout .c-order-summary__basket-link,
-html[lang="en-IE"] .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2){
-  display: none;
-}
-
-html[lang="en-IE"] .Buy-1-Get-1-Free.mon-badge{
-  display: none !important
-}
-
-html[lang="en-IE"] div[name="shippingAddress.postcode"] label:after{
-  content: '*';
-  color: #e32e2e;
-  margin-left: 5px;
-}
-
-html[lang="en-IE"] span[class="2-for-33 mon-badge"]{
-  display: none !important;
 }

@@ -276,11 +276,25 @@ section.collection.collection__background h2 {
 
 /* SS18 COLLECTION PAGE START */
 
-.cms-preview-ls .breadcrumbs.c-breadcrumbs {
+.cms-his-active-lifestyle .breadcrumbs.c-breadcrumbs,
+.cms-his-cycle-collection .breadcrumbs.c-breadcrumbs,
+.cms-his-insect-protection .breadcrumbs.c-breadcrumbs,
+.cms-his-outdoor-lifestyle .breadcrumbs.c-breadcrumbs,
+.cms-hers-active-lifestyle .breadcrumbs.c-breadcrumbs,
+.cms-hers-cycle-collection .breadcrumbs.c-breadcrumbs,
+.cms-hers-insect-protection .breadcrumbs.c-breadcrumbs,
+.cms-hers-outdoor-lifestyle .breadcrumbs.c-breadcrumbs {
     display: none;
 }
 
-.cms-preview-ls .o-region__inner {
+.cms-his-active-lifestyle .o-region__inner.column.main,
+.cms-his-cycle-collection .o-region__inner.column.main,
+.cms-his-insect-protection .o-region__inner.column.main,
+.cms-his-outdoor-lifestyle .o-region__inner.column.main,
+.cms-hers-active-lifestyle .o-region__inner.column.main,
+.cms-hers-cycle-collection .o-region__inner.column.main,
+.cms-hers-insect-protection .o-region__inner.column.main,
+.cms-hers-outdoor-lifestyle .o-region__inner.column.main {
 	width: 100% !important;
 }
 
