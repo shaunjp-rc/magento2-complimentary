@@ -26,21 +26,26 @@ requirejs(['jquery'], function( $ ) {
   jQuery(".columnHead").click(function(e){
     e.stopPropagation();
     //console.log("Menu Open Fire");
+    if(!e.target.classList.contains('active')){
+      jQuery(".menuSection").removeClass("active");
+      jQuery(".columnHead").removeClass("columnEnabled");
+      jQuery(".columnHead").removeClass("active");
+      jQuery(".columnHead").next().removeClass("active");
 
-    jQuery(".menuSection").removeClass("active");
-    jQuery(".columnHead").removeClass("columnEnabled");
-    jQuery(".columnHead").removeClass("active");
-    jQuery(".columnHead").next().removeClass("active");
+      jQuery(this).parent().addClass("active");
+      jQuery(this).addClass("columnEnabled");
+      jQuery(this).addClass("active");
+      jQuery(this).next().addClass("active");
+      jQuery(this).addClass("activeColumn");
 
-    jQuery(this).parent().addClass("active");
-    jQuery(this).addClass("columnEnabled");
-    jQuery(this).addClass("active");
-    jQuery(this).next().addClass("active");
-    jQuery(this).addClass("activeColumn");
-
-    jQuery('.c-mobile-menu.is-category-open').animate({
-        scrollTop: jQuery(".s-main-menu").position().top - 700
-    }, 1000);
+      jQuery('.c-mobile-menu.is-category-open').animate({
+          scrollTop: jQuery(".s-main-menu").position().top - 700
+      }, 1000);
+    } else {
+      e.target.classList.remove('active');
+      e.target.parentElement.classList.remove('active');
+      e.target.parentElement.querySelector('.columnContent').classList.remove('active');
+    }
 
   });
 
