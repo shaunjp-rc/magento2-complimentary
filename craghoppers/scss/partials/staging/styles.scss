@@ -929,14 +929,14 @@ a.mm-outlet {
   }
 
 
-/*i.c-header__icon.c-icon--menu.menuClosed{
+i.c-header__icon.c-icon--menu.menuClosed{
   background-color: #363636;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-}*/
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  -o-transition: background-color 300ms ease-out;
+  -ms-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+}
 i.c-header__icon.c-icon--menu.menuClosed::before{
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -963,11 +963,11 @@ i.c-header__icon.c-icon--menu.menuClosed::after{
 
 i.c-header__icon.c-icon--menu.menuOpen{
   background-color: transparent;
-  /*-webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;*/
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  -o-transition: background-color 300ms ease-out;
+  -ms-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
 }
 
 i.c-header__icon.c-icon--menu.menuOpen::before{
