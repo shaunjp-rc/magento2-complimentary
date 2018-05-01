@@ -9455,146 +9455,55 @@ a.mm-outlet {
     display: block;
     margin-top: 8px; }
 
+  i.c-header__icon.c-icon--menu.menuClosed::before {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
+
+  i.c-header__icon.c-icon--menu.menuClosed::after {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
+
+  i.c-header__icon.c-icon--menu.menuOpen {
+    background-color: transparent; }
+
   i.c-header__icon.c-icon--menu.menuOpen::before {
-    -webkit-animation-name: menuBeforeClose;
-    -moz-animation-name: menuBeforeClose;
-    -o-animation-name: menuBeforeClose;
-    animation-name: menuBeforeClose;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    content: ""; }
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
 
-  @-webkit-keyframes menuBeforeClose {
-    from {
-      margin-top: -8px; }
-    to {
-      margin-top: 0px; } }
-  @-moz-keyframes menuBeforeClose {
-    from {
-      margin-top: -8px; }
-    to {
-      margin-top: 0px; } }
-  @-o-keyframes menuBeforeClose {
-    from {
-      margin-top: -8px; }
-    to {
-      margin-top: 0px; } }
-  @keyframes menuBeforeClose {
-    from {
-      margin-top: -8px; }
-    to {
-      margin-top: 0px; } }
   i.c-header__icon.c-icon--menu.menuOpen::after {
-    -webkit-animation-name: menuAfterClose;
-    -moz-animation-name: menuAfterClose;
-    -o-animation-name: menuAfterClose;
-    animation-name: menuAfterClose;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    content: ""; }
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
 
-  @-webkit-keyframes menuAfterClose {
-    from {
-      margin-top: 8px; }
-    to {
-      margin-top: 0px; } }
-  @-moz-keyframes menuAfterClose {
-    from {
-      margin-top: 8px; }
-    to {
-      margin-top: 0px; } }
-  @-o-keyframes menuAfterClose {
-    from {
-      margin-top: 8px; }
-    to {
-      margin-top: 0px; } }
-  @keyframes menuAfterClose {
-    from {
-      margin-top: 8px; }
-    to {
-      margin-top: 0px; } }
-  i.c-header__icon.c-icon--menu.menuClosed.menuAni::before {
-    -webkit-animation-name: menuBeforeCloseReverse;
-    -moz-animation-name: menuBeforeCloseReverse;
-    -o-animation-name: menuBeforeCloseReverse;
-    animation-name: menuBeforeCloseReverse;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    content: ""; }
-
-  @-webkit-keyframes menuBeforeCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: -8px; } }
-  @-moz-keyframes menuBeforeCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: -8px; } }
-  @-o-keyframes menuBeforeCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: -8px; } }
-  @keyframes menuBeforeCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: -8px; } }
-  i.c-header__icon.c-icon--menu.menuClosed.menuAni::after {
-    -webkit-animation-name: menuAfterCloseReverse;
-    -moz-animation-name: menuAfterCloseReverse;
-    -o-animation-name: menuAfterCloseReverse;
-    animation-name: menuAfterCloseReverse;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    content: ""; }
-
-  @-webkit-keyframes menuAfterCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: 8px; } }
-  @-moz-keyframes menuAfterCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: 8px; } }
-  @-o-keyframes menuAfterCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: 8px; } }
-  @keyframes menuAfterCloseReverse {
-    from {
-      margin-top: 0px; }
-    to {
-      margin-top: 8px; } }
   /*span.action.nav-toggle.navActive i.c-header__icon.c-icon--menu.menuOpen {
     -webkit-animation-name: menuLineCloseColour;
     -moz-animation-name: menuLineCloseColour;
