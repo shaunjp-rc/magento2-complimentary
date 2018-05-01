@@ -3594,20 +3594,15 @@ a.cs-link {
   font-size: 34px;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
+.internationalzones1 {
+  padding-top: 2%; }
+
 .customerservice-new p,
 .customerservice-new li {
   font-size: 16px; }
 .customerservice-new ul {
   padding-top: 1%;
   margin-bottom: 0 !important; }
-
-.internationalzones1 {
-  padding-top: 2%; }
-
-.internationalzones1,
-li,
-p {
-  font-size: 16px; }
 
 .customerservice-new .flex-container {
   margin: 0; }
