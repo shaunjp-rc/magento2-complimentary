@@ -1253,7 +1253,7 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
 
   html.nav-open,
   html.nav-open body{
-    position: relative;
+    position: fixed;
     overflow: hidden;
   }
 

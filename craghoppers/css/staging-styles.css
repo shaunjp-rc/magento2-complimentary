@@ -9572,7 +9572,7 @@ a.mm-outlet {
 
   html.nav-open,
   html.nav-open body {
-    position: relative;
+    position: fixed;
     overflow: hidden; } }
 /* END */
 
