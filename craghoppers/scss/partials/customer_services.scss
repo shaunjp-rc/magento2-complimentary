@@ -864,11 +864,11 @@ iframe.unsubscribe {
 
 /* SS18 CUSTOMER SERVICE PAGES START*/
 
-*[data-action="toggle"]:hover {
+.customerservice-new h2[data-action="toggle"]:hover {
     background: none;
 }
 
-*[data-action="toggle"] {
+.customerservice-new h2[data-action="toggle"] {
     border: none;
     border-top: 1px solid #ddd;
     color: #333;
@@ -878,18 +878,18 @@ iframe.unsubscribe {
     padding: 3% 0 0 0;
 }
 
-*[data-action="toggle"]::after {
+.customerservice-new h2[data-action="toggle"]::after {
     top: 60%;
 }
 
-.toggle-content {
+.customerservice-new .toggle-content {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
     transition: all ease 0.5s;
 }
 
-.toggle-content.active {
+.customerservice-new .toggle-content.active {
     opacity: 1;
     max-height: 2000px;
     transition: all ease 0.5s;
@@ -1063,7 +1063,7 @@ p {
 	    margin: auto;
 	}
 
-	*[data-action="toggle"]::after {
+	.customerservice-new h2[data-action="toggle"]::after {
     	top: 50%;
 	}
 }
