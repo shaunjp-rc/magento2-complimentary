@@ -987,6 +987,15 @@ a.cs-link {
 	margin-bottom: 5%;
 }
 
+.cs-extra-padding {
+	padding-top: 3% !important;
+}
+
+.cs-copy-main {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .cs-main {
 	background-image: url(https://placeimg.com/1000/150/any/grayscale);
 	margin-bottom: 7% !important;
@@ -1008,6 +1017,10 @@ a.cs-link {
 	font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
 }
 
+.internationalzones1 {
+	padding-top: 2%;
+}
+
 .customerservice-new {
 	p,
 	li {
@@ -1018,25 +1031,10 @@ a.cs-link {
 		padding-top: 1%;
 		margin-bottom: 0 !important;
 	}
-
 }
 
-.internationalzones1 {
-	padding-top: 2%;
-}
-
-.internationalzones1,
-li,
-p {
-    font-size: 16px;
-}
-
-.flex-container {
+.customerservice-new .flex-container {
     margin: 0;
-}
-
-.cs-extra-padding {
-	padding-top: 3% !important;
 }
 
 @media screen and (max-width:1000px) {
