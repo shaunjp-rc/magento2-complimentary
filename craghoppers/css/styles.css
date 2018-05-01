@@ -3278,9 +3278,16 @@ iframe.unsubscribe {
   background: #ddd;
   text-decoration: none; }
 
+a.cs-link {
+  color: #343334;
+  text-decoration: underline; }
+
 .customerservice-new {
   max-width: 60%;
   margin: auto; }
+
+.customerservice-new-padding {
+  padding-top: 4%; }
 
 .option-btn {
   padding-bottom: 1.5%; }
@@ -3327,10 +3334,11 @@ iframe.unsubscribe {
   max-width: 1000px;
   min-height: 150px;
   margin: auto;
-  margin-bottom: 7%; }
+  margin-bottom: 5%; }
 
 .cs-main {
-  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+  background-image: url(https://placeimg.com/1000/150/any/grayscale);
+  margin-bottom: 7% !important; }
 
 .cs-delivery {
   background-image: url(https://placeimg.com/1000/150/any/grayscale); }
