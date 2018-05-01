@@ -3323,12 +3323,23 @@ iframe.unsubscribe {
   display: none; }
 
 .cs-header {
-  background-image: url(https://placeimg.com/1000/150/any/grayscale);
   width: 100%;
   max-width: 1000px;
   min-height: 150px;
   margin: auto;
   margin-bottom: 7%; }
+
+.cs-main {
+  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+
+.cs-delivery {
+  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+
+.cs-returns {
+  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+
+.cs-payment {
+  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
 
 .cs-header-title {
   color: #fff;
