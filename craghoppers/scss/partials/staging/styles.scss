@@ -838,10 +838,6 @@ a.mm-outlet {
     max-width: 90%;
   }
 
-  html.nav-before-open.nav-open {
-    overflow: hidden;
-  }
-
   .action.nav-toggle.navActive {
     position: absolute;
     width: 100vw;
@@ -1265,7 +1261,7 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
 
   html.nav-open,
   html.nav-open body{
-    position: fixed;
+    position: relative;
     overflow: hidden;
   }
 

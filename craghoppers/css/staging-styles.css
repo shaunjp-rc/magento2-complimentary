@@ -9224,9 +9224,6 @@ a.mm-outlet {
   .c-mobile-menu {
     max-width: 90%; }
 
-  html.nav-before-open.nav-open {
-    overflow: hidden; }
-
   .action.nav-toggle.navActive {
     position: absolute;
     width: 100vw;
@@ -9585,7 +9582,7 @@ a.mm-outlet {
 
   html.nav-open,
   html.nav-open body {
-    position: fixed;
+    position: relative;
     overflow: hidden; } }
 /* END */
 
