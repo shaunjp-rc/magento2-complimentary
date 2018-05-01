@@ -3236,6 +3236,166 @@ iframe.unsubscribe {
   margin-top: 3%; }
 
 /* END */
+/* SS18 CUSTOMER SERVICE PAGES START*/
+*[data-action="toggle"]:hover {
+  background: none; }
+
+*[data-action="toggle"] {
+  border: none;
+  border-top: 1px solid #ddd;
+  color: #333;
+  border-radius: none;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 3% 0 0 0; }
+
+*[data-action="toggle"]::after {
+  top: 60%; }
+
+.toggle-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease 0.5s; }
+
+.toggle-content.active {
+  opacity: 1;
+  max-height: 2000px;
+  transition: all ease 0.5s; }
+
+.cs-main {
+  font-size: 20px !important; }
+
+.csbtn {
+  color: #343334;
+  font-size: 18px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: solid #ddd 1px;
+  text-decoration: none;
+  text-align: center; }
+
+.csbtn:hover {
+  background: #ddd;
+  text-decoration: none; }
+
+.customerservice-new {
+  max-width: 60%;
+  margin: auto; }
+
+.option-btn {
+  padding-bottom: 1.5%; }
+
+.flex-item.col-6.option-btn-small {
+  max-width: 49.98% !important;
+  margin: auto; }
+
+.csbottom {
+  text-align: center;
+  /*padding: 10% 0;
+  border-top: 1px solid #ddd;*/
+  padding: 3%; }
+
+.csbottom-img {
+  padding-bottom: 3%; }
+
+.csbottom-title {
+  font-size: 18px; }
+
+.csbottom-cta {
+  font-size: 15px; }
+
+.csbottomleft {
+  border-right: 1px solid #ddd; }
+
+.flex-item.col-6.csbottomcontainer {
+  padding: 0 !important;
+  margin: 3% 0 !important; }
+
+.csborder {
+  text-align: center;
+  margin: 10% 0 0% 0;
+  border-top: 1px solid #ddd; }
+
+.cs-header {
+  text-align: center; }
+
+.cms-page-testing-ls .c-breadcrumbs {
+  display: none; }
+
+.cs-header {
+  background-image: url(https://placeimg.com/1000/150/any/grayscale);
+  width: 100%;
+  max-width: 1000px;
+  min-height: 150px;
+  margin: auto;
+  margin-bottom: 7%; }
+
+.cs-header-title {
+  color: #fff;
+  padding-top: 4%;
+  font-size: 34px;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
+
+.customerservice-new p,
+.customerservice-new li {
+  font-size: 16px; }
+.customerservice-new ul {
+  padding-top: 1%;
+  margin-bottom: 0 !important; }
+
+.internationalzones1 {
+  padding-top: 2%; }
+
+.internationalzones1,
+li,
+p {
+  font-size: 16px; }
+
+.flex-container {
+  margin: 0; }
+
+.cs-extra-padding {
+  padding-top: 3% !important; }
+
+@media screen and (max-width: 1000px) {
+  .customerservice-new {
+    max-width: 90%; }
+
+  .cms-page-testing-ls .o-region__inner.column.main {
+    width: 100% !important; }
+
+  .csborder {
+    margin: 5% 0 0% 0; } }
+@media screen and (max-width: 500px) {
+  .customerservice-new {
+    max-width: 95%; }
+
+  .cs-header-title {
+    padding-top: 12%;
+    font-size: 28px; }
+
+  .cs-main {
+    font-size: 18px !important; }
+
+  .flex-item.col-6.csbottomcontainer {
+    width: 49.86%; }
+
+  .csbottom-cta {
+    font-size: 13px;
+    padding: 0 10%;
+    line-height: 18px; }
+
+  .csborder {
+    margin: 6% 0 0% 0; }
+
+  .flex-item.col-6.option-btn-small {
+    max-width: 100% !important;
+    margin: auto; }
+
+  *[data-action="toggle"]::after {
+    top: 50%; } }
+/* END */
 /* Mega Menu */
 .mm__container {
   width: 1228px;
