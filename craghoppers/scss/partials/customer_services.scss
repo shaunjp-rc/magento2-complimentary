@@ -864,48 +864,35 @@ iframe.unsubscribe {
 
 /* SS18 CUSTOMER SERVICE PAGES START*/
 
-.customerservice-new {
-	*[data-action="toggle"]:hover {
-	    background: none;
-	}
+*[data-action="toggle"]:hover {
+    background: none;
+}
 
-	*[data-action="toggle"] {
-	    border: none;
-	    border-top: 1px solid #ddd;
-	    color: #333;
-	    border-radius: none;
-	    box-shadow: none;
-	    cursor: pointer;
-	    padding: 3% 0 0 0;
-	}
+*[data-action="toggle"] {
+    border: none;
+    border-top: 1px solid #ddd;
+    color: #333;
+    border-radius: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 3% 0 0 0;
+}
 
-	*[data-action="toggle"]::after {
-	    top: 60%;
-	}
+*[data-action="toggle"]::after {
+    top: 60%;
+}
 
-	.toggle-content {
-	    opacity: 0;
-	    max-height: 0;
-	    overflow: hidden;
-	    transition: all ease 0.5s;
-	}
+.toggle-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
 
-	.toggle-content.active {
-	    opacity: 1;
-	    max-height: 2000px;
-	    transition: all ease 0.5s;
-	}
-
-	  /* Safari 4.0 - 8.0 */
-	@-webkit-keyframes togglecontent {
-	    from {max-height: 0px;}
-	    to {max-height: 300px;}
-	}
-
-	@keyframes togglecontent{
-	    from {max-height: 0px;}
-	    to {max-height: 300px;}
-	}
+.toggle-content.active {
+    opacity: 1;
+    max-height: 2000px;
+    transition: all ease 0.5s;
 }
 
 .cs-main {
@@ -943,6 +930,8 @@ iframe.unsubscribe {
 
 .csbottom {
 	text-align: center;
+	/*padding: 10% 0;
+	border-top: 1px solid #ddd;*/
 	padding: 3%;
 }
 
@@ -995,6 +984,37 @@ iframe.unsubscribe {
 	padding-top: 4%;
 	font-size: 34px;
 	font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+}
+
+.customerservice-new {
+	p,
+	li {
+		font-size: 16px;
+	}
+
+	ul {
+		padding-top: 1%;
+		margin-bottom: 0 !important;
+	}
+
+}
+
+.internationalzones1 {
+	padding-top: 2%;
+}
+
+.internationalzones1,
+li,
+p {
+    font-size: 16px;
+}
+
+.flex-container {
+    margin: 0;
+}
+
+.cs-extra-padding {
+	padding-top: 3% !important;
 }
 
 @media screen and (max-width:1000px) {
