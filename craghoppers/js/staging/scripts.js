@@ -49,7 +49,35 @@ requirejs(['jquery'], function( $ ) {
 
   });
 
+
   jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
+  jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
+
+  jQuery("i.c-header__icon.c-icon--menu").click(function(){   
+
+    console.log("hello");
+    jQuery(this).toggleClass("active"); 
+
+    var menuButton = jQuery("i.c-header__icon.c-icon--menu");
+    if (menuButton.hasClass("menuClosed")){
+
+      menuButton.removeClass("menuClosed").addClass("menuOpen");
+      jQuery(".menuLabel").addClass("active");
+      menuButton.removeClass("menuAni");
+
+    } else if (menuButton.hasClass("menuOpen")){
+
+      menuButton.removeClass("menuOpen").addClass("menuClosed");
+      jQuery(".menuLabel").removeClass("active");
+      menuButton.addClass("menuAni");
+
+
+    }
+
+  });
+
+
+  /*jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
   jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
 
   jQuery(".action.nav-toggle").click(function(){    
@@ -70,7 +98,7 @@ requirejs(['jquery'], function( $ ) {
 
     }
 
-  });
+  });*/
 
   var menuBack = setInterval(function(){
     //console.log("timeout fire");
