@@ -9767,7 +9767,8 @@ a.mm-outlet {
     height: 100%; } }
 /* END */
 /* TECHNOLOGY POP-UP - BACKGROUND SCROLL */
-.modal-popup {
+html.catalog-product-view body {
+  position: relative;
   overflow: hidden;
   display: block;
   width: 100%;
