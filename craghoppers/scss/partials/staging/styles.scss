@@ -1274,7 +1274,7 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
 
 /* TECHNOLOGY POP-UP - BACKGROUND SCROLL */
 
-html.catalog-product-view body {
+body ._has-modal {
     position: relative;
     overflow: hidden;
     display: block;
