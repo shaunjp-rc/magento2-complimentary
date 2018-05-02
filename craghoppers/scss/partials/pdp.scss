@@ -256,3 +256,16 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 	}
 }
 /* END */
+
+
+/* TECHNOLOGY POP-UP - BACKGROUND SCROLL */
+
+body._has-modal {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* END */
