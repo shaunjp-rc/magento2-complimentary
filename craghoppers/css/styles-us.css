@@ -5921,6 +5921,15 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   .c-rating__wrap {
     margin-bottom: 6%; } }
 /* END */
+/* TECHNOLOGY POP-UP - BACKGROUND SCROLL */
+body._has-modal {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+/* END */
 /* Trouser Campaign Styles */
 .trou-vid-title {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
