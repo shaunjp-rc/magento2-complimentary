@@ -10084,7 +10084,9 @@ a.mm-outlet {
     100%{background-color:#363636;}
   }*/
   span.action.nav-toggle {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%;
+    height: 57px; }
 
   .menuLabel {
     display: none; }
