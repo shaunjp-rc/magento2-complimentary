@@ -6802,7 +6802,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* END */
 /* TECHNOLOGY POP-UP - BACKGROUND SCROLL */
 body._has-modal {
-  position: relative;
+  position: fixed;
   overflow: hidden;
   display: block;
   width: 100%;
