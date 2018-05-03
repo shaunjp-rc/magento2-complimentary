@@ -50,7 +50,7 @@ requirejs(['jquery'], function( $ ) {
   });
 
 
-  jQuery("span.action.nav-toggle").append('<div class="menuCloseButton menuClosed"></div>');
+  /*jQuery("span.action.nav-toggle").append('<div class="menuCloseButton menuClosed"></div>');
 
   jQuery(".menuCloseButton").click(function(){   
 
@@ -73,12 +73,12 @@ requirejs(['jquery'], function( $ ) {
 
     }
 
-  });
+  });*/
 
-  //jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
-  //jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
+  jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
+  jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
 
-  /*jQuery("i.c-header__icon.c-icon--menu").click(function(){   
+  jQuery("i.c-header__icon.c-icon--menu").click(function(){   
 
     console.log("hello");
     jQuery(this).toggleClass("active"); 
@@ -99,7 +99,7 @@ requirejs(['jquery'], function( $ ) {
 
     }
 
-  });*/
+  });
 
 
   /*jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
