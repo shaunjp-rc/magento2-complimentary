@@ -78,7 +78,7 @@ requirejs(['jquery'], function( $ ) {
   jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
   jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
 
-  jQuery("i.c-header__icon.c-icon--menu").click(function(){   
+  jQuery("span.action.nav-toggle").click(function(){   
 
     console.log("hello");
     jQuery(this).toggleClass("active"); 
@@ -142,8 +142,6 @@ requirejs(['jquery'], function( $ ) {
     jQuery(this).toggleClass("navActive");
     jQuery(this).parent().toggleClass("navActive");
   });
-
-
 
 
 
