@@ -245,12 +245,12 @@ var testDate = new Date("April 20, 2018 11:00:00");
       if (expressToday.getDay() == 5 && expressToday.getHours() >= 19){
         expressNewDate.setDate(expressToday.getDate()+4);
       } else if (expressToday.getDay() == 6){ //if the day is saturday, set delivery to tuesday
-        expressNewDate.setDate(expressToday.getDate()+4);//+3); // +3 is original timing
+        expressNewDate.setDate(expressToday.getDate()+3); // +3 is original timing
       } else if (expressToday.getDay() == 0){ //if the day is sunday, set delivery to tuesday
-        expressNewDate.setDate(expressToday.getDate()+3);//+2); // +2 is original timing
+        expressNewDate.setDate(expressToday.getDate()+2); // +2 is original timing
       } else if (expressToday.getHours() >= 0 && expressToday.getHours() < 19){ // if time is between 12am & 7pm
         // gets current date and adds 1 to it
-        expressNewDate.setDate(expressToday.getDate()+2);//+1); // +1 is original timing
+        expressNewDate.setDate(expressToday.getDate()+1); // +1 is original timing
     } else{
       // gets current date and adds 2 to it
       expressNewDate.setDate(expressToday.getDate()+2);
