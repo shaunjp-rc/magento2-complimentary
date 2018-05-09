@@ -1902,6 +1902,9 @@ body .c-product-tile .c-product-tile__btn {
 
   .column-content a {
     padding: 0 !important; } }
+@media screen and (max-width: 700px) {
+  #shipping-new-address-form .c-input-wrap.field._required._error {
+    height: auto; } }
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/
