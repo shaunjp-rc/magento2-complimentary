@@ -1659,6 +1659,9 @@ body .c-product-tile .c-product-tile__btn {
 .s-main-menu .ui-menu {
   z-index: 3 !important; }
 
+@media screen and (max-width: 700px) {
+  #shipping-new-address-form .c-input-wrap.field._required._error {
+    height: auto; } }
 /* Mega menu styles Desktop and Tablet */
 .mob-only {
   display: none !important; }
