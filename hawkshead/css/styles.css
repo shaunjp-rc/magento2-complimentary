@@ -1132,6 +1132,14 @@ ul.follow-us {
   padding-top: 15px; }
 
 /* END */
+/* Hide tracking img/iframe after footer */
+div#footer ~ img,
+div#footer ~ iframe {
+  position: absolute;
+  left: -999px;
+  top: -999px; }
+
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
