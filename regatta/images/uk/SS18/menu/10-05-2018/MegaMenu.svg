@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5339 -1170 350 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-MegaMenu);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #2cbe4e;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-6, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 27px;
+      }
+
+      .cls-10, .cls-4, .cls-7, .cls-9 {
+        font-family: NeuzeitOfficeSRPro-Bold, Neuzeit Office SR Pro;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        font-size: 37px;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: NeuzeitOfficeSRPro-Regular, Neuzeit Office SR Pro;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #f0e814;
+      }
+
+      .cls-7 {
+        font-size: 129px;
+      }
+
+      .cls-8 {
+        font-size: 17px;
+      }
+
+      .cls-9 {
+        font-size: 71px;
+      }
+
+      .cls-10 {
+        font-size: 93px;
+      }
+
+      .cls-11 {
+        filter: url(#SALE);
+      }
+
+      .cls-12 {
+        filter: url(#FLASH_);
+      }
+
+      .cls-13 {
+        filter: url(#OFF);
+      }
+
+      .cls-14 {
+        filter: url(#_50_);
+      }
+
+      .cls-15 {
+        filter: url(#EVERYTHING);
+      }
+
+      .cls-16 {
+        filter: url(#Path_45);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.16" y1="0.191" x2="0.672" y2="0.881" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e52626"/>
+      <stop offset="1" stop-color="#c92cab"/>
+    </linearGradient>
+    <filter id="Path_45" x="5149.812" y="-1321.368" width="893.439" height="823.4" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#cb2ca3" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="EVERYTHING" x="5396.727" y="-856.885" width="235" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.365"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_50_" x="5390.417" y="-964.861" width="257" height="147" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.486"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="OFF" x="5615.382" y="-959.18" width="50" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.325"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="FLASH_" x="5405" y="-1134.796" width="248" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.486"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="SALE" x="5404" y="-1078" width="230" height="111" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.49"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-MegaMenu">
+      <rect x="5339" y="-1170" width="350" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="MegaMenu" class="cls-1">
+    <rect class="cls-5" x="5339" y="-1170" width="350" height="500"/>
+    <g class="cls-16" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Path_45-2" data-name="Path 45" class="cls-2" d="M506.573,708.7c100.761,16.617,50.115-217.839,115.576-233s4.288-163.994,104.409-159.192c133.673,6.41,12.259-24.242-57.4-72.851S804.842,102.887,611.133,41.914,324.293,5.393,322.97,5.373c-67.04-.97-26.077-18.43-88.621,15.308S200.613,6.3,89.494,25.5-14.724,569.963,32.036,486.943c25.577-45.412,52.085,117.779,164.642,143.378S405.812,692.085,506.573,708.7Z" transform="matrix(1, -0.09, 0.09, 1, 5173.81, -1233.81)"/>
+    </g>
+    <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-3" width="350" height="85" transform="translate(5339 -755)"/>
+    <text id="SHOP_NOW" data-name="SHOP NOW" class="cls-4" transform="translate(5441 -703.401)"><tspan x="0" y="0">SHOP NOW</tspan></text>
+    <path id="Path_43" data-name="Path 43" class="cls-5" d="M1.066,1.014,9.589.007a.717.717,0,0,1,.835.835A1.268,1.268,0,0,1,9.365,1.9L.842,2.908a.717.717,0,0,1-.835-.835A1.268,1.268,0,0,1,1.066,1.014Z" transform="translate(5620.896 -720.461) rotate(45)"/>
+    <path id="Path_44" data-name="Path 44" class="cls-5" d="M.838.007,9.326,1.013a1.268,1.268,0,0,1,1.055,1.063.717.717,0,0,1-.831.839L1.062,1.908A1.268,1.268,0,0,1,.007.846.717.717,0,0,1,.838.007Z" transform="matrix(0.695, -0.719, 0.719, 0.695, 5618.895, -707.176)"/>
+    <g id="Group_16" data-name="Group 16" transform="translate(5399.417 -958.861)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -5399.42, 958.86)">
+        <text id="EVERYTHING-2" data-name="EVERYTHING" class="cls-6" transform="translate(5405.73 -822.88)"><tspan x="0" y="0">EVERYTHING</tspan></text>
+      </g>
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -5399.42, 958.86)">
+        <text id="_50_2" data-name="50%" class="cls-7" transform="translate(5399.42 -861.86)"><tspan x="0" y="0">50%</tspan></text>
+      </g>
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -5399.42, 958.86)">
+        <text id="OFF-2" data-name="OFF" class="cls-8" transform="translate(5624.38 -940.18)"><tspan x="0" y="0">OFF</tspan></text>
+      </g>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <text id="FLASH_2" data-name="FLASH " class="cls-9" transform="translate(5414 -1075.8)"><tspan x="0" y="0">FLASH </tspan></text>
+    </g>
+    <g class="cls-11" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <text id="SALE-2" data-name="SALE" class="cls-10" transform="translate(5413 -1002)"><tspan x="0" y="0">SALE</tspan></text>
+    </g>
+  </g>
+</svg>
