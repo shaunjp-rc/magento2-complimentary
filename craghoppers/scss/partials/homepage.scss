@@ -47,10 +47,27 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
 }
 
 /* Control Nav */
-.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(https://d1khwdv4lze0nb.cloudfront.net/images/SS14/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
-.flex-control-nav li a:hover {background-position: 0 -13px;}
-.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
-.flex-caption{display:none !important;}
+.flex-control-nav li a {
+  width: 13px;
+  height: 13px;
+  display: block;
+  background: url(https://d1khwdv4lze0nb.cloudfront.net/images/SS14/bg_control_nav.png) no-repeat 0 0;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+
+.flex-control-nav li a:hover {
+  background-position: 0 -13px;
+}
+
+.flex-control-nav li a.active {
+  background-position: 0 -26px;
+  cursor: default;
+}
+
+.flex-caption {
+  display: none !important;
+}
 
 .flex-direction-nav li a {
   background: url(https://d1khwdv4lze0nb.cloudfront.net/images/AW15/UK/Homepage/slidearrows_New3.png) no-repeat;
@@ -156,7 +173,7 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
     display: block;
     margin: 0;
     position: absolute;
-    bottom: 8px;
+    bottom: 4px;
     z-index: 99;
     width: 100%;
     text-align: center;
