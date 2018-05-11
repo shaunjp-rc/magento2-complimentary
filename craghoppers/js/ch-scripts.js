@@ -455,6 +455,24 @@ var testDate = new Date("April 20, 2018 11:00:00");
   }
 // END
 
+function videoSlider(){
+  setInterval(function(){
+
+    if (jQuery(".fullWidthSlider__slideContainer.flex-active-slide video").length){
+
+      jQuery('.fullWidthSlider__slideContainer.flex-active-slide').find('video').each(function(){
+        this.play();
+      });
+
+    } else{
+      jQuery('.fullWidthSlider__slideContainer').find('video').each(function(){
+        this.pause();
+      });
+    }
+
+  }, 100);
+};
+
 /*
   Craghoppers specific JS snippets
  */
