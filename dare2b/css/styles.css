@@ -1026,6 +1026,82 @@ html .mt_animate {
   .responsive-table tr td:nth-child(2) {
     padding-left: 20%; } }
 /* Partials */
+/*//////////////////////////*/
+/* Endcap Specials          */
+/*//////////////////////////*/
+.page-product-configurable .specials.endcap-container {
+  visibility: visible !important; }
+
+.page-product-configurable .specials.endcap-container {
+  background: #ffffff;
+  margin: auto !important;
+  display: block;
+  max-width: 1700px;
+  padding: 30px 10px;
+  width: 90%;
+  position: relative;
+  top: 70px;
+  margin-bottom: 110px !important;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.09); }
+
+.page-product-configurable .specials.endcap-container .action-tabs .tabs *[data-action="tab"] {
+  border: none !important;
+  text-align: center;
+  display: inline-block;
+  flex-grow: unset;
+  font-size: 18px; }
+
+.page-product-configurable .specials.endcap-container .mt_sliderTop {
+  display: none; }
+
+.page-product-configurable .specials.endcap-container .action-tabs .tabs {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.page-product-configurable .specials.endcap-container .action-tabs .tabs-content {
+  border: none !important; }
+
+.page-product-configurable .specials.endcap-container .action-tabs .tabs *[data-action="tab"].active {
+  background: none;
+  color: #000000; }
+
+@media only screen and (max-width: 650px) {
+  .page-product-configurable .specials.endcap-container .action-tabs .tabs *[data-action="tab"].active {
+    background: none;
+    color: #000000;
+    line-height: 30px; }
+
+  .page-product-configurable .specials.endcap-container .action-tabs .tabs *[data-action="tab"] {
+    font-size: 15px;
+    padding: 0px 15px 10px 15px;
+    margin: 0px -10px 20px -10px;
+    width: 53%;
+    line-height: 30px;
+    color: #bdbdbd; }
+
+  .page-product-configurable .specials.endcap-container {
+    top: 40px;
+    margin-bottom: 70px !important;
+    padding: 5px 10px; }
+
+  .page-product-configurable .specials.endcap-container .action-tabs .tabs-content {
+    padding: 0px 0px; }
+
+  .page-product-configurable .specials.endcap-container .mt_endcap.mt_horizontal, .specials.endcap-container .mt_sliderMiddle {
+    overflow: visible; }
+
+  .page-product-configurable .specials.endcap-container .mt_backArrow {
+    left: -40px;
+    z-index: 1; }
+
+  .page-product-configurable .specials.endcap-container .mt_nextArrow {
+    right: -40px;
+    z-index: 1; }
+
+  .page-product-configurable .specials.endcap-container .mt_sliderMask ul li.mt_item {
+    padding: 0px; } }
 /* Custom category scrollbars */
 .c-facet-list__list--scroll::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
