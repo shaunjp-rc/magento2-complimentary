@@ -1030,9 +1030,6 @@ html .mt_animate {
 /* Endcap Specials          */
 /*//////////////////////////*/
 .page-product-configurable .specials.endcap-container {
-  visibility: visible !important; }
-
-.page-product-configurable .specials.endcap-container {
   background: #ffffff;
   margin: auto !important;
   display: block;
