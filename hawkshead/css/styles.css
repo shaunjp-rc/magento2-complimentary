@@ -2146,6 +2146,14 @@ iframe.unsubscribe {
   .cs-table td {
     font-size: 12px; } }
 /* END */
+/* EMAIL UNSUBSCRIBE FORM */
+.email-unsubscribe iframe {
+  width: 100%;
+  min-height: 500px;
+  overflow: visible;
+  border: none; }
+
+/* END */
 .collection__wrapper {
   display: inline-block;
   width: 100%; }
