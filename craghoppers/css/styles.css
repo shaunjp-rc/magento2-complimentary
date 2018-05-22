@@ -6835,9 +6835,8 @@ a.c-product-size__size-guide-link.js-open-size-guide.u-float-right {
 .c-product-details .c-price__group {
   margin-bottom: 0; }
 
-.c-rating__wrap,
-.c-rating__wrap--product-tile {
-  margin-top: 2%; }
+.c-rating__wrap {
+  top: 0; }
 
 .old-price .c-price__group {
   margin-top: 1%; }
