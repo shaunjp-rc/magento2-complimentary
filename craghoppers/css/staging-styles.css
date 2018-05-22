@@ -3342,7 +3342,8 @@ a.cs-link {
 
 .flex-item.col-6.option-btn-small {
   max-width: 49.98% !important;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 1.5%; }
 
 .csbottom {
   text-align: center;
@@ -3412,7 +3413,8 @@ a.cs-link {
 
 .cs-return-link {
   text-align: left;
-  padding: 3% 0 2% 0; }
+  padding-bottom: 2%;
+  color: #343334; }
 
 .cs-header-line {
   text-align: left;
