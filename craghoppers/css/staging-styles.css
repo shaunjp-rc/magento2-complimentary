@@ -3281,6 +3281,9 @@ iframe.unsubscribe {
 
 /* END */
 /* SS18 CUSTOMER SERVICE PAGES START*/
+.cms-page-testing-ls .columns .o-region__inner {
+  width: 100%; }
+
 .customerservice-new h2[data-action="toggle"]:hover {
   background: none; }
 
@@ -3328,7 +3331,7 @@ a.cs-link {
   text-decoration: underline; }
 
 .customerservice-new {
-  max-width: 60%;
+  max-width: 45%;
   margin: auto; }
 
 .customerservice-new-padding {
@@ -3368,18 +3371,16 @@ a.cs-link {
   margin: 10% 0 0% 0;
   border-top: 1px solid #ddd; }
 
-.cs-header {
-  text-align: center; }
-
 .cms-page-testing-ls .c-breadcrumbs {
   display: none; }
 
 .cs-header {
   width: 100%;
-  max-width: 1000px;
-  min-height: 150px;
+  max-width: 1920px;
+  min-height: 270px;
   margin: auto;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  text-align: center; }
 
 .cs-extra-padding {
   padding-top: 3% !important; }
@@ -3389,22 +3390,24 @@ a.cs-link {
   margin: auto; }
 
 .cs-main {
-  background-image: url(https://placeimg.com/1000/150/any/grayscale);
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services.jpg);
   margin-bottom: 7% !important; }
 
 .cs-delivery {
-  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Price-Match-Promise.jpg); }
 
 .cs-returns {
-  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Privacy-Policy.jpg); }
 
 .cs-payment {
-  background-image: url(https://placeimg.com/1000/150/any/grayscale); }
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Cookie-Policy.jpg); }
 
 .cs-header-title {
   color: #fff;
   padding-top: 4%;
-  font-size: 34px;
+  font-size: 55px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
 
 .cs-return-link {
@@ -6963,7 +6966,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 /* PDP more reviews up on mobile for fits me button */
 @media only screen and (max-width: 550px) {
   .c-rating__wrap {
-    top: 0; } }
+    top: 0 !important; } }
 /* END */
 /* TECHNOLOGY POP-UP - BACKGROUND SCROLL */
 body._has-modal {
