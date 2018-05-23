@@ -988,6 +988,8 @@ a.cs-link {
 	margin:auto;
 	margin-bottom: 5%;
 	text-align: center;
+	background-position: center;
+    background-repeat: none;
 }
 
 .cs-extra-padding {
@@ -1085,6 +1087,7 @@ h2.customer-services-title {
 
 	.cs-header {
 		max-width: 600px;
+		min-height: auto;
 	}
 
 	.cs-main {
