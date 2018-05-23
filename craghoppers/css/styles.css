@@ -3331,7 +3331,8 @@ a.cs-link {
 
 .customerservice-new {
   max-width: 45%;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 4%; }
 
 .customerservice-new-padding {
   padding-top: 4%; }
@@ -3423,12 +3424,19 @@ a.cs-link {
 .internationalzones1 {
   padding-top: 2%; }
 
+h2.customer-services-title {
+  padding: 3% 0 1% 0 !important;
+  margin: 0; }
+
 .customerservice-new p,
 .customerservice-new li {
   font-size: 16px; }
 .customerservice-new ul {
-  padding-top: 1%;
+  padding: 1% 0 2% 0;
   margin-bottom: 0 !important; }
+
+.customer-service-list {
+  list-style: none; }
 
 .customerservice-new .flex-container {
   margin: 0; }
