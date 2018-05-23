@@ -861,3 +861,7 @@ body .c-product-tile .c-product-tile__btn{
     height: auto;
   }
 }
+
+.c-product-tile__title{
+  text-transform: capitalize !important;
+}

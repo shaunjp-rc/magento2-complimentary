@@ -1735,6 +1735,9 @@ body .c-product-tile .c-product-tile__btn {
 @media screen and (max-width: 700px) {
   #shipping-new-address-form .c-input-wrap.field._required._error {
     height: auto; } }
+.c-product-tile__title {
+  text-transform: capitalize !important; }
+
 /* Mega menu styles Desktop and Tablet */
 .mob-only {
   display: none !important; }
