@@ -3706,8 +3706,9 @@ h2.customer-services-title {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Cookie-Policy-Mobile.jpg); }
 
   .cs-header-title {
-    padding-top: 20%;
-    font-size: 24px; } }
+    padding-top: 13%;
+    font-size: 24px;
+    min-height: 150px; } }
 @media screen and (max-width: 500px) {
   .customerservice-new {
     max-width: 95%; }
