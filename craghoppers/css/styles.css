@@ -3383,7 +3383,11 @@ a.cs-link {
   margin-bottom: 5%;
   text-align: center;
   background-position: center;
-  background-repeat: none; }
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .cs-extra-padding {
   padding-top: 3% !important; }
@@ -3470,15 +3474,11 @@ h2.customer-services-title {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Cookie-Policy-Mobile.jpg); }
 
   .cs-header-title {
-    padding-top: 26%;
+    padding-top: 20%;
     font-size: 24px; } }
 @media screen and (max-width: 500px) {
   .customerservice-new {
     max-width: 95%; }
-
-  .cs-header-title {
-    padding-top: 12%;
-    font-size: 28px; }
 
   .cs-main {
     font-size: 18px !important; }
