@@ -3280,7 +3280,10 @@ iframe.unsubscribe {
 
 /* END */
 /* SS18 CUSTOMER SERVICE PAGES START*/
-.cms-page-testing-ls .columns .o-region__inner {
+.cms-customer-services .c-breadcrumbs {
+  display: none; }
+
+.cms-customer-services .columns .o-region__inner {
   width: 100%; }
 
 .customerservice-new h2[data-action="toggle"]:hover {
@@ -3330,7 +3333,7 @@ a.cs-link {
   text-decoration: underline; }
 
 .customerservice-new {
-  max-width: 65%;
+  max-width: 45%;
   margin: auto;
   padding-bottom: 4%; }
 
@@ -3371,9 +3374,6 @@ a.cs-link {
   text-align: center;
   margin: 10% 0 0% 0;
   border-top: 1px solid #ddd; }
-
-.cms-page-testing-ls .c-breadcrumbs {
-  display: none; }
 
 .cs-header {
   width: 100%;
@@ -3445,11 +3445,30 @@ h2.customer-services-title {
   .customerservice-new {
     max-width: 90%; }
 
-  .cms-page-testing-ls .o-region__inner.column.main {
+  .cms-customer-services .o-region__inner.column.main {
     width: 100% !important; }
 
   .csborder {
     margin: 5% 0 0% 0; } }
+@media screen and (max-width: 600px) {
+  .cs-header {
+    max-width: 600px; }
+
+  .cs-main {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services-Mobile.jpg); }
+
+  .cs-delivery {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Price-Match-Promise-Mobile.jpg); }
+
+  .cs-returns {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Privacy-Policy-Mobile.jpg); }
+
+  .cs-payment {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Cookie-Policy-Mobile.jpg); }
+
+  .cs-header-title {
+    padding-top: 26%;
+    font-size: 24px; } }
 @media screen and (max-width: 500px) {
   .customerservice-new {
     max-width: 95%; }
