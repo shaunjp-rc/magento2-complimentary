@@ -3613,7 +3613,9 @@ a.cs-link {
   min-height: 270px;
   margin: auto;
   margin-bottom: 5%;
-  text-align: center; }
+  text-align: center;
+  background-position: center;
+  background-repeat: none; }
 
 .cs-extra-padding {
   padding-top: 3% !important; }
@@ -3684,7 +3686,8 @@ h2.customer-services-title {
     margin: 5% 0 0% 0; } }
 @media screen and (max-width: 600px) {
   .cs-header {
-    max-width: 600px; }
+    max-width: 600px;
+    min-height: auto; }
 
   .cs-main {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services-Mobile.jpg); }
