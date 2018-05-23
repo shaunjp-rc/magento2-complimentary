@@ -3687,7 +3687,11 @@ h2.customer-services-title {
     width: 100% !important; }
 
   .csborder {
-    margin: 5% 0 0% 0; } }
+    margin: 5% 0 0% 0; }
+
+  .cs-header-title {
+    padding-top: 11%;
+    font-size: 44px; } }
 @media screen and (max-width: 600px) {
   .cs-header {
     max-width: 600px;
