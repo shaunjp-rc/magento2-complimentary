@@ -926,6 +926,7 @@ a.cs-link {
 .customerservice-new {
     max-width: 45%;
     margin: auto;
+    padding-bottom: 4%;
 }
 
 .customerservice-new-padding {
@@ -1040,6 +1041,12 @@ a.cs-link {
 	padding-top: 2%;
 }
 
+
+h2.customer-services-title {
+	padding: 3% 0 1% 0 !important;
+	margin: 0;
+}
+
 .customerservice-new {
 	p,
 	li {
@@ -1047,9 +1054,13 @@ a.cs-link {
 	}
 
 	ul {
-		padding-top: 1%;
+		padding: 1% 0 2% 0;
 		margin-bottom: 0 !important;
 	}
+}
+
+.customer-service-list {
+	list-style: none;
 }
 
 .customerservice-new .flex-container {
