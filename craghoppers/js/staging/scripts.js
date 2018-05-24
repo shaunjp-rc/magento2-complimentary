@@ -49,32 +49,6 @@ requirejs(['jquery'], function( $ ) {
 
   });
 
-
-  /*jQuery("span.action.nav-toggle").append('<div class="menuCloseButton menuClosed"></div>');
-
-  jQuery(".menuCloseButton").click(function(){   
-
-    console.log("hello");
-    jQuery(this).toggleClass("active"); 
-
-    var menuButton = jQuery(".menuCloseButton");
-    if (menuButton.hasClass("menuClosed")){
-
-      menuButton.removeClass("menuClosed").addClass("menuOpen");
-      jQuery(".menuLabel").addClass("active");
-      menuButton.removeClass("menuAni");
-
-    } else if (menuButton.hasClass("menuOpen")){
-
-      menuButton.removeClass("menuOpen").addClass("menuClosed");
-      jQuery(".menuLabel").removeClass("active");
-      menuButton.addClass("menuAni");
-
-
-    }
-
-  });*/
-
   jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
   jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
 
@@ -101,30 +75,6 @@ requirejs(['jquery'], function( $ ) {
 
   });
 
-
-  /*jQuery("i.c-header__icon.c-icon--menu").addClass("menuClosed");
-  jQuery("i.c-header__icon.c-icon--menu").append("<div class='menuLabel'>Close</div>");
-
-  jQuery(".action.nav-toggle").click(function(){    
-
-    var menuButton = jQuery("i.c-header__icon.c-icon--menu");
-    if (menuButton.hasClass("menuClosed")){
-
-      menuButton.removeClass("menuClosed").addClass("menuOpen");
-      jQuery(".menuLabel").addClass("active");
-      menuButton.removeClass("menuAni");
-
-    } else if (menuButton.hasClass("menuOpen")){
-
-      menuButton.removeClass("menuOpen").addClass("menuClosed");
-      jQuery(".menuLabel").removeClass("active");
-      menuButton.addClass("menuAni");
-
-
-    }
-
-  });*/
-
   var menuBack = setInterval(function(){
     //console.log("timeout fire");
     if(jQuery(".menuSection.active").length){      
@@ -142,9 +92,6 @@ requirejs(['jquery'], function( $ ) {
     jQuery(this).toggleClass("navActive");
     jQuery(this).parent().toggleClass("navActive");
   });
-
-
-
   /* END */
 
 
