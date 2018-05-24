@@ -235,14 +235,15 @@ if (document.querySelectorAll('.c-block-option__delivery_instruction textarea').
 }
 
 /* REVIEW HIDE */
-window.onload = function(){
-	setTimeout(function(){
-		if(document.querySelector('#tab-label-reviews')){
-		    if(document.querySelector('.review-items')){
-		       
-		    } else {
-		        document.querySelector('#tab-label-reviews').style.display = 'none';
-		    }
-		}
-	}, 2000);
-}
+setTimeout(function(){
+
+  if(document.querySelector('#tab-label-reviews')){
+    if(document.querySelector('.review-items')){
+	console.log('review items found');
+    } else {
+      console.log('review items not found');
+      document.querySelector('#tab-label-reviews').style.display = 'none';
+    }
+  }
+  
+}, 3000);
