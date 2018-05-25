@@ -3276,6 +3276,7 @@ iframe.unsubscribe {
 
 /* END */
 /* SS18 CUSTOMER SERVICE PAGES START*/
+.cms-email-sign-up .c-breadcrumbs,
 .cms-contact-us .c-breadcrumbs,
 .cms-delivery-restrictions .c-breadcrumbs,
 .cms-payment-options .c-breadcrumbs,
@@ -3284,6 +3285,7 @@ iframe.unsubscribe {
 .cms-customer-services .c-breadcrumbs {
   display: none; }
 
+.cms-email-sign-up .columns .o-region__inner,
 .cms-contact-us .columns .o-region__inner,
 .cms-delivery-restrictions .columns .o-region__inner,
 .cms-payment-options .columns .o-region__inner,
@@ -3421,6 +3423,9 @@ a.cs-link {
 .cs-contact-us {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Contact-Us.jpg); }
 
+.cs-email-sign-up {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services.jpg); }
+
 .cs-header-title {
   color: #fff;
   padding-top: 4%;
@@ -3464,6 +3469,7 @@ h2.customer-services-title {
   .customerservice-new {
     max-width: 90%; }
 
+  .cms-email-sign-up .o-region__inner.column.main,
   .cms-contact-us .o-region__inner.column.main,
   .cms-delivery-restrictions .o-region__inner.column.main,
   .cms-payment-options .o-region__inner.column.main,
@@ -3500,6 +3506,9 @@ h2.customer-services-title {
 
   .cs-contact-us {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Contact-Us-Mobile.jpg); }
+
+  .cs-email-sign-up {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services-Mobile.jpg); }
 
   .cs-header-title {
     padding-top: 13%;
