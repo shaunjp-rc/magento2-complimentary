@@ -3257,10 +3257,6 @@ iframe.unsubscribe {
 .pmp-terms ul {
   margin: 0; }
 
-.pmp-terms ul li:before {
-  content: '-';
-  margin-right: 5px; }
-
 .pmp-terms ul li {
   padding: 0;
   line-height: 1.5; }
@@ -3483,6 +3479,10 @@ a.cs-link {
 .internationalzones1 {
   padding-top: 2%; }
 
+.cs-address {
+  list-style: none;
+  line-height: 15px; }
+
 h2.customer-services-title {
   padding: 1% 0 1% 0 !important;
   margin: 0; }
@@ -3490,7 +3490,7 @@ h2.customer-services-title {
 .customerservice-new p,
 .customerservice-new li {
   font-size: 16px;
-  padding-bottom: 2%; }
+  padding-bottom: 1%; }
 .customerservice-new ul {
   padding: 1% 0 2% 0;
   margin-bottom: 0 !important; }
