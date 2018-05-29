@@ -861,41 +861,39 @@ iframe.unsubscribe {
 
 /* SS18 CUSTOMER SERVICE PAGES START*/
 
-html:lang(en-GB) {
-	.cms-sizing-guides .c-breadcrumbs,
-	.cms-price-match-promise .c-breadcrumbs,
-	.cms-cancellation-form .c-breadcrumbs,
-	.cms-affiliates .c-breadcrumbs,
-	.cms-cookie-policy .c-breadcrumbs,
-	.cms-privacy-policy .c-breadcrumbs,
-	.cms-terms-conditions .c-breadcrumbs,
-	.cms-email-sign-up .c-breadcrumbs,
-	.cms-contact-us .c-breadcrumbs,
-	.cms-delivery-restrictions .c-breadcrumbs,
-	.cms-payment-options .c-breadcrumbs,
-	.cms-returns .c-breadcrumbs,
-	.cms-delivery-information .c-breadcrumbs,
-	.cms-customer-services .c-breadcrumbs {
-		display: none;
-	}
+.cms-sizing-guides .c-breadcrumbs,
+.cms-price-match-promise .c-breadcrumbs,
+.cms-cancellation-form .c-breadcrumbs,
+.cms-affiliates .c-breadcrumbs,
+.cms-cookie-policy .c-breadcrumbs,
+.cms-privacy-policy .c-breadcrumbs,
+.cms-terms-conditions .c-breadcrumbs,
+.cms-email-sign-up .c-breadcrumbs,
+.cms-contact-us .c-breadcrumbs,
+.cms-delivery-restrictions .c-breadcrumbs,
+.cms-payment-options .c-breadcrumbs,
+.cms-returns .c-breadcrumbs,
+.cms-delivery-information .c-breadcrumbs,
+.cms-customer-services .c-breadcrumbs {
+	display: none;
+}
 
-	.cms-sizing-guides .columns .o-region__inner,
-	.cms-price-match-promise .columns .o-region__inner,
-	.cms-cancellation-form .columns .o-region__inner,
-	.cms-affiliates .columns .o-region__inner,
-	.cms-cookie-policy .columns .o-region__inner,
-	.cms-privacy-policy .columns .o-region__inner,
-	.cms-terms-conditions .columns .o-region__inner,
-	.cms-email-sign-up .columns .o-region__inner,
-	.cms-contact-us .columns .o-region__inner,
-	.cms-delivery-restrictions .columns .o-region__inner,
-	.cms-payment-options .columns .o-region__inner,
-	.cms-returns .columns .o-region__inner,
-	.cms-delivery-information .columns .o-region__inner,
-	.cms-customer-services .columns .o-region__inner {
-	    width: 100%;
-	}
-} 
+.cms-sizing-guides .columns .o-region__inner,
+.cms-price-match-promise .columns .o-region__inner,
+.cms-cancellation-form .columns .o-region__inner,
+.cms-affiliates .columns .o-region__inner,
+.cms-cookie-policy .columns .o-region__inner,
+.cms-privacy-policy .columns .o-region__inner,
+.cms-terms-conditions .columns .o-region__inner,
+.cms-email-sign-up .columns .o-region__inner,
+.cms-contact-us .columns .o-region__inner,
+.cms-delivery-restrictions .columns .o-region__inner,
+.cms-payment-options .columns .o-region__inner,
+.cms-returns .columns .o-region__inner,
+.cms-delivery-information .columns .o-region__inner,
+.cms-customer-services .columns .o-region__inner {
+    width: 100%;
+}
 
 .customerservice-new h2[data-action="toggle"]:hover {
     background: none;
