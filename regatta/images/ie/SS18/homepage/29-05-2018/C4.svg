@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Web_1920_1);
+        clip-path: url(#clip-iPhone_6_7_8_4);
       }
 
       .cls-2, .cls-3, .cls-4, .cls-5 {
@@ -13,18 +13,18 @@
         font-size: 10px;
       }
 
-      .cls-2, .cls-4, .cls-5 {
+      .cls-2, .cls-3, .cls-5 {
         font-family: NeuzeitOfficeSRPro-Bold, Neuzeit Office SR Pro;
         font-weight: 700;
       }
 
       .cls-3 {
-        font-size: 5px;
-        font-family: NeuzeitOfficeSRPro-Regular, Neuzeit Office SR Pro;
+        font-size: 48px;
       }
 
       .cls-4 {
-        font-size: 48px;
+        font-size: 5px;
+        font-family: NeuzeitOfficeSRPro-Regular, Neuzeit Office SR Pro;
       }
 
       .cls-5 {
@@ -35,22 +35,20 @@
         fill: url(#linear-gradient);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="0.018" y1="0.985" x2="0.969" y2="0.025" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient" y1="1" x2="0.987" y2="0.015" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#ee087a"/>
-      <stop offset="1" stop-color="#fc6d00"/>
+      <stop offset="1" stop-color="#fc6c01"/>
     </linearGradient>
-    <clipPath id="clip-Web_1920_1">
+    <clipPath id="clip-iPhone_6_7_8_4">
       <rect width="117" height="116.5"/>
     </clipPath>
   </defs>
-  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+  <g id="iPhone_6_7_8_4" data-name="iPhone 6/7/8 – 4" class="cls-1">
     <rect class="cls-6" width="117" height="116.5"/>
-    <text id="UP_TO" data-name="UP TO" class="cls-2" transform="translate(43 23)"><tspan x="0" y="0">UP TO</tspan></text>
-    <text id="SUMMER_READY_" data-name="SUMMER READY " class="cls-2" transform="translate(20 77)"><tspan x="0" y="0">SUMMER READY </tspan></text>
-    <text id="SHORTS_AND_T-SHIRTS" data-name="SHORTS AND T-SHIRTS" class="cls-2" transform="translate(6 88)"><tspan x="0" y="0">SHORTS AND T-SHIRTS</tspan></text>
-    <text id="LIMITED_TIME_ONLY" data-name="LIMITED TIME ONLY" class="cls-3" transform="translate(37 97)"><tspan x="0" y="0">LIMITED TIME ONLY</tspan></text>
-    <text id="_40_" data-name="40%" class="cls-4" transform="translate(14 64)"><tspan x="0" y="0">40%</tspan></text>
-    <text id="OFF" class="cls-5" transform="translate(94 37)"><tspan x="0" y="0">OFF</tspan></text>
-    <text id="_" data-name="*" class="cls-5" transform="translate(108 37)"><tspan x="0" y="0">*</tspan></text>
+    <text id="UP_TO" data-name="UP TO" class="cls-2" transform="translate(43 30)"><tspan x="0" y="0">UP TO</tspan></text>
+    <text id="_40_" data-name="40%" class="cls-3" transform="translate(14 69)"><tspan x="0" y="0">30%</tspan></text>
+    <text id="SUMMER_READY" data-name="SUMMER READY" class="cls-2" transform="translate(13 82)"><tspan x="0" y="0">THE HOLIDAY SHOP</tspan></text>
+    <text id="LIMITED_TIME_ONLY" data-name="LIMITED TIME ONLY" class="cls-4" transform="translate(13 89)"><tspan x="25.365" y="4">SELECTED STYLES</tspan><tspan x="21.135" y="9">AND COLOURS ONLY. </tspan></text>
+    <text id="OFF" class="cls-5" transform="translate(94 42)"><tspan x="0" y="0">OFF</tspan></text>
   </g>
 </svg>
