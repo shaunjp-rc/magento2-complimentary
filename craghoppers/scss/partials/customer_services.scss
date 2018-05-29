@@ -834,11 +834,6 @@ iframe.unsubscribe {
 	margin: 0;
 }
 
-.pmp-terms ul li:before {
-	content: '-';
-	margin-right: 5px;
-}
-
 .pmp-terms ul li {
 	padding: 0;
 	line-height: 1.5;
@@ -1111,6 +1106,11 @@ a.cs-link {
 	padding-top: 2%;
 }
 
+.cs-address {
+    list-style: none;
+    line-height: 15px;
+}
+
 
 h2.customer-services-title {
 	padding: 1% 0 1% 0 !important;
@@ -1121,7 +1121,7 @@ h2.customer-services-title {
 	p,
 	li {
 		font-size: 16px;
-		padding-bottom: 2%;
+		padding-bottom: 1%;
 	}
 
 	ul {
