@@ -2871,7 +2871,8 @@ h2.pageSection--pageTop__justHeading {
 .cms-page-view p.customerservice__header {
   font-weight: bold;
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 3%; }
 
 .cms-page-view p.customerservice__deliveryprice {
   font-weight: bold; }
@@ -3084,7 +3085,7 @@ div#customerservice__row--kids table th {
   color: #ff0000; }
 
 .datatablesizing30 {
-  width: 32% !important;
+  width: 31.9% !important;
   float: left;
   margin-right: 12px; }
 
@@ -3508,6 +3509,13 @@ iframe.unsubscribe {
 
 /* END */
 /* SS18 CUSTOMER SERVICE PAGES START*/
+.cms-sizing-guides .c-breadcrumbs,
+.cms-price-match-promise .c-breadcrumbs,
+.cms-cancellation-form .c-breadcrumbs,
+.cms-affiliates .c-breadcrumbs,
+.cms-cookie-policy .c-breadcrumbs,
+.cms-privacy-policy .c-breadcrumbs,
+.cms-terms-conditions .c-breadcrumbs,
 .cms-email-sign-up .c-breadcrumbs,
 .cms-contact-us .c-breadcrumbs,
 .cms-delivery-restrictions .c-breadcrumbs,
@@ -3517,6 +3525,14 @@ iframe.unsubscribe {
 .cms-customer-services .c-breadcrumbs {
   display: none; }
 
+.cms-sizing-guides .columns .o-region__inner,
+.cms-price-match-promise .columns .o-region__inner,
+.cms-cancellation-form .columns .o-region__inner,
+.cms-affiliates .columns .o-region__inner,
+.cms-cookie-policy .columns .o-region__inner,
+.cms-privacy-policy .columns .o-region__inner,
+.cms-terms-conditions .columns .o-region__inner,
+.cms-sizing-guides .columns .o-region__inner,
 .cms-email-sign-up .columns .o-region__inner,
 .cms-contact-us .columns .o-region__inner,
 .cms-delivery-restrictions .columns .o-region__inner,
@@ -3573,7 +3589,7 @@ a.cs-link {
   text-decoration: underline; }
 
 .customerservice-new {
-  max-width: 45%;
+  max-width: 50%;
   margin: auto;
   padding-bottom: 3%; }
 
@@ -3658,6 +3674,27 @@ a.cs-link {
 .cs-email-sign-up {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services.jpg); }
 
+.cs-sizing-guides {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Privacy-Policy.jpg); }
+
+.cs-price-match-promise {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Price-Match-Promise.jpg); }
+
+.cs-cancellation-form {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Contact-Us.jpg); }
+
+.cs-affiliates {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services.jpg); }
+
+.cs-cookie-policy {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Cookie-Policy.jpg); }
+
+.cs-privacy-policy {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Privacy-Policy.jpg); }
+
+.cs-terms-conditions {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services.jpg); }
+
 .cs-header-title {
   color: #fff;
   padding-top: 4%;
@@ -3701,15 +3738,6 @@ h2.customer-services-title {
   .customerservice-new {
     max-width: 90%; }
 
-  .cms-email-sign-up .o-region__inner.column.main,
-  .cms-contact-us .o-region__inner.column.main,
-  .cms-delivery-restrictions .o-region__inner.column.main,
-  .cms-payment-options .o-region__inner.column.main,
-  .cms-returns .o-region__inner.column.main,
-  .cms-delivery-information .o-region__inner.column.main,
-  .cms-customer-services .o-region__inner.column.main {
-    width: 100% !important; }
-
   .csborder {
     margin: 5% 0 0% 0; }
 
@@ -3740,6 +3768,27 @@ h2.customer-services-title {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Contact-Us-Mobile.jpg); }
 
   .cs-email-sign-up {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services-Mobile.jpg); }
+
+  .cs-sizing-guides {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Privacy-Policy-Mobile.jpg); }
+
+  .cs-price-match-promise {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Price-Match-Promise-Mobile.jpg); }
+
+  .cs-cancellation-form {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Contact-Us-Mobile.jpg); }
+
+  .cs-affiliates {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services-Mobile.jpg); }
+
+  .cs-cookie-policy {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Cookie-Policy-Mobile.jpg); }
+
+  .cs-privacy-policy {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Privacy-Policy-Mobile.jpg); }
+
+  .cs-terms-conditions {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Customer-Services-Mobile.jpg); }
 
   .cs-header-title {
