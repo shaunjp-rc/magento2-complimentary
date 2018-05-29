@@ -4183,15 +4183,14 @@ a.mm-outlet {
     margin: 0; }
 
   .category-items.ui-menu-item.sectionActive {
-    padding-top: 0 !important;
-    margin-top: 44px !important; }
+    padding-top: 0 !important; }
 
   .genderheader,
   .genderheader-sale {
     padding-left: 20px; }
 
   h2.columnHead.columnEnabled.active {
-    background: #CCCCCC;
+    background: #e3e3e3;
     padding: 15px 0 15px 20px;
     margin-top: 0; }
 
@@ -4454,7 +4453,32 @@ a.mm-outlet {
   .sectionActive .brandsSection {
     display: block !important;
     width: 100% !important;
-    padding-left: 0 !important; } }
+    padding-left: 0 !important; }
+
+  .s-main-menu .categories > li a.ui-state-active {
+    background: #6792C8 !important; }
+
+  .s-main-menu .categories > li:nth-child(1) a.ui-state-active {
+    background: #2F3051 !important; }
+
+  .s-main-menu .categories > li:nth-child(2) a.ui-state-active {
+    background: #fc8a81 !important; }
+
+  .s-main-menu .categories > li:nth-child(3) a.ui-state-active {
+    background: #9CAC25 !important; }
+
+  .s-main-menu .categories > li:nth-child(7) a.ui-state-active {
+    background: #c72123 !important; }
+
+  .genderheader,
+  .genderheader-sale {
+    display: none; }
+
+  .s-main-menu .categories > li a {
+    width: 100%; }
+
+  .s-main-menu .categories > li a:before {
+    right: 20px; } }
 /* END */
 
 /*# sourceMappingURL=staging-styles.css.map */
