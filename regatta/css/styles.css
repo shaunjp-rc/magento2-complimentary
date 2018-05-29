@@ -1985,7 +1985,7 @@ body .c-product-tile .c-product-tile__btn {
 @media only screen and (max-width: 739px) {
   html .catalog-category-view .c-mobile-facet--menu {
     width: 80% !important;
-    overflow: initial;
+    overflow: scroll;
     z-index: 10000; }
 
   .catalog-category-view .c-mobile-menu__close-icon:before {
