@@ -1981,6 +1981,166 @@ body .c-product-tile .c-product-tile__btn {
 @media screen and (max-width: 700px) {
   #shipping-new-address-form .c-input-wrap.field._required._error {
     height: auto; } }
+/*///// mobile filter experience ///////////*/
+@media only screen and (max-width: 739px) {
+  html .c-mobile-facet--menu {
+    width: 80% !important;
+    overflow: initial;
+    z-index: 10000; }
+
+  .c-mobile-menu__close-icon:before {
+    content: "X Close";
+    display: block;
+    color: #DC5757;
+    padding-top: 6px;
+    text-align: center;
+    font-style: normal; }
+
+  html .c-mobile-menu__close-icon {
+    width: 80px;
+    left: -70px;
+    height: 40px;
+    top: 15px;
+    border: solid 2px #e65050;
+    border-radius: 5px;
+    background: none !important;
+    font-weight: bold; }
+
+  html .c-mobile-menu__close-icon:after {
+    -webkit-transition: all 100ms ease-out;
+    -moz-transition: all 100ms ease-out;
+    -o-transition: all 100ms ease-out;
+    -ms-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    width: 200%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none; }
+
+  html .open-mobile-facet-menu .c-mobile-menu__close-icon:after {
+    content: "";
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 80%;
+    opacity: 1; }
+
+  .o-layout.u-flex-row.active {
+    position: fixed;
+    top: 65px;
+    margin: 0;
+    z-index: 4;
+    background: white;
+    width: 100%;
+    border-bottom: solid 1px #ececec;
+    border-top: solid 1px #ececec;
+    padding: 10px;
+    box-shadow: 0px -3px 10px #00000061; }
+
+  .o-layout.u-flex-row.active > * {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 6px;
+    overflow: hidden; }
+
+  .o-layout.u-flex-row.active .c-pagination {
+    display: none; }
+
+  .o-layout.u-flex-row.active > div > * {
+    width: 96%;
+    margin: 1%; }
+
+  .c-mobile-facet-menu__header .c-mobile-facet-menu__title {
+    height: 60px;
+    line-height: 80px !important; }
+
+  html .c-mobile-menu--dropdown {
+    background-size: 15px !important; }
+
+  html .c-checkbox-option--small .c-checkbox-option__text {
+    font-size: 18px;
+    margin-top: -5px !important;
+    margin-bottom: 10px;
+    display: inline-block; }
+
+  html .c-mobile-facet--menu .c-facet-list__facet-header {
+    font-size: 18px; }
+
+  .o-list-stacked.c-facet-list__list--scroll > li:first-child {
+    border-top: solid 1px #e2e2e2; }
+
+  .c-mobile-facet--menu li .o-list-stacked > li {
+    border-bottom: solid 1px #e2e2e2;
+    background: #fbfbfb;
+    padding: 10px 10px 0px 10px;
+    margin: 0px -10px 0px -10px; }
+
+ /*
+  .o-list-stacked.c-facet-list__list--scroll > li:nth-child(even) {
+      background: #ffffff;
+
+  }*/
+  .o-list-stacked.c-mobile-facet-list > li .c-facet-list__link {
+    display: block;
+    text-align: center;
+    padding: 0px 0px 10px 0px; }
+
+  .c-mobile-menu__footer--sticky {
+    max-width: 80%; }
+
+  .c-mobile-facet--menu .c-mobile-facet-menu__title {
+    font-size: 20px; } }
+@media only screen and (max-width: 739px) {
+  .loader {
+    display: block;
+    width: 30% !important;
+    height: 4px;
+    background: #F5F5F5;
+    position: fixed !Important;
+    top: 40%;
+    left: 35%;
+    margin: 0 !important;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden; }
+
+  .loader .image {
+    background: none !Important;
+    background-color: #ffb835 !important;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    margin: 0 !important;
+    /* animation keyframe */
+    -webkit-animation: loader 1s infinite linear; }
+
+  @-webkit-keyframes loader {
+    0% {
+      left: -100%;
+      width: 40%;
+      opacity: 1; }
+    50% {
+      left: 0%;
+      width: 60%;
+      opacity: 1; }
+    100% {
+      left: 100%;
+      width: 40%;
+      opacity: 1; } } }
+@media screen and (max-width: 600px) {
+  .loader .image, .loader {
+    height: 6px;
+    border-radius: 100px; } }
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
 /*////////////////////////////////*/

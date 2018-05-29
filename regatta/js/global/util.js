@@ -271,5 +271,124 @@ if (document.querySelectorAll('.c-block-option__delivery_instruction textarea').
 
 }
 
+/* /// MOBILE ONLY CAT FILTER ///*/
+if(window.outerWidth < 740 && document.querySelector('.catalog-category-view')){
+console.log('filters');
 
+var categoryTitle;
+var opens;
+var checkboxes;
+var filters;
+
+function checkFilters(){
+    checkboxes = document.querySelectorAll('.c-mobile-facet--menu .c-checkbox-option__input');
+    checkboxes.forEach(function(box){
+        if(box.checked){
+            var filter = box.parentElement.parentElement.parentElement.parentElement.parentElement;
+            filter.classList.add('has-filter');
+        }
+    });
+}
+
+function resetEvents(){
+    console.log('resetEvents');
+    filters = document.querySelectorAll('.c-facet-list__list');
+    filters.forEach(function(filter){
+        filter.classList.remove('has-filter');
+    });
+    categoryTitle = document.querySelectorAll('.c-facet-list__facet-header');
+    opens = document.querySelectorAll('.o-list-stacked');
+    categoryTitle.forEach(function(title){
+        jQuery(title).off();
+    });
+}
+
+function setupNav() {
+    console.log('setupNav');
+    categoryTitle.forEach(function(item) {
+        jQuery(item).on('click', function(){
+            console.log('item clicked');
+            if (item.classList.contains('active')) {
+                item.nextSibling.nextSibling.classList.remove('active');
+                item.classList.remove('active');
+            } else {
+                opens.forEach(function(open) {
+                    open.classList.remove('active');
+                });
+                categoryTitle.forEach(function(title) {
+                    title.classList.remove('active');
+                });
+                item.nextSibling.nextSibling.classList.add('active');
+                item.classList.add('active');
+            }
+        });
+    });
+
+    var findCustomerReviews = document.querySelectorAll('.c-facet-list__facet-header');
+
+    findCustomerReviews.forEach(function(item) {
+        if (item.textContent == 'Customer Reviews') {
+            item.textContent = 'Reviews';
+        }
+    });
+
+    var refineByChange = document.querySelectorAll('.c-facet-list__facet-header--title');
+
+    refineByChange.forEach(function(item) {
+        if (item.textContent == 'Refine By') {
+            item.textContent = 'Filter Products';
+        }
+    });
+}
+
+resetEvents();
+setupNav();
+checkFilters();
+
+var observer = new MutationObserver(function(mutations) {
+  resetEvents();
+  setupNav();
+  checkFilters();
+});
+
+var observerConfig = {
+    attributes: true,
+    childList: true,
+    characterData: true
+};
+
+//var targetNode = document.body;
+observer.observe(document.body, observerConfig);
+
+// Rick's horrible jQuery stuff
+jQuery(window).scroll(function() {
+    var clientHeight = document.querySelector('.c-toolbar--position .o-layout.u-flex-row').clientHeight;
+    var scroll = jQuery(window).scrollTop();
+    if (scroll >= clientHeight) {
+        jQuery(".c-toolbar--position .o-layout.u-flex-row").addClass("active");
+    } else {
+        jQuery(".c-toolbar--position .o-layout.u-flex-row").removeClass("active");
+    }
+});
+
+// if (jQuery(".c-facet-list__facet-header.active").length) {
+//     jQuery(".c-facet-list__facet-header.active, .c-facet-list__list--scroll.active").removeClass('active');
+// }
+
+document.querySelector('body').addEventListener('click', function(e){
+    if(
+          !e.target.classList.contains('c-facet-list__facet-header') &&
+          !e.target.classList.contains('c-checkbox-option__text') &&
+          !e.target.classList.contains('c-checkbox-option__checkbox')
+          //!e.target.classList.contains('c-facet-list__item')
+      ){
+        document.querySelectorAll('.c-facet-list__list > ul.active').forEach(function(item){
+            item.classList.remove('active');
+         item.parentElement.querySelector('.c-facet-list__facet-header.active').classList.remove('active');
+            checkFilters();
+        });
+      }
+});
+
+}
 
