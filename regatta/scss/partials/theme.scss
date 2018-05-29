@@ -1281,8 +1281,8 @@ body .c-product-tile .c-product-tile__btn{
 
 html .catalog-category-view .c-mobile-facet--menu {
   width: 80% !important;
-  overflow: initial;
-      z-index: 10000;
+  overflow: scroll;
+  z-index: 10000;
 }
 
 .catalog-category-view .c-mobile-menu__close-icon:before {
