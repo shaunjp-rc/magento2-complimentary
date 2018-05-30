@@ -361,14 +361,19 @@ var observerConfig = {
 observer.observe(document.body, observerConfig);
 
 // Rick's horrible jQuery stuff
-jQuery(window).scroll(function() {
-    var clientHeight = document.querySelector('.c-toolbar--position .o-layout.u-flex-row').clientHeight;
-    var scroll = jQuery(window).scrollTop();
-    if (scroll >= clientHeight) {
-        jQuery(".c-toolbar--position .o-layout.u-flex-row").addClass("active");
-    } else {
-        jQuery(".c-toolbar--position .o-layout.u-flex-row").removeClass("active");
-    }
+requirejs(['jquery'], function( $ ) {
+
+    // Rick's horrible jQuery stuff
+    $(window).scroll(function() {
+        var clientHeight = document.querySelector('.c-toolbar--position .o-layout.u-flex-row').clientHeight;
+        var scroll = $(window).scrollTop();
+        if (scroll >= clientHeight) {
+            $(".c-toolbar--position .o-layout.u-flex-row").addClass("active");
+        } else {
+            $(".c-toolbar--position .o-layout.u-flex-row").removeClass("active");
+        }
+    });
+
 });
 
 // if (jQuery(".c-facet-list__facet-header.active").length) {
