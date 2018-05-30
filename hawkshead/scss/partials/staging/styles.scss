@@ -1155,3 +1155,75 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   
 }
 /* END */
+
+
+
+/* PLP Updates Start*/
+
+.c-price__group {
+  display: inline-block;
+}
+
+.c-product-tile__title {
+  text-align: center;
+  color: #5f5f5e !important;
+}
+
+.c-rating__reviews:after {
+  content: ' Reviews';
+}
+
+.c-rating__wrap--product-tile {
+  clear: both;
+}
+
+.c-price__strike {
+  padding-right: 5px;
+}
+
+.c-price--small {
+  text-align: center;
+}
+
+.c-rating__container {
+  -webkit-filter: grayscale(100%) brightness(75%);
+  filter: grayscale(100%) brightness(75%);
+}
+
+.c-product-tile__item-extra-info {
+  display:none;
+}
+
+.c-icon--unsaved-item, .c-icon--up-primary {
+  margin-bottom: 10px;
+}
+
+.c-price--small {
+  line-height: 3 !important;
+}
+
+.c-rating__reviews, .c-rating{
+  float: none !important;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.c-rating__reviews{
+  position: relative;
+  top: -13px;
+  font-size: 0.9em;
+}
+
+.c-rating__container{
+  text-align: center
+}
+
+.c-rating{
+  width: 60px;
+}
+
+.c-rating, .c-rating__star{
+  background-size: 20%;
+}
+
+/* END */
