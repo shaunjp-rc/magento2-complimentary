@@ -1165,11 +1165,19 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   }
 
   .category-items.desktopItems{
-    display: none;
+    display: none !important;
   }
 
   .category-items.mobileItems{
     display: block;
+  }
+
+  .s-main-menu .categories > li .mobileItems a:before {
+    background: transparent !important;
+  }
+
+  .mobileItems h2 {
+    text-decoration: underline;
   }
   
 
