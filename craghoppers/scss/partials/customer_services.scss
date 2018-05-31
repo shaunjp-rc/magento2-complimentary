@@ -1405,3 +1405,44 @@ h2.customer-services-title {
     	overflow: visible;
     	border: none;
 	}
+
+/* END */
+
+
+/* ZOPIM EXTRA LINK */
+
+#zchat {
+  display: none;
+}
+
+#zchat.online {
+  display: block;
+}
+
+#zchat:before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  margin-right: 6px;
+  float: left;
+  position: relative;
+  top: 7px;
+}
+
+#zchat.online:before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+  margin-right: 6px;
+  float: left;
+  position: relative;
+  top: 7px;
+}
+
+/* END */
