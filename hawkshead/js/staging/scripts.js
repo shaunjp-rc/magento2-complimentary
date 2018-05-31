@@ -22,6 +22,11 @@ requirejs(['jquery'], function( $ ) {
     jQuery(".category-items.ui-menu-item").toggleClass("sectionActive");
   });
 
+  jQuery(".ui-menu-back").click(function(){
+    jQuery(".ui-menu-item").removeClass("menuBack");
+    jQuery(this).parent().parent().addClass("menuBack");
+  });
+
 
   jQuery(".columnHead").click(function(e){
     e.stopPropagation();
