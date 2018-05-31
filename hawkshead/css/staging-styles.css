@@ -4495,10 +4495,16 @@ a.mm-outlet {
     right: 20px; }
 
   .category-items.desktopItems {
-    display: none; }
+    display: none !important; }
 
   .category-items.mobileItems {
-    display: block; } }
+    display: block; }
+
+  .s-main-menu .categories > li .mobileItems a:before {
+    background: transparent !important; }
+
+  .mobileItems h2 {
+    text-decoration: underline; } }
 /* END */
 /* PLP Updates Start*/
 .c-price__group {
