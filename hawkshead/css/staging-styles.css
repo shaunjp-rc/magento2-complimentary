@@ -4092,6 +4092,12 @@ a.mm-outlet {
 .menuAmbassadors .collectionItem:nth-child(5) {
   margin-right: 0; }
 
+.category-items.desktopItems {
+  display: block; }
+
+.category-items.mobileItems {
+  display: none; }
+
 @media only screen and (max-width: 1227px) {
   .collectionItem {
     max-width: 180px; }
@@ -4201,6 +4207,14 @@ a.mm-outlet {
   .ui-state-active {
     background-color: #959595 !important;
     color: #fff !important; }
+
+
+  .c-icon--right-grey, .s-main-menu .categories > li a:before {
+    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/BlackArrow.svg) !important; }
+
+  .ui-corner-all.ui-state-active + div > a.ui-menu-back:before {
+    background: transparent !important; }
+
 
   .c-icon--right-grey, .s-main-menu .categories > li.menuBack a:before {
     background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/BlackArrow.svg) !important;
@@ -4478,7 +4492,13 @@ a.mm-outlet {
     width: 100%; }
 
   .s-main-menu .categories > li a:before {
-    right: 20px; } }
+    right: 20px; }
+
+  .category-items.desktopItems {
+    display: none; }
+
+  .category-items.mobileItems {
+    display: block; } }
 /* END */
 /* PLP Updates Start*/
 .c-price__group {
