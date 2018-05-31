@@ -1,30 +1,3 @@
-/* Zoopim Links */
-
-// Zopim chat link
-$zopim(function() {
-$zopim.livechat.hideAll();
-});
-
-// Zopim online/offline dot
-setTimeout(function(){
-
-    var zchat = document.querySelector('#zchat');
-
-    $zopim(function() {  
-      $zopim.livechat.setOnStatus(callback);  
-      function callback(status) {  
-          if (status == 'online') {  
-            zchat.classList.add('online');
-          } else {
-            zchat.classList.remove('online');
-          }
-      }  
-    });
-
-}, 2000);
-
-/* END */
-
 /* UK/US Stock issue */
 var stockInt = setInterval(function(){
 
