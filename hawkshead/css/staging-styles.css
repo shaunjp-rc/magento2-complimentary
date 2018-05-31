@@ -4208,7 +4208,7 @@ a.mm-outlet {
     background-color: #959595 !important;
     color: #fff !important; }
 
-  .c-icon--right-grey, .s-main-menu .categories > li.menuBack a:before {
+  .c-icon--right-grey, .s-main-menu .categories > li a:before {
     background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/BlackArrow.svg) !important; }
 
   .ui-corner-all.ui-state-active + div > a.ui-menu-back:before {
