@@ -3933,12 +3933,15 @@ h2.customer-services-title {
 
 /* END */
 /* ZOPIM EXTRA LINK */
+/*
 #zchat {
-  display: none; }
+  display: none;
+}
 
 #zchat.online {
-  display: block; }
-
+  display: block;
+}
+*/
 #zchat:before {
   content: '';
   display: block;
