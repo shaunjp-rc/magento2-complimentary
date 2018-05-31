@@ -22,7 +22,7 @@ requirejs(['jquery'], function( $ ) {
     jQuery(".category-items.ui-menu-item").toggleClass("sectionActive");
   });
 
-  jQuery(".ui-menu-back").click(function(){
+  jQuery(document).on('click touchstart', '.ui-menu-back', function() {
     jQuery(".ui-menu-item").removeClass("menuBack");
     jQuery(this).parent().parent().addClass("menuBack");
   });
