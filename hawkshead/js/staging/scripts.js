@@ -17,7 +17,9 @@ requirejs(['jquery'], function( $ ) {
   ////////////////////////////////// 
 
   setTimeout(function(){
+    console.log("Hello World");
     jQuery('p.c-price__group:nth-child(1):contains("£")').next().addClass('nowPrice');
+    console.log("Hello World 2");
   }, 2000);
 
 /* Mobile Mega Menu Updates */
