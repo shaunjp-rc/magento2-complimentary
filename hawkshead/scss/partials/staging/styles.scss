@@ -1224,9 +1224,9 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   filter: grayscale(100%) brightness(75%);
 }
 
-.c-product-tile__item-extra-info {
+/*.c-product-tile__item-extra-info {
   display:none;
-}
+}*/
 
 .c-icon--unsaved-item, .c-icon--up-primary {
   margin-bottom: 10px;
@@ -1242,10 +1242,10 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   margin: 0 4px;
 }
 
-.c-rating__reviews{
-  position: relative;
-  top: -13px;
-  font-size: 0.9em;
+.c-rating__reviews {
+    position: relative;
+    top: -13px;
+    font-size: 1.2em;
 }
 
 .c-rating__container{

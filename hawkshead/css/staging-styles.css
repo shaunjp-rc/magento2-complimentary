@@ -4532,9 +4532,9 @@ a.mm-outlet {
   -webkit-filter: grayscale(100%) brightness(75%);
   filter: grayscale(100%) brightness(75%); }
 
-.c-product-tile__item-extra-info {
-  display: none; }
-
+/*.c-product-tile__item-extra-info {
+  display:none;
+}*/
 .c-icon--unsaved-item, .c-icon--up-primary {
   margin-bottom: 10px; }
 
@@ -4549,7 +4549,7 @@ a.mm-outlet {
 .c-rating__reviews {
   position: relative;
   top: -13px;
-  font-size: 0.9em; }
+  font-size: 1.2em; }
 
 .c-rating__container {
   text-align: center; }
