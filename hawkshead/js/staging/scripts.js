@@ -16,6 +16,8 @@ requirejs(['jquery'], function( $ ) {
   //DONT ADD ANY JQUERY ABOVE HERE//
   ////////////////////////////////// 
 
+  jQuery('p.c-price__group:nth-child(1):contains("£")').next().addClass('nowPrice');
+
 /* Mobile Mega Menu Updates */
 
   jQuery(".s-main-menu .categories > li").click(function(){
