@@ -1042,6 +1042,16 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
     height: 100%;
   }
 
+  .s-main-menu .categories > li .menuMobileOnly a {
+    font-size: 16px;
+    border-bottom: 0;
+    z-index: 0;
+  }
+
+  .columnSubHead.menuDesktop{
+    display:none;
+  }
+
   
 }
 /* END */
