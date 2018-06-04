@@ -86,3 +86,79 @@ body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
 .catalog-category-view .c-product-tile__img-wrapper {
   margin-bottom: 10px;
 }
+
+/* PLP Updates Start*/
+
+.c-price__group {
+  display: inline-block;
+}
+
+.c-product-tile__title {
+  text-align: center;
+  color: #343334 !important;
+}
+
+.c-price.c-price--small {
+    color: #343334 !important;
+}
+
+.c-rating__reviews:after {
+  content: ' Reviews';
+}
+
+.c-rating__wrap--product-tile {
+  clear: both;
+}
+
+.c-price__strike {
+  padding-right: 5px;
+}
+
+.c-price--small {
+  text-align: center;
+}
+
+.c-rating__container {
+  -webkit-filter: grayscale(100%) brightness(20%)!important;
+  filter: grayscale(100%) brightness(20%) !important;
+}
+
+.c-product-tile__item-extra-info {
+  display:none;
+}
+
+.c-icon--unsaved-item, .c-icon--up-primary {
+  margin-bottom: 10px;
+}
+
+.c-price--small {
+  line-height: 3 !important;
+}
+
+.c-rating__reviews, .c-rating{
+  float: none !important;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.c-rating__reviews {
+    position: relative;
+    top: -13px;
+    font-size: 1.2em;
+}
+
+.c-rating__container{
+  text-align: center
+}
+
+.c-rating__container {
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.c-price__group:nth-child(1) .c-price__strike:empty {
+    display: none;
+}
+
+/* END */
