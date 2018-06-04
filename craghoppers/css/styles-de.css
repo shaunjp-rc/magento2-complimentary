@@ -6126,14 +6126,14 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 .catalog-category-view .c-product-tile__img-wrapper {
   margin-bottom: 10px; }
 
-
 /* PLP Updates Start*/
 .c-price__group {
   display: inline-block; }
 
 .c-product-tile__title {
   text-align: center;
-  color: #343334 !important; }
+  color: #343334 !important;
+  width: 100%; }
 
 .c-price.c-price--small {
   color: #343334 !important; }
@@ -6185,10 +6185,8 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
   display: none; }
 
 /* END */
-
 p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
-
 
 .c-product-size__link {
   font-weight: normal; }

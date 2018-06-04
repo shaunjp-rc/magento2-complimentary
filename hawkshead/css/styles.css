@@ -3213,7 +3213,8 @@ div#monVars.roundelhide {
 
 .c-product-tile__title {
   text-align: center;
-  color: #5f5f5e !important; }
+  color: #5f5f5e !important;
+  width: 100%; }
 
 .c-rating__reviews:after {
   content: ' Reviews'; }

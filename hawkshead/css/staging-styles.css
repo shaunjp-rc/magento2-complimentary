@@ -2673,14 +2673,14 @@ div#monVars.roundelhide {
 .catalog-category-view .c-product-tile__img-wrapper {
   margin-bottom: 10px; }
 
-
 /* PLP Updates Start*/
 .c-price__group {
   display: inline-block; }
 
 .c-product-tile__title {
   text-align: center;
-  color: #5f5f5e !important; }
+  color: #5f5f5e !important;
+  width: 100%; }
 
 .c-rating__reviews:after {
   content: ' Reviews'; }
@@ -2729,10 +2729,8 @@ div#monVars.roundelhide {
   display: none; }
 
 /* END */
-
 p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
-
 
 /* PDP styles */
 /* Related Categories */
