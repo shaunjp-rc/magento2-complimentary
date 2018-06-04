@@ -2310,6 +2310,68 @@ video::-webkit-media-controls {
   .sliderMobile {
     display: block; } }
 /* END */
+/* squarelovin styles */
+div#squarelovin-head-container,
+.squarelovin-branding {
+  display: none; }
+
+.pageSection {
+  display: flex;
+  flex-wrap: wrap; }
+
+section.pageSection.imageSocialFeed span {
+  width: 100%;
+  text-align: center; }
+
+section.pageSection.imageSocialFeed {
+  padding: 0 0.8%; }
+
+.imageSocialFeedHeader {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1; }
+
+.imageSocialFeedHeader:after {
+  content: '';
+  width: 100px;
+  height: 1px;
+  background: #343334;
+  display: block;
+  margin: 2% auto; }
+
+.imageSocialFeedInfo {
+  font-size: 16px;
+  margin-bottom: 2%; }
+
+.galleryButton {
+  border: 1px solid;
+  padding: 0.5% 4%;
+  margin: 1% auto 0; }
+
+.galleryButton:hover {
+  background: #000;
+  color: #fff; }
+
+ul.slides.fullWidthSlider__slidesList {
+  width: 100%; }
+
+.squarelovin-hover-just-name {
+  font-size: 25px !important;
+  margin-top: 50px !important; }
+
+.squarelovin-branding {
+  display: none !important; }
+
+@media only screen and (max-width: 700px) {
+  .pageSectionHome.pageSection--halves {
+    flex-wrap: unset; } }
+@media only screen and (max-width: 500px) {
+  .imageSocialFeedHeader {
+    font-size: 7vw; }
+
+  .imageSocialFeedInfo {
+    line-height: 1.5; } }
+/* squarelovin END */
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
@@ -5697,9 +5759,6 @@ p.category-view__description.category-description {
   .category-view__description + button {
     display: block !important; }
 
-  .category-view__description.active {
-    height: 50px; }
-
   .category-view__description + button {
     display: block;
     margin: 0 auto;
@@ -6014,9 +6073,16 @@ p.pl-text-social {
   display: none; }
 
 @media only screen and (max-width: 550px) {
-  .category-view__description.active {
+  p.category-view__description.active {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    max-height: 50px; }
+    max-width: 678px; }
+
+  p.category-view__description {
+    -webkit-line-clamp: 1000; }
 
   .category-view__description + button {
     border: 0;
@@ -6059,6 +6125,7 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 
 .catalog-category-view .c-product-tile__img-wrapper {
   margin-bottom: 10px; }
+
 
 /* PLP Updates Start*/
 .c-price__group {
@@ -6118,6 +6185,11 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
   display: none; }
 
 /* END */
+
+p.c-price__group.nowPrice span:before {
+  content: 'Now: '; }
+
+
 .c-product-size__link {
   font-weight: normal; }
 

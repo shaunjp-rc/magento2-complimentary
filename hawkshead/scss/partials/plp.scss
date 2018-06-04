@@ -90,6 +90,7 @@ div#monVars.roundelhide {
   margin-bottom: 10px;
 }
 
+
 /* PLP Updates Start*/
 
 .c-price__group {
@@ -161,3 +162,8 @@ div#monVars.roundelhide {
 }
 
 /* END */
+
+p.c-price__group.nowPrice span:before {
+  content: 'Now: ';
+}
+

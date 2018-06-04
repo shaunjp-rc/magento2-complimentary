@@ -2673,6 +2673,7 @@ div#monVars.roundelhide {
 .catalog-category-view .c-product-tile__img-wrapper {
   margin-bottom: 10px; }
 
+
 /* PLP Updates Start*/
 .c-price__group {
   display: inline-block; }
@@ -2728,6 +2729,11 @@ div#monVars.roundelhide {
   display: none; }
 
 /* END */
+
+p.c-price__group.nowPrice span:before {
+  content: 'Now: '; }
+
+
 /* PDP styles */
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
