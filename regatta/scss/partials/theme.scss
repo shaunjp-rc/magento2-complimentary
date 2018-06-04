@@ -1,4 +1,195 @@
 /*//////////////////////////*/
+/* New PLP theme            */
+/*//////////////////////////*/
+html .catalog-category-view {
+  .c-product-tile__img-wrapper + a {
+    color: #5f5f5e;
+    text-align: center;
+    display: block;
+  }
+
+  .c-product-tile__title {
+    color: inherit;
+  }
+
+  .c-price.c-price--small > p.c-price__group:first-child {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .c-price.c-price--small > p.c-price__group:last-child {
+    font-size: 18px;
+    text-align: center;
+    color: #D32526;
+    font-weight: bold;
+  }
+
+/*  .c-price.c-price--small > p.c-price__group:last-child:before {
+    content: "Now:";
+    font-weight: inherit;
+    font-size: inherit;
+  }*/
+
+  .c-price.c-price--small > p.c-price__group:last-child .c-price__final.u-color-highlight {
+    font-size: inherit;
+  }
+
+  .c-product-tile.u-heading-epsilon .c-product-tile__item-extra-info {
+    position: static;
+    background: #ececec !important;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 11px;
+    bottom: initial;
+    opacity: 1;
+    padding: 10px 5px;
+  }
+
+  .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+    margin: 0px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background: #6EB134;
+    border: #6EB134;
+    color: #ffffff;
+  }
+
+  .c-product-tile.u-heading-epsilon .c-product-tile__save {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+  }
+
+  .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
+    content: " Reviews";
+    color: #a7a7a7;
+  }
+
+  @media only screen and (max-width:1228px) {
+    .c-product-tile__title {
+      line-height: 18px;
+    }
+
+    .c-product-tile.u-heading-epsilon .c-rating__reviews::after {
+      display: none;
+    }
+
+  }
+
+  @media only screen and (max-width:989px) {
+    .c-rating__container {
+      -ms-transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      display: block;
+      height: 30px;
+      float: left;
+      margin-left: -20px;
+    }
+
+    .c-price.c-price--small > p.c-price__group:last-child {
+      text-align: left;
+    }
+
+    .c-price.c-price--small > p.c-price__group:first-child {
+      text-align: left;
+    }
+
+    .c-product-tile__img-wrapper + a {
+      text-align: left;
+    }
+
+  }
+
+  @media only screen and (max-width:770px) {
+    .c-price.c-price--small > p.c-price__group:first-child {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .c-price.c-price--small > p.c-price__group:last-child {
+      text-align: center;
+    }
+
+    .c-product-tile__img-wrapper + a {
+      text-align: center;
+    }
+
+    .c-rating__container {
+      -ms-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      margin: 0px;
+    }
+
+    .c-product-tile.u-heading-epsilon .c-product-tile__save {
+      bottom: 85px;
+    }
+
+    .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+      margin-top: 40px;
+    }
+
+    .c-page-wrapper {
+      padding: 0px 10px !important;
+    }
+
+    .c-rating__reviews {
+      color: #a7a7b3;
+    }
+
+    .u-flex-display.u-12\/12 .c-rating__reviews {
+      float: right;
+      position: absolute;
+      top: 0;
+      right: 10px;
+      color: #a7a7b3;
+    }
+
+    .u-flex-display.u-12\/12 .c-rating {
+      float: initial;
+      clear: none;
+      margin: auto;
+    }
+
+    /* Full width col 12 by 12 */
+    .u-flex-display.u-12\/12 {
+    }
+
+    .u-flex-display.u-12\/12 .c-product-tile__img-wrapper + a {
+      font-size: 17px;
+    }
+
+    .u-flex-display.u-12\/12  .c-rating__container {
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      position: relative;
+      width: 100%;
+      margin: auto;
+      max-width: calc(100% - 50px);
+      left: 0;
+      right: 0;
+      display: inline-block;
+      height: 40px;
+    }
+
+    .u-flex-display.u-12\/12  .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
+      display: inline-block;
+      float: none;
+      margin-left: 4px
+    }
+
+    .u-flex-display.u-12\/12  .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+      margin-top: 10px;
+    }
+
+  }
+
+}
+
+/*//////////////////////////*/
 /* Endcap Specials          */
 /*//////////////////////////*/
 
