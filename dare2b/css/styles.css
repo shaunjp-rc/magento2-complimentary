@@ -1049,6 +1049,10 @@ html .catalog-category-view {
     text-align: center;
     color: #D32526;
     font-weight: bold; }
+  html .catalog-category-view .c-product-tile.u-heading-epsilon .c-product-tile__save {
+    position: absolute;
+    right: 0px;
+    bottom: 90px; }
   html .catalog-category-view .c-price.c-price--small > p.c-price__group:last-child .c-price__final.u-color-highlight {
     font-size: inherit; }
   html .catalog-category-view .c-product-tile.u-heading-epsilon .c-product-tile__item-extra-info {
