@@ -6184,10 +6184,8 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
   display: none; }
 
 /* END */
-
 p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
-
 
 .c-product-size__link {
   font-weight: normal; }
