@@ -921,7 +921,7 @@ html .catalog-category-view {
     text-align: center;
     display: block; }
   html .catalog-category-view .c-product-tile__title {
-    color: inherit; }
+    color: #5f5f5e; }
   html .catalog-category-view .c-price.c-price--small > p.c-price__group:first-child {
     font-size: 12px;
     text-align: center; }
