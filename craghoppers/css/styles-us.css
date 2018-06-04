@@ -6060,6 +6060,9 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 .catalog-category-view .c-product-tile__img-wrapper {
   margin-bottom: 10px; }
 
+p.c-price__group.nowPrice span:before {
+  content: 'Now: '; }
+
 .c-product-size__link {
   font-weight: normal; }
 
