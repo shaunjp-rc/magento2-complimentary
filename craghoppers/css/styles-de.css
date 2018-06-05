@@ -6183,7 +6183,7 @@ html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews
 
 .c-price__group:nth-child(1) .c-price__strike:empty {
   display: none; }
-/* END */
+
 p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
 

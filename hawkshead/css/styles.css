@@ -674,7 +674,8 @@
     cursor: pointer;
     margin: 0;
     font-size: 14px;
-    color: #769fd0; }
+    color: #769fd0;
+    padding: 1% 0; }
 
   .column--footer {
     border-bottom: 1px solid #ddd;
