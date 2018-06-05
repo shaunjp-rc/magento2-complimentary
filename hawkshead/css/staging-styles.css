@@ -2736,6 +2736,9 @@ p.c-price__group.nowPrice span:before {
 .c-rating__wrap {
   padding-top: 8px; }
 
+.reviews-actions {
+  display: inline-block; }
+
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100% !important; }

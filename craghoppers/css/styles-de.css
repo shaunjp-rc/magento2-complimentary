@@ -6188,6 +6188,12 @@ p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
 
 /* END */
+.c-rating__wrap {
+  padding-top: 8px; }
+
+.reviews-actions {
+  display: inline-block; }
+
 .c-product-size__link {
   font-weight: normal; }
 
