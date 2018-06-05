@@ -505,6 +505,10 @@ requirejs(['jquery'], function( $ ) {
       $j("#column--shop").toggleClass("columnOpen");
       $j("#column--shop ul").toggleClass("isOpen");
     });
+    $j("#column--delivery").click(function(){
+      $j("#column--delivery").toggleClass("columnOpen");
+      $j("#column--delivery ul").toggleClass("isOpen");
+    });
 
   /* Contact us page - Form pop up */
     $j('.form_popup').click(function(){
