@@ -103,8 +103,8 @@ div#monVars.roundelhide {
   width:100%;
 }
 
-.c-rating__reviews:after {
-  content: ' Reviews';
+html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
+content: " Reviews";
 }
 
 .c-rating__wrap--product-tile {
@@ -162,9 +162,8 @@ div#monVars.roundelhide {
     display: none;
 }
 
-/* END */
-
 p.c-price__group.nowPrice span:before {
   content: 'Now: ';
 }
 
+/* END */

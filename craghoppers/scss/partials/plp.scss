@@ -113,8 +113,8 @@ body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
     color: #343334 !important;
 }
 
-.c-rating__reviews:after {
-  content: ' Reviews';
+html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
+content: " Reviews";
 }
 
 .c-rating__wrap--product-tile {
@@ -172,8 +172,8 @@ body .c-checkbox-option__input:checked~.c-checkbox-option__checkbox {
     display: none;
 }
 
-/* END */
 p.c-price__group.nowPrice span:before {
     content: 'Now: ';
 }
 
+/* END */
