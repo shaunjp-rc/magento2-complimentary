@@ -7162,6 +7162,9 @@ p.pl-text-social {
   .pl-third:nth-child(2) {
     margin: 3% 0 0 0; } }
 /* END */
+.c-product-tile .c-product-tile__btn {
+  display: none; }
+
 #tech-image-wrapper img {
   width: auto; }
 
