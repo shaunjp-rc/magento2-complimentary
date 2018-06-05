@@ -7242,13 +7242,14 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 
 .c-product-tile__title {
   text-align: center;
-  color: #343334 !important; }
+  color: #343334 !important;
+  width: 100%; }
 
 .c-price.c-price--small {
   color: #343334 !important; }
 
-.c-rating__reviews:after {
-  content: ' Reviews'; }
+html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
+  content: " Reviews"; }
 
 .c-rating__wrap--product-tile {
   clear: both; }

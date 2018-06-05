@@ -3319,10 +3319,11 @@ div#monVars.roundelhide {
 
 .c-product-tile__title {
   text-align: center;
-  color: #5f5f5e !important; }
+  color: #5f5f5e !important;
+  width: 100%; }
 
-.c-rating__reviews:after {
-  content: ' Reviews'; }
+html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
+  content: " Reviews"; }
 
 .c-rating__wrap--product-tile {
   clear: both; }
@@ -3367,11 +3368,14 @@ div#monVars.roundelhide {
 .c-price__group:nth-child(1) .c-price__strike:empty {
   display: none; }
 
-/* END */
 p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
 
+/* END */
 /* PDP styles */
+.c-rating__wrap {
+  padding-top: 8px; }
+
 /* Related Categories */
 body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
   width: 100% !important; }
