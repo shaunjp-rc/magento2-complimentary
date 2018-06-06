@@ -1399,50 +1399,50 @@ h2.customer-services-title {
 
 /* EMAIL UNSUBSCRIBE FORM */
 
-	.email-unsubscribe iframe {
-		width: 100%;
-    	min-height: 500px;
-    	overflow: visible;
-    	border: none;
-	}
+.email-unsubscribe iframe {
+	width: 100%;
+	min-height: 500px;
+	overflow: visible;
+	border: none;
+}
 
 /* END */
 
 
 /* ZOPIM EXTRA LINK */
 
-#zchat {
-  display: none;
+.zchat {
+	display: none;
 }
 
-#zchat.online {
-  display: block;
+.zchat.online {
+	display: block;
 }
 
-#zchat:before{
-  content: '';
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: red;
-  margin-right: 6px;
-  float: left;
-  position: relative;
-  top: 7px;
+.zchat:before{
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	margin-right: 6px;
+	float: left;
+	position: relative;
+	top: 7px;
 }
 
-#zchat.online:before{
-  content: '';
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: green;
-  margin-right: 6px;
-  float: left;
-  position: relative;
-  top: 7px;
+.zchat.online:before{
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: green;
+	margin-right: 6px;
+	float: left;
+	position: relative;
+	top: 7px;
 }
 
 /* END */

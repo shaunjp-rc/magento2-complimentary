@@ -3763,13 +3763,13 @@ h2.customer-services-title {
 
 /* END */
 /* ZOPIM EXTRA LINK */
-#zchat {
+.zchat {
   display: none; }
 
-#zchat.online {
+.zchat.online {
   display: block; }
 
-#zchat:before {
+.zchat:before {
   content: '';
   display: block;
   width: 10px;
@@ -3781,7 +3781,7 @@ h2.customer-services-title {
   position: relative;
   top: 7px; }
 
-#zchat.online:before {
+.zchat.online:before {
   content: '';
   display: block;
   width: 10px;
