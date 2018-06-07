@@ -217,11 +217,11 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(n+2){
 }
 
 .bannerOverlay__subTitle--slider {
-   font-size: 2vw;
    text-transform: uppercase;
    letter-spacing: 3px;
-
    font-weight: 300;
+   font-size: 42px; /*new was 2vw*/
+   padding: 0 28%; /*new*/
 }
 
 .bannerOverlay__text.bannerOverlay__text--slider {
@@ -887,13 +887,13 @@ p.deliveryBar__text {
 }
 
 .pageSection--halves .pageBanner {
-    width: 49%;
+    width: 49.5%; /*new was 49*/
     float: left;
     margin: 0;
 }
 
 .pageSection--halves .pageBanner:first-child {
-    margin: 0 2% 0 0;
+    margin: 0 1% 0 0; /*new was 2%*/
 }
 
 .pageSection--noTitle {
@@ -1135,6 +1135,7 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 /* SS18 Updates */
 .pageSectionHome.pageSection--halves {
     display: flex;
+    max-width: 100%; /*new*/
 }
 
 .pageSection:empty {
@@ -1333,7 +1334,10 @@ ul.slides.fullWidthSlider__slidesList {
 
 @media only screen and (max-width: 700px){
   .pageSectionHome.pageSection--halves {
-    flex-wrap: unset;
+    flex-wrap: wrap; /*new was unset*/
+  }
+  .pageSection--halves .pageBanner:first-child {
+    margin: 0 1% 0 0;/*new*/
   }
 }
 
@@ -1347,3 +1351,35 @@ ul.slides.fullWidthSlider__slidesList {
 }
 
 /* squarelovin END */
+
+
+/* ss18 homepage styles */
+
+.pageSection {
+    padding: 0 !important;
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+  .bannerOverlay__subTitle {
+    font-size: 26px;
+    padding: 0 16%;
+  }
+  .pageSection--halves .pageBanner:last-of-type {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .bannerOverlay__subTitle {
+    font-size: 18px;
+    padding: 0;
+  }
+  .pageSection--halves .pageBanner {
+    padding: 1% 0;
+    width: 100% !important;
+    float: none !important;
+  }
+}
+
+/* ss18 homepage END */
