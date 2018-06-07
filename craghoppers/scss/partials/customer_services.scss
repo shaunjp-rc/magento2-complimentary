@@ -982,10 +982,11 @@ a.cs-link {
 
 .csbottom-cta {
     font-size: 15px;
+    padding: 0 10%;
 }
 
 .csbottomleft {
-	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
 }
 
 .flex-item.col-6.csbottomcontainer {
@@ -1409,7 +1410,7 @@ h2.customer-services-title {
 /* END */
 
 
-/* ZOPIM EXTRA LINK */
+/* ZOPIM EXTRA LINK GENERIC*/
 
 .zchat {
 	display: none;
@@ -1443,6 +1444,65 @@ h2.customer-services-title {
 	float: left;
 	position: relative;
 	top: 7px;
+}
+
+/* END */
+
+/* ZOPIM EXTRA LINK ON CUSTOMER SERVICE PAGE*/
+
+.flex-item.col-4.csbottomcontainer.zchat:before,
+.flex-item.col-4.csbottomcontainer.zchat.online:before {
+    display: none
+}
+
+.flex-item.col-4.csbottomcontainer.zchat.online {
+    width: 100%;
+}
+
+.flex-item.col-4.csbottomcontainer.zchat {
+  display: none;
+}
+
+.flex-item.col-4.csbottomcontainer.zchat.online {
+  display: block;
+}
+
+.csbottom {
+    color: #343334;
+}
+
+.bottom-3 {
+    display: table;
+    padding: 6% 0;
+    width: 100%;
+}
+
+.csbottomcontainer {
+    vertical-align: top;
+    display: table-cell;
+}
+
+.csbottomright {
+    border-right: 1px solid #ddd;
+}
+
+.csbottomcontainer {
+    padding: 0 1%;
+}
+
+@media screen and (max-width: 400px) {
+	.flex-item.col-4.csbottomcontainer {
+	    width: 33.3%;
+	}
+
+	.csbottom-title {
+	    font-size: 16px;
+	    line-height: 140%;
+	    padding-bottom: 6%;
+	}
+	.csbottomcontainer {
+    	padding: 0 0.5%;
+	}
 }
 
 /* END */
