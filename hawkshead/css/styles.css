@@ -745,6 +745,15 @@
 .bannercontainer.camping {
   background-image: url(https://cdn.hawkshead.com/img/SS17/uk/cat/banners_top_level/camping-topbanner.jpg); }
 
+.bannercontainer.dare2b {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/uk/cat/banners_top_level/Dare2B-TopLevelCat.jpg); }
+
+.bannercontainer.regatta {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/uk/cat/banners_top_level/Regatta-TopLevelCat.jpg); }
+
+.bannercontainer.craghoppers {
+  background-image: url(https://cdn.hawkshead.com/img/SS18/uk/cat/banners_top_level/Craghoppers-TopLevelCat.jpg); }
+
 .pageintro p {
   margin-bottom: 1%; }
 
