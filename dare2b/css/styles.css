@@ -1027,6 +1027,20 @@ html .mt_animate {
     padding-left: 20%; } }
 /* Partials */
 /*//////////////////////////////*/
+/*  Checkout Success            */
+/*//////////////////////////////*/
+.checkout-onepage-success #wrapper > #content {
+  text-align: center; }
+
+.checkout-onepage-success #wrapper > #content h1.u-heading-beta.page-title:before {
+  content: "";
+  background: url("https://cdn.dare2b.com/images/global/tick.svg");
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto auto 20px auto; }
+
+/*//////////////////////////////*/
 /*  Product Page fabrics        */
 /*//////////////////////////////*/
 #tech-image-wrapper > div {
