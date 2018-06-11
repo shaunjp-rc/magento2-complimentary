@@ -908,6 +908,16 @@ html .mt_animate {
 
 /* Partials */
 /*//////////////////////////////*/
+/*  Product Page fabrics        */
+/*//////////////////////////////*/
+#tech-image-wrapper > div {
+  max-width: 140px; }
+
+#tech-image-wrapper > div > img {
+  width: 100%;
+  height: auto; }
+
+/*//////////////////////////////*/
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
 html .catalog-category-view {
