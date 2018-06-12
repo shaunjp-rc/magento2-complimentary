@@ -3303,8 +3303,7 @@ a.c-product-size__size-guide-link:hover {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    overflow: hidden;
-    max-width: 678px; }
+    overflow: hidden; }
   .catalog-category-view .s-text-banner.active.open {
     -webkit-line-clamp: 1000; }
   .catalog-category-view .lower-seobttn-container .readmore {
@@ -3316,7 +3315,8 @@ a.c-product-size__size-guide-link:hover {
     color: #fff;
     padding: 3px 20px;
     margin: 0% auto;
-    margin-bottom: 1%; }
+    margin-bottom: 1%;
+    cursor: pointer; }
 
 @media only screen and (max-width: 550px) {
   .catalog-category-view .banner__text.active {
