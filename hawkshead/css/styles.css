@@ -3299,8 +3299,16 @@ a.c-product-size__size-guide-link:hover {
 
 @media only screen and (max-width: 550px) {
   .catalog-category-view .banner__text.active {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    max-height: 50px; }
+    max-width: 678px; }
+  .catalog-category-view .banner__title,
+  .catalog-category-view .banner__text,
+  .catalog-category-view .s-text-banner p {
+    padding: 0 2%; }
   .catalog-category-view .banner__text + button {
     display: block;
     background: #769fd0;
