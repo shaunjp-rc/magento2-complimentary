@@ -15,6 +15,19 @@ function untickTrigger(){
 /*///////// Badge & Promo Behaviour ////////*/
 
 function rlBadge(){
+  
+  var query = "[name='monVar_promotion']";
+
+  // product listing page
+  if(document.querySelectorAll(query).length && document.querySelectorAll('.search-index-index').length){
+    Array.from(document.querySelectorAll(query)).forEach(function(item){
+      if(item.value.length){
+        var className = item.value.replace(/\s+/g, '-').replace(/\u00A3/g, '');
+        item.parentNode.innerHTML += "<span class='" + className + " mon-badge'>" + item.value + "</span>"
+      }
+    });
+  }
+
 
   var query = "[name='monVar_promotion']";
 
