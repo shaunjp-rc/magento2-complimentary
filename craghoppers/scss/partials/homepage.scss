@@ -1169,6 +1169,9 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 .pageSection__title--Seo {
   padding-top: 1.2vw;
   font-family: $crimreg;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 1vw;
 }
 
 .returningcustomer {
@@ -1292,15 +1295,7 @@ section.pageSection.imageSocialFeed {
   font-family: $crimreg;
   font-size: 30px;
   line-height: 1;
-}
-
-.imageSocialFeedHeader:after {
-  content: '';
-  width: 100px;
-  height: 1px;
-  background: #343334;
-  display: block;
-  margin: 2% auto;
+  margin-bottom: 1%;
 }
 
 .imageSocialFeedInfo {
