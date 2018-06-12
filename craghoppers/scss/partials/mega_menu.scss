@@ -774,7 +774,7 @@ a.mm-outlet {
   }
 
 
-  h2.columnHead.columnEnabled.active:before{
+  span.columnHead.columnEnabled.active:before{
     animation-name: arrowSpin;
     animation-duration: 1s;
     animation-fill-mode: forwards;
