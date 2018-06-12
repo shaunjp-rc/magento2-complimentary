@@ -3294,48 +3294,58 @@ a.c-product-size__size-guide-link:hover {
   color: #5f5f5e !important; }
 
 /* Mobile SEO show/hide */
-.catalog-category-view .banner__text + button {
-  display: none; }
+.catalog-category-view {
+  /* Lower SEO */ }
+  .catalog-category-view .banner__text + button {
+    display: none; }
+  .catalog-category-view .s-text-banner.active {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 678px; }
+  .catalog-category-view .s-text-banner.active.open {
+    -webkit-line-clamp: 1000; }
+  .catalog-category-view .lower-seobttn-container .readmore {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    background: #769fd0;
+    border: 0;
+    color: #fff;
+    padding: 3px 20px;
+    margin: 0% auto;
+    margin-bottom: 1%; }
 
 @media only screen and (max-width: 550px) {
-  .catalog-category-view {
-    /* Lower SEO */ }
-    .catalog-category-view .banner__text.active {
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      max-width: 678px; }
-    .catalog-category-view .banner__title,
-    .catalog-category-view .banner__text,
-    .catalog-category-view .s-text-banner p {
-      padding: 0 2%; }
-    .catalog-category-view .banner__text + button {
-      display: block;
-      background: #769fd0;
-      border: 0;
-      color: #fff;
-      padding: 3px 20px;
-      margin: 0 auto; }
-    .catalog-category-view .s-text-banner.active {
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      max-width: 678px; }
-    .catalog-category-view .s-text-banner.active.open {
-      -webkit-line-clamp: 1000; }
-    .catalog-category-view .lower-seobttn-container .readmore {
-      width: 100%;
-      max-width: 150px;
-      text-align: center;
-      background: #769fd0;
-      border: 0;
-      color: #fff;
-      padding: 3px 20px;
-      margin: 2% auto; } }
+  .catalog-category-view .banner__text.active {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 678px; }
+  .catalog-category-view .banner__title,
+  .catalog-category-view .banner__text,
+  .catalog-category-view .s-text-banner p {
+    padding: 0 2%; }
+  .catalog-category-view .banner__text + button {
+    display: block;
+    background: #769fd0;
+    border: 0;
+    color: #fff;
+    padding: 3px 20px;
+    margin: 0 auto; }
+  .catalog-category-view .lower-seobttn-container .readmore {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    background: #769fd0;
+    border: 0;
+    color: #fff;
+    padding: 3px 20px;
+    margin: 2% auto; } }
 /* END */
 /* roundel removal on plp */
 div#monVars.roundelhide {
