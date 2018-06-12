@@ -77,6 +77,31 @@
         margin:0 auto;
     }
 
+    /* Lower SEO */
+    .s-text-banner.active {
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-width: 678px;
+    }
+
+    .s-text-banner.active.open {
+      -webkit-line-clamp: 1000;
+    }
+
+    .lower-seobttn-container .readmore {
+      width: 100%;
+      max-width: 150px;
+      text-align: center;
+      background: #769fd0;
+      border: 0;
+      color: #fff;
+      padding: 3px 20px;
+      margin: 2% auto;
+    }
+
   }
 
 }
