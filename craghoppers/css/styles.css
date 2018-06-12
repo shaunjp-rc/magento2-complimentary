@@ -2252,7 +2252,10 @@ ul.fullWidthSlider__slidesList {
 
 .pageSection__title--Seo {
   padding-top: 1.2vw;
-  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 1vw; }
 
 .returningcustomer {
   display: flex; }
@@ -2348,15 +2351,8 @@ section.pageSection.imageSocialFeed {
 .imageSocialFeedHeader {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 30px;
-  line-height: 1; }
-
-.imageSocialFeedHeader:after {
-  content: '';
-  width: 100px;
-  height: 1px;
-  background: #343334;
-  display: block;
-  margin: 2% auto; }
+  line-height: 1;
+  margin-bottom: 1%; }
 
 .imageSocialFeedInfo {
   font-size: 16px;
