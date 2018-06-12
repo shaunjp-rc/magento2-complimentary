@@ -1362,8 +1362,20 @@ a.c-store-list__details {
 ul.follow-us {
   padding-top: 15px; }
 
+.footerHeader {
+  display: block; }
+
+.footerHeaderMobile {
+  display: none; }
+
 @media only screen and (max-width: 740px) {
   .column.column--footer h4.active + ul.active {
+    display: block; }
+
+  .footerHeader {
+    display: none; }
+
+  .footerHeaderMobile {
     display: block; } }
 /* END */
 /* REGISTER GUARANTEE FORM */
