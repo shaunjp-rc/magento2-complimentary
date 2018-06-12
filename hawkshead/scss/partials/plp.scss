@@ -54,8 +54,18 @@
 @media only screen and (max-width:550px){
   .catalog-category-view{
     .banner__text.active {
-        overflow: hidden;
-        max-height: 50px;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-width: 678px;
+    }
+
+    .banner__title,
+    .banner__text,
+    .s-text-banner p {
+      padding: 0 2%;
     }
 
     .banner__text + button {
