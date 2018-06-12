@@ -7524,7 +7524,11 @@ a.mm-outlet {
 
   .columnHead {
     padding: 15px 0 15px 20px;
-    margin: 0; }
+    margin: 0;
+    display: block; }
+
+  .s-main-menu .categories > li .menuMobileOnly a.menuOutletHead {
+    padding-left: 0 !important; }
 
   .category-items.ui-menu-item.sectionActive {
     padding-top: 0 !important; }
