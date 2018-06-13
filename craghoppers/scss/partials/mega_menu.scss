@@ -736,6 +736,10 @@ a.mm-outlet {
   .category-items.ui-menu-item.sectionActive {
     padding-top: 0 !important;
   }
+
+  .s-main-menu .block .category-items .menuSection {
+    text-align: left;
+  }
   
   h2.columnHead.columnEnabled.active {
     background: #CCCCCC;
