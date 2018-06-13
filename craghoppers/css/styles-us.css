@@ -7363,7 +7363,8 @@ a.mm-outlet {
 /* End */
 /* Mobile Menu */
 .menuSection {
-  width: 20% !important; }
+  width: 20% !important;
+  text-align: left; }
 
 .menuSection.menuCollection {
   width: 60% !important; }
@@ -7532,9 +7533,6 @@ a.mm-outlet {
 
   .category-items.ui-menu-item.sectionActive {
     padding-top: 0 !important; }
-
-  .s-main-menu .block .category-items .menuSection {
-    text-align: left; }
 
   h2.columnHead.columnEnabled.active {
     background: #CCCCCC;
