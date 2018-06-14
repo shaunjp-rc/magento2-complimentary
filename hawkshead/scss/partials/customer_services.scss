@@ -625,3 +625,183 @@ iframe.unsubscribe {
     }
 
 /* END */
+
+
+
+/* CUSTOMER SERVICE PAGES START */
+
+.cms-contact-us .c-breadcrumbs {
+    display: none;
+}
+
+.cms-contact-us .columns .o-region__inner{
+    width: 100%;
+ }
+
+.customerservice-new {
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+.cs-header {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 270px;
+    margin: auto;
+    margin-bottom: 3%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cs-header-title {
+    color: #000;
+    padding-top: 4%;
+    font-size: 55px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Lato-Light", sans-serif;
+    font-weight: normal !important;
+}
+
+.cs-header-title-white {
+    color: #fff !important; 
+}
+
+.cs-header-line {
+    text-align: left;
+    margin: 0 0 3% 0;
+    border-top: 1px solid #ddd;
+}
+
+.cs-return-link {
+    text-align: left;
+    padding-bottom: 2%;
+    color: #5f5f5e !important;
+}
+
+.cs-link {
+    color: #5f5f5e;
+    text-decoration: underline;
+}
+
+.cs-address {
+    list-style: none;
+    line-height: 22px;
+    font-size: initial;
+}
+
+.contact__card {
+    padding-bottom: 1%;
+    border-bottom: none !important;
+    margin-bottom: 2%;
+}
+
+.cs-copy-main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cs-main {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-1.jpg);
+    margin-bottom: 7% !important;
+}
+
+.cs-sizing-guide {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-2.jpg);
+}
+
+.cs-email-sign-up {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-3.jpg);
+}
+
+.cs-contact-us {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-4.jpg);
+}
+
+.cs-brand-guarantees {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-5.jpg);
+}
+
+.cs-delivery-information {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-6.jpg);
+}
+
+.cs-returns-information {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-7.jpg);
+}
+
+.cs-cancellations {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-8.jpg);
+}
+
+.cs-cookie-policy {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-9.jpg);
+}
+
+.cs-privacy-policy {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-10.jpg);
+}
+
+.cs-terms-and-conditons {
+    background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-11.jpg);
+}
+
+@media screen and (max-width:1000px) {
+    .cms-contact-us .o-region__inner.column.main {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cs-main {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-1.jpg);
+    }
+
+    .cs-sizing-guide {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-2.jpg);
+    }
+
+    .cs-email-sign-up {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-3.jpg);
+    }
+
+    .cs-contact-us {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-4.jpg);
+    }
+
+    .cs-brand-guarantees {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-5.jpg);
+    }
+
+    .cs-delivery-information {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-6.jpg);
+    }
+
+    .cs-returns-information {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-7.jpg);
+    }
+
+    .cs-cancellations {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-8.jpg);
+    }
+
+    .cs-cookie-policy {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-9.jpg);
+    }
+
+    .cs-privacy-policy {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-10.jpg);
+    }
+
+    .cs-terms-and-conditons {
+        background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-11.jpg);
+    }
+}
+
+/* CUSTOMER SERVICE PAGES END */
