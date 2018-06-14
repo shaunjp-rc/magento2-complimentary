@@ -3289,7 +3289,7 @@ a.c-product-size__size-guide-link:hover {
   .s-main-menu .categories > li .mobileItems a:before {
     background: transparent !important; }
 
-  .mobileItems h2 {
+  .mobileItems span {
     text-decoration: underline; } }
 /* END */
 .c-product-tile .c-product-tile__btn {
