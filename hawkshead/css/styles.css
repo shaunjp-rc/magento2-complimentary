@@ -2166,11 +2166,43 @@ iframe.unsubscribe {
 
 /* END */
 /* CUSTOMER SERVICE PAGES START */
-.cms-contact-us .c-breadcrumbs {
+.cms-contact-us .c-breadcrumbs,
+.cms-email-signup-form .c-breadcrumbs,
+.cms-sizing .c-breadcrumbs,
+.our-brand-guarantees .c-breadcrumbs {
   display: none; }
 
-.cms-contact-us .columns .o-region__inner {
+.cms-contact-us .columns .o-region__inner,
+.cms-email-signup-form .columns .o-region__inner,
+.cms-sizing .columns .o-region__inner,
+.our-brand-guarantees .columns .o-region__inner {
   width: 100%; }
+
+.customerservice-new h2[data-action="toggle"]:hover {
+  background: none; }
+
+.customerservice-new h2[data-action="toggle"] {
+  border: none;
+  border-top: 1px solid #ddd;
+  color: #333;
+  border-radius: none;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 3% 0 0 0; }
+
+.customerservice-new h2[data-action="toggle"]::after {
+  top: 60%; }
+
+.customerservice-new .toggle-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease 0.5s; }
+
+.customerservice-new .toggle-content.active {
+  opacity: 1;
+  max-height: 2000px;
+  transition: all ease 0.5s; }
 
 .customerservice-new {
   max-width: 50%;
@@ -2213,9 +2245,9 @@ iframe.unsubscribe {
   padding-bottom: 2%;
   color: #5f5f5e !important; }
 
-.cs-link {
-  color: #5f5f5e;
-  text-decoration: underline; }
+a.cs-link {
+  color: #5f5f5e !important;
+  text-decoration: underline !important; }
 
 .cs-address {
   list-style: none;
@@ -2266,9 +2298,21 @@ iframe.unsubscribe {
   background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-11.jpg); }
 
 @media screen and (max-width: 1000px) {
-  .cms-contact-us .o-region__inner.column.main {
+  .cms-contact-us .o-region__inner.column.main,
+  .cms-email-signup-form .o-region__inner.column.main,
+  .cms-sizing .o-region__inner.column.main,
+  .our-brand-guarantees .o-region__inner.column.main {
     width: 100% !important; } }
 @media screen and (max-width: 600px) {
+  .cs-header {
+    max-width: 600px;
+    min-height: auto; }
+
+  .cs-header-title {
+    padding-top: 13%;
+    font-size: 24px;
+    min-height: 150px; }
+
   .cs-main {
     background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-1.jpg); }
 
@@ -2301,6 +2345,30 @@ iframe.unsubscribe {
 
   .cs-terms-and-conditons {
     background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Mobile-Banner-11.jpg); } }
+@media screen and (max-width: 500px) {
+  .customerservice-new {
+    max-width: 95%; }
+
+  .cs-main {
+    font-size: 18px !important; }
+
+  .flex-item.col-6.csbottomcontainer {
+    width: 49.86%; }
+
+  .csbottom-cta {
+    font-size: 13px;
+    padding: 0 10%;
+    line-height: 18px; }
+
+  .csborder {
+    margin: 6% 0 0% 0; }
+
+  .flex-item.col-6.option-btn-small {
+    max-width: 100% !important;
+    margin: auto; }
+
+  .customerservice-new h2[data-action="toggle"]::after {
+    top: 50%; } }
 /* CUSTOMER SERVICE PAGES END */
 .collection__wrapper {
   display: inline-block;
