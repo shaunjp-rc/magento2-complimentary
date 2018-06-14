@@ -2742,7 +2742,9 @@ a.c-product-size__size-guide-link:hover {
 /* SS18 Updates */
 .columnHead {
   text-align: left;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  color: #5f5f5e;
+  font-size: 18px; }
 
 .collection-moutdoor {
   background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/OutdoorLifestyle-Mens-270x140.jpg); }
@@ -2794,7 +2796,8 @@ a.c-product-size__size-guide-link:hover {
 
 /* Mobile Menu */
 .menuSection {
-  width: 17% !important; }
+  width: 17% !important;
+  text-align: left; }
 
 .menuSection.menuCollection {
   width: 49% !important; }
@@ -2965,7 +2968,9 @@ a.c-product-size__size-guide-link:hover {
 
   .columnHead {
     padding: 15px 0 15px 20px;
-    margin: 0; }
+    margin: 0;
+    width: 100%;
+    display: block; }
 
   .category-items.ui-menu-item.sectionActive {
     padding-top: 0 !important; }
@@ -2974,7 +2979,7 @@ a.c-product-size__size-guide-link:hover {
   .genderheader-sale {
     padding-left: 20px; }
 
-  h2.columnHead.columnEnabled.active {
+  span.columnHead.columnEnabled.active {
     background: #e3e3e3;
     padding: 15px 0 15px 20px;
     margin-top: 0; }
@@ -3015,7 +3020,7 @@ a.c-product-size__size-guide-link:hover {
     animation-fill-mode: forwards;
     right: 20px; }
 
-  h2.columnHead.columnEnabled.active:before {
+  span.columnHead.columnEnabled.active:before {
     animation-name: arrowSpin;
     animation-duration: 1s;
     animation-fill-mode: forwards;
