@@ -845,3 +845,41 @@ div#footer ~ iframe {
     top: -999px;
 }
 /* END */
+
+/* Cookie Policy Bar */
+#notice-cookie-block .content {
+    background: rgba(252, 138, 129, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    padding: 10px;
+    bottom:0;
+}
+
+#notice-cookie-block .content > p {
+    font-size: 0px;
+    margin: 0px;
+}
+
+#notice-cookie-block .content a {
+    margin-top: -10px;
+    line-height: 17px;
+}
+
+#notice-cookie-block .content * {
+    display: inline-block;
+    color: #ffffff;
+}
+
+#notice-cookie-block a:after {
+    content: "Hawkshead use cookies to ensure that we give you the best experience on our website. Learn more about our cookies here.";
+    font-size: 15px;
+    display: block;
+}
+
+button#btn-cookie-allow {
+    background: transparent;
+    border: 1px solid;
+}
+/* END Cookie Policy Bar */
