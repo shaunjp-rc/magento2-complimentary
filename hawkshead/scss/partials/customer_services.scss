@@ -661,11 +661,15 @@ iframe.unsubscribe {
 .customerservice-new h2[data-action="toggle"] {
     border: none;
     border-top: 1px solid #ddd;
-    color: #333;
+    color: #5f5f5e;
     border-radius: none;
     box-shadow: none;
     cursor: pointer;
     padding: 3% 0 0 0;
+}
+
+*[data-action="toggle"]::after {
+    border-color: #5f5f5e transparent transparent transparent !important;
 }
 
 .customerservice-new h2[data-action="toggle"]::after {
@@ -752,6 +756,29 @@ a.cs-link {
 .cs-copy-main {
     max-width: 1000px;
     margin: auto;
+}
+
+.csbottom {
+    text-align: center;
+    padding: 3%;
+    color: #5f5f5e;
+}
+
+.csbottom-img{
+    padding-bottom: 3%;
+}
+
+.csbottom-title {
+    font-size: 18px;
+}
+
+.csbottom-cta {
+    font-size: 15px;
+    padding: 0 10%;
+}
+
+.csbottomleft {
+    border-left: 1px solid #ddd;
 }
 
 .cs-main {
