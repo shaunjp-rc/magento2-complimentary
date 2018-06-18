@@ -20,10 +20,6 @@
 	border-color: #9e9e9e;
 }
 
-.c-product-tile__title {
-    line-height: 1.4;
-}
-
 .c-product-details .product-info-stock-sku .value {
 	color: #5f5f5e;
 }
@@ -152,6 +148,7 @@ div#monVars.roundelhide {
   text-align: center;
   color: #5f5f5e !important;
   width:100%;
+  line-height: 1.4;
 }
 
 html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
@@ -184,7 +181,7 @@ content: " Reviews";
 }
 
 .c-price--small {
-  line-height: 3 !important;
+  line-height: 1 !important;
 }
 
 .c-rating__reviews, .c-rating{
