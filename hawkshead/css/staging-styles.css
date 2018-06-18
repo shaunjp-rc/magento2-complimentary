@@ -2326,6 +2326,30 @@ a.cs-link {
 .csbottomleft {
   border-left: 1px solid #ddd; }
 
+.csbtn:hover {
+  background: #ddd;
+  text-decoration: none; }
+
+.csbtn {
+  color: #5f5f5e;
+  font-size: 18px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: solid #ddd 1px;
+  text-decoration: none;
+  text-align: center; }
+
+.option-btn {
+  padding-bottom: 1.5%; }
+
+.csborder {
+  text-align: center;
+  margin: 10% 0 0% 0;
+  border-top: 1px solid #ddd; }
+
+.bottom-3 {
+  padding: 6% 0; }
+
 .cs-main {
   background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-1.jpg);
   margin-bottom: 7% !important; }
@@ -2361,6 +2385,16 @@ a.cs-link {
   background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/customer-services/Banner-11.jpg); }
 
 @media screen and (max-width: 1000px) {
+  .customerservice-new {
+    max-width: 90%; }
+
+  .csborder {
+    margin: 5% 0 0% 0; }
+
+  .cs-header-title {
+    padding-top: 11%;
+    font-size: 44px; } }
+@media screen and (max-width: 600px) {
   .cms-contact-us .o-region__inner.column.main,
   .cms-email-signup-form .o-region__inner.column.main,
   .cms-sizing .o-region__inner.column.main,
@@ -2370,8 +2404,8 @@ a.cs-link {
   .cms-cookie-policy .o-region__inner.column.main,
   .cms-privacy-policy .o-region__inner.column.main,
   .cms-terms .o-region__inner.column.main {
-    width: 100% !important; } }
-@media screen and (max-width: 600px) {
+    width: 100% !important; }
+
   .cs-header {
     max-width: 600px;
     min-height: auto; }
