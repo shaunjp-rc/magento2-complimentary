@@ -866,6 +866,12 @@ a.cs-link {
     }
 }
 
+@media screen and (max-width: 740px) {
+    .flex-item.col-4.csbottomcontainer {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width:600px) {
     .cms-contact-us .o-region__inner.column.main,
     .cms-email-signup-form .o-region__inner.column.main,
@@ -878,7 +884,7 @@ a.cs-link {
     .cms-terms .o-region__inner.column.main {
         width: 100% !important;
     }
-    
+
     .cs-header {
         max-width: 600px;
         min-height: auto;
