@@ -633,24 +633,24 @@ iframe.unsubscribe {
 .cms-contact-us .c-breadcrumbs,
 .cms-email-signup-form .c-breadcrumbs,
 .cms-sizing .c-breadcrumbs,
-.our-brand-guarantees .c-breadcrumbs, 
-.delivery-and-returns .c-breadcrumbs, 
-.cancellation-form .c-breadcrumbs, 
-.cookie-policy .c-breadcrumbs, 
-.privacy-policy .c-breadcrumbs, 
-.terms .c-breadcrumbs {
+.cms-our-brand-guarantees .c-breadcrumbs, 
+.cms-delivery-and-returns .c-breadcrumbs, 
+.cms-cancellation-form .c-breadcrumbs, 
+.cms-cookie-policy .c-breadcrumbs, 
+.cms-privacy-policy .c-breadcrumbs, 
+.cms-terms .c-breadcrumbs {
     display: none;
 }
 
 .cms-contact-us .columns .o-region__inner,
 .cms-email-signup-form .columns .o-region__inner,
 .cms-sizing .columns .o-region__inner,
-.our-brand-guarantees .columns .o-region__inner,
-.delivery-and-returns .columns .o-region__inner, 
-.cancellation-form .columns .o-region__inner,
-.cookie-policy .columns .o-region__inner,
-.privacy-policy .columns .o-region__inner,
-.terms .columns .o-region__inner {
+.cms-our-brand-guarantees .columns .o-region__inner,
+.cms-delivery-and-returns .columns .o-region__inner, 
+.cms-cancellation-form .columns .o-region__inner,
+.cms-cookie-policy .columns .o-region__inner,
+.cms-privacy-policy .columns .o-region__inner,
+.cms-terms .columns .o-region__inner {
     width: 100%;
  }
 
@@ -803,12 +803,12 @@ a.cs-link {
     .cms-contact-us .o-region__inner.column.main,
     .cms-email-signup-form .o-region__inner.column.main,
     .cms-sizing .o-region__inner.column.main,
-    .our-brand-guarantees .o-region__inner.column.main,
-    .delivery-and-returns .o-region__inner.column.main,
-    .cancellation-form .o-region__inner.column.main,
-    .cookie-policy .o-region__inner.column.main,
-    .privacy-policy .o-region__inner.column.main,
-    .terms .o-region__inner.column.main {
+    .cms-our-brand-guarantees .o-region__inner.column.main,
+    .cms-delivery-and-returns .o-region__inner.column.main,
+    .cms-cancellation-form .o-region__inner.column.main,
+    .cms-cookie-policy .o-region__inner.column.main,
+    .cms-privacy-policy .o-region__inner.column.main,
+    .cms-terms .o-region__inner.column.main {
         width: 100% !important;
     }
 }
